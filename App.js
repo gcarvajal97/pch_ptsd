@@ -7,7 +7,9 @@ export default function App() {
       <Text>
         Hello, Group 16! {"\n\n"}
         We are up and running! {"\n\n"}
-        ...on Android at least. Ha
+        ...on Android at least. Ha{"\n\n"}
+        Can confirm on iOS as well {"\n\n"}
+        ...at least on an iPhone 8 S. Woo!{"\n\n"}
       </Text>
     </View>
   );
