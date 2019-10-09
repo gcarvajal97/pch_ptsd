@@ -1,24 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createAppContainer } from 'react-navigation';
 
-export default function App() {
+import MainScreen from './screens/MainScreen';
+import TestScreen from './screens/TestScreen';
+
+ export default class App extends React.Component {
+   render() {
   return (
-    <View style={styles.container}>
-      <Text>
-        Hello, Group 16! {"\n\n"}
-        We are up and running! {"\n\n"}
-        ...on Android at least. Ha{"\n\n"}
-        Can confirm on iOS as well {"\n\n"}
-        ...at least on an iPhone 8 S. Woo!{"\n\n"}
-      </Text>
-    </View>
+    <Apps />
   );
+   }
 }
+
+const NavigationBar = createStackNavigator({
+  Home: MainScreen,
+  Test: TestScreen
+});
+
+const Apps = createAppContainer(NavigationBar)
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'pink',
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center'
