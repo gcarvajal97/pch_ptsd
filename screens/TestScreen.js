@@ -8,12 +8,14 @@ import {
 
 class TestScreen extends Component {
 
+    // Gives the NavBar a title for this specific screen
     static navigationOptions = {
         headerTitle: 'Test Screen'
     }
 
     render() {
         return (
+            // Just a simple page to show the NavBar is working
             <View style={styles.container}>
                 <Text>
                     This is a test screen{'\n'}
