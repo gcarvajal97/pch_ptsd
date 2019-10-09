@@ -10,7 +10,7 @@ import TestScreen from './screens/TestScreen';
 
 // Screen/View information has been moved to it's own file (MainScreen.js and TestScreen.js)
 // Now App class just calls the NavBar container
-// This will control the flow of our app and keep our main file here from becoming too lage
+// This will control the flow of our app and keep our main file here from becoming too large
  export default class App extends React.Component {
    render() {
   return (
