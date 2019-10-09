@@ -1,16 +1,22 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  StyleSheet, 
+  Text, 
+  View,
+  Button,
+  Alert,
+  Dimensions,
+} from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>
-        Hello, Group 16! {"\n\n"}
-        We are up and running! {"\n\n"}
-        ...on Android at least. Ha{"\n\n"}
-        Can confirm on iOS as well {"\n\n"}
-        ...at least on an iPhone 8 S. Woo!{"\n\n"}
-      </Text>
+      <View style={styles.buttonBox}/>
+      <Button
+          title="Learn About Trauma and Injury"
+          onPress={() => Alert.alert('Simple Button pressed')}
+          style={[styles.button]}
+        />
     </View>
   );
 }
@@ -23,4 +29,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     textAlign: 'center'
   },
+  button: {
+    color: "#5d99c6",
+    width: '90%',
+  },
+  buttonBox: {
+    width: '90%',
+    height: '20%',
+    backgroundColor: '#90caf9',
+    borderColor: '#c4110e',
+    borderRadius:10,
+  }
 });
