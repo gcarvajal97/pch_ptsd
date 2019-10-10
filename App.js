@@ -10,6 +10,8 @@ export default function App() {
         ...on Android at least. Ha{"\n\n"}
         Can confirm on iOS as well {"\n\n"}
         ...at least on an iPhone 8 S. Woo!{"\n\n"}
+        ...also on iPhone 11 Pro Max{"\n\n"}
+        ...and Pixel 3!{"\n\n"}
       </Text>
     </View>
   );
