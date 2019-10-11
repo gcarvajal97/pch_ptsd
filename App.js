@@ -1,7 +1,10 @@
 import React from 'react';
 import {
-  StackNavigator,
+  createAppContainer,
 } from 'react-navigation';
+import {
+  createStackNavigator
+} from 'react-navigation-stack'
 import {
   StyleSheet, 
   View,
@@ -13,25 +16,35 @@ import {
 //TODO set up MVC so button press goes to new (empty) page
 //TODO fix alignment of button and icon
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <View style={styles.buttonBox}>
-        <Image
-          style={styles.image}
-          source={require('./assets/healing_white_48dp_2x.png')}
-          accessibilityLabel="Image of two band-aids criss-crossing"
-        />
-        <Button
-          title="Learn About Trauma and Injury"
-          onPress={() => Alert.alert('Go to Trauma and Injury Page')}
-          style={styles.button}
-          accessibilityLabel="Learn more about trauma and injury"
-        />
+class HomeScreen extends React.Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <View style={styles.buttonBox}>
+          <Image
+            style={styles.image}
+            source={require('./assets/healing_white_48dp_2x.png')}
+            accessibilityLabel="Image of two band-aids criss-crossing"
+          />
+          <Button
+            title="Learn About Trauma and Injury"
+            onPress={() => Alert.alert('Go to Trauma and Injury Page')}
+            style={styles.button}
+            accessibilityLabel="Learn more about trauma and injury"
+          />
+        </View>
       </View>
-    </View>
-  );
+    );
+  }
 }
+
+const AppNavigator = createStackNavigator({
+  Home: {
+    screen: HomeScreen
+  },
+});
+
+export default createAppContainer(AppNavigator);
 
 const styles = StyleSheet.create({
   container: {
