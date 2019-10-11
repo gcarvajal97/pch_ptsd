@@ -1,55 +1,39 @@
-import React from 'react';
-import {
-  createAppContainer,
-} from 'react-navigation';
-import {
-  createStackNavigator
-} from 'react-navigation-stack'
-import {
-  StyleSheet, 
-  View,
-  Button,
-  Alert,
-  Image,
-} from 'react-native';
+import React, { Component } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createAppContainer } from 'react-navigation';
 
-//TODO set up MVC so button press goes to new (empty) page
-//TODO fix alignment of button and icon
+// Import other screens as components to use below
+import MainScreen from './screens/MainScreen';
+import TestScreen from './screens/TestScreen';
 
-class HomeScreen extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <View style={styles.buttonBox}>
-          <Image
-            style={styles.image}
-            source={require('./assets/healing_white_48dp_2x.png')}
-            accessibilityLabel="Image of two band-aids criss-crossing"
-          />
-          <Button
-            title="Learn About Trauma and Injury"
-            onPress={() => Alert.alert('Go to Trauma and Injury Page')}
-            style={styles.button}
-            accessibilityLabel="Learn more about trauma and injury"
-          />
-        </View>
-      </View>
-    );
-  }
+
+// Screen/View information has been moved to it's own file (MainScreen.js and TestScreen.js)
+// Now App class just calls the NavBar container
+// This will control the flow of our app and keep our main file here from becoming too large
+ export default class App extends React.Component {
+   render() {
+  return (
+    // just one call to the NavBar container needed
+    <NavBar />
+  );
+   }
 }
 
-const AppNavigator = createStackNavigator({
-  Home: {
-    screen: HomeScreen
-  },
+// The NavBar currently can access these two screens
+// Will add more as the app progresses
+const NavigationBar = createStackNavigator({
+  Home: MainScreen,
+  Test: TestScreen
 });
 
-export default createAppContainer(AppNavigator);
+// New in this version of RN, must be created and referenced in class App
+const NavBar = createAppContainer(NavigationBar)
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'pink',
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
