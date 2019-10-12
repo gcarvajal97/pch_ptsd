@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';
+import { createDrawerNavigator } from 'react-navigation-drawer';
 import { createAppContainer } from 'react-navigation';
 
 // Import other screens as components to use below
@@ -29,6 +30,12 @@ const NavigationBar = createStackNavigator({
 
 // New in this version of RN, must be created and referenced in class App
 const NavBar = createAppContainer(NavigationBar)
+
+const Drawer = createDrawerNavigator({
+
+});
+
+const NavDrawer = createAppContainer(Drawer);
 
 const styles = StyleSheet.create({
   container: {
