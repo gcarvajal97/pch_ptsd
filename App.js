@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';
-import { createDrawerNavigator } from 'react-navigation-drawer';
 import { createAppContainer } from 'react-navigation';
 
 // Import other screens as components to use below
-import MainScreen from './screens/MainScreen';
-import TestScreen from './screens/TestScreen';
+//import MainScreen from './screens/MainScreen';
+//import TestScreen from './screens/TestScreen';
+import DrawerNavigator from './components/DrawerNavigator';
 
 
 // Screen/View information has been moved to it's own file (MainScreen.js and TestScreen.js)
@@ -16,33 +16,7 @@ import TestScreen from './screens/TestScreen';
    render() {
   return (
     // just one call to the NavBar container needed
-    <NavBar />
+    <DrawerNavigator />
   );
    }
 }
-
-// The NavBar currently can access these two screens
-// Will add more as the app progresses
-const NavigationBar = createStackNavigator({
-  Home: MainScreen,
-  Test: TestScreen
-});
-
-// New in this version of RN, must be created and referenced in class App
-const NavBar = createAppContainer(NavigationBar)
-
-const Drawer = createDrawerNavigator({
-
-});
-
-const NavDrawer = createAppContainer(Drawer);
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'pink',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center'
-  },
-});
