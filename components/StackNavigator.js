@@ -5,16 +5,19 @@ import {createAppContainer} from 'react-navigation';
 import MainScreen from '../screens/MainScreen.js';
 import TestScreen from '../screens/TestScreen.js';
 
-// The NavBar currently can access these two screens
-// Will add more as the app progresses
+// StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
+// This is called by the DrawerNavigator, so it is sort of nested inside. Drawer to select a starting point and
+// the Stack to move forward into screens and then back.
+// Currently only navigates to the screens below
 const NavigationBar = createStackNavigator({
     Home: MainScreen,
     Test: TestScreen
   });
   
-  // New in this version of RN, must be created and referenced in class App
+  // New in this version of React Native, must be created and reference/returned
   const StackContainer = createAppContainer(NavigationBar);
 
+  // 
   export default class StackNavigator extends Component {
       render() {
           return <StackContainer screenProps={{openDrawer: ()=> this.props.navigation.dispatch(DrawerActions.openDrawer())}} />
