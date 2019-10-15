@@ -7,7 +7,6 @@ import StackNavigator from './StackNavigator';
 
 const DrawerNav = createDrawerNavigator({
     Home: StackNavigator,
-    Same: StackNavigator
 });
 
 const DrawContainer = createAppContainer(DrawerNav);

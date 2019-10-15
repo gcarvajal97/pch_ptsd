@@ -9,9 +9,12 @@ import {
 class MainScreen extends Component {
 
     // Gives the NavBar a title for this specific screen
-    static navigationOptions = {
-        headerTitle: 'Pediatric PTSD'
-    }
+    static navigationOptions = ({screenProps}) => ({
+        headerTitle: 'Pediatric PTSD',
+        headerLeft: (<View style={{margin:5}}><Button title="Test"
+                            onPress={()=> screenProps.openDrawer()}
+                            title='More'></Button></View>)
+    })
 
     render() {
         return (
@@ -30,10 +33,11 @@ class MainScreen extends Component {
 }
 export default MainScreen;
 
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center'
-    }
+    },
 });
