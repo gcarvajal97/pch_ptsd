@@ -8,10 +8,15 @@ import {
 
 class MainScreen extends Component {
 
-    // Gives the NavBar a title for this specific screen
-    static navigationOptions = {
-        headerTitle: 'Pediatric PTSD'
-    }
+    // Only the header on this MainScreen contains the Drawer button. (static navOptions)
+    // screenProps are passed from the Navigator, allows onPress to call openDrawer, which opens
+    // side drawer to the user
+    static navigationOptions = ({screenProps}) => ({
+        headerTitle: 'Pediatric PTSD',
+        headerLeft: (<View style={{margin:5}}><Button title="Test"
+                            onPress={()=> screenProps.openDrawer()}
+                            title='More'></Button></View>)
+    })
 
     render() {
         return (
@@ -30,10 +35,11 @@ class MainScreen extends Component {
 }
 export default MainScreen;
 
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center'
-    }
+    },
 });
