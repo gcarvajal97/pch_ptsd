@@ -46,7 +46,7 @@ class MainScreen extends Component {
                 <Button
                     title="Quiz: "
                     style={styles.button}
-                    accessibilityLabel="Learn more about trauma and injury"
+                    accessibilityLabel="Quiz"
 
                     // navigates to the LearnMore page
                     onPress={() => this.props.navigation.navigate('Quiz')} />
@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#64b5f6',
         borderColor: '#1e88e5',
         borderRadius:10,
+        alignItems: 'center'
     },
     image: {
         flex: 1,
