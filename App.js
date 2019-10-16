@@ -6,6 +6,7 @@ import { createAppContainer } from 'react-navigation';
 // Import other screens as components to use below
 import MainScreen from './screens/MainScreen';
 import TestScreen from './screens/TestScreen';
+import LearnMoreScreen from './screens/LearnMore';
 
 
 // Screen/View information has been moved to it's own file (MainScreen.js and TestScreen.js)
@@ -24,7 +25,8 @@ import TestScreen from './screens/TestScreen';
 // Will add more as the app progresses
 const NavigationBar = createStackNavigator({
   Home: MainScreen,
-  Test: TestScreen
+  Test: TestScreen,
+  LearnMore: LearnMoreScreen,
 });
 
 // New in this version of RN, must be created and referenced in class App
@@ -38,21 +40,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     textAlign: 'center',
   },
-  button: {
-    color: '#c3fdff',
-    width: '20%',
-  },
-  buttonBox: {
-    height: '30%',
-    width: '90%',
-    backgroundColor: '#64b5f6',
-    borderColor: '#1e88e5',
-    borderRadius:10,
-  },
-  image: {
-    flex: 1,
-    alignItems: 'center',
-    height: '40%',
-    aspectRatio: 1,
-  }
 });
