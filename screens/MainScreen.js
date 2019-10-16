@@ -3,7 +3,8 @@ import {
     View,
     Text,
     StyleSheet,
-    Button
+    Button,
+    Image
 } from "react-native";
 
 class MainScreen extends Component {
@@ -22,16 +23,35 @@ class MainScreen extends Component {
         return (
             // Example of how navigation will work, using that anonymous function onPress
             <View style={styles.container}>
-                <Text>
-                    This is the Main screen{'\n'}
-                    Should be adding our 3 card view components here{'\n\n'}
-                    This test button below will show you how navigating screens will work in the future
-                </Text>
-            <Button title="Go to the next screen"
-                onPress={() => this.props.navigation.navigate('Test')} />
-            <Button title="Go to quiz screen"
-                onPress={() => this.props.navigation.navigate('Quiz')} />
-        </View>
+                <View style={styles.buttonBox}>
+                <Image
+                    style={styles.image}
+                    // importing image from assets file
+                    source={require('../assets/healing_white_48dp_2x.png')}
+                    accessibilityLabel="Image of two band-aids criss-crossing" />
+                <Button
+                    title="Learn About Trauma and Injury"
+                    style={styles.button}
+                    accessibilityLabel="Learn more about trauma and injury"
+
+                    // navigates to the LearnMore page
+                    onPress={() => this.props.navigation.navigate('LearnMore')} />
+                </View>
+                <View style={styles.buttonBox}>
+                <Image
+                    style={styles.image}
+                    // importing image from assets file
+                    source={require('../assets/healing_white_48dp_2x.png')}
+                    accessibilityLabel="Image of two band-aids criss-crossing" />
+                <Button
+                    title="Quiz: "
+                    style={styles.button}
+                    accessibilityLabel="Learn more about trauma and injury"
+
+                    // navigates to the LearnMore page
+                    onPress={() => this.props.navigation.navigate('Quiz')} />
+                </View>
+            </View>
         );
     }
 }
@@ -44,4 +64,21 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
+    button: {
+        color: '#c3fdff',
+        width: '20%',
+    },
+    buttonBox: {
+        height: '30%',
+        width: '90%',
+        backgroundColor: '#64b5f6',
+        borderColor: '#1e88e5',
+        borderRadius:10,
+    },
+    image: {
+        flex: 1,
+        alignItems: 'center',
+        height: '40%',
+        aspectRatio: 1,
+    },    
 });
