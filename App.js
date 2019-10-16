@@ -7,6 +7,9 @@ import { createAppContainer } from 'react-navigation';
 //import MainScreen from './screens/MainScreen';
 //import TestScreen from './screens/TestScreen';
 import DrawerNavigator from './components/DrawerNavigator';
+import MainScreen from './screens/MainScreen';
+import TestScreen from './screens/TestScreen';
+import QuizScreen from './screens/QuizScreen';
 
 
 // Screen/View information has been moved to it's own file (MainScreen.js and TestScreen.js)
@@ -20,3 +23,24 @@ import DrawerNavigator from './components/DrawerNavigator';
   );
    }
 }
+
+// The NavBar currently can access these two screens
+// Will add more as the app progresses
+const NavigationBar = createStackNavigator({
+  Home: MainScreen,
+  Test: TestScreen,
+  Quiz: QuizScreen
+});
+
+// New in this version of RN, must be created and referenced in class App
+const NavBar = createAppContainer(NavigationBar)
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'pink',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center'
+  },
+});

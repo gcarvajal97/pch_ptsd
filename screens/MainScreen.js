@@ -29,6 +29,8 @@ class MainScreen extends Component {
                 </Text>
             <Button title="Go to the next screen"
                 onPress={() => this.props.navigation.navigate('Test')} />
+            <Button title="Go to quiz screen"
+                onPress={() => this.props.navigation.navigate('Quiz')} />
         </View>
         );
     }
