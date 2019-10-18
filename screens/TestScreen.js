@@ -1,10 +1,5 @@
 import React, { Component } from "react";
-import {
-    View,
-    Text,
-    StyleSheet,
-    Button
-} from "react-native";
+import { View, Text, StyleSheet, } from "react-native";
 
 class TestScreen extends Component {
 
@@ -12,7 +7,7 @@ class TestScreen extends Component {
     static navigationOptions = {
         headerTitle: 'Test Screen'
     }
-
+    
     render() {
         return (
             // Just a simple page to show the NavBar is working

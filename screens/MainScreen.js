@@ -7,21 +7,17 @@ import FindHelpCard from '../components/FindHelpCard';
 
 class MainScreen extends Component {
 
-    // Only the header on this MainScreen contains the Drawer button. (static navOptions)
-    // screenProps are passed from the Navigator, allows onPress to call openDrawer, which opens
-    // side drawer to the user
-    static navigationOptions = ({ screenProps }) => ({
+    static navigationOptions = () => ({
         headerTitle: 'Pediatric PTSD',
         headerLeft: (<View style={{ margin: 5 }}><Button title="Test"
-            onPress={() => screenProps.openDrawer()}
+            onPress={null}
             title='More'></Button></View>)
     })
 
+    // Because we want the image, button and text to fit the width, the cards can only shrink so much.
+    // I wrapped the Card's in a scrollview so that users on smaller screens can still access everything
     render() {
         return (
-            // Because we want the image, button and text to fit the width, it cannot shrink any further.
-            // Otherwise the sides will just be white space and text/button will be tiny.
-            // I wrapped the Card components in a scroll view to access the last card.
             <ScrollView>
                     <LearnMoreCard />
                     <QuizCard />
