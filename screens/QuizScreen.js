@@ -1,43 +1,31 @@
-import React from 'react';
-import MainScreen from './MainScreen';
-import {
-  createAppContainer,
-} from 'react-navigation';
-import {
-  createStackNavigator
-} from 'react-navigation-stack'
-import {
-  StyleSheet, 
-  View,
-} from 'react-native';
+import React, { Component } from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
-class Quiz extends React.Component {
+class QuizScreen extends Component {
+  
+  static navigationOptions = {
+    headerTitle: 'Quiz Screen'
+
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text>Quiz Page</Text>
-      </View>
+                <Text>
+                    This is a test Quiz Screen{'\n'}
+                    Navigation bar should be showing a back button to return to home page.
+                </Text>
+        </View>
     );
   }
 }
 
-const AppNavigator = createStackNavigator({
-  Home: {
-    screen: MainScreen
-  },
-  Quiz: {
-    screen: Quiz
-  }
-});
-
-export default createAppContainer(AppNavigator);
+export default QuizScreen;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center',
-  },
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center'
+  }
 });
