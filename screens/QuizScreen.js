@@ -13,7 +13,7 @@ class QuizScreen extends Component {
       <View style={styles.container}>
                 <Text>
                     This is a test Quiz Screen{'\n'}
-                    Navigation bar should be showing a back button to return to home page.
+                    This will be replaced by a UI and API to suggest if a child needs care.
                 </Text>
         </View>
     );
