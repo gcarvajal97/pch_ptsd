@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
+import NavigationService from './NavigationService';
 import MainScreen from '../screens/MainScreen.js';
 import TestScreen from '../screens/TestScreen.js';
-import NavigationService from './NavigationService';
 import LearnMoreScreen from '../screens/LearnMore.js';
+import FindHelpScreen from '../screens/FindHelp.js';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
@@ -12,6 +13,7 @@ const NavigationBar = createStackNavigator({
     Home: MainScreen,
     Test: TestScreen,
     LearnMore: LearnMoreScreen,
+    FindHelp: FindHelpScreen,
   });
   
   // New in this version of React Native, must be created and reference/returned

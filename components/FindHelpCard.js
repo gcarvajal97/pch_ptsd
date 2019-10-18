@@ -4,7 +4,9 @@ import {Card, Button as CardButton} from 'react-native-elements';
 // react-native and react-native-elements each have their Button components.
 // To ensure we are using the correct one in the Card, I have imported Button as CardButton from elements
 
+import NavigationService from './NavigationService';
 // Card view component to be displayed on the main screen
+// We can now use the NavigationService to navigate to screens as seen below (NavigationService.navigate('WhateverScreen'))
 export default class FindHelpCard extends Component {
     render() {
         return(
@@ -14,7 +16,7 @@ export default class FindHelpCard extends Component {
             <Text style={{ marginBottom: 5 }}>
                 Dealing with emotional reactions and injury care can be difficult. Find ways to help your child recover. 
             </Text>
-            <CardButton
+            <CardButton onPress={()=>NavigationService.navigate('FindHelp')}
                 buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
                 title='FIND HELP' />
         </Card>
