@@ -1,64 +1,33 @@
 import React, { Component } from "react";
-import {
-    View,
-    Text,
-    StyleSheet,
-    Button,
-    Image,
-} from "react-native";
+import { View, Button, ScrollView } from "react-native";
 
+import LearnMoreCard from '../components/LearnMoreCard';
+import QuizCard from '../components/QuizCard';
+import FindHelpCard from '../components/FindHelpCard';
+
+import NavigationService from '../components/NavigationService';
+    // I have learned that Props will become deprecated soon, this code has been changed to follow the
+    // new best practice in React (to hopefully avoid features breaking in future updates).
+    // NavigationService is a new file I created, allowing me to use the openDrawer function.
 class MainScreen extends Component {
 
-    // Gives the NavBar a title for this specific screen
-    static navigationOptions = {
-        headerTitle: 'Pediatric PTSD'
-    }
+    static navigationOptions = () => ({
+        headerTitle: 'Pediatric PTSD',
+        headerLeft: (<View style={{ margin: 5 }}><Button title="Test"
+            onPress={()=>NavigationService.openDrawer()}
+            title='More'></Button></View>)
+    })
 
+    // Because we want the image, button and text to fit the width, the cards can only shrink so much.
+    // I wrapped the Card's in a scrollview so that users on smaller screens can still access everything
     render() {
         return (
-            // Example of how navigation will work, using that anonymous function onPress
-            <View style={styles.container}>
-                <View style={styles.buttonBox}>
-                    <Image
-                        style={styles.image}
-                        // importing image from assets file
-                        source={require('../assets/healing_white_48dp_2x.png')}
-                        accessibilityLabel="Image of two band-aids criss-crossing" />
-                    <Button
-                        title="Learn About Trauma and Injury"
-                        style={styles.button}
-                        accessibilityLabel="Learn more about trauma and injury"
-
-                        // navigates to the LearnMore page
-                        onPress={() => this.props.navigation.navigate('LearnMore')} />
-                </View>
-            </View>
+            <ScrollView>
+                    <LearnMoreCard />
+                    <QuizCard />
+                    <FindHelpCard />
+            </ScrollView>
         );
     }
 }
 export default MainScreen;
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center'
-    },
-    button: {
-        color: '#c3fdff',
-        width: '20%',
-    },
-    buttonBox: {
-        height: '30%',
-        width: '90%',
-        backgroundColor: '#64b5f6',
-        borderColor: '#1e88e5',
-        borderRadius:10,
-    },
-    image: {
-        flex: 1,
-        alignItems: 'center',
-        height: '40%',
-        aspectRatio: 1,
-    },    
-});
