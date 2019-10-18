@@ -14,6 +14,7 @@ const DrawerNav = createDrawerNavigator({
 // New in this version of React Native, must be referenced/returned
 const DrawContainer = createAppContainer(DrawerNav);
 
+// The navigator now sends its references to the NavigationService
 export default class DrawerNavigator extends Component {
     render() {
         return <DrawContainer 

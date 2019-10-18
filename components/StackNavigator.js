@@ -15,6 +15,7 @@ const NavigationBar = createStackNavigator({
   // New in this version of React Native, must be created and reference/returned
   const StackContainer = createAppContainer(NavigationBar);
 
+  // The navigator now sends its references to the NavigationService
   export default class StackNavigator extends Component {
       render() {
           return <StackContainer
