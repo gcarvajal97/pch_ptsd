@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
+import NavigationService from './NavigationService';
 import MainScreen from '../screens/MainScreen.js';
 import TestScreen from '../screens/TestScreen.js';
-import NavigationService from './NavigationService';
+import LearnMoreScreen from '../screens/LearnMore.js';
+import FindHelpScreen from '../screens/FindHelp.js';
 import QuizScreen from '../screens/QuizScreen.js';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
@@ -11,6 +13,8 @@ import QuizScreen from '../screens/QuizScreen.js';
 const NavigationBar = createStackNavigator({
     Home: MainScreen,
     Test: TestScreen,
+    LearnMore: LearnMoreScreen,
+    FindHelp: FindHelpScreen,
     Quiz: QuizScreen
   });
   

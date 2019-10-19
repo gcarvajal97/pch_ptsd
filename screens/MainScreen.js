@@ -30,4 +30,5 @@ class MainScreen extends Component {
         );
     }
 }
+
 export default MainScreen;
