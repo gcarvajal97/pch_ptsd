@@ -12,6 +12,7 @@ export default class LearnMoreCard extends Component {
         return(
         <Card
             featuredTitle='Learn More About Injury and Trauma'
+            featuredTitleStyle={{textAlign:'center'}}
             image={require('../assets/LearnMoreMD.jpg')}>
             <Text style={{ marginBottom: 5 }}>
                 Get up-to-date information and expert guidance to assist you and your injured child.
