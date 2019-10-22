@@ -7,8 +7,7 @@ import TestScreen from '../screens/TestScreen.js';
 import LearnMoreScreen from '../screens/LearnMore.js';
 import FindHelpScreen from '../screens/FindHelp.js';
 import QuizScreen from '../screens/QuizScreen.js';
-import HowLongScreen from '../screens/HowLongDoReactionsLast.ls';
-import HowLongDoReactionsLastScreen from '../screens/HowLongDoReactionsLast';
+import HowLongScreen from '../screens/HowLongScreen.js';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
