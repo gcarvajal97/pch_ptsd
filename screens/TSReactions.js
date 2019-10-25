@@ -12,15 +12,19 @@ const styles = StyleSheet.create({
 class QuizScreen extends Component {
   
   static navigationOptions = {
-    headerTitle: 'Quiz Screen'
+    headerTitle: 'Reaction Screen'
   }
 
   render() {
     return (
       <View style={styles.container}>
+              <Center>
                 <Text>
-                    This is the Traumatic Stress Reaction Screen{'\n'}
+                As you think about how to help your child, try{'\n'}
+                to separate what you are feeling from your{'\n'}
+                child's experiences and needs.{'\n'}
                 </Text>
+              </Center>
         </View>
     );
   }
