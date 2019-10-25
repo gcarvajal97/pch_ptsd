@@ -43,19 +43,9 @@ class YoureNotAlone extends Component {
                 <Text style={styles.paragraph}>
                     With all the doctors, nurses, and therapists who will treat your child’s injury, 
                     remember that no one is more important than you for your child’s recovery. 
-                    In this website, we took the best from science and practice to help you help your child after an injury.
-                    </Text>
-                <Text style={styles.paragraph}>
-                    In this website, we took the best from science and practice to help you help your child after an injury. 
-                    In this website, we took the best from science and practice to help you help your child after an injury. 
-                    In this website, we took the best from science and practice to help you help your child after an injury. 
-                    In this website, we took the best from science and practice to help you help your child after an injury.
-                    </Text> 
-                <Text style={styles.paragraph}>
-                    In this website, we took the best from science and practice to help you help your child after an injury. 
-                    In this website, we took the best from science and practice to help you help your child after an injury. 
-                    In this website, we took the best from science and practice to help you help your child after an injury.
-                    </Text>             
+                    In making this application, we took the best information available from 
+                    science and best practices to help you and your child recover after an injury.
+                    </Text>        
                 </ScrollView>
             </View>
         );
