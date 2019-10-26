@@ -17,7 +17,6 @@ class HowLongScreen extends Component {
                 <Text style={styles.title}>
                     How Long Do Traumatic Stress Reactions Last?
                 </Text>
-                <ScrollView>
                 <Video
                     source={require('../assets/videos/vidHowLong.mp4')}
                     rate={1.0}
@@ -29,20 +28,21 @@ class HowLongScreen extends Component {
                     style={{ height: undefined, width: Dimensions.get('window').width, flex: 1, maxHeight: 254 }}
                     style={{ height: 208, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 12, borderTopWidth: 0, borderBottomWidth: 12, marginBottom:-1}}
                 />
+                <ScrollView>
                     <Text style={styles.paragraph}>
                     {"\n"}
-                    For many children and their parents early traumatic stress reactions get better over the first month. 
+                    {'\t'} For many children and their parents early traumatic stress reactions get better over the first month. 
                     But about 1 in 6 still have traumatic stress reactions that bother them, even 6 months after an injury. 
                     {"\n"}
                     </Text>
                     <Text style={styles.paragraph}>
-                    Nearly everyone feels upset or anxious early on. 
+                    {'\t'} Nearly everyone feels upset or anxious early on. 
                     Over the next few weeks and months, these reactions usually get weaker and then go away. 
                     Even children recovering from serious injuries start to develop ways to cope.
                     {"\n"}
                     </Text>
                     <Text style={styles.paragraph}>
-                    But for some people, these early reactions do not seem to get better as the months go by, or they may get worse. 
+                    {'\t'} But for some people, these early reactions do not seem to get better as the months go by, or they may get worse. 
                     Even if the physical injury has healed, they may not have recovered from the trauma. 
                     The intensity and length of the traumatic stress reactions is not related to how bad the physical injury was.
                     {"\n"}
@@ -71,8 +71,8 @@ class HowLongScreen extends Component {
                     Posttraumatic stress disorder (PTSD) is the name given to traumatic stress reactions that:
                     {"\n"}
                     </Text>
-                    <Text style={styles.bullet}>- are so severe that they get in the way of normal life and</Text>
-                    <Text style={styles.bullet}>- last for more than one month.</Text>
+                    <Text style={styles.bullet}>- Are so severe that they get in the way of normal life and</Text>
+                    <Text style={styles.bullet}>- Last for more than one month.</Text>
                     <Text style={styles.paragraph}>
                     {"\n"}
                     It is important to know if your child or someone else in your family develops posttraumatic stress disorder from the accident or injury. It is much more common than people realize.
@@ -89,7 +89,7 @@ class HowLongScreen extends Component {
                     <Text style={styles.bullet}>- Get in the way of physical recovery</Text>
                     <Text style={styles.bullet}>- Contribute to new medical problems; or</Text>
                     <Text style={styles.bullet}>- Just make it harder to enjoy life.</Text>
-                    <Text style={styles.paragraph}>
+                    <Text style={styles.link} onPress={()=> Linking.openURL('https://medlineplus.gov/ency/article/000925.htm')}>
                     {"\n"}
                     Click here for more information on PTSD.
                     {"\n"}
@@ -103,6 +103,7 @@ class HowLongScreen extends Component {
                     This app will help you know when to reach out for help if you need it.
                     {"\n"}
                     </Text>
+                    <Text style={{paddingBottom: 230}}></Text>
                 </ScrollView>
 
         </View>
@@ -144,4 +145,12 @@ const styles = StyleSheet.create({
         paddingHorizontal:5,
         fontSize: 16
     },
+    link: {
+        alignSelf:"center", 
+        paddingVertical:1, 
+        paddingHorizontal:5,
+        fontSize: 16,
+        color:'#2089DC',
+        textDecorationLine: 'underline'
+    }
 });
