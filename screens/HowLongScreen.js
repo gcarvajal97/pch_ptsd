@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView, Dimensions} from "react-native";
 import { Video } from 'expo-av';
 import { Linking } from "expo";
+import NavigationService from '../components/NavigationService';
 
 class HowLongScreen extends Component {
 
@@ -99,7 +100,7 @@ class HowLongScreen extends Component {
                     Unfortunately, less than half of people with traumatic stress symptoms talk to anyone about their problems or get any professional help, even when their symptoms go on for a long time.
                     {"\n"}
                     </Text>
-                    <Text style={styles.paragraph}>
+                    <Text style={styles.link} onPress={()=> NavigationService.navigate('WhenToGetOutsideHelp')}>
                     This app will help you know when to reach out for help if you need it.
                     {"\n"}
                     </Text>
