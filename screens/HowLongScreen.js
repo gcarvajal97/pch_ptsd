@@ -29,6 +29,9 @@ class HowLongScreen extends Component {
                     style={{ height: undefined, width: Dimensions.get('window').width, flex: 1, maxHeight: 254 }}
                     style={{ height: 208, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 12, borderTopWidth: 0, borderBottomWidth: 12, marginBottom:-1}}
                 />
+                <Text style={styles.subTitle}>
+                    When traumatic stress reactions last for weeks or months, they can get in the way of getting back to normal and feeling like yourself again.
+                </Text>
                 <ScrollView>
                     <Text style={styles.paragraph}>
                     {"\n"}
@@ -50,7 +53,6 @@ class HowLongScreen extends Component {
                     </Text>
                     <Text style={styles.paragraphTitle}>
                     Why be concerned?
-                    {"\n"}
                     </Text>
                     <Text style={styles.paragraph}>
                     When traumatic stress reactions last for weeks or months, they can get in the way of getting back to normal and feeling like yourself again.
@@ -58,7 +60,6 @@ class HowLongScreen extends Component {
                     </Text>
                     <Text style={styles.paragraphTitle}>
                     For children and teens, this can affect school, home, and play.
-                    {"\n"}
                     </Text>
                     <Text style={styles.bullet}>- Schoolwork and learning might be disrupted because a child cannot concentrate or sleep well.</Text>
                     <Text style={styles.bullet}>- Family relationships and friendships might suffer.</Text>
@@ -66,7 +67,6 @@ class HowLongScreen extends Component {
                     <Text style={styles.paragraphTitle}>
                     {"\n"}
                     What is posttraumatic stress disorder, or 'PTSD'?
-                    {"\n"}
                     </Text>
                     <Text style={styles.paragraph}>
                     Posttraumatic stress disorder (PTSD) is the name given to traumatic stress reactions that:
@@ -85,7 +85,6 @@ class HowLongScreen extends Component {
                     </Text>
                     <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:2, marginBottom:1}}>
                     After an injury, posttraumatic stress disorder can:
-                    {"\n"}
                     </Text>
                     <Text style={styles.bullet}>- Get in the way of physical recovery</Text>
                     <Text style={styles.bullet}>- Contribute to new medical problems; or</Text>
@@ -100,13 +99,7 @@ class HowLongScreen extends Component {
                     Unfortunately, less than half of people with traumatic stress symptoms talk to anyone about their problems or get any professional help, even when their symptoms go on for a long time.
                     {"\n"}
                     </Text>
-                    <Text style={styles.link} onPress={()=> NavigationService.navigate('WhenToGetOutsideHelp')}>
-                    This app will help you know when to reach out for help if you need it.
-                    {"\n"}
-                    </Text>
-                    <Text style={{paddingBottom: 230}}></Text>
                 </ScrollView>
-
         </View>
         );
     }
@@ -114,11 +107,34 @@ class HowLongScreen extends Component {
 export default HowLongScreen;
 
 const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        margin: 10,
+        backgroundColor: 'white',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.23,
+        shadowRadius: 2.62,
+
+        elevation: 4,
+    },
     title: {
         backgroundColor: '#2089DC', 
         color: 'white', 
         fontWeight: 'bold', 
         fontSize: 22, 
+        textAlign: 'center', 
+        alignSelf: 'stretch'
+    },
+    subTitle: {
+        backgroundColor: '#2089DC', 
+        color: 'white', 
+        fontWeight: 'bold', 
+        fontSize: 14, 
         textAlign: 'center', 
         alignSelf: 'stretch'
     },
@@ -138,13 +154,13 @@ const styles = StyleSheet.create({
         textAlign:'left', 
         alignSelf:'stretch', 
         fontWeight:'bold',
-        fontSize:16
+        fontSize:14
     },
     paragraph: {
         alignSelf:"center", 
         paddingVertical:1, 
         paddingHorizontal:5,
-        fontSize: 16
+        fontSize: 14
     },
     link: {
         alignSelf:"center", 
