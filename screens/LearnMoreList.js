@@ -22,19 +22,19 @@ export default class LearnMoreList extends Component {
         return (
             <View>
                 <Card containerStyle={{margin:5}}>
-                    <Text style={{textAlign: 'center', backgroundColor:'#2089DC', fontWeight:'bold', fontSize:20, color:'white', padding:10, margin:0}}>
+                    <Text style={{textAlign: 'center', backgroundColor:'#2089DC', fontSize:20, color:'white', padding:10, paddingVertical:10, margin:0}}>
                         WHAT TO EXPECT AFTER INJURY
                     </Text>
-                    <Divider style={{backgroundColor:'black', height:5, marginBottom:-1}}/>
+                    <Divider style={{backgroundColor:'black', height:1, marginBottom:-1}}/>
                     <View>
                         {
                             listNames.map((l, i) => {
                                 return (
                                     <ListItem
-                                        containerStyle={{paddingLeft:14, paddingVertical:8, paddingRight:0}}
+                                        containerStyle={{paddingLeft:14, paddingVertical:12, paddingRight:0}}
                                         key={i}
                                         title={l.name}
-                                        titleStyle={{fontWeight:'bold', fontSize:19, alignContent:'stretch', color:'black'}}
+                                        titleStyle={{fontSize:19, alignContent:'stretch', color:'black'}}
                                         onPress={()=>{NavigationService.navigate(l.navigateTo)}}
                                         chevron={{size:32, color: 'black'}}
                                         bottomDivider

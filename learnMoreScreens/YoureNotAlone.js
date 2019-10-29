@@ -27,13 +27,12 @@ class YoureNotAlone extends Component {
                     <Text style={{ fontWeight: 'bold' }}>Your child is not alone.</Text> Every year, millions of children in the United States are injured.
                 </Text>
                 <ScrollView>
-                <Text style={{fontWeight: 'bold', fontSize:22, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:2, marginBottom:1, color:'#2089DC'}}>
+                <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:4, marginBottom:3, color:'#2089DC'}}>
                     Each year in the United States, child injury statistics show that:
                     </Text>
                 <Text style={styles.bullet}>1 in 4 children and teens need medical care for an injury.</Text>
                 <Text style={styles.bullet}>7 million injured children are treated in the ER.</Text>
                 <Text style={styles.bullet}>Several hundred thousand injured children are admitted to the hospital.</Text>
-
                 <Text style={styles.paragraph}>
                     Right now, hundreds of thousands of children across the country are recovering from an injury. 
                     Like you, their parents and other caring adults want to help them the best way possible. 
@@ -75,12 +74,14 @@ const styles = StyleSheet.create({
         textAlign:'left', 
         alignSelf:'stretch', 
         fontWeight:'bold',
-        fontSize:14
+        fontSize:14,
+        paddingTop: 4,
     },
     paragraph: {
         alignSelf:"center", 
         paddingVertical:1, 
         paddingHorizontal:5,
-        fontSize: 14
+        fontSize: 14,
+        marginTop: 5,
     }
 });
