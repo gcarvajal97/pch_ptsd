@@ -17,7 +17,7 @@ export default class LearnMoreCard extends Component {
             <Text style={{ marginBottom: 5 }}>
                 Get up-to-date information and expert guidance to assist you and your injured child.
             </Text>
-            <CardButton onPress={()=>NavigationService.navigate('Alone')}
+            <CardButton onPress={()=>NavigationService.navigate('LearnMore')}
                 buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
                 title='LEARN MORE' />
         </Card>
