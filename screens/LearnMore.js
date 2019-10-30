@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
+import {Card, Button as CardButton} from 'react-native-elements';
+import NavigationService from '../components/NavigationService';
 
 class LearnMoreScreen extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Learn About Trauma and Injury'
+        headerTitle: 'Learn More'
     }
 
     render() {
@@ -15,6 +17,9 @@ class LearnMoreScreen extends Component {
                 <Text>
                     This is the Learn More screen{'\n'}
                 </Text>
+                <CardButton onPress={()=>NavigationService.navigate('TSReactions')}
+                buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
+                title='What are the reactions?' />
         </View>
         );
     }
