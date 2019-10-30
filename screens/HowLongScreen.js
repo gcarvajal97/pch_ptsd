@@ -4,6 +4,8 @@ import { Video } from 'expo-av';
 import { Linking } from "expo";
 import NavigationService from '../components/NavigationService';
 
+// Tested and works on iOS
+
 class HowLongScreen extends Component {
 
     // Gives the NavBar a title for this specific screen
