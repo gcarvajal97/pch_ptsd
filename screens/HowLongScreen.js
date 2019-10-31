@@ -5,6 +5,7 @@ import { Linking } from "expo";
 import NavigationService from '../components/NavigationService';
 
 // Tested and works on iOS
+// Tested and works on Android
 
 class HowLongScreen extends Component {
 
