@@ -28,24 +28,32 @@ class ReactionsToInjury extends Component {
                     <Text style={{ fontWeight: 'bold' }}>These reactions are expected.</Text> With a little time and extra support, most children feel better.
                 </Text>
                 <ScrollView>
-                <Text style={{fontWeight: 'bold', fontSize:22, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:2, marginBottom:1, color:'#2089DC'}}>
-                    Each year in the United States, child injury statistics show that:
+                    <Text style={styles.paragraph}>
+                    One of the most important things you can do to help your child is to recognize your child’s reactions to injury. 
+                    Many reactions are normal and common; some are more worrisome. The first step in helping your child recover is to 
+                    learn what reactions to look for and what you can do to help your child respond in a healthy way.
                     </Text>
-                <Text style={styles.bullet}>1 in 4 children and teens need medical care for an injury.</Text>
-                <Text style={styles.bullet}>7 million injured children are treated in the ER.</Text>
-                <Text style={styles.bullet}>Several hundred thousand injured children are admitted to the hospital.</Text>
+                    <Text style={{fontWeight: 'bold', fontSize:22, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:2, marginBottom:1, color:'#2089DC'}}>
+                    Bold Content
+                    </Text>
+                    <Text style={styles.bullet}>bullet1</Text>
+                    <Text style={styles.bullet}>bullet2</Text>
+                    <Text style={styles.bullet}>bullet3</Text>
 
-                <Text style={styles.paragraph}>
-                    Right now, hundreds of thousands of children across the country are recovering from an injury. 
-                    Like you, their parents and other caring adults want to help them the best way possible. 
-                    While it is important to tend to the wounds and rehabilitation, it is just as important 
-                    to remember to look beyond the physical injuries.
+                    <Text style={styles.paragraph}>
+                    In the first few days after an injury, common child trauma symptoms are:
+                    Nearly all children feel upset, jumpy, or worried at times.
+                    Parents and other family members can have similar reactions.
+                    Nearly everyone feels symptoms of stress; Headache, tense muscles, knots in your stomach, sweaty palms. Also feeling that life is a bit out of control.
+                    Parents and children may argue more.
+                    Children may be more clingy or have trouble sleeping.
                     </Text>
-                <Text style={styles.paragraph}>
-                    With all the doctors, nurses, and therapists who will treat your child’s injury, 
-                    remember that no one is more important than you for your child’s recovery. 
-                    In making this application, we took the best information available from 
-                    science and best practices to help you and your child recover after an injury.
+                    <Text style={styles.paragraph}>
+                    Some people even notice positive aspects in their reactions to injury. They may:
+                    Feel thankful and relieved that nothing worse happened
+                    Resolve to do things more safely in the future
+                    When an accident or injury causes overwhelming feelings of fear, helplessness, and horror, 
+                    it can lead to more than just everyday stress reactions -- it can lead to traumatic stress.
                     </Text>        
                 </ScrollView>
             </View>
