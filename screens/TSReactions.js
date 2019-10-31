@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, Text, ScrollView, Dimensions} from 'react-native';
+import { View, StyleSheet, Text, ScrollView, Dimensions, AccessibilityInfo} from 'react-native';
 import { Video } from 'expo-av';
 
 class TSReactionsScreen extends Component {
@@ -24,6 +24,8 @@ class TSReactionsScreen extends Component {
             useNativeControls
             style={{ height: undefined, width: Dimensions.get('window').width, flex: 1, maxHeight: 254 }}
             style={{ height: 208, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 12, borderTopWidth: 0, borderBottomWidth: 12, marginBottom:-1}}
+            accessibilityLabel="Video on what are traumatic stress reactions"
+            accessibilityHint="Video on what are traumatic stress reactions"
         />
         <ScrollView>
         <Text style={styles.paragraph}>
