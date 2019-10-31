@@ -15,7 +15,8 @@ class ReactionsToInjury extends Component {
                     Reactions to Injury
                 </Text>
                 <Video
-                    source={require('../assets/videos/vidAlone.mp4')}
+                    // Import video corresponding to this screen from assets
+                    source={require('../assets/videos/vidReactToInjury.mp4')}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
@@ -23,8 +24,8 @@ class ReactionsToInjury extends Component {
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
                 />
-                <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                    <Text style={{ fontWeight: 'bold' }}>Your child is not alone.</Text> Every year, millions of children in the United States are injured.
+                <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
+                    <Text style={{ fontWeight: 'bold' }}>These reactions are expected.</Text> With a little time and extra support, most children feel better.
                 </Text>
                 <ScrollView>
                 <Text style={{fontWeight: 'bold', fontSize:22, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:2, marginBottom:1, color:'#2089DC'}}>
