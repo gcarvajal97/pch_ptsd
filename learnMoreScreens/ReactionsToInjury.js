@@ -6,7 +6,7 @@ class ReactionsToInjury extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Reactions to Injury'
+        headerTitle: 'Learn More'
     }
     render() {
         return (
@@ -23,6 +23,8 @@ class ReactionsToInjury extends Component {
                     shouldPlay
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+                    accessibilityLabel='Video show what are stress reactions to injury'
+                    accessibilityHint='Video show what are stress reactions to injury'
                 />
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
                     <Text style={{ fontWeight: 'bold' }}>These reactions are expected.</Text> With a little time and extra support, most children feel better.
