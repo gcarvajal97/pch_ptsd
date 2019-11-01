@@ -3,9 +3,9 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
 import NavigationService from './NavigationService';
 import MainScreen from '../screens/MainScreen.js';
-import TestScreen from '../screens/TestScreen.js';
 import FindHelpScreen from '../screens/FindHelp.js';
 import QuizScreen from '../screens/QuizScreen.js';
+import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
 import LearnMoreList from '../screens/LearnMoreList';
@@ -17,6 +17,7 @@ const NavigationBar = createStackNavigator({
     LearnMore: LearnMoreList,
     FindHelp: FindHelpScreen,
     Quiz: QuizScreen,
+    TraumaticStressReactions: TraumaticStressReactions,
     NotAlone: YoureNotAlone,
     Reactions: ReactionsToInjury,
   });

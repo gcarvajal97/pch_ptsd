@@ -8,8 +8,8 @@ import NavigationService from '../components/NavigationService';
 const listNames = [
     { name: 'You Are Not Alone', navigateTo: 'NotAlone' },
     { name: 'Reactions to Injury', navigateTo: 'Reactions'},
-    { name: 'What Are Traumatic Stress Reactions?'},
-    { name: 'How Long Do Traumatic Stress Reactions Last?'}
+    { name: 'What Are Traumatic Stress Reactions?', navigateTo: 'TraumaticStressReactions'},
+    { name: 'How Long Do Traumatic Stress Reactions Last?'},
 ]
 
 export default class LearnMoreList extends Component {
