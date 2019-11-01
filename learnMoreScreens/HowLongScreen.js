@@ -31,6 +31,8 @@ class HowLongScreen extends Component {
                     useNativeControls
                     style={{ height: undefined, width: Dimensions.get('window').width, flex: 1, maxHeight: 254 }}
                     style={{ height: 208, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 12, borderTopWidth: 0, borderBottomWidth: 12, marginBottom:-1}}
+                    accessibilityLabel="Video on how long stress reactions last"
+                    accessibilityHint="Video on how long stress reactions last"
                 />
                 <Text style={styles.subTitle}>
                     When traumatic stress reactions last for weeks or months, they can get in the way of getting back to normal and feeling like yourself again.
@@ -82,7 +84,9 @@ class HowLongScreen extends Component {
                     <Text style={styles.bullet}>- Get in the way of physical recovery</Text>
                     <Text style={styles.bullet}>- Contribute to new medical problems; or</Text>
                     <Text style={styles.bullet}>- Just make it harder to enjoy life.</Text>
-                    <Text style={styles.link} onPress={()=> Linking.openURL('https://medlineplus.gov/ency/article/000925.htm')}>
+                    <Text style={styles.link} onPress={()=> Linking.openURL('https://medlineplus.gov/ency/article/000925.htm')}
+                        accessibilityLabel="Click here for more information on PTSD"
+                        accessibilityHint="Navigates to a website on the casuses of PTSD">
                     Click here for more information on PTSD.
                     </Text>
                     <Text style={styles.paragraph}>
