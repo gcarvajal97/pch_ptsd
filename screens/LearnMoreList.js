@@ -8,7 +8,7 @@ import NavigationService from '../components/NavigationService';
 const listNames = [
     { name: 'You Are Not Alone', navigateTo: 'NotAlone' },
     { name: 'Reactions to Injury', navigateTo: 'Reactions'},
-    { name: 'What Are Traumatic Stress Reactions?', navigateTo: 'TSReactions'},
+    { name: 'What Are Traumatic Stress Reactions?', navigateTo: 'TraumaticStressReactions'},
     { name: 'How Long Do Traumatic Stress Reactions Last?'},
 ]
 

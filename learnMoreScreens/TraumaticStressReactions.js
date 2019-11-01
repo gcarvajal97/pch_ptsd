@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import { View, StyleSheet, Text, ScrollView, Dimensions, AccessibilityInfo} from 'react-native';
 import { Video } from 'expo-av';
 
-class TSReactionsScreen extends Component {
+class TraumaticStressReactions extends Component {
   
   static navigationOptions = {
-    headerTitle: 'TSReactions'
+    headerTitle: 'Learn More'
   }
 
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>
-        What are traumatic stress reactions?
+        Traumatic Stress Reactions
         </Text>
         <Video
             source={require('../assets/videos/vidStressReactions.mp4')}
@@ -24,9 +24,13 @@ class TSReactionsScreen extends Component {
             useNativeControls
             style={{ height: undefined, width: Dimensions.get('window').width, flex: 1, maxHeight: 254 }}
             style={{ height: 208, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 12, borderTopWidth: 0, borderBottomWidth: 12, marginBottom:-1}}
-            accessibilityLabel="Video on what are traumatic stress reactions"
-            accessibilityHint="Video on what are traumatic stress reactions"
+            accessibilityLabel="Video on what are traumatic stress reactions."
+            accessibilityHint="Video on what are traumatic stress reactions."
         />
+        <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
+                    <Text style={{ fontWeight: 'bold' }}>Stress reactions to injury are normal</Text> However there are three major reactions 
+                    to be monitoring that could be warning signs of PTSD.
+                </Text>
         <ScrollView>
         <Text style={styles.paragraph}>
         There are three main types of traumatic stress reactions:
@@ -40,8 +44,8 @@ class TSReactionsScreen extends Component {
         <Text style={styles.bullet}>
         Hyper-arousal: Feeling anxious or jumpy
         </Text>
-        <Text style={styles.subTitle}>
-        Note: These reactions are normal and are not considered post traumatic stress reactions 
+        <Text style={styles.paragraph}>
+        <Text style={{ fontWeight: 'bold' }}>Note: </Text>These reactions are normal and are not considered post traumatic stress reactions 
         or PTSD unless they persist for over a month and interfere with daily life.
         </Text>
         <Text style={styles.paragraphTitle}>
@@ -110,7 +114,7 @@ class TSReactionsScreen extends Component {
   }
 }
 
-export default TSReactionsScreen;
+export default TraumaticStressReactions;
 
 const styles = StyleSheet.create({
   container: {

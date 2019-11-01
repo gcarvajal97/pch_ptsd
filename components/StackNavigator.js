@@ -5,8 +5,7 @@ import NavigationService from './NavigationService';
 import MainScreen from '../screens/MainScreen.js';
 import FindHelpScreen from '../screens/FindHelp.js';
 import QuizScreen from '../screens/QuizScreen.js';
-import HowLongScreen from '../screens/HowLongScreen.js';
-import TSReactionsScreen from '../learnMoreScreens/TSReactions';
+import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
 import LearnMoreList from '../screens/LearnMoreList';
@@ -18,8 +17,7 @@ const NavigationBar = createStackNavigator({
     LearnMore: LearnMoreList,
     FindHelp: FindHelpScreen,
     Quiz: QuizScreen,
-    HowLong: HowLongScreen,
-    TSReactions: TSReactionsScreen,
+    TraumaticStressReactions: TraumaticStressReactions,
     NotAlone: YoureNotAlone,
     Reactions: ReactionsToInjury,
   });

@@ -6,7 +6,7 @@ class ReactionsToInjury extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Reactions to Injury'
+        headerTitle: 'Learn More'
     }
     render() {
         return (
