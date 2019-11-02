@@ -6,10 +6,10 @@ import NavigationService from '../components/NavigationService';
 
 // List of screens that will be dispalyed in this list component
 const listNames = [
-    { name: 'You Are Not Alone', navigateTo: 'NotAlone' },
-    { name: 'Reactions to Injury', navigateTo: 'Reactions'},
-    { name: 'What Are Traumatic Stress Reactions?', navigateTo: 'TraumaticStressReactions'},
-    { name: 'How Long Do Traumatic Stress Reactions Last?'},
+    { name: 'You Are Not Alone', navigateTo: 'NotAlone', accessibilityHint: 'Navigates to the you are not alone screen'},
+    { name: 'Reactions to Injury', navigateTo: 'Reactions', accessibilityHint: 'Navigates to the reactions to injury screen'},
+    { name: 'What Are Traumatic Stress Reactions?', navigateTo: 'TraumaticStressReactions', accessibilityHint: 'Navigates to the what are traumatic stress reactions screen'},
+    { name: 'How Long Do Traumatic Stress Reactions Last?', navigateTo: 'HowLong', accessibilityHint: 'Navigates to the how long do traumatic stress reactions last screen'},
 ]
 
 export default class LearnMoreList extends Component {
@@ -36,6 +36,8 @@ export default class LearnMoreList extends Component {
                                         title={l.name}
                                         titleStyle={{fontSize:19, alignContent:'stretch', color:'black'}}
                                         onPress={()=>{NavigationService.navigate(l.navigateTo)}}
+                                        accessibilityLabel= {l.navigateTo}
+                                        accessibilityHint= {l.accessibilityHint}
                                         chevron={{size:32, color: 'black'}}
                                         bottomDivider
                                     />

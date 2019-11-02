@@ -12,7 +12,7 @@ class TraumaticStressReactions extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>
-        Traumatic Stress Reactions
+          Traumatic Stress Reactions
         </Text>
         <Video
             source={require('../assets/videos/vidStressReactions.mp4')}
@@ -22,14 +22,13 @@ class TraumaticStressReactions extends Component {
             resizeMode={Video.RESIZE_MODE_COVER}
             shouldPlay
             useNativeControls
-            style={{ height: undefined, width: Dimensions.get('window').width, flex: 1, maxHeight: 254 }}
-            style={{ height: 208, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 12, borderTopWidth: 0, borderBottomWidth: 12, marginBottom:-1}}
+            style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
             accessibilityLabel="Video on what are traumatic stress reactions."
             accessibilityHint="Video on what are traumatic stress reactions."
         />
         <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                    <Text style={{ fontWeight: 'bold' }}>Stress reactions to injury are normal</Text> However there are three major reactions 
-                    to be monitoring that could be warning signs of PTSD.
+                    <Text style={{ fontWeight: 'bold' }}>Stress reactions to injury are normal</Text> However, three major reactions 
+                    should be monitored.
                 </Text>
         <ScrollView>
         <Text style={styles.paragraph}>
@@ -141,13 +140,14 @@ const styles = StyleSheet.create({
       alignSelf: 'stretch'
   },
   subTitle: {
-      color: 'black', 
-      fontWeight: 'bold', 
-      fontSize: 12, 
-      textAlign: 'center', 
-      alignSelf: 'stretch',
-      marginBottom: 3,
-      marginTop: 3
+    backgroundColor: '#2089DC', 
+    color: 'white', 
+    alignSelf: 'stretch', 
+    paddingLeft: 15, 
+    paddingRight:15, 
+    fontSize: 15, 
+    borderBottomWidth:2, 
+    borderBottomColor:'#2089DC',
   },
   paragraphTitle: {
       fontWeight: 'bold',
