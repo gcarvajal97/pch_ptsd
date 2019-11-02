@@ -19,7 +19,7 @@ class HowLongScreen extends Component {
             // renders the learn more screen
             <View style={styles.container}>
                 <Text style={styles.title}>
-                    How Long Do Traumatic Stress Reactions Last?
+                    How Long Reactions Last
                 </Text>
                 <Video
                     source={require('../assets/videos/vidHowLong.mp4')}
@@ -29,13 +29,13 @@ class HowLongScreen extends Component {
                     resizeMode={Video.RESIZE_MODE_COVER}
                     shouldPlay
                     useNativeControls
-                    style={{ height: undefined, width: Dimensions.get('window').width, flex: 1, maxHeight: 254 }}
-                    style={{ height: 208, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 12, borderTopWidth: 0, borderBottomWidth: 12, marginBottom:-1}}
+                    style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
                     accessibilityLabel="Video on how long stress reactions last"
                     accessibilityHint="Video on how long stress reactions last"
                 />
                 <Text style={styles.subTitle}>
-                    When traumatic stress reactions last for weeks or months, they can get in the way of getting back to normal and feeling like yourself again.
+                    <Text style={{ fontWeight: 'bold' }}>Stress reactions can get in the way. </Text>
+                    Professional help is important to get back to normal.
                 </Text>
                 <ScrollView>
                     <Text style={styles.paragraph}>
@@ -127,11 +127,12 @@ const styles = StyleSheet.create({
     subTitle: {
         backgroundColor: '#2089DC', 
         color: 'white', 
-        fontWeight: 'bold', 
-        fontSize: 14, 
-        textAlign: 'center', 
-        alignSelf: 'stretch',
-        marginBottom: 3,
+        alignSelf: 'stretch', 
+        paddingLeft: 15, 
+        paddingRight:15, 
+        fontSize: 15, 
+        borderBottomWidth:2, 
+        borderBottomColor:'#2089DC',
     },
     paragraphTitle: {
         fontWeight: 'bold',
