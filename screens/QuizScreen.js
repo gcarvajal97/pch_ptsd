@@ -19,8 +19,7 @@ class QuizScreen extends Component {
     return (
       <View style={styles.container}>
                 <Text>
-                    This is a test Quiz Screen{'\n'}
-                    This will be replaced by a UI and API to suggest if a child needs care.
+                    This is the Quiz Screen{'\n'}
                 </Text>
         </View>
     );
