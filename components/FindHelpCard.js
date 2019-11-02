@@ -17,7 +17,7 @@ export default class FindHelpCard extends Component {
             <Text style={{ marginBottom: 5 }}>
                 Dealing with emotional reactions and injury care can be difficult. Find ways to help your child recover. 
             </Text>
-            <CardButton onPress={()=>NavigationService.navigate('React')}
+            <CardButton onPress={()=>NavigationService.navigate('FindHelp')}
                 buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
                 title='FIND HELP' 
                 accessibilityLabel="Find Help"
