@@ -3,20 +3,20 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
 import NavigationService from './NavigationService';
 import MainScreen from '../screens/MainScreen.js';
-import FindHelpScreen from '../screens/FindHelp.js';
 import QuizScreen from '../screens/QuizScreen.js';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
 import LearnMoreList from '../screens/LearnMoreList';
 import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
 import HowLongScreen from '../learnMoreScreens/HowLongScreen.js';
+import FindHelpList from '../screens/FindHelpList';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
 const NavigationBar = createStackNavigator({
     Home: MainScreen,
     LearnMore: LearnMoreList,
-    FindHelp: FindHelpScreen,
+    FindHelp: FindHelpList,
     Quiz: QuizScreen,
     NotAlone: YoureNotAlone,
     Reactions: ReactionsToInjury,
