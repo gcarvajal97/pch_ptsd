@@ -6,16 +6,24 @@ import NavigationService from '../components/NavigationService';
 
 // List of screens that will be dispalyed in this list component
 const listNames = [
-    { name: 'Quick Tips', navigateTo: '', accessibilityHint: ''},
-    { name: 'How to Talk with Your Child', navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: 'How to Deal with New Fears and Worries', navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: "Working with Your Child's Healthcare Team", navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: 'Injury and Pain Care', navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: 'When to Get Outside Help', navigateTo: 'WhenToGetHelp', accessibilityHint: 'Navigates to...'},
-    { name: "Self Care", navigateTo: '', accessibilityHint: 'Navigates to...'},
+    { 
+        name: 'When to look for outside help', 
+        navigateTo: '', 
+        accessibilityHint: 'Navigates to When to look for outside help'
+    },
+    { 
+        name: 'How to loof for professional help or counseling for your child', 
+        navigateTo: '', 
+        accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page'
+    },
+    {  
+        name: 'When and How to look for more help for yourself', 
+        navigateTo: '', 
+        accessibilityHint: 'Navigates to When and How to look for more help for yourself'
+    }
 ]
 
-export default class FindHelpList extends Component {
+export default class WhenToGetOutsideHelpList extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
@@ -26,7 +34,7 @@ export default class FindHelpList extends Component {
             <View>
                 <Card containerStyle={{margin:5}}>
                     <Text style={{textAlign: 'center', backgroundColor:'#2089DC', fontSize:20, color:'white', padding:10, paddingVertical:10, margin:0}}>
-                        FIND WAYS TO HELP YOUR CHILD RECOVER
+                        WHEN TO GET OUTSIDE HELP
                     </Text>
                     <Divider style={{backgroundColor:'black', height:1, marginBottom:-1}}/>
                     <View>
