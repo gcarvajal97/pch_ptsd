@@ -10,6 +10,7 @@ import LearnMoreList from '../screens/LearnMoreList';
 import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
 import HowLongScreen from '../learnMoreScreens/HowLongScreen.js';
 import FindHelpList from '../screens/FindHelpList';
+import SelfCare from '../findHelpScreens/SelfCare.js';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
@@ -22,6 +23,7 @@ const NavigationBar = createStackNavigator({
     Reactions: ReactionsToInjury,
     TraumaticStressReactions: TraumaticStressReactions,
     HowLong: HowLongScreen,
+    SelfCare: SelfCare,
   });
   
   // New in this version of React Native, must be created and reference/returned

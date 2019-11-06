@@ -12,7 +12,7 @@ const listNames = [
     { name: "Working with Your Child's Healthcare Team", navigateTo: '', accessibilityHint: 'Navigates to...'},
     { name: 'Injury and Pain Care', navigateTo: '', accessibilityHint: 'Navigates to...'},
     { name: 'When to Get Outside Help', navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: "Self Care", navigateTo: '', accessibilityHint: 'Navigates to...'},
+    { name: "Self Care", navigateTo: 'SelfCare', accessibilityHint: 'Navigates to the Self Care screen'},
 ]
 
 export default class FindHelpList extends Component {
