@@ -12,10 +12,10 @@ class DealWithWorries extends Component {
         return (
             <View style={styles.container}>
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
-                    Video Header
+                    Dealing With Fears and Worries
                 </Text>
                 <Video
-                    source={require('../assets/videos/vidAlone.mp4')}
+                    source={require('../assets/videos/vidDealWithWorries.mp4')}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
@@ -26,7 +26,7 @@ class DealWithWorries extends Component {
                     accessibilityHint="Video on how how injury is common"
                 />
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                    <Text style={{ fontWeight: 'bold' }}>Text bold</Text> The remaining caption text
+                    <Text style={{ fontWeight: 'bold' }}>New fears or worries?</Text> Watch the video and read below to learn more about these symptoms.
                 </Text>
                 <ScrollView>
                 <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:4, marginBottom:3, color:'#2089DC'}}>
