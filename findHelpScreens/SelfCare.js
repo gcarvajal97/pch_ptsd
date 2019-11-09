@@ -16,7 +16,7 @@ class SelfCare extends Component {
             </Text>
             <Image
                 source={require('../assets/SelfCare.jpg')}
-                style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+                style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 0, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
                 accessibilityLabel="Photo of worried mother on phone."
                 accessibilityHint="Photo of worried mother on phone."
             />
@@ -28,16 +28,16 @@ class SelfCare extends Component {
             </Text>
         
         <ScrollView>
-            <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left', marginLeft:5, marginTop:4, marginBottom:3, color:'#2089DC'}}>
+            <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left', marginLeft:5, marginTop:4, marginBottom:0, color:'#2089DC'}}>
                 In addition to all the things you do to help your child, it's very important to take good care of yourself.
             </Text>
             <Text style={styles.paragraph}>
-                It is harder to help your child if you are feeling really worried, upset, or overwhelmed. {"\n\n"}
+                It is harder to help your child if you are feeling really worried, upset, or overwhelmed. {"\n"}
                 Other parents have said:
             </Text>
-            <Text style={styles.bullet}>"'I can't stop thinking about what happened.'"</Text>
-            <Text style={styles.bullet}>"'I get upset when something reminds me of it.'"</Text>
-            <Text style={styles.bullet}>"'I worry a lot more now about my child being safe.'"{"\n"}</Text>
+            <Text style={styles.bullet}>"I can't stop thinking about what happened."</Text>
+            <Text style={styles.bullet}>"I get upset when something reminds me of it."</Text>
+            <Text style={styles.bullet}>"I worry a lot more now about my child being safe."</Text>
             <Text style={styles.paragraph}>
                 This section has information on some of the reactions you may notice in yourself:
             </Text>      
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
       elevation: 4,
     },
     bullet: {
-        //marginVertical:1, 
+        marginVertical:1, 
         marginHorizontal:18, 
         textAlign:'left', 
         alignSelf:'stretch', 
