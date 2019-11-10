@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
-import { Card, ListItem, Divider } from 'react-native-elements';
+import { Text, View, StyleSheet } from 'react-native';
 
 import NavigationService from '../components/NavigationService';
+import WhenToLook from '../outsideHelpScreens/WhenToLook'
 
 // List of screens that will be dispalyed in this list component
 const listNames = [
@@ -12,7 +12,7 @@ const listNames = [
         accessibilityHint: 'Navigates to When to look for outside help'
     },
     { 
-        name: 'How to loof for professional help or counseling for your child', 
+        name: 'How to look for professional help or counseling for your child', 
         navigateTo: '', 
         accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page'
     },
@@ -30,34 +30,31 @@ export default class WhenToGetOutsideHelpList extends Component {
         headerTitle: 'Find Help'
     }
     render() {
-        return (
-            <View>
-                <Card containerStyle={{margin:5}}>
-                    <Text style={{textAlign: 'center', backgroundColor:'#2089DC', fontSize:20, color:'white', padding:10, paddingVertical:10, margin:0}}>
-                        WHEN TO GET OUTSIDE HELP
-                    </Text>
-                    <Divider style={{backgroundColor:'black', height:1, marginBottom:-1}}/>
-                    <View>
-                        {
-                            listNames.map((l, i) => {
-                                return (
-                                    <ListItem
-                                        containerStyle={{paddingLeft:14, paddingVertical:12, paddingRight:0}}
-                                        key={i}
-                                        title={l.name}
-                                        titleStyle={{fontSize:19, alignContent:'stretch', color:'black'}}
-                                        onPress={()=>{NavigationService.navigate(l.navigateTo)}}
-                                        accessibilityLabel= {l.navigateTo}
-                                        accessibilityHint= {l.accessibilityHint}
-                                        chevron={{size:32, color: 'black'}}
-                                        bottomDivider
-                                    />
-                                );
-                            })
-                        }
-                    </View>
-                </Card>
-            </View>
-        );
+        return (<WhenToLook/>);
     }
 }
+
+const styles = StyleSheet.create({
+    button: { 
+        borderRadius: 0, 
+        marginLeft: 0, 
+        marginRight: 0, 
+        marginBottom: 0 
+    },
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        margin: 10
+    },
+    wrapperCollapsibleList: {
+        flex: 1,
+        marginTop: 20,
+        backgroundColor: "#FFF",
+        borderRadius: 5
+      },
+      collapsibleItem: {
+        borderBottomWidth: StyleSheet.hairlineWidth,
+        borderColor: "#CCC",
+        padding: 10
+      }
+})
