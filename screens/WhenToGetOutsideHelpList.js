@@ -11,7 +11,7 @@ import WhenToLook from '../outsideHelpScreens/WhenToLook'
 const PAGES = [{
         name: 'When to look for outside help',
         content: <WhenToLook /> ,
-        accessibilityHint: 'Navigates to When to look for outside help'
+        accessibilityHint: 'Navigates to When to look for outside help Page'
     },
     {
         name: 'How to look for professional help or counseling for your child',
@@ -21,7 +21,7 @@ const PAGES = [{
     {
         name: 'When and How to look for more help for yourself',
         navigateTo: '',
-        accessibilityHint: 'Navigates to When and How to look for more help for yourself'
+        accessibilityHint: 'Navigates to When and How to look for more help for yourself Page'
     }
 ]
 
