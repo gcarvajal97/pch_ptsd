@@ -36,6 +36,7 @@ export default class LearnMoreList extends Component {
                                         title={l.name}
                                         titleStyle={{fontSize:19, alignContent:'stretch', color:'black'}}
                                         onPress={()=>{NavigationService.navigate(l.navigateTo)}}
+                                        accessible
                                         accessibilityLabel= {l.navigateTo}
                                         accessibilityHint= {l.accessibilityHint}
                                         chevron={{size:32, color: 'black'}}

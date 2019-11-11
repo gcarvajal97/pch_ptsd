@@ -8,8 +8,10 @@ import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
 import LearnMoreList from '../mainAndLists/LearnMoreList';
 import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
-import HowLongScreen from '../learnMoreScreens/HowLongScreen.js';
+import HowLongScreen from '../learnMoreScreens/HowLongScreen';
 import FindHelpList from '../mainAndLists/FindHelpList';
+import HowToTalk from '../findHelpScreens/HowToTalk';
+import QuickTips from '../findHelpScreens/QuickTips';
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
 import HealthcareTeam from '../findHelpScreens/HealthcareTeam';
 
@@ -26,6 +28,8 @@ const NavigationBar = createStackNavigator({
     HowLong: HowLongScreen,
     DealWorries: DealWithWorries,
     HealthTeam: HealthcareTeam,
+    HowToTalk: HowToTalk,
+    QuickTips: QuickTips,
   });
   
   // New in this version of React Native, must be created and reference/returned
