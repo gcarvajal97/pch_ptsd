@@ -6,13 +6,13 @@ import NavigationService from '../components/NavigationService';
 
 // List of screens that will be dispalyed in this list component
 const listNames = [
-    { name: 'Quick Tips', navigateTo: 'QuickTips', accessibilityHint: 'Navigates to...'},
-    { name: 'How to Talk with Your Child', navigateTo: 'HowToTalk', accessibilityHint: 'Navigates to..'},
-    { name: 'How to Deal with New Fears and Worries', navigateTo: 'DealWorries', accessibilityHint: 'Navigates to...'},
-    { name: "Working with Your Child's Healthcare Team", navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: 'Injury and Pain Care', navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: 'When to Get Outside Help', navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: "Self Care", navigateTo: '', accessibilityHint: 'Navigates to...'},
+    { name: 'Quick Tips', navigateTo: 'QuickTips', accessibilityHint: 'Navigates to the Quick Tips page'},
+    { name: 'How to Talk with Your Child', navigateTo: '', accessibilityHint: 'Navigates to How to Talk with Your Child'},
+    { name: 'How to Deal with New Fears and Worries', navigateTo: 'DealWorries', accessibilityHint: 'Navigates to How to Deal With Near Fears and Worries'},
+    { name: "Working with Your Child's Healthcare Team", navigateTo: 'HealthTeam', accessibilityHint: "Navigates to Working with Your Child's Healthcare Team"},
+    { name: 'Injury and Pain Care', navigateTo: '', accessibilityHint: 'Navigates to Injury and Pain Care'},
+    { name: 'When to Get Outside Help', navigateTo: '', accessibilityHint: 'Navigates to When to Get Outside Help'},
+    { name: "Self Care", navigateTo: '', accessibilityHint: 'Navigates to Self Care'},
 ]
 
 export default class FindHelpList extends Component {
