@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
 import NavigationService from './NavigationService';
-import MainScreen from '../screens/MainScreen.js';
-import QuizScreen from '../screens/QuizScreen.js';
+import MainScreen from '../mainAndLists/MainScreen';
+import QuizScreen from '../mainAndLists/QuizScreen';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
-import LearnMoreList from '../screens/LearnMoreList';
+import LearnMoreList from '../mainAndLists';
 import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
 import HowLongScreen from '../learnMoreScreens/HowLongScreen.js';
-import FindHelpList from '../screens/FindHelpList';
+import FindHelpList from '../mainAndLists/FindHelpList';
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
