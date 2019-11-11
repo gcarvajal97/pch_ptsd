@@ -6,7 +6,7 @@ import NavigationService from '../components/NavigationService';
 
 // List of screens that will be dispalyed in this list component
 const listNames = [
-    { name: 'Quick Tips', navigateTo: 'QuickTips', accessibilityHint: 'Navigates to a page of Quick Tips'},
+    { name: 'Quick Tips', navigateTo: 'QuickTips', accessibilityHint: 'Navigates to the Quick Tips page'},
     { name: 'How to Talk with Your Child', navigateTo: '', accessibilityHint: 'Navigates to How to Talk with Your Child'},
     { name: 'How to Deal with New Fears and Worries', navigateTo: 'DealWorries', accessibilityHint: 'Navigates to How to Deal With Near Fears and Worries'},
     { name: "Working with Your Child's Healthcare Team", navigateTo: 'HealthTeam', accessibilityHint: "Navigates to Working with Your Child's Healthcare Team"},
