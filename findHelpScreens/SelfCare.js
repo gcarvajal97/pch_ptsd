@@ -1,17 +1,89 @@
 import React, { Component } from "react";
-import { View, StyleSheet, Text, ScrollView, Image } from "react-native";
-import { Video } from 'expo-av';
+import { View, StyleSheet, Text, ScrollView, Image, Switch, TouchableOpacity } from "react-native";
+import * as Animatable from 'react-native-animatable';
+import Collapsible from 'react-native-collapsible';
+import Accordion from 'react-native-collapsible/Accordion';
+
+const BACON = 'Blah, blah, blah...'
+
+const CONTENT = [
+    {
+        title: 'Re-Experiencing: Reliving what happened',
+        content: BACON,
+        accessibilityHint: 'Navigates to Re-Experiencing: Reliving what happened',
+    },
+        {
+        title: 'Avoidance: Staying away from reminders',
+        content: BACON,
+        accessibilityHint: 'Navigates to Avoidance: Staying away from reminders',
+    },
+        {
+        title: 'Hyper-Arousal: Feeling anxious or jumpy',
+        content: BACON,
+        accessibilityHint: 'Navigates to Hyper-Arousal: Feeling anxious or jumpy',
+    },
+        {
+        title: 'Self-Care for Parents',
+        content: BACON,
+        accessibilityHint: 'Navigates to Self-Care for Parents',
+    },
+];
 
 class SelfCare extends Component {
-  
-  static navigationOptions = {
-    headerTitle: 'Find Help'
-  }
+
+    state = {
+        activeSections: [],
+        collapse: true,
+        multipleSelect: false,
+    };
+
+    toggleExpanded = () => {
+        this.setState({ collapsed: !this.state.collapsed });
+    };
+
+    setSections = sections => {
+        this.setState({
+            activeSections: sections.includes(undefined) ? [] : sections,
+        });
+    };
+
+    renderHeader = (section, _, isActive) => {
+        return (
+          <Animatable.View
+            duration={400}
+            style={[styles.header, isActive ? styles.active : styles.inactive]}
+            transition="backgroundColor"
+          >
+            <Text style={styles.headerText}>{section.title}</Text>
+          </Animatable.View>
+        );
+    };
+    
+    renderContent(section, _, isActive) {
+        return (
+          <Animatable.View
+            duration={400}
+            style={[styles.content, isActive ? styles.active : styles.inactive]}
+            transition="backgroundColor"
+          >
+            <Animatable.Text animation={isActive ? 'bounceIn' : undefined}>
+              {section.content}
+            </Animatable.Text>
+          </Animatable.View>
+        );
+    }
+
+    static navigationOptions = {
+        headerTitle: 'Find Help'
+    }
 
   render() {
+
+    const { multipleSelect, activeSections } = this.state;
+
     return (
         <View style={styles.container}>
-            <Text style={{ backgroundColor: '#2089DC', color: 'white', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
+            <Text style={{ backgroundColor: 'white', color: '#2089DC', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
                 Self Care
             </Text>
             <Image
@@ -20,12 +92,6 @@ class SelfCare extends Component {
                 accessibilityLabel="Photo of worried mother on phone."
                 accessibilityHint="Photo of worried mother on phone."
             />
-            <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                <Text style={{ fontWeight: 'bold' }}>
-                    Reactions you may notice in yourself. 
-                </Text> 
-                {"\n"}It is very important to take good care of yourself.
-            </Text>
         
         <ScrollView>
             <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left', marginLeft:5, marginTop:4, marginBottom:0, color:'#2089DC'}}>
@@ -39,8 +105,28 @@ class SelfCare extends Component {
             <Text style={styles.bullet}>"I get upset when something reminds me of it."</Text>
             <Text style={styles.bullet}>"I worry a lot more now about my child being safe."</Text>
             <Text style={styles.paragraph}>
-                This section has information on some of the reactions you may notice in yourself:
-            </Text>      
+                {"\n"}This section has information on some of the reactions you may notice in yourself:
+            </Text>  
+
+            <Collapsible collapsed={this.state.collapsed} align="center">
+                <View style={styles.content}>
+                    <Text>
+                        Bacon
+                    </Text>
+                </View>
+            </Collapsible>
+
+            <Accordion
+                activeSections={activeSections}
+                sections={CONTENT}
+                touchableComponent={TouchableOpacity}
+                expandMultiple={multipleSelect}
+                renderHeader={this.renderHeader}
+                renderContent={this.renderContent}
+                duration={400}
+                onChange={this.setSections}
+            />
+
         </ScrollView>
         </View>
     );
@@ -69,7 +155,7 @@ const styles = StyleSheet.create({
         marginHorizontal:18, 
         textAlign:'left', 
         alignSelf:'stretch', 
-        fontWeight:'bold',
+        fontStyle:'italic',
         fontSize:14,
         paddingTop: 4,
     },
@@ -80,5 +166,24 @@ const styles = StyleSheet.create({
         paddingHorizontal:5,
         fontSize: 14,
         marginTop: 5,
+    },
+    header: {
+        backgroundColor: '#F5FCFF',
+        padding: 10,
+    },
+    headerText: {
+        textAlign: 'center',
+        fontSize: 14,
+        fontWeight: 'bold',
+    },
+    content: {
+        padding: 20,
+        backgroundColor: '#fff',
+    },
+    active: {
+        backgroundColor: 'rgba(255,255,255,1)',
+    },
+    inactive: {
+        backgroundColor: 'rgba(245,252,255,1)',
     },
 });
