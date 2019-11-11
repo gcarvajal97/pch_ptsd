@@ -8,8 +8,10 @@ import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
 import LearnMoreList from '../mainAndLists/LearnMoreList';
 import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
-import HowLongScreen from '../learnMoreScreens/HowLongScreen.js';
+import HowLongScreen from '../learnMoreScreens/HowLongScreen';
 import FindHelpList from '../mainAndLists/FindHelpList';
+import HowToTalk from '../findHelpScreens/HowToTalk';
+import QuickTips from '../findHelpScreens/QuickTips';
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
@@ -23,6 +25,8 @@ const NavigationBar = createStackNavigator({
     Reactions: ReactionsToInjury,
     TraumaticStressReactions: TraumaticStressReactions,
     HowLong: HowLongScreen,
+    HowToTalk: HowToTalk,
+    QuickTips: QuickTips,
     DealWorries: DealWithWorries
   });
   
