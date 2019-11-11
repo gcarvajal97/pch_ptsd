@@ -10,7 +10,7 @@ const listNames = [
     { name: 'How to Talk with Your Child', navigateTo: '', accessibilityHint: 'Navigates to...'},
     { name: 'How to Deal with New Fears and Worries', navigateTo: '', accessibilityHint: 'Navigates to...'},
     { name: "Working with Your Child's Healthcare Team", navigateTo: '', accessibilityHint: 'Navigates to...'},
-    { name: 'Injury and Pain Care', navigateTo: '', accessibilityHint: 'Navigates to...'},
+    { name: 'Injury and Pain Care', navigateTo: 'InjuryPainCare', accessibilityHint: 'Navigates to...'},
     { name: 'When to Get Outside Help', navigateTo: '', accessibilityHint: 'Navigates to...'},
     { name: "Self Care", navigateTo: '', accessibilityHint: 'Navigates to...'},
 ]
@@ -39,6 +39,7 @@ export default class FindHelpList extends Component {
                                         title={l.name}
                                         titleStyle={{fontSize:19, alignContent:'stretch', color:'black'}}
                                         onPress={()=>{NavigationService.navigate(l.navigateTo)}}
+                                        accessible
                                         accessibilityLabel= {l.navigateTo}
                                         accessibilityHint= {l.accessibilityHint}
                                         chevron={{size:32, color: 'black'}}
