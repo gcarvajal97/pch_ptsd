@@ -1,8 +1,14 @@
-import { React, Component } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
-import { Collapsible } from 'react-native-collapsible';
+import React, { Component } from 'react';
+import { Switch,
+    ScrollView,
+    StyleSheet,
+    Text,
+    View,
+    TouchableOpacity, } from 'react-native';
+import Constants from 'expo-constants';
+import Collapsible  from 'react-native-collapsible';
 import * as Animatable from 'react-native-animatable';
-import { Accordion } from 'react-native-collapsible/Accordion';
+import Accordion from 'react-native-collapsible/Accordion';
 
 import NavigationService from '../components/NavigationService';
 import WhenToLook from '../outsideHelpScreens/WhenToLook'
@@ -25,16 +31,26 @@ const PAGES = [{
     }
 ]
 
-const PAGE_LABELS = [{
-    title: "When to look for outside help",
-    value: 0
-}]
+const PAGE_LABELS = [
+    {
+        title: "When to look for outside help",
+        value: 0
+    },
+    {
+        title: "How to look for professional help or counseling for your child",
+        value: 1
+    },
+    {
+        title: "When and How to look for more help for yourself",
+        value: 2
+    },
+]
 
 export default class WhenToGetOutsideHelpList extends Component {
     state = {
         activeSections: [],
         collapsed: true,
-        multipleSelect: false,
+        multipleSelect: true,
     };
 
     toggleExpanded = () => {
@@ -50,13 +66,19 @@ export default class WhenToGetOutsideHelpList extends Component {
     };
 
     renderHeader = (section, _, isActive) => {
+        let active;
+        PAGE_LABELS.forEach((pageLabel) => {
+            if (pageLabel.title == section.name) {
+                active = pageLabel.value
+            }
+        })
         return (
           <Animatable.View
             duration={400}
             style={[styles.header, isActive ? styles.active : styles.inactive]}
             transition="backgroundColor"
           >
-            <Text style={styles.headerText}>{section.title}</Text>
+            <Text style={styles.headerText}>{section.name} {!this.state.activeSections.includes(active) ? "\t[+]" : "\t[-]"}</Text>
           </Animatable.View>
         );
       };
@@ -68,9 +90,7 @@ export default class WhenToGetOutsideHelpList extends Component {
             style={[styles.content, isActive ? styles.active : styles.inactive]}
             transition="backgroundColor"
           >
-            <Animatable.Text animation={isActive ? 'bounceIn' : undefined}>
               {section.content}
-            </Animatable.Text>
           </Animatable.View>
         );
       }
@@ -80,9 +100,45 @@ export default class WhenToGetOutsideHelpList extends Component {
         headerTitle: 'Find Help'
     }
     render() {
-        const { multipleSelect, ctiveSections } = this.state;
+        const { multipleSelect, activeSections } = this.state;
 
-        return ( <WhenToLook /> );
+        return ( 
+            <View style={styles.container}>
+        <ScrollView contentContainerStyle={{ paddingTop: 30 }}>
+          <Text style={styles.title}>When To Get Outside Help</Text>
+
+          <View style={styles.selectors}>
+            {PAGES.map(selector => (
+              <TouchableOpacity
+                key={selector.title}
+                onPress={() => this.setSections([selector.value])}
+              >
+                <View style={styles.selector}>
+                  <Text
+                    style={
+                      activeSections.includes(selector.value) &&
+                      styles.activeSelector
+                    }
+                  >
+                    {selector.title}
+                  </Text>
+                </View>
+              </TouchableOpacity>
+            ))}
+          </View>
+
+          <Accordion
+            activeSections={activeSections}
+            sections={PAGES}
+            touchableComponent={TouchableOpacity}
+            expandMultiple={multipleSelect}
+            renderHeader={this.renderHeader}
+            renderContent={this.renderContent}
+            onChange={this.setSections}
+          />
+        </ScrollView>
+      </View>
+        );
     }
 }
 
@@ -90,7 +146,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#F5FCFF',
-        paddingTop: 10,
+        paddingTop: Constants.statusBarHeight,
     },
     title: {
         textAlign: 'center',
@@ -103,7 +159,6 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     headerText: {
-        textAlign: 'center',
         fontSize: 16,
         fontWeight: '500',
     },
@@ -133,15 +188,5 @@ const styles = StyleSheet.create({
         fontSize: 14,
         fontWeight: '500',
         padding: 10,
-    },
-    multipleToggle: {
-        flexDirection: 'row',
-        justifyContent: 'center',
-        marginVertical: 30,
-        alignItems: 'center',
-    },
-    multipleToggle__title: {
-        fontSize: 16,
-        marginRight: 8,
     },
 });
