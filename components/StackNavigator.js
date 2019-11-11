@@ -2,16 +2,17 @@ import React, {Component} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
 import NavigationService from './NavigationService';
-import MainScreen from '../screens/MainScreen';
-import QuizScreen from '../screens/QuizScreen';
+import MainScreen from '../mainAndLists/MainScreen';
+import QuizScreen from '../mainAndLists/QuizScreen';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
-import LearnMoreList from '../screens/LearnMoreList';
+import LearnMoreList from '../mainAndLists/LearnMoreList';
 import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
 import HowLongScreen from '../learnMoreScreens/HowLongScreen';
-import FindHelpList from '../screens/FindHelpList';
+import FindHelpList from '../mainAndLists/FindHelpList';
 import HowToTalk from '../findHelpScreens/HowToTalk';
 import QuickTips from '../findHelpScreens/QuickTips';
+import DealWithWorries from '../findHelpScreens/DealWithWorries';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
@@ -26,6 +27,7 @@ const NavigationBar = createStackNavigator({
     HowLong: HowLongScreen,
     HowToTalk: HowToTalk,
     QuickTips: QuickTips,
+    DealWorries: DealWithWorries
   });
   
   // New in this version of React Native, must be created and reference/returned
