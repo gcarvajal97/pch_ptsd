@@ -6,7 +6,7 @@ import MainScreen from '../mainAndLists/MainScreen';
 import QuizScreen from '../mainAndLists/QuizScreen';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
-import LearnMoreList from '../mainAndLists';
+import LearnMoreList from '../mainAndLists/LearnMoreList';
 import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
 import HowLongScreen from '../learnMoreScreens/HowLongScreen.js';
 import FindHelpList from '../mainAndLists/FindHelpList';
