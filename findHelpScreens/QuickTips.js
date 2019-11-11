@@ -12,8 +12,8 @@ class QuickTips extends Component {
     return (
       <View style={styles.container}> 
         <ScrollView>
-          <QuickTipsCard />
-            <Text style={styles.paragraphTitle}>
+          <QuickTipsCard/>
+            <Text style={styles.paragraphTitleTop}>
             1. Let your child know that they are safe.
             </Text>
             <Text style={styles.paragraph}>
@@ -109,6 +109,16 @@ const styles = StyleSheet.create({
       marginBottom:3,
       color:'#2089DC'
   },
+  paragraphTitleTop: {
+    fontWeight: 'bold',
+    fontSize:16,
+    alignSelf:'stretch',
+    textAlign:'left',
+    marginLeft:5,
+    marginTop:10,
+    marginBottom:3,
+    color:'#2089DC'
+},
   paragraph: {
       alignSelf:"center", 
       paddingVertical:1, 
