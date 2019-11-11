@@ -11,7 +11,9 @@ export default class QuizCard extends Component {
         return(
         <Card
             featuredTitle="Quick Tips"
-            image={require('../assets/QuickTips.jpg')}>
+            image={require('../assets/QuickTips.jpg')}
+            accessible
+            accessibilityLabel="Photo of adult sqatting down to speak to child.">
             <Text style={{ marginBottom: 5 }}>
                 6 quick tips to help you and your child when overcoming an injury. 
             </Text>
