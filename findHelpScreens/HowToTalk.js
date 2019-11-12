@@ -30,6 +30,9 @@ class HowToTalk extends Component {
                     shouldPlay
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+                    accessible
+                    accessibilityLabel="Video on how how to talk with your child"
+                    accessibilityHint="Video on how how to talk with your child"
                 />
                 <Text style={styles.subTitle}>
                   <Text style={{ fontWeight: 'bold' }}>It's not always easy to know how to talk with your child. </Text> 
