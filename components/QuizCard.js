@@ -12,13 +12,15 @@ export default class QuizCard extends Component {
         <Card
             featuredTitle="Rate Your Child's Reactions"
             image={require('../assets/QuizRateReactions.jpg')}
-            accessibilityLabel="Phoro of child covering her eyes with her hands.">
+            accessible
+            accessibilityLabel="Photo of child covering her eyes with her hands.">
             <Text style={{ marginBottom: 5 }}>
                 An injury or accident can be a scary or stressful experience. Take a quick quiz to measure your child's traumatic stress.
             </Text>
             <CardButton onPress={()=>NavigationService.navigate('Quiz')}
                 buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
                 title='TAKE THE QUIZ' 
+                accessible
                 accessibilityLabel="Take the Quiz"
                 accessibilityHint="Navigates to the quiz screen"/>
         </Card>
