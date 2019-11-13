@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, StyleSheet, Text, ScrollView, Image, Switch, TouchableOpacity } from "react-native";
+import { View, StyleSheet, Text, ScrollView, Image, TouchableOpacity } from "react-native";
 import * as Animatable from 'react-native-animatable';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
@@ -10,21 +10,25 @@ const CONTENT = [
     {
         title: 'Re-Experiencing: Reliving what happened',
         content: BACON,
+        value: 0,
         accessibilityHint: 'Navigates to Re-Experiencing: Reliving what happened',
     },
         {
         title: 'Avoidance: Staying away from reminders',
         content: BACON,
+        value: 1,
         accessibilityHint: 'Navigates to Avoidance: Staying away from reminders',
     },
         {
         title: 'Hyper-Arousal: Feeling anxious or jumpy',
         content: BACON,
+        value: 2,
         accessibilityHint: 'Navigates to Hyper-Arousal: Feeling anxious or jumpy',
     },
         {
         title: 'Self-Care for Parents',
         content: BACON,
+        value: 3,
         accessibilityHint: 'Navigates to Self-Care for Parents',
     },
 ];
@@ -48,13 +52,20 @@ class SelfCare extends Component {
     };
 
     renderHeader = (section, _, isActive) => {
+        let active;
+        CONTENT.forEach((pageLabel) => {
+            if (pageLabel.title == section.title) {
+                active = pageLabel.value
+            }
+        })
         return (
           <Animatable.View
             duration={400}
             style={[styles.header, isActive ? styles.active : styles.inactive]}
             transition="backgroundColor"
           >
-            <Text style={styles.headerText}>{section.title}</Text>
+            <Text></Text>
+            <Text style={styles.headerText}> {!this.state.activeSections.includes(active) ? "[+]\t" : "[-]\t"} {section.title}</Text>
           </Animatable.View>
         );
     };
@@ -172,7 +183,7 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     headerText: {
-        textAlign: 'center',
+        textAlign: 'left',
         fontSize: 14,
         fontWeight: 'bold',
     },
