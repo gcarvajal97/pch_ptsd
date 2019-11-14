@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import { View, StyleSheet, Text, ScrollView, Image, TouchableOpacity } from "react-native";
+import { View, StyleSheet, Text, ScrollView, Image, ImageBackground, TouchableOpacity } from "react-native";
 import * as Animatable from 'react-native-animatable';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
+
+import SelfCareCard from '../findHelpScreens/SelfCareCard';
 
 const BACON = 'Blah, blah, blah...'
 
@@ -94,17 +96,11 @@ class SelfCare extends Component {
 
     return (
         <View style={styles.container}>
-            <Text style={{ backgroundColor: 'white', color: '#2089DC', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
-                Self Care
-            </Text>
-            <Image
-                source={require('../assets/SelfCare.jpg')}
-                style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 0, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
-                accessibilityLabel="Photo of worried mother on phone."
-                accessibilityHint="Photo of worried mother on phone."
-            />
+            
+            <SelfCareCard/>
         
         <ScrollView>
+        
             <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left', marginLeft:5, marginTop:4, marginBottom:0, color:'#2089DC'}}>
                 In addition to all the things you do to help your child, it's very important to take good care of yourself.
             </Text>
@@ -149,7 +145,7 @@ export default SelfCare;
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      alignItems: 'center',
+      alignItems: 'stretch',
       margin: 10,
       backgroundColor: 'white',
       shadowColor: "#000",
