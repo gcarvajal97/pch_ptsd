@@ -5,13 +5,14 @@ import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
 
 import SelfCareCard from '../findHelpScreens/SelfCareCard';
+import RelivingWhat from '../selfCareScreens/RelivingWhat';
 
 const BACON = 'Blah, blah, blah...'
 
 const CONTENT = [
     {
         title: 'Re-Experiencing: Reliving what happened',
-        content: BACON,
+        content: <RelivingWhat/>,
         value: 0,
         accessibilityHint: 'Navigates to Re-Experiencing: Reliving what happened',
     },
