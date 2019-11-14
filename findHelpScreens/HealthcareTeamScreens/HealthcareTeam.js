@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
   }
 });
 
-class QuizScreen extends Component {
+class HealthcareTeam extends Component {
   
   static navigationOptions = {
     headerTitle: 'Find Help'
@@ -30,4 +30,4 @@ class QuizScreen extends Component {
   }
 }
 
-export default QuizScreen;
+export default HealthcareTeam;
