@@ -95,17 +95,16 @@ export default class InjuryPainCare extends Component {
         <ScrollView contentContainerStyle={{ paddingTop: 30 }}>
           <InjuryPainCareCard/>
             <Text style={styles.paragraph}>
-                Vestibulum vestibulum orci id lectus euismod luctus. Duis 
-            pharetra libero leo, semper varius nibh luctus non. Mauris id magna euismod, pretium eros a, 
-            pretium felis. Curabitur vitae magna ut tortor aliquam elementum. In sit amet ex nec orci 
-            dignissim porta vitae at lacus. Praesent vel tincidunt tellus, non volutpat ipsum. Nam 
-            aliquet nisl libero, fermentum tempus dui rutrum quis. Donec augue nibh, interdum eget odio 
-            et, lacinia mollis est. Phasellus venenatis, magna in porta euismod, lectus erat pretium dui, 
-            non pulvinar nibh felis a velit. Etiam mollis leo neque, id fermentum purus sollicitudin ut. 
-            Duis quis dui sit amet arcu finibus egestas. Ut ac auctor ipsum. Proin a ipsum quis elit 
-            varius consequat vel non turpis. Vivamus accumsan magna metus, euismod lobortis ipsum vulputate 
-            quis. Curabitur enim eros, luctus sed ligula quis, rhoncus commodo massa. Aenean quis iaculis 
-            purus.
+              This section of the website offers some general information about common injuries and tips for 
+              home management, as well as helpful hints for pain management and injury prevention.
+
+              Remember, your healthcare provider is the best source for information regarding your child's 
+              injury. If you have specific questions or concerns about your child's injury or treatment, please 
+              make sure to talk with your healthcare provider. If any information in this website is different 
+              from what your healthcare provider recommends, follow your healthcare provider's advice.
+
+              Full recovery goes beyond physical healing - learn more about your child's emotional recovery 
+              after an injury, and how you can help.
             </Text>
           <View style={styles.selectors}>
             {PAGES.map(selector => (
