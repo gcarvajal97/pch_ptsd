@@ -13,7 +13,7 @@ import FindHelpList from '../mainAndLists/FindHelpList';
 import HowToTalk from '../findHelpScreens/HowToTalk';
 import QuickTips from '../findHelpScreens/QuickTips';
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
-import HealthcareTeam from '../findHelpScreens/HealthcareTeam';
+import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareTeam';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
