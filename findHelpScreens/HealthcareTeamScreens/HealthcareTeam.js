@@ -76,6 +76,11 @@ export default class HealthcareTeam extends Component {
             <View style={styles.container}>
         <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
             <Text style={styles.paragraph}>
+            You have the very important job of making sure your child gets the best medical care for his physical injuries. 
+            You are also the best person to monitor how your child is coping, and when some extra help might be needed.
+
+            In the first few days after an injury, many kids (and parents) feel a little upset, jumpy or worried, 
+            and can use a little extra support from family and friends.
             </Text>
           <Accordion
             activeSections={activeSections}
