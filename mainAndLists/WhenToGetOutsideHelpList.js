@@ -78,7 +78,7 @@ export default class WhenToGetOutsideHelpList extends Component {
             style={[styles.header, isActive ? styles.active : styles.inactive]}
             transition="backgroundColor"
           >
-            <Text style={styles.headerText}>{section.name} {!this.state.activeSections.includes(active) ? "\t[+]" : "\t[-]"}</Text>
+            <Text style={styles.headerText}>{!this.state.activeSections.includes(active) ? "\t[+]" : "\t[-]"} {section.name}</Text>
           </Animatable.View>
         );
       };
@@ -103,39 +103,46 @@ export default class WhenToGetOutsideHelpList extends Component {
         const { multipleSelect, activeSections } = this.state;
 
         return ( 
-            <View style={styles.container}>
-        <ScrollView contentContainerStyle={{ paddingTop: 30 }}>
-          <Text style={styles.title}>When To Get Outside Help</Text>
+          <View>
+            <ScrollView contentContainerStyle={{ paddingTop: 30 }}>
+            <Text style={styles.title}>When To Get Outside Help</Text>
+            <Text style={styles.paragraph}>You have the very important job of making 
+            sure your child gets the best medical care for his physical injuries.
+            You are also the best person to monitor how your child is coping, 
+            and when some extra help, such as trauma counseling, might be needed. 
+            In the first few days after an injury, many kids (and parents) feel a 
+            little upset, jumpy or worried, and can use a little extra support 
+            from family and friends.
+            </Text>
+            <View style={styles.selectors}>
+              {PAGES.map(selector => (
+                <TouchableOpacity
+                  key={selector.title}
+                  onPress={() => this.setSections([selector.value])}
+                >
+                  <View style={styles.selector}>
+                    <Text
+                      style={
+                        activeSections.includes(selector.value) &&
+                        styles.activeSelector
+                      }
+                    >
+                      {selector.title}
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              ))}
+            </View>
 
-          <View style={styles.selectors}>
-            {PAGES.map(selector => (
-              <TouchableOpacity
-                key={selector.title}
-                onPress={() => this.setSections([selector.value])}
-              >
-                <View style={styles.selector}>
-                  <Text
-                    style={
-                      activeSections.includes(selector.value) &&
-                      styles.activeSelector
-                    }
-                  >
-                    {selector.title}
-                  </Text>
-                </View>
-              </TouchableOpacity>
-            ))}
-          </View>
-
-          <Accordion
-            activeSections={activeSections}
-            sections={PAGES}
-            touchableComponent={TouchableOpacity}
-            expandMultiple={multipleSelect}
-            renderHeader={this.renderHeader}
-            renderContent={this.renderContent}
-            onChange={this.setSections}
-          />
+            <Accordion
+              activeSections={activeSections}
+              sections={PAGES}
+              touchableComponent={TouchableOpacity}
+              expandMultiple={multipleSelect}
+              renderHeader={this.renderHeader}
+              renderContent={this.renderContent}
+              onChange={this.setSections}
+            />
         </ScrollView>
       </View>
         );
@@ -143,49 +150,106 @@ export default class WhenToGetOutsideHelpList extends Component {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#F5FCFF',
-        paddingTop: Constants.statusBarHeight,
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    margin: 16,
+    backgroundColor: 'white',
+    shadowColor: "#000",
+    shadowOffset: {
+        width: 0,
+        height: 2,
+    },
+    shadowOpacity: 0.23,
+    shadowRadius: 2.62,
+    elevation: 4,
     },
     title: {
         textAlign: 'center',
-        fontSize: 22,
-        fontWeight: '300',
-        marginBottom: 20,
+        backgroundColor: '#2089DC', 
+        color: 'white', 
+        fontWeight: 'bold', 
+        fontSize: 22, 
+        alignSelf: 'stretch'
+    },
+    subTitle: {
+      backgroundColor: '#2089DC', 
+      color: 'white', 
+      alignSelf: 'stretch', 
+      paddingLeft: 15, 
+      paddingRight:15, 
+      fontSize: 15, 
+      borderBottomWidth:2, 
+      borderBottomColor:'#2089DC',
+    },
+    paragraphTitle: {
+        fontWeight: 'bold',
+        fontSize:20,
+        alignSelf:'stretch',
+        textAlign:'left',
+        marginLeft:5,
+        marginTop:4,
+        marginBottom:3,
+        color:'#2089DC'
+    },
+    bullet: {
+        marginVertical:1, 
+        marginHorizontal:18, 
+        textAlign:'left', 
+        alignSelf:'stretch', 
+        fontWeight:'bold',
+        fontSize:14
+    },
+    paragraph: {
+        paddingVertical:1, 
+        paddingHorizontal:5,
+        flexWrap: 'wrap',
+        fontSize: 12,
+        marginTop: 5,
+    },
+    link: {
+        paddingVertical:1, 
+        paddingHorizontal:5,
+        fontSize: 16,
+        color:'#2089DC',
+        textDecorationLine: 'underline',
+        marginTop: 4,
+        marginTop: 3,
     },
     header: {
         backgroundColor: '#F5FCFF',
         padding: 10,
     },
     headerText: {
+        alignSelf: 'stretch',
         fontSize: 16,
         fontWeight: '500',
+        justifyContent: 'flex-start'
     },
     content: {
         padding: 20,
         backgroundColor: '#fff',
     },
     active: {
-        backgroundColor: 'rgba(255,255,255,1)',
+      backgroundColor: 'white',
     },
     inactive: {
-        backgroundColor: 'rgba(245,252,255,1)',
+      backgroundColor: 'white',
     },
     selectors: {
-        marginBottom: 10,
-        flexDirection: 'row',
-        justifyContent: 'center',
+      flexDirection: 'row',
+      flexWrap: 'wrap'
     },
     selector: {
         backgroundColor: '#F5FCFF',
         padding: 10,
     },
     activeSelector: {
-        fontWeight: 'bold',
+      fontSize: 10,
+      fontWeight: 'bold',
     },
     selectTitle: {
-        fontSize: 14,
+        fontSize: 10,
         fontWeight: '500',
         padding: 10,
     },

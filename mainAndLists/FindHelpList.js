@@ -11,7 +11,7 @@ const listNames = [
     { name: 'How to Deal with New Fears and Worries', navigateTo: 'DealWorries', accessibilityHint: 'Navigates to How to Deal With Near Fears and Worries'},
     { name: "Working with Your Child's Healthcare Team", navigateTo: 'HealthTeam', accessibilityHint: "Navigates to Working with Your Child's Healthcare Team"},
     { name: 'Injury and Pain Care', navigateTo: '', accessibilityHint: 'Navigates to Injury and Pain Care'},
-    { name: 'When to Get Outside Help', navigateTo: '', accessibilityHint: 'Navigates to When to Get Outside Help'},
+    { name: 'When to Get Outside Help', navigateTo: 'WhenToGetHelp', accessibilityHint: 'Navigates to When to Get Outside Help'},
     { name: "Self Care", navigateTo: '', accessibilityHint: 'Navigates to Self Care'},
 ]
 
