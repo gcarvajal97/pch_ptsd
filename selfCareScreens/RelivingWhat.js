@@ -5,7 +5,6 @@ class RelivingWhat extends Component {
 
   render() {
     return (
-
             <Text>
 
                 <Text style={styles.title}>
@@ -21,15 +20,13 @@ class RelivingWhat extends Component {
                     {"\n"}Is this a problem?: {"\n"}Do thoughts about the traumatic event often pop into your mind 
                     even when you don't want them to? Do the thoughts bother or upset you?{"\n"}
                 </Text>
-
                 <Text style={styles.subTitle}>
-                {"\n"}"I have had bad dreams or nightmares since the injury."{"\n"}
+                    {"\n"}"I have had bad dreams or nightmares since the injury."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
                     {"\n"}Why it happens: {"\n"}In a stressful time, it's not unusual to have a few bad dreams.{"\n"}
                     {"\n"}Is this a problem?: {"\n"}Are the nightmares interfering with getting a good night's sleep?{"\n"}
                 </Text>
-
                 <Text style={styles.subTitle}>
                     {"\n"}"I get upset or have physical symptoms (headache, stomachache, heart beating fast) 
                     at reminders of what happened."{"\n"}
@@ -42,7 +39,6 @@ class RelivingWhat extends Component {
                 </Text>
                 
             </Text>
-
     );
   }
 }
@@ -62,7 +58,6 @@ const styles = StyleSheet.create({
       },
       shadowOpacity: 0.23,
       shadowRadius: 2.62,
-
       elevation: 4,
   },
   title: {
@@ -82,16 +77,6 @@ const styles = StyleSheet.create({
     fontSize: 15, 
     borderBottomWidth:2, 
     borderBottomColor:'#2089DC',
-  },
-  paragraphTitle: {
-      fontWeight: 'bold',
-      fontSize:20,
-      alignSelf:'stretch',
-      textAlign:'left',
-      marginLeft:5,
-      marginTop:4,
-      marginBottom:3,
-      color:'#2089DC'
   },
   paragraph: {
       alignSelf:"center", 

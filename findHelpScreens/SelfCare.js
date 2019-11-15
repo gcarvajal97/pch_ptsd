@@ -6,8 +6,9 @@ import Accordion from 'react-native-collapsible/Accordion';
 
 import SelfCareCard from '../findHelpScreens/SelfCareCard';
 import RelivingWhat from '../selfCareScreens/RelivingWhat';
-
-const BACON = 'Blah, blah, blah...'
+import Avoidance from '../selfCareScreens/Avoidance';
+import AnxiousJumpy from '../selfCareScreens/AnxiousJumpy';
+import SelfCareParents from '../selfCareScreens/SelfCareParents';
 
 const CONTENT = [
     {
@@ -18,19 +19,19 @@ const CONTENT = [
     },
         {
         title: 'Avoidance: Staying away from reminders',
-        content: BACON,
+        content: <Avoidance/>,
         value: 1,
         accessibilityHint: 'Navigates to Avoidance: Staying away from reminders',
     },
         {
         title: 'Hyper-Arousal: Feeling anxious or jumpy',
-        content: BACON,
+        content: <AnxiousJumpy/>,
         value: 2,
         accessibilityHint: 'Navigates to Hyper-Arousal: Feeling anxious or jumpy',
     },
         {
         title: 'Self-Care for Parents',
-        content: BACON,
+        content: <SelfCareParents/>,
         value: 3,
         accessibilityHint: 'Navigates to Self-Care for Parents',
     },
@@ -113,7 +114,7 @@ class SelfCare extends Component {
             <Text style={styles.bullet}>"I get upset when something reminds me of it."</Text>
             <Text style={styles.bullet}>"I worry a lot more now about my child being safe."</Text>
             <Text style={styles.paragraph}>
-                {"\n"}This section has information on some of the reactions you may notice in yourself:
+                This section has information on some of the reactions you may notice in yourself:
             </Text>  
 
             <Collapsible collapsed={this.state.collapsed} align="center">
@@ -160,7 +161,7 @@ const styles = StyleSheet.create({
     },
     bullet: {
         marginVertical:1, 
-        marginHorizontal:18, 
+        marginHorizontal:30, 
         textAlign:'left', 
         alignSelf:'stretch', 
         fontStyle:'italic',
