@@ -23,6 +23,7 @@ class ReactionsToInjury extends Component {
                     shouldPlay
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+                    accessible
                     accessibilityLabel='Video show what are stress reactions to injury'
                     accessibilityHint='Video show what are stress reactions to injury'
                 />

@@ -30,6 +30,7 @@ class HowLongScreen extends Component {
                     shouldPlay
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+                    accessible
                     accessibilityLabel="Video on how long stress reactions last"
                     accessibilityHint="Video on how long stress reactions last"
                 />
@@ -85,6 +86,7 @@ class HowLongScreen extends Component {
                     <Text style={styles.bullet}>- Contribute to new medical problems; or</Text>
                     <Text style={styles.bullet}>- Just make it harder to enjoy life.</Text>
                     <Text style={styles.link} onPress={()=> Linking.openURL('https://medlineplus.gov/ency/article/000925.htm')}
+                        accessible
                         accessibilityLabel="Click here for more information on PTSD"
                         accessibilityHint="Navigates to a website on the casuses of PTSD">
                     Click here for more information on PTSD.
