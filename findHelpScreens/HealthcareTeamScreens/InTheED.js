@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
-  container: {
-      flex: 1,
-      alignItems: 'center',
-      justifyContent: 'center'
-  }
-});
-
 export default class InTheED extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View>
+        <Text style={styles.paragraphTitleTop}>In the Emergency Department</Text>
         <Text>
         Being in the Emergency Department can be a scary and stressful experience for injured children and their parents. Parents have many worries and questions and it can sometimes be difficult to get all of the answers right away. Communicating well and often with the ED medical team about your child will help them provide your child with the best possible treatment. It can also help you play a more active role in your child's care.
 
@@ -46,3 +39,56 @@ export default class InTheED extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+      flex: 1,
+      alignItems: 'center',
+      margin: 10,
+      backgroundColor: 'white',
+      shadowColor: "#000",
+      shadowOffset: {
+          width: 0,
+          height: 2,
+      },
+      shadowOpacity: 0.23,
+      shadowRadius: 2.62,
+
+      elevation: 4,
+  },
+  title: {
+      backgroundColor: '#2089DC', 
+      color: 'white', 
+      fontWeight: 'bold', 
+      fontSize: 22, 
+      textAlign: 'center', 
+      alignSelf: 'stretch'
+  },
+  paragraphTitle: {
+      fontWeight: 'bold',
+      fontSize:16,
+      alignSelf:'stretch',
+      textAlign:'left',
+      marginLeft:5,
+      marginTop:6,
+      marginBottom:3,
+      color:'#2089DC'
+  },
+  paragraphTitleTop: {
+    fontWeight: 'bold',
+    fontSize:16,
+    alignSelf:'stretch',
+    textAlign:'left',
+    marginLeft:5,
+    marginTop:10,
+    marginBottom:3,
+    color:'#2089DC'
+},
+  paragraph: {
+      alignSelf:"center", 
+      paddingVertical:1, 
+      paddingHorizontal:5,
+      fontSize: 14,
+      marginTop: 5,
+  }
+});
