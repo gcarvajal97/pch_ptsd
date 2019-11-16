@@ -14,7 +14,7 @@ export default class SelfCareCard extends Component {
             featuredTitleStyle={{fontSize:40}}
             image={require('../assets/SelfCare.jpg')}
             accessible
-            accessibilityLabel="Black and white photo of stressed adult with hand on face.">
+            accessibilityLabel="Photo of mother holding child">
             <Text style={{marginVertical:-8, fontWeight:'500', textAlign:'center'}}>
                 Parents need care too.
             </Text>

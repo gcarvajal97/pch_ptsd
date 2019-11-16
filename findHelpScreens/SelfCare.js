@@ -63,28 +63,19 @@ class SelfCare extends Component {
             }
         })
         return (
-          <Animatable.View
-            duration={400}
-            style={[styles.header, isActive ? styles.active : styles.inactive]}
-            transition="backgroundColor"
-          >
-            <Text></Text>
-            <Text style={styles.headerText}> {!this.state.activeSections.includes(active) ? "[+]\t" : "[-]\t"} {section.title}</Text>
-          </Animatable.View>
+            <Animatable.View duration={400} style={[styles.header, isActive ? styles.active : styles.inactive]} transition="backgroundColor">
+                <Text style={styles.headerText}> {!this.state.activeSections.includes(active) ? "[+]\t" : "[-]\t"} {section.title} </Text>
+            </Animatable.View>
         );
     };
     
     renderContent(section, _, isActive) {
         return (
-          <Animatable.View
-            duration={400}
-            style={[styles.content, isActive ? styles.active : styles.inactive]}
-            transition="backgroundColor"
-          >
-            <Animatable.Text animation={isActive ? 'bounceIn' : undefined}>
-              {section.content}
-            </Animatable.Text>
-          </Animatable.View>
+            <Animatable.View duration={400} style={[styles.content, isActive ? styles.active : styles.inactive]} transition="backgroundColor">
+                <Animatable.Text>
+                    {section.content}
+                </Animatable.Text>
+            </Animatable.View>
         );
     }
 
@@ -116,14 +107,6 @@ class SelfCare extends Component {
             <Text style={styles.paragraph}>
                 This section has information on some of the reactions you may notice in yourself:
             </Text>  
-
-            <Collapsible collapsed={this.state.collapsed} align="center">
-                <View style={styles.content}>
-                    <Text>
-                        Bacon
-                    </Text>
-                </View>
-            </Collapsible>
 
             <Accordion
                 activeSections={activeSections}

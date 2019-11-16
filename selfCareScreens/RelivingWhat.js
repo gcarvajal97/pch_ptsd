@@ -7,11 +7,8 @@ class RelivingWhat extends Component {
     return (
             <Text>
 
-                <Text style={styles.title}>
-                    RE-EXPERIENCING TRAUMATIC EVENTS{"\n"}
-                </Text>
                 <Text style={styles.subTitle}>
-                {"\n"}"I think a lot about what happened to my child."{"\n"}
+                    "I think a lot about what happened to my child."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
                     {"\n"}Why it happens: {"\n"}Thinking and talking about what happened, especially in the first 

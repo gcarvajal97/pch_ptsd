@@ -7,12 +7,8 @@ class Avoidance extends Component {
     return (
             <Text>
 
-                <Text style={styles.title}>
-                    AVOIDANCE SYMPTOMS{"\n"}
-                </Text>
-
                 <Text style={styles.subTitle}>
-                    {"\n"}"I don't want to talk or think about what happened."{"\n"}
+                    "I don't want to talk or think about what happened."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
                     {"\n"}Why it happens: {"\n"}Everyone needs to take a break sometimes from thinking about or 
