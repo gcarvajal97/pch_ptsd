@@ -22,8 +22,8 @@ class DealWithWorries extends Component {
                     shouldPlay
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
-                    accessibilityLabel="Video on how how injury is common"
-                    accessibilityHint="Video on how how injury is common"
+                    accessibilityLabel="Video on Dealing With New Fears and Worries"
+                    accessibilityHint="Video on Dealing With New Fears and Worries"
                 />
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
                     <Text style={{ fontWeight: 'bold' }}>New fears or worries?</Text> Watch the video and read below to learn more about these symptoms.
