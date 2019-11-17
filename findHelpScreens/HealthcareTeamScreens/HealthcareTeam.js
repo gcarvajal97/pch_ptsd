@@ -82,7 +82,7 @@ export default class HealthcareTeam extends Component {
                         accessible
                         accessibilityHint='Photo of a doctor going over an x-ray with a man'
                     >
-                        <Text style={{ margin: -6, textAlign: 'center' }}>It is important to work as a team</Text>
+                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>It is important to work as a team.</Text>
                     </Card>
                     <Text style={styles.paragraphTitle}>How To Work With Your Child's Healthcare Team</Text>
                     <Text style={styles.paragraph}>
