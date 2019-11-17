@@ -97,6 +97,13 @@ export default class WhenToGetOutsideHelpScreen extends Component {
         return ( 
           <View>
           <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
+          <Card image={whenToGetHelpImage} featuredTitleStyle={{ fontSize: 40 }}
+                        containerStyle={{ margin: 8 }} featuredTitle='Getting Outside Help'
+                        accessible
+                        accessibilityHint='Photo of two people holding hands over coffee'
+                    >
+                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>Help you and your child overcome an injury. </Text>
+                    </Card>
             <Text style={styles.title}>When To Get Outside Help</Text>
             <Text style={styles.paragraph}>You have the very important job of making 
             sure your child gets the best medical care for his physical injuries.
