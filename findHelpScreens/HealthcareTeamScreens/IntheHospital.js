@@ -38,7 +38,7 @@ export default class InTheHospital extends Component {
             <Text style={styles.paragraph}>-Make sure that you have a good phone number to call if you have questions when you return home.</Text>
             <Text style={styles.paragraph}>-Ask for copies of your child's x-rays, CT scans, or MRI scans.</Text>
             
-            <Text style={styles.paragraphTitle}>Tips for Supporting Your Child in the Hospital:</Text>
+            <Text style={styles.paragraphTitle}>Tips for supporting your child in the Hospital:</Text>
 
             <Text style={styles.paragraph}>1.) You are the best person to help your child.</Text>
             <Text style={styles.paragraph}>2.) Be patient with your child.</Text>
@@ -50,7 +50,7 @@ export default class InTheHospital extends Component {
             <Text style={styles.paragraph}>8.) Take care of yourself.</Text>
             <Text style={styles.paragraph}>9.) Bring things from home to make your child comfortable –  games, toys, and favorite books.</Text>
 
-            <Text style={styles.paragraphTitle}>Tips for Supporting Your Teen in the Hospital</Text>
+            <Text style={styles.paragraphTitle}>Tips for supporting your teen in the Hospital</Text>
 
             <Text style={styles.paragraph}>Teens in the hospital have many of the same concerns, 
             but are better able than younger children to understand and participate in their treatment.</Text>

@@ -13,7 +13,7 @@ export default class AfterTheHospital extends Component {
             This application allows you to rate your child's reactions and you can share these results with your doctor.
             </Text>
 
-            <Text style={styles.paragraphTitle}>Working with the Health Care Team</Text>
+            <Text style={styles.paragraphTitle}>Working with the Healthcare Team</Text>
 
             <Text style={styles.paragraph}>-Make sure to keep all of your appointments even if your child is feeling better.</Text>
             <Text style={styles.paragraph}>-Many parents like to keep all of their child's injury information together in a binder or folder. 
@@ -31,7 +31,7 @@ export default class AfterTheHospital extends Component {
             In 1993, the federal government passed a law that allows families to take some time to care for family members without fear of losing their job.
             </Text>
 
-            <Text style={styles.paragraphTitle}>Tips for helping your Child at follow-up visits</Text>
+            <Text style={styles.paragraphTitle}>Tips for helping your child at follow-up visits</Text>
 
             <Text style={styles.paragraph}>1.) Tell your child about the appointment a few days in advance. Explain the reason for the visit, 
             using words your child can understand.
