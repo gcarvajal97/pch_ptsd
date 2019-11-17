@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, View, Text, ScrollView, Image, Dimensions, StyleSheet } from 'react-native';
-import QuickTipsCard from '../findHelpScreens/QuickTipsCard';
+import QuickTipsCard from './QuickTipsCard';
 
 class QuickTips extends Component {
   
