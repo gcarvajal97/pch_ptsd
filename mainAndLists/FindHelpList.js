@@ -10,7 +10,7 @@ const listNames = [
     { name: 'How to Talk with Your Child', navigateTo: 'HowToTalk', accessibilityHint: 'Navigates to How to Talk with Your Child'},
     { name: 'How to Deal with New Fears and Worries', navigateTo: 'DealWorries', accessibilityHint: 'Navigates to How to Deal With Near Fears and Worries'},
     { name: "Working with Your Child's Healthcare Team", navigateTo: 'HealthTeam', accessibilityHint: "Navigates to Working with Your Child's Healthcare Team"},
-    { name: 'Injury and Pain Care', navigateTo: '', accessibilityHint: 'Navigates to Injury and Pain Care'},
+    { name: 'Injury and Pain Care', navigateTo: 'InjuryPainCare', accessibilityHint: 'Navigates to Injury and Pain Care'},
     { name: 'When to Get Outside Help', navigateTo: '', accessibilityHint: 'Navigates to When to Get Outside Help'},
     { name: "Self Care", navigateTo: '', accessibilityHint: 'Navigates to Self Care'},
 ]
@@ -39,6 +39,7 @@ export default class FindHelpList extends Component {
                                         title={l.name}
                                         titleStyle={{fontSize:19, alignContent:'stretch', color:'black'}}
                                         onPress={()=>{NavigationService.navigate(l.navigateTo)}}
+                                        accessible
                                         accessibilityLabel= {l.navigateTo}
                                         accessibilityHint= {l.accessibilityHint}
                                         chevron={{size:32, color: 'black'}}

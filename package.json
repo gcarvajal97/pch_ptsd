@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@react-native-community/netinfo": "~3.2.1",
+    "accordion-collapse-react-native": "^0.1.11",
     "expo": "^35.0.0",
     "expo-av": "~7.0.0",
     "react": "16.8.3",

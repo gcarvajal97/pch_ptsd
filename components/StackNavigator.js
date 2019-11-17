@@ -11,7 +11,8 @@ import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactio
 import HowLongScreen from '../learnMoreScreens/HowLongScreen';
 import FindHelpList from '../mainAndLists/FindHelpList';
 import HowToTalk from '../findHelpScreens/HowToTalk';
-import QuickTips from '../findHelpScreens/QuickTips';
+import QuickTips from '../findHelpScreens/QuickTipsScreens/QuickTips';
+import InjuryPainCare from '../findHelpScreens/InjuryPainCareScreens/InjuryPainCare';
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
 import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareTeam';
 
@@ -26,6 +27,7 @@ const NavigationBar = createStackNavigator({
     Reactions: ReactionsToInjury,
     TraumaticStressReactions: TraumaticStressReactions,
     HowLong: HowLongScreen,
+    InjuryPainCare: InjuryPainCare,
     DealWorries: DealWithWorries,
     HealthTeam: HealthcareTeam,
     HowToTalk: HowToTalk,
