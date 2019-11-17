@@ -11,7 +11,10 @@ export default class InjuryPreventionTipsScreen extends Component {
         or an animal bite. Some of these injuries are minor, but many of them are very serious.
         You can’t always stop your children from getting bumps and bruises but you can reduce the chances that they’ll 
         be seriously injured by taking safety precautions such as always buckling up in motor vehicles.{"\ "}
-        <Text style={styles.link} onPress={()=> Linking.openURL('https://www.chop.edu/centers-programs/injury-prevention-program')}>Click here</Text>
+        <Text style={styles.link} onPress={()=> Linking.openURL('https://www.chop.edu/centers-programs/injury-prevention-program')}accessible
+          accessible
+          accessibilityLabel="Click here for safety tips"
+          accessibilityHint="Navigates to a website on safety tips">Click here</Text>
         {"\ "}to find more safety tips on topics such as child passenger safety, bicycle safety, dog bites, falls, pedestrian 
         safety, fire safety, water safety and more.</Text>
         </View>

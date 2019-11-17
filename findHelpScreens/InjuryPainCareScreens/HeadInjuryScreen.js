@@ -30,7 +30,10 @@ export default class HeadInjuryScreen extends Component {
         <Text style={styles.paragraph}>
         For comprehensive information about concussion, including how a concussion is diagnosed, 
         prevention strategies, returning to school and play, and support resources, visit{"\ "}
-        <Text style={styles.link} onPress={()=> Linking.openURL('https://www.chop.edu/centers-programs/concussion-care-minds-matter')}>
+        <Text style={styles.link} onPress={()=> Linking.openURL('https://www.chop.edu/centers-programs/concussion-care-minds-matter')}
+          accessible
+          accessibilityLabel="Click here for concussion tips"
+          accessibilityHint="Navigates to a website on concussions">
         Concussion Care for Kids: Minds Matter,</Text> a website developed by an interdisciplinary team of 
         concussion experts at The Children's Hospital of Philadelphia.</Text>
       </View>

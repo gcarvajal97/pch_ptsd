@@ -85,6 +85,8 @@ export default class InjuryPainCare extends Component {
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card image={painCareImg} featuredTitleStyle={{ fontSize: 40 }}
                         containerStyle={{ margin: 8 }} featuredTitle='Inury and Pain'
+                        accessible
+                        accessibilityHint='Photo of a a young girl walking on crutches, with a nurse assisting her'
                     >
                         <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>Help you and your child overcome an injury. </Text>
                     </Card>
