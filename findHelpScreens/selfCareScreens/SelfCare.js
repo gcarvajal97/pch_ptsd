@@ -4,11 +4,11 @@ import * as Animatable from 'react-native-animatable';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
 
-import SelfCareCard from '../findHelpScreens/SelfCareCard';
-import RelivingWhat from '../selfCareScreens/RelivingWhat';
-import Avoidance from '../selfCareScreens/Avoidance';
-import AnxiousJumpy from '../selfCareScreens/AnxiousJumpy';
-import SelfCareParents from '../selfCareScreens/SelfCareParents';
+import SelfCareCard from './SelfCareCard';
+import RelivingWhat from './RelivingWhat';
+import Avoidance from './Avoidance';
+import AnxiousJumpy from './AnxiousJumpy';
+import SelfCareParents from './SelfCareParents';
 
 const CONTENT = [
     {
@@ -42,7 +42,7 @@ class SelfCare extends Component {
     state = {
         activeSections: [],
         collapse: true,
-        multipleSelect: false,
+        multipleSelect: true,
     };
 
     toggleExpanded = () => {
@@ -71,10 +71,12 @@ class SelfCare extends Component {
     
     renderContent(section, _, isActive) {
         return (
-            <Animatable.View duration={400} style={[styles.content, isActive ? styles.active : styles.inactive]} transition="backgroundColor">
-                <Animatable.Text>
-                    {section.content}
-                </Animatable.Text>
+            <Animatable.View
+                duration={400}
+                style={[styles.content, isActive ? styles.active : styles.inactive]}
+                transition="backgroundColor"
+            >
+                {section.content}
             </Animatable.View>
         );
     }
@@ -89,24 +91,16 @@ class SelfCare extends Component {
 
     return (
         <View style={styles.container}>
-            
+            <ScrollView>
             <SelfCareCard/>
         
-        <ScrollView>
-        
-            <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left', marginLeft:5, marginTop:4, marginBottom:0, color:'#2089DC'}}>
-                In addition to all the things you do to help your child, it's very important to take good care of yourself.
-            </Text>
-            <Text style={styles.paragraph}>
-                It is harder to help your child if you are feeling really worried, upset, or overwhelmed. {"\n"}
-                Other parents have said:
-            </Text>
-            <Text style={styles.bullet}>"I can't stop thinking about what happened."</Text>
-            <Text style={styles.bullet}>"I get upset when something reminds me of it."</Text>
-            <Text style={styles.bullet}>"I worry a lot more now about my child being safe."</Text>
-            <Text style={styles.paragraph}>
-                This section has information on some of the reactions you may notice in yourself:
-            </Text>  
+            <Text style={styles.paragraphTitle}>In addition to all the things you do to help your child, it's very important to take good care of yourself.</Text>
+            <Text style={styles.paragraph}>It is harder to help your child if you are feeling really worried, upset, or overwhelmed.</Text>
+            <Text style={styles.paragraph}>Other parents have said: </Text>
+            <Text style={styles.paragraphBold}>"I can't stop thinking about what happened."</Text>
+            <Text style={styles.paragraphBold}>"I get upset when something reminds me of it."</Text>
+            <Text style={styles.paragraphBold}>"I worry a lot more now about my child being safe."</Text>
+            <Text style={styles.paragraph}> This section has information on some of the reactions you may notice in yourself:</Text>  
 
             <Accordion
                 activeSections={activeSections}
@@ -128,6 +122,27 @@ class SelfCare extends Component {
 export default SelfCare;
 
 const styles = StyleSheet.create({
+        paragraphTitle: {
+          fontWeight: 'bold',
+          fontSize: 20,
+          alignSelf: 'stretch',
+          textAlign: 'left',
+          marginTop: 6,
+          marginBottom: 3,
+          color: '#2089DC'
+        },
+        paragraph: {
+          textAlign: 'left',
+          fontSize: 14,
+          marginVertical: 2,
+        },
+        paragraphBold: {
+          textAlign: 'left',
+          fontSize: 14,
+          fontWeight: 'bold',
+          marginVertical: 2,
+          marginLeft: 10
+        },
     container: {
       flex: 1,
       alignItems: 'stretch',
@@ -142,23 +157,7 @@ const styles = StyleSheet.create({
       shadowRadius: 2.62,
       elevation: 4,
     },
-    bullet: {
-        marginVertical:1, 
-        marginHorizontal:30, 
-        textAlign:'left', 
-        alignSelf:'stretch', 
-        fontStyle:'italic',
-        fontSize:14,
-        paddingTop: 4,
-    },
-    paragraph: {
-        alignSelf:"stretch", 
-        textAlign:'left',
-        paddingVertical:1, 
-        paddingHorizontal:5,
-        fontSize: 14,
-        marginTop: 5,
-    },
+
     header: {
         backgroundColor: '#F5FCFF',
         padding: 10,
@@ -166,7 +165,6 @@ const styles = StyleSheet.create({
     headerText: {
         textAlign: 'left',
         fontSize: 16,
-        //fontWeight: 'bold',
     },
     content: {
         padding: 20,
