@@ -15,9 +15,10 @@ export default class WhenAndHowToLookForYourself extends Component {
         <Text style={styles.paragraph}>
         If so, you may want to seek out a professional who can help you.
         </Text>
-        <Text style={styles.paragraphTitle}>
+        <Text style={styles.paragraphTitle}>Remember to ask questions</Text>
+        <Text style={styles.paragraph}>
         When looking for a counselor or therapist to help with 
-        traumatic stress symptoms, remember to ask questions such as:   
+        traumatic stress symptoms, remember to ask questions such as:  
         </Text>
         <Text style={styles.paragraph}>-Do you have experience working with people after trauma?</Text>
         <Text style={styles.paragraph}>-What is your approach to working with this type of problem?</Text>

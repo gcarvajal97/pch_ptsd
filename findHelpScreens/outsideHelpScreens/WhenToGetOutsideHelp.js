@@ -16,13 +16,13 @@ import WhenAndHowToLookForYourself from './WhenAndHowToLookForYourself';
 
 // List of screens that will be dispalyed in this list component
 const PAGES = [{
-        name: 'Does My Child Need Counseling or Additional Help? When to Look For More Help',
+        name: 'When to Look For More Help',
         content: <WhenToLook /> ,
         accessibilityHint: 'Navigates to When to look for outside help Page',
         value: 0
     },
     {
-        name: 'How to Look For Professional Help or Counseling For Your Child',
+        name: 'How to Look For Professional Help or Counseling',
         content: <HowToLook />,
         accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page',
         value: 1
@@ -68,7 +68,7 @@ export default class WhenToGetOutsideHelpScreen extends Component {
             transition="backgroundColor"
           >
             <Text style={styles.headerText}>
-            {!this.state.activeSections.includes(active) ? "\t[+]" : "\t[-]"} {section.name}
+            {!this.state.activeSections.includes(active) ? "[+]" : "[-]"} {section.name}
             </Text>
           </Animatable.View>
         );
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     headerText: {
-        fontSize: 16,
+        fontSize: 14,
         fontWeight: '500',
     },
     paragraph: {

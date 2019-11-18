@@ -57,47 +57,19 @@ const styles = StyleSheet.create({
 
       elevation: 4,
   },
-  title: {
-      backgroundColor: '#2089DC', 
-      color: 'white', 
-      fontWeight: 'bold', 
-      fontSize: 22, 
-      alignSelf: 'stretch'
-  },
-  subTitle: {
-    backgroundColor: '#2089DC', 
-    color: 'white', 
-    alignSelf: 'stretch', 
-    paddingLeft: 15, 
-    paddingRight:15, 
-    fontSize: 15, 
-    borderBottomWidth:2, 
-    borderBottomColor:'#2089DC',
-  },
   paragraphTitle: {
-      fontWeight: 'bold',
-      fontSize:20,
-      alignSelf:'stretch',
-      textAlign:'left',
-      marginLeft:5,
-      marginTop:4,
-      marginBottom:3,
-      color:'#2089DC'
-  },
-  bullet: {
-      marginVertical:1, 
-      marginHorizontal:18, 
-      textAlign:'left', 
-      alignSelf:'stretch', 
-      fontWeight:'bold',
-      fontSize:14
+    fontWeight: 'bold',
+    fontSize: 20,
+    alignSelf: 'stretch',
+    textAlign: 'left',
+    marginTop: 6,
+    marginBottom: 3,
+    color: '#2089DC'
   },
   paragraph: {
-      alignSelf:"stretch", 
-      paddingVertical:1, 
-      paddingHorizontal:5,
-      fontSize: 14,
-      marginTop: 5,
+    textAlign: 'left',
+    fontSize: 14,
+    marginVertical: 2,
   },
   link: {
     fontSize: 14,
