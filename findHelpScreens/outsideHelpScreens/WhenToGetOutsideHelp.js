@@ -16,19 +16,19 @@ import WhenAndHowToLookForYourself from './WhenAndHowToLookForYourself';
 
 // List of screens that will be dispalyed in this list component
 const PAGES = [{
-        name: 'When to look for outside help',
+        name: 'Does My Child Need Counseling or Additional Help? When to Look For More Help',
         content: <WhenToLook /> ,
         accessibilityHint: 'Navigates to When to look for outside help Page',
         value: 0
     },
     {
-        name: 'How to look for professional help or counseling for your child',
+        name: 'How to Look For Professional Help or Counseling For Your Child',
         content: <HowToLook />,
         accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page',
         value: 1
     },
     {
-        name: 'When and how to look for more help for yourself',
+        name: 'When and How to Look For More Help For Yourself',
         content: <WhenAndHowToLookForYourself />,
         accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
         value: 2
@@ -97,11 +97,11 @@ export default class WhenToGetOutsideHelpScreen extends Component {
           <View style={styles.container}>
           <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
           <Card image={whenToGetHelpImage} featuredTitleStyle={{ fontSize: 40 }}
-                        containerStyle={{ margin: 8 }} featuredTitle='Getting Outside Help'
+                        containerStyle={{ margin: 8 }} featuredTitle='Get Outside Help'
                         accessible
                         accessibilityHint='Photo of two people holding hands over coffee'
                     >
-                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>It is important to know when to get professional help for you or your child.</Text>
+                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>It is important to know when to get professional help.</Text>
                     </Card>
             <Text style={styles.paragraphTitle}>When To Get Outside Help</Text>
             <Text style={styles.paragraph}>You have the very important job of making 

@@ -1,51 +1,27 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, Image} from 'react-native';
-import { Linking } from "expo";
-
-import HowToLookImage from '../../assets/pro_help.jpg'
 
 export default class WhenAndHowToLookForYourself extends Component {
 
   render() {
     return (
       <View>
-        <Text style={styles.paragraphTitle}>
-        When and How to Look For More Help For Yourself
-        </Text>
-        <Text style={styles.paragraph}>
-        Sometimes parents need extra help too.
-        </Text>
-        <Text style={styles.paragraph}>
-        Does you have traumatic stress symptoms that:
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get in the way of getting back to usual activities?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Stop you from enjoying things he used to enjoy?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Seem to be getting worse rather than better?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Have lasted more than a month?
-        </Text>
+        <Text style={styles.paragraph}>Sometimes parents need extra help too. </Text>
+        <Text style={styles.paragraphTitle}>Do you have traumatic stress symptoms that:</Text>
+        <Text style={styles.paragraph}>-Get in the way of getting back to usual activities?</Text>
+        <Text style={styles.paragraph}>-Stop you from enjoying things you used to enjoy?</Text>
+        <Text style={styles.paragraph}>-Seem to be getting worse rather than better?</Text>
+        <Text style={styles.paragraph}>-Have lasted more than a month?</Text>
         <Text style={styles.paragraph}>
         If so, you may want to seek out a professional who can help you.
         </Text>
-        <Text style={styles.paragraph}>
+        <Text style={styles.paragraphTitle}>
         When looking for a counselor or therapist to help with 
         traumatic stress symptoms, remember to ask questions such as:   
         </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Do you have experience working with people after trauma?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} What is your approach to working with this type of problem?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} What is your success rate?
-        </Text>
+        <Text style={styles.paragraph}>-Do you have experience working with people after trauma?</Text>
+        <Text style={styles.paragraph}>-What is your approach to working with this type of problem?</Text>
+        <Text style={styles.paragraph}>-What is your success rate?</Text>
     </View>
     );
   }

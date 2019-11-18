@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, Text, Image} from 'react-native';
+import { View, StyleSheet, Text} from 'react-native';
 
-import WhenToLookImage from '../../assets/WhenToLookImage.jpg'
 
 class WhenToLook extends Component {
 
@@ -9,43 +8,19 @@ class WhenToLook extends Component {
     return (
       <View>
         <Text style={styles.paragraphTitle}>
-        Does My Child Need Counseling or Additional Help? When to Look For More Help
-        </Text>
-        <Image 
-          style={styles.image}
-          source={WhenToLookImage}
-          accessibilityLabel="Photo of a hand comforting a sad child."
-        />
-        <Text style={styles.paragraphTitle}>
         Does your child have traumatic stress symptoms that:
         </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get in the way of getting back to usual activities?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Stop your child from enjoying things he used to enjoy?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Seem to be getting worse rather than better?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Have lasted more than a month?
-        </Text>
+        <Text style={styles.paragraph}>-Get in the way of getting back to usual activities?</Text>
+        <Text style={styles.paragraph}>-Stop your child from enjoying things they used to enjoy?</Text>
+        <Text style={styles.paragraph}>-Seem to be getting worse rather than better?</Text>
+        <Text style={styles.paragraph}>-Have lasted more than a month?</Text>
         <Text style={styles.paragraphTitle}>
         Does your child:
         </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get physical symptoms if reminded of the injury or what happened?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Try not to talk about it?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Startle easily (for example, jumping at sudden noises)?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get very distressed if reminded of the injury?
-        </Text>
+        <Text style={styles.paragraph}>-Get physical symptoms if reminded of the injury or what happened?</Text>
+        <Text style={styles.paragraph}>-Try not to talk about it?</Text>
+        <Text style={styles.paragraph}>-Startle easily (for example, jumping at sudden noises)?</Text>
+        <Text style={styles.paragraph}>-Get very distressed if reminded of the injury?</Text>
         <Text style={styles.paragraph}>
         If any of the above are true, it's a good idea to talk 
         with your doctor or another professional about 

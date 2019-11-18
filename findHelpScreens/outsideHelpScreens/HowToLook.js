@@ -1,23 +1,12 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, Text, Image} from 'react-native';
+import { View, StyleSheet, Text} from 'react-native';
 import { Linking } from "expo";
-
-import HowToLookImage from '../../assets/pro_help.jpg'
 
 export default class HowToLook extends Component {
 
   render() {
     return (
       <View>
-        <Text style={styles.paragraphTitle}>
-        How to Look For Professional Help or Counseling For Your Child
-        </Text>
-        <Image 
-          style={styles.image}
-          source={HowToLookImage}
-          accessibilityLabel="Photo of a hand comforting a sad child."
-        />
-        <Text></Text>
         <Text style={styles.paragraph}>
         There are very good and helpful treatments for children who continue to have traumatic stress symptoms.
         </Text>
@@ -111,14 +100,9 @@ const styles = StyleSheet.create({
       marginTop: 5,
   },
   link: {
-      alignSelf:"center", 
-      paddingVertical:1, 
-      paddingHorizontal:5,
-      fontSize: 16,
-      color:'#2089DC',
-      textDecorationLine: 'underline',
-      marginTop: 4,
-      marginTop: 3,
+    fontSize: 14,
+    color:'#2089DC',
+    textDecorationLine: 'underline',
   },
   image: {
     flex: 1,
