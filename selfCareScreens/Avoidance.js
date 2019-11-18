@@ -11,40 +11,40 @@ class Avoidance extends Component {
                     "I don't want to talk or think about what happened."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
-                    {"\n"}Why it happens: {"\n"}Everyone needs to take a break sometimes from thinking about or 
+                    Why it happens: {"\n"}Everyone needs to take a break sometimes from thinking about or 
                     talking about a scary experience. 
                     or traumatic event.{"\n"}
-                    {"\n"}Is this a problem?: {"\n"}Do you never want to think or talk about it with anyone, 
+                    Is this a problem?: {"\n"}Do you never want to think or talk about it with anyone, 
                     or does talking about it make you feel very upset?{"\n"}
                 </Text>
 
                 <Text style={styles.subTitle}>
-                    {"\n"}"I want to stay away from people, places, or things that are reminders of what happened."{"\n"}
+                    "I want to stay away from people, places, or things that are reminders of what happened."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
-                    {"\n"}Why it happens: {"\n"}After something scary happens, reminders of what happened can make us feel 
+                    Why it happens: {"\n"}After something scary happens, reminders of what happened can make us feel 
                     very anxious, and we might start to avoid those things.{"\n"}
-                    {"\n"}Is this a problem?: {"\n"}Is avoiding reminders stopping you from doing things you think you 
+                    Is this a problem?: {"\n"}Is avoiding reminders stopping you from doing things you think you 
                     should be able to do, or from enjoying activities even if you force yourself to do them?{"\n"}
                 </Text>
 
                 <Text style={styles.subTitle}>
-                    {"\n"}"I have lost interest in activities I usually enjoy, since the injury."{"\n"}
+                    "I have lost interest in activities I usually enjoy, since the injury."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
-                    {"\n"}Why it happens: {"\n"}One way we cope with overwhelming scary experiences is to 
+                    Why it happens: {"\n"}One way we cope with overwhelming scary experiences is to 
                     "shut down" our emotions for a while.{"\n"}
-                    {"\n"}Is this a problem?: {"\n"}Are there lots of thing you used to enjoy that you 
+                    Is this a problem?: {"\n"}Are there lots of thing you used to enjoy that you 
                     just don't feel like dong now? Are you feeling emotionally "numb" much of the time?{"\n"}
                 </Text>
 
                 <Text style={styles.subTitle}>
-                    {"\n"}"I just don't feel like being with people, since the injury."{"\n"}
+                    "I just don't feel like being with people, since the injury."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
-                    {"\n"}Why it happens: {"\n"}One way we cope with overwhelming scary experiences is to "shut down" 
+                    Why it happens: {"\n"}One way we cope with overwhelming scary experiences is to "shut down" 
                     our emotions and not feel close to other people for a while.{"\n"}
-                    {"\n"}Is this a problem?: {"\n"}Are you having a really hard time feeling relaxed and close to 
+                    Is this a problem?: {"\n"}Are you having a really hard time feeling relaxed and close to 
                     friends and family you usually trust and like to spend time with?
                 </Text>                
                 

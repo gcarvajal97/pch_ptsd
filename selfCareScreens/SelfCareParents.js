@@ -11,56 +11,56 @@ class SelfCareParents extends Component {
                     Taking care of yourself: Re-experiencing{"\n"}
                 </Text>
                 <Text style={styles.bullet}>
-                    {"\n"}Talk with friends or family about your own experiences and feelings about your 
+                    -Talk with friends or family about your own experiences and feelings about your 
                     child's injury.{"\n"}
-                    {"\n"}Help yourself deal with overwhelming or troubling thoughts by learning how to 
+                    -Help yourself deal with overwhelming or troubling thoughts by learning how to 
                     "take a break" from them at times - do something fun, spend time with friends, get 
                     busy with other activities.{"\n"}
-                    {"\n"}If talking with your child about his or her reactions makes you feel upset or 
+                    -If talking with your child about his or her reactions makes you feel upset or 
                     worried, it's especially important to find someone who can be a listening ear for 
                     you.{"\n"}  
                 </Text>
 
                 <Text style={styles.subTitle}>
-                    {"\n"}Taking care of yourself: Avoidance{"\n"}
+                    Taking care of yourself: Avoidance{"\n"}
                 </Text>
                 <Text style={styles.bullet}>
-                    {"\n"}Notice when you feel worried or nervous - are there situations in which this 
+                    -Notice when you feel worried or nervous - are there situations in which this 
                     seems to happen more?{"\n"}
-                    {"\n"}If avoiding reminders is keeping you from doing important things, enlist a 
+                    -If avoiding reminders is keeping you from doing important things, enlist a 
                     friend or family member to help you - ask them to encourage you to keep doing those 
                     things and congratulate you when you do!{"\n"}
-                    {"\n"}Be especially careful that any new worries you might have don't stop you from 
+                    -Be especially careful that any new worries you might have don't stop you from 
                     letting your child do things that are safe and appropriate for his /her age. Use a 
                     friend or family member as a "reality check" for yourself.{"\n"}
-                    {"\n"}Try to make yourself do just one or two activities or spend time with friends, 
+                    -Try to make yourself do just one or two activities or spend time with friends, 
                     even if you don't really feel like it at first. Sometimes "just doing it" can be the 
                     first step to feeling a little better.{"\n"}
                 </Text>
 
                 <Text style={styles.subTitle}>
-                    {"\n"}Taking care of yourself: Hyper-Arousal{"\n"}
+                    Taking care of yourself: Hyper-Arousal{"\n"}
                 </Text>
                 <Text style={styles.bullet}>
-                    {"\n"}Remember that feeling a bit jumpy or worried is a natural reaction to going 
+                    -Remember that feeling a bit jumpy or worried is a natural reaction to going 
                     through something scary, and that it will get better with time.{"\n"}
-                    {"\n"}Even if you can only get a short break from caring for your child, home, work, 
+                    -Even if you can only get a short break from caring for your child, home, work, 
                     use it to get some exercise and do things that relax you -- go for a walk, relax 
                     with a funny movie or a good book.{"\n"}
-                    {"\n"}Try to keep some daily routines the same.{"\n"}
-                    {"\n"}Try to get to bed at a regular time, and to make the hour before bed a 
+                    -Try to keep some daily routines the same.{"\n"}
+                    -Try to get to bed at a regular time, and to make the hour before bed a 
                     relaxing time.{"\n"}
-                    {"\n"}Be especially careful not to increase your smoking or alcohol use to deal 
+                    -Be especially careful not to increase your smoking or alcohol use to deal 
                     with stress.{"\n"}
                 </Text>
 
                 <Text style={styles.subTitle}>
-                    {"\n"}Getting extra help for yourself{"\n"}
+                    Getting extra help for yourself{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
-                    {"\n"}Think about getting some extra help if your own feelings and reactions after 
+                    -Think about getting some extra help if your own feelings and reactions after 
                     your child's injury are bothering you, or are making it harder for you to help your 
-                    child get back into normal activities.{"\n"}
+                    child get back into normal activities.
                 </Text>                
             </Text>
     );

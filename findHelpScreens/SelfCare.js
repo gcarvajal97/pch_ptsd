@@ -165,8 +165,8 @@ const styles = StyleSheet.create({
     },
     headerText: {
         textAlign: 'left',
-        fontSize: 14,
-        fontWeight: 'bold',
+        fontSize: 16,
+        //fontWeight: 'bold',
     },
     content: {
         padding: 20,

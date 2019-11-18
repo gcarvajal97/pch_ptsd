@@ -6,14 +6,14 @@ import Accordion from 'react-native-collapsible/Accordion';
 
 import IntheED from './InTheED';
 import InTheHospital from './InTheHospital';
-import AfterTheHospital from './AfterTheHospital';
+import AfterTheHospital from '././AfterTheHospital';
 import healthTeam from '../../assets/healthTeam.jpg';
 
 
 // List of screens that will be dispalyed in this list component
 const PAGES = [
     { name: 'In the Emergency Department', content: <IntheED />, value: 0, accessibilityHint: 'Navigate to In the Emergency Department' },
-    { name: 'In the Hospital', content: <InTheHospital />, value: 1, accessibilityHint: 'Navigate to In the Hospital' },
+    { name: 'In the Hospital', content: <InTheHospital />, value: 1, accessibilityHint: 'Navigate to In the Hospital'},
     { name: 'After the Hospital', content: <AfterTheHospital />, value: 2, accessibilityHint: 'Navigate to After the Hospital' },
 ]
 

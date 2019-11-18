@@ -11,27 +11,27 @@ class RelivingWhat extends Component {
                     "I think a lot about what happened to my child."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
-                    {"\n"}Why it happens: {"\n"}Thinking and talking about what happened, especially in the first 
+                    Why it happens: {"\n"}Thinking and talking about what happened, especially in the first 
                     few days and weeks, is part of how we help ourselves recover from a scary experience 
                     or traumatic event.{"\n"}
-                    {"\n"}Is this a problem?: {"\n"}Do thoughts about the traumatic event often pop into your mind 
+                    Is this a problem?: {"\n"}Do thoughts about the traumatic event often pop into your mind 
                     even when you don't want them to? Do the thoughts bother or upset you?{"\n"}
                 </Text>
                 <Text style={styles.subTitle}>
-                    {"\n"}"I have had bad dreams or nightmares since the injury."{"\n"}
+                    "I have had bad dreams or nightmares since the injury."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
-                    {"\n"}Why it happens: {"\n"}In a stressful time, it's not unusual to have a few bad dreams.{"\n"}
-                    {"\n"}Is this a problem?: {"\n"}Are the nightmares interfering with getting a good night's sleep?{"\n"}
+                    Why it happens: {"\n"}In a stressful time, it's not unusual to have a few bad dreams.{"\n"}
+                    Is this a problem?: {"\n"}Are the nightmares interfering with getting a good night's sleep?{"\n"}
                 </Text>
                 <Text style={styles.subTitle}>
-                    {"\n"}"I get upset or have physical symptoms (headache, stomachache, heart beating fast) 
+                    "I get upset or have physical symptoms (headache, stomachache, heart beating fast) 
                     at reminders of what happened."{"\n"}
                 </Text>
                 <Text style={styles.paragraph}>
-                    {"\n"}Why it happens: {"\n"}When something scary happens, we learn to treat things connected 
+                    Why it happens: {"\n"}When something scary happens, we learn to treat things connected 
                     to it as if they were danger signals. Sights, sounds, and even smells can be reminders.{"\n"}
-                    {"\n"}Is this a problem?: {"\n"}Do these feelings happen nearly every day? Do they make it hard 
+                    Is this a problem?: {"\n"}Do these feelings happen nearly every day? Do they make it hard 
                     for you to relax, or to concentrate on things you have to do at home or at work?
                 </Text>
                 
