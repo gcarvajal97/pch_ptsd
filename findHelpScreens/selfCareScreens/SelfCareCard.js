@@ -12,7 +12,7 @@ export default class SelfCareCard extends Component {
         <Card
             featuredTitle="Self Care"
             featuredTitleStyle={{fontSize:40}}
-            image={require('../assets/SelfCare.jpg')}
+            image={require('../../assets/SelfCare.jpg')}
             accessible
             accessibilityLabel="Photo of mother holding child">
             <Text style={{marginVertical:-8, fontWeight:'500', textAlign:'center'}}>
