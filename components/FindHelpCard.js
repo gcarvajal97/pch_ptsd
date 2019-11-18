@@ -13,6 +13,7 @@ export default class FindHelpCard extends Component {
         <Card
             featuredTitle="Help Your Child Recover"
             image={require('../assets/FindWaysHelp.jpg')}
+            accessible
             accessibilityLabel="Photo of father reading a book to a baby on his lap.">
             <Text style={{ marginBottom: 5 }}>
                 Dealing with emotional reactions and injury care can be difficult. Find ways to help your child recover. 
@@ -20,8 +21,10 @@ export default class FindHelpCard extends Component {
             <CardButton onPress={()=>NavigationService.navigate('FindHelp')}
                 buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
                 title='FIND HELP' 
+                accessible
                 accessibilityLabel="Find Help"
-                accessibilityHint="Navigates to the find help screen"/>
+                accessibilityHint="Navigates to the find help screen"
+                />
         </Card>
         );
     }
