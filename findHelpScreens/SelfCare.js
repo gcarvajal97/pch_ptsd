@@ -4,11 +4,11 @@ import * as Animatable from 'react-native-animatable';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
 
-import SelfCareCard from '../findHelpScreens/SelfCareCard';
-import RelivingWhat from '../selfCareScreens/RelivingWhat';
-import Avoidance from '../selfCareScreens/Avoidance';
-import AnxiousJumpy from '../selfCareScreens/AnxiousJumpy';
-import SelfCareParents from '../selfCareScreens/SelfCareParents';
+import SelfCareCard from '././SelfCareCard';
+import RelivingWhat from '././selfCareScreens/RelivingWhat';
+import Avoidance from '././selfCareScreens/Avoidance';
+import AnxiousJumpy from '././selfCareScreens/AnxiousJumpy';
+import SelfCareParents from '././selfCareScreens/SelfCareParents';
 
 const CONTENT = [
     {
@@ -42,7 +42,7 @@ class SelfCare extends Component {
     state = {
         activeSections: [],
         collapse: true,
-        multipleSelect: false,
+        multipleSelect: true,
     };
 
     toggleExpanded = () => {
@@ -166,7 +166,6 @@ const styles = StyleSheet.create({
     headerText: {
         textAlign: 'left',
         fontSize: 16,
-        //fontWeight: 'bold',
     },
     content: {
         padding: 20,
