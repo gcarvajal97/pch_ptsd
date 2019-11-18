@@ -8,8 +8,9 @@ import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
 import LearnMoreList from '../mainAndLists/LearnMoreList';
 import TraumaticStressReactions from '../learnMoreScreens/TraumaticStressReactions';
-import HowLongScreen from '../learnMoreScreens/HowLongScreen';
 import FindHelpList from '../mainAndLists/FindHelpList';
+import WhenToGetOutsideHelpScreen from '../findHelpScreens/outsideHelpScreens/WhenToGetOutsideHelp';
+import HowLongScreen from '../learnMoreScreens/HowLongScreen';
 import HowToTalk from '../findHelpScreens/HowToTalk';
 import QuickTips from '../findHelpScreens/QuickTipsScreens/QuickTips';
 import InjuryPainCare from '../findHelpScreens/InjuryPainCareScreens/InjuryPainCare';
@@ -28,6 +29,7 @@ const NavigationBar = createStackNavigator({
     TraumaticStressReactions: TraumaticStressReactions,
     HowLong: HowLongScreen,
     InjuryPainCare: InjuryPainCare,
+    WhenToGetHelp: WhenToGetOutsideHelpScreen,
     DealWorries: DealWithWorries,
     HealthTeam: HealthcareTeam,
     HowToTalk: HowToTalk,
