@@ -1,62 +1,56 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, Image} from 'react-native';
+import { Linking } from "expo";
 
-import WhenToLookImage from '../../assets/WhenToLookImage.jpg'
+import HowToLookImage from '../../assets/pro_help.jpg'
 
-class WhenToLook extends Component {
+export default class HowToLook extends Component {
 
   render() {
     return (
       <View>
         <Text style={styles.paragraphTitle}>
-        Does My Child Need Counseling or Additional Help? When to Look For More Help
+        How to Look For Professional Help or Counseling For Your Child
         </Text>
         <Image 
           style={styles.image}
-          source={WhenToLookImage}
+          source={HowToLookImage}
           accessibilityLabel="Photo of a hand comforting a sad child."
         />
-        <Text style={styles.paragraphTitle}>
-        Does your child have traumatic stress symptoms that:
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get in the way of getting back to usual activities?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Stop your child from enjoying things he used to enjoy?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Seem to be getting worse rather than better?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Have lasted more than a month?
-        </Text>
-        <Text style={styles.paragraphTitle}>
-        Does your child:
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get physical symptoms if reminded of the injury or what happened?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Try not to talk about it?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Startle easily (for example, jumping at sudden noises)?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get very distressed if reminded of the injury?
+        <Text></Text>
+        <Text style={styles.paragraph}>
+        There are very good and helpful treatments for children who continue to have traumatic stress symptoms.
         </Text>
         <Text style={styles.paragraph}>
-        If any of the above are true, it's a good idea to talk 
-        with your doctor or another professional about 
-        how your child is doing.
+        If you are wondering how to find a child therapist, a good place to start is to talk 
+        with your child's doctor or a counselor at your child's school. 
+        They can help you figure out the best way of helping your child and your family, 
+        and may be able to suggest a counselor or therapist experienced in helping 
+        children with traumatic stress.
+        </Text>
+        <Text style={styles.paragraph}>
+        When looking for a counselor or therapist to help your child 
+        with traumatic stress symptoms, it's a good idea to ask 
+        questions such as: Do you have experience working with 
+        children after trauma? What is your approach to working 
+        with this type of problem? What is your success rate? 
+        How do you work with parents?
+        </Text>
+        <Text style={styles.paragraph}>
+        {"\ "}
+        <Text style={styles.link} onPress={()=> Linking.openURL('http://www.nctsnet.org/nccts/nav.do?pid=ctr_aud_prnt_gethelp')}
+          accessible
+          accessibilityLabel="Click here for mental health professional information"
+          accessibilityHint="Navigates to a website on mental health professional information">
+          The National Child Traumatic Stress Network
+          </Text>
+        {"\ "}has useful tips and information on how to find a mental health 
+        professional to help your child and family after trauma.
         </Text>
     </View>
     );
   }
 }
-
-export default WhenToLook;
 
 const styles = StyleSheet.create({
   container: {
@@ -128,7 +122,7 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1,
-    aspectRatio: 1.40,
+    aspectRatio: 0.90,
     resizeMode: 'contain'
   }
 });

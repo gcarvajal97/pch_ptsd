@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, Image} from 'react-native';
+import { Linking } from "expo";
 
-import WhenToLookImage from '../../assets/WhenToLookImage.jpg'
+import HowToLookImage from '../../assets/pro_help.jpg'
 
-class WhenToLook extends Component {
+export default class WhenAndHowToLookForYourself extends Component {
 
   render() {
     return (
       <View>
         <Text style={styles.paragraphTitle}>
-        Does My Child Need Counseling or Additional Help? When to Look For More Help
+        When and How to Look For More Help For Yourself
         </Text>
-        <Image 
-          style={styles.image}
-          source={WhenToLookImage}
-          accessibilityLabel="Photo of a hand comforting a sad child."
-        />
-        <Text style={styles.paragraphTitle}>
-        Does your child have traumatic stress symptoms that:
+        <Text style={styles.paragraph}>
+        Sometimes parents need extra help too.
+        </Text>
+        <Text style={styles.paragraph}>
+        Does you have traumatic stress symptoms that:
         </Text>
         <Text style={styles.bullet}>
         {String.fromCharCode(0x2022)} Get in the way of getting back to usual activities?
         </Text>
         <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Stop your child from enjoying things he used to enjoy?
+        {String.fromCharCode(0x2022)} Stop you from enjoying things he used to enjoy?
         </Text>
         <Text style={styles.bullet}>
         {String.fromCharCode(0x2022)} Seem to be getting worse rather than better?
@@ -31,32 +30,26 @@ class WhenToLook extends Component {
         <Text style={styles.bullet}>
         {String.fromCharCode(0x2022)} Have lasted more than a month?
         </Text>
-        <Text style={styles.paragraphTitle}>
-        Does your child:
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get physical symptoms if reminded of the injury or what happened?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Try not to talk about it?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Startle easily (for example, jumping at sudden noises)?
-        </Text>
-        <Text style={styles.bullet}>
-        {String.fromCharCode(0x2022)} Get very distressed if reminded of the injury?
+        <Text style={styles.paragraph}>
+        If so, you may want to seek out a professional who can help you.
         </Text>
         <Text style={styles.paragraph}>
-        If any of the above are true, it's a good idea to talk 
-        with your doctor or another professional about 
-        how your child is doing.
+        When looking for a counselor or therapist to help with 
+        traumatic stress symptoms, remember to ask questions such as:   
+        </Text>
+        <Text style={styles.bullet}>
+        {String.fromCharCode(0x2022)} Do you have experience working with people after trauma?
+        </Text>
+        <Text style={styles.bullet}>
+        {String.fromCharCode(0x2022)} What is your approach to working with this type of problem?
+        </Text>
+        <Text style={styles.bullet}>
+        {String.fromCharCode(0x2022)} What is your success rate?
         </Text>
     </View>
     );
   }
 }
-
-export default WhenToLook;
 
 const styles = StyleSheet.create({
   container: {
@@ -128,7 +121,7 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1,
-    aspectRatio: 1.40,
+    aspectRatio: 1.0,
     resizeMode: 'contain'
   }
 });

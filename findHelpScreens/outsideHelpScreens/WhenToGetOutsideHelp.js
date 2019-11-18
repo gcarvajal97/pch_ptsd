@@ -7,12 +7,12 @@ import { Switch,
     TouchableOpacity, } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import Accordion from 'react-native-collapsible/Accordion';
-import Card from 'react-native-elements';
+import { Card } from 'react-native-elements';
 
 import whenToGetHelpImage from '../../assets/whenToGetHelp.jpg';
-import WhenToLook from './WhenToLook'
-
-
+import WhenToLook from './WhenToLook';
+import HowToLook from './HowToLook';
+import WhenAndHowToLookForYourself from './WhenAndHowToLookForYourself';
 
 // List of screens that will be dispalyed in this list component
 const PAGES = [{
@@ -23,13 +23,13 @@ const PAGES = [{
     },
     {
         name: 'How to look for professional help or counseling for your child',
-        content: <Text>Hi</Text>,
+        content: <HowToLook />,
         accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page',
         value: 1
     },
     {
         name: 'When and how to look for more help for yourself',
-        content: <Text>Hi</Text>,
+        content: <WhenAndHowToLookForYourself />,
         accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
         value: 2
     }
@@ -49,7 +49,6 @@ export default class WhenToGetOutsideHelpScreen extends Component {
     };
 
     setSections = sections => {
-        console.log('render');
         this.setState({
             activeSections: sections.includes(undefined) ? [] : sections,
         });
@@ -57,9 +56,9 @@ export default class WhenToGetOutsideHelpScreen extends Component {
 
     renderHeader = (section, _, isActive) => {
         let active;
-        PAGES.forEach((pageLabel) => {
-            if (pageLabel.title == section.name) {
-                active = pageLabel.value
+        PAGES.forEach((page) => {
+            if (page.name == section.name) {
+                active = page.value
             }
         })
         return (
@@ -95,16 +94,16 @@ export default class WhenToGetOutsideHelpScreen extends Component {
         const { multipleSelect, activeSections } = this.state;
 
         return ( 
-          <View>
+          <View style={styles.container}>
           <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
           <Card image={whenToGetHelpImage} featuredTitleStyle={{ fontSize: 40 }}
                         containerStyle={{ margin: 8 }} featuredTitle='Getting Outside Help'
                         accessible
                         accessibilityHint='Photo of two people holding hands over coffee'
                     >
-                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>Help you and your child overcome an injury. </Text>
+                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>It is important to know when to get professional help for you or your child.</Text>
                     </Card>
-            <Text style={styles.title}>When To Get Outside Help</Text>
+            <Text style={styles.paragraphTitle}>When To Get Outside Help</Text>
             <Text style={styles.paragraph}>You have the very important job of making 
             sure your child gets the best medical care for his physical injuries.
             You are also the best person to monitor how your child is coping, 
@@ -144,77 +143,77 @@ const styles = StyleSheet.create({
       shadowRadius: 2.62,
 
       elevation: 4,
-  },
-  title: {
-      backgroundColor: '#2089DC',
-      color: 'white',
-      fontWeight: 'bold',
-      fontSize: 22,
-      textAlign: 'center',
-      alignSelf: 'stretch'
-  },
-  header: {
-      backgroundColor: '#F5FCFF',
-      padding: 10,
-  },
-  headerText: {
-      fontSize: 16,
-      fontWeight: '500',
-  },
-  paragraph: {
-      alignSelf: 'center',
-      paddingVertical: 0,
-      paddingHorizontal: 4,
-      fontSize: 14,
-      marginTop: 0,
-      marginBottom: 4,
-  },
-  content: {
-      padding: 20,
-      backgroundColor: '#fff',
-  },
-  active: {
-      backgroundColor: 'rgba(255,255,255,1)',
-  },
-  inactive: {
-      backgroundColor: 'rgba(245,252,255,1)',
-  },
-  selectors: {
-      marginBottom: 10,
-      flexDirection: 'row',
-      justifyContent: 'center',
-  },
-  selector: {
-      backgroundColor: '#F5FCFF',
-      padding: 10,
-  },
-  activeSelector: {
-      fontWeight: 'bold',
-  },
-  selectTitle: {
-      fontSize: 14,
-      fontWeight: '500',
-      padding: 10,
-  },
-  subTitle: {
-      backgroundColor: '#2089DC',
-      color: 'white',
-      alignSelf: 'stretch',
-      paddingLeft: 15,
-      paddingRight: 15,
-      fontSize: 15,
-      borderBottomWidth: 2,
-      borderBottomColor: '#2089DC',
-  },
-  paragraphTitle: {
-      fontWeight: 'bold',
-      fontSize: 22,
-      alignSelf: 'stretch',
-      textAlign: 'left',
-      marginTop: 3,
-      marginBottom: 2,
-      color: '#2089DC',
-      paddingLeft: 4,
-      paddingRight: 1
-  },
+    },
+    title: {
+        backgroundColor: '#2089DC',
+        color: 'white',
+        fontWeight: 'bold',
+        fontSize: 22,
+        textAlign: 'center',
+        alignSelf: 'stretch'
+    },
+    header: {
+        backgroundColor: '#F5FCFF',
+        padding: 10,
+    },
+    headerText: {
+        fontSize: 16,
+        fontWeight: '500',
+    },
+    paragraph: {
+        alignSelf: 'stretch',
+        paddingVertical: 0,
+        paddingHorizontal: 4,
+        fontSize: 14,
+        marginTop: 0,
+        marginBottom: 4,
+    },
+    content: {
+        padding: 20,
+        backgroundColor: '#fff',
+    },
+    active: {
+        backgroundColor: 'rgba(255,255,255,1)',
+    },
+    inactive: {
+        backgroundColor: 'rgba(245,252,255,1)',
+    },
+    selectors: {
+        marginBottom: 10,
+        flexDirection: 'row',
+        justifyContent: 'center',
+    },
+    selector: {
+        backgroundColor: '#F5FCFF',
+        padding: 10,
+    },
+    activeSelector: {
+        fontWeight: 'bold',
+    },
+    selectTitle: {
+        fontSize: 14,
+        fontWeight: '500',
+        padding: 10,
+    },
+    subTitle: {
+        backgroundColor: '#2089DC',
+        color: 'white',
+        alignSelf: 'stretch',
+        paddingLeft: 15,
+        paddingRight: 15,
+        fontSize: 15,
+        borderBottomWidth: 2,
+        borderBottomColor: '#2089DC',
+    },
+    paragraphTitle: {
+        fontWeight: 'bold',
+        fontSize: 22,
+        alignSelf: 'stretch',
+        textAlign: 'left',
+        marginTop: 3,
+        marginBottom: 2,
+        color: '#2089DC',
+        paddingLeft: 4,
+        paddingRight: 1
+    },
 });
