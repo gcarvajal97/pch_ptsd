@@ -16,7 +16,7 @@ import QuickTips from '../findHelpScreens/QuickTipsScreens/QuickTips';
 import InjuryPainCare from '../findHelpScreens/InjuryPainCareScreens/InjuryPainCare';
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
 import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareTeam';
-import SelfCare from '../findHelpScreens/SelfCare.js';
+import SelfCare from '../findHelpScreens/selfCareScreens/SelfCare.js';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside

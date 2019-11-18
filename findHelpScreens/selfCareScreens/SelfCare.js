@@ -4,11 +4,11 @@ import * as Animatable from 'react-native-animatable';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
 
-import SelfCareCard from '././SelfCareCard';
-import RelivingWhat from '././selfCareScreens/RelivingWhat';
-import Avoidance from '././selfCareScreens/Avoidance';
-import AnxiousJumpy from '././selfCareScreens/AnxiousJumpy';
-import SelfCareParents from '././selfCareScreens/SelfCareParents';
+import SelfCareCard from './SelfCareCard';
+import RelivingWhat from './RelivingWhat';
+import Avoidance from './Avoidance';
+import AnxiousJumpy from './AnxiousJumpy';
+import SelfCareParents from './SelfCareParents';
 
 const CONTENT = [
     {
