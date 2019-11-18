@@ -86,5 +86,5 @@ const styles = StyleSheet.create({
         paddingHorizontal:5,
         fontSize: 14,
         marginTop: 5,
-    }
+    },
 });
