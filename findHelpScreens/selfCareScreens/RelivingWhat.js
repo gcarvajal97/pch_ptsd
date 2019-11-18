@@ -5,63 +5,63 @@ class RelivingWhat extends Component {
 
   render() {
     return (
-            <Text>
+            <View>
 
-                <Text style={styles.subTitle}>
-                    "I think a lot about what happened to my child."{"\n"}
+                <Text style={styles.paragraphTitle}>
+                    "I think a lot about what happened to my child."
                 </Text>
-                <Text style={styles.question}>
-                    Why it happens: {"\n"}
+                <Text style={styles.paragraphBold}>
+                    Why it happens:
                 </Text>
                 <Text style={styles.paragraph}>
                     Thinking and talking about what happened, especially in the first 
                     few days and weeks, is part of how we help ourselves recover from a scary experience 
-                    or traumatic event.{"\n"}
+                    or traumatic event.
                 </Text>
-                <Text style={styles.question}>
-                    Is this a problem?: {"\n"}
+                <Text style={styles.paragraphBold}>
+                    Is this a problem?:
                 </Text>
                 <Text style={styles.paragraph}>
                     Do thoughts about the traumatic event often pop into your mind 
-                    even when you don't want them to? Do the thoughts bother or upset you?{"\n"}
+                    even when you don't want them to? Do the thoughts bother or upset you?
                 </Text>
                 
-                <Text style={styles.subTitle}>
-                    "I have had bad dreams or nightmares since the injury."{"\n"}
+                <Text style={styles.paragraphTitle}>
+                    "I have had bad dreams or nightmares since the injury."
                 </Text>
-                <Text style={styles.question}>
-                    Why it happens: {"\n"}
+                <Text style={styles.paragraphBold}>
+                    Why it happens:
                 </Text>
                 <Text style={styles.paragraph}>
-                    In a stressful time, it's not unusual to have a few bad dreams.{"\n"}                   
+                    In a stressful time, it's not unusual to have a few bad dreams.                
                 </Text>
-                <Text style={styles.question}>
-                    Is this a problem?: {"\n"}
+                <Text style={styles.paragraphBold}>
+                    Is this a problem?:
                 </Text>  
                 <Text style={styles.paragraph}>
-                    Are the nightmares interfering with getting a good night's sleep?{"\n"}
+                    Are the nightmares interfering with getting a good night's sleep?
                 </Text>
                 
-                <Text style={styles.subTitle}>
+                <Text style={styles.paragraphTitle}>
                     "I get upset or have physical symptoms (headache, stomachache, heart beating fast) 
-                    at reminders of what happened."{"\n"}
+                    at reminders of what happened."
                 </Text> 
-                <Text style={styles.question}>
-                    Why it happens: {"\n"}
+                <Text style={styles.paragraphBold}>
+                    Why it happens:
                 </Text>
                 <Text style={styles.paragraph}>
                     When something scary happens, we learn to treat things connected 
-                    to it as if they were danger signals. Sights, sounds, and even smells can be reminders.{"\n"}
+                    to it as if they were danger signals. Sights, sounds, and even smells can be reminders.
                 </Text> 
-                <Text style={styles.question}>
-                    Is this a problem?: {"\n"}
+                <Text style={styles.paragraphBold}>
+                    Is this a problem?:
                 </Text>  
                 <Text style={styles.paragraph}>
                     Do these feelings happen nearly every day? Do they make it hard 
                     for you to relax, or to concentrate on things you have to do at home or at work?
                 </Text>             
                 
-            </Text>
+            </View>
     );
   }
 }
@@ -69,51 +69,25 @@ class RelivingWhat extends Component {
 export default RelivingWhat;
 
 const styles = StyleSheet.create({
-  container: {
-      flex: 1,
-      alignItems: 'center',
-      margin: 10,
-      backgroundColor: 'white',
-      shadowColor: "#000",
-      shadowOffset: {
-          width: 0,
-          height: 2,
-      },
-      shadowOpacity: 0.23,
-      shadowRadius: 2.62,
-      elevation: 4,
-  },
-  title: {
-      backgroundColor: 'white', 
-      color: '#2089DC', 
-      fontWeight: 'bold', 
-      fontSize: 22, 
-      textAlign: 'left', 
-      alignSelf: 'stretch'
-  },
-  subTitle: {
-    backgroundColor: 'white', 
-    color: '#2089DC', 
-    alignSelf: 'stretch', 
-    paddingLeft: 15, 
-    paddingRight:15, 
-    fontSize: 15, 
-    borderBottomWidth:2, 
-    borderBottomColor:'#2089DC',
-  },
-  paragraph: {
-      alignSelf:"center", 
-      paddingVertical:1, 
-      paddingHorizontal:5,
+    paragraphTitle: {
+      fontWeight: 'bold',
+      fontSize: 20,
+      alignSelf: 'stretch',
+      textAlign: 'left',
+      marginTop: 6,
+      marginBottom: 3,
+      color: '#2089DC'
+    },
+    paragraph: {
+      textAlign: 'left',
       fontSize: 14,
-      marginTop: 5,
-  },
-  question: {
-    alignSelf:"center", 
-    paddingVertical:1, 
-    paddingHorizontal:5,
-    fontSize: 14,
-    marginTop: 5,
-    fontWeight: 'bold',
-},
-});
+      marginVertical: 2,
+    },
+    paragraphBold: {
+      textAlign: 'left',
+      fontSize: 14,
+      fontWeight: 'bold',
+      marginVertical: 2,
+      marginLeft: 10
+    }
+  });
