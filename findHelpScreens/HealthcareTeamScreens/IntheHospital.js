@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { bold } from 'ansi-colors';
 
 export default class InTheHospital extends Component {
   render() {

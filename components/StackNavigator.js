@@ -3,7 +3,6 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
 import NavigationService from './NavigationService';
 import MainScreen from '../mainAndLists/MainScreen';
-import QuizScreen from '../mainAndLists/QuizScreen';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
 import LearnMoreList from '../mainAndLists/LearnMoreList';
@@ -16,7 +15,9 @@ import QuickTips from '../findHelpScreens/QuickTipsScreens/QuickTips';
 import InjuryPainCare from '../findHelpScreens/InjuryPainCareScreens/InjuryPainCare';
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
 import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareTeam';
-import SelfCare from '../findHelpScreens/selfCareScreens/SelfCare.js';
+import SelfCare from '../findHelpScreens/selfCareScreens/SelfCare';
+import QuizMain from '../QuizScreens/QuizMain';
+import QuizResults from '../QuizScreens/QuizResults';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
@@ -24,7 +25,8 @@ const NavigationBar = createStackNavigator({
     Home: MainScreen,
     LearnMore: LearnMoreList,
     FindHelp: FindHelpList,
-    Quiz: QuizScreen,
+    Quiz: QuizMain,
+    //QuizResults: QuizResults, // un-comment when page is ready to test
     NotAlone: YoureNotAlone,
     Reactions: ReactionsToInjury,
     TraumaticStressReactions: TraumaticStressReactions,
