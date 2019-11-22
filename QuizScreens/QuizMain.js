@@ -6,7 +6,7 @@ class QuizMain extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Learn More'
+        headerTitle: 'Take the Quiz'
     }
     render() {
         return (
