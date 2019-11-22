@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { View, StyleSheet, Text, Button } from "react-native";
+import NavigationService from "../components/NavigationService";
 
 class QuizMain extends Component {
 
@@ -15,7 +16,7 @@ class QuizMain extends Component {
                     1. Some question? Radio buttons below{'\n\n'}
                     2. Some other question. Radio buttons below{'\n\n'}
                 </Text>
-                <Button>Submit</Button>
+                <Button onPress={()=>{NavigationService.navigate('QuizResults')}} title='Submit'></Button>
             </View>
         );
     }

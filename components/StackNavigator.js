@@ -26,7 +26,7 @@ const NavigationBar = createStackNavigator({
     LearnMore: LearnMoreList,
     FindHelp: FindHelpList,
     Quiz: QuizMain,
-    //QuizResults: QuizResults, // un-comment when page is ready to test
+    QuizResults: QuizResults, // un-comment when page is ready to test
     NotAlone: YoureNotAlone,
     Reactions: ReactionsToInjury,
     TraumaticStressReactions: TraumaticStressReactions,
