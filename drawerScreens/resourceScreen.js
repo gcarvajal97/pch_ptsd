@@ -1,13 +1,20 @@
-import React, { Component } from "react";
-import { View, Text, StyleSheet, Button } from "react-native";
+import React, { Component } from 'react';
+import { ScrollView,
+    StyleSheet,
+    Text,
+    View,
+    TouchableOpacity, } from 'react-native';
+import * as Animatable from 'react-native-animatable';
+import Accordion from 'react-native-collapsible/Accordion';
+import { Card } from 'react-native-elements';
 
 import NavigationService from '../components/NavigationService';
 
-class FindHelpScreen extends Component {
+class ResourcesScreen extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Find Help to Recovery'
+        headerTitle: 'Additional Resources'
     }
 
     render() {
