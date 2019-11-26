@@ -14,7 +14,7 @@ class SelfCareParents extends Component {
                 <Text style={styles.paragraph}>-Help yourself deal with overwhelming or troubling thoughts by learning how to 
                     "take a break" from them at times - do something fun, spend time with friends, get 
                     busy with other activities.</Text>
-                <Text style={styles.paragraph}>-If talking with your child about his or her reactions makes you feel upset or 
+                <Text style={styles.paragraph}>-If talking with your child about their reactions makes you feel upset or 
                     worried, it's especially important to find someone who can be a listening ear for 
                     you.</Text>
 
@@ -27,7 +27,7 @@ class SelfCareParents extends Component {
                     friend or family member to help you - ask them to encourage you to keep doing those 
                     things and congratulate you when you do!</Text>
                     <Text style={styles.paragraph}>-Be especially careful that any new worries you might have don't stop you from 
-                    letting your child do things that are safe and appropriate for his /her age. Use a 
+                    letting your child do things that are safe and appropriate for their age. Use a 
                     friend or family member as a "reality check" for yourself.</Text>
                     <Text style={styles.paragraph}>-Try to make yourself do just one or two activities or spend time with friends, 
                     even if you don't really feel like it at first. Sometimes "just doing it" can be the 

@@ -45,7 +45,7 @@ class AnxiousJumpy extends Component {
                 </Text>  
                 <Text style={styles.paragraph}>
                     Do you feel this way so strongly, or so much of the time, 
-                    that you can't let your child get back to normal activities appropriate for his/ her age?
+                    that you can't let your child get back to normal activities appropriate for their age?
                 </Text>
 
                 <Text style={styles.paragraphTitle}>
