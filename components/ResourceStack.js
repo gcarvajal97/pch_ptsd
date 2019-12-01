@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
-import NavigationService from './NavigationService';
 import ResourceScreen from '../drawerScreens/ResourceScreen';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
@@ -16,9 +15,6 @@ const ResourceNavigationBar = createStackNavigator({
   // The navigator now sends its references to the NavigationService
   export default class ResourceStack extends Component {
       render() {
-          return <ResourceStackContainer
-          ref={navigatorRef => {
-            NavigationService.setStackLevelNavigator(navigatorRef);
-          }}/>
+          return <ResourceStackContainer/>
       }
   }

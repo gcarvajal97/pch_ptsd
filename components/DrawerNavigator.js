@@ -12,7 +12,6 @@ const DrawerNav = createDrawerNavigator({
     Home: StackNavigator,
     Resources: ResourceStack,
     Glossary: GlossaryStack
-
 });
 
 // New in this version of React Native, must be referenced/returned
