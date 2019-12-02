@@ -49,7 +49,7 @@ class DealWithWorries extends Component {
                     the scared feelings tend to get weaker.
                     </Text>
                     <Text style={styles.paragraph}>
-                    It is natural for your child to want to stay away from things that remind and upset him. 
+                    It is natural for your child to want to stay away from things that remind and upset them. 
                     But too much avoidance can get in the way of the natural recovery process, and make it harder to get over feeling scared.
                     </Text>
                     <Text style={styles.paragraph}>
@@ -60,12 +60,12 @@ class DealWithWorries extends Component {
                     </Text>
                     <Text style={styles.paragraph}>
                     Ask yourself, does feeling afraid or nervous stop your child from getting back to normal safe activities? 
-                    Or does it stop him from enjoying things even if he manages to do them?
+                    Or does it stop them from enjoying things even if they manage to do them?
                     </Text>
                     <Text style={styles.paragraph}>If so, you can help your child deal with new fears and worries before they become a bigger problem.</Text>
                     <Text style={styles.headline}>What can parents do?</Text>
-                    <Text style={styles.paragraphBold}>1. Help your child make changes that really do help keep him safe.</Text>
-                    <Text style={styles.bulletLight}>Things like wearing a helmet, crossing the street carefully, or telling you where he is going.</Text>
+                    <Text style={styles.paragraphBold}>1. Help your child make changes that really do help keep them safe.</Text>
+                    <Text style={styles.bulletLight}>Things like wearing a helmet, crossing the street carefully, or telling you where they're going.</Text>
                     <Text style={styles.paragraphBold}>2. Be a "reality check" for your child.</Text>
                     <Text style={styles.bulletLight}>
                         If your child is nervous about doing something, talk together and help them figure out: 
@@ -76,7 +76,7 @@ class DealWithWorries extends Component {
                     <Text style={styles.paragraphBold}>4. Encourage your child.</Text>
                     <Text style={styles.bulletLight}>Help them to keep doing those safe things that make them nervous. Praise their courage when they do!</Text>
                     <Text style={styles.paragraphBold}>5. Notice your own worries.</Text>
-                    <Text style={styles.bulletLight}>Ask yourself: Do my worries stop me from letting my child do things he really should be allowed to do?</Text>
+                    <Text style={styles.bulletLight}>Ask yourself: Do my worries stop me from letting my child do things they really should be allowed to do?</Text>
                     <Text style={styles.bulletLight}>
                         Use a trusted friend or family member as a “reality check” for yourself. This can help you sort through your worries about your child’s safety.
                     </Text>

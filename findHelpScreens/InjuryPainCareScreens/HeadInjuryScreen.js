@@ -16,7 +16,7 @@ export default class HeadInjuryScreen extends Component {
         <Text style={styles.paragraph}>
         A concussion is caused by a blow or jolt to the head or body that causes the brain to shake.
         The shaking can cause the brain not to work normally and can result in serious side effects.
-        If your child hits her head, be aware of the concussion symptoms to look for, which are 
+        If your child hits their head, be aware of the concussion symptoms to look for, which are 
         commonly physical (such as a headache, nausea, or dizziness), sleep-related, difficulty 
         concentrating/remembering, or involve mood disruption.
         </Text>

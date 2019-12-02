@@ -13,7 +13,7 @@ class MainScreen extends Component {
 
     static navigationOptions = () => ({
         headerTitle: 'Pediatric PTSD',
-        headerLeft: (<View style={{ margin: 5 }}><Button title="Test"
+        headerLeft: (<View style={{ margin: 5 }}><Button 
             onPress={()=>NavigationService.openDrawer()}
             title='More'></Button></View>)
     })
