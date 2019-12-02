@@ -17,6 +17,7 @@ import InjuryPainCare from '../findHelpScreens/InjuryPainCareScreens/InjuryPainC
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
 import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareTeam';
 import SelfCare from '../findHelpScreens/selfCareScreens/SelfCare.js';
+import ResourcesScreen from '../drawerScreens/resourcesScreens/resourceScreen'
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
@@ -36,6 +37,7 @@ const NavigationBar = createStackNavigator({
     HowToTalk: HowToTalk,
     QuickTips: QuickTips,
     SelfCare: SelfCare,
+    Resources: ResourcesScreen
   });
   
   // New in this version of React Native, must be created and reference/returned

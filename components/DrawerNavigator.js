@@ -4,7 +4,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 
 import StackNavigator from './StackNavigator';
 import NavigationService from './NavigationService';
-import resourceScreen from '../drawerScreens/resourceScreen';
+import resourceScreen from '../drawerScreens/resourcesScreens/resourceScreen';
 import glossaryScreen from '../drawerScreens/glossaryScreen';
 
 
