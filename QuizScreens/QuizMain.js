@@ -43,13 +43,17 @@ class QuizMain extends Component {
                         17. Brothers or sisters are upset or worried.{'\n'}
                         18. You (parent) are stressed or worried yourself{'\n'}
                     </Text>
-                    <Button onPress={() => { NavigationService.navigate('QuizResults') }} title='Submit' raised containerStyle={{marginHorizontal:120, marginBottom:10}}></Button>
+                    <Button onPress={() => { NavigationService.navigate('QuizResults', { 'results': results })}} title='Submit' raised containerStyle={{marginHorizontal:120, marginBottom:10}}></Button>
                 </ScrollView>
             </View>
         );
     }
 }
 export default QuizMain;
+
+const results = {1: 'Always', 2: 'Sometimes', 3: 'Never', 4: 'Always', 5: 'Sometimes', 6: 'Never',
+6: 'Always', 7: 'Sometimes', 8: 'Never', 9: 'Always', 10: 'Sometimes', 11: 'Never',
+12: 'Always', 13: 'Sometimes', 14: 'Never', 15: 'Always', 16: 'Sometimes', 17: 'Never', 18:'Always'}
 
 const styles = StyleSheet.create({
     container: {

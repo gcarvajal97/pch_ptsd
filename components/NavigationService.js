@@ -45,5 +45,5 @@ export default {
   navigateDrawer,
   setTopLevelNavigator,
   setStackLevelNavigator,
-  openDrawer
+  openDrawer,
 };

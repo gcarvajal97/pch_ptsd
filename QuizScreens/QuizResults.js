@@ -9,6 +9,13 @@ export default class QuizResults extends Component {
     }
 
     render() {
+        // Receive results using props, apparently only way to do this at the moment. RN has an issue with params and StackNavigation as the moment
+        // It still works as intended, was just trying to use the modern practice of NavigationActions and created a NavigationService. 
+        const results = this.props.navigation.getParam('results', 'nothing found');
+        console.log(results);
+        console.log(results[1]);
+        console.log(results[9]);
+        console.log(results[16]);
         return (
             // renders the learn more screen
             <View style={styles.container}>
@@ -19,6 +26,7 @@ export default class QuizResults extends Component {
         );
     }
 }
+
 
 const styles = StyleSheet.create({
     container: {
