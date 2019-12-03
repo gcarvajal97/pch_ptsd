@@ -5,23 +5,24 @@ export default class QuizResults extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Quiz Results'
+        headerTitle: 'Take the Quiz'
     }
 
     render() {
-        // Receive results using props, apparently only way to do this at the moment. RN has an issue with params and StackNavigation as the moment
-        // It still works as intended, was just trying to use the modern practice of NavigationActions and created a NavigationService. 
+        // Receive results using props, apparently only way to do this. RN has an issue with params and StackNavigator at the moment.
+        // It still works as intended, but I was trying to use the modern practice of NavigationActions and creating a NavigationService. 
         const results = this.props.navigation.getParam('results', 'nothing found');
-        console.log(results);
-        console.log(results[1]);
-        console.log(results[9]);
-        console.log(results[16]);
+        
         return (
-            // renders the learn more screen
             <View style={styles.container}>
                 <Text>
                     This is the Quiz Results Screen
                 </Text>
+                {
+                // Just an example of iterating through the results using map and rendering to the page.
+                Object.entries(results).map(([key,v])=>{
+                    return <Text key={key}>{key +": value = "+ v}</Text>})
+                }
         </View>
         );
     }
