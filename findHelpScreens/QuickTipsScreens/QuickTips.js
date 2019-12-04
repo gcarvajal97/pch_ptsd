@@ -37,7 +37,7 @@ class QuickTips extends Component {
             It is important to help your child get plenty of sleep, eat regular meals, and keep up with 
             schoolwork. Encourage your child to go back to spending time with friends.
             {"\n"}
-            If the injury gets in the way of things s/he used to do – talk with your doctor about what your 
+            If the injury gets in the way of things they used to do – talk with your doctor about what your 
             child can do, and be creative in figuring out how to get your child back to SOME normal 
             activities.
             </Text>

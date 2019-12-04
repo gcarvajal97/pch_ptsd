@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { bold } from 'ansi-colors';
 
 export default class InTheHospital extends Component {
   render() {
@@ -57,7 +56,7 @@ export default class InTheHospital extends Component {
 
             <Text style={styles.paragraph}>1.)Be honest with your teen.</Text>
             <Text style={styles.paragraph}>2.)Include your teen in medical discussions when possible.</Text>
-            <Text style={styles.paragraph}>3.)Encourage your teen's healthcare team to talk with your teen directly and let him answer his own questions.</Text>
+            <Text style={styles.paragraph}>3.)Encourage your teen's healthcare team to talk with your teen directly and let them answer his own questions.</Text>
             <Text style={styles.paragraph}>4.)They might want to talk alone with the doctors.</Text>
             <Text style={styles.paragraph}>5.)Remember that teens can be self-conscious, and they may worry about how they will look and fit in with others, 
                 and about their privacy.

@@ -24,7 +24,7 @@ export default class TakingCareofCastScreen extends Component {
           <Text style={styles.paragraph}>-Cover the cast while your child is eating to prevent food spills and crumbs from entering the cast.</Text>
           <Text style={styles.paragraph}>-Prevent small toys or objects from being put inside the cast.</Text>
           <Text style={styles.paragraph}>-Elevate the cast above the level of the heart to decrease swelling.</Text>
-          <Text style={styles.paragraph}>-Encourage your child to move his or her fingers or toes to promote circulation.</Text>
+          <Text style={styles.paragraph}>-Encourage your child to move their fingers or toes to promote circulation.</Text>
           <Text style={styles.paragraph}>-Older children with body casts may need to use a bedpan or urinal in order to go to the bathroom.</Text>
           <Text style={styles.paragraph}>-Tips to keep body casts clean and dry and prevent skin irritation around the genital area include the following:</Text>
           <Text style={styles.paragraph}>{'\t'}-Use a diaper or sanitary napkin around the genital area to prevent leakage or splashing urine.</Text>
