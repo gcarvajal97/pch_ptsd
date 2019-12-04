@@ -42,7 +42,7 @@ export default class QuizResults extends Component {
                 {                
                     Object.entries(results).map(([key,v])=>{
                         if (v <= 1) {
-                            return <Card featuredTitle={content[key].title} image={require('../assets/FindWaysHelp.jpg')} >
+                            return <Card key={key} title={content[key].title} titleStyle={{color:'#2089DC'}}>
                             <Text style={{ marginBottom: 5 }}> {content[key].body} </Text>
                             </Card>
                         }
