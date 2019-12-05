@@ -12,8 +12,66 @@ import { Card } from 'react-native-elements';
 import NavigationService from '../../components/NavigationService';
 
 import resourcePyramid from '../../assets/resourcePyramid.png';
+import FindATherapistScreen from './FindATherapistGroup';
+import MoreInfoGroup from './MoreInfoGroup';
 
 class ResourcesScreen extends Component {
+
+    pages = [
+        {
+            name: 'For more information on how to find a therapist',
+            content: <FindATherapistScreen resetSections={this.resetSections}/>,
+            accessibilityHint: 'Navigates to When to look for outside help Page',
+            value: 0
+        },
+        {
+            name: 'For more information about traumatic stress and PTSD',
+            content: <MoreInfoGroup />,
+            accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page',
+            value: 1
+        },
+        {
+            name: 'Information on dealing with other types of traumatic events',
+            content: <Text>Test</Text>,
+            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
+            value: 2
+        },
+        {
+            name: 'For help with worry or stress in children and teens',
+            content: <Text>Test</Text>,
+            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
+            value: 3
+        },
+        {
+            name: 'For help with sleep problems',
+            content: <Text>Test</Text>,
+            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
+            value: 4
+        },{
+            name: 'For information on injury prevention',
+            content: <Text>Test</Text>,
+            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
+            value: 5
+        },
+        {
+            name: 'For more information on pain and injury care',
+            content: <Text>Test</Text>,
+            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
+            value: 6
+        },
+        {
+            name: 'BOOKS FOR PARENTS',
+            content: <Text>Test</Text>,
+            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
+            value: 7
+        },
+        {
+            name: 'BOOKS FOR KIDS',
+            content: <Text>Test</Text>,
+            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
+            value: 8
+        }
+    ]
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
         headerTitle: 'Additional Resources'
@@ -37,13 +95,18 @@ class ResourcesScreen extends Component {
         });
     };
 
+    resetSections = () => {
+        this.setState({activeSections: []});
+    }
+
     renderHeader = (section, _, isActive) => {
         let active;
-        PAGES.forEach((page) => {
+        this.pages.forEach((page) => {
             if (page.name == section.name) {
                 active = page.value
             }
         })
+
         return (
           <Animatable.View
             duration={400}
@@ -82,12 +145,22 @@ class ResourcesScreen extends Component {
                         Find additional resources for you and your child.
                         </Text>
                     </Card>
+                    <Accordion
+                        activeSections={this.state.activeSections}
+                        sections={this.pages}
+                        touchableComponent={TouchableOpacity}
+                        expandMultiple={this.state.multipleSelect}
+                        renderHeader={this.renderHeader}
+                        renderContent={this.renderContent}
+                        onChange={this.setSections}
+                    />
                     <Button title='Go Back' onPress={()=>NavigationService.navigateDrawer('Home')} />
             </ScrollView>
         </View>
         );
     }
 }
+
 export default ResourcesScreen;
 
 const styles = StyleSheet.create({

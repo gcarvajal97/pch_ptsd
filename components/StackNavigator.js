@@ -15,7 +15,6 @@ import QuickTips from '../findHelpScreens/QuickTipsScreens/QuickTips';
 import InjuryPainCare from '../findHelpScreens/InjuryPainCareScreens/InjuryPainCare';
 import DealWithWorries from '../findHelpScreens/DealWithWorries';
 import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareTeam';
-import ResourcesScreen from '../drawerScreens/resourcesScreens/ResourceScreen'
 import SelfCare from '../findHelpScreens/selfCareScreens/SelfCare';
 import QuizMain from '../QuizScreens/QuizMain';
 import QuizResults from '../QuizScreens/QuizResults';
@@ -38,8 +37,7 @@ const NavigationBar = createStackNavigator({
     HealthTeam: HealthcareTeam,
     HowToTalk: HowToTalk,
     QuickTips: QuickTips,
-    SelfCare: SelfCare,
-    Resources: ResourcesScreen
+    SelfCare: SelfCare
   });
   
   // New in this version of React Native, must be created and reference/returned
