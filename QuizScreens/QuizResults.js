@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet, } from "react-native";
-import {Card, Button as CardButton} from 'react-native-elements';
+import { Card } from 'react-native-elements';
 import { ScrollView } from "react-native-gesture-handler";
 
 const content = {
