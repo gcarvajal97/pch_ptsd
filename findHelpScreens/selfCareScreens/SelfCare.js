@@ -122,27 +122,27 @@ class SelfCare extends Component {
 export default SelfCare;
 
 const styles = StyleSheet.create({
-        paragraphTitle: {
-          fontWeight: 'bold',
-          fontSize: 20,
-          alignSelf: 'stretch',
-          textAlign: 'left',
-          marginTop: 6,
-          marginBottom: 3,
-          color: '#2089DC'
-        },
-        paragraph: {
-          textAlign: 'left',
-          fontSize: 14,
-          marginVertical: 2,
-        },
-        paragraphBold: {
-          textAlign: 'left',
-          fontSize: 14,
-          fontWeight: 'bold',
-          marginVertical: 2,
-          marginLeft: 10
-        },
+    paragraphTitle: {
+        fontWeight: 'bold',
+        fontSize: 20,
+        alignSelf: 'stretch',
+        textAlign: 'left',
+        marginTop: 6,
+        marginBottom: 3,
+        color: '#2089DC'
+    },
+    paragraph: {
+        textAlign: 'left',
+        fontSize: 14,
+        marginVertical: 2,
+    },
+    paragraphBold: {
+        textAlign: 'left',
+        fontSize: 14,
+        fontWeight: 'bold',
+        marginVertical: 2,
+        marginLeft: 10
+    },
     container: {
       flex: 1,
       alignItems: 'stretch',
