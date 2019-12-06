@@ -25,9 +25,10 @@ class QuizMain extends Component {
         // selectedIndex of each Radio ButtonGroup [0, 1, 2] coincides with the array below. 0 -> Always, 1 -> Sometimes, 2 -> Never
         const buttons = ['Always', 'Sometimes', 'Never'];
         return (
-            <View style={styles.container}>
+            <View style={styles.container} accessible accessibilityLabel="Quiz to rate child's traumatic stress level">
                 <ScrollView>
-                    <Card image={QuizRateReactions} featuredTitle='Quiz' featuredTitleStyle={{fontSize:42}} containerStyle={{margin:8, padding:-1}}>
+                    <Card image={QuizRateReactions} featuredTitle='Quiz' featuredTitleStyle={{fontSize:42}} containerStyle={{margin:8, padding:-1}}
+                             accessible accessibilityLabel='Image of child reacting to stress'>
                         <Text style={{marginVertical:-8, textAlign:'center'}}>Rate your child's reactions in the quiz below.</Text></Card>
                     <Text style={styles.paragraph}>You can rate these on your own, based on what you have noticed with your child. If possible, you
                         may want to involve your child in answering these questions with you.</Text>
@@ -105,7 +106,8 @@ class QuizMain extends Component {
                                 mental health professional, or other healthcare provider.{'\n\n'}
                                 <Text style={{fontWeight:'bold'}}>To Healthcare Professionals:</Text> Please use these ratings as a basis for conversation to 
                                 learn more about your patient’s response to a recent injury.</Text>
-                    <Button onPress={() => { NavigationService.navigate('QuizResults', { 'results': this.state })}} title='Submit' raised containerStyle={{marginHorizontal:110, marginVertical:12}}></Button>
+                    <Button onPress={() => { NavigationService.navigate('QuizResults', { 'results': this.state })}} title='Submit' raised containerStyle={{marginHorizontal:110, marginVertical:12}}
+                            accessible accessibilityLabel='Click here to submit your results'></Button>
                 </ScrollView>
             </View>
         );
