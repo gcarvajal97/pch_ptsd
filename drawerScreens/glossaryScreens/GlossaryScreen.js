@@ -137,7 +137,7 @@ export default GlossaryScreen;
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      alignItems: 'stretch',
+      alignItems: 'center',
       margin: 10,
       backgroundColor: 'white',
       shadowColor: "#000",
@@ -150,44 +150,19 @@ const styles = StyleSheet.create({
       elevation: 4,
     },
     title: {
+        backgroundColor: '#2089DC',
+        color: 'white',
         fontWeight: 'bold',
-        fontSize: 40,
+        fontSize: 22,
         alignSelf: 'stretch',
         textAlign: 'center',
-        marginLeft: 20,
-        marginRight: 20,
-        color: '#2089DC'
     },
-    paragraphTitle: {
-        fontWeight: 'bold',
-        fontSize: 20,
-        alignSelf: 'stretch',
-        textAlign: 'center',
-        marginLeft: 20,
-        marginRight: 20,
-        color: '#2089DC'
-    },
-    paragraph: {
-        textAlign: 'left',
-        fontSize: 14,
-        marginVertical: 2,
-        marginLeft: 20,
-        marginRight: 20,
-    },
-    paragraphBold: {
-        textAlign: 'left',
-        fontSize: 14,
-        fontWeight: 'bold',
-        marginVertical: 2,
-        marginLeft: 20,
-        marginRight: 20,
-    },
-        header: {
+    header: {
         backgroundColor: '#F5FCFF',
         padding: 10,
     },
     headerText: {
-        textAlign: 'left',
+        fontWeight: '500',
         fontSize: 16,
     },
     content: {

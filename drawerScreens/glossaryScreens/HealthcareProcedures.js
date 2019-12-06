@@ -100,15 +100,11 @@ const styles = StyleSheet.create({
         textAlign: 'left',
         fontSize: 14,
         marginVertical: 2,
-        marginLeft: 20,
-        marginRight: 20,
     },
     paragraphBold: {
         textAlign: 'left',
         fontSize: 14,
         fontWeight: 'bold',
         marginVertical: 2,
-        marginLeft: 20,
-        marginRight: 20,
     },
 });
