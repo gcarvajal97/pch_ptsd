@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
-import GlossaryScreen from '../drawerScreens/GlossaryScreen';
+import GlossaryScreen from '../drawerScreens/glossaryScreens/GlossaryScreen.js';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside

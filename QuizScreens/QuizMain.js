@@ -1,49 +1,113 @@
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
-import { Button } from "react-native-elements";
+import { Button, ButtonGroup, Card } from "react-native-elements";
 import NavigationService from "../components/NavigationService";
+import QuizRateReactions from "../assets/QuizRateReactions.jpg"
 
 
 class QuizMain extends Component {
+    constructor () {
+        super()
+        // State is set for every question with an initial state, submit button will pass the current state of each question when pressed.
+        this.state = {
+          1: 2, 2: 2, 3: 2, 4: 2, 5: 2,
+          6: 2, 7: 2, 8: 2, 9: 2, 10: 2,
+          11: 2, 12: 2, 13: 2, 14: 2, 15: 2, 
+          16: 2, 17: 2, 18: 2
+        }
+      }
 
-    // Gives the NavBar a title for this specific screen
-    static navigationOptions = {
+      static navigationOptions = {
         headerTitle: 'Take the Quiz'
     }
+
     render() {
+        // selectedIndex of each Radio ButtonGroup [0, 1, 2] coincides with the array below. 0 -> Always, 1 -> Sometimes, 2 -> Never
+        const buttons = ['Always', 'Sometimes', 'Never'];
         return (
-            <View style={styles.container}>
+            <View style={styles.container} accessible accessibilityLabel="Quiz to rate child's traumatic stress level">
                 <ScrollView>
-                    <Text style={styles.paragraphTitle}>Rate Your Child's Reactions</Text>
-                    <Text style={styles.paragraph}>You can rate these on your own (based on what you have noticed with your child). If possible, it may
-                     even be better to involve your child in rating their own reactions with you.
-                    </Text>
-                    <Text style={styles.paragraph}>
-                        Re-experiencing: Reliving what happened{'\n\n'}
-                        1. Thinks a lot about what happened to him/her{'\n'}
-                        2. Has bad dreams or nightmares since the injury{'\n'}
-                        3. Gets upset or has physical reactions (headache, stomachache, heart pounding) at reminders of what happened{'\n\n'}
-                        Avoidance: Staying away from reminders{'\n\n'}
-                        4. Doesn’t want to talk about what happened or tries to push it out of his / her mind{'\n'}
-                        5. Wants to stay away from people, places, or things that are reminders of what happened{'\n'}
-                        6. Afraid of something that s/he was not afraid of before (or a previous fear or worry seems to get worse){'\n'}
-                        7. Not interested in usual activities, since the injury{'\n'}
-                        8. Not interested in being with people s/he usually likes, since the injury{'\n\n'}
-                        Hyper-arousal: Feeling anxious or jumpy{'\n\n'}
-                        9. Worries a lot that something else bad will happen{'\n'}
-                        10. Startles easily – for example, jumps if there is a sudden noise{'\n'}
-                        11. Seems irritable or has angry outbursts, since the injury{'\n'}
-                        12. Has trouble paying attention to things, since the injury{'\n'}
-                        13. Has trouble falling or staying asleep, since the injury{'\n\n'}
-                        Other concerns about your child{'\n\n'}
-                        14. Is still having pain or discomfort.{'\n'}
-                        15. Has had other behavior changes since the injury{'\n'}
-                        16. Is having trouble with returning to school or other activities{'\n\n'}
-                        Concerns about how others in the family are coping{'\n\n'}
-                        17. Brothers or sisters are upset or worried.{'\n'}
-                        18. You (parent) are stressed or worried yourself{'\n'}
-                    </Text>
-                    <Button onPress={() => { NavigationService.navigate('QuizResults') }} title='Submit' raised containerStyle={{marginHorizontal:120, marginBottom:10}}></Button>
+                    <Card image={QuizRateReactions} featuredTitle='Quiz' featuredTitleStyle={{fontSize:42}} containerStyle={{margin:8, padding:-1}}
+                             accessible accessibilityLabel='Image of child reacting to stress'>
+                        <Text style={{marginVertical:-8, textAlign:'center'}}>Rate your child's reactions in the quiz below.</Text></Card>
+                    <Text style={styles.paragraph}>You can rate these on your own, based on what you have noticed with your child. If possible, you
+                        may want to involve your child in answering these questions with you.</Text>
+                    <Text style={styles.questionTitle}>
+                        Re-experiencing: Reliving what happened</Text>
+
+                        <Text style={styles.question}>
+                        1. Thinks a lot about what happened to them</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'1': e})} selectedIndex={this.state[1]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        2. Has bad dreams or nightmares since the injury</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'2': e})} selectedIndex={this.state[2]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        3. Gets upset or has physical reactions (headache, stomachache, heart pounding) at reminders of what happened</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'3': e})} selectedIndex={this.state[3]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.questionTitle}>
+                        Avoidance: Staying away from reminders</Text>
+
+                        <Text style={styles.question}>
+                        4. Doesn’t want to talk about what happened or tries to push it out of their mind</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'4': e})} selectedIndex={this.state[4]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        5. Wants to stay away from people, places, or things that are reminders of what happened</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'5': e})} selectedIndex={this.state[5]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        6. Afraid of something that they were not afraid of before (or a previous fear or worry seems to get worse)</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'6': e})} selectedIndex={this.state[6]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        7. Not interested in usual activities, since the injury</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'7': e})} selectedIndex={this.state[7]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        8. Not interested in being with people they usually like being with ,since the injury</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'8': e})} selectedIndex={this.state[8]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.questionTitle}>
+                        Hyper-arousal: Feeling anxious or jumpy</Text>
+
+                        <Text style={styles.question}>
+                        9. Worries a lot that something else bad will happen</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'9': e})} selectedIndex={this.state[9]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        10. Startles easily – for example, jumps if there is a sudden noise</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'10': e})} selectedIndex={this.state[10]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        11. Seems irritable or has angry outbursts, since the injury</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'11': e})} selectedIndex={this.state[11]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        12. Has trouble paying attention to things, since the injury</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'12': e})} selectedIndex={this.state[12]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        13. Has trouble falling or staying asleep, since the injury</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'13': e})} selectedIndex={this.state[13]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.questionTitle}>
+                        Other concerns about your child</Text>
+
+                        <Text style={styles.question}>
+                        14. Is still having pain or discomfort</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'14': e})} selectedIndex={this.state[14]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        15. Has had other behavior changes since the injury</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'15': e})} selectedIndex={this.state[15]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        16. Is having trouble with returning to school or other activities</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'16': e})} selectedIndex={this.state[16]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.questionTitle}>
+                        Concerns about how others in the family are coping</Text>
+
+                        <Text style={styles.question}>
+                        17. Brothers or sisters are upset or worried</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'17': e})} selectedIndex={this.state[17]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.question}>
+                        18. You (parent) are stressed or worried yourself</Text>
+                        <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'18': e})} selectedIndex={this.state[18]} containerStyle={styles.buttonGroupContainer}/>
+                        <Text style={styles.finePrint}><Text style={{fontWeight:'bold'}}>Note:</Text> This is not a formal medical or psychological assessment or diagnosis.{'\n'}
+                                If you are concerned with how you or your child is doing, please contact your doctor, 
+                                mental health professional, or other healthcare provider.{'\n\n'}
+                                <Text style={{fontWeight:'bold'}}>To Healthcare Professionals:</Text> Please use these ratings as a basis for conversation to 
+                                learn more about your patient’s response to a recent injury.</Text>
+                    <Button onPress={() => { NavigationService.navigate('QuizResults', { 'results': this.state })}} title='Submit' raised containerStyle={{marginHorizontal:110, marginVertical:12}}
+                            accessible accessibilityLabel='Click here to submit your results'></Button>
                 </ScrollView>
             </View>
         );
@@ -64,8 +128,11 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.23,
         shadowRadius: 2.62,
-
         elevation: 4,
+    },
+    buttonGroupContainer: {
+        height:28,      
+        alignContent:'center',  
     },
     bullet: {
         marginVertical: 1,
@@ -76,22 +143,33 @@ const styles = StyleSheet.create({
         fontSize: 14,
         paddingTop: 4,
     },
+    question: {
+        marginVertical: 1,
+        marginHorizontal: 12,
+        fontSize: 15,
+        marginTop: 5,
+        fontWeight:'bold',
+    },
     paragraph: {
-        alignSelf: "center",
-        paddingVertical: 1,
-        paddingHorizontal: 5,
+        marginVertical: 1,
+        marginHorizontal: 10,
         fontSize: 14,
         marginTop: 5,
     },
-    paragraphTitle: {
+    finePrint: {
+        fontSize: 10,
+        marginTop: 2,
+        marginHorizontal:8,
+
+    },
+    questionTitle: {
         fontWeight: 'bold',
-        fontSize: 22,
-        alignSelf: 'stretch',
+        fontSize: 18,
         textAlign: 'left',
         marginTop: 3,
-        marginBottom: 2,
+        marginBottom: 3,
         color: '#2089DC',
-        paddingLeft: 4,
-        paddingRight: 1
+        paddingLeft: 6,
+        paddingRight: 6,
     }
 });

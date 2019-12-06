@@ -21,13 +21,13 @@ const PAGES = [{
         value: 0
     },
     {
-        name: 'How to Look For Professional Help or Counseling',
+        name: 'How to Look For Professional Help',
         content: <HowToLook />,
         accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page',
         value: 1
     },
     {
-        name: 'When and How to Look For More Help For Yourself',
+        name: 'When and How to Look For Help For Yourself',
         content: <WhenAndHowToLookForYourself />,
         accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
         value: 2
@@ -129,19 +129,19 @@ export default class WhenToGetOutsideHelpScreen extends Component {
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      alignItems: 'center',
-      margin: 10,
-      backgroundColor: 'white',
-      shadowColor: "#000",
-      shadowOffset: {
-          width: 0,
-          height: 2,
-      },
-      shadowOpacity: 0.23,
-      shadowRadius: 2.62,
+        flex: 1,
+        alignItems: 'center',
+        margin: 10,
+        backgroundColor: 'white',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.23,
+        shadowRadius: 2.62,
 
-      elevation: 4,
+        elevation: 4,
     },
     title: {
         backgroundColor: '#2089DC',
@@ -156,11 +156,11 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     headerText: {
-        fontSize: 14,
+        fontSize: 16,
         fontWeight: '500',
     },
     paragraph: {
-        alignSelf: 'stretch',
+        alignSelf: 'center',
         paddingVertical: 0,
         paddingHorizontal: 4,
         fontSize: 14,
