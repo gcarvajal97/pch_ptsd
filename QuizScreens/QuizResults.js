@@ -81,8 +81,8 @@ export default class QuizResults extends Component {
                             return <Card key={key} title={content[key].title} titleStyle={{color:'#2089DC'}}>
                             <Text style={styles.paragraphBold}> Why It Happens: </Text>
                             <Text style={styles.paragraph}> {content[key].body1} </Text>
-                            <Text style={styles.paragraphBold}> Is This a Problem?: </Text> <Text style={styles.paragraph}> {content[key].body2} </Text>
-                            
+                            <Text style={styles.paragraphBold}> Is This a Problem?: </Text>
+                            <Text style={styles.paragraph}> {content[key].body2} </Text>
                             </Card>
                         }
                     })
@@ -121,6 +121,7 @@ const styles = StyleSheet.create({
     },
     paragraph: {
         alignSelf:"center", 
+        paddingVertical:1, 
         paddingHorizontal:5,
         fontSize: 14,
         marginTop: 5,
