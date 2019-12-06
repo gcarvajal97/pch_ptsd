@@ -124,7 +124,9 @@ class GlossaryScreen extends Component {
 		                renderHeader={this.renderHeader}
 		                renderContent={this.renderContent}
 		                duration={400}
-		                onChange={this.setSections}
+                        onChange={this.setSections}
+                        accessible
+                        accessibilityHint={activeSections.accessibilityHint}
 		            />
 
             	</ScrollView>
