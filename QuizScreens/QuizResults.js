@@ -84,7 +84,7 @@ export default class QuizResults extends Component {
         if (count === 0) {
             return (
                 <View style={styles.blankContainer}>
-                    <Text style={styles.noResponse}> Oops! Looks like you forgot to select any answers. </Text>
+                    <Text style={styles.noResponse} accessible> Oops! Looks like you forgot to select any answers. </Text>
                 </View>
             );
         } else {
@@ -95,11 +95,14 @@ export default class QuizResults extends Component {
                             // If they did fill out responses, it displays the correct cards
                             Object.entries(results).map(([key,v])=>{
                                 if (v <= 1 && v >= 0) {
-                                    return <Card key={key} title={content[key].title} titleStyle={{color:'#2089DC'}}>
-                                    <Text style={styles.paragraphBold}> Why It Happens: </Text>
-                                    <Text style={styles.paragraph}> {content[key].body1} </Text>
-                                    <Text style={styles.paragraphBold}> Is This a Problem?: </Text>
-                                    <Text style={styles.paragraph}> {content[key].body2} </Text>
+                                    return <Card key={key} 
+                                    title={content[key].title} 
+                                    titleStyle={{color:'#2089DC'}}
+                                    accessible>
+                                        <Text style={styles.paragraphBold}> Why It Happens: </Text>
+                                        <Text style={styles.paragraph}> {content[key].body1} </Text>
+                                        <Text style={styles.paragraphBold}> Is This a Problem?: </Text>
+                                        <Text style={styles.paragraph}> {content[key].body2} </Text>
                                     </Card>
                                 }
                             })
@@ -128,7 +131,7 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     blankContainer: {
-        //flex: 1,
+        flex: 1,
         height: 100,
         alignItems: 'center',
         justifyContent: 'center',
