@@ -71,25 +71,43 @@ export default class QuizResults extends Component {
         // Receive results using props, apparently only way to do this. RN has an issue with params and StackNavigator at the moment.
         // It still works as intended, but I was trying to use the modern practice of NavigationActions and creating a NavigationService. 
         const results = this.props.navigation.getParam('results', 'nothing found');
+        var count = 0;
 
-        return (
-            <View style={styles.container}>
-                <ScrollView>
-                {     
-                    Object.entries(results).map(([key,v])=>{
-                        if (v <= 1) {
-                            return <Card key={key} title={content[key].title} titleStyle={{color:'#2089DC'}}>
-                            <Text style={styles.paragraphBold}> Why It Happens: </Text>
-                            <Text style={styles.paragraph}> {content[key].body1} </Text>
-                            <Text style={styles.paragraphBold}> Is This a Problem?: </Text>
-                            <Text style={styles.paragraph}> {content[key].body2} </Text>
-                            </Card>
+        // Checks if the user filled out any reponses
+        Object.entries(results).map(([key,v])=>{
+            if (v <= 1) {
+                count++
+            }
+        })
+
+        // If they did not fill out responses, it displays a message
+        if (count === 0) {
+            return (
+                <View style={styles.blankContainer}>
+                    <Text style={styles.noResponse}> Oops! Looks like you forgot to select any answers. </Text>
+                </View>
+            );
+        } else {
+            return (
+                <View style={styles.container}>
+                    <ScrollView>
+                        {
+                            // If they did fill out responses, it displays the correct cards
+                            Object.entries(results).map(([key,v])=>{
+                                if (v <= 1 && v >= 0) {
+                                    return <Card key={key} title={content[key].title} titleStyle={{color:'#2089DC'}}>
+                                    <Text style={styles.paragraphBold}> Why It Happens: </Text>
+                                    <Text style={styles.paragraph}> {content[key].body1} </Text>
+                                    <Text style={styles.paragraphBold}> Is This a Problem?: </Text>
+                                    <Text style={styles.paragraph}> {content[key].body2} </Text>
+                                    </Card>
+                                }
+                            })
                         }
-                    })
-                }
-                </ScrollView>
-        </View>
-        );
+                    </ScrollView>
+                </View>
+            );
+        }
     }
 }
 
@@ -107,7 +125,24 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.23,
         shadowRadius: 2.62,
-
+        elevation: 4,
+    },
+    blankContainer: {
+        //flex: 1,
+        height: 100,
+        alignItems: 'center',
+        justifyContent: 'center',
+        alignSelf: 'stretch',
+        margin: 10,
+        marginVertical: 20,
+        backgroundColor: 'white',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.23,
+        shadowRadius: 2.62,
         elevation: 4,
     },
     bullet: {
@@ -139,5 +174,17 @@ const styles = StyleSheet.create({
         fontSize: 22, 
         textAlign: 'center', 
         alignSelf: 'stretch'
+    },
+    noResponse: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontWeight: 'bold', 
+        fontSize: 20,
+        color: '#2089DC', 
+        textAlign: 'center', 
+        alignSelf: 'stretch',
+        marginLeft: 10,
+        marginRight: 10,
+        marginTop: -10,
     },
 });
