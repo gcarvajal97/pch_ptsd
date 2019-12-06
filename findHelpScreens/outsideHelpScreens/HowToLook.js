@@ -42,21 +42,6 @@ export default class HowToLook extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-      flex: 1,
-      alignItems: 'center',
-      margin: 10,
-      backgroundColor: 'white',
-      shadowColor: "#000",
-      shadowOffset: {
-          width: 0,
-          height: 2,
-      },
-      shadowOpacity: 0.23,
-      shadowRadius: 2.62,
-
-      elevation: 4,
-  },
   paragraphTitle: {
     fontWeight: 'bold',
     fontSize: 20,
@@ -71,14 +56,16 @@ const styles = StyleSheet.create({
     fontSize: 14,
     marginVertical: 2,
   },
+  paragraphBold: {
+    textAlign: 'left',
+    fontSize: 14,
+    fontWeight: 'bold',
+    marginVertical: 2,
+    marginLeft: 10
+  },
   link: {
     fontSize: 14,
     color:'#2089DC',
     textDecorationLine: 'underline',
-  },
-  image: {
-    flex: 1,
-    aspectRatio: 0.90,
-    resizeMode: 'contain'
   }
 });
