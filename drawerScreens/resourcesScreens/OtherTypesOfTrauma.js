@@ -2,28 +2,115 @@ import React, { Component } from 'react';
 import { View, StyleSheet, Text} from 'react-native';
 import { Linking } from "expo";
 
-class FindATherapistScreen extends Component {
+export default class OtherTypesOfTraumaScreen extends Component {
 
   render() {
     return (
       <View>
-        <Text style={styles.paragraph}>
-        {"\ "}
-        <Text style={styles.link} onPress={()=> Linking.openURL('http://www.nctsnet.org/nccts/nav.do?pid=ctr_aud_prnt_gethelp')}
-          accessible
-          accessibilityLabel="Click here for mental health professional information"
-          accessibilityHint="Navigates to a website on mental health professional information">
-          The National Child Traumatic Stress Network
-          </Text>
-        {"\ "}has useful tips and information on how to find a mental health 
-        professional to help your child and family after trauma.
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL(
+        'http://www.militaryonesource.com/MOS/MilitaryFamiliesGateway.aspx'
+        )}
+        accessible
+        accessibilityLabel="Click here to visit the Military OneSource official page"
+        accessibilityHint="Navigates to Military OneSource homepage">
+        Military OneSource
         </Text>
+      {"\n"}
+      Military OneSource has resources for military families, 
+      including ways to help children prepare for and deal with a parent's deployment.
+      </Text>
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL('http://www.lotsahelpinghands.com/')}
+        accessible
+        accessibilityLabel="Click here to visit Lotsa Helping Hands official page"
+        accessibilityHint="Navigates to Lotsa Helping Hands homepage">
+        Lotsa Helping Hands
+        </Text>
+      {"\n"}Lotsa Helping Hands is a simple, immediate way for friends, 
+      family, colleagues, and neighbors to assist loved ones in need.
+      </Text>
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL('http://www.nctsn.org/nccts/nav.do?pid=typ_tg')}
+        accessible
+        accessibilityLabel="Click here to visit the NCTSN official page"
+        accessibilityHint="Navigates to The National Child Traumatic Stress Network homepage">
+        Traumatic grief resources from the National Child Traumatic Stress Network
+        </Text>
+      {"\n"}
+      The National Child Traumatic Stress Network is a network of academic and community-based centers providing education 
+      and services for children and families who have experienced a traumatic event. This page has educational materials 
+      for parents and professionals on childhood traumatic grief.
+      </Text>
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL('https://www.nimh.nih.gov/index.shtml')}
+        accessible
+        accessibilityLabel="Click here to visit the National Institute of Mental Health homepage"
+        accessibilityHint="Navigates to National Institute of Mental Health offical page">
+        The National Institute of Mental Health
+        </Text>
+      {"\n"}The National Institute of Mental Health has more information explaining what PTSD is, when it starts, 
+      how long it lasts, and how to get help. 
+      </Text>
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL(
+        'http://www.redcross.org/local/hawaii/programs-services/disaster-preparedness'
+        )}
+        accessible
+        accessibilityLabel="Click here to visit the Disaster Resources from the American Red Cross PDF"
+        accessibilityHint="Navigates to Disaster Resources from the American Red Cross PDF">
+        Disaster Resources from the American Red Cross
+        </Text>
+      {"\n"}Disaster Resources from the American Red Cross has information about helping 
+      children cope with effects of disaster, and how to be prepared before a disaster. 
+      </Text>
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL(
+        'http://www.apa.org/news/press/releases/2005/01/tsunami.aspx'
+        )}
+        accessible
+        accessibilityLabel="Click here to visit the Disaster Resources from the American Psychological Association page"
+        accessibilityHint="Navigates to the Disaster Resources from the American Psychological Association page">
+        Disaster Resources from the American Psychological Association
+        </Text>
+      {"\n"}Disaster Resources from the American Psychological Association has information and 
+      tips for recovering from a natural disaster.
+      </Text>
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL(
+        'https://emergency.cdc.gov/coping/index.asp'
+        )}
+        accessible
+        accessibilityLabel="Click here to visit the Disaster Resources from the Centers for Disease Control and Prevention page"
+        accessibilityHint="Navigates to the Disaster Resources from the Centers for Disease Control and Prevention page">
+        Disaster Resources from the Centers for Disease Control and Prevention
+        </Text>
+      {"\n"}Disaster Resources from the Centers for Disease Control and Prevention has information 
+      for parents, children, and professionals on coping with a disaster. 
+      </Text>
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL('http://www.childwelfare.gov/can/index.cfm')}
+        accessible
+        accessibilityLabel="Click here to visit the Child Welfare Information Gateway homepage"
+        accessibilityHint="Navigates to Child Welfare Information Gateway homepage">
+        Child Welfare Information Gateway
+        </Text>
+      {"\n"}The Child Welfare Information Gateway has resources on a range of child maltreatment topics. 
+      </Text>
+      <Text style={styles.paragraph}>
+      <Text style={styles.link} onPress={()=> Linking.openURL('http://www.thehotline.org/')}
+        accessible
+        accessibilityLabel="Click here to vist the Disaster Resources from the American Red Cross PDF"
+        accessibilityHint="Navigates to Disaster Resources from the American Red Cross PDF">
+        National Domestic Violence Hotline
+        </Text>
+      {"\n"}The National Domestic Violence Hotline is an anonymous 24/7 hotline that 
+      provides support and assistance to victims of domestic violence.
+      </Text>
     </View>
     );
   }
 }
-
-export default FindATherapistScreen;
 
 const styles = StyleSheet.create({
   container: {
@@ -81,14 +168,15 @@ const styles = StyleSheet.create({
     marginVertical: 2,
   },
   link: {
-      alignSelf:"center", 
-      paddingVertical:1, 
-      paddingHorizontal:5,
-      fontSize: 16,
-      color:'#2089DC',
-      textDecorationLine: 'underline',
-      marginTop: 4,
-      marginTop: 3,
+    alignSelf:"center", 
+    paddingVertical:1, 
+    paddingHorizontal:5,
+    fontSize: 16,
+    color:'#2089DC',
+    textDecorationLine: 'underline',
+    fontWeight: 'bold',
+    marginTop: 4,
+    marginTop: 3,
   },
   image: {
     flex: 1,

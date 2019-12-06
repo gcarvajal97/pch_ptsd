@@ -14,67 +14,78 @@ import NavigationService from '../../components/NavigationService';
 import resourcePyramid from '../../assets/resourcePyramid.png';
 import FindATherapistScreen from './FindATherapistGroup';
 import MoreInfoGroup from './MoreInfoGroup';
+import OtherTypesOfTraumaScreen from './OtherTypesOfTrauma';
+import WorryAndStressScreen from './WorryOrStressHelp';
+import SleepHelpScreen from './SleepHelp';
+import InjuryPreventionScreen from './InjuryPreventionHelp';
+import PainAndInjuryCareScreen from './PainAndInjuryCareHelp';
+import BooksForParentsScreen from './BooksForParents.js';
+import BooksForKidsScreen from './BooksForKids';
+
+const PAGES = [
+    {
+        name: 'For more information on how to find a therapist',
+        content: <FindATherapistScreen />,
+        accessibilityHint: 'Navigates to FindATherapist',
+        value: 0
+    },
+    {
+        name: 'For more information about traumatic stress and PTSD',
+        content: <MoreInfoGroup />,
+        accessibilityHint: 'Navigates to MoreInfo',
+        value: 1
+    },
+    {
+        name: 'For more information on dealing with other types of traumatic events',
+        content: <OtherTypesOfTraumaScreen />,
+        accessibilityHint: 'Navigates to OtherTypesOfTrauma',
+        value: 2
+    },
+    {
+        name: 'For help with worry or stress in children and teens',
+        content: <WorryAndStressScreen />,
+        accessibilityHint: 'Navigates to WorryAndStress',
+        value: 3
+    },
+    {
+        name: 'For help with sleep problems',
+        content: <SleepHelpScreen />,
+        accessibilityHint: 'Navigates to sleep problems',
+        value: 4
+    },{
+        name: 'For information on injury prevention',
+        content: <InjuryPreventionScreen />,
+        accessibilityHint: 'Navigates to injury prevention',
+        value: 5
+    },
+    {
+        name: 'For more information on pain and injury care',
+        content: <PainAndInjuryCareScreen />,
+        accessibilityHint: 'Navigates to pain and injury care',
+        value: 6
+    },
+    {
+        name: 'Books For Parents',
+        content: <BooksForParentsScreen />,
+        accessibilityHint: 'Navigates to Books For Parents',
+        value: 7
+    },
+    {
+        name: 'Books For Kids',
+        content: <BooksForKidsScreen />,
+        accessibilityHint: 'Navigates to Books For Kids',
+        value: 8
+    }
+]
 
 class ResourcesScreen extends Component {
 
-    pages = [
-        {
-            name: 'For more information on how to find a therapist',
-            content: <FindATherapistScreen resetSections={this.resetSections}/>,
-            accessibilityHint: 'Navigates to When to look for outside help Page',
-            value: 0
-        },
-        {
-            name: 'For more information about traumatic stress and PTSD',
-            content: <MoreInfoGroup />,
-            accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page',
-            value: 1
-        },
-        {
-            name: 'Information on dealing with other types of traumatic events',
-            content: <Text>Test</Text>,
-            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
-            value: 2
-        },
-        {
-            name: 'For help with worry or stress in children and teens',
-            content: <Text>Test</Text>,
-            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
-            value: 3
-        },
-        {
-            name: 'For help with sleep problems',
-            content: <Text>Test</Text>,
-            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
-            value: 4
-        },{
-            name: 'For information on injury prevention',
-            content: <Text>Test</Text>,
-            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
-            value: 5
-        },
-        {
-            name: 'For more information on pain and injury care',
-            content: <Text>Test</Text>,
-            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
-            value: 6
-        },
-        {
-            name: 'BOOKS FOR PARENTS',
-            content: <Text>Test</Text>,
-            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
-            value: 7
-        },
-        {
-            name: 'BOOKS FOR KIDS',
-            content: <Text>Test</Text>,
-            accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
-            value: 8
-        }
-    ]
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Additional Resources'
+        headerTitle: 'Additional Resources',
+        headerLeft: (<View style={{ margin: 5 }}><Button
+            onPress={()=>NavigationService.navigateDrawer('Home')}
+            title='Back'></Button></View>)
     }
 
     state = {
@@ -95,13 +106,9 @@ class ResourcesScreen extends Component {
         });
     };
 
-    resetSections = () => {
-        this.setState({activeSections: []});
-    }
-
     renderHeader = (section, _, isActive) => {
         let active;
-        this.pages.forEach((page) => {
+        PAGES.forEach((page) => {
             if (page.name == section.name) {
                 active = page.value
             }
@@ -147,14 +154,13 @@ class ResourcesScreen extends Component {
                     </Card>
                     <Accordion
                         activeSections={this.state.activeSections}
-                        sections={this.pages}
+                        sections={PAGES}
                         touchableComponent={TouchableOpacity}
                         expandMultiple={this.state.multipleSelect}
                         renderHeader={this.renderHeader}
                         renderContent={this.renderContent}
                         onChange={this.setSections}
                     />
-                    <Button title='Go Back' onPress={()=>NavigationService.navigateDrawer('Home')} />
             </ScrollView>
         </View>
         );

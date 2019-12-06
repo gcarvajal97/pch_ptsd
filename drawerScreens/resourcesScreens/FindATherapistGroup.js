@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text} from 'react-native';
-
-import NavigationService from '../../components/NavigationService';
+import { Linking } from "expo";
 
 export default class FindATherapistScreen extends Component {
-  constructor(props) {
-    super(props)
-  }
 
   render() {
     return (
@@ -18,7 +14,7 @@ export default class FindATherapistScreen extends Component {
         accessibilityHint="Navigates to The Psychology Today homepage">
         Psychology Today
         </Text>
-      {"\n"}Psychology Today is a greate resource to find a therapist or counselor for you or your child.
+      {"\n"}Psychology Today is a great resource to find a therapist or counselor for you or your child.
       </Text>
     </View>
     );
