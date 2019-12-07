@@ -19,7 +19,7 @@ import WorryAndStressScreen from './WorryOrStressHelp';
 import SleepHelpScreen from './SleepHelp';
 import InjuryPreventionScreen from './InjuryPreventionHelp';
 import PainAndInjuryCareScreen from './PainAndInjuryCareHelp';
-import BooksForParentsScreen from './BooksForParents.js';
+import BooksForParentsScreen from './BooksForParents';
 import BooksForKidsScreen from './BooksForKids';
 
 const PAGES = [
