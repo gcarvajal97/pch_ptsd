@@ -5,10 +5,9 @@ import * as Animatable from 'react-native-animatable';
 import Accordion from 'react-native-collapsible/Accordion';
 
 import IntheED from './InTheED';
-import InTheHospital from './IntheHospital';
-import AfterTheHospital from '././AfterTheHospital';
+import InTheHospital from './InTheHospital';
+import AfterTheHospital from './AfterTheHospital';
 import healthTeam from '../../assets/healthTeam.jpg';
-
 
 // List of screens that will be dispalyed in this list component
 const PAGES = [

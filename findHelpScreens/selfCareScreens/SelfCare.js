@@ -94,13 +94,15 @@ class SelfCare extends Component {
             <ScrollView>
             <SelfCareCard/>
         
-            <Text style={styles.paragraphTitle}>In addition to all the things you do to help your child, it's very important to take good care of yourself.</Text>
-            <Text style={styles.paragraph}>It is harder to help your child if you are feeling really worried, upset, or overwhelmed.</Text>
-            <Text style={styles.paragraph}>Other parents have said: </Text>
-            <Text style={styles.paragraphBold}>"I can't stop thinking about what happened."</Text>
-            <Text style={styles.paragraphBold}>"I get upset when something reminds me of it."</Text>
-            <Text style={styles.paragraphBold}>"I worry a lot more now about my child being safe."</Text>
-            <Text style={styles.paragraph}> This section has information on some of the reactions you may notice in yourself:</Text>  
+            <View>
+                <Text style={styles.paragraphTitle}>In addition to all the things you do to help your child, it's very important to take good care of yourself.</Text>
+                <Text style={styles.paragraph}>It is harder to help your child if you are feeling really worried, upset, or overwhelmed.</Text>
+                <Text style={styles.paragraph}>Other parents have said: </Text>
+                <Text style={styles.paragraphBold}>"I can't stop thinking about what happened."</Text>
+                <Text style={styles.paragraphBold}>"I get upset when something reminds me of it."</Text>
+                <Text style={styles.paragraphBold}>"I worry a lot more now about my child being safe."</Text>
+                <Text style={styles.paragraph}> This section has information on some of the reactions you may notice in yourself:</Text>  
+            </View>
 
             <Accordion
                 activeSections={activeSections}
@@ -122,49 +124,44 @@ class SelfCare extends Component {
 export default SelfCare;
 
 const styles = StyleSheet.create({
-        paragraphTitle: {
-          fontWeight: 'bold',
-          fontSize: 20,
-          alignSelf: 'stretch',
-          textAlign: 'left',
-          marginTop: 6,
-          marginBottom: 3,
-          color: '#2089DC'
-        },
-        paragraph: {
-          textAlign: 'left',
-          fontSize: 14,
-          marginVertical: 2,
-        },
-        paragraphBold: {
-          textAlign: 'left',
-          fontSize: 14,
-          fontWeight: 'bold',
-          marginVertical: 2,
-          marginLeft: 10
-        },
     container: {
-      flex: 1,
-      alignItems: 'stretch',
-      margin: 10,
-      backgroundColor: 'white',
-      shadowColor: "#000",
-      shadowOffset: {
-          width: 0,
-          height: 2,
-      },
-      shadowOpacity: 0.23,
-      shadowRadius: 2.62,
-      elevation: 4,
-    },
+        flex: 1,
+        alignItems: 'center',
+        margin: 10,
+        backgroundColor: 'white',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.23,
+        shadowRadius: 2.62,
 
+        elevation: 4,
+    },
+    title: {
+        backgroundColor: '#2089DC',
+        color: 'white',
+        fontWeight: 'bold',
+        fontSize: 22,
+        textAlign: 'center',
+        alignSelf: 'stretch'
+    },
     header: {
         backgroundColor: '#F5FCFF',
         padding: 10,
     },
     headerText: {
-        textAlign: 'left',
         fontSize: 16,
+        fontWeight: '500',
+    },
+    paragraph: {
+        alignSelf: 'center',
+        paddingVertical: 0,
+        paddingHorizontal: 4,
+        fontSize: 14,
+        marginTop: 0,
+        marginBottom: 4,
     },
     content: {
         padding: 20,
@@ -175,5 +172,43 @@ const styles = StyleSheet.create({
     },
     inactive: {
         backgroundColor: 'rgba(245,252,255,1)',
+    },
+    selectors: {
+        marginBottom: 10,
+        flexDirection: 'row',
+        justifyContent: 'center',
+    },
+    selector: {
+        backgroundColor: '#F5FCFF',
+        padding: 10,
+    },
+    activeSelector: {
+        fontWeight: 'bold',
+    },
+    selectTitle: {
+        fontSize: 14,
+        fontWeight: '500',
+        padding: 10,
+    },
+    subTitle: {
+        backgroundColor: '#2089DC',
+        color: 'white',
+        alignSelf: 'stretch',
+        paddingLeft: 15,
+        paddingRight: 15,
+        fontSize: 15,
+        borderBottomWidth: 2,
+        borderBottomColor: '#2089DC',
+    },
+    paragraphTitle: {
+        fontWeight: 'bold',
+        fontSize: 22,
+        alignSelf: 'stretch',
+        textAlign: 'left',
+        marginTop: 3,
+        marginBottom: 2,
+        color: '#2089DC',
+        paddingLeft: 4,
+        paddingRight: 1
     },
 });

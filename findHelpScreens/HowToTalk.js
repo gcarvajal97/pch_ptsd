@@ -54,7 +54,7 @@ class HowToTalk extends Component {
                     <Text style={styles.bullet}>4. Listen carefully to what your child has to say to you.</Text>
                     <Text style={styles.subBullet}>- Wait until your child finishes before jumping in.</Text>
                     <Text style={styles.subBullet}>- Repeat back what you heard in your own words to be sure you understood.</Text>
-                    <Text style={styles.subBullet}>- Try to hold off giving advice until you have a good understanding of what your child is going through. What's been most upsetting to her? How is she feeling now?</Text>
+                    <Text style={styles.subBullet}>- Try to hold off giving advice until you have a good understanding of what your child is going through. What's been most upsetting to them? How are they feeling now?</Text>
                     
                     <Text style={styles.paragraphTitle}>
                     What do I say?
@@ -75,7 +75,7 @@ class HowToTalk extends Component {
                     <Text style={styles.bullet}>1. Be patient. Your child may not be ready to talk at the same time you are.</Text>
                     <Text style={styles.bullet}>2. Do not force the issue. Do not try to force your child to talk. Some people like to think about things for a while first.</Text>
                     <Text style={styles.bullet}>3. Encourage other ways of expressing thoughts and feelings. Your child can draw a picture, write a story, or keep a diary or journal.</Text>
-                    <Text style={styles.bullet}>4. Help your child stay connected with friends and adults you both trust, so you will know he has people to talk with when he is ready.</Text>
+                    <Text style={styles.bullet}>4. Help your child stay connected with friends and adults you both trust, so you will know they have people to talk with when they are ready.</Text>
                     <Text style={styles.bullet}>5. Some reactions are not said in words.</Text>
                     <Text style={styles.subBullet}>- Even without words, you can try to be aware of your child’s reactions.</Text>
                     <Text style={styles.subBullet}>- Think about how you can usually tell how your child is feeling - you might see changes in behavior, facial expressions, or body language.</Text>                    
@@ -84,7 +84,7 @@ class HowToTalk extends Component {
                     Things to remember:
                     </Text>
                     <Text style={styles.bullet}>1. Different people have different reactions.</Text>
-                    <Text style={styles.subBullet}>- As you think about how to help your child, try to separate what you are feeling from what your child is experiencing and what he needs.</Text>
+                    <Text style={styles.subBullet}>- As you think about how to help your child, try to separate what you are feeling from what your child is experiencing and what they need.</Text>
                     <Text style={styles.bullet}>2. Make sure your own feelings do not get in the way.</Text>
                     <Text style={styles.subBullet}>- Think about how you can usually tell how your child is feeling - you might see changes in behavior, facial expressions, or body language.</Text>
                     <Text style={{ marginBottom:1 }}></Text>

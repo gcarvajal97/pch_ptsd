@@ -49,10 +49,10 @@ class TraumaticStressReactions extends Component {
         or PTSD unless they persist for over a month and interfere with daily life.
         </Text>
         <Text style={styles.paragraphTitle}>
-        RE-EXPERIENCING
+        Re-Experiencing
         </Text>
         <Text style={styles.paragraph}>
-        Re-experiencing means that your child keeps thinking a lot about the trauma, even when he does not want to.
+        Re-experiencing means that your child keeps thinking a lot about the trauma, even when they do not want to.
         </Text>
         <Text style={styles.paragraph}>
         Some re-experiencing is normal and natural. Thinking a lot about what happened, especially at first, 
@@ -60,13 +60,13 @@ class TraumaticStressReactions extends Component {
         </Text>
         <Text style={styles.paragraph}>
         Too much re-experiencing can be very distressing. 
-        Your child might have nightmares or “flashbacks” that make her feel 
-        like she is going through the trauma all over again. 
+        Your child might have nightmares or “flashbacks” that make them feel 
+        like they are going through the trauma all over again. 
         She may feel really upset or even have physical symptoms 
-        when something – a sight, a sound, a smell – reminds her of what happened.
+        when something – a sight, a sound, a smell – reminds them of what happened.
         </Text>
         <Text style={styles.paragraphTitle}>
-        AVOIDANCE
+        Avoidance
         </Text>
         <Text style={styles.paragraph}>
         Avoidance symptoms can start by trying not to think or talk about the trauma, 
@@ -82,10 +82,10 @@ class TraumaticStressReactions extends Component {
         <Text style={styles.paragraph}>
         But extreme avoidance or fears can become a real problem. 
         Avoidance can interfere with daily life and stop your child 
-        from getting back to enjoying things that she usually likes to do.
+        from getting back to enjoying things that they usually like to do.
         </Text>
         <Text style={styles.paragraphTitle}>
-        HYPER-AROUSAL
+        Hyper-Arousal
         </Text>
         <Text style={styles.paragraph}>
         Hyper-arousal also starts with a natural and normal response to danger – the “fight or flight response.” 
@@ -100,7 +100,7 @@ class TraumaticStressReactions extends Component {
         <Text style={styles.paragraph}>
         The physical feelings that go along with hyper-arousal can feel scary themselves:
         </Text>
-        <Text style={styles.bullet}>Your child might suddenly feel her heart racing or head pounding.</Text>
+        <Text style={styles.bullet}>Your child might suddenly feel their heart racing or head pounding.</Text>
         <Text style={styles.bullet}>She might get worried about what these symptoms mean.</Text>
         <Text style={styles.paragraph}>
         Feeling “on guard” for danger much of the time can lead to:

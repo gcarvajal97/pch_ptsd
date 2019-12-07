@@ -34,46 +34,6 @@ class WhenToLook extends Component {
 export default WhenToLook;
 
 const styles = StyleSheet.create({
-  container: {
-      flex: 1,
-      alignItems: 'center',
-      margin: 10,
-      backgroundColor: 'white',
-      shadowColor: "#000",
-      shadowOffset: {
-          width: 0,
-          height: 2,
-      },
-      shadowOpacity: 0.23,
-      shadowRadius: 2.62,
-
-      elevation: 4,
-  },
-  title: {
-      backgroundColor: '#2089DC', 
-      color: 'white', 
-      fontWeight: 'bold', 
-      fontSize: 22, 
-      alignSelf: 'stretch'
-  },
-  subTitle: {
-    backgroundColor: '#2089DC', 
-    color: 'white', 
-    alignSelf: 'stretch', 
-    paddingLeft: 15, 
-    paddingRight:15, 
-    fontSize: 15, 
-    borderBottomWidth:2, 
-    borderBottomColor:'#2089DC',
-  },
-  bullet: {
-      marginVertical:1, 
-      marginHorizontal:18, 
-      textAlign:'left', 
-      alignSelf:'stretch', 
-      fontWeight:'bold',
-      fontSize:14
-  },
   paragraphTitle: {
     fontWeight: 'bold',
     fontSize: 20,
@@ -88,19 +48,16 @@ const styles = StyleSheet.create({
     fontSize: 14,
     marginVertical: 2,
   },
-  link: {
-      alignSelf:"center", 
-      paddingVertical:1, 
-      paddingHorizontal:5,
-      fontSize: 16,
-      color:'#2089DC',
-      textDecorationLine: 'underline',
-      marginTop: 4,
-      marginTop: 3,
+  paragraphBold: {
+    textAlign: 'left',
+    fontSize: 14,
+    fontWeight: 'bold',
+    marginVertical: 2,
+    marginLeft: 10
   },
-  image: {
-    flex: 1,
-    aspectRatio: 1.40,
-    resizeMode: 'contain'
+  link: {
+    fontSize: 14,
+    color:'#2089DC',
+    textDecorationLine: 'underline',
   }
 });

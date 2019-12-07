@@ -92,7 +92,7 @@ export default class InjuryPainCare extends Component {
                     </Card>
                     <Text style={styles.paragraphTitle}>Injury and Pain Care</Text>
                     <Text style={styles.paragraph}>
-                    This section of the website offers some general information about common injuries and tips for 
+                    This section of the app offers some general information about common injuries and tips for 
                     home management, as well as helpful hints for pain management and injury prevention.
                     </Text>
                     <Text style={styles.paragraph}>

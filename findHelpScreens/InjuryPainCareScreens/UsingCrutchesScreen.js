@@ -38,8 +38,8 @@ export default class UsingCrutchesScreen extends Component {
           <Text style={styles.paragraphTitle}>Make sure to ask your healthcare provider:</Text>
           <Text style={styles.paragraph}>-How long will my child need to be on crutches?</Text>
           <Text style={styles.paragraph}>-Can my child bear any weight on his injured leg?</Text>
-          <Text style={styles.paragraph}>-What are the limits to my child's activity while he is on crutches?</Text>
-          <Text style={styles.paragraph}>-What are the limits on my child's activity once he is off of his crutches?</Text>
+          <Text style={styles.paragraph}>-What are the limits to my child's activity while they are on crutches?</Text>
+          <Text style={styles.paragraph}>-What are the limits on my child's activity once they are off of their crutches?</Text>
           <Text style={styles.paragraph}>-When can my child return to school?</Text>
           <Text style={styles.paragraph}>-When can my child return to gym class? to contact sports? to biking? or to rough play?</Text>
           <Text style={styles.paragraph}>-Will my child need physical therapy?</Text>
