@@ -37,7 +37,7 @@ const NavigationBar = createStackNavigator({
     HealthTeam: HealthcareTeam,
     HowToTalk: HowToTalk,
     QuickTips: QuickTips,
-    SelfCare: SelfCare,
+    SelfCare: SelfCare
   });
   
   // New in this version of React Native, must be created and reference/returned

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Switch,
-    ScrollView,
+import { ScrollView,
     StyleSheet,
     Text,
     View,
