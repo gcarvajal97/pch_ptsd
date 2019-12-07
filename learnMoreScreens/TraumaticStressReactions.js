@@ -49,7 +49,7 @@ class TraumaticStressReactions extends Component {
         or PTSD unless they persist for over a month and interfere with daily life.
         </Text>
         <Text style={styles.paragraphTitle}>
-        RE-EXPERIENCING
+        Re-Experiencing
         </Text>
         <Text style={styles.paragraph}>
         Re-experiencing means that your child keeps thinking a lot about the trauma, even when they do not want to.
@@ -66,7 +66,7 @@ class TraumaticStressReactions extends Component {
         when something – a sight, a sound, a smell – reminds them of what happened.
         </Text>
         <Text style={styles.paragraphTitle}>
-        AVOIDANCE
+        Avoidance
         </Text>
         <Text style={styles.paragraph}>
         Avoidance symptoms can start by trying not to think or talk about the trauma, 
@@ -85,7 +85,7 @@ class TraumaticStressReactions extends Component {
         from getting back to enjoying things that they usually like to do.
         </Text>
         <Text style={styles.paragraphTitle}>
-        HYPER-AROUSAL
+        Hyper-Arousal
         </Text>
         <Text style={styles.paragraph}>
         Hyper-arousal also starts with a natural and normal response to danger – the “fight or flight response.” 
