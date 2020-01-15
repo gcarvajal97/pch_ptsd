@@ -26,7 +26,8 @@
     "react-native-web": "^0.11.7",
     "react-navigation": "^4.0.10",
     "react-navigation-drawer": "^2.2.2",
-    "react-navigation-stack": "^1.9.4"
+    "react-navigation-stack": "^1.9.4",
+    "expo-localization": "~7.0.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.0.0"
