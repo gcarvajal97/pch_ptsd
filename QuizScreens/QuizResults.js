@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View, Text, StyleSheet, } from "react-native";
 import { Card } from 'react-native-elements';
 import { ScrollView } from "react-native-gesture-handler";
+import * as Localization from 'expo-localization';
 
 const content = {
     1: {title: 'Thinks a lot about what happened to them', 
@@ -68,6 +69,8 @@ export default class QuizResults extends Component {
     }
 
     render() {
+        console.log(Localization.locale)
+
         // Receive results using props, apparently only way to do this. RN has an issue with params and StackNavigator at the moment.
         // It still works as intended, but I was trying to use the modern practice of NavigationActions and creating a NavigationService. 
         const results = this.props.navigation.getParam('results', 'nothing found');

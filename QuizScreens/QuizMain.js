@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Button, ButtonGroup, Card } from "react-native-elements";
 import NavigationService from "../components/NavigationService";
-import QuizRateReactions from "../assets/QuizRateReactions.jpg"
+import QuizRateReactions from "../assets/QuizRateReactions.jpg";
+import * as Localization from 'expo-localization';
 
 
 class QuizMain extends Component {
@@ -22,6 +23,8 @@ class QuizMain extends Component {
     }
 
     render() {
+        console.log(Localization.locale)
+        
         // selectedIndex of each Radio ButtonGroup [0, 1, 2] coincides with the array below. 0 -> Always, 1 -> Sometimes, 2 -> Never
         const buttons = ['Always', 'Sometimes', 'Never'];
         return (
