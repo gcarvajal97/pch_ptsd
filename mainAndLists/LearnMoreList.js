@@ -3,6 +3,8 @@ import { Text, View } from 'react-native';
 import { Card, ListItem, Divider } from 'react-native-elements';
 
 import NavigationService from '../components/NavigationService';
+import * as Localization from 'expo-localization';
+import i18n from 'i18n-js';
 
 // List of screens that will be dispalyed in this list component
 const listNames = [
