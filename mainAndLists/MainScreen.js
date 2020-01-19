@@ -34,10 +34,11 @@ class MainScreen extends Component {
     }
 }
 
-export default MainScreen;
-
 i18n.translations = {
     en: { PediatricPTSD: 'Pediatric PTSD', more: 'more'},
     es: { PediatricPTSD: 'Pediátrico TEPT', more: 'más'},
   };
+
+export default MainScreen;
+
 
