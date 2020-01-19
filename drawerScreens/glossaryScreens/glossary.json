@@ -2,7 +2,7 @@
   "en": [
     {
       "title": "Anatomy",
-      "terms": [
+      "content": [
         {
           "term": "Clavicle",
           "definition": "A bone that links the scapula (shoulder blade) and sternum (breastbone), is situated just above the first rib on either side of the neck, and has the form of a narrow elongated S -- also called collarbone."
@@ -72,8 +72,8 @@
   ],
   "es": [
     {
-      "section": "anatomy",
-      "terms": [
+      "title": "Anatomy",
+      "content": [
         {
           "term": "Clavicle",
           "definition": "A bone that links the scapula (shoulder blade) and sternum (breastbone), is situated just above the first rib on either side of the neck, and has the form of a narrow elongated S -- also called collarbone."
