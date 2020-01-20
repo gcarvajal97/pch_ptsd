@@ -4,7 +4,33 @@ import { Button, ButtonGroup, Card } from "react-native-elements";
 import NavigationService from "../components/NavigationService";
 import QuizRateReactions from "../assets/QuizRateReactions.jpg";
 import * as Localization from 'expo-localization';
+import i18n from 'i18n-js';
 
+i18n.translations = {
+    en: { header: 'Take the Quiz',
+          op1: 'Always', 
+          op2: 'Sometimes',
+          op3: 'Never',
+          title: 'Quiz',
+          accessibilityLabelCont: 'Quiz to rate child\'s traumatic stress level',
+          accessabilityLabelPic: 'Image of child reacting to stress',
+          title: 'Rate your child\'s reactions in the quiz below.',
+          description: 'You can rate these on your own, based on what you have noticed with your child. If possible, you may want to involve your child in answering these questions with you.',
+        },
+    es: { header: 'Haz la Prueba',
+          op1: 'Siempre', 
+          op2: 'Aveces',
+          op3: 'Nunca', 
+          title: 'Examen',
+          accessibilityLabelCont: 'Prueba para calificar el nivel de estrés traumático del niño',
+          accessibilityLabelPic: 'Imagen del niño reaccionando al estrés',
+          title: 'Evale las Reacciones de su Hijo.',
+          description: 'Puede evaluar las reacciones por su cuenta (en base a lo que usted haya notado en su hijo). O mejor aún, haga que su hijo participe en la evaluación de sus reacciones o síntomas del trauma con usted.',
+        },
+  };
+
+i18n.locale = Localization.locale;
+i18n.fallbacks = true;
 
 class QuizMain extends Component {
     constructor () {
@@ -19,27 +45,25 @@ class QuizMain extends Component {
       }
 
       static navigationOptions = {
-        headerTitle: 'Take the Quiz'
+        headerTitle: i18n.t('header')
     }
 
     render() {
         console.log(Localization.locale)
         
         // selectedIndex of each Radio ButtonGroup [0, 1, 2] coincides with the array below. 0 -> Always, 1 -> Sometimes, 2 -> Never
-        const buttons = ['Always', 'Sometimes', 'Never'];
+        const buttons = [i18n.t('op1'), i18n.t('op2'), i18n.t('op3')];
         return (
-            <View style={styles.container} accessible accessibilityLabel="Quiz to rate child's traumatic stress level">
+            <View style={styles.container} accessible accessibilityLabel={i18n.t('accessabilityLabelCont')}>
                 <ScrollView>
-                    <Card image={QuizRateReactions} featuredTitle='Quiz' featuredTitleStyle={{fontSize:42}} containerStyle={{margin:8, padding:-1}}
-                             accessible accessibilityLabel='Image of child reacting to stress'>
-                        <Text style={{marginVertical:-8, textAlign:'center'}}>Rate your child's reactions in the quiz below.</Text></Card>
-                    <Text style={styles.paragraph}>You can rate these on your own, based on what you have noticed with your child. If possible, you
-                        may want to involve your child in answering these questions with you.</Text>
+                    <Card image={QuizRateReactions} featuredTitle={i18n.t('header')} featuredTitleStyle={{fontSize:42}} containerStyle={{margin:8, padding:-1}}
+                             accessible accessibilityLabel={i18n.t('accessabilityLabelPic')}>
+                        <Text style={{marginVertical:-8, textAlign:'center'}}>{i18n.t('title')}</Text></Card>
+                    <Text style={styles.paragraph}>{i18n.t('description')}</Text>
                     <Text style={styles.questionTitle}>
                         Re-experiencing: Reliving what happened</Text>
-
                         <Text style={styles.question}>
-                        1. Thinks a lot about what happened to them</Text>
+                       1. Thinks a lot about what happened to them</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'1': e})} selectedIndex={this.state[1]} containerStyle={styles.buttonGroupContainer}/>
                         <Text style={styles.question}>
                         2. Has bad dreams or nightmares since the injury</Text>
