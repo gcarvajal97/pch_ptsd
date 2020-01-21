@@ -4,6 +4,7 @@ import NavigationService from "../../components/NavigationService";
 import * as translations from "./glossary.json";
 import GlossaryAccordion from "./GlossaryAccordion";
 import GlossaryScreenCard from "./GlossaryScreenCard";
+import GlossaryTerms from "./GlossaryTerms";
 
 class GlossaryScreen extends Component {
   // Gives the NavBar a title for this specific screen
@@ -20,12 +21,14 @@ class GlossaryScreen extends Component {
   };
 
   render() {
-    console.log(translations["en"])
     return (
       <View style={styles.container}>
         <ScrollView>
           <GlossaryScreenCard />
-          <GlossaryAccordion sections={translations["en"]} />
+          <GlossaryAccordion
+            sections={translations["en"]}
+            contentRenderFunction={GlossaryTerms}
+          />
         </ScrollView>
       </View>
     );
@@ -38,7 +41,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    margin: 10,
     backgroundColor: "white",
     shadowColor: "#000",
     shadowOffset: {
@@ -48,5 +50,5 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.23,
     shadowRadius: 2.62,
     elevation: 4
-  },
-})
+  }
+});
