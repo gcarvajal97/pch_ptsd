@@ -1,41 +1,50 @@
 import React, { Component } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import * as Animatable from "react-native-animatable";
 import Accordion from "react-native-collapsible/Accordion";
-
-
 
 class GlossaryAccordion extends Component {
   state = {
-    activeSections: [],
+    sections: [],
+    activeSections: []
   };
 
   constructor(props) {
     super(props);
+
+    this.state.sections = this._initializeSections(
+      props.sections,
+      props.contentRenderFunction
+    );
   }
 
-  _renderHeader = section => {
+  _initializeSections(sections, contentRenderFunction) {
+    return sections.map(section => {
+      return {
+        name: section.name,
+        accessibilityHint: section.accessibilityHint,
+        content: contentRenderFunction(section.content)
+      };
+    });
+  }
+
+  _renderHeader = (section, i, active) => {
     return (
-      <View style={styles.header}>
-        <Text style={styles.paragraphBold}>{section.title}</Text>
-      </View>
+      <Animatable.View
+        duration={400}
+        transition="backgroundColor"
+        style={(styles.header, active ? styles.active : styles.inactive)}
+      >
+        <View style={styles.headerTextContainer}>
+          <Text style={styles.headerText}>{active ? "[-]" : "[+]"}</Text>
+          <Text style={styles.headerText}>{section.name}</Text>
+        </View>
+      </Animatable.View>
     );
   };
 
-  _renderContent = section => {
-    console.log("_renderContent: ", section);
-    return (
-      <View>
-        {
-          section.content.map((item, index) => {
-          return (
-            <View key={index}>
-              <Text>{item.term}</Text>
-              <Text>{item.description}</Text>
-            </View>
-          );
-        })}
-      </View>
-    );
+  _renderContent = (section, i, active) => {
+    return <Animatable.View>{section.content}</Animatable.View>;
   };
 
   _updateSections = activeSections => {
@@ -44,13 +53,17 @@ class GlossaryAccordion extends Component {
 
   render() {
     return (
-      <Accordion
-        sections={this.props.sections}
-        activeSections={this.state.activeSections}
-        renderHeader={this._renderHeader}
-        renderContent={this._renderContent}
-        onChange={this._updateSections}
-      />
+      <View>
+        <Accordion
+          duration={500}
+          touchableComponent={TouchableOpacity}
+          sections={this.state.sections}
+          activeSections={this.state.activeSections}
+          renderHeader={this._renderHeader}
+          renderContent={this._renderContent}
+          onChange={this._updateSections}
+        />
+      </View>
     );
   }
 }
@@ -58,41 +71,24 @@ class GlossaryAccordion extends Component {
 export default GlossaryAccordion;
 
 const styles = StyleSheet.create({
-  title: {
-    backgroundColor: "#2089DC",
-    color: "white",
-    fontWeight: "bold",
-    fontSize: 22,
-    alignSelf: "stretch",
-    textAlign: "center"
-  },
   header: {
     backgroundColor: "#F5FCFF",
     padding: 10
   },
-  headerText: {
-    fontWeight: "500",
-    fontSize: 16
+  headerTextContainer: {
+    flex: 1,
+    flexDirection: "row",
+    margin: 10
   },
-  content: {
-    padding: 20,
-    backgroundColor: "#fff"
+  headerText: {
+    paddingLeft: 5,
+    fontSize: 14,
+    fontWeight: "500"
   },
   active: {
-    backgroundColor: "white"
+    backgroundColor: "rgba(255,255,255,1)"
   },
   inactive: {
-    backgroundColor: "white"
-  },
-  paragraph: {
-    textAlign: "left",
-    fontSize: 14,
-    marginVertical: 2
-  },
-  paragraphBold: {
-    textAlign: "left",
-    fontSize: 14,
-    fontWeight: "bold",
-    marginVertical: 2
+    backgroundColor: "rgba(245,252,255,1)"
   }
 });
