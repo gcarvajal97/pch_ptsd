@@ -8,17 +8,49 @@ import i18n from 'i18n-js';
 
 // List of screens that will be dispalyed in this list component
 const listNamesEn = [
-    { name: 'You Are Not Alone', navigateTo: 'NotAlone', accessibilityHint: 'Navigates to the you are not alone screen'},
-    { name: 'Reactions to Injury', navigateTo: 'Reactions', accessibilityHint: 'Navigates to the reactions to injury screen'},
-    { name: 'What Are Traumatic Stress Reactions?', navigateTo: 'TraumaticStressReactions', accessibilityHint: 'Navigates to the what are traumatic stress reactions screen'},
-    { name: 'How Long Do Traumatic Stress Reactions Last?', navigateTo: 'HowLong', accessibilityHint: 'Navigates to the how long do traumatic stress reactions last screen'},
+    { 
+        name: 'You Are Not Alone', 
+        navigateTo: 'NotAlone', 
+        accessibilityHint: 'Navigates to the you are not alone screen'
+    },
+    { 
+        name: 'Reactions to Injury', 
+        navigateTo: 'Reactions', 
+        accessibilityHint: 'Navigates to the reactions to injury screen'
+    },
+    { 
+        name: 'What Are Traumatic Stress Reactions?', 
+        navigateTo: 'TraumaticStressReactions', 
+        accessibilityHint: 'Navigates to the what are traumatic stress reactions screen'
+    },
+    { 
+        name: 'How Long Do Traumatic Stress Reactions Last?', 
+        navigateTo: 'HowLong', 
+        accessibilityHint: 'Navigates to the how long do traumatic stress reactions last screen'
+    },
 ]
 
 const listNamesEs = [
-    { name: 'You Are Not Alone', navigateTo: 'NotAlone', accessibilityHint: 'Navigates to the you are not alone screen'},
-    { name: 'Reactions to Injury', navigateTo: 'Reactions', accessibilityHint: 'Navigates to the reactions to injury screen'},
-    { name: 'What Are Traumatic Stress Reactions?', navigateTo: 'TraumaticStressReactions', accessibilityHint: 'Navigates to the what are traumatic stress reactions screen'},
-    { name: 'How Long Do Traumatic Stress Reactions Last?', navigateTo: 'HowLong', accessibilityHint: 'Navigates to the how long do traumatic stress reactions last screen'},
+    { 
+        name: 'No Estas Solo', 
+        navigateTo: 'NotAlone', 
+        accessibilityHint: 'Navega a la pantalla: No Estás Solo'
+    },
+    { 
+        name: 'Reacciones a Lesiones', 
+        navigateTo: 'Reactions', 
+        accessibilityHint: 'Navega a la pantalla: Reacciones a Lesiones'
+    },
+    { 
+        name: '¿Qué Son Las Reacciones de Estrés Traumático?', 
+        navigateTo: 'TraumaticStressReactions', 
+        accessibilityHint: 'Navega a la pantalla: ¿Qué Son Las Reacciones de Estrés Traumático?'
+    },
+    { 
+        name: '¿Cuánto Tiempo Duran Las Reacciones de Estrés Traumático?', 
+        navigateTo: 'HowLong', 
+        accessibilityHint: 'Navega a la pantalla: ¿Cuánto Tiempo Duran Las Reacciones de Estrés Traumático?'
+    },
 ]
 
 i18n.translations = {
