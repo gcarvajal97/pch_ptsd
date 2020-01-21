@@ -1,7 +1,7 @@
 {
   "en": [
     {
-      "title": "Anatomy",
+      "name": "Anatomy",
       "content": [
         {
           "term": "Clavicle",
@@ -68,11 +68,32 @@
           "definition": "Any segment (bone or cartilage) that makes up the spinal column that encloses the spinal cord."
         }
       ]
+    },
+    {
+      "name": "Not Anatomy",
+      "content": [
+        {
+          "term": "Clavicle",
+          "definition": "A bone that links the scapula (shoulder blade) and sternum (breastbone), is situated just above the first rib on either side of the neck, and has the form of a narrow elongated S -- also called collarbone."
+        },
+        {
+          "term": "Cranium",
+          "definition": "The skeleton of the head forming a bony case that encloses and protects the brain -- also called skull."
+        },
+        {
+          "term": "Femur",
+          "definition": "The top bone of the lower limb that is the longest and largest bone in the human body, extending from the hip to the knee -- also called thigh bone."
+        },
+        {
+          "term": "Fibula",
+          "definition": "The outer and usually the smaller of the two bones of the lower limb below the knee that is the slenderest bone of the human body in proportion to its length -- also called shin bone."
+        }
+      ]
     }
   ],
   "es": [
     {
-      "title": "Anatomy",
+      "name": "Anatomy",
       "content": [
         {
           "term": "Clavicle",
