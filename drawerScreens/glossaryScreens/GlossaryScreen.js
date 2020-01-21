@@ -40,7 +40,6 @@ class GlossaryScreen extends Component {
   }
 
   render() {
-    console.log(LOCALE);
     return (
       <View style={styles.container}>
         <ScrollView>
