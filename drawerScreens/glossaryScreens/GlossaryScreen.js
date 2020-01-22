@@ -3,10 +3,17 @@ import React, { Component } from "react";
 import { Button, ScrollView, StyleSheet, View } from "react-native";
 import NavigationService from "../../components/NavigationService";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
-import { LOCALE } from "../../mainAndLists/MainScreen";
 import * as accordionContent from "./glossary.json";
 import GlossaryScreenCard from "./GlossaryScreenCard";
 import GlossaryTerms from "./GlossaryTerms";
+import { LOCALE } from "../../mainAndLists/MainScreen";
+
+i18n.translations = {
+  en: { title: "Back", glossary: "Glossary" },
+  es: { title: "Atrás", glossary: "Glosario" }
+};
+i18n.fallbacks = true;
+i18n.locale = LOCALE;
 
 i18n.translations = {
   en: {
@@ -40,6 +47,7 @@ class GlossaryScreen extends Component {
   }
 
   render() {
+    console.log(LOCALE);
     return (
       <View style={styles.container}>
         <ScrollView>
