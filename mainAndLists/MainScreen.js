@@ -1,13 +1,16 @@
 import React, { Component } from "react";
-import { Button, ScrollView, View } from "react-native";
+import { Button, ScrollView, View, I18nManager } from "react-native";
 import FindHelpCard from '../components/FindHelpCard';
 import LearnMoreCard from '../components/LearnMoreCard';
 import NavigationService from '../components/NavigationService';
 import QuizCard from '../components/QuizCard';
 import * as Localization from 'expo-localization';
+import i18n from "i18n-js"
 
 // Stuck this here for now, since this is the entrypoint of our application
 export const LOCALE = Localization.locale;
+i18n.locale = LOCALE;
+i18n.fallbacks = true;
 
     // I have learned that Props will become deprecated soon, this code has been changed to follow the
     // new best practice in React (to hopefully avoid features breaking in future updates).

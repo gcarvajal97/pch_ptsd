@@ -4,20 +4,6 @@ import { Card } from "react-native-elements";
 import { LOCALE } from "../../mainAndLists/MainScreen";
 import i18n from "i18n-js";
 
-i18n.translations = {
-  en: {
-    glossary: "Glossary",
-    accessibilityLabel: "A photo of a shelf with books",
-    description: "Find word definitions by category."
-  },
-  es: {
-    glossary: "Glosario",
-    accessibilityLabel: "Una foto de un estante con libros",
-    description: "Encuentra definiciones de palabras por categoría"
-  }
-};
-i18n.fallbacks = true;
-i18n.locale = LOCALE;
 export default class GlossaryScreenCard extends Component {
   render() {
     return (
