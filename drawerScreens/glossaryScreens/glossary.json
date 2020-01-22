@@ -1,5 +1,63 @@
 {
   "en": [
+
+    {
+      "name": "Types of Injury",
+      "content": [
+        {
+          "term": "Abrasion",
+          "definition": "A superficial rub or wearing off of the skin, usually caused by a scrape or brush burn."
+        },
+        {
+          "term": "Abdominal Injury",
+          "definition": "A superficial rub or wearing off of the skin, usually caused by a scrape or brush burn."
+        },
+        {
+          "term": "Dislocation",
+          "definition": "A dislocation occurs when extreme force is put on a joint and causes bones to come out of the joint. Dislocations can cause two or more bones to come together."
+        },
+        {
+          "term": "Fracture",
+          "definition": "If more force is put on a bone than it can stand, it will split or break. A break of any size is called a fracture. If the broken bone punctures the skin, it is called an open fracture.  If a break is in a lot of pieces, it is called a compound fracture."
+        },
+        {
+          "term": "Head Injury",
+          "definition": "Head injury is a broad term that describes injuries to the scalp, skull, brain, and tissue and blood vessels in the child's head. Some head injuries are also called brain injury, or traumatic brain injury (TBI), depending on the extent of the head trauma. Concussion is the most common type of TBI."
+        },
+        {
+          "term": "Hematoma",
+          "definition": "A large bruise or collection of blood under the skin, producing discoloration and swelling in the area. It is usually caused by trauma."
+        },
+        {
+          "term": "Laceration",
+          "definition": "A cut, tear, or ragged opening in the skin caused by an injury or trauma."
+        },
+        {
+          "term": "Overuse Conditions",
+          "definition": "Injuries due to minor trauma over a long period of time, involving bone, muscles, ligaments, and/or tendons."
+        },
+        {
+          "term": "Puncture Wound",
+          "definition": "A deep wound or hole in the skin and deeper tissue layers caused by a sharp object such as a nail, stick, a dog’s tooth, or a piece of metal."
+        },
+        {
+          "term": "Sprain",
+          "definition": "A partial or complete tear of a ligament (connects two bones) or tendon (connects a bone to a muscle). Sprains often affect the ankles, knees, or wrists."
+        },
+        {
+          "term": "Strain",
+          "definition": "An injury to a muscle or tendon. Often caused by overuse, force, or stretching."
+        },
+        {
+          "term": "Stress Fracture",
+          "definition": "A hairline crack in the bone that develops because of repeated or prolonged forces to the bone."
+        },
+        {
+          "term": "Whiplash",
+          "definition": "Whiplash occurs when the muscles or ligaments (soft tissue) of the neck are injured by a sudden jerking or “whipping” of the head. This type of motion stretches the muscles or ligaments of the neck beyond their normal range of motion."
+        }
+      ]
+    },
     {
       "name": "Types of Injury",
       "content": [
