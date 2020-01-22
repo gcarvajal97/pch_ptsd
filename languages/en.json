@@ -13,6 +13,14 @@
         "learnAcessLabel": "Photo of a doctor holding a stethoscope with their arms folded accross their chest.",
         "learnAccessHint": "Navigates to the learn more screen",
         "quizButton": "TAKE THE QUIZ",
-        "findHelpButton": "FIND HELP"
+        "quizTitle": "Rate Your Child's Reactions",
+        "quizCaption": "An injury or accident can be a scary or stressful experience. Take a quick quiz to measure your child's traumatic stress.",
+        "quizAccessLabel": "Photo of child covering her eyes with her hands",
+        "quizAccessHint": "Navigates to the quiz screen",
+        "findHelpButton": "FIND HELP",
+        "findHelpTitle": "Help Your Child Recover",
+        "findHelpCaption": "Dealing with emotional reactions and injury care can be difficult. Find ways to help your child recover.",
+        "findHelpAccessLabel": "Photo of father reading a book to a baby on his lap.",
+        "findHelpAccessHint": "Navigates to the find help screen"
     }
 }

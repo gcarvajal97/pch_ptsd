@@ -13,6 +13,14 @@
         "learnAcessLabel": "Foto de un médico sosteniendo un estetoscopio con los brazos cruzados sobre el pecho.",
         "learnAccessHint": "Navega a la pantalla para obtener más información.",
         "quizButton": "RESPONDER AL CUESTIONARIO",
-        "findHelpButton": "ENCONTRAR AYUDA"
+        "quizTitle": "Califique las reacciones de su hijo",
+        "quizCaption": "Una lesión o accidente puede ser una experiencia aterradora o estresante. Haga una prueba rápida para medir el estrés traumático de su hijo.",
+        "quizAccessLabel": "Foto del niño cubriéndose los ojos con las manos",
+        "quizAccessHint": "Navega a la pantalla de prueba",
+        "findHelpButton": "ENCONTRAR AYUDA",
+        "findHelpTitle": "Ayude a su hijo a recuperarse",
+        "findHelpCaption": "Lidiar con las reacciones emocionales y cuidar las lesiones puede ser difícil. Encuentre maneras de ayudar a su hijo a recuperarse.",
+        "findHelpAccessLabel": "Foto del padre leyendo un libro a un bebé en su regazo.",
+        "findHelpAccessHint": "Navega para encontrar más ayuda"
     }
 }

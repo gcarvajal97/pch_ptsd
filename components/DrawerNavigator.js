@@ -5,7 +5,7 @@ import StackNavigator from './StackNavigator';
 import NavigationService from './NavigationService';
 import ResourceStack from './ResourceStack';
 import GlossaryStack from './GlossaryStack';
-import { translate } from './translateService';
+import translate from './translateService';
 
 // DrawerNavigator: user opens using button on the top left of the header
 // Drawer slides out from the side and contains components listed below
