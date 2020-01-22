@@ -1,0 +1,9 @@
+{
+    "drawerNavigator": {
+        "home": "Home", 
+        "resources": "Resources", 
+        "glossary": "Glossary", 
+        "pediatricPTSD": "Pediatric PTSD", 
+        "more": "more"
+    }
+}

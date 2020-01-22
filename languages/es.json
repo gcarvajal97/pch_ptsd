@@ -1,0 +1,9 @@
+{
+    "drawerNavigator": {
+        "home": "Hogar", 
+        "resources": "Recursos", 
+        "glossary": "Glosario", 
+        "pediatricPTSD": "Pediátrico TEPT", 
+        "more": "más"
+    }
+}
