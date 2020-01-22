@@ -9,11 +9,17 @@ import GlossaryTerms from "./GlossaryTerms";
 import { LOCALE } from "../../mainAndLists/MainScreen";
 
 i18n.translations = {
-  en: { title: "Back", glossary: "Glossary" },
-  es: { title: "Atrás", glossary: "Glosario" }
+  en: {
+    title: "Back",
+    glossary: "Glossary",
+    description: "Find word definitions by category."
+  },
+  es: {
+    title: "Atrás",
+    glossary: "Glosario",
+    description: "Encuentra definiciones de palabras por categoría"
+  }
 };
-i18n.fallbacks = true;
-i18n.locale = LOCALE;
 
 class GlossaryScreen extends Component {
   static navigationOptions = {
