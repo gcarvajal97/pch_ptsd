@@ -2,8 +2,17 @@
     "drawerNavigator": {
         "home": "Hogar", 
         "resources": "Recursos", 
-        "glossary": "Glosario", 
+        "glossary": "Glosario"
+    },
+    "mainScreen": {
         "pediatricPTSD": "Pediátrico TEPT", 
-        "more": "más"
+        "more": "más",
+        "learnButton": "APRENDE MÁS",
+        "learnTitle":"Aprenda Más Sobre Lesiones y Traumas",
+        "learnCaption": "Obtenga información actualizada y orientación experta para ayudarlo a usted y a su hijo lesionado.",
+        "learnAcessLabel": "Foto de un médico sosteniendo un estetoscopio con los brazos cruzados sobre el pecho.",
+        "learnAccessHint": "Navega a la pantalla para obtener más información.",
+        "quizButton": "RESPONDER AL CUESTIONARIO",
+        "findHelpButton": "ENCONTRAR AYUDA"
     }
 }

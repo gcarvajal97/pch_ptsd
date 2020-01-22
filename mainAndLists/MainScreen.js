@@ -9,7 +9,7 @@ import i18n from 'i18n-js';
 import { translate } from '../components/translateService';
 
 
-// Set users locale for i18n translation
+// Set users locale for i18n translation throughout the application
 i18n.locale = Localization.locale;
 
     // I have learned that Props will become deprecated soon, this code has been changed to follow the
@@ -18,10 +18,10 @@ i18n.locale = Localization.locale;
 class MainScreen extends Component {
 
     static navigationOptions = () => ({
-        headerTitle: translate('drawerNavigator.pediatricPTSD'),
+        headerTitle: translate('mainScreen.pediatricPTSD'),
         headerLeft: (<View style={{ margin: 5 }}><Button 
             onPress={()=>NavigationService.openDrawer()}
-            title={translate('drawerNavigator.more')}></Button></View>)
+            title={translate('mainScreen.more')}></Button></View>)
     })
 
     render() {
