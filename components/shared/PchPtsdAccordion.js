@@ -3,7 +3,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import * as Animatable from "react-native-animatable";
 import Accordion from "react-native-collapsible/Accordion";
 
-class GlossaryAccordion extends Component {
+class PchPtsdAccordion extends Component {
   state = {
     sections: [],
     activeSections: []
@@ -68,7 +68,7 @@ class GlossaryAccordion extends Component {
   }
 }
 
-export default GlossaryAccordion;
+export default PchPtsdAccordion;
 
 const styles = StyleSheet.create({
   header: {

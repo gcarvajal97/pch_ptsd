@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Button, ScrollView, StyleSheet, View } from "react-native";
 import NavigationService from "../../components/NavigationService";
+import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import * as translations from "./glossary.json";
-import GlossaryAccordion from "./GlossaryAccordion";
 import GlossaryScreenCard from "./GlossaryScreenCard";
 import GlossaryTerms from "./GlossaryTerms";
 
@@ -25,7 +25,7 @@ class GlossaryScreen extends Component {
       <View style={styles.container}>
         <ScrollView>
           <GlossaryScreenCard />
-          <GlossaryAccordion
+          <PchPtsdAccordion
             sections={translations["en"]}
             contentRenderFunction={GlossaryTerms}
           />
