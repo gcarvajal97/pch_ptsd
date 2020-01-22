@@ -1,20 +1,39 @@
-import React, { Component } from 'react';
-import { Text } from 'react-native';
-import { Card } from 'react-native-elements';
+import React, { Component } from "react";
+import { Text } from "react-native";
+import { Card } from "react-native-elements";
+import { LOCALE } from "../../mainAndLists/MainScreen";
+import i18n from "i18n-js";
 
+i18n.translations = {
+  en: {
+    glossary: "Glossary",
+    accessibilityLabel: "A photo of a shelf with books",
+    description: "Find word definitions by category."
+  },
+  es: {
+    glossary: "Glosario",
+    accessibilityLabel: "Una foto de un estante con libros",
+    description: "Encuentra definiciones de palabras por categoría"
+  }
+};
+i18n.fallbacks = true;
+i18n.locale = LOCALE;
 export default class GlossaryScreenCard extends Component {
-    render() {
-        return(
-            <Card
-                featuredTitle="Glossary"
-                featuredTitleStyle={{fontSize:40}}
-                image={require('../../assets/GlossaryScreen.jpg')}
-                accessible
-                accessibilityLabel="Photo of a shelf of books">
-                <Text style={{marginVertical:-8, fontWeight:'500', textAlign:'center'}}>
-                    Find word definitions by category.
-                </Text>
-            </Card>
-        );
-    }
+  render() {
+    return (
+      <Card
+        featuredTitle={i18n.t("glossary")}
+        featuredTitleStyle={{ fontSize: 40 }}
+        image={require("../../assets/GlossaryScreen.jpg")}
+        accessible
+        accessibilityLabel={i18n.t("accessabilityLabel")}
+      >
+        <Text
+          style={{ marginVertical: -8, fontWeight: "500", textAlign: "center" }}
+        >
+          {i18n.t("description")}
+        </Text>
+      </Card>
+    );
+  }
 }
