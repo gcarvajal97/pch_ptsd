@@ -3,41 +3,22 @@ import React, { Component } from "react";
 import { Button, ScrollView, StyleSheet, View } from "react-native";
 import NavigationService from "../../components/NavigationService";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
-import { LOCALE } from "../../mainAndLists/MainScreen";
-import * as accordionContent from "./glossary.json";
 import GlossaryScreenCard from "./GlossaryScreenCard";
 import GlossaryTerms from "./GlossaryTerms";
-
-i18n.translations = {
-  en: {
-    title: "Back",
-    glossary: "Glossary",
-    description: "Find word definitions by category."
-  },
-  es: {
-    title: "Atrás",
-    glossary: "Glosario",
-    description: "Encuentra definiciones de palabras por categoría"
-  }
-};
+import translate from "../../components/translateService";
 
 class GlossaryScreen extends Component {
   static navigationOptions = {
-    headerTitle: i18n.t("glossary"),
+    headerTitle: translate("glossary.glossary"),
     headerLeft: (
       <View style={{ margin: 5 }}>
         <Button
           onPress={() => NavigationService.navigateDrawer("Home")}
-          title={i18n.t("title")}
+          title={translate("glossary.title")}
         ></Button>
       </View>
     )
   };
-
-  _unsupportedLangToEnglish(locale) {
-    lang = locale.substring(0, 2);
-    return lang ? lang : "en";
-  }
 
   render() {
     return (
@@ -45,7 +26,7 @@ class GlossaryScreen extends Component {
         <ScrollView>
           <GlossaryScreenCard />
           <PchPtsdAccordion
-            sections={accordionContent[this._unsupportedLangToEnglish(LOCALE)]}
+            sections={translate("glossary.accordion")}
             contentRenderFunction={GlossaryTerms}
           />
         </ScrollView>
