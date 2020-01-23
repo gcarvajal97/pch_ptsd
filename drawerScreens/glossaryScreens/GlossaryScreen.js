@@ -21,19 +21,6 @@ i18n.translations = {
   }
 };
 
-i18n.translations = {
-  en: {
-    title: "Back",
-    glossary: "Glossary",
-    description: "Find word definitions by category."
-  },
-  es: {
-    title: "Atrás",
-    glossary: "Glosario",
-    description: "Encuentra definiciones de palabras por categoría"
-  }
-};
-
 class GlossaryScreen extends Component {
   static navigationOptions = {
     headerTitle: i18n.t("glossary"),
