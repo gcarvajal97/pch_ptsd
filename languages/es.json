@@ -24,7 +24,7 @@
         "findHelpAccessHint": "Navega para encontrar más ayuda"
     },
     "glossary": {
-        "title": "Atrás",
+        "back": "Regreso",
         "glossary": "Glosario",
         "description": "Encuentra definiciones de palabras por categoría",
         "accordion": [

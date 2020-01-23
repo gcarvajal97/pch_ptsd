@@ -1,6 +1,5 @@
-import i18n from "i18n-js";
 import React, { Component } from "react";
-import { Button, ScrollView, StyleSheet, View } from "react-native";
+import { Platform, Button, ScrollView, StyleSheet, View } from "react-native";
 import NavigationService from "../../components/NavigationService";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import GlossaryScreenCard from "./GlossaryScreenCard";
@@ -10,13 +9,21 @@ import translate from "../../components/translateService";
 class GlossaryScreen extends Component {
     static navigationOptions = {
         headerTitle: translate("glossary.glossary"),
+        headerTitleContainerStyle: {
+            marginLeft:
+                Platform.OS === "android" &&
+                translate("glossary.back").length > 4
+                    ? translate("glossary.back").length + 22
+                    : 0
+        },
+        headerLeftContainerStyle: {
+            marginLeft: 5
+        },
         headerLeft: (
-            <View style={{ margin: 5 }}>
-                <Button
-                    onPress={() => NavigationService.navigateDrawer("Home")}
-                    title={translate("glossary.title")}
-                ></Button>
-            </View>
+            <Button
+                onPress={() => NavigationService.navigateDrawer("Home")}
+                title={translate("glossary.back")}
+            ></Button>
         )
     };
 
@@ -40,6 +47,7 @@ export default GlossaryScreen;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        margin: 10,
         alignItems: "center",
         backgroundColor: "white",
         shadowColor: "#000",

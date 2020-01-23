@@ -24,7 +24,7 @@
         "findHelpAccessHint": "Navigates to the find help screen"
     },
     "glossary": {
-        "title": "Back",
+        "back": "Back",
         "glossary": "Glossary",
         "description": "Find word definitions by category.",
         "accordion": [

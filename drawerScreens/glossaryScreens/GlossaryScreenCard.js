@@ -7,7 +7,7 @@ export default class GlossaryScreenCard extends Component {
   render() {
     return (
       <Card
-        featuredTitle={translate("glossary.title")}
+        featuredTitle={translate("glossary.glossary")}
         featuredTitleStyle={{ fontSize: 40 }}
         image={require("../../assets/GlossaryScreen.jpg")}
         accessible
