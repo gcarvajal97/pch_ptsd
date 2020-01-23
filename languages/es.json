@@ -22,5 +22,31 @@
         "findHelpCaption": "Lidiar con las reacciones emocionales y cuidar las lesiones puede ser difícil. Encuentre maneras de ayudar a su hijo a recuperarse.",
         "findHelpAccessLabel": "Foto del padre leyendo un libro a un bebé en su regazo.",
         "findHelpAccessHint": "Navega para encontrar más ayuda"
+    },
+    "learnMoreList": {
+        "header": "Aprende Más",
+        "title": "QUE ESPERAR DESPUÉS DE LESIÓN",
+        "listNames": [
+            { 
+                "name": "No Estas Solo", 
+                "navigateTo": "NotAlone",  
+                "accessibilityHint": "Navega a la pantalla: No Estás Solo"
+            },
+            { 
+                "name": "Reacciones a Lesiones", 
+                "navigateTo": "Reactions", 
+                "accessibilityHint": "Navega a la pantalla: Reacciones a Lesiones"
+            },
+            { 
+                "name": "¿Qué Son Las Reacciones de Estrés Traumático?", 
+                "navigateTo": "TraumaticStressReactions", 
+                "accessibilityHint": "Navega a la pantalla: ¿Qué Son Las Reacciones de Estrés Traumático?"
+            },
+            { 
+                "name": "¿Cuánto Tiempo Duran Las Reacciones de Estrés Traumático?", 
+                "navigateTo": "HowLong", 
+                "accessibilityHint": "Navega a la pantalla: ¿Cuánto Tiempo Duran Las Reacciones de Estrés Traumático?"
+            }
+        ]
     }
 }
