@@ -20,6 +20,22 @@ i18n.translations = {
     description: "Encuentra definiciones de palabras por categoría"
   }
 };
+<<<<<<< HEAD
+=======
+
+i18n.translations = {
+  en: {
+    title: "Back",
+    glossary: "Glossary",
+    description: "Find word definitions by category."
+  },
+  es: {
+    title: "Atrás",
+    glossary: "Glosario",
+    description: "Encuentra definiciones de palabras por categoría"
+  }
+};
+>>>>>>> 0ef74ae766b0eda807f98aae0f8ec2e7adafa932
 
 class GlossaryScreen extends Component {
   static navigationOptions = {
