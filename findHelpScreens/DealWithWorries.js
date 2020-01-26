@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
+import translate from '../components/translateService';
 
 class DealWithWorries extends Component {
 

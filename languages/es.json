@@ -46,6 +46,25 @@
         "tip_42": "2. Asegúrese de que sus propios sentimientos no se entrometan.",
         "subtip_42": "- Si hablar con su hijo es perturbador para usted, haga lo posible por mantener la calma y estar tranquilo durante la conversación y asegúrese de que alguien lo apoye a usted."
     },
+    "quickTips": {
+        "header": "Encontrar ayuda",
+        "cardHeader": "Consejos rápidos",
+        "cardTitle": "Comience con 6 maneras rápidas de ayudar",
+        "accessibilityLabelCont": "Consejos rápidos",
+        "accessibilityLabelPic": "Foto de una madre hablando con su hijo.",
+        "tip_one": "1. Hágale saber a su hijo que ahora está a salvo.",
+        "tip_two": "2. Deje que los niños expresen sus sentimientos y preocupaciones, si quieren.",
+        "tip_three": "3. Vuelva a las rutinas habituales.",
+        "tip_four": "4. Pase más tiempo con sus familiares y amigos.",
+        "tip_five": "5. Dedique tiempo a conocer sus propios sentimientos.",
+        "tip_six": "6. Tenga en cuenta que personas de una misma familia pueden responder de forma diferente.",
+        "desc_one": "Los primeros días y semanas después de una herida muchos niños creen que algo malo les puede volver a suceder. Hágale saber a su hijo que ahora está a salvo. Déle más abrazos, incluso a los adolescentes. Los niños más pequeños pueden necesitar más tiempo de mimos.",
+        "desc_two": "Hágale saber a su hijo que es normal sentirse un poco molesto; muchos niños se sienten disgustados, preocupados o confusos después de hacerse daño. Deje que su hijo exprese sus sentimientos si quiere. Si no quiere hablar, las estrategias para superar el estrés en niños pueden incluir, por ejemplo, escribir un cuento o hacer un dibujo.",
+        "desc_three": "Es importante que ayude a su hijo a dormir mucho, comer regularmente y mantenerse al día con la tarea escolar. Anime a su hijo a volver a pasar tiempo con sus amigos. Si la herida se interpone en la forma en que solía hacer las cosas, hable con su médico para saber qué puede hacer su hijo y sea creativo para descubrir cómo hacer que su hijo vuelva a hacer ALGUNAS actividades normales.",
+        "desc_four": "Los niños que tienen apoyo de sus familiares y amigos parecerían recuperarse mejor después de situaciones penosas. Pruebe leer con ellos, practicar deportes, jugar o ver películas juntos.",
+        "desc_five": "Además de todas las cosas que hace para ayudar a su hijo, es importante que recuerde que usted debe cuidarse. Será más complicado ayudar a su hijo si está muy preocupado, molesto o agobiado. Hable de sus sentimientos con otros adultos, como la familia, amigos, un sacerdote, su médico o un consejero.",
+        "desc_six": "Recuerde, los sentimientos y las preocupaciones de su hijo sobre la herida pueden ser diferentes de los suyos. Los hermanos y hermanas también pueden sentirse contrariados. Una forma importante con la que los padres pueden ayudar es prestando especial atención a cómo las respuestas de su hijo pueden ser diferentes de las suyas. Esas son las situaciones en las que puede ser más difícil saber cómo ayudar."
+    },
     "mainScreen": {
         "pediatricPTSD": "Pediátrico TEPT",
         "more": "más",
