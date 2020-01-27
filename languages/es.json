@@ -28,7 +28,7 @@
         "title": "QUE ESPERAR DESPUÉS DE LESIÓN",
         "listNames": [
             { 
-                "name": "No Estas Solo", 
+                "name": "No Está Solo", 
                 "navigateTo": "NotAlone",  
                 "accessibilityHint": "Navega a la pantalla: No Estás Solo"
             },
@@ -48,5 +48,24 @@
                 "accessibilityHint": "Navega a la pantalla: ¿Cuánto Tiempo Duran Las Reacciones de Estrés Traumático?"
             }
         ]
+    },
+    "youAreNotAloneScreen": {
+        "header": "Aprende Más",
+        "title": "No Está Solo",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video sobre cómo las lesiones son comunes",
+                "boldText": "Su hijo no está solo.",
+                "subtitle": " Cada año, milliones de niños en los Estados Unidos resultan heridos."
+            },
+            "statsBullets": {
+                "intro": "Cada año en EE. UU., las estadísticas de lesiones infantiles muestran que:",
+                "bulletOne": "1 de cada 4 niños y adolescentes requiere atención médica por una lesión",
+                "bulletTwo": "7 millones de niños heridos son tratados en salas de emergencias.",
+                "bulletThree": "Cientos de miles de niños heridos son hospitalizados."
+            },
+            "paragraphOne": "En este momento, cientos de miles de niños de todo el país se están recuperando de una lesión. Al igual que usted, sus padres y otros adultos quieren ayudarlos de la mejor manera posible. Si bien es importante atender las heridas y ocuparse de la rehabilitación, es igual de importante recordar que hay que mirar más allá de las lesiones físicas.",
+            "paragraphTwo": "Aunque haya muchos médicos, enfermeras y terapeutas que traten la lesión de su hijo, recuerde que nadie es más importante que usted para la recuperación de su hijo. En este sitio web tomamos lo mejor de la ciencia y la práctica para ayudarle a ayudar a su hijo después de una lesión."
+        }
     }
 }

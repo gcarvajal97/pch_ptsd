@@ -22,5 +22,50 @@
         "findHelpCaption": "Dealing with emotional reactions and injury care can be difficult. Find ways to help your child recover.",
         "findHelpAccessLabel": "Photo of father reading a book to a baby on his lap.",
         "findHelpAccessHint": "Navigates to the find help screen"
+    },
+    "learnMoreList": {
+        "header": "Learn More",
+        "title": "WHAT TO EXPECT AFTER INJURY",
+        "listNames": [
+            { 
+                "name": "You Are Not Alone", 
+                "navigateTo": "NotAlone", 
+                "accessibilityHint": "Navigates to the you are not alone screen"
+            },
+            { 
+                "name": "Reactions to Injury", 
+                "navigateTo": "Reactions", 
+                "accessibilityHint": "Navigates to the reactions to injury screen"
+            },
+            { 
+                "name": "What Are Traumatic Stress Reactions?", 
+                "navigateTo": "TraumaticStressReactions", 
+                "accessibilityHint": "Navigates to the what are traumatic stress reactions screen"
+            },
+            { 
+                "name": "How Long Do Traumatic Stress Reactions Last?",
+                "navigateTo": "HowLong",
+                "accessibilityHint": "Navigates to the how long do traumatic stress reactions last screen"
+            }
+        ]
+    },
+    "youAreNotAloneScreen": {
+        "header": "Learn More",
+        "title": "You Are Not Alone",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on how injury is common",
+                "boldText": "Your child is not alone.",
+                "subtitle": "Every year, millions of children in the United States are injured."
+            },
+            "statsBullets": {
+                "intro": "Each year in the United States, child injury statistics show that:",
+                "bulletOne": "1 in 4 children and teens need medical care for an injury.",
+                "bulletTwo": "7 million injured children are treated in the ER.",
+                "bulletThree": "Several hundred thousand injured children are admitted to the hospital."
+            },
+            "paragaphOne": "Right now, hundreds of thousands of children across the country are recovering from an injury. Like you, their parents and other caring adults want to help them the best way possible. While it is important to tend to the wounds and rehabilitation, it is just as important to remember to look beyond the physical injuries.",
+            "paragraphTwo": "With all the doctors, nurses, and therapists who will treat your child’s injury, remember that no one is more important than you for your child’s recovery. In making this application, we took the best information available from science and best practices to help you and your child recover after an injury."
+        }
     }
 }
