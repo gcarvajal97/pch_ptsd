@@ -394,5 +394,11 @@
                 ]
             }
         ]
+    },
+    "resources": {
+        "back": "Back",
+        "resources": "Resources",
+        "description" : "Find additional resources for you and your child.",
+        "accessibilityHint": "Photo of multi-layered pyramid."
     }
 }

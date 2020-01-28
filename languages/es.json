@@ -393,5 +393,11 @@
                 ]
             }
         ]
+    },
+    "resources": {
+        "back": "Regreso",
+        "resources": "Recursos",
+        "description" : "Encuentre recursos adicionales para ayudarlo a usted y a su hijo.",
+        "accessibilityHint": "Una foto de una pirámide en capas."
     }
 }
