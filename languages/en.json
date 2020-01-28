@@ -377,16 +377,16 @@
         "subtip_42": "If talking with your child is upsetting to you, do your best to stay calm and collected during the conversation and be sure to get support for yourself."
     },
     "listLearnMore": {
-        "header": "Test More",
-        "notAlone": "",
-        "notAloneHint": "",
-        "reactions": "",
-        "reactionsHint": "",
-        "stressReactions": "",
-        "stressReactionsHint": "",
-        "howLong": "",
-        "howLongHint": "",
-        "whatToExpect": ""
+        "header": "Learn More",
+        "notAlone": "You Are Not Alone",
+        "notAloneHint": "Navigates to the you are not alone screen",
+        "reactions": "Reactions To Injury",
+        "reactionsHint": "Navigates to the reactions to injury screen",
+        "stressReactions": "What Are Traumatic Stress Reactions?",
+        "stressReactionsHint": "Navigates to the what are traumatic stress reactions screen",
+        "howLong": "How Long Do Traumatic Stress Reactions Last?",
+        "howLongHint": "Navigates to the how long do traumatic stress reactions last screen",
+        "whatToExpect": "WHAT TO EXPECT AFTER INJURY"
     },
     "mainScreen": {
         "pediatricPTSD": "Pediatric PTSD",

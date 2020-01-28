@@ -376,16 +376,16 @@
         "subtip_42": "- Si hablar con su hijo es perturbador para usted, haga lo posible por mantener la calma y estar tranquilo durante la conversación y asegúrese de que alguien lo apoye a usted."
     },
     "listLearnMore": {
-        "header": "Learn Mas",
-        "notAlone": "",
-        "notAloneHint": "",
-        "reactions": "",
-        "reactionsHint": "",
-        "stressReactions": "",
-        "stressReactionsHint": "",
-        "howLong": "",
-        "howLongHint": "",
-        "whatToExpect": ""
+        "header": "Aprende Más",
+        "notAlone": "No Estas Solo",
+        "notAloneHint": "Navega a la pantalla, no estás solo",
+        "reactions": "Reacciones a La Lesión",
+        "reactionsHint": "Navega a la pantalla de reacciones a lesiones",
+        "stressReactions": "¿Qué Son Las Reacciones de Estrés Traumático?",
+        "stressReactionsHint": "Navega a la pantalla de qué son las reacciones de estrés traumático",
+        "howLong": "¿Cuánto Duran Las Reacciones de Estrés Traumático?",
+        "howLongHint": "Navega a la pantalla de cuánto tiempo duran las reacciones de estrés traumático",
+        "whatToExpect": "QUÉ ESPERAR DESPUÉS DE LESIÓN"
     },
     "mainScreen": {
         "pediatricPTSD": "Pediátrico TEPT",
