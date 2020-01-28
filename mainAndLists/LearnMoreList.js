@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import { Card, ListItem, Divider } from 'react-native-elements';
-
 import NavigationService from '../components/NavigationService';
+import translate from '../components/translateService';
 
-// List of screens that will be dispalyed in this list component
+// List of screens that will be displayed in this list component and their titles.
 const listNames = [
     { name: 'You Are Not Alone', navigateTo: 'NotAlone', accessibilityHint: 'Navigates to the you are not alone screen'},
     { name: 'Reactions to Injury', navigateTo: 'Reactions', accessibilityHint: 'Navigates to the reactions to injury screen'},
@@ -16,7 +16,7 @@ export default class LearnMoreList extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Learn More'
+        headerTitle: translate('listLearnMore.header')
     }
     render() {
         return (
