@@ -387,6 +387,24 @@
         "howLongHint": "Navega a la pantalla de cuánto tiempo duran las reacciones de estrés traumático",
         "whatToExpect": "QUÉ ESPERAR DESPUÉS DE LESIÓN"
     },
+    "listFindHelp": {
+        "header":"",
+        "caption":"",
+        "quickTips":"",
+        "quickTipsHint":"",
+        "howToTalk":"",
+        "howToTalkHint":"",
+        "howToDeal":"",
+        "howToDealHint":"",
+        "healthcareTeam":"",
+        "healthcareTeamHint":"",
+        "injuryPain":"",
+        "injuryPainHint":"",
+        "outsideHelp":"",
+        "outsideHelpHint":"",
+        "selfCare":"",
+        "selfCareHint":""
+    },
     "mainScreen": {
         "pediatricPTSD": "Pediátrico TEPT",
         "more": "más",

@@ -376,6 +376,24 @@
         "tip_42": "2. Make sure your own feelings do not get in the way.",
         "subtip_42": "If talking with your child is upsetting to you, do your best to stay calm and collected during the conversation and be sure to get support for yourself."
     },
+    "listFindHelp": {
+        "header":"",
+        "caption":"",
+        "quickTips":"",
+        "quickTipsHint":"",
+        "howToTalk":"",
+        "howToTalkHint":"",
+        "howToDeal":"",
+        "howToDealHint":"",
+        "healthcareTeam":"",
+        "healthcareTeamHint":"",
+        "injuryPain":"",
+        "injuryPainHint":"",
+        "outsideHelp":"",
+        "outsideHelpHint":"",
+        "selfCare":"",
+        "selfCareHint":""
+    },
     "listLearnMore": {
         "header": "Learn More",
         "notAlone": "You Are Not Alone",
