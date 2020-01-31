@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { View, Button, ScrollView } from "react-native";
-import LearnMoreCard from '../components/LearnMoreCard';
-import QuizCard from '../components/QuizCard';
-import FindHelpCard from '../components/FindHelpCard';
-import NavigationService from '../components/NavigationService';
 import * as Localization from 'expo-localization';
 import i18n from 'i18n-js';
+import React, { Component } from "react";
+import { Button, ScrollView, View } from "react-native";
+import FindHelpCard from '../components/FindHelpCard';
+import LearnMoreCard from '../components/LearnMoreCard';
+import NavigationService from '../components/NavigationService';
+import QuizCard from '../components/QuizCard';
 import { translate } from '../components/translateService';
 
 
@@ -19,7 +19,7 @@ class MainScreen extends Component {
 
     static navigationOptions = () => ({
         headerTitle: translate('mainScreen.pediatricPTSD'),
-        headerLeft: (<View style={{ margin: 5 }}><Button 
+        headerLeft: (<View style={{ margin: 5 }}><Button
             onPress={()=>NavigationService.openDrawer()}
             title={translate('mainScreen.more')}></Button></View>)
     })
