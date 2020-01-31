@@ -7,7 +7,7 @@ import NavigationService from '../components/NavigationService';
 const listNames = [
     { name: 'Quick Tips', navigateTo: 'QuickTips', accessibilityHint: 'Navigates to the Quick Tips page'},
     { name: 'How to Talk with Your Child', navigateTo: 'HowToTalk', accessibilityHint: 'Navigates to How to Talk with Your Child'},
-    { name: 'How to Deal with New Fears and Worries', navigateTo: 'DealWorries', accessibilityHint: 'Navigates to How to Deal With Near Fears and Worries'},
+    { name: 'How to Deal with New Fears and Worries', navigateTo: 'DealWorries', accessibilityHint: 'Navigates to How to Deal With New Fears and Worries'},
     { name: "Working with Your Child's Healthcare Team", navigateTo: 'HealthTeam', accessibilityHint: "Navigates to Working with Your Child's Healthcare Team"},
     { name: 'Injury and Pain Care', navigateTo: 'InjuryPainCare', accessibilityHint: 'Navigates to Injury and Pain Care'},
     { name: 'When to Get Outside Help', navigateTo: 'WhenToGetHelp', accessibilityHint: 'Navigates to When to Get Outside Help'},
