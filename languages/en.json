@@ -1,14 +1,416 @@
 {
     "drawerNavigator": {
-        "home": "Home", 
-        "resources": "Resources", 
-        "glossary": "Glossary" 
+        "home": "Home",
+        "resources": "Resources",
+        "glossary": "Glossary"
+    },
+    "glossary": {
+        "back": "Back",
+        "glossary": "Glossary",
+        "description": "Find word definitions by category.",
+        "accordion": [
+            {
+                "name": "Types of Injury",
+                "content": [
+                    {
+                        "term": "Abrasion",
+                        "definition": "A superficial rub or wearing off of the skin, usually caused by a scrape or brush burn."
+                    },
+                    {
+                        "term": "Abdominal Injury",
+                        "definition": "A superficial rub or wearing off of the skin, usually caused by a scrape or brush burn."
+                    },
+                    {
+                        "term": "Dislocation",
+                        "definition": "A dislocation occurs when extreme force is put on a joint and causes bones to come out of the joint. Dislocations can cause two or more bones to come together."
+                    },
+                    {
+                        "term": "Fracture",
+                        "definition": "If more force is put on a bone than it can stand, it will split or break. A break of any size is called a fracture. If the broken bone punctures the skin, it is called an open fracture.  If a break is in a lot of pieces, it is called a compound fracture."
+                    },
+                    {
+                        "term": "Head Injury",
+                        "definition": "Head injury is a broad term that describes injuries to the scalp, skull, brain, and tissue and blood vessels in the child's head. Some head injuries are also called brain injury, or traumatic brain injury (TBI), depending on the extent of the head trauma. Concussion is the most common type of TBI."
+                    },
+                    {
+                        "term": "Hematoma",
+                        "definition": "A large bruise or collection of blood under the skin, producing discoloration and swelling in the area. It is usually caused by trauma."
+                    },
+                    {
+                        "term": "Laceration",
+                        "definition": "A cut, tear, or ragged opening in the skin caused by an injury or trauma."
+                    },
+                    {
+                        "term": "Overuse Conditions",
+                        "definition": "Injuries due to minor trauma over a long period of time, involving bone, muscles, ligaments, and/or tendons."
+                    },
+                    {
+                        "term": "Puncture Wound",
+                        "definition": "A deep wound or hole in the skin and deeper tissue layers caused by a sharp object such as a nail, stick, a dog’s tooth, or a piece of metal."
+                    },
+                    {
+                        "term": "Sprain",
+                        "definition": "A partial or complete tear of a ligament (connects two bones) or tendon (connects a bone to a muscle). Sprains often affect the ankles, knees, or wrists."
+                    },
+                    {
+                        "term": "Strain",
+                        "definition": "An injury to a muscle or tendon. Often caused by overuse, force, or stretching."
+                    },
+                    {
+                        "term": "Stress Fracture",
+                        "definition": "A hairline crack in the bone that develops because of repeated or prolonged forces to the bone."
+                    },
+                    {
+                        "term": "Whiplash",
+                        "definition": "Whiplash occurs when the muscles or ligaments (soft tissue) of the neck are injured by a sudden jerking or “whipping” of the head. This type of motion stretches the muscles or ligaments of the neck beyond their normal range of motion."
+                    }
+                ]
+            },
+            {
+                "name": "Anatomy",
+                "content": [
+                    {
+                        "term": "Clavicle",
+                        "definition": "A bone that links the scapula (shoulder blade) and sternum (breastbone), is situated just above the first rib on either side of the neck, and has the form of a narrow elongated S -- also called collarbone."
+                    },
+                    {
+                        "term": "Cranium",
+                        "definition": "The skeleton of the head forming a bony case that encloses and protects the brain -- also called skull."
+                    },
+                    {
+                        "term": "Femur",
+                        "definition": "The top bone of the lower limb that is the longest and largest bone in the human body, extending from the hip to the knee -- also called thigh bone."
+                    },
+                    {
+                        "term": "Fibula",
+                        "definition": "The outer and usually the smaller of the two bones of the lower limb below the knee that is the slenderest bone of the human body in proportion to its length -- also called shin bone."
+                    },
+                    {
+                        "term": "Humerus",
+                        "definition": "The longest bone of the upper arm or forelimb extending from the shoulder to the elbow."
+                    },
+                    {
+                        "term": "Kidney",
+                        "definition": "The kidneys are bean-shaped organs located just under the rib cage in the back, one on each side. They are responsible for filtering the by-products of our body’s metabolism from the blood and removing this waste as urine."
+                    },
+                    {
+                        "term": "Liver",
+                        "definition": "The liver is a large organ located under the ribcage in the right upper part of the abdomen. It is responsible for producing bile, and it plays a major role in the handling and processing of nutrients."
+                    },
+                    {
+                        "term": "Mandible",
+                        "definition": "The lower jaw."
+                    },
+                    {
+                        "term": "Orbits",
+                        "definition": "The bony cavity that occupies the lateral front of the skull immediately beneath the frontal bone on each side and encloses and protects the eye and its appendages -- also called eye socket, orbital cavity."
+                    },
+                    {
+                        "term": "Pancreas",
+                        "definition": "A long gland that is located behind the stomach. The pancreas secretes digestive enzymes and the hormones insulin and glucagon."
+                    },
+                    {
+                        "term": "Pelvis",
+                        "definition": "The structure below the spine and above the leg; composed of the two hip bones one on each side and in front while the sacrum and coccyx complete it behind."
+                    },
+                    {
+                        "term": "Radius",
+                        "definition": "The bone on the thumb side of the forearm."
+                    },
+                    {
+                        "term": "Spleen",
+                        "definition": "The spleen is in the uppermost area of the left side of the abdomen, just under the diaphragm. It typically has attachments to the stomach, left kidney, and colon. The spleen plays a role in immunity against bacterial infections."
+                    },
+                    {
+                        "term": "Tibia",
+                        "definition": "The tibia is the larger of two long bones in the lower leg (between the knee and ankle). Sometimes called the shin bone."
+                    },
+                    {
+                        "term": "Ulna",
+                        "definition": "The bone on the little-finger side of the forearm that forms with the humerus at the elbow joint."
+                    },
+                    {
+                        "term": "Vertebrae",
+                        "definition": "Any segment (bone or cartilage) that makes up the spinal column that encloses the spinal cord."
+                    }
+                ]
+            },
+            {
+                "name": "Common Drugs / Treatments",
+                "content": [
+                    {
+                        "term": "Acetaminophen",
+                        "definition": "A pain-relieving and fever-reducing drug found in many over-the-counter medications. Sometimes called Tylenol®."
+                    },
+                    {
+                        "term": "Antibiotics",
+                        "definition": "A group of drugs that kill bacteria and other organisms that cause disease."
+                    },
+                    {
+                        "term": "Anti-Inflammatory Drugs",
+                        "definition": "Drugs that reduce the symptoms and signs of inflammation."
+                    },
+                    {
+                        "term": "Cast",
+                        "definition": "A cast holds a broken bone in place as it heals, prevents or decreases muscle contractures, or provides immobilization, especially after surgery. Casts immobilize the joint above and the joint below the area that is to be kept straight and without motion. For example, a child with a forearm fracture will have a long arm cast to immobilize the wrist and elbow joints."
+                    },
+                    {
+                        "term": "Ibuprofen",
+                        "definition": "A non-steroidal anti-inflammatory drug (NSAID) found in many over-the-counter medications, sometimes call Advil® or Motrin®."
+                    }
+                ]
+            },
+            {
+                "name": "Health Care Procedures",
+                "content": [
+                    {
+                        "term": "Bone Survey (Skeletal)",
+                        "definition": "An X-ray of all the bones of the body; often done when medical staff are looking for fractures or tumor metastasis to the bones."
+                    },
+                    {
+                        "term": "Computed Tomography Scan (CT or CAT Scan)",
+                        "definition": "A diagnostic imaging procedure that uses a combination of x-rays and computer technology to produce cross sectional images (often called “slices”), both horizontally and vertically, of the body. A CT scan shows detailed images of any part of the body, including the bones, muscles, fat and organs. CT scans are more detailed than general x-rays."
+                    },
+                    {
+                        "term": "Intravenous (IV)",
+                        "definition": "Introducing a fluid into the bloodstream through a vein (usually in the patient’s forearm)."
+                    },
+                    {
+                        "term": "Laparoscopy",
+                        "definition": "A group of operations performed with the aid of a camera placed in the abdomen or belly."
+                    },
+                    {
+                        "term": "Laparotomy",
+                        "definition": "An operation of the abdomen through an incision (cut) in the skin."
+                    },
+                    {
+                        "term": "Local Anesthesia",
+                        "definition": "Anesthetic medicine injected into the site of the operation to temporarily numb that area."
+                    },
+                    {
+                        "term": "Magnetic Resonance Imaging (MRI)",
+                        "definition": "A diagnostic procedure that uses a combination of large magnets, radiofrequencies, and a computer to produce detailed images of organs and structures within the body."
+                    },
+                    {
+                        "term": "Noninvasive Procedure",
+                        "definition": "A diagnostic effort or treatment that does not require entering the body or puncturing the skin."
+                    },
+                    {
+                        "term": "Ultrasound",
+                        "definition": "A diagnostic imaging technique which uses high-frequency sound waves and a computer to create images of blood vessels, tissues, and organs. Ultrasounds are used to view internal organs as they function, and to assess blood flow through vessels."
+                    },
+                    {
+                        "term": "X-Rays",
+                        "definition": "A diagnostic test that uses invisible electromagnetic energy beams to produce images of internal tissues, bones and organs onto film."
+                    }
+                ]
+            },
+            {
+                "name": "Health Care Staff",
+                "content": [
+                    {
+                        "term": "Advanced Practice Nurse or Nurse Practitioner",
+                        "definition": "This nurse has advanced training, education, and knowledge in specialty areas. They work closely with the attending physician and primary nurse to help coordinate your child’s care before, during and after hospitalization."
+                    },
+                    {
+                        "term": "Attending Physician",
+                        "definition": "A senior member of the hospital’s medical or surgical staff who is responsible for your child’s treatment."
+                    },
+                    {
+                        "term": "Case Manager",
+                        "definition": "Can assist families in planning for discharge to home or another healthcare facility."
+                    },
+                    {
+                        "term": "Chaplain",
+                        "definition": "Chaplain provides pastoral visitation, sacramental ministry, and support. Often times hospitals have spiritual coordinators from various faiths."
+                    },
+                    {
+                        "term": "Consultant",
+                        "definition": "An expert doctor may be asked by your child’s attending physician to help diagnose and treat your child."
+                    },
+                    {
+                        "term": "Dietitian",
+                        "definition": "The dietitian will assess your child’s nutritional needs, make a plan to meet those needs, and assist families in choosing a healthy lifetime diet."
+                    },
+                    {
+                        "term": "Fellow",
+                        "definition": "A physician who has completed resident training and is now training in a special field of pediatrics, surgery, or other specialty."
+                    },
+                    {
+                        "term": "Nurse Manager",
+                        "definition": "A nurse who supervises and manages a patient care unit/area."
+                    },
+                    {
+                        "term": "Occupational Therapist (OT)",
+                        "definition": "The occupational therapist helps a child recover from an injury and reach their highest level of physical and social function. Occupational therapists teach patients how to perform activities of daily living such as dressing, bathing, and feeding. The therapist may help the family to make their home easier for the patient to live in and use."
+                    },
+                    {
+                        "term": "Physiatrist",
+                        "definition": "A medical doctor who specializes in physical medicine and rehabilitation whose primary responsibility is the medical care of the patient. After your child is medically stable and starts the rehab program, the physiatrist coordinates the work of the health care team by directing therapy services and ordering medication, braces, wheelchair, etc."
+                    },
+
+                    {
+                        "term": "Physical Therapist (PT)",
+                        "definition": "The physical therapist helps a child recover from an injury.  He teaches patients to do as much for themselves as possible.  This involves evaluating patients’ needs and then starting exercises to increase muscle strength and joint movement.  Patients are taught how to move in bed, how to transfer from one place to another, and how to operate a wheelchair. If possible, the physical therapist may also teach patients to walk again; using whatever equipment is most helpful."
+                    },
+                    {
+                        "term": "Primary Nurse",
+                        "definition": "This nurse is responsible for planning and coordinating your child’s care throughout the entire hospital stay."
+                    },
+                    {
+                        "term": "Psychiatrist",
+                        "definition": "Licensed physicians (M.D. or D.O.) who specialize in the evaluation, diagnosis, and treatment of mental disorders. Their medical and psychiatric training prepares them to provide individual, family, and group treatment.  Child psychiatrists have additional years of training in diagnosis and treatment of children and adolescents.  Psychiatrists can prescribe medications, if needed."
+                    },
+                    {
+                        "term": "Psychologist",
+                        "definition": "Licensed practitioners (Ph.D. or Psy.D.) who specialize in the evaluation, diagnosis and treatment of behavioral and emotional problems and disorders. Their training in emotional and cognitive processes, human development, and behavior change prepares them to provide individual, family, and group treatment . Child and pediatric psychologists have specialized training in the treatment of children and adolescents."
+                    },
+                    {
+                        "term": "Resident",
+                        "definition": "A physician who is receiving advanced training in the hospital. A resident cares under the direction of the attending physician."
+                    },
+                    {
+                        "term": "Respiratory Therapist (RT)",
+                        "definition": "A respiratory therapist will assess a patient’s breathing.  He/she provides treatment ordered by the physician and teaches the patient and family about ongoing respiratory care needs."
+                    },
+                    {
+                        "term": "Social Worker",
+                        "definition": "This professional helps adjust to illness, and can advise you about insurance, financial resources, and community agencies that can help with needs such as respite care, counseling, parent support groups, and home care."
+                    },
+                    {
+                        "term": "Speech and Language Pathologist",
+                        "definition": "The speech pathologist helps a child recover from an injury that makes it hard for a child to speak. She evaluates patients for cognitive and communication problems, and starts therapy as needed. Patients may have trouble saying what they want and need. They may have slurred speech from weak muscles.  The speech pathologist helps to improve this. He/she can also suggest communication tools that will help."
+                    },
+                    {
+                        "term": "Student",
+                        "definition": "If you are at a teaching hospital, you may meet medical or nursing students as part of your child’s treatment. They are closely supervised by fully trained and licensed doctors or nurses."
+                    }
+                ]
+            },
+            {
+                "name": "Traumatic Stress Reactions - Terminology",
+                "content": [
+                    {
+                        "term": "Acute Stress Disorder (ASD)",
+                        "definition": "Severe traumatic stress symptoms that develop within one month of exposure to a traumatic event or experience. ASD symptoms include dissociative symptoms (i.e. feeling emotionally numb or in a daze), re-experiencing the event (i.e. intrusive thoughts or flashbacks), avoiding things that set off feelings about the trauma, and hyperarousal (i.e. startling easily, being hyper-vigilant). Acute stress disorder is diagnosed when symptoms last for at least 2 days and get in the way of normal functioning. If symptoms last for more than 4 weeks, see posttraumatic stress disorder."
+                    },
+                    {
+                        "term": "Avoidance",
+                        "definition": "A term used to describe traumatic stress symptoms that involve wanting to stay away from people, places, or activities because they remind one of the traumatic event. Avoidance can also include strong or excessive efforts to not think about or talk about the traumatic event."
+                    },
+                    {
+                        "term": "DSM-IV (Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition)",
+                        "definition": "The official manual of mental health problems used by psychiatrists, psychologists, and other mental health providers to understand and diagnose mental health problems. Insurance companies and health care providers also use terms and definitions in this book when discussing mental health issues."
+                    },
+                    {
+                        "term": "Evidence-based practices, or empirically-supported treatments",
+                        "definition": "Practices, including medical and psychological treatments and therapies, which have been clearly researched and found to be supported by scientific evidence or proof."
+                    },
+                    {
+                        "term": "Hyperarousal",
+                        "definition": "A term used to describe traumatic stress symptoms that can include startling easily, hypervigilance, difficulties falling or staying asleep, and trouble concentrating."
+                    },
+                    {
+                        "term": "Hypervigilant",
+                        "definition": "Feeling “on alert” or afraid much of the time, or overly sensitive to trauma reminders and prone to interpret them as danger signals (even in safe situations)."
+                    },
+                    {
+                        "term": "Posttraumatic stress disorder (PTSD)",
+                        "definition": "Severe traumatic stress symptoms that develop, and persist, after exposure to a traumatic event or experience. PTSD symptoms include re-experiencing the event (i.e. via intrusive thoughts or flashbacks), avoiding things that set off feelings about the trauma, and hyperarousal (i.e. startling easily, being hypervigilant). PTSD is diagnosed when these symptoms last for more than one month, cause significant distress, and get in the way of normal life."
+                    },
+                    {
+                        "term": "Re-experiencing",
+                        "definition": "A term used to describe traumatic stress symptoms that include upsetting intrusive thoughts, having nightmares or flashbacks, or becoming upset or having physical reactions to trauma reminders."
+                    },
+                    {
+                        "term": "Trauma",
+                        "definition": "In medical settings, the term “trauma” can have several different meanings. Medical professionals use “trauma” to refer to physical injury. Mental health professionals often use “trauma” to refer to an extremely frightening event or the psychological effects of experiencing such an event."
+                    },
+                    {
+                        "term": "Trauma reminders",
+                        "definition": "People, places, activities or other things that bring back memories of a traumatic experience. Trauma reminders can make people feel upset, fearful, or put them “on alert”."
+                    }
+                ]
+            }
+        ]
+    },
+    "howToTalk": {
+        "header": "Find Help",
+        "video_title": "How To Talk With Your Child",
+        "accessibilityLabel": "Video on how how to talk with your child",
+        "accessabilityHint": "Video on how how to talk with your child",
+        "video_subtitle_1": "It's not always easy to know how to talk with your child.",
+        "video_subtitle_2": "Here are some tips to help.",
+        "subtitle": "After something scary like an injury, it is not always easy to know how to talk with your child about it, and how best to help.",
+        "title_1": "Here are some things to help you when talking about trauma with your child:",
+        "tip_11": "1. Be available to listen.",
+        "tip_12": "2. Provide opportunities to talk.",
+        "subtip_12_a": "- Look for opportunities to hear how your child is doing.",
+        "subtip_12_b": "- Choose a time and a place where you both feel comfortable - think about when and where your child tends to talk most openly.",
+        "tip_13": "3. Ask your child direct questions. 'How are you doing with all of this?'",
+        "tip_14": "4. Listen carefully to what your child has to say to you.",
+        "subtip_14_a": "- Wait until your child finishes before jumping in.",
+        "subtip_14_b": "- Repeat back what you heard in your own words to be sure you understood.",
+        "subtip_14_c": "- Try to hold off giving advice until you have a good understanding of what your child is going through. What's been most upsetting to her? How is she feeling now?",
+        "title_2": "What do I say?",
+        "tip_21": "1. Just listening is helpful.",
+        "subtip_21": "- You can give your child a chance to work out his thoughts and feelings by saying them out loud to you.",
+        "tip_22": "2. Answer your child’s questions as honestly as you can.",
+        "subtip_22": "- Keep in mind their age and what they are able to understand.",
+        "tip_23": "3. Help your child find words for strong feelings.",
+        "subtip_23": "- Describing and understanding his reactions is a first step to dealing with them.",
+        "tip_24": "4. Share your own experiences within limits.",
+        "subtip_24_a": "- Be a model for using good coping skills.",
+        "subtip_24_b": "- Remember not to burden your child with your own worries. Turn to other adults you trust if you need a listening ear.",
+        "title_3": "What if my child does not want to talk?",
+        "tip_31": "1. Be patient. Your child may not be ready to talk at the same time you are.",
+        "tip_32": "2. Do not force the issue. Do not try to force your child to talk. Some people like to think about things for a while first.",
+        "tip_33": "3. Encourage other ways of expressing thoughts and feelings. Your child can draw a picture, write a story, or keep a diary or journal.",
+        "tip_34": "4. Help your child stay connected with friends and adults you both trust, so you will know they have people to talk with when they are ready.",
+        "tip_35": "5. Some reactions are not said in words.",
+        "subtip_35_a": "- Even without words, you can try to be aware of your child’s reactions.",
+        "subtip_35_b": "- Think about how you can usually tell how your child is feeling - you might see changes in behavior, facial expressions, or body language.",
+        "title_4": "Things to remember:",
+        "tip_41": "1. Different people have different reactions.",
+        "subtip_41": "- As you think about how to help your child, try to separate what you are feeling from what your child is experiencing and what they need.",
+        "tip_42": "2. Make sure your own feelings do not get in the way.",
+        "subtip_42": "If talking with your child is upsetting to you, do your best to stay calm and collected during the conversation and be sure to get support for yourself."
+    },
+    "listFindHelp": {
+        "header":"Find Help",
+        "caption":"FIND WAYS TO HELP YOUR CHILD RECOVER",
+        "quickTips":"Quick Tips",
+        "quickTipsHint":"Navigates to the Quick Tips page",
+        "howToTalk":"How to Talk with Your Child",
+        "howToTalkHint":"Navigates to How to Talk with Your Child",
+        "howToDeal":"How to Deal with New Fears and Worries",
+        "howToDealHint":"Navigates to How to Deal With New Fears and Worries",
+        "healthcareTeam":"Working with Your Child's Healthcare Team",
+        "healthcareTeamHint":"Navigates to Working with Your Child's Healthcare Team",
+        "injuryPain":"Injury and Pain Care",
+        "injuryPainHint":"Navigates to Injury and Pain Care",
+        "outsideHelp":"When to Get Outside Help",
+        "outsideHelpHint":"Navigates to When to Get Outside Help",
+        "selfCare":"Self Care",
+        "selfCareHint":"Navigates to Self Care"
+    },
+    "listLearnMore": {
+        "header": "Learn More",
+        "notAlone": "You Are Not Alone",
+        "notAloneHint": "Navigates to the you are not alone screen",
+        "reactions": "Reactions To Injury",
+        "reactionsHint": "Navigates to the reactions to injury screen",
+        "stressReactions": "What Are Traumatic Stress Reactions?",
+        "stressReactionsHint": "Navigates to the what are traumatic stress reactions screen",
+        "howLong": "How Long Do Traumatic Stress Reactions Last?",
+        "howLongHint": "Navigates to the how long do traumatic stress reactions last screen",
+        "whatToExpect": "WHAT TO EXPECT AFTER INJURY"
     },
     "mainScreen": {
-        "pediatricPTSD": "Pediatric PTSD", 
+        "pediatricPTSD": "Pediatric PTSD",
         "more": "more",
         "learnButton": "LEARN MORE",
-        "learnTitle":"Learn More About Injury and Trauma",
+        "learnTitle": "Learn More About Injury and Trauma",
         "learnCaption": "Get up-to-date information and expert guidance to assist you and your injured child.",
         "learnAcessLabel": "Photo of a doctor holding a stethoscope with their arms folded accross their chest.",
         "learnAccessHint": "Navigates to the learn more screen",
