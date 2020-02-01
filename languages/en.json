@@ -398,7 +398,405 @@
     "resources": {
         "back": "Back",
         "resources": "Resources",
-        "description" : "Find additional resources for you and your child.",
-        "accessibilityHint": "Photo of multi-layered pyramid."
+        "description": "Find additional resources for you and your child.",
+        "accessibilityHint": "Photo of multi-layered pyramid.",
+        "accordion": [
+            {
+                "name": "Finding a Therapist",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Psychology Today",
+                            "url": "https://www.psychologytoday.com",
+                            "accessibilityHint": "Navigates to The Psychology Today homepage",
+                            "accessibilityLabel": "Click here to visit the PT official page"
+                        },
+                        "contentText": "Psychology Today is a great resource to find a therapist or counselor for you or your child."
+                    }
+                ]
+            },
+            {
+                "name": "Traumatic Stress and PTSD",
+                "content": [
+                    {
+                        "link": {
+                            "text": "The National Child Traumatic Stress Network",
+                            "url": "http://www.nctsn.org",
+                            "accessibilityHint": "Navigates to The National Child Traumatic Stress Network homepage",
+                            "accessibilityLabel": "Click here to visit the NCTSN official page"
+                        },
+                        "contentText": " The National Child Traumatic Stress Network is a network of academic and community-based centers providing education and services for children and families who have experienced a traumatic event."
+                    },
+                    {
+                        "link": {
+                            "text": "The International Society for Traumatic Stress Studies",
+                            "url": "http://www.istss.org/",
+                            "accessibilityHint": "Navigates to International Society for Traumatic Stress Studies homepage",
+                            "accessibilityLabel": "Click here to visit the ISTSS official page"
+                        },
+                        "contentText": "The International Society for Traumatic Stress Studies is a professional membership organization that promotes advancement and exchange of knowledge about severe stress and trauma."
+                    },
+                    {
+                        "link": {
+                            "text": "The National Center for PTSD",
+                            "url": "http://www.ptsd.va.gov/",
+                            "accessibilityHint": "Navigates to the National Center for PTSD homepage",
+                            "accessibilityLabel": "Click here to visit the National Center for PTSD homepage"
+                        },
+                        "contentText": "The National Center for PTSD was developed originally to serve the needs of war veterans, this organization also has resources for a broad range of traumatic events for children and adolescents."
+                    },
+                    {
+                        "link": {
+                            "text": "Medline Plus",
+                            "url": "http://www.nlm.nih.gov/medlineplus/",
+                            "accessibilityHint": "Navigates to a database containing Medline Plus articles from the NLM and NIH",
+                            "accessibilityLabel": "Click here to view Medline Plus articles"
+                        },
+                        "contentText": "Medline Plus contains Over 4,000 articles about diseases, tests, symptoms, and injuries compiled by the US National Library of Medicine and the National Institutes of Health."
+                    },
+                    {
+                        "link": {
+                            "text": "The National Institute of Mental Health",
+                            "url": "https://www.nimh.nih.gov/index.shtml",
+                            "accessibilityHint": "Navigates to National Institute of Mental Health offical page",
+                            "accessibilityLabel": "Click here to vist the National Institute of Mental Health homepage"
+                        },
+                        "contentText": "The National Institute of Mental Health has more information explaining what PTSD is, when it starts, how long it lasts, and how to get help. "
+                    }
+                ]
+            },
+            {
+                "name": "Dealing with Other Types of Traumatic Events",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Military OneSource",
+                            "url": "http://www.militaryonesource.com/MOS/MilitaryFamiliesGateway.aspx",
+                            "accessibilityHint": "Navigates to Military OneSource homepage",
+                            "accessibilityLabel": "Click here to visit the Military OneSource official page"
+                        },
+                        "contentText": " Military OneSource has resources for military families, including ways to help children prepare for and deal with a parent's deployment."
+                    },
+                    {
+                        "link": {
+                            "text": "Lotsa Helping Hands",
+                            "url": "http://www.lotsahelpinghands.com/",
+                            "accessibilityHint": "Navigates to Lotsa Helping Hands homepage",
+                            "accessibilityLabel": "Click here to visit the NCTSN official page"
+                        },
+                        "contentText": "Lotsa Helping Hands is a simple, immediate way for friends, family, colleagues, and neighbors to assist loved ones in need."
+                    },
+                    {
+                        "link": {
+                            "text": "Traumatic grief resources from the National Child Traumatic Stress Network",
+                            "url": "http://www.nctsn.org/nccts/nav.do?pid=typ_tg",
+                            "accessibilityHint": "Navigates to The National Child Traumatic Stress Network homepage",
+                            "accessibilityLabel": "Click here to visit the NCTSN official page"
+                        },
+                        "contentText": " The National Child Traumatic Stress Network is a network of academic and community-based centers providing education and services for children and families who have experienced a traumatic event. This page has educational materials for parents and professionals on childhood traumatic grief."
+                    },
+                    {
+                        "link": {
+                            "text": "The National Institute of Mental Health",
+                            "url": "https://www.nimh.nih.gov/index.shtml",
+                            "accessibilityHint": "Navigates to National Institute of Mental Health offical page",
+                            "accessibilityLabel": "Click here to visit the National Institute of Mental Health homepage"
+                        },
+                        "contentText": "The National Institute of Mental Health has more information explaining what PTSD is, when it starts, how long it lasts, and how to get help. "
+                    },
+                    {
+                        "link": {
+                            "text": "Disaster Resources from the American Red Cross",
+                            "url": "http://www.redcross.org/local/hawaii/programs-services/disaster-preparedness",
+                            "accessibilityHint": "Navigates to Disaster Resources from the American Red Cross PDF",
+                            "accessibilityLabel": "Click here to visit the Disaster Resources from the American Red Cross PDF"
+                        },
+                        "contentText": "Disaster Resources from the American Red Cross has information about helping children cope with effects of disaster, and how to be prepared before a disaster. "
+                    },
+                    {
+                        "link": {
+                            "text": "Disaster Resources from the American Psychological Association",
+                            "url": "http://www.apa.org/news/press/releases/2005/01/tsunami.aspx",
+                            "accessibilityHint": "Navigates to the Disaster Resources from the American Psychological Association page",
+                            "accessibilityLabel": "Click here to visit the Disaster Resources from the American Psychological Association page"
+                        },
+                        "contentText": "Disaster Resources from the American Psychological Association has information and tips for recovering from a natural disaster."
+                    },
+                    {
+                        "link": {
+                            "text": "Disaster Resources from the Centers for Disease Control and Prevention",
+                            "url": "https://emergency.cdc.gov/coping/index.asp",
+                            "accessibilityHint": "Navigates to the Disaster Resources from the Centers for Disease Control and Prevention page",
+                            "accessibilityLabel": "Click here to visit the Disaster Resources from the Centers for Disease Control and Prevention page"
+                        },
+                        "contentText": "Disaster Resources from the Centers for Disease Control and Prevention has information for parents, children, and professionals on coping with a disaster. "
+                    },
+                    {
+                        "link": {
+                            "text": "Child Welfare Information Gateway",
+                            "url": "http://www.childwelfare.gov/can/index.cfm",
+                            "accessibilityHint": "Navigates to Child Welfare Information Gateway homepage",
+                            "accessibilityLabel": "Click here to visit the Child Welfare Information Gateway homepage"
+                        },
+                        "contentText": "The Child Welfare Information Gateway has resources on a range of child maltreatment topics. "
+                    },
+                    {
+                        "link": {
+                            "text": "National Domestic Violence Hotline",
+                            "url": "http://www.thehotline.org/",
+                            "accessibilityHint": "Navigates to Disaster Resources from the American Red Cross PDF",
+                            "accessibilityLabel": "Click here to vist the Disaster Resources from the American Red Cross PDF"
+                        },
+                        "contentText": "The National Domestic Violence Hotline is an anonymous 24/7 hotline that provides support and assistance to victims of domestic violence."
+                    }
+                ]
+            },
+            {
+                "name": "Help with Worry and Stress in Children",
+                "content": [
+                    {
+                        "link": {
+                            "text": "American Academy of Pediatrics – Children, Teens, and Resiliency",
+                            "url": "http://www.aap.org/stress/",
+                            "accessibilityHint": "Navigates to The American Academy of Pediatrics page on Children, Teens, and Resiliency",
+                            "accessibilityLabel": "Click here to get more information from the American Academy of Pediatrics"
+                        },
+                        "contentText": "American Academy of Pediatrics – Children, Teens, and Resiliency has information to help teens and families cope with the pressures of day-to-day life."
+                    },
+                    {
+                        "link": {
+                            "text": "Worry Wise Kids",
+                            "url": "http://www.worrywisekids.org/",
+                            "accessibilityHint": "Navigates to Worry Wise Kids homepage",
+                            "accessibilityLabel": "Click here to visit the Worry Wise Kids official page"
+                        },
+                        "contentText": "Worry Wise Kids has information to help children with excessive worries or fears. "
+                    }
+                ]
+            },
+            {
+                "name": "Help with Sleep Problems",
+                "content": [
+                    {
+                        "link": {
+                            "text": "National Association of School Psychologists",
+                            "url": "https://www.nasponline.org/",
+                            "accessibilityHint": "Navigates to National Association of School Psychologists homepage",
+                            "accessibilityLabel": "Click here to visit the National Association of School Psychologists official page"
+                        },
+                        "contentText": "The National Association of School Psychologists has information for parents and educators on sleep and sleep disorders for children and teens."
+                    },
+                    {
+                        "link": {
+                            "text": "National Sleep Foundation (Teens)",
+                            "url": "http://www.sleepfoundation.org/article/leep-topics/teens-and-sleep",
+                            "accessibilityHint": "Navigates to The National Sleep Foundation (Teens) homepage",
+                            "accessibilityLabel": "Click here to visit The National Sleep Foundation (Teens) official page"
+                        },
+                        "contentText": "The National Sleep Foundation (Teens) has multiple topics on sleep related specifically to teens."
+                    },
+                    {
+                        "link": {
+                            "text": "National Sleep Foundation (Kids)",
+                            "url": "http://www.sleepforkids.org/",
+                            "accessibilityHint": "Navigates to National Sleep Foundation (Kids) homepage",
+                            "accessibilityLabel": "Click here to visit National Sleep Foundation (Kids) official page"
+                        },
+                        "contentText": "The National Sleep Foundation (Kids) is a child friendly website about sleep."
+                    }
+                ]
+            },
+            {
+                "name": "Injury Prevention",
+                "content": [
+                    {
+                        "link": {
+                            "text": "US National Highway Traffic Safety Administration",
+                            "url": "http://www.nhtsa.dot.gov/",
+                            "accessibilityHint": "Navigates to US National Highway Traffic Safety Administration homepage",
+                            "accessibilityLabel": "Click here to visit the US National Highway Traffic Safety Administration official page"
+                        },
+                        "contentText": "The US National Highway Traffic Safety Administration has information on recalls and vehicle safety."
+                    },
+                    {
+                        "link": {
+                            "text": "US Consumer Products Safety Commission",
+                            "url": "http://www.cpsc.gov/",
+                            "accessibilityHint": "Navigates to TUS Consumer Products Safety Commission homepage",
+                            "accessibilityLabel": "Click here to visit US Consumer Products Safety Commission official page"
+                        },
+                        "contentText": "The US Consumer Products Safety Commission has information on recalls and product safety."
+                    },
+                    {
+                        "link": {
+                            "text": "Centers for Disease Control and Prevention: National Center on Injury Prevention and Control",
+                            "url": "http://www.cdc.gov/injury/index.html",
+                            "accessibilityHint": "Navigates to Centers for Disease Control and Prevention: National Center on Injury Prevention and Control homepage",
+                            "accessibilityLabel": "Click here to visit Centers for Disease Control and Prevention: National Center on Injury Prevention and Control official page"
+                        },
+                        "contentText": "The Centers for Disease Control and Prevention: National Center on Injury Prevention and Control have multiple topics on injury prevention."
+                    },
+                    {
+                        "link": {
+                            "text": "SafeKids Wordwide",
+                            "url": "http://www.safekids.org/",
+                            "accessibilityHint": "Navigates to SafeKids Wordwide homepage",
+                            "accessibilityLabel": "Click here to visit SafeKids Wordwide official page"
+                        },
+                        "contentText": "SafeKids Wordwide has multiple topics on injury prevention."
+                    },
+                    {
+                        "link": {
+                            "text": "Center for Injury Research and Prevention at Children's Hospital of Philadelphia: Young Drivers",
+                            "url": "http://www.teendriversource.org/",
+                            "accessibilityHint": "Navigates to Center for Injury Research and Prevention at Children's Hospital of Philadelphia homepage on young drivers",
+                            "accessibilityLabel": "Click here to visit Center for Injury Research and Prevention at Children's Hospital of Philadelphia homepage on young drivers"
+                        },
+                        "contentText": "Center for Injury Research and Prevention at Children's Hospital of Philadelphia offers tools and tips for parents and teens to promote safe driving."
+                    },
+                    {
+                        "link": {
+                            "text": "Center for Injury Research and Prevention at Children's Hospital of Philadelphia: Child Passenger Safety",
+                            "url": "http://www.cdc.gov/injury/index.html",
+                            "accessibilityHint": "Navigates to Center for Injury Research and Prevention at Children's Hospital of Philadelphia homepage on child passenger safety",
+                            "accessibilityLabel": "Click here to visit Center for Injury Research and Prevention at Children's Hospital of Philadelphia homepage on child passenger safety"
+                        },
+                        "contentText": "Center for Injury Research and Prevention at Children's Hospital of Philadelphia offers tips to help families choose and install child restraint systems safely."
+                    }
+                ]
+            },
+            {
+                "name": "Pain and Injury Care",
+                "content": [
+                    {
+                        "link": {
+                            "text": "American Academy of Orthopedic Surgeons",
+                            "url": "http://www.orthoinfo.org/",
+                            "accessibilityHint": "Navigates to American Academy of Orthopedic Surgeons homepage",
+                            "accessibilityLabel": "Click here to visit the American Academy of Orthopedic Surgeons official page"
+                        },
+                        "contentText": "The American Academy of Orthopedic Surgeons has a patient education library (including casts and crutches). "
+                    },
+                    {
+                        "link": {
+                            "text": "American Trauma Society",
+                            "url": "http://www.amtrauma.org/",
+                            "accessibilityHint": "Navigates to American Trauma Society homepage",
+                            "accessibilityLabel": "Click here to visit The American Trauma Society official page"
+                        },
+                        "contentText": "The American Trauma Society has advocacy information on trauma care. "
+                    },
+                    {
+                        "link": {
+                            "text": "Brain Injury Association of America",
+                            "url": "http://www.biausa.org/",
+                            "accessibilityHint": "Navigates to Brain Injury Association of America homepage",
+                            "accessibilityLabel": "Click here to visit Brain Injury Association of America official page"
+                        },
+                        "contentText": "The Brain Injury Association of America has information and advocacy on brain injury. "
+                    },
+                    {
+                        "link": {
+                            "text": "National Institute of Health",
+                            "url": "http://health.nih.gov/",
+                            "accessibilityHint": "Navigates to National Institute of Health homepage",
+                            "accessibilityLabel": "Click here to visit National Institute of Health official page"
+                        },
+                        "contentText": "The National Institute of Health contains a glossary of health information."
+                    },
+                    {
+                        "link": {
+                            "text": "About Kids Health",
+                            "url": "http://www.aboutkidshealth.ca/pain",
+                            "accessibilityHint": "Navigates to About Kids Health homepage",
+                            "accessibilityLabel": "Click here to visit About Kids Health official page"
+                        },
+                        "contentText": "About Kids Health has information on assessing and treating pain in children from a pediatric hospital."
+                    },
+                    {
+                        "link": {
+                            "text": "PBS Parents Guide to Talking With Kids About Health",
+                            "url": "http://www.pbs.org/parents/talkingwithkids/health/communicating_intro.html",
+                            "accessibilityHint": "Navigates to PBS Parents Guide to Talking With Kids About Health homepage",
+                            "accessibilityLabel": "Click here to visit PBS Parents Guide to Talking With Kids About Health official page"
+                        },
+                        "contentText": "The NPBS Parents Guide to Talking With Kids About Health has tips on communicating "
+                    },
+                    {
+                        "link": {
+                            "text": "Pain, Pain, Go Away",
+                            "url": "http://www.aboutkidshealth.ca/EN/RESOURCECENTRES/PAIN/Pages/default.aspx",
+                            "accessibilityHint": "Navigates to Pain, Pain, Go Away homepage",
+                            "accessibilityLabel": "Click here to visit Pain, Pain, Go Away official page"
+                        },
+                        "contentText": "Pain, Pain, Go Away has information on helping children with pain from a leading pediatric pain research group."
+                    }
+                ]
+            },
+            {
+                "name": "Books for Parents",
+                "content": [
+                    {
+                        "link": {
+                            "text": "A Parent’s Guide to Building Resilience in Children and Teens: Giving Your Child Roots and Wings",
+                            "url": "https://www.amazon.com/Parents-Guide-Building-Resilience-Children/dp/1581102267/ref=sr_1_1?keywords=A+Parent%E2%80%99s+Guide+to+Building+Resilience+in+Children+and+Teens%3A+Giving+Your+Child+Roots+and+Wings.&qid=1575674996&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy A Parent’s Guide to Building Resilience in Children and Teens: Giving Your Child Roots and Wings",
+                            "accessibilityLabel": "Click here to visit Amazon to buy A Parent’s Guide to Building Resilience in Children and Teens: Giving Your Child Roots and Wings"
+                        },
+                        "contentText": "Today’s children face a great deal of stress — academic performance, heavy scheduling, high achievement standards, media messages, peer pressures, family tension.  Without healthier solutions, they often cope by talking back, giving up, or indulging in unhealthy behaviors. Show your child how to bounce back — and THRIVE — with coping strategies from one of the nation’s foremost experts in adolescent medicine."
+                    },
+                    {
+                        "link": {
+                            "text": "Freeing Your Child from Anxiety: Powerful, Practical Solutions to Overcome Your Child's Fears, Worries and Phobias",
+                            "url": "https://www.amazon.com/Freeing-Your-Child-Anxiety-Practical/dp/0767914929/ref=sr_1_1?keywords=Freeing+Your+Child+from+Anxiety%3A+Powerful%2C+Practical+Solutions+to+Overcome+Your+Child%27s+Fears%2C+Worries+and+Phobias.&qid=1575675183&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy Freeing Your Child from Anxiety: Powerful, Practical Solutions to Overcome Your Child's Fears, Worries and Phobias",
+                            "accessibilityLabel": "Click here to visit Amazon to buy Freeing Your Child from Anxiety: Powerful, Practical Solutions to Overcome Your Child's Fears, Worries and Phobias"
+                        },
+                        "contentText": "Anxiety is the number one mental health problem facing young people today.  Childhood should be a happy and carefree time, yet more and more children today are exhibiting symptoms of anxiety, from bedwetting and clinginess to frequent stomach aches, nightmares, and even refusing to go to school. Parents everywhere want to know: All children have fears, but how much is normal? How can you know when a stress has crossed over into a full-blown anxiety disorder? Most parents don’t know how to recognize when there is a real problem and how to deal with it when there is."
+                    },
+                    {
+                        "link": {
+                            "text": "Children and Trauma: A Guide for Parents and Professionals",
+                            "url": "https://www.amazon.com/Children-Trauma-Guide-Parents-Professionals/dp/0787910716/ref=sr_1_1?keywords=Children+and+Trauma%3A+A+Guide+For+Parents+and+Professionals&qid=1575675281&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy Children and Trauma: A Guide for Parents and Professionals",
+                            "accessibilityLabel": "Click here to visit Amazon to buy Children and Trauma: A Guide for Parents and Professionals"
+                        },
+                        "contentText": "Childhood traumas range widely in their severity and impact.  A car accident, an earthquake or flood, being attacked by a dog, undergoing a frightening medical treatment? All are distinctly different events yet all provoke common symptoms of psychological trauma.  These symptoms may include fearfulness, nightmares, and dramatic behavioral or personality changes. And parental anxiety over changes in a child can, in turn, complicate the healing process."
+                    }
+                ]
+            },
+            {
+                "name": "Books for Kids",
+                "content": [
+                    {
+                        "link": {
+                            "text": "When I Feel Scared (The Way I Feel Books)",
+                            "url": "https://www.amazon.com/When-Feel-Scared-Way-Books/dp/0807589004/ref=sr_1_1?keywords=When+I+Feel+Scared+%28for+young+children%29&qid=1575675551&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy When I Feel Scared (The Way I Feel Books)",
+                            "accessibilityLabel": "Click here to visit Amazon to buy When I Feel Scared (The Way I Feel Books)"
+                        },
+                        "contentText": "Children will recognize similar experiences in their own lives as this little bear describes feeling scared when he has a bad dream or his mother goes away.  Eventually our hero realizes that it's OK to be scared sometimes, and there are ways he can help himself when he's frightened."
+                    },
+                    {
+                        "link": {
+                            "text": "What to Do When You're Sad & Lonely: A Guide for Kids",
+                            "url": "https://www.amazon.com/What-When-Youre-Sad-Lonely/dp/1575421895/ref=sr_1_1?keywords=What+to+Do+When+You%E2%80%99re+Sad+%26+Lonely%3A+A+Guide+for+Kids&qid=1575675696&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy What to Do When You're Sad & Lonely: A Guide for Kids",
+                            "accessibilityLabel": "Click here to visit Amazon to buy What to Do When You're Sad & Lonely: A Guide for Kids"
+                        },
+                        "contentText": "All kids feel sad and lonely sometimes. Growing numbers of children are living with depression, a disease often mistaken for sadness.  This reassuring book offers strategies and tips kids can use to beat the blues and blahs, get a handle on their feelings, make and keep friends, and enjoy their time alone.  The second part focuses on depression, bipolar disorder, grief, and other problems too big for kids to handle on their own, and describes what it’s like to go to counseling.  Includes a Note to Grown-ups and a list of resources."
+                    },
+                    {
+                        "link": {
+                            "text": "What to Do What You’re Scared and Worried: A Guide for Kids",
+                            "url": "https://www.amazon.com/What-When-Youre-Scared-Worried/dp/1575421534/ref=sr_1_1?keywords=What+to+Do+What+You%E2%80%99re+Scared+and+Worried%3A+A+Guide+for+Kids&qid=1575675773&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy What to Do What You’re Scared and Worried: A Guide for Kids",
+                            "accessibilityLabel": "Click here to visit Amazon to buy What to Do What You’re Scared and Worried: A Guide for Kids"
+                        },
+                        "contentText": "From a dread of spiders to panic attacks, kids have worries and fears, just like adults.  This is a book kids can turn to when they need advice, reassurance, and ideas.  They’ll find out where fears and worries come from, practice Fear Chasers and Worry Erasers, and learn to seek help for hard-to-handle fears they can’t manage on their own."
+                    }
+                ]
+            }
+        ]
     }
 }

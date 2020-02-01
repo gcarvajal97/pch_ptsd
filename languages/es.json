@@ -398,6 +398,45 @@
         "back": "Regreso",
         "resources": "Recursos",
         "description" : "Encuentre recursos adicionales para ayudarlo a usted y a su hijo.",
-        "accessibilityHint": "Una foto de una pirámide en capas."
+        "accessibilityHint": "Una foto de una pirámide en capas.",
+        "accordion": [
+            {
+                "name": "SpName",
+                "content": [
+                    {
+                        "link": {
+                            "text": "A resource link",
+                            "url": "http://www.google.com",
+                            "accessibilityHint": "An accessibility hint",
+                            "accessibilityLabel": "An accessibility label"
+                        },
+                        "contentText": "Some content text"
+                    },
+                    {
+                        "link": {
+                            "text": "A resource link",
+                            "url": "http://www.google.com",
+                            "accessibilityHint": "An accessibility hint",
+                            "accessibilityLabel": "An accessibility label"
+                        },
+                        "contentText": "Some content text"
+                    }
+                ]
+            },
+            {
+                "name": "SpName2",
+                "content": [
+                    {
+                        "link": {
+                            "text": "A resource link",
+                            "url": "http://www.google.com",
+                            "accessibilityHint": "An accessibility hint",
+                            "accessibilityLabel": "An accessibility label"
+                        },
+                        "contentText": "Some content text"
+                    }
+                ]
+            }
+        ]
     }
 }

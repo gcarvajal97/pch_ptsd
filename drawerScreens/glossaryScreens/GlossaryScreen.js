@@ -5,6 +5,7 @@ import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import GlossaryScreenCard from "./GlossaryScreenCard";
 import GlossaryTerms from "./GlossaryTerms";
 import translate from "../../components/translateService";
+import Resources from "../resourcesScreens/Resources";
 
 class GlossaryScreen extends Component {
     static navigationOptions = {
