@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, Text, View, TouchableOpacity } from 'react-nati
 import { Card } from 'react-native-elements';
 import * as Animatable from 'react-native-animatable';
 import Accordion from 'react-native-collapsible/Accordion';
+import translate from '../../components/translateService';
 
 import IntheED from './InTheED';
 import InTheHospital from './InTheHospital';
@@ -11,9 +12,9 @@ import healthTeam from '../../assets/healthTeam.jpg';
 
 // List of screens that will be dispalyed in this list component
 const PAGES = [
-    { name: 'In the Emergency Department', content: <IntheED />, value: 0, accessibilityHint: 'Navigate to In the Emergency Department' },
-    { name: 'In the Hospital', content: <InTheHospital />, value: 1, accessibilityHint: 'Navigate to In the Hospital'},
-    { name: 'After the Hospital', content: <AfterTheHospital />, value: 2, accessibilityHint: 'Navigate to After the Hospital' },
+    { name: translate('healthcareTeam.CHAPTER_1_MAIN_TITLE'), content: <IntheED />, value: 0, accessibilityHint: translate('healthcareTeam.CHAPTER_1_MAIN_TITLE') },
+    { name: translate('healthcareTeam.CHAPTER_2_MAIN_TITLE'), content: <InTheHospital />, value: 1, accessibilityHint: translate('healthcareTeam.CHAPTER_2_MAIN_TITLE')},
+    { name: translate('healthcareTeam.CHAPTER_3_MAIN_TITLE'), content: <AfterTheHospital />, value: 2, accessibilityHint: translate('healthcareTeam.CHAPTER_3_MAIN_TITLE')},
 ]
 
 export default class HealthcareTeam extends Component {
@@ -68,7 +69,7 @@ export default class HealthcareTeam extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Find Help'
+        headerTitle: translate('healthcareTeam.header')
     }
     render() {
         const { multipleSelect, activeSections } = this.state;
@@ -79,19 +80,13 @@ export default class HealthcareTeam extends Component {
                     <Card image={healthTeam} featuredTitleStyle={{ fontSize: 40 }}
                         containerStyle={{ margin: 8 }} featuredTitle='Teamwork'
                         accessible
-                        accessibilityHint='Photo of a doctor going over an x-ray with a man'
+                        accessibilityHint={translate('healthcareTeam.accessabilityHint')}
                     >
                         <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>It is important to work as a team.</Text>
                     </Card>
-                    <Text style={styles.paragraphTitle}>How To Work With Your Child's Healthcare Team</Text>
-                    <Text style={styles.paragraph}>
-                        You have the very important job of making sure your child gets the best medical care for their physical injuries.
-                        You are also the best person to monitor how your child is coping, and when some extra help might be needed.
-            </Text>
-                    <Text style={styles.paragraph}>
-                        In the first few days after an injury, many kids (and parents) feel a little upset, jumpy or worried,
-                        and can use a little extra support from family and friends.
-            </Text>
+                    <Text style={styles.paragraphTitle}>{translate('healthcareTeam.MAIN_TITLE')}</Text>
+                    <Text style={styles.paragraph}>{translate('healthcareTeam.main_Paragraph_1')}</Text>
+                    <Text style={styles.paragraph}>{translate('healthcareTeam.main_Paragraph_2')}</Text>
                     <Accordion
                         activeSections={activeSections}
                         sections={PAGES}
