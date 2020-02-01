@@ -2,30 +2,31 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import { Card, ListItem, Divider } from 'react-native-elements';
 import NavigationService from '../components/NavigationService';
+import { translate } from '../components/translateService';
 
 // List of screens that will be dispalyed in this list component
 const listNames = [
-    { name: 'Quick Tips', navigateTo: 'QuickTips', accessibilityHint: 'Navigates to the Quick Tips page'},
-    { name: 'How to Talk with Your Child', navigateTo: 'HowToTalk', accessibilityHint: 'Navigates to How to Talk with Your Child'},
-    { name: 'How to Deal with New Fears and Worries', navigateTo: 'DealWorries', accessibilityHint: 'Navigates to How to Deal With New Fears and Worries'},
-    { name: "Working with Your Child's Healthcare Team", navigateTo: 'HealthTeam', accessibilityHint: "Navigates to Working with Your Child's Healthcare Team"},
-    { name: 'Injury and Pain Care', navigateTo: 'InjuryPainCare', accessibilityHint: 'Navigates to Injury and Pain Care'},
-    { name: 'When to Get Outside Help', navigateTo: 'WhenToGetHelp', accessibilityHint: 'Navigates to When to Get Outside Help'},
-    { name: "Self Care", navigateTo: 'SelfCare', accessibilityHint: 'Navigates to Self Care'},
+    { name: translate('listFindHelp.quickTips'), navigateTo: 'QuickTips', accessibilityHint: translate('listFindHelp.quickTipsHint')},
+    { name: translate('listFindHelp.howToTalk'), navigateTo: 'HowToTalk', accessibilityHint: translate('listFindHelp.howToTalkHint')},
+    { name: translate('listFindHelp.howToDeal'), navigateTo: 'DealWorries', accessibilityHint: translate('listFindHelp.howToDealHint')},
+    { name: translate('listFindHelp.healthcareTeam'), navigateTo: 'HealthTeam', accessibilityHint: translate('listFindHelp.healthcareTeamHint')},
+    { name: translate('listFindHelp.injuryPain'), navigateTo: 'InjuryPainCare', accessibilityHint: translate('listFindHelp.injuryPainHint')},
+    { name: translate('listFindHelp.outsideHelp'), navigateTo: 'WhenToGetHelp', accessibilityHint: translate('listFindHelp.outsideHelpHint')},
+    { name: translate('listFindHelp.selfCare'), navigateTo: 'SelfCare', accessibilityHint: translate('listFindHelp.selfCareHint')},
 ]
 
 export default class FindHelpList extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Find Help'
+        headerTitle: translate('listFindHelp.header')
     }
     render() {
         return (
             <View>
                 <Card containerStyle={{margin:5}}>
                     <Text style={{textAlign: 'center', backgroundColor:'#2089DC', fontSize:20, color:'white', padding:10, paddingVertical:10, margin:0}}>
-                        FIND WAYS TO HELP YOUR CHILD RECOVER
+                        {translate('listFindHelp.caption')}
                     </Text>
                     <Divider style={{backgroundColor:'black', height:1, marginBottom:-1}}/>
                     <View>
