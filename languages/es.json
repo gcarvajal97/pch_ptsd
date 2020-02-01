@@ -423,5 +423,32 @@
         "findHelpCaption": "Lidiar con las reacciones emocionales y cuidar las lesiones puede ser difícil. Encuentre maneras de ayudar a su hijo a recuperarse.",
         "findHelpAccessLabel": "Foto del padre leyendo un libro a un bebé en su regazo.",
         "findHelpAccessHint": "Navega para encontrar más ayuda"
+    },
+    "whenToGetOutsideHelp": {
+        "page1": "Cuándo buscar más ayuda",
+        "page1Accessability": "Navegar a cuándo buscar más ayuda",
+        "page2": "Cómo buscar ayuda profesional o asesoramiento",
+        "page2Accessability": "Navegar a cómo buscar ayuda profesional o asesoramiento",
+        "page3": "Cuándo y cómo buscar más ayuda para usted mismo",
+        "page3Accessability": "Navegar a cuándo y cómo buscar más ayuda para usted mismo",
+        "headerTitle": "Encontrar ayuda",
+        "featuredTitle": "Obtener ayuda externa",
+        "cardAccessibilityHint": "Foto de dos personas tomados de la mano con café",
+        "subTitle": "Es importante saber cuándo obtener ayuda profesional.",
+        "paragraphTitle": "Cundo pedis ayuda externa",
+        "paragraph": "Usted tiene la importante tarea de asegurar que su hijo reciba la mejor asistencia médica para sus lesiones físicas. Usted también es la mejor persona para supervisar cómo su hijo está manejando la situación y en qué casos puede ser necesaria un poco de ayuda adicional, como asesoramiento en caso de traumas. En los primeros días que siguen a una lesión, muchos niños (y padres) se sienten algo angustiados, nerviosos o preocupados, por lo que pueden pedir un poco de apoyo extra a familiares y amigos."
+    },
+    "whenToLook": {
+        "paragraphTitle1": "Los síntomas de estrés traumático de su hijo:",
+        "paragraph1": "-¿Se interponen en su camino para retomar a las actividades habituales?",
+        "paragraph2": "-¿Hacen que deje de disfrutar de las cosas que solía disfrutar?",
+        "paragraph3": "-¿Parecen empeorar lugar de mejorar?",
+        "paragraph4": "-¿Han durado más de un mes?",
+        "paragraphTitle2": "Su hijo:",
+        "paragraph5": "-¿Sufre síntomas físicos si recuerda la lesión o lo que sucedió?",
+        "paragraph6": "-¿Trata de no hablar de ello?",
+        "paragraph7": "-¿Se asusta con facilidad (por ejemplo, se sobresalta con los ruidos repentinos)?",
+        "paragraph8": "-¿Se angustia demasiado si recuerda la lesión?",
+        "paragraph9": "Si alguna de las anterioreses cierta sería buena idea hablar con su médico u otro profesional sobre la progresión de su hijo."
     }
 }

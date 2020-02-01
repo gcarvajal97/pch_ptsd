@@ -424,5 +424,32 @@
         "findHelpCaption": "Dealing with emotional reactions and injury care can be difficult. Find ways to help your child recover.",
         "findHelpAccessLabel": "Photo of father reading a book to a baby on his lap.",
         "findHelpAccessHint": "Navigates to the find help screen"
+    },
+    "whenToGetOutsideHelp": {
+        "page1": "When to Look For More Help",
+        "page1Accessability": "Navigates to When to look for outside help Page",
+        "page2": "How to Look For Professional Help",
+        "page2Accessability": "Navigates to How to look for professional help or counseling for your child Page",
+        "page3": "When and How to Look For Help For Yourself",
+        "page3Accessability": "Navigates to When and how to look for more help for yourself Page",
+        "headerTitle": "Find Help",
+        "featuredTitle": "Get Outside Help",
+        "cardAccessibilityHint": "Photo of two people holding hands over coffee",
+        "subTitle": "It is important to know when to get professional help.",
+        "paragraphTitle": "When To Get Outside Help",
+        "paragraph": "You have the very important job of making sure your child gets the best medical care for his physical injuries. You are also the best person to monitor how your child is coping, and when some extra help, such as trauma counseling, might be needed. In the first few days after an injury, many kids (and parents) feel a little upset, jumpy or worried, and can use a little extra support from family and friends."
+    },
+    "whenToLook": {
+        "paragraphTitle1": "Does your child have traumatic stress symptoms that:",
+        "paragraph1": "-Get in the way of getting back to usual activities?",
+        "paragraph2": "-Stop your child from enjoying things they used to enjoy?",
+        "paragraph3": "-Seem to be getting worse rather than better?",
+        "paragraph4": "-Have lasted more than a month?",
+        "paragraphTitle2": "Does your child:",
+        "paragraph5": "-Get physical symptoms if reminded of the injury or what happened?",
+        "paragraph6": "-Try not to talk about it?",
+        "paragraph7": "-Startle easily (for example, jumping at sudden noises)?",
+        "paragraph8": "-Get very distressed if reminded of the injury?",
+        "paragraph9": "If any of the above are true, it's a good idea to talk with your doctor or another professional about how your child is doing."
     }
 }
