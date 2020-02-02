@@ -397,44 +397,269 @@
     "resources": {
         "back": "Regreso",
         "resources": "Recursos",
-        "description" : "Encuentre recursos adicionales para ayudarlo a usted y a su hijo.",
+        "description": "Encuentre recursos adicionales para ayudarlo a usted y a su hijo.",
         "accessibilityHint": "Una foto de una pirámide en capas.",
         "accordion": [
             {
-                "name": "SpName",
+                "name": "Estrés traumático y TEPT",
                 "content": [
                     {
                         "link": {
-                            "text": "A resource link",
-                            "url": "http://www.google.com",
-                            "accessibilityHint": "An accessibility hint",
-                            "accessibilityLabel": "An accessibility label"
+                            "text": "Sociedad Internacional de Estudios de Estrés Traumático",
+                            "url": "http://www.istss.org/",
+                            "accessibilityHint": "Navega a la página de inicio de Sociedad Internacional de Estudios de Estrés Traumático",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Sociedad Internacional de Estudios de Estrés Traumático"
                         },
-                        "contentText": "Some content text"
+                        "contentText": "Una organización profesional que promueve los avances y el intercambio de conocimientos sobre estrés severo y traumas. (en inglés)"
                     },
                     {
                         "link": {
-                            "text": "A resource link",
-                            "url": "http://www.google.com",
-                            "accessibilityHint": "An accessibility hint",
-                            "accessibilityLabel": "An accessibility label"
+                            "text": "Biblioteca Nacional de Medicina de Estados Unidos",
+                            "url": "http://www.nlm.nih.gov/medlineplus/spanish/",
+                            "accessibilityHint": "Navega a la página de inicio de Biblioteca Nacional de Medicina de Estados Unidos",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Biblioteca Nacional de Medicina de Estados Unidos"
                         },
-                        "contentText": "Some content text"
+                        "contentText": "Más de 4.000 artículos sobre enfermedades, estudios, síntomas y lesiones recopilados por la Biblioteca Nacional de Medicina y los Institutos Nacionales de Salud de Estados Unidos."
+                    },
+                    {
+                        "link": {
+                            "text": "Centro Nacional de TEPT",
+                            "url": "http://www.ptsd.va.gov/public/spanish/index.asp",
+                            "accessibilityHint": "Navega a la página de inicio de Centro Nacional de TEPT",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Centro Nacional de TEPT"
+                        },
+                        "contentText": "Desarrollado en principio para atender las necesidades de los veteranos de guerra, esta organización también cuenta con recursos para atender una amplia gama de eventos traumáticos que afectan a niños y adolescentes."
+                    },
+                    {
+                        "link": {
+                            "text": "Red Nacional para el Estrés Traumático Infantil",
+                            "url": "http://www.nctsn.org/resources/audiences/Informaci%C3%B3n-en-Espa%C3%B1ol",
+                            "accessibilityHint": "Navega a la página de inicio de Red Nacional para el Estrés Traumático Infantil",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Red Nacional para el Estrés Traumático Infantil"
+                        },
+                        "contentText": "Una red de centros académicos y comunitarios, que brinda educación y servicios para niños y familias, que han experimentado eventos traumáticos."
+                    },
+                    {
+                        "link": {
+                            "text": "Institutos Nacionales de Salud Mental",
+                            "url": "http://www.nctsn.org/resources/audiences/Informaci%C3%B3n-en-Espa%C3%B1ol",
+                            "accessibilityHint": "Navega a la página de inicio de Institutos Nacionales de Salud Mental",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Institutos Nacionales de Salud Mental"
+                        },
+                        "contentText": "Información que explica qué es el trastorno por estrés postraumático, cuándo comienza, cuánto dura, y cómo conseguir ayuda. (en inglés)"
                     }
                 ]
             },
             {
-                "name": "SpName2",
+                "name": "Estrés traumático y trastorno de estrés postraumático",
                 "content": [
                     {
                         "link": {
-                            "text": "A resource link",
-                            "url": "http://www.google.com",
-                            "accessibilityHint": "An accessibility hint",
-                            "accessibilityLabel": "An accessibility label"
+                            "text": "Recursos sobre desastres de la Asociación Psicológica Estadounidense",
+                            "url": "http://www.apa.org/centrodeapoyo/",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre desastres de la Asociación Psicológica Estadounidense",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre desastres de la Asociación Psicológica Estadounidense"
                         },
-                        "contentText": "Some content text"
+                        "contentText": "Consejos para recuperarse de un desastre natural."
+                    },
+                    {
+                        "link": {
+                            "text": "Portal de Información de Bienestar Infantil",
+                            "url": "http://www.childwelfare.gov/can/index.cfm",
+                            "accessibilityHint": "Navega a la página de inicio de Portal de Información de Bienestar Infantil",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Portal de Información de Bienestar Infantil"
+                        },
+                        "contentText": "Recursos sobre una amplia gama de temas de maltrato infantil. (en inglés)"
+                    },
+
+                    {
+                        "link": {
+                            "text": "Recursos sobre desastres de los Centros de Control y Prevención de Enfermedades",
+                            "url": "http://www.bt.cdc.gov/mentalhealth",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre desastres de los Centros de Control y Prevención de Enfermedades",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre desastres de los Centros de Control y Prevención de Enfermedades"
+                        },
+                        "contentText": "Información para padres, niños y profesionales para afrontar un desastre. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Recursos sobre desastres de la Red Nacional para el Estrés Traumático Infantil",
+                            "url": "http://www.nctsn.org/nccts/nav.do?pid=typ_nd",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre desastres de la Red Nacional para el Estrés Traumático Infantil",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre desastres de la Red Nacional para el Estrés Traumático Infantil"
+                        },
+                        "contentText": "Herramientas para afrontar tipos específicos de desastres naturales para familias, escuelas y profesionales de la salud. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Lotsa Helping Hands",
+                            "url": "http://www.lotsahelpinghands.com/",
+                            "accessibilityHint": "Navega a la página de inicio de Lotsa Helping Hands",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Lotsa Helping Hands"
+                        },
+                        "contentText": "Lotsa Helping Hands es una forma inmediata y sencilla que tienen amigos, familiares, compañeros y vecinos de ayudar a seres queridos que lo necesitan. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Military OneSource",
+                            "url": "http://www.militaryonesource.com/MOS/MilitaryFamiliesGateway.aspx",
+                            "accessibilityHint": "Navega a la página de inicio de Military OneSource",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Military OneSource"
+                        },
+                        "contentText": "Recursos para familias de militares, incluyendo maneras de ayudar a los niños a prepararse y afrontar el destino de los padres. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Línea de Acceso Directo Nacional de Violencia Doméstica",
+                            "url": "http://www.thehotline.org/",
+                            "accessibilityHint": "Navega a la página de inicio de Línea de Acceso Directo Nacional de Violencia Doméstica",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Línea de Acceso Directo Nacional de Violencia Doméstica"
+                        },
+                        "contentText": "Información sobre una línea de acceso directo anónima las 24 horas que proporciona apoyo y asistencia a víctimas de violencia doméstica. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Recursos sobre duelo traumático de la Red Nacional para el Estrés Traumático Infantil",
+                            "url": "http://www.nctsn.org/nccts/nav.do?pid=typ_tg",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre duelo traumático de la Red Nacional para el Estrés Traumático Infantil",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre duelo traumático de la Red Nacional para el Estrés Traumático Infantil"
+                        },
+                        "contentText": "Materiales educativos para padres y profesionales sobre duelo traumático en la infancia. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Recursos sobre violencia y desastres del Instituto Nacional de Salud Mental",
+                            "url": "http://www.nimh.nih.gov/health/topics/child-and-adolescent-mental-health/",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre violencia y desastres del Instituto Nacional de Salud Mental",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre violencia y desastres del Instituto Nacional de Salud Mental"
+                        },
+                        "contentText": "Información sobre el impacto de la violencia y los desastres en niños y adolescentes, con sugerencias para minimizar el daño emocional a largo plazo. (en inglés)"
                     }
+                ]
+            },
+            {
+                "name": " La preocupación o el estrés en niños y adolescentes",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Academia Americana de Pediatría - Niños, Adolescentes y Capacidad de Adaptación",
+                            "url": "http://www.aap.org/stress/",
+                            "accessibilityHint": "Navega a la página de inicio de Academia Americana de Pediatría - Niños, Adolescentes y Capacidad de Adaptación",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Academia Americana de Pediatría - Niños, Adolescentes y Capacidad de Adaptación"
+                        },
+                        "contentText": "Información para ayudar a adolescentes y sus familias a superar las presiones de la vida diaria. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Worry Wise Kids",
+                            "url": "http://www.worrywisekids.org/",
+                            "accessibilityHint": "Navega a la página de inicio de Worry Wise Kids",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Worry Wise Kids"
+                        },
+                        "contentText": "Información para ayudar a niños con preocupaciones o miedos excesivos. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Problemas para conciliar el sueño",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Asociación Nacional de Psicólogos Escolares",
+                            "url": "http://www.nasponline.org/resources/health_wellness/sleepdisorders_ho.aspx",
+                            "accessibilityHint": "Navega a la página de inicio de Asociación Nacional de Psicólogos Escolares",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Asociación Nacional de Psicólogos Escolares"
+                        },
+                        "contentText": "Información para padres y educadores sobre el sueño y trastornos del sueño en niños y adolescentes. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Fundación Nacional del Sueño--Niños)",
+                            "url": "http://www.nasponline.org/resources/health_wellness/sleepdisorders_ho.aspx",
+                            "accessibilityHint": "Navega a la página de inicio de Fundación Nacional del Sueño--Niños)",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Fundación Nacional del Sueño--Niños)"
+                        },
+                        "contentText": "Web sobre el sueño pensada para niños. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Fundación Nacional del Sueño-- Adolescentes",
+                            "url": "http://www.sleepfoundation.org/article/sleep-topics/teens-and-sleep",
+                            "accessibilityHint": "Navega a la página de inicio de Fundación Nacional del Sueño-- Adolescentes",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Fundación Nacional del Sueño-- Adolescentes"
+                        },
+                        "contentText": "Temas diversos sobre sueño relacionados específicamente con adolescentes. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Prevención de las lesiones",
+                "content": [
+                    {
+                        "link": {
+                            "text": "http://www.cdc.gov/injury/",
+                            "url": "http://www.cdc.gov/injury/",
+                            "accessibilityHint": "Navega a la página de inicio de CDC",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de CDC"
+                        },
+                        "contentText": "Desde El Centro de Investigación y Prevención de Lesiones del Hospital Pediátrico de Filadelfia"
+                    },
+                    {
+                        "link": {
+                            "text": "http://www.cpsc.gov/es/SeguridadConsumidor/",
+                            "url": "http://www.cpsc.gov/es/SeguridadConsumidor/",
+                            "accessibilityHint": "Navega a la página de inicio de Comisión de Seguridad del Consumidor",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Comisión de Seguridad del Consumidor"
+                        },
+                        "contentText": "Información sobre retiradas de productos y seguridad de vehículos. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "http://www.nhtsa.dot.gov/",
+                            "url": "http://www.nhtsa.dot.gov/",
+                            "accessibilityHint": "Navega a la página de inicio de Administración Nacional de Seguridad Vial",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Administración Nacional de Seguridad Vial"
+                        },
+                        "contentText": "Desde El Centro de Investigación y Prevención de Lesiones del Hospital Pediátrico de Filadelfia. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "http://www.TeenDriverSource.org",
+                            "url": "http://www.TeenDriverSource.org",
+                            "accessibilityHint": "Navega a la página de inicio de TeenDriverSource",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de TeenDriverSource"
+                        },
+                        "contentText": "Desde El Centro de Investigación y Prevención de Lesiones del Hospital Pediátrico de Filadelfia. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Libros para padres",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Una guía para padres para aumentar la capacidad de recuperación en niños y adolescentes: Cómo darle a su hijo raíces y alas",
+                            "url": "https://www.amazon.com/Parents-Guide-Building-Resilience-Children/dp/1581102267/ref=sr_1_1?keywords=A+Parent%E2%80%99s+Guide+to+Building+Resilience+in+Children+and+Teens%3A+Giving+Your+Child+Roots+and+Wings&qid=1580607839&sr=8-1",
+                            "accessibilityHint": "Navega a la página de Amazon",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Amazon"
+                        },
+                        "contentText": "Los niños de hoy se enfrentan a una gran cantidad de estrés: rendimiento académico, programación pesada, altos estándares de rendimiento, mensajes en los medios, presiones de los compañeros, tensión familiar. Sin soluciones más saludables, a menudo se las arreglan para responder, darse por vencidos o caer en conductas poco saludables. Muéstrele a su hijo cómo recuperarse, y PROBAR, con estrategias de afrontamiento de uno de los expertos más importantes del país en medicina para adolescentes. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Libros para niños",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Como superar los miedos y las preocupaciones/How to overcome fears and worries: Una guia para niños ",
+                            "url": "https://www.amazon.com/superar-miedos-preocupaciones-overcome-worries/dp/8497541251/ref=sr_1_1?keywords=Como+superar+los+miedos+y+las+preocupaciones%2FHow+to+overcome+fears+and+worries%3A+Una+guia+para+ni%C3%B1os&qid=1580608176&sr=8-1",
+                            "accessibilityHint": "Navega a la página de Amazon",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Amazon"
+                        },
+                        "contentText": "Analiza las causas de los temores y preocupaciones comunes, sugiere formas de lidiar con ellos y proporciona información sobre afecciones como fobias, ansiedad y trastorno de estrés postraumático."
+                    }
+
                 ]
             }
         ]
