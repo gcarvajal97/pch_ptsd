@@ -912,6 +912,34 @@
         "q18body1": "Cuando algo aterrador sucede, aprendemos a considerar las cosas conectadas a eso como si fueran señales de peligro. Imágenes, sonidos e incluso olores pueden ser recordatorios.",
         "q18body2": "¿Ocurren estos sentimientos casi todos los días? ¿Hacen que a su hijo le sea difícil relajarse y divertirse o concentrarse en una tarea escolar?"
     },
+    "reactionsToInjury": {
+        "header": "Aprende más",
+        "title": "Reacciones a una lesión",
+        "content": {
+            "videoCard": {
+                "title": "Estas reacciones son esperadas.",
+                "subtitle": "Con un poco de tiempo y apoyo adicional, la mayoría de los niños se sienten mejor..",
+                "accessibility": "El video muestra cuáles son las reacciones de estrés a una lesión."
+            },
+            "paragraphOne": "Una de las cosas más importantes que puede hacer para ayudar a su hijo es reconocer las reacciones de su hijo a las lesiones y comprender los síntomas de trauma infantil. Muchas reacciones son normales y comunes; algunas son más preocupantes.",
+            "paragraphTwo": "El primer paso para ayudar a su hijo a recuperarse es aprender qué reacciones debe detectar y qué puede hacer para ayudar a su hijo a responder de una manera sana.",
+            "bulletListOne": {
+                "title": "En los primeros días después de una lesión, los síntomas comunes de trauma infantil son:",
+                "bulletOne": "- Casi todos los niños se sienten angustiados, nerviosos o preocupados en algunos momentos.",
+                "bulletTwo": "- Los padres y otros miembros de la familia pueden tener reacciones similares.",
+                "bulletThree": "- Casi todo el mundo siente los síntomas de estrés: dolor de cabeza, músculos tensos, nudos en el estómago, las manos sudorosas. También se suele sentir que la vida está un poco fuera de control.",
+                "bulletFour": "- Los padres y los niños pueden discutir más.",
+                "bulletFive": "- Los niños pueden ser más dependientes o tener problemas para dormir."
+            },
+            "bulletListTwo": {
+                "title": "Incluso puede notar algunas reacciones positivas a su lesión:",
+                "bulletOne": "- Sentirse agradecidas y aliviadas de que no haya pasado nada peor",
+                "bulletTwo": "- Decidirse a hacer las cosas de forma más segura en el futuro"
+            },
+            "paragraphThree": "Cuando un accidente o una lesión provocan sentimientos abrumadores de miedo, impotencia y horror, pueden generar más que reacciones de estrés cotidianas. Puede conducir",
+            "paragraphThreeBold": "al estrés traumático."
+        }
+    },
     "resources": {
         "back": "Regreso",
         "resources": "Recursos",
@@ -1183,7 +1211,7 @@
         ]
     },
     "youAreNotAlone": {
-        "header": "Aprende Más",
+        "header": "Aprende más",
         "title": "No Está Solo",
         "content": {
             "videoCard": {

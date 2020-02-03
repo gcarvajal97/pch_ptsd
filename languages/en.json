@@ -913,6 +913,34 @@
         "q18body1": "After your child is injured, there are lots of things that you as a parent have to cope with. It’s normal for parents to feel stress and to be concerned about the future. Many parents also have some traumatic stress reactions in the first few weeks. If these don’t get better in a month or so, they may signal a problem that needs attention.",
         "q18body2": "Have these feelings lasted for more than a month? Are worries about your child keeping you from being able to concentrate, get enough sleep, or get back to work or other activities?"
     },
+    "reactionsToInjury": {
+        "header": "Learn More",
+        "title": "Reactions to Injury",
+        "content": {
+            "videoCard": {
+                "title": "These reactions are expected.",
+                "subtitle": "With a little time and extra support, most children feel better.",
+                "accessibility": "Video show what are stress reactions to injury"
+            },
+            "paragraphOne": "One of the most important things you can do to help your child is to recognize your child’s reactions to injury. Many reactions are normal and common; some are more worrisome.",
+            "paragraphTwo": "The first step in helping your child recover is to learn what reactions to look for and what you can do to help your child respond in a healthy way.",
+            "bulletListOne": {
+                "title": "In the first few days after an injury, these are the common child trauma symptoms:",
+                "bulletOne": "- Nearly all children feel upset, jumpy, or worried at times.",
+                "bulletTwo": "- Parents and other family members can have similar reactions.",
+                "bulletThree": "- Nearly everyone feels symptoms of stress; Headache, tense muscles, knots in your stomach, sweaty palms, and the feeling that life is a bit out of control.",
+                "bulletFour": "- Parents and children may argue more.",
+                "bulletFive": "- Children may be more clingy or have trouble sleeping."
+            },
+            "bulletListTwo": {
+                "title": "You may even notice some positive reactions to their injury:",
+                "bulletOne": "- Feeling thankful and relieved that nothing worse happened",
+                "bulletTwo": "- A resolve to do things more safely in the future"
+            },
+            "paragraphThree": "When an accident or injury causes overwhelming feelings of fear, helplessness, and horror, it can lead to more than just everyday stress reactions. It can lead to",
+            "paragraphThreeBold": "traumatic stress."
+        }
+    },
     "resources": { 
         "back": "Back",
         "resources": "Resources",
