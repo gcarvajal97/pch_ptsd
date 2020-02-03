@@ -32,7 +32,7 @@ export default class LearnMoreList extends Component {
                     <Divider style={{backgroundColor:'black', height:1, marginBottom:-1}}/>
                     <View>
                         {
-                            translate('learnMoreList.listNames').map((l, i) => {
+                            listNames.map((l, i) => {
                                 return (
                                     <ListItem
                                         containerStyle={{paddingLeft:14, paddingVertical:12, paddingRight:0}}

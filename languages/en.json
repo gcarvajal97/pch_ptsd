@@ -448,8 +448,51 @@
         "Ch3_t3_b2": "- Chaplain",
         "Ch3_t3_b3": "- Or a mental health professional, such as a psychologist or psychiatrist come back to this website for more information on ways parents can help their kids."
     },
-    "howLongScreen": {
-
+    "howLong": {
+        "header": "Learn More",
+        "title": "How Long Do Traumatic Stress Reactions Last",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on how long stress reactions last",
+                "title": "Stress reactions can get in the way. ",
+                "subtitle": "Professional help is important to get back to normal."
+            },
+            "mainParagraphOne": "For many children and their parents early traumatic stress reactions get better over the first month. But about 1 in 6 still have traumatic stress reactions that bother them, even 6 months after an injury.",
+            "mainParagraphTwo": "Nearly everyone feels upset or anxious early on. Over the next few weeks and months, these reactions usually get weaker and then go away. Even children recovering from serious injuries start to develop ways to cope.",
+            "mainParagraphThree": "But for some people, these early reactions do not seem to get better as the months go by, or they may get worse. Even if the physical injury has healed, they may not have recovered from the trauma. The intensity and length of the traumatic stress reactions is not related to how bad the physical injury was.",
+            "concernParagraph": {
+                "mainTitle": "Why be concerned?",
+                "paragraphOne": "When traumatic stress reactions last for weeks or months, they can get in the way of getting back to normal and feeling like yourself again.",
+                "bulletList": {
+                    "title": "For children and teens, this can affect school, home, and play.",
+                    "bulletOne": "- Schoolwork and learning might be disrupted because a child cannot concentrate or sleep well.",
+                    "bulletTwo": "- Family relationships and friendships might suffer.",
+                    "bulletThree": "- Children might stop doing things that they enjoy, or stop trying new things."
+                }
+            },
+            "whatIsPTSDParagraph": {
+                "title": "What is post-traumatic stress disorder, or 'PTSD'?",
+                "bulletListOne": {
+                    "title": "Post-traumatic stress disorder (PTSD) is the name given to traumatic stress reactions that:",
+                    "bulletOne": "- Are so severe that they get in the way of normal life",
+                    "bulletTwo": "- Last for more than one month."
+                },
+                "paragraphOne": "It is important to know if your child or someone else in your family develops post-traumatic stress disorder from the accident or injury. It is much more common than people realize.",
+                "paragraphTwo": "Up to 1 in 10 people develop post-traumatic stress disorder at some point in their lives.",
+                "bulletListTwo": {
+                    "title": "After an injury, post-traumatic stress disorder can:",
+                    "bulletOne": "- Get in the way of physical recovery",
+                    "bulletTwo": "- Contribute to new medical problems",
+                    "bulletThree": "- Just make it harder to enjoy life."
+                },
+                "hyperLinkOne": {
+                    "text": "Click here for more information on PTSD.",
+                    "accessibilityLabel": "Click here for more information on PTSD",
+                    "accessibilityHint": "Navigates to a website on the casuses of PTSD"
+                },
+                "paragraphThree": "The good news is that very good treatments for PTSD are available. Unfortunately, less than half of people with traumatic stress symptoms talk to anyone about their problems or get any professional help, even when their symptoms go on for a long time."
+            }
+        }
     },
     "howToTalk": {
         "header": "Find Help",
@@ -1285,11 +1328,11 @@
             },
             "statsBullets": {
                 "intro": "Each year in the United States, child injury statistics show that:",
-                "bulletOne": "1 in 4 children and teens need medical care for an injury.",
-                "bulletTwo": "7 million injured children are treated in the ER.",
-                "bulletThree": "Several hundred thousand injured children are admitted to the hospital."
+                "bulletOne": "- 1 in 4 children and teens need medical care for an injury.",
+                "bulletTwo": "- 7 million injured children are treated in the ER.",
+                "bulletThree": "- Several hundred thousand injured children are admitted to the hospital."
             },
-            "paragaphOne": "Right now, hundreds of thousands of children across the country are recovering from an injury. Like you, their parents and other caring adults want to help them the best way possible. While it is important to tend to the wounds and rehabilitation, it is just as important to remember to look beyond the physical injuries.",
+            "paragraphOne": "Right now, hundreds of thousands of children across the country are recovering from an injury. Like you, their parents and other caring adults want to help them the best way possible. While it is important to tend to the wounds and rehabilitation, it is just as important to remember to look beyond the physical injuries.",
             "paragraphTwo": "With all the doctors, nurses, and therapists who will treat your child’s injury, remember that no one is more important than you for your child’s recovery. In making this application, we took the best information available from science and best practices to help you and your child recover after an injury."
         }
     }

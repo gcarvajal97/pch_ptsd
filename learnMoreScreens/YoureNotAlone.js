@@ -1,8 +1,8 @@
+import i18n from 'i18n-js';
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
 import translate from '../components/translateService';
-import i18n from 'i18n-js';
 
 class YoureNotAlone extends Component {
 
@@ -17,7 +17,7 @@ class YoureNotAlone extends Component {
                     {translate('youAreNotAlone.title')}
                 </Text>
                 <Video
-                    source={i18n.locale == 'en' ? require('../assets/videos/vidAlone.mp4') : require('../assets/videos/vidAloneEs.mp4')}
+                    source={i18n.locale.includes('en') ? require('../assets/videos/vidAlone.mp4') : require('../assets/videos/vidAloneEs.mp4')}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
