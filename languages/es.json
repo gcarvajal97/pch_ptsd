@@ -388,26 +388,7 @@
         "Ch6_t5_b2": "- Hacerle saber al médico dónde está ubicado el dolor, qué lo hace mejorar y qué lo empeora.",
         "Ch6_t5_b3": "- Llevar todos los medicamentos a todas las consultas.",
         "Ch6_t5_b4": "- Si va a otro especialista procure llevar todo el historial médico y las copias de las radiografías, y de los estudios de IRM o TAC.",
-        "Ch6_t5_b5": "- Si su hijo asiste a terapia pida al terapeuta que se trate el control del dolor.",      
-    },
-    "mainScreen": {
-        "pediatricPTSD": "Pediátrico TEPT",
-        "more": "más",
-        "learnButton": "APRENDE MÁS",
-        "learnTitle": "Aprenda Más Sobre Lesiones y Traumas",
-        "learnCaption": "Obtenga información actualizada y orientación experta para ayudarlo a usted y a su hijo lesionado.",
-        "learnAcessLabel": "Foto de un médico sosteniendo un estetoscopio con los brazos cruzados sobre el pecho.",
-        "learnAccessHint": "Navega a la pantalla para obtener más información.",
-        "quizButton": "RESPONDER AL CUESTIONARIO",
-        "quizTitle": "Califique las reacciones de su hijo",
-        "quizCaption": "Una lesión o accidente puede ser una experiencia aterradora o estresante. Haga una prueba rápida para medir el estrés traumático de su hijo.",
-        "quizAccessLabel": "Foto del niño cubriéndose los ojos con las manos",
-        "quizAccessHint": "Navega a la pantalla de prueba",
-        "findHelpButton": "ENCONTRAR AYUDA",
-        "findHelpTitle": "Ayude a su hijo a recuperarse",
-        "findHelpCaption": "Lidiar con las reacciones emocionales y cuidar las lesiones puede ser difícil. Encuentre maneras de ayudar a su hijo a recuperarse.",
-        "findHelpAccessLabel": "Foto del padre leyendo un libro a un bebé en su regazo.",
-        "findHelpAccessHint": "Navega para encontrar más ayuda"
+        "Ch6_t5_b5": "- Si su hijo asiste a terapia pida al terapeuta que se trate el control del dolor."     
     },
     "glossary": {
         "back": "Regreso",
@@ -734,6 +715,423 @@
                         "term": "Recordatorios del trauma",
                         "definition": "La gente, lugares, actividades u otras cosas que traen recuerdos de una experiencia traumática. Los recuerdos del traumatismo pueden hacer que la gente se sienta molesta, temerosa o se ponga 'en alerta'."
                     }
+                ]
+            }
+        ]
+    },
+    "listLearnMore": {
+        "header": "Aprende Más",
+        "notAlone": "No Estas Solo",
+        "notAloneHint": "Navega a la pantalla, no estás solo",
+        "reactions": "Reacciones a La Lesión",
+        "reactionsHint": "Navega a la pantalla de reacciones a lesiones",
+        "stressReactions": "¿Qué Son Las Reacciones de Estrés Traumático?",
+        "stressReactionsHint": "Navega a la pantalla de qué son las reacciones de estrés traumático",
+        "howLong": "¿Cuánto Duran Las Reacciones de Estrés Traumático?",
+        "howLongHint": "Navega a la pantalla de cuánto tiempo duran las reacciones de estrés traumático",
+        "whatToExpect": "QUÉ ESPERAR DESPUÉS DE LESIÓN"
+    },
+    "listFindHelp": {
+        "header":"Encontrar Ayuda",
+        "caption":"ENCUENTRE MANERAS DE AYUDAR A SU HIJO A RECUPERARSE",
+        "quickTips":"Consejos Rápidos",
+        "quickTipsHint":"Navega a la página de Consejos rápidos",
+        "howToTalk":"Cómo Hablar con tu Hijo",
+        "howToTalkHint":"Navega a Cómo hablar con su hijo",
+        "howToDeal":"Cómo Lidiar con Nuevos Temores y Preocupaciones",
+        "howToDealHint":"Navega a Cómo lidiar con nuevos miedos y preocupaciones",
+        "healthcareTeam":"Trabajando con el Equipo de Atención Médica de su Hijo",
+        "healthcareTeamHint":"Navega para trabajar con el equipo de atención médica de su hijo",
+        "injuryPain":"Lesiones y Cuidado del Dolor.",
+        "injuryPainHint":"Navega a Lesiones y Cuidado del Dolor",
+        "outsideHelp":"Cuándo Obtener Ayuda Externa",
+        "outsideHelpHint":"Navega a Cuándo obtener ayuda externa",
+        "selfCare":"Autocuidado",
+        "selfCareHint":"Navega hacia el autocuidado"
+    },
+    "mainScreen": {
+        "pediatricPTSD": "Pediátrico TEPT",
+        "more": "más",
+        "learnButton": "APRENDE MÁS",
+        "learnTitle": "Aprenda Más Sobre Lesiones y Traumas",
+        "learnCaption": "Obtenga información actualizada y orientación experta para ayudarlo a usted y a su hijo lesionado.",
+        "learnAcessLabel": "Foto de un médico sosteniendo un estetoscopio con los brazos cruzados sobre el pecho.",
+        "learnAccessHint": "Navega a la pantalla para obtener más información.",
+        "quizButton": "RESPONDER AL CUESTIONARIO",
+        "quizTitle": "Califique las reacciones de su hijo",
+        "quizCaption": "Una lesión o accidente puede ser una experiencia aterradora o estresante. Haga una prueba rápida para medir el estrés traumático de su hijo.",
+        "quizAccessLabel": "Foto del niño cubriéndose los ojos con las manos",
+        "quizAccessHint": "Navega a la pantalla de prueba",
+        "findHelpButton": "ENCONTRAR AYUDA",
+        "findHelpTitle": "Ayude a su hijo a recuperarse",
+        "findHelpCaption": "Lidiar con las reacciones emocionales y cuidar las lesiones puede ser difícil. Encuentre maneras de ayudar a su hijo a recuperarse.",
+        "findHelpAccessLabel": "Foto del padre leyendo un libro a un bebé en su regazo.",
+        "findHelpAccessHint": "Navega para encontrar más ayuda"
+    },
+    "quizMain": {
+        "header": "Haz la Prueba",
+        "op1": "Siempre",
+        "op2": "Aveces",
+        "op3": "Nunca",
+        "headerTitle": "Examen",
+        "accessibilityLabelCont": "Prueba para calificar el nivel de estrés traumático del niño",
+        "accessibilityLabelPic": "Imagen del niño reaccionando al estrés",
+        "title": "Evale las Reacciones de su Hijo.",
+        "description": "Puede evaluar las reacciones por su cuenta (en base a lo que usted haya notado en su hijo). O mejor aún, haga que su hijo participe en la evaluación de sus reacciones o síntomas del trauma con usted.",
+        "qt1": "Reviviscencia: Vuelve a experimentar lo sucedido",
+        "q1": "1. Piensa mucho sobre lo que le sucedió",
+        "q2": "2. Tiene pesadillas desde la lesión",
+        "q3": "3. Se angustia o tiene reacciones físicas (dolor de cabeza, palpitaciones) cuando recuerda lo sucedido",
+        "qt2": "Evitación: Permanece alejado de cosas que le recuerdan lo sucedido",
+        "q4": "4. No quiere hablar de lo sucedido o intenta sacarlo de su mente",
+        "q5": "5. Desea mantenerse alejado de la gente, lugares o cosas que le recuerdan lo sucedido",
+        "q6": "6. Tiene miedo de algo a lo que no le temía antes (o un miedo o preocupación previa parecen empeorar)",
+        "q7": "7. No está interesado en sus actividades habituales desde la lesión",
+        "q8": "8. No está interesado en estar con gente que normalmente le agrada, desde la lesión",
+        "qt3": "Híper Excitación: Sentimientos de ansiedad o nerviosismo",
+        "q9": "9. Se preocupa mucho de que algo malo sucederá",
+        "q10": "10. Se asusta con facilidad, por ejemplo, salta si hay un ruido súbito",
+        "q11": "11. Parece irritable o tiene ataques de ira, desde la lesión",
+        "q12": "12. Tiene problemas para enfocar la atención, desde la lesión",
+        "q13": "13. Tiene dificultad para dormir o permanecer dormido, desde la lesión",
+        "qt4": "Otras inquietudes",
+        "q14": "14. Aún siente dolor o incomodidad",
+        "q15": "15. Ha tenido cambios de comportamiento desde la lesión",
+        "q16": "16. Se le dificulta regresar a la escuela o a otras actividades",
+        "qt5": "Inquietudes sobre cómo otros en la familia están afrontando lo sucedido",
+        "q17": "17. Sus hermanos están angustiados o molestos",
+        "q18": "18. Usted (padre) está estresado o preocupado",
+        "note": "Nota:",
+        "disclaimer1": "Esta no es una evaluación o diagnóstico médico o psicológico formal. Si le preocupa cómo le va a usted o a su hijo, comuníquese con su médico, profesional de la salud mental u otro proveedor de atención médica. \n",
+        "toHealthProf": "A los profesionales de la salud:",
+        "disclaimer2": "Utilice estas calificaciones como base para conversar para obtener más información sobre la respuesta de su paciente a una lesión reciente.",
+        "accessibilityLabelSub": "Haga clic aquí para enviar sus resultados."
+    },
+    "quizResults": {
+        "noAnswers": "¡Uy! Parece que olvidaste seleccionar cualquier respuesta.",
+        "whyHappens": "Por qué sucede: ",
+        "isProblem": "¿Es esto un problema?: ",
+        "q1title": "Usted (padre) se estresa o preocupa a sí mismo",
+        "q1body1": "Cuando su hijo sufre una lesión, hay muchas cosas a las que usted, como padre, tiene que hacer frente. Es normal que los padres sientan estrés y se preocupen por el futuro. Muchos padres también sufren algunas reacciones de estrés traumático durante las primeras semanas. Si no mejoran en aproximadamente un mes, puede ser síntoma de un problema que requiera atención.",
+        "q1body2": "Han durado más de un mes estos sentimientos? ¿La preocupación por su hijo le impide concentrarse, dormir lo suficiente o volver al trabajo u otras actividades?",
+        "q2title": "Los hermanos están angustiados o preocupados",
+        "q2body1": "La lesión puede afectar a toda la familia. Cuando un niño se sufre una lesión o está en el hospital, los hermanos puede estar preocupados.",
+        "q2body2": "Puede notar que sus otros hijos no le prestan atención o que están angustiados o preocupados.",
+        "q3title": "Le preocupa mucho que algo malo pueda ocurrir",
+        "q3body1": "Es normal estar en estado de alerta después de que sucedió algo que da miedo. Esta es la forma en que aprendemos a mantenernos a salvo de las cosas que son realmente peligrosas.",
+        "q3body2": "¿Son muy fuertes los sentimientos de estar en guardia ante un peligro potencial? ¿Se siente su hijo así durante mucho tiempo? ¿Está haciendo que sea más difícil volver a hacer las cosas que solía hacer?",
+        "q4title": "Se sobresalta fácilmente, por ejemplo, salta si hay un ruido repentino",
+        "q4body1": "Una experiencia aterradora puede desencadenar una respuesta exagerada de sobresalto físico que puede tardar algún tiempo en desaparecer.",
+        "q4body2": "¿Se siente su hijo tan nervioso que le resulta muy difícil relajarse? ¿Está afectando el sueño o su capacidad de concentración?",
+        "q5title": "Irritable o tiene ataques de ira, desde la lesión",
+        "q5body1": "El estrés y los cambios pueden provocar frustraciones para los niños que han sufrido lesiones. Sentirse nervioso todo el tiempo, estar cansado o sufrir dolor puede hacer que cualquier persona se enfade fácilmente. Algunas lesiones en la cabeza pueden provocar cambios en la capacidad para controlar las emociones o el comportamiento (asegúrese de preguntar al médico de su hijo lo que puede esperar).",
+        "q5body2": "¿La irritabilidad hace que a su hijo le sea difícil relacionarse con la familia o los amigos? ¿Hay gran cambio en la personalidad habitual de su hijo?",
+        "q6title": "Tiene dificultad para poner atención a las cosas, desde la lesión",
+        "q6body1": "A veces puede ser difícil prestar atención cuando estamos bajo mucho estrés, nos sentimos muy nerviosos o estamos en guardia, o nos viene a la mente lo que sucedió. Algunas lesiones en la cabeza pueden provocar problemas de concentración (asegúrese de preguntar al médico de su hijo qué puede esperar).",
+        "q6body2": "¿Le resulta difícil a su hijo concentrarse en las tareas escolares o tiene problemas para participar en otras actividades o deportes?",
+        "q7title": "Tiene problemas para dormir",
+        "q7body1": "Algunos problemas de sueño tras una lesión son una reacción temporal a las interrupciones en el horario y las rutinas de su hijo. Pero los problemas de sueño pueden empeorar por el dolor de la lesión, o por las preocupaciones y pensamientos que hacen que le sea difícil relajarse.",
+        "q7body2": "¿Tiene problemas su hijo muchas noches para conciliar el sueño o para permanecer dormido? ¿Su hijo tiene miedo de dormir solo?",
+        "q8title": "Quiere alejarse de las personas, lugares o cosas que le recuerdan lo sucedido",
+        "q8body1": "Después de que ocurre algo aterrador, los recordatorios de lo que pasó nos pueden hacer sentir muy ansiosos y es posible que empecemos a evitar esas cosas.",
+        "q8body2": "Evitar los recordatorios, ¿provoca que su hijo no haga cosas (seguras) que de otro modo sería capaz de hacer, o que no disfrute de las actividades, incluso si consigue hacerlas?",
+        "q9title": "No está interesado en las actividades habituales, desde la lesión",
+        "q9body1": "Una manera de enfrentar las experiencias de miedo abrumador es cerrar nuestras emociones durante un tiempo. Los niños pueden sentirse un poco más deprimidos o estresados cuando tienen que manejar una gran cantidad de cambios después de una lesión.",
+        "q9body2": "¿Parece que su hijo ha dejado de disfrutar de una gran cantidad de las cosas que le solían gustar? ¿Parecen tristes o reservados o como si sus sentimientos estuvieran cerrados la mayor parte del tiempo?",
+        "q10title": "No está interesado en estar con la gente que normalmente le gusta",
+        "q10body1": "Una manera de enfrentar las experiencias de miedo abrumador es cerrar nuestras emociones y no sentirnos cercanos a otras personas durante un tiempo. A veces otras personas hacen que recordemos lo que pasó o cómo han cambiado las cosas.",
+        "q10body2": "¿Parece que a su hijo le resulta muy difícil sentirse relajado y cercano a los amigos y a la familia en la que generalmente confía y con la que lo pasa bien?",
+        "q11title": "No quiere hablar de lo sucedido o trata de hacerlo desaparecer de su mente",
+        "q11body1": "Todo el mundo necesita a veces dejar de pensar o hablar de una experiencia aterradora. (Y puede haber momentos en los que usted esté listo para hablar pero su hijo no.)",
+        "q11body2": "¿Parece que su hijo nunca quiera pensar o hablar de ello con nadie, o hablar de ello hace que se enfade mucho?",
+        "q12title": "Miedo de algo a lo que no le tenía miedo antes (o un anterior temor o preocupación que parece empeorar)",
+        "q12body1": "Después de que ocurra algo que da miedo, podemos tener miedo de las cosas que nos recuerdan lo sucedido.",
+        "q12body2": "¿Están provocando los miedos que su hijo no haga cosas (seguras) que de otro modo sería capaz de hacer o que no disfrute de las actividades, incluso si consigue hacerlas?",
+        "q13title": "Dificultad para volver a la escuela o a otras actividades",
+        "q13body1": "Al regresar a la escuela pueden necesitar adaptaciones físicas (tales como moverse con muletas). El estrés y la preocupación a veces pueden hacer que sea más difícil concentrarse en las tareas escolares. Después de una lesión, puede haber cambios (al menos durante un tiempo) en la capacidad de sus hijos de participar en deportes y otras actividades que les gustan.",
+        "q13body2": "¿Está preocupado por cómo van a ir las cosas cuando su hijo regrese a la escuela? ¿Tiene problemas su hijo para estar al día las tareas escolares? ¿Está muy angustiado su hijo por no poder hacer deporte u otras actividades a causa de la lesión?",
+        "q14title": "Dolor o malestar que no mejoran",
+        "q14body1": "La mayoría de niños que han sufrido lesiones sienten dolor, al menos al principio. El dolor no siempre puede controlarse por completo pero los médicos hacen todo lo posible para tenerlo bajo control lo antes posible.",
+        "q14body2": "Su hijo puede decirle que sufre dolor o es posible que vea los efectos del dolor en su comportamiento. El dolor puede hacer más difícil dormir y concentrarse. Puede ser necesario un seguimiento si el dolor de su hijo empeora o si hace que no duerma bien por las noches o interfiere para que preste atención en la escuela.",
+        "q15title": "Cambios en el comportamiento normal de su hijo",
+        "q15body1": "Muchas veces los cambios de comportamiento son reacciones temporales al estrés relacionado con la lesión y giro brusco en la vida cotidiana, al menos durante un tiempo. Las frustraciones o preocupaciones pueden conducir a comportamientos de enojo o apego. Algunas lesiones en la cabeza también pueden provocar cambios en el comportamiento (asegúrese de preguntar al médico de su hijo acerca de lo que puede esperar).",
+        "q15body2": "¿Provocan los cambios de comportamiento que su hijo tenga problemas para relacionarse con la gente o para volver a sus actividades normales? ¿Han durado estos cambios más de una semana?",
+        "q16title": "Piensa mucho sobre lo que le pasó",
+        "q16body1": "Pensar y hablar sobre lo que pasó, sobre todo en los primeros días y semanas, es parte de la forma en la que nos ayudamos a nosotros mismos a recuperarnos de una experiencia aterradora.",
+        "q16body2": "¿Le vienen a la mente pensamientos sobre eso incluso cuando no quiere? ¿Le molesta?",
+        "q17title": "Tiene pesadillas o malos sueños",
+        "q17body1": "Es normal que los niños tengan pesadillas de vez en cuando.",
+        "q17body2": "¿Son peores o más frecuente las pesadillas desde la lesión? ¿Están interfiriendo con conseguir dormir bien?",
+        "q18title": "Se angustia o tiene síntomas físicos (dolor de cabeza, dolor de estómago, palpitaciones) cuando recuerda lo que pasó",
+        "q18body1": "Cuando algo aterrador sucede, aprendemos a considerar las cosas conectadas a eso como si fueran señales de peligro. Imágenes, sonidos e incluso olores pueden ser recordatorios.",
+        "q18body2": "¿Ocurren estos sentimientos casi todos los días? ¿Hacen que a su hijo le sea difícil relajarse y divertirse o concentrarse en una tarea escolar?"
+    },
+    "resources": {
+        "back": "Regreso",
+        "resources": "Recursos",
+        "description": "Encuentre recursos adicionales para ayudarlo a usted y a su hijo.",
+        "accessibilityHint": "Una foto de una pirámide en capas.",
+        "accordion": [
+            {
+                "name": "Estrés traumático y TEPT",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Sociedad Internacional de Estudios de Estrés Traumático",
+                            "url": "http://www.istss.org/",
+                            "accessibilityHint": "Navega a la página de inicio de Sociedad Internacional de Estudios de Estrés Traumático",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Sociedad Internacional de Estudios de Estrés Traumático"
+                        },
+                        "contentText": "Una organización profesional que promueve los avances y el intercambio de conocimientos sobre estrés severo y traumas. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Biblioteca Nacional de Medicina de Estados Unidos",
+                            "url": "http://www.nlm.nih.gov/medlineplus/spanish/",
+                            "accessibilityHint": "Navega a la página de inicio de Biblioteca Nacional de Medicina de Estados Unidos",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Biblioteca Nacional de Medicina de Estados Unidos"
+                        },
+                        "contentText": "Más de 4.000 artículos sobre enfermedades, estudios, síntomas y lesiones recopilados por la Biblioteca Nacional de Medicina y los Institutos Nacionales de Salud de Estados Unidos."
+                    },
+                    {
+                        "link": {
+                            "text": "Centro Nacional de TEPT",
+                            "url": "http://www.ptsd.va.gov/public/spanish/index.asp",
+                            "accessibilityHint": "Navega a la página de inicio de Centro Nacional de TEPT",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Centro Nacional de TEPT"
+                        },
+                        "contentText": "Desarrollado en principio para atender las necesidades de los veteranos de guerra, esta organización también cuenta con recursos para atender una amplia gama de eventos traumáticos que afectan a niños y adolescentes."
+                    },
+                    {
+                        "link": {
+                            "text": "Red Nacional para el Estrés Traumático Infantil",
+                            "url": "http://www.nctsn.org/resources/audiences/Informaci%C3%B3n-en-Espa%C3%B1ol",
+                            "accessibilityHint": "Navega a la página de inicio de Red Nacional para el Estrés Traumático Infantil",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Red Nacional para el Estrés Traumático Infantil"
+                        },
+                        "contentText": "Una red de centros académicos y comunitarios, que brinda educación y servicios para niños y familias, que han experimentado eventos traumáticos."
+                    },
+                    {
+                        "link": {
+                            "text": "Institutos Nacionales de Salud Mental",
+                            "url": "http://www.nctsn.org/resources/audiences/Informaci%C3%B3n-en-Espa%C3%B1ol",
+                            "accessibilityHint": "Navega a la página de inicio de Institutos Nacionales de Salud Mental",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Institutos Nacionales de Salud Mental"
+                        },
+                        "contentText": "Información que explica qué es el trastorno por estrés postraumático, cuándo comienza, cuánto dura, y cómo conseguir ayuda. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Estrés traumático y trastorno de estrés postraumático",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Recursos sobre desastres de la Asociación Psicológica Estadounidense",
+                            "url": "http://www.apa.org/centrodeapoyo/",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre desastres de la Asociación Psicológica Estadounidense",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre desastres de la Asociación Psicológica Estadounidense"
+                        },
+                        "contentText": "Consejos para recuperarse de un desastre natural."
+                    },
+                    {
+                        "link": {
+                            "text": "Portal de Información de Bienestar Infantil",
+                            "url": "http://www.childwelfare.gov/can/index.cfm",
+                            "accessibilityHint": "Navega a la página de inicio de Portal de Información de Bienestar Infantil",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Portal de Información de Bienestar Infantil"
+                        },
+                        "contentText": "Recursos sobre una amplia gama de temas de maltrato infantil. (en inglés)"
+                    },
+
+                    {
+                        "link": {
+                            "text": "Recursos sobre desastres de los Centros de Control y Prevención de Enfermedades",
+                            "url": "http://www.bt.cdc.gov/mentalhealth",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre desastres de los Centros de Control y Prevención de Enfermedades",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre desastres de los Centros de Control y Prevención de Enfermedades"
+                        },
+                        "contentText": "Información para padres, niños y profesionales para afrontar un desastre. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Recursos sobre desastres de la Red Nacional para el Estrés Traumático Infantil",
+                            "url": "http://www.nctsn.org/nccts/nav.do?pid=typ_nd",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre desastres de la Red Nacional para el Estrés Traumático Infantil",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre desastres de la Red Nacional para el Estrés Traumático Infantil"
+                        },
+                        "contentText": "Herramientas para afrontar tipos específicos de desastres naturales para familias, escuelas y profesionales de la salud. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Lotsa Helping Hands",
+                            "url": "http://www.lotsahelpinghands.com/",
+                            "accessibilityHint": "Navega a la página de inicio de Lotsa Helping Hands",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Lotsa Helping Hands"
+                        },
+                        "contentText": "Lotsa Helping Hands es una forma inmediata y sencilla que tienen amigos, familiares, compañeros y vecinos de ayudar a seres queridos que lo necesitan. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Military OneSource",
+                            "url": "http://www.militaryonesource.com/MOS/MilitaryFamiliesGateway.aspx",
+                            "accessibilityHint": "Navega a la página de inicio de Military OneSource",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Military OneSource"
+                        },
+                        "contentText": "Recursos para familias de militares, incluyendo maneras de ayudar a los niños a prepararse y afrontar el destino de los padres. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Línea de Acceso Directo Nacional de Violencia Doméstica",
+                            "url": "http://www.thehotline.org/",
+                            "accessibilityHint": "Navega a la página de inicio de Línea de Acceso Directo Nacional de Violencia Doméstica",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Línea de Acceso Directo Nacional de Violencia Doméstica"
+                        },
+                        "contentText": "Información sobre una línea de acceso directo anónima las 24 horas que proporciona apoyo y asistencia a víctimas de violencia doméstica. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Recursos sobre duelo traumático de la Red Nacional para el Estrés Traumático Infantil",
+                            "url": "http://www.nctsn.org/nccts/nav.do?pid=typ_tg",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre duelo traumático de la Red Nacional para el Estrés Traumático Infantil",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre duelo traumático de la Red Nacional para el Estrés Traumático Infantil"
+                        },
+                        "contentText": "Materiales educativos para padres y profesionales sobre duelo traumático en la infancia. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Recursos sobre violencia y desastres del Instituto Nacional de Salud Mental",
+                            "url": "http://www.nimh.nih.gov/health/topics/child-and-adolescent-mental-health/",
+                            "accessibilityHint": "Navega a la página de inicio de Recursos sobre violencia y desastres del Instituto Nacional de Salud Mental",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Recursos sobre violencia y desastres del Instituto Nacional de Salud Mental"
+                        },
+                        "contentText": "Información sobre el impacto de la violencia y los desastres en niños y adolescentes, con sugerencias para minimizar el daño emocional a largo plazo. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": " La preocupación o el estrés en niños y adolescentes",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Academia Americana de Pediatría - Niños, Adolescentes y Capacidad de Adaptación",
+                            "url": "http://www.aap.org/stress/",
+                            "accessibilityHint": "Navega a la página de inicio de Academia Americana de Pediatría - Niños, Adolescentes y Capacidad de Adaptación",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Academia Americana de Pediatría - Niños, Adolescentes y Capacidad de Adaptación"
+                        },
+                        "contentText": "Información para ayudar a adolescentes y sus familias a superar las presiones de la vida diaria. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Worry Wise Kids",
+                            "url": "http://www.worrywisekids.org/",
+                            "accessibilityHint": "Navega a la página de inicio de Worry Wise Kids",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Worry Wise Kids"
+                        },
+                        "contentText": "Información para ayudar a niños con preocupaciones o miedos excesivos. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Problemas para conciliar el sueño",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Asociación Nacional de Psicólogos Escolares",
+                            "url": "http://www.nasponline.org/resources/health_wellness/sleepdisorders_ho.aspx",
+                            "accessibilityHint": "Navega a la página de inicio de Asociación Nacional de Psicólogos Escolares",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Asociación Nacional de Psicólogos Escolares"
+                        },
+                        "contentText": "Información para padres y educadores sobre el sueño y trastornos del sueño en niños y adolescentes. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Fundación Nacional del Sueño--Niños)",
+                            "url": "http://www.nasponline.org/resources/health_wellness/sleepdisorders_ho.aspx",
+                            "accessibilityHint": "Navega a la página de inicio de Fundación Nacional del Sueño--Niños)",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Fundación Nacional del Sueño--Niños)"
+                        },
+                        "contentText": "Web sobre el sueño pensada para niños. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "Fundación Nacional del Sueño-- Adolescentes",
+                            "url": "http://www.sleepfoundation.org/article/sleep-topics/teens-and-sleep",
+                            "accessibilityHint": "Navega a la página de inicio de Fundación Nacional del Sueño-- Adolescentes",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Fundación Nacional del Sueño-- Adolescentes"
+                        },
+                        "contentText": "Temas diversos sobre sueño relacionados específicamente con adolescentes. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Prevención de las lesiones",
+                "content": [
+                    {
+                        "link": {
+                            "text": "http://www.cdc.gov/injury/",
+                            "url": "http://www.cdc.gov/injury/",
+                            "accessibilityHint": "Navega a la página de inicio de CDC",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de CDC"
+                        },
+                        "contentText": "Desde El Centro de Investigación y Prevención de Lesiones del Hospital Pediátrico de Filadelfia"
+                    },
+                    {
+                        "link": {
+                            "text": "http://www.cpsc.gov/es/SeguridadConsumidor/",
+                            "url": "http://www.cpsc.gov/es/SeguridadConsumidor/",
+                            "accessibilityHint": "Navega a la página de inicio de Comisión de Seguridad del Consumidor",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Comisión de Seguridad del Consumidor"
+                        },
+                        "contentText": "Información sobre retiradas de productos y seguridad de vehículos. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "http://www.nhtsa.dot.gov/",
+                            "url": "http://www.nhtsa.dot.gov/",
+                            "accessibilityHint": "Navega a la página de inicio de Administración Nacional de Seguridad Vial",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Administración Nacional de Seguridad Vial"
+                        },
+                        "contentText": "Desde El Centro de Investigación y Prevención de Lesiones del Hospital Pediátrico de Filadelfia. (en inglés)"
+                    },
+                    {
+                        "link": {
+                            "text": "http://www.TeenDriverSource.org",
+                            "url": "http://www.TeenDriverSource.org",
+                            "accessibilityHint": "Navega a la página de inicio de TeenDriverSource",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de TeenDriverSource"
+                        },
+                        "contentText": "Desde El Centro de Investigación y Prevención de Lesiones del Hospital Pediátrico de Filadelfia. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Libros para padres",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Una guía para padres para aumentar la capacidad de recuperación en niños y adolescentes: Cómo darle a su hijo raíces y alas",
+                            "url": "https://www.amazon.com/Parents-Guide-Building-Resilience-Children/dp/1581102267/ref=sr_1_1?keywords=A+Parent%E2%80%99s+Guide+to+Building+Resilience+in+Children+and+Teens%3A+Giving+Your+Child+Roots+and+Wings&qid=1580607839&sr=8-1",
+                            "accessibilityHint": "Navega a la página de Amazon",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Amazon"
+                        },
+                        "contentText": "Los niños de hoy se enfrentan a una gran cantidad de estrés: rendimiento académico, programación pesada, altos estándares de rendimiento, mensajes en los medios, presiones de los compañeros, tensión familiar. Sin soluciones más saludables, a menudo se las arreglan para responder, darse por vencidos o caer en conductas poco saludables. Muéstrele a su hijo cómo recuperarse, y PROBAR, con estrategias de afrontamiento de uno de los expertos más importantes del país en medicina para adolescentes. (en inglés)"
+                    }
+                ]
+            },
+            {
+                "name": "Libros para niños",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Como superar los miedos y las preocupaciones/How to overcome fears and worries: Una guia para niños ",
+                            "url": "https://www.amazon.com/superar-miedos-preocupaciones-overcome-worries/dp/8497541251/ref=sr_1_1?keywords=Como+superar+los+miedos+y+las+preocupaciones%2FHow+to+overcome+fears+and+worries%3A+Una+guia+para+ni%C3%B1os&qid=1580608176&sr=8-1",
+                            "accessibilityHint": "Navega a la página de Amazon",
+                            "accessibilityLabel": "Haga clic aquí para visitar la página de inicio de Amazon"
+                        },
+                        "contentText": "Analiza las causas de los temores y preocupaciones comunes, sugiere formas de lidiar con ellos y proporciona información sobre afecciones como fobias, ansiedad y trastorno de estrés postraumático."
+                    }
+
                 ]
             }
         ]
