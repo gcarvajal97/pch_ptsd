@@ -8,13 +8,13 @@ class YoureNotAlone extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: translate('youAreNotAloneScreen.header')
+        headerTitle: translate('youAreNotAlone.header')
     }
     render() {
         return (
             <View style={styles.container}>
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
-                    {translate('youAreNotAloneScreen.title')}
+                    {translate('youAreNotAlone.title')}
                 </Text>
                 <Video
                     source={i18n.locale == 'en' ? require('../assets/videos/vidAlone.mp4') : require('../assets/videos/vidAloneEs.mp4')}
@@ -25,22 +25,22 @@ class YoureNotAlone extends Component {
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
                     accessible
-                    accessibilityLabel={translate('youAreNotAloneScreen.content.videoCard.accessibility')}
-                    accessibilityHint={translate('youAreNotAloneScreen.content.videoCard.accessibility')}
+                    accessibilityLabel={translate('youAreNotAlone.content.videoCard.accessibility')}
+                    accessibilityHint={translate('youAreNotAlone.content.videoCard.accessibility')}
                 />
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                    <Text style={{ fontWeight: 'bold' }}>{translate('youAreNotAloneScreen.content.videoCard.boldText')}</Text> 
-                    {translate('youAreNotAloneScreen.content.videoCard.subtitle')}
+                    <Text style={{ fontWeight: 'bold' }}>{translate('youAreNotAlone.content.videoCard.boldText')}</Text> 
+                    {translate('youAreNotAlone.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
                 <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:4, marginBottom:3, color:'#2089DC'}}>
-                    {translate('youAreNotAloneScreen.content.statsBullets.intro')}
+                    {translate('youAreNotAlone.content.statsBullets.intro')}
                     </Text>
-                <Text style={styles.bullet}>{translate('youAreNotAloneScreen.content.statsBullets.bulletOne')}</Text>
-                <Text style={styles.bullet}>{translate('youAreNotAloneScreen.content.statsBullets.bulletTwo')}</Text>
-                <Text style={styles.bullet}>{translate('youAreNotAloneScreen.content.statsBullets.bulletThree')}</Text>
-                <Text style={styles.paragraph}>{translate('youAreNotAloneScreen.content.paragraphOne')}</Text>
-                <Text style={styles.paragraph}>{translate('youAreNotAloneScreen.content.paragraphTwo')}</Text>        
+                <Text style={styles.bullet}>{translate('youAreNotAlone.content.statsBullets.bulletOne')}</Text>
+                <Text style={styles.bullet}>{translate('youAreNotAlone.content.statsBullets.bulletTwo')}</Text>
+                <Text style={styles.bullet}>{translate('youAreNotAlone.content.statsBullets.bulletThree')}</Text>
+                <Text style={styles.paragraph}>{translate('youAreNotAlone.content.paragraphOne')}</Text>
+                <Text style={styles.paragraph}>{translate('youAreNotAlone.content.paragraphTwo')}</Text>        
                 </ScrollView>
             </View>
         );

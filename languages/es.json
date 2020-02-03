@@ -37,118 +37,6 @@
         "resources": "Recursos",
         "glossary": "Glosario"
     },
-<<<<<<< HEAD
-    "howToTalk": {
-        "header": "Encontrar ayuda",
-        "video_title": "Cómo hablar con su hijo",
-        "accessibilityLabel": "Video sobre cómo hablar con su hijo.",
-        "accessabilityHint": "Video sobre cómo hablar con su hijo.",
-        "video_subtitle_1": "No siempre es fácil saber cómo hablar con su hijo.",
-        "video_subtitle_2": "Aquí hay algunos consejos para ayudar.",
-        "subtitle": "Después de que ocurre algo que da miedo, como una lesión, no siempre es fácil saber cómo hablar con su hijo acerca de lo sucedido y cuál es la mejor manera de ayudar.",
-        "title_1": "Aquí hay algunas cosas que le ayudarán a la hora de hablar sobre el trauma con su hijo:",
-        "tip_11": "1. Esté disponible para escuchar.",
-        "tip_12": "2. Proporcione oportunidades para hablar.",
-        "subtip_12_a": "- Busque oportunidades para escuchar qué tal está su hijo.",
-        "subtip_12_b": "- Elija un momento y un lugar en que ambos se sientan cómodos, piense cuándo y dónde tiende a hablar más abiertamente su hijo.",
-        "tip_13": "3. Haga a su hijo preguntas directas. '¿Qué tal llevas todo esto?'",
-        "tip_14": "4. Escuche atentamente lo que su hijo tiene para decirle.",
-        "subtip_14_a": "- Espere hasta que su hijo termine antes de intervenir.",
-        "subtip_14_b": "- Repita lo que escuchó con sus propias palabras para asegurarse de haber entendido.",
-        "subtip_14_c": "- Trate de esperar para dar consejos hasta que tenga una buena comprensión de lo que está atravesando su hijo. ¿Qué ha sido más perturbador para él? ¿Cómo se siente él ahora?",
-        "title_2": "'¿Qué le digo?",
-        "tip_21": "1. El solo hecho de escuchar ayuda.",
-        "subtip_21": "- Puede darle a su hijo la oportunidad de entender sus pensamientos y sentimientos diciéndoselos en voz alta.",
-        "tip_22": "2. Responda a las preguntas de su hijo lo más honestamente que pueda.",
-        "subtip_22": "- Tenga en cuenta su edad y lo que es capaz de entender.",
-        "tip_23": "3. Ayude a su hijo a encontrar palabras para los sentimientos fuertes.",
-        "subtip_23": "- Describir y entender sus reacciones es un primer paso para hacerles frente.",
-        "tip_24": "4. Comparta sus propias experiencias dentro de ciertos límites.",
-        "subtip_24_a": "- Sea un modelo para el uso de buenas habilidades para enfrentar situaciones.",
-        "subtip_24_b": "- Recuerde no sobrecargar a su hijo con sus propias preocupaciones. Acuda a otros adultos de confianza si necesita que alguien lo escuche a usted.",
-        "title_3": "¿Qué pasa si mi hijo no quiere hablar?",
-        "tip_31": "1. Tenga paciencia. Puede que su hijo no esté preparado para hablar al mismo tiempo que usted.",
-        "tip_32": "2. No fuerce el tema. No intente forzar a su hijo para que hable. A algunas personas primero les gusta pensar las cosas durante un tiempo.",
-        "tip_33": "3. Fomente otros modos de expresar pensamientos y sentimientos. Su hijo puede hacer un dibujo, escribir una historia o llevar un diario.",
-        "tip_34": "4. Ayude a su hijo a mantenerse conectado con amigos y adultos en los que ambos confíen, para que sepa que tiene personas con las que hablar cuando esté listo.",
-        "tip_35": "5. Algunas reacciones no se dicen con palabras.",
-        "subtip_35_a": "- Incluso sin palabras, puede tratar de ser consciente de las reacciones de su hijo.",
-        "subtip_35_b": "- Piense en cómo puede saber normalmente cómo se siente su hijo: es posible que vea cambios en el comportamiento, las expresiones faciales o el lenguaje corporal.",
-        "title_4": "Cosas a recordar:",
-        "tip_41": "1. Distintas personas tienen reacciones diferentes.",
-        "subtip_41": "- Al pensar en cómo ayudar a su hijo, trate de separar lo que usted siente de lo que su hijo está experimentando y lo que necesita.",
-        "tip_42": "2. Asegúrese de que sus propios sentimientos no se entrometan.",
-        "subtip_42": "- Si hablar con su hijo es perturbador para usted, haga lo posible por mantener la calma y estar tranquilo durante la conversación y asegúrese de que alguien lo apoye a usted."
-    },
-    "mainScreen": {
-        "pediatricPTSD": "Pediátrico TEPT",
-        "more": "más",
-        "learnButton": "APRENDE MÁS",
-        "learnTitle": "Aprenda Más Sobre Lesiones y Traumas",
-        "learnCaption": "Obtenga información actualizada y orientación experta para ayudarlo a usted y a su hijo lesionado.",
-        "learnAcessLabel": "Foto de un médico sosteniendo un estetoscopio con los brazos cruzados sobre el pecho.",
-        "learnAccessHint": "Navega a la pantalla para obtener más información.",
-        "quizButton": "RESPONDER AL CUESTIONARIO",
-        "quizTitle": "Califique las reacciones de su hijo",
-        "quizCaption": "Una lesión o accidente puede ser una experiencia aterradora o estresante. Haga una prueba rápida para medir el estrés traumático de su hijo.",
-        "quizAccessLabel": "Foto del niño cubriéndose los ojos con las manos",
-        "quizAccessHint": "Navega a la pantalla de prueba",
-        "findHelpButton": "ENCONTRAR AYUDA",
-        "findHelpTitle": "Ayude a su hijo a recuperarse",
-        "findHelpCaption": "Lidiar con las reacciones emocionales y cuidar las lesiones puede ser difícil. Encuentre maneras de ayudar a su hijo a recuperarse.",
-        "findHelpAccessLabel": "Foto del padre leyendo un libro a un bebé en su regazo.",
-        "findHelpAccessHint": "Navega para encontrar más ayuda"
-    },
-    "learnMoreList": {
-        "header": "Aprende Más",
-        "title": "QUE ESPERAR DESPUÉS DE LESIÓN",
-        "listNames": [
-            { 
-                "name": "No Está Solo", 
-                "navigateTo": "NotAlone",  
-                "accessibilityHint": "Navega a la pantalla: No Estás Solo"
-            },
-            { 
-                "name": "Reacciones a Lesiones", 
-                "navigateTo": "Reactions", 
-                "accessibilityHint": "Navega a la pantalla: Reacciones a Lesiones"
-            },
-            { 
-                "name": "¿Qué Son Las Reacciones de Estrés Traumático?", 
-                "navigateTo": "TraumaticStressReactions", 
-                "accessibilityHint": "Navega a la pantalla: ¿Qué Son Las Reacciones de Estrés Traumático?"
-            },
-            { 
-                "name": "¿Cuánto Tiempo Duran Las Reacciones de Estrés Traumático?", 
-                "navigateTo": "HowLong", 
-                "accessibilityHint": "Navega a la pantalla: ¿Cuánto Tiempo Duran Las Reacciones de Estrés Traumático?"
-            }
-        ]
-    },
-    "youAreNotAloneScreen": {
-        "header": "Aprende Más",
-        "title": "No Está Solo",
-        "content": {
-            "videoCard": {
-                "accessibility": "Video sobre cómo las lesiones son comunes",
-                "boldText": "Su hijo no está solo.",
-                "subtitle": " Cada año, milliones de niños en los Estados Unidos resultan heridos."
-            },
-            "statsBullets": {
-                "intro": "Cada año en EE. UU., las estadísticas de lesiones infantiles muestran que:",
-                "bulletOne": "1 de cada 4 niños y adolescentes requiere atención médica por una lesión",
-                "bulletTwo": "7 millones de niños heridos son tratados en salas de emergencias.",
-                "bulletThree": "Cientos de miles de niños heridos son hospitalizados."
-            },
-            "paragraphOne": "En este momento, cientos de miles de niños de todo el país se están recuperando de una lesión. Al igual que usted, sus padres y otros adultos quieren ayudarlos de la mejor manera posible. Si bien es importante atender las heridas y ocuparse de la rehabilitación, es igual de importante recordar que hay que mirar más allá de las lesiones físicas.",
-            "paragraphTwo": "Aunque haya muchos médicos, enfermeras y terapeutas que traten la lesión de su hijo, recuerde que nadie es más importante que usted para la recuperación de su hijo. En este sitio web tomamos lo mejor de la ciencia y la práctica para ayudarle a ayudar a su hijo después de una lesión."
-        }
-    },
-    "howLongScreen":{
-
-    },
-=======
->>>>>>> cee48697c2d1bf7f32974783e959c3b9b9bf51f6
     "glossary": {
         "back": "Regreso",
         "glossary": "Glosario",
@@ -558,6 +446,9 @@
         "Ch3_t3_b1": "- Trabajador social",
         "Ch3_t3_b2": "- Capellán",
         "Ch3_t3_b3": "- O un profesional de la salud mental, como un psicólogo o psiquiatra. Vuelva a visitar este sitio web para recibir más información acerca de las formas en que los padres pueden ayudar a sus hijos."
+    },
+    "howLong": {
+
     },
     "howToTalk": {
         "header": "Encontrar ayuda",
@@ -1247,5 +1138,24 @@
                 ]
             }
         ]
+    },
+    "youAreNotAlone": {
+        "header": "Aprende Más",
+        "title": "No Está Solo",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video sobre cómo las lesiones son comunes",
+                "boldText": "Su hijo no está solo.",
+                "subtitle": " Cada año, milliones de niños en los Estados Unidos resultan heridos."
+            },
+            "statsBullets": {
+                "intro": "Cada año en EE. UU., las estadísticas de lesiones infantiles muestran que:",
+                "bulletOne": "1 de cada 4 niños y adolescentes requiere atención médica por una lesión",
+                "bulletTwo": "7 millones de niños heridos son tratados en salas de emergencias.",
+                "bulletThree": "Cientos de miles de niños heridos son hospitalizados."
+            },
+            "paragraphOne": "En este momento, cientos de miles de niños de todo el país se están recuperando de una lesión. Al igual que usted, sus padres y otros adultos quieren ayudarlos de la mejor manera posible. Si bien es importante atender las heridas y ocuparse de la rehabilitación, es igual de importante recordar que hay que mirar más allá de las lesiones físicas.",
+            "paragraphTwo": "Aunque haya muchos médicos, enfermeras y terapeutas que traten la lesión de su hijo, recuerde que nadie es más importante que usted para la recuperación de su hijo. En este sitio web tomamos lo mejor de la ciencia y la práctica para ayudarle a ayudar a su hijo después de una lesión."
+        }
     }
 }
