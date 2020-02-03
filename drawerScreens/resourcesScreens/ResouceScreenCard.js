@@ -3,15 +3,15 @@ import { Text } from "react-native";
 import { Card } from "react-native-elements";
 import translate from "../../components/translateService";
 
-export default class GlossaryScreenCard extends Component {
+export default class ResourceScreenCard extends Component {
     render() {
         return (
             <Card
-                featuredTitle={translate("glossary.glossary")}
+                featuredTitle={translate("resources.resources")}
                 featuredTitleStyle={{ fontSize: 40 }}
-                image={require("../../assets/GlossaryScreen.jpg")}
+                image={require("../../assets/resourcePyramid.png")}
                 accessible
-                accessibilityLabel={translate("glossary.accessabilityLabel")}
+                accessibilityLabel={translate("resources.accessabilityLabel")}
             >
                 <Text
                     style={{
@@ -20,7 +20,7 @@ export default class GlossaryScreenCard extends Component {
                         textAlign: "center"
                     }}
                 >
-                    {translate("glossary.description")}
+                    {translate("resources.description")}
                 </Text>
             </Card>
         );

@@ -31,52 +31,48 @@ class HowToTalk extends Component {
                     accessibilityHint={translate('howToTalk.accessibilityHint')}
                 />
                 <Text style={styles.subTitle}>
-                <Text style={{ fontWeight: 'bold' }}>
-                    {translate('howToTalk.video_subtitle_1')} 
-                </Text> 
-                    {translate('howToTalk.video_subtitle_1')}
-                </Text>
+                <Text style={{ fontWeight: 'bold' }}>{translate('howToTalk.video_subtitle_1')}</Text>{translate('howToTalk.video_subtitle_2')}</Text>
                 
                 <ScrollView>
                     
-                    <Text style={styles.paragraph}> {translate('howToTalk.subtitle')} </Text>
+                    <Text style={styles.paragraph}>{translate('howToTalk.subtitle')}</Text>
                     
-                    <Text style={styles.paragraphTitle}> {translate('howToTalk.title_1')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_11')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_12')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_12_a')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_12_b')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_13')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_14')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_14_a')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_14_b')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_14_c')} </Text>
+                    <Text style={styles.paragraphTitle}>{translate('howToTalk.title_1')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_11')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_12')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_12_a')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_12_b')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_13')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_14')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_14_a')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_14_b')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_14_c')}</Text>
                     
-                    <Text style={styles.paragraphTitle}> {translate('howToTalk.title_2')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_21')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_21')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_22')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_22')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_23')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_23')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_24')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_24_a')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_24_b')} </Text>                    
+                    <Text style={styles.paragraphTitle}>{translate('howToTalk.title_2')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_21')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_21')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_22')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_22')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_23')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_23')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_24')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_24_a')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_24_b')}</Text>                    
 
-                    <Text style={styles.paragraphTitle}> {translate('howToTalk.title_3')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_31')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_32')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_33')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_34')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_35')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_35_a')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_35_b')} </Text>                    
+                    <Text style={styles.paragraphTitle}>{translate('howToTalk.title_3')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_31')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_32')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_33')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_34')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_35')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_35_a')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_35_b')}</Text>                    
 
-                    <Text style={styles.paragraphTitle}> {translate('howToTalk.title_4')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_41')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_41')} </Text>
-                    <Text style={styles.bullet}> {translate('howToTalk.tip_42')} </Text>
-                    <Text style={styles.subBullet}> {translate('howToTalk.subtip_42')} </Text>
+                    <Text style={styles.paragraphTitle}>{translate('howToTalk.title_4')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_41')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_41')}</Text>
+                    <Text style={styles.bullet}>{translate('howToTalk.tip_42')}</Text>
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_42')}</Text>
 
                     <Text style={{ marginBottom:1 }}></Text>
 
