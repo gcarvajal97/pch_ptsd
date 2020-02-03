@@ -78,11 +78,11 @@ export default class HealthcareTeam extends Component {
             <View style={styles.container}>
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card image={healthTeam} featuredTitleStyle={{ fontSize: 40 }}
-                        containerStyle={{ margin: 8 }} featuredTitle='Teamwork'
+                        containerStyle={{ margin: 8 }} featuredTitle={translate('healthcareTeam.cardHeader')}
                         accessible
-                        accessibilityHint={translate('healthcareTeam.accessabilityHint')}
+                        accessibilityHint={translate('healthcareTeam.accessibilityHint')}
                     >
-                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>It is important to work as a team.</Text>
+                    <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>{translate('healthcareTeam.cardTitle')}</Text>
                     </Card>
                     <Text style={styles.paragraphTitle}>{translate('healthcareTeam.MAIN_TITLE')}</Text>
                     <Text style={styles.paragraph}>{translate('healthcareTeam.main_Paragraph_1')}</Text>
