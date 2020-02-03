@@ -1209,6 +1209,57 @@
                 ]
             }
         ]
+    },    
+    "traumaticStressReactions": {
+        "header": "Aprende más",
+        "title": "Reacciones de estrés traumático",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video sobre qué son las reacciones de estrés traumático.",
+                "title": "Las reacciones de estrés a la lesión son normales.",
+                "subtitle": " Sin embargo, se deben monitorear tres reacciones principales."
+            },
+            "bulletListOne": {
+                "title": "Hay tres tipos principales de reacciones de estrés traumático:",
+                "bulletOne": "- Volver a experimentar: revivir lo que pasó",
+                "bulletTwo": "- Evitación: mantenerse alejado de los recordatorios",
+                "bulletThree": "- Hiperexcitación: sentirse ansioso o nervioso"
+            },
+            "reExperiencingParagraph": {
+                "boldNote": "Nota: ",
+                "note": "Estas reacciones son normales y no se consideran reacciones de estrés postraumático o TEPT a menos que persistan durante más de un mes e interfieran con la vida diaria.",
+                "title": "Volver a experimentar",
+                "paragraphOne": "Volver a experimentar significa que su hijo sigue pensando mucho sobre el trauma, incluso cuando no quiere.",
+                "paragraphTwo": "Volver a experimentar un poco es normal y natural. Pensar mucho sobre lo sucedido, sobre todo al principio, es parte de cómo nos ayudamos a nosotros mismos a recuperarnos de una experiencia aterradora.",
+                "paragraphThree": "Volver a experimentar demasiado puede ser muy angustiante. Su hijo podría tener pesadillas o \"escena retrospectiva\" que le hagan sentir que está pasando por el trauma de nuevo. Tal vez se sienta muy angustiado o incluso tenga síntomas físicos cuando algo (una visión, un sonido, un olor) le recuerde lo que pasó."
+            },
+            "avoidanceParagraph": {
+                "title": "Evitación",
+                "paragraphOne": "Los síntomas de evitación pueden empezar por tratar de no pensar o hablar sobre el trauma o cualquier cosa relacionada con él. A veces los niños quieren mantenerse alejados de personas, lugares o actividades debido a que estos recordatorios los perturban. Y a veces los niños desarrollan nuevos temores o preocupaciones.",
+                "paragraphTwo": "Por supuesto, el ser más cauteloso después de una lesión puede indicar un buen sentido común. Puede que los niños se hagan más conscientes de la seguridad, recordando usar el cinturón de seguridad, no corriendo a la calle detrás de una pelota o manteniéndose alejados de los perros que no conocen.",
+                "paragraphThree": "Pero la evitación o los temores extremos pueden llegar a ser un verdadero problema. La evitación puede interferir con la vida diaria y evitar que su hijo vuelva a disfrutar de las cosas que normalmente le gusta hacer."
+            },
+            "hyperArousalParagraph": {
+                "title": "Hiperexcitación",
+                "paragraphOne": "La hiperexcitación también comienza con una respuesta natural y normal al peligro: la \"reacción de lucha o huida\". Después de una lesión o accidente, esta respuesta de \"lucha o huida\" puede que no se desactive, incluso cuando uno está seguro.",
+                "bulletListOne": {
+                    "bulletOne": "- Su corazón sigue palpitando y tiene sudores.",
+                    "bulletTwo": "- Su cuerpo todavía está atento al peligro."
+                },
+                "paragraphTwo": "Después de una situación de miedo como la de estar herido, su hijo puede tener la sensación de que algo malo podría ocurrir de nuevo en cualquier momento o puede saltar ante cualquier ruido fuerte.",
+                "bulletListTwo": {
+                    "title": "Las sensaciones físicas que acompañan a la hiperexcitación pueden dar miedo en sí mismas:",
+                    "bulletOne": "- Su hijo tal vez se sienta de repente con el corazón acelerado o la cabeza retumbándole.",
+                    "bulletTwo": "- Él podría preocuparse por lo que significan estos síntomas."
+                },
+                "bulletListThree": {
+                    "title": "Sentirse \"en guardia\" por el peligro la mayor parte del tiempo puede llevar a:",
+                    "bulletOne": "- Problemas para dormir",
+                    "bulletTwo": "- Problemas para concentrarse y",
+                    "bulletThree": "- Tener un mayor mal humor o estar más irritable que lo habitual."
+                }
+            }
+        }
     },
     "youAreNotAlone": {
         "header": "Aprende más",

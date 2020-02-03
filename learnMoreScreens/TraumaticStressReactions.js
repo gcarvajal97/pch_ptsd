@@ -1,21 +1,23 @@
+import i18n from 'i18n-js';
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, ScrollView, Dimensions, AccessibilityInfo} from 'react-native';
 import { Video } from 'expo-av';
+import translate from '../components/translateService';
 
 class TraumaticStressReactions extends Component {
   
   static navigationOptions = {
-    headerTitle: 'Learn More'
+    headerTitle: translate('traumaticStressReactions.header')
   }
 
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>
-          Traumatic Stress Reactions
+          {translate('traumaticStressReactions.title')}
         </Text>
         <Video
-            source={require('../assets/videos/vidStressReactions.mp4')}
+            source={i18n.locale.includes('en') ? require('../assets/videos/vidStressReactions.mp4') : require('../assets/videos/vidStressReactionsEs.mp4')}
             rate={1.0}
             volume={1.0}
             resizeMode={Video.RESIZE_MODE_STRETCH}
@@ -24,90 +26,41 @@ class TraumaticStressReactions extends Component {
             useNativeControls
             style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
             accessible
-            accessibilityLabel="Video on what are traumatic stress reactions."
-            accessibilityHint="Video on what are traumatic stress reactions."
+            accessibilityLabel={translate('traumaticStressReactions.content.videoCard.accessibility')}
+            accessibilityHint={translate('traumaticStressReactions.content.videoCard.accessibility')}
         />
         <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                    <Text style={{ fontWeight: 'bold' }}>Stress reactions to injury are normal</Text> However, three major reactions 
-                    should be monitored.
-                </Text>
+          <Text style={{ fontWeight: 'bold' }}>{translate('traumaticStressReactions.content.videoCard.title')}</Text>
+          {translate('traumaticStressReactions.content.videoCard.subtitle')}
+        </Text>
         <ScrollView>
-        <Text style={styles.paragraph}>
-        There are three main types of traumatic stress reactions:
-        </Text>
-        <Text style={styles.bullet}>
-        Re-experiencing: Reliving what happened
-        </Text>
-        <Text style={styles.bullet}>
-        Avoidance: Staying away from reminders
-        </Text>
-        <Text style={styles.bullet}>
-        Hyper-arousal: Feeling anxious or jumpy
-        </Text>
-        <Text style={styles.paragraph}>
-        <Text style={{ fontWeight: 'bold' }}>Note: </Text>These reactions are normal and are not considered post traumatic stress reactions 
-        or PTSD unless they persist for over a month and interfere with daily life.
-        </Text>
-        <Text style={styles.paragraphTitle}>
-        Re-Experiencing
-        </Text>
-        <Text style={styles.paragraph}>
-        Re-experiencing means that your child keeps thinking a lot about the trauma, even when they do not want to.
-        </Text>
-        <Text style={styles.paragraph}>
-        Some re-experiencing is normal and natural. Thinking a lot about what happened, especially at first, 
-        is part of how we help ourselves recover from a scary experience.
-        </Text>
-        <Text style={styles.paragraph}>
-        Too much re-experiencing can be very distressing. 
-        Your child might have nightmares or “flashbacks” that make them feel 
-        like they are going through the trauma all over again. 
-        She may feel really upset or even have physical symptoms 
-        when something – a sight, a sound, a smell – reminds them of what happened.
-        </Text>
-        <Text style={styles.paragraphTitle}>
-        Avoidance
-        </Text>
-        <Text style={styles.paragraph}>
-        Avoidance symptoms can start by trying not to think or talk about the trauma, 
-        or anything connected with it. Sometimes kids want to stay away from people, 
-        places or activities because these reminders upset them. 
-        And children sometimes develop new fears or worries.
-        </Text>
-        <Text style={styles.paragraph}>
-        Of course, it can be good common sense to be more cautious after an injury. 
-        Children may become more aware of safety -- remembering to wear a seat belt, 
-        not running into the street after a ball, or staying away from dogs they do not know.
-        </Text>
-        <Text style={styles.paragraph}>
-        But extreme avoidance or fears can become a real problem. 
-        Avoidance can interfere with daily life and stop your child 
-        from getting back to enjoying things that they usually like to do.
-        </Text>
-        <Text style={styles.paragraphTitle}>
-        Hyper-Arousal
-        </Text>
-        <Text style={styles.paragraph}>
-        Hyper-arousal also starts with a natural and normal response to danger – the “fight or flight response.” 
-        After an injury or accident, this “fight or flight” response might not turn off, even when you are safe.
-        </Text>
-        <Text style={styles.bullet}>Your heart keeps pounding and you start sweating.</Text>
-        <Text style={styles.bullet}>Your body is still on the lookout for danger.</Text>
-        <Text style={styles.paragraph}>
-        After a scary situation like being injured, your child might have the feeling 
-        that something bad could happen again at any time, or might jump at any loud noise.
-        </Text>
-        <Text style={styles.paragraph}>
-        The physical feelings that go along with hyper-arousal can feel scary themselves:
-        </Text>
-        <Text style={styles.bullet}>Your child might suddenly feel their heart racing or head pounding.</Text>
-        <Text style={styles.bullet}>She might get worried about what these symptoms mean.</Text>
-        <Text style={styles.paragraph}>
-        Feeling “on guard” for danger much of the time can lead to:
-        </Text>
-        <Text style={styles.bullet}>trouble sleeping,</Text>
-        <Text style={styles.bullet}>trouble concentrating, and</Text>
-        <Text style={styles.bullet}>being extra cranky or irritable.</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.bulletListOne.title')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.bulletListOne.bulletOne')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.bulletListOne.bulletTwo')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.bulletListOne.bulletThree')}</Text>
+          <Text style={styles.paragraph}>
+          <Text style={{ fontWeight: 'bold' }}>{translate('traumaticStressReactions.content.reExperiencingParagraph.boldNote')}</Text>
+          {translate('traumaticStressReactions.content.reExperiencingParagraph.note')}</Text>
+          <Text style={styles.paragraphTitle}>{translate('traumaticStressReactions.content.reExperiencingParagraph.title')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.reExperiencingParagraph.paragraphOne')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.reExperiencingParagraph.paragraphTwo')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.reExperiencingParagraph.paragraphThree')}</Text>
+          <Text style={styles.paragraphTitle}>{translate('traumaticStressReactions.content.avoidanceParagraph.title')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.avoidanceParagraph.paragraphOne')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.avoidanceParagraph.paragraphTwo')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.avoidanceParagraph.paragraphThree')}</Text>
+          <Text style={styles.paragraphTitle}>{translate('traumaticStressReactions.content.hyperArousalParagraph.title')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.hyperArousalParagraph.paragraphOne')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListOne.bulletOne')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListOne.bulletTwo')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.hyperArousalParagraph.paragraphTwo')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListTwo.title')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListTwo.bulletOne')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListTwo.bulletTwo')}</Text>
+          <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListThree.title')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListThree.bulletOne')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListThree.bulletTwo')}</Text>
+          <Text style={styles.bullet}>{translate('traumaticStressReactions.content.hyperArousalParagraph.bulletListThree.bulletThree')}</Text>
         </ScrollView>
     </View>
     );
@@ -169,7 +122,6 @@ const styles = StyleSheet.create({
       fontSize:14
   },
   paragraph: {
-      alignSelf:"center", 
       paddingVertical:1, 
       paddingHorizontal:5,
       fontSize: 14,

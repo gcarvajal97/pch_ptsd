@@ -1345,6 +1345,57 @@
             }
         ]
     },
+    "traumaticStressReactions": {
+        "header": "Learn More",
+        "title": "Traumatic Stress Reactions",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on what are traumatic stress reactions.",
+                "title": "Stress reactions to injury are normal",
+                "subtitle": " However, three major reactions should be monitored."
+            },
+            "bulletListOne": {
+                "title": "There are three main types of traumatic stress reactions:",
+                "bulletOne": "- Re-experiencing: Reliving what happened",
+                "bulletTwo": "- Avoidance: Staying away from reminders",
+                "bulletThree": "- Hyper-arousal: Feeling anxious or jumpy"
+            },
+            "reExperiencingParagraph": {
+                "boldNote": "Note: ",
+                "note": "These reactions are normal and are not considered post traumatic stress reactions or PTSD unless they persist for over a month and interfere with daily life.",
+                "title": "Re-Experiencing",
+                "paragraphOne": "Re-experiencing means that your child keeps thinking a lot about the trauma, even when they do not want to.",
+                "paragraphTwo": "Some re-experiencing is normal and natural. Thinking a lot about what happened, especially at first, is part of how we help ourselves recover from a scary experience.",
+                "paragraphThree": "Too much re-experiencing can be very distressing. Your child might have nightmares or “flashbacks” that make them feel like they are going through the trauma all over again. They may feel really upset or even have physical symptoms when something – a sight, a sound, a smell – reminds them of what happened."
+            },
+            "avoidanceParagraph": {
+                "title": "Avoidance",
+                "paragraphOne": "Avoidance symptoms can start by trying not to think or talk about the trauma, or anything connected with it. Sometimes kids want to stay away from people, places or activities because these reminders upset them. And children sometimes develop new fears or worries.",
+                "paragraphTwo": "Of course, it can be good common sense to be more cautious after an injury. Children may become more aware of safety -- remembering to wear a seat belt, not running into the street after a ball, or staying away from dogs they do not know.",
+                "paragraphThree": "But extreme avoidance or fears can become a real problem. Avoidance can interfere with daily life and stop your child from getting back to enjoying things that they usually like to do."
+            },
+            "hyperArousalParagraph": {
+                "title": "Hyper-Arousal",
+                "paragraphOne": "Hyper-arousal also starts with a natural and normal response to danger – the \"fight or flight response.\" After an injury or accident, this \"fight or flight response.\" response might not turn off, even when you are safe.",
+                "bulletListOne": {
+                    "bulletOne": "- Your heart keeps pounding and you start sweating.",
+                    "bulletTwo": "- Your body is still on the lookout for danger."
+                },
+                "paragraphTwo": "After a scary situation like being injured, your child might have the feeling that something bad could happen again at any time, or might jump at any loud noise.",
+                "bulletListTwo": {
+                    "title": "The physical feelings that go along with hyper-arousal can feel scary themselves:",
+                    "bulletOne": "- Your child might suddenly feel their heart racing or head pounding.",
+                    "bulletTwo": "- They might get worried about what these symptoms mean."
+                },
+                "bulletListThree": {
+                    "title": "Feeling “on guard” for danger much of the time can lead to:",
+                    "bulletOne": "- trouble sleeping",
+                    "bulletTwo": "- trouble concentrating",
+                    "bulletThree": "- being extra cranky or irritable"
+                }
+            }
+        }
+    },
     "youAreNotAlone": {
         "header": "Learn More",
         "title": "You Are Not Alone",
