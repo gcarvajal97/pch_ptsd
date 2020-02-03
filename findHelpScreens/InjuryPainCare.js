@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import translate from '../components/translateService';
 
 class InjuryPainCare extends Component {
   render() {

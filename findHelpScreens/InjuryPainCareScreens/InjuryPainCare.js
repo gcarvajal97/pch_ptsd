@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, Text, View, TouchableOpacity } from 'react-nati
 import { Card } from 'react-native-elements';
 import * as Animatable from 'react-native-animatable';
 import Accordion from 'react-native-collapsible/Accordion';
+import translate from '../../components/translateService';
 
 import AbdominalTrauma from './AdbominalTraumaScreen';
 import HeadInjury from './HeadInjuryScreen';
@@ -12,15 +13,14 @@ import TakingCareCast from './TakingCareofCastScreen';
 import UsingCrutches from './UsingCrutchesScreen';
 import painCareImg from '../../assets/PainAndInjury.jpg';
 
-
 // List of screens that will be dispalyed in this list component
 const PAGES = [
-  { name: 'Injury Prevention Tips', content: <InjuryPreventionTips/>, value: 0, accessibilityHint: '...' },
-  { name: 'Abdominal Trauma', content: <AbdominalTrauma/>, value: 1, accessibilityHint: '...' },
-  { name: 'Taking Care of Your Child\'s Cast', content: <TakingCareCast/>, value: 2, accessibilityHint: '...' },
-  { name: 'Using Crutches', content: <UsingCrutches/>, value: 3, accessibilityHint: '...' },
-  { name: 'Head Injury / Concussion', content: <HeadInjury/>, value: 4, accessibilityHint: '...' },
-  { name: 'Recognizing and Managing Pain', content: <ManagingPain/>, value: 5, accessibilityHint: '...' }
+  { name: translate('injuryPainCare.CHAPTER_1_MAIN_TITLE'), content: <InjuryPreventionTips/>, value: 0, accessibilityHint: '...' },
+  { name: translate('injuryPainCare.CHAPTER_2_MAIN_TITLE'), content: <AbdominalTrauma/>, value: 1, accessibilityHint: '...' },
+  { name: translate('injuryPainCare.CHAPTER_3_MAIN_TITLE'), content: <TakingCareCast/>, value: 2, accessibilityHint: '...' },
+  { name: translate('injuryPainCare.CHAPTER_4_MAIN_TITLE'), content: <UsingCrutches/>, value: 3, accessibilityHint: '...' },
+  { name: translate('injuryPainCare.CHAPTER_5_MAIN_TITLE'), content: <HeadInjury/>, value: 4, accessibilityHint: '...' },
+  { name: translate('injuryPainCare.CHAPTER_6_MAIN_TITLE'), content: <ManagingPain/>, value: 5, accessibilityHint: '...' }
 ]
 
 export default class InjuryPainCare extends Component {
@@ -75,7 +75,7 @@ export default class InjuryPainCare extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Find Help'
+        headerTitle: translate('injuryPainCare.header')
     }
     render() {
         const { multipleSelect, activeSections } = this.state;
@@ -84,27 +84,18 @@ export default class InjuryPainCare extends Component {
             <View style={styles.container}>
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card image={painCareImg} featuredTitleStyle={{ fontSize: 40 }}
-                        containerStyle={{ margin: 8 }} featuredTitle='Inury and Pain'
+                        containerStyle={{ margin: 8 }} featuredTitle={translate('injuryPainCare.cardHeader')}
                         accessible
-                        accessibilityHint='Photo of a a young girl walking on crutches, with a nurse assisting her'
+                        accessibilityHint={translate('injuryPainCare.accessibilityHint')}
                     >
-                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>Help you and your child overcome an injury. </Text>
+                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>{translate('injuryPainCare.cardTitle')}</Text>
                     </Card>
-                    <Text style={styles.paragraphTitle}>Injury and Pain Care</Text>
-                    <Text style={styles.paragraph}>
-                    This section of the app offers some general information about common injuries and tips for 
-                    home management, as well as helpful hints for pain management and injury prevention.
-                    </Text>
-                    <Text style={styles.paragraph}>
-                    Remember, your healthcare provider is the best source for information regarding your child's 
-                    injury. If you have specific questions or concerns about your child's injury or treatment, please 
-                    make sure to talk with your healthcare provider. If any information in this website is different 
-                    from what your healthcare provider recommends, follow your healthcare provider's advice.
-                    </Text>
-                    <Text style={styles.paragraph}>
-                    Full recovery goes beyond physical healing - learn more about your child's emotional recovery 
-                    after an injury, and how you can help.
-                    </Text>
+
+                    <Text style={styles.paragraphTitle}>{translate('injuryPainCare.MAIN_TITLE')}</Text>
+                    <Text style={styles.paragraph}>{translate('injuryPainCare.main_Paragraph_1')}</Text>
+                    <Text style={styles.paragraph}>{translate('injuryPainCare.main_Paragraph_2')}</Text>
+                    <Text style={styles.paragraph}>{translate('injuryPainCare.main_Paragraph_3')}</Text>
+
                     <Accordion
                         activeSections={activeSections}
                         sections={PAGES}
