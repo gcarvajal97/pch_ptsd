@@ -334,6 +334,15 @@
             }
         ]
     },
+    "howToLook": {
+        "paragraph1": "There are very good and helpful treatments for children who continue to have traumatic stress symptoms.",
+        "paragraph2": "If you are wondering how to find a child therapist, a good place to start is to talk with your child's doctor or a counselor at your child's school. They can help you figure out the best way of helping your child and your family, and may be able to suggest a counselor or therapist experienced in helping children with traumatic stress.",
+        "paragraph3": "When looking for a counselor or therapist to help your child with traumatic stress symptoms, it's a good idea to ask questions such as: Do you have experience working with children after trauma? What is your approach to working with this type of problem? What is your success rate? How do you work with parents?",
+        "accessibilityLabel": "Click here for mental health professional information",
+        "accessibilityHint": "Navigates to a website on mental health professional information",
+        "linkName": "The National Child Traumatic Stress Network",
+        "paragraph4": "has useful tips and information on how to find a mental health professional to help your child and family after trauma."
+    },
     "howToTalk": {
         "header": "Find Help",
         "video_title": "How To Talk With Your Child",
@@ -451,5 +460,19 @@
         "paragraph7": "-Startle easily (for example, jumping at sudden noises)?",
         "paragraph8": "-Get very distressed if reminded of the injury?",
         "paragraph9": "If any of the above are true, it's a good idea to talk with your doctor or another professional about how your child is doing."
+    },
+    "whenToLookYourself": {
+        "paragraph1": "Sometimes parents need extra help too.",
+        "paragraphTitle1": "Do you have traumatic stress symptoms that:",
+        "paragraph2": "-Get in the way of getting back to usual activities?",
+        "paragraph3": "-Stop you from enjoying things you used to enjoy?",
+        "paragraph4": "-Seem to be getting worse rather than better?",
+        "paragraph5": "-Have lasted more than a month?",
+        "paragraph6": "If so, you may want to seek out a professional who can help you.",
+        "paragraphTitle2": "Remember to ask questions",
+        "paragraph7": "When looking for a counselor or therapist to help with traumatic stress symptoms, remember to ask questions such as: ",
+        "paragraph8": "-Do you have experience working with people after trauma?",
+        "paragraph9": "-What is your approach to working with this type of problem?",
+        "paragraph10": "-What is your success rate?"
     }
 }

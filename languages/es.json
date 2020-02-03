@@ -333,6 +333,15 @@
             }
         ]
     },
+    "howToLook": {
+        "paragraph1": "Existen tratamientos muy buenos y útiles para aquellos niños que siguen teniendo síntomas de estrés traumático.",
+        "paragraph2": "Si se pregunta cómo encontrar un terapeuta infantil, puedes comenzar hablando con el médico de su hijo o con un terapeuta en la escuela de su hijo. Ellos lo pueden ayudar a averiguar la mejor manera de ayudar a su hijo y a su familia y puede que le sugieran un terapeuta o consejero experimentado en ayudar a niños con estrés traumático.",
+        "paragraph3": "Cuando busque un terapeuta o consejero para ayudar a su hijo con sus síntomas de estrés traumático es buena idea realizar preguntas como: ¿Tiene experiencia en trabajar con personas después de un trauma? ¿Cuál es su enfoque para trabajar con este tipo de problema? ¿Cuál es su tasa de éxito? ¿Cómo trabaja con los padres?",
+        "accessibilityLabel": "Haga clic aquí para obtener información profesional sobre salud mental.",
+        "accessibilityHint": "Navega a un sitio web sobre información profesional de salud mental.",
+        "linkName": "The National Child Traumatic Stress Network",
+        "paragraph4": "(La Red Nacional para el Estrés Traumático Infantil) tiene consejos e información útil sobre cómo encontrar un profesional de la salud mental para ayudar a tu hijo y familia tras el trauma. (en inglés)"
+    },
     "howToTalk": {
         "header": "Encontrar ayuda",
         "video_title": "Cómo hablar con su hijo",
@@ -450,5 +459,19 @@
         "paragraph7": "-¿Se asusta con facilidad (por ejemplo, se sobresalta con los ruidos repentinos)?",
         "paragraph8": "-¿Se angustia demasiado si recuerda la lesión?",
         "paragraph9": "Si alguna de las anterioreses cierta sería buena idea hablar con su médico u otro profesional sobre la progresión de su hijo."
+    },
+    "whenToLookYourself": {
+        "paragraph1": "En ocasiones los padres también necesitan ayuda adicional.",
+        "paragraphTitle1": "¿Tiene reacciones de estrés traumático que:",
+        "paragraph2": "-se interponen en la recuperación (o el disfrute) de sus actividades habituales",
+        "paragraph3": "-parecen dificultar entablar una conversación con su hijo sobre lo sucedido",
+        "paragraph4": "-parecen estar empeorando en lugar de mejorar",
+        "paragraph5": "-han durado más de un mes?",
+        "paragraph6": "En caso afirmativo, quizá debería buscar la ayuda de un profesional.",
+        "paragraphTitle2": "recuerde realizar preguntas tales como",
+        "paragraph7": "A la hora de buscar un consejero o terapeuta que lo ayude con los síntomas de estrés traumático, recuerde realizar preguntas tales como: ",
+        "paragraph8": "-¿Tiene experiencia en trabajar con personas después de un trauma?",
+        "paragraph9": "-¿Cuál es su enfoque para trabajar con este tipo de problema?",
+        "paragraph10": "-¿Cuál es su tasa de éxito?"
     }
 }
