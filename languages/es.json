@@ -447,6 +447,52 @@
         "Ch3_t3_b2": "- Capellán",
         "Ch3_t3_b3": "- O un profesional de la salud mental, como un psicólogo o psiquiatra. Vuelva a visitar este sitio web para recibir más información acerca de las formas en que los padres pueden ayudar a sus hijos."
     },
+    "howLong": {
+        "header": "Aprende más",
+        "title": "¿Cuánto duran las reacciones de estrés traumático?",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video sobre la duración de las reacciones de estrés",
+                "title": "Las reacciones de estrés pueden interferir. ",
+                "subtitle": "La ayuda profesional es importante para volver a la normalidad."
+            },
+            "mainParagraphOne": "Para muchos niños y sus padres las reacciones de estrés traumático temprano mejoran durante el primer mes. Pero aproximadamente 1 de cada 6 sigue teniendo reacciones de estrés traumático que le molestan incluso 6 meses después de una lesión.",
+            "mainParagraphTwo": "Casi todo el mundo se siente perturbado o ansioso al principio. Durante las siguientes semanas y meses, estas reacciones generalmente se debilitan y luego desaparecen. Incluso los niños que se recuperan de lesiones graves comienzan a desarrollar maneras de manejar la situación.",
+            "mainParagraphThree": "Pero para algunas personas, estas primeras reacciones no parecen mejorar a medida que pasan los meses o incluso pueden empeorar. Aun si se han curado del daño físico, es posible que no se hayan recuperado del trauma. La intensidad y duración de las reacciones de estrés traumático no se relaciona con lo grave que haya sido el daño físico.",
+            "concernParagraph": {
+                "mainTitle": "¿Por qué preocuparse?",
+                "paragraphOne": "Cuando las reacciones de estrés traumático duran semanas o meses, pueden impedir la recuperación de la normalidad y sentirse bien otra vez.",
+                "bulletList": {
+                    "title": "En niños y adolescentes, esto puede afectar a la escuela, la casa y el juego.",
+                    "bulletOne": "- El trabajo escolar y el aprendizaje pueden verse afectados cuando un niño no puede concentrarse o dormir bien.",
+                    "bulletTwo": "- Las relaciones familiares y amistades pueden sufrir.",
+                    "bulletThree": "- Los niños pueden dejar de hacer cosas que disfrutan o dejar de probar cosas nuevas."
+                }
+            },
+            "whatIsPTSDParagraph": {
+                "title": "¿Qué es el trastorno de estrés postraumático o “TEPT”?",
+                "bulletListOne": {
+                    "title": "El trastorno de estrés postraumático (TEPT) es el nombre dado a las reacciones de estrés traumático que:",
+                    "bulletOne": "- Son tan graves que interfieren en la vida normal",
+                    "bulletTwo": "- Duran más de un mes."
+                },
+                "paragraphOne": "Es importante saber si su hijo o alguien más de su familia desarrollan el trastorno de estrés postraumático en un accidente o lesión. Es mucho más común de lo que la gente piensa.",
+                "paragraphTwo": "Hasta 1 de cada 10 personas desarrolla trastorno de estrés postraumático en algún momento de su vida.",
+                "bulletListTwo": {
+                    "title": "Después de una lesión, el trastorno de estrés postraumático puede:",
+                    "bulletOne": "- Interferir con la recuperación física",
+                    "bulletTwo": "- Contribuir a la aparición de nuevos problemas médicos",
+                    "bulletThree": "- Simplemente hacer que sea más difícil disfrutar de la vida."
+                },
+                "hyperLinkOne": {
+                    "text": "Haga clic aquí para obtener más información sobre el TEPT.",
+                    "accessibilityLabel": "Haga clic aquí para obtener más información sobre el TEPT.",
+                    "accessibilityHint": "Navega a un sitio web sobre las causas del TEPT"
+                },
+                "paragraphThree": "La buena noticia es que existen muy buenos tratamientos para el TEPT. Desafortunadamente, menos de la mitad de las personas con síntomas de estrés traumático hablan con alguien sobre sus problemas u obtienen ayuda profesional, aun cuando sus síntomas se prolongan durante mucho tiempo."
+            }
+        }
+    },
     "howToTalk": {
         "header": "Encontrar ayuda",
         "video_title": "Cómo hablar con su hijo",
@@ -866,6 +912,34 @@
         "q18body1": "Cuando algo aterrador sucede, aprendemos a considerar las cosas conectadas a eso como si fueran señales de peligro. Imágenes, sonidos e incluso olores pueden ser recordatorios.",
         "q18body2": "¿Ocurren estos sentimientos casi todos los días? ¿Hacen que a su hijo le sea difícil relajarse y divertirse o concentrarse en una tarea escolar?"
     },
+    "reactionsToInjury": {
+        "header": "Aprende más",
+        "title": "Reacciones a una lesión",
+        "content": {
+            "videoCard": {
+                "title": "Estas reacciones son esperadas.",
+                "subtitle": "Con un poco de tiempo y apoyo adicional, la mayoría de los niños se sienten mejor..",
+                "accessibility": "El video muestra cuáles son las reacciones de estrés a una lesión."
+            },
+            "paragraphOne": "Una de las cosas más importantes que puede hacer para ayudar a su hijo es reconocer las reacciones de su hijo a las lesiones y comprender los síntomas de trauma infantil. Muchas reacciones son normales y comunes; algunas son más preocupantes.",
+            "paragraphTwo": "El primer paso para ayudar a su hijo a recuperarse es aprender qué reacciones debe detectar y qué puede hacer para ayudar a su hijo a responder de una manera sana.",
+            "bulletListOne": {
+                "title": "En los primeros días después de una lesión, los síntomas comunes de trauma infantil son:",
+                "bulletOne": "- Casi todos los niños se sienten angustiados, nerviosos o preocupados en algunos momentos.",
+                "bulletTwo": "- Los padres y otros miembros de la familia pueden tener reacciones similares.",
+                "bulletThree": "- Casi todo el mundo siente los síntomas de estrés: dolor de cabeza, músculos tensos, nudos en el estómago, las manos sudorosas. También se suele sentir que la vida está un poco fuera de control.",
+                "bulletFour": "- Los padres y los niños pueden discutir más.",
+                "bulletFive": "- Los niños pueden ser más dependientes o tener problemas para dormir."
+            },
+            "bulletListTwo": {
+                "title": "Incluso puede notar algunas reacciones positivas a su lesión:",
+                "bulletOne": "- Sentirse agradecidas y aliviadas de que no haya pasado nada peor",
+                "bulletTwo": "- Decidirse a hacer las cosas de forma más segura en el futuro"
+            },
+            "paragraphThree": "Cuando un accidente o una lesión provocan sentimientos abrumadores de miedo, impotencia y horror, pueden generar más que reacciones de estrés cotidianas. Puede conducir",
+            "paragraphThreeBold": "al estrés traumático."
+        }
+    },
     "resources": {
         "back": "Regreso",
         "resources": "Recursos",
@@ -1135,5 +1209,75 @@
                 ]
             }
         ]
+    },    
+    "traumaticStressReactions": {
+        "header": "Aprende más",
+        "title": "Reacciones de estrés traumático",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video sobre qué son las reacciones de estrés traumático.",
+                "title": "Las reacciones de estrés a la lesión son normales.",
+                "subtitle": " Sin embargo, se deben monitorear tres reacciones principales."
+            },
+            "bulletListOne": {
+                "title": "Hay tres tipos principales de reacciones de estrés traumático:",
+                "bulletOne": "- Volver a experimentar: revivir lo que pasó",
+                "bulletTwo": "- Evitación: mantenerse alejado de los recordatorios",
+                "bulletThree": "- Hiperexcitación: sentirse ansioso o nervioso"
+            },
+            "reExperiencingParagraph": {
+                "boldNote": "Nota: ",
+                "note": "Estas reacciones son normales y no se consideran reacciones de estrés postraumático o TEPT a menos que persistan durante más de un mes e interfieran con la vida diaria.",
+                "title": "Volver a experimentar",
+                "paragraphOne": "Volver a experimentar significa que su hijo sigue pensando mucho sobre el trauma, incluso cuando no quiere.",
+                "paragraphTwo": "Volver a experimentar un poco es normal y natural. Pensar mucho sobre lo sucedido, sobre todo al principio, es parte de cómo nos ayudamos a nosotros mismos a recuperarnos de una experiencia aterradora.",
+                "paragraphThree": "Volver a experimentar demasiado puede ser muy angustiante. Su hijo podría tener pesadillas o \"escena retrospectiva\" que le hagan sentir que está pasando por el trauma de nuevo. Tal vez se sienta muy angustiado o incluso tenga síntomas físicos cuando algo (una visión, un sonido, un olor) le recuerde lo que pasó."
+            },
+            "avoidanceParagraph": {
+                "title": "Evitación",
+                "paragraphOne": "Los síntomas de evitación pueden empezar por tratar de no pensar o hablar sobre el trauma o cualquier cosa relacionada con él. A veces los niños quieren mantenerse alejados de personas, lugares o actividades debido a que estos recordatorios los perturban. Y a veces los niños desarrollan nuevos temores o preocupaciones.",
+                "paragraphTwo": "Por supuesto, el ser más cauteloso después de una lesión puede indicar un buen sentido común. Puede que los niños se hagan más conscientes de la seguridad, recordando usar el cinturón de seguridad, no corriendo a la calle detrás de una pelota o manteniéndose alejados de los perros que no conocen.",
+                "paragraphThree": "Pero la evitación o los temores extremos pueden llegar a ser un verdadero problema. La evitación puede interferir con la vida diaria y evitar que su hijo vuelva a disfrutar de las cosas que normalmente le gusta hacer."
+            },
+            "hyperArousalParagraph": {
+                "title": "Hiperexcitación",
+                "paragraphOne": "La hiperexcitación también comienza con una respuesta natural y normal al peligro: la \"reacción de lucha o huida\". Después de una lesión o accidente, esta respuesta de \"lucha o huida\" puede que no se desactive, incluso cuando uno está seguro.",
+                "bulletListOne": {
+                    "bulletOne": "- Su corazón sigue palpitando y tiene sudores.",
+                    "bulletTwo": "- Su cuerpo todavía está atento al peligro."
+                },
+                "paragraphTwo": "Después de una situación de miedo como la de estar herido, su hijo puede tener la sensación de que algo malo podría ocurrir de nuevo en cualquier momento o puede saltar ante cualquier ruido fuerte.",
+                "bulletListTwo": {
+                    "title": "Las sensaciones físicas que acompañan a la hiperexcitación pueden dar miedo en sí mismas:",
+                    "bulletOne": "- Su hijo tal vez se sienta de repente con el corazón acelerado o la cabeza retumbándole.",
+                    "bulletTwo": "- Él podría preocuparse por lo que significan estos síntomas."
+                },
+                "bulletListThree": {
+                    "title": "Sentirse \"en guardia\" por el peligro la mayor parte del tiempo puede llevar a:",
+                    "bulletOne": "- Problemas para dormir",
+                    "bulletTwo": "- Problemas para concentrarse y",
+                    "bulletThree": "- Tener un mayor mal humor o estar más irritable que lo habitual."
+                }
+            }
+        }
+    },
+    "youAreNotAlone": {
+        "header": "Aprende más",
+        "title": "No Está Solo",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video sobre cómo las lesiones son comunes",
+                "boldText": "Su hijo no está solo.",
+                "subtitle": " Cada año, milliones de niños en los Estados Unidos resultan heridos."
+            },
+            "statsBullets": {
+                "intro": "Cada año en EE. UU., las estadísticas de lesiones infantiles muestran que:",
+                "bulletOne": "- 1 de cada 4 niños y adolescentes requiere atención médica por una lesión",
+                "bulletTwo": "- 7 millones de niños heridos son tratados en salas de emergencias.",
+                "bulletThree": "- Cientos de miles de niños heridos son hospitalizados."
+            },
+            "paragraphOne": "En este momento, cientos de miles de niños de todo el país se están recuperando de una lesión. Al igual que usted, sus padres y otros adultos quieren ayudarlos de la mejor manera posible. Si bien es importante atender las heridas y ocuparse de la rehabilitación, es igual de importante recordar que hay que mirar más allá de las lesiones físicas.",
+            "paragraphTwo": "Aunque haya muchos médicos, enfermeras y terapeutas que traten la lesión de su hijo, recuerde que nadie es más importante que usted para la recuperación de su hijo. En este sitio web tomamos lo mejor de la ciencia y la práctica para ayudarle a ayudar a su hijo después de una lesión."
+        }
     }
 }

@@ -448,6 +448,52 @@
         "Ch3_t3_b2": "- Chaplain",
         "Ch3_t3_b3": "- Or a mental health professional, such as a psychologist or psychiatrist come back to this website for more information on ways parents can help their kids."
     },
+    "howLong": {
+        "header": "Learn More",
+        "title": "How Long Do Traumatic Stress Reactions Last",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on how long stress reactions last",
+                "title": "Stress reactions can get in the way. ",
+                "subtitle": "Professional help is important to get back to normal."
+            },
+            "mainParagraphOne": "For many children and their parents early traumatic stress reactions get better over the first month. But about 1 in 6 still have traumatic stress reactions that bother them, even 6 months after an injury.",
+            "mainParagraphTwo": "Nearly everyone feels upset or anxious early on. Over the next few weeks and months, these reactions usually get weaker and then go away. Even children recovering from serious injuries start to develop ways to cope.",
+            "mainParagraphThree": "But for some people, these early reactions do not seem to get better as the months go by, or they may get worse. Even if the physical injury has healed, they may not have recovered from the trauma. The intensity and length of the traumatic stress reactions is not related to how bad the physical injury was.",
+            "concernParagraph": {
+                "mainTitle": "Why be concerned?",
+                "paragraphOne": "When traumatic stress reactions last for weeks or months, they can get in the way of getting back to normal and feeling like yourself again.",
+                "bulletList": {
+                    "title": "For children and teens, this can affect school, home, and play.",
+                    "bulletOne": "- Schoolwork and learning might be disrupted because a child cannot concentrate or sleep well.",
+                    "bulletTwo": "- Family relationships and friendships might suffer.",
+                    "bulletThree": "- Children might stop doing things that they enjoy, or stop trying new things."
+                }
+            },
+            "whatIsPTSDParagraph": {
+                "title": "What is post-traumatic stress disorder, or 'PTSD'?",
+                "bulletListOne": {
+                    "title": "Post-traumatic stress disorder (PTSD) is the name given to traumatic stress reactions that:",
+                    "bulletOne": "- Are so severe that they get in the way of normal life",
+                    "bulletTwo": "- Last for more than one month."
+                },
+                "paragraphOne": "It is important to know if your child or someone else in your family develops post-traumatic stress disorder from the accident or injury. It is much more common than people realize.",
+                "paragraphTwo": "Up to 1 in 10 people develop post-traumatic stress disorder at some point in their lives.",
+                "bulletListTwo": {
+                    "title": "After an injury, post-traumatic stress disorder can:",
+                    "bulletOne": "- Get in the way of physical recovery",
+                    "bulletTwo": "- Contribute to new medical problems",
+                    "bulletThree": "- Just make it harder to enjoy life."
+                },
+                "hyperLinkOne": {
+                    "text": "Click here for more information on PTSD.",
+                    "accessibilityLabel": "Click here for more information on PTSD",
+                    "accessibilityHint": "Navigates to a website on the casuses of PTSD"
+                },
+                "paragraphThree": "The good news is that very good treatments for PTSD are available. Unfortunately, less than half of people with traumatic stress symptoms talk to anyone about their problems or get any professional help, even when their symptoms go on for a long time."
+            }
+        }
+    },
     "howToTalk": {
         "header": "Find Help",
         "video_title": "How To Talk With Your Child",
@@ -867,6 +913,34 @@
         "q18body1": "After your child is injured, there are lots of things that you as a parent have to cope with. It’s normal for parents to feel stress and to be concerned about the future. Many parents also have some traumatic stress reactions in the first few weeks. If these don’t get better in a month or so, they may signal a problem that needs attention.",
         "q18body2": "Have these feelings lasted for more than a month? Are worries about your child keeping you from being able to concentrate, get enough sleep, or get back to work or other activities?"
     },
+    "reactionsToInjury": {
+        "header": "Learn More",
+        "title": "Reactions to Injury",
+        "content": {
+            "videoCard": {
+                "title": "These reactions are expected.",
+                "subtitle": "With a little time and extra support, most children feel better.",
+                "accessibility": "Video show what are stress reactions to injury"
+            },
+            "paragraphOne": "One of the most important things you can do to help your child is to recognize your child’s reactions to injury. Many reactions are normal and common; some are more worrisome.",
+            "paragraphTwo": "The first step in helping your child recover is to learn what reactions to look for and what you can do to help your child respond in a healthy way.",
+            "bulletListOne": {
+                "title": "In the first few days after an injury, these are the common child trauma symptoms:",
+                "bulletOne": "- Nearly all children feel upset, jumpy, or worried at times.",
+                "bulletTwo": "- Parents and other family members can have similar reactions.",
+                "bulletThree": "- Nearly everyone feels symptoms of stress; Headache, tense muscles, knots in your stomach, sweaty palms, and the feeling that life is a bit out of control.",
+                "bulletFour": "- Parents and children may argue more.",
+                "bulletFive": "- Children may be more clingy or have trouble sleeping."
+            },
+            "bulletListTwo": {
+                "title": "You may even notice some positive reactions to their injury:",
+                "bulletOne": "- Feeling thankful and relieved that nothing worse happened",
+                "bulletTwo": "- A resolve to do things more safely in the future"
+            },
+            "paragraphThree": "When an accident or injury causes overwhelming feelings of fear, helplessness, and horror, it can lead to more than just everyday stress reactions. It can lead to",
+            "paragraphThreeBold": "traumatic stress."
+        }
+    },
     "resources": { 
         "back": "Back",
         "resources": "Resources",
@@ -1270,5 +1344,75 @@
                 ]
             }
         ]
+    },
+    "traumaticStressReactions": {
+        "header": "Learn More",
+        "title": "Traumatic Stress Reactions",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on what are traumatic stress reactions.",
+                "title": "Stress reactions to injury are normal",
+                "subtitle": " However, three major reactions should be monitored."
+            },
+            "bulletListOne": {
+                "title": "There are three main types of traumatic stress reactions:",
+                "bulletOne": "- Re-experiencing: Reliving what happened",
+                "bulletTwo": "- Avoidance: Staying away from reminders",
+                "bulletThree": "- Hyper-arousal: Feeling anxious or jumpy"
+            },
+            "reExperiencingParagraph": {
+                "boldNote": "Note: ",
+                "note": "These reactions are normal and are not considered post traumatic stress reactions or PTSD unless they persist for over a month and interfere with daily life.",
+                "title": "Re-Experiencing",
+                "paragraphOne": "Re-experiencing means that your child keeps thinking a lot about the trauma, even when they do not want to.",
+                "paragraphTwo": "Some re-experiencing is normal and natural. Thinking a lot about what happened, especially at first, is part of how we help ourselves recover from a scary experience.",
+                "paragraphThree": "Too much re-experiencing can be very distressing. Your child might have nightmares or “flashbacks” that make them feel like they are going through the trauma all over again. They may feel really upset or even have physical symptoms when something – a sight, a sound, a smell – reminds them of what happened."
+            },
+            "avoidanceParagraph": {
+                "title": "Avoidance",
+                "paragraphOne": "Avoidance symptoms can start by trying not to think or talk about the trauma, or anything connected with it. Sometimes kids want to stay away from people, places or activities because these reminders upset them. And children sometimes develop new fears or worries.",
+                "paragraphTwo": "Of course, it can be good common sense to be more cautious after an injury. Children may become more aware of safety -- remembering to wear a seat belt, not running into the street after a ball, or staying away from dogs they do not know.",
+                "paragraphThree": "But extreme avoidance or fears can become a real problem. Avoidance can interfere with daily life and stop your child from getting back to enjoying things that they usually like to do."
+            },
+            "hyperArousalParagraph": {
+                "title": "Hyper-Arousal",
+                "paragraphOne": "Hyper-arousal also starts with a natural and normal response to danger – the \"fight or flight response.\" After an injury or accident, this \"fight or flight response.\" response might not turn off, even when you are safe.",
+                "bulletListOne": {
+                    "bulletOne": "- Your heart keeps pounding and you start sweating.",
+                    "bulletTwo": "- Your body is still on the lookout for danger."
+                },
+                "paragraphTwo": "After a scary situation like being injured, your child might have the feeling that something bad could happen again at any time, or might jump at any loud noise.",
+                "bulletListTwo": {
+                    "title": "The physical feelings that go along with hyper-arousal can feel scary themselves:",
+                    "bulletOne": "- Your child might suddenly feel their heart racing or head pounding.",
+                    "bulletTwo": "- They might get worried about what these symptoms mean."
+                },
+                "bulletListThree": {
+                    "title": "Feeling “on guard” for danger much of the time can lead to:",
+                    "bulletOne": "- trouble sleeping",
+                    "bulletTwo": "- trouble concentrating",
+                    "bulletThree": "- being extra cranky or irritable"
+                }
+            }
+        }
+    },
+    "youAreNotAlone": {
+        "header": "Learn More",
+        "title": "You Are Not Alone",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on how injury is common",
+                "boldText": "Your child is not alone.",
+                "subtitle": "Every year, millions of children in the United States are injured."
+            },
+            "statsBullets": {
+                "intro": "Each year in the United States, child injury statistics show that:",
+                "bulletOne": "- 1 in 4 children and teens need medical care for an injury.",
+                "bulletTwo": "- 7 million injured children are treated in the ER.",
+                "bulletThree": "- Several hundred thousand injured children are admitted to the hospital."
+            },
+            "paragraphOne": "Right now, hundreds of thousands of children across the country are recovering from an injury. Like you, their parents and other caring adults want to help them the best way possible. While it is important to tend to the wounds and rehabilitation, it is just as important to remember to look beyond the physical injuries.",
+            "paragraphTwo": "With all the doctors, nurses, and therapists who will treat your child’s injury, remember that no one is more important than you for your child’s recovery. In making this application, we took the best information available from science and best practices to help you and your child recover after an injury."
+        }
     }
 }
