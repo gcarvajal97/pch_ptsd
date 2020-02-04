@@ -38,7 +38,7 @@
         "glossary": "Glossary"
     },
     "glossary": {
-        "back": "Back",
+        "back": "BACK",
         "glossary": "Glossary",
         "description": "Find word definitions by category.",
         "accordion": [
@@ -778,8 +778,9 @@
         "whatToExpect": "WHAT TO EXPECT AFTER INJURY"
     },
     "mainScreen": {
+        "backButton": "BACK",
         "pediatricPTSD": "Pediatric PTSD",
-        "more": "more",
+        "more": "MORE",
         "learnButton": "LEARN MORE",
         "learnTitle": "Learn More About Injury and Trauma",
         "learnCaption": "Get up-to-date information and expert guidance to assist you and your injured child.",
@@ -942,7 +943,7 @@
         }
     },
     "resources": { 
-        "back": "Back",
+        "back": "BACK",
         "resources": "Resources",
         "description": "Find additional resources for you and your child.",
         "accessibilityHint": "Photo of multi-layered pyramid.",

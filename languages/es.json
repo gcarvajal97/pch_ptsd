@@ -38,7 +38,7 @@
         "glossary": "Glosario"
     },
     "glossary": {
-        "back": "Regreso",
+        "back": "REGRESO",
         "glossary": "Glosario",
         "description": "Encuentra definiciones de palabras por categoría",
         "accordion": [
@@ -777,8 +777,9 @@
         "whatToExpect": "QUÉ ESPERAR DESPUÉS DE LESIÓN"
     },
     "mainScreen": {
+        "backButton": "REGRESO",
         "pediatricPTSD": "Pediátrico TEPT",
-        "more": "más",
+        "more": "MÁS",
         "learnButton": "APRENDE MÁS",
         "learnTitle": "Aprenda Más Sobre Lesiones y Traumas",
         "learnCaption": "Obtenga información actualizada y orientación experta para ayudarlo a usted y a su hijo lesionado.",
@@ -941,7 +942,7 @@
         }
     },
     "resources": {
-        "back": "Regreso",
+        "back": "REGRESO",
         "resources": "Recursos",
         "description": "Encuentre recursos adicionales para ayudarlo a usted y a su hijo.",
         "accessibilityHint": "Una foto de una pirámide en capas.",

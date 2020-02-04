@@ -18,6 +18,7 @@ import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareT
 import SelfCare from '../findHelpScreens/selfCareScreens/SelfCare';
 import QuizMain from '../QuizScreens/QuizMain';
 import QuizResults from '../QuizScreens/QuizResults';
+import translate from './translateService';
 
 // StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
 // This is called by the DrawerNavigator, so it is sort of nested inside
@@ -26,7 +27,7 @@ const NavigationBar = createStackNavigator({
     LearnMore: LearnMoreList,
     FindHelp: FindHelpList,
     Quiz: QuizMain,
-    QuizResults: QuizResults, // un-comment when page is ready to test
+    QuizResults: QuizResults,
     NotAlone: YoureNotAlone,
     Reactions: ReactionsToInjury,
     TraumaticStressReactions: TraumaticStressReactions,
@@ -38,6 +39,11 @@ const NavigationBar = createStackNavigator({
     HowToTalk: HowToTalk,
     QuickTips: QuickTips,
     SelfCare: SelfCare
+    },
+    {
+    defaultNavigationOptions: { 
+       headerTruncatedBackTitle: translate('mainScreen.backButton'),
+    }
   });
   
   // New in this version of React Native, must be created and reference/returned
