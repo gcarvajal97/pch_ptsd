@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Platform, Button, ScrollView, StyleSheet, View } from "react-native";
+import { Button, Platform, ScrollView, StyleSheet, View } from "react-native";
 import NavigationService from "../../components/NavigationService";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
+import translate from "../../components/translateService";
 import GlossaryScreenCard from "./GlossaryScreenCard";
 import GlossaryTerms from "./GlossaryTerms";
-import translate from "../../components/translateService";
 
 class GlossaryScreen extends Component {
     static navigationOptions = {

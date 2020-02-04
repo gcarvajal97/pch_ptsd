@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import {Text} from 'react-native';
 import {Card, Button as CardButton} from 'react-native-elements';
+import translate from '../../components/translateService';
 
 // Card view component to be displayed on the main screen
 export default class QuickTipsCard extends Component {
     render() {
         return(
         <Card
-            featuredTitle="Quick Tips"
+            featuredTitle={translate('quickTips.cardHeader')}
             featuredTitleStyle={{fontSize:40}}
             image={require('../../assets/QuickTips.jpg')}
             accessible
-            accessibilityLabel="Photo of adult sqatting down to speak to child.">
+            accessibilityLabel={translate('quickTips.accessabilityLabelPic')}>
             <Text style={{marginVertical:-8, fontWeight:'500', textAlign:'center'}}>
-                6 quick tips to help you and your child when overcoming a traumatic injury. 
+                {translate('quickTips.cardTitle')}
             </Text>
         </Card>
         );

@@ -13,6 +13,10 @@ const listNames = [
 ]
 
 export default class LearnMoreList extends Component {
+    /**
+     * List component that renders the views and links to various aspects 
+     * of the Learn More About Injury section of the application
+     */
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {

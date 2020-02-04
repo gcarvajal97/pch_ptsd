@@ -4,21 +4,25 @@ import { Card } from "react-native-elements";
 import translate from "../../components/translateService";
 
 export default class GlossaryScreenCard extends Component {
-  render() {
-    return (
-      <Card
-        featuredTitle={translate("glossary.glossary")}
-        featuredTitleStyle={{ fontSize: 40 }}
-        image={require("../../assets/GlossaryScreen.jpg")}
-        accessible
-        accessibilityLabel={translate("glossary.accessabilityLabel")}
-      >
-        <Text
-          style={{ marginVertical: -8, fontWeight: "500", textAlign: "center" }}
-        >
-          {translate("glossary.description")}
-        </Text>
-      </Card>
-    );
-  }
+    render() {
+        return (
+            <Card
+                featuredTitle={translate("glossary.glossary")}
+                featuredTitleStyle={{ fontSize: 40 }}
+                image={require("../../assets/GlossaryScreen.jpg")}
+                accessible
+                accessibilityLabel={translate("glossary.accessabilityLabel")}
+            >
+                <Text
+                    style={{
+                        marginVertical: -8,
+                        fontWeight: "500",
+                        textAlign: "center"
+                    }}
+                >
+                    {translate("glossary.description")}
+                </Text>
+            </Card>
+        );
+    }
 }
