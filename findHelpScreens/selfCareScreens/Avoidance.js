@@ -1,87 +1,33 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, ScrollView,} from 'react-native';
+import translate from '../../components/translateService';
 
 class Avoidance extends Component {
 
   render() {
     return (
-            <View>
-
-                
-                <Text style={styles.paragraphTitle}>
-                    "I don't want to talk or think about what happened."
-                </Text>
-
-                <Text style={styles.paragraphBold}>
-                    Why it happens:
-                </Text>
-                <Text style={styles.paragraph}>
-                    Everyone needs to take a break sometimes from thinking about or 
-                    talking about a scary experience or traumatic event.
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Is this a problem?:
-                </Text>  
-                <Text style={styles.paragraph}>
-                    Do you never want to think or talk about it with anyone, 
-                    or does talking about it make you feel very upset?
-                </Text>
-
-                <Text style={styles.paragraphTitle}>
-                    "I want to stay away from people, places, or things that are reminders of what happened."
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Why it happens:
-                </Text>
-                <Text style={styles.paragraph}>
-                    After something scary happens, reminders of what happened can make us feel 
-                    very anxious, and we might start to avoid those things.
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Is this a problem?:
-                </Text>  
-                <Text style={styles.paragraph}>
-                    Is avoiding reminders stopping you from doing things you think you 
-                    should be able to do, or from enjoying activities even if you force yourself to do them?
-                </Text>
-
-                <Text style={styles.paragraphTitle}>
-                    "I have lost interest in activities I usually enjoy, since the injury."
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Why it happens:
-                </Text>
-                <Text style={styles.paragraph}>
-                    One way we cope with overwhelming scary experiences is to 
-                    "shut down" our emotions for a while.
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Is this a problem?:
-                </Text>  
-                <Text style={styles.paragraph}>
-                    Are there lots of thing you used to enjoy that you 
-                    just don't feel like dong now? Are you feeling emotionally "numb" much of the time?
-                </Text>
-
-                <Text style={styles.paragraphTitle}>
-                    "I just don't feel like being with people, since the injury."
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Why it happens:
-                </Text>
-                <Text style={styles.paragraph}>
-                    One way we cope with overwhelming scary experiences is to "shut down" 
-                    our emotions and not feel close to other people for a while.
-                </Text> 
-                <Text style={styles.paragraphBold}>
-                    Is this a problem?:
-                </Text>  
-                <Text style={styles.paragraph}>
-                    Are you having a really hard time feeling relaxed and close to 
-                    friends and family you usually trust and like to spend time with?
-                </Text>                
-                
-            </View>
+        <View>
+            <Text style={styles.paragraphTitle}>{translate('selfCare.content.avoidance.paragraphTitle1')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.avoidance.why')}</Text>
+            <Text style={styles.paragraph}>{translate('selfCare.content.avoidance.paragraph1')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.avoidance.problem')}</Text>  
+            <Text style={styles.paragraph}>{translate('selfCare.content.avoidance.paragraph2')}</Text>
+            <Text style={styles.paragraphTitle}>{translate('selfCare.content.avoidance.paragraphTitle2')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.avoidance.why')}</Text>
+            <Text style={styles.paragraph}>{translate('selfCare.content.avoidance.paragraph3')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.avoidance.problem')}</Text>  
+            <Text style={styles.paragraph}>{translate('selfCare.content.avoidance.paragraph4')}</Text>
+            <Text style={styles.paragraphTitle}>{translate('selfCare.content.avoidance.paragraphTitle3')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.avoidance.why')}</Text>
+            <Text style={styles.paragraph}>{translate('selfCare.content.avoidance.paragraph5')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.avoidance.problem')}</Text>  
+            <Text style={styles.paragraph}>{translate('selfCare.content.avoidance.paragraph6')}</Text>
+            <Text style={styles.paragraphTitle}>{translate('selfCare.content.avoidance.paragraphTitle4')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.avoidance.why')}</Text>
+            <Text style={styles.paragraph}>{translate('selfCare.content.avoidance.paragraph7')}</Text> 
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.avoidance.problem')}</Text>  
+            <Text style={styles.paragraph}>{translate('selfCare.content.avoidance.paragraph8')}</Text>                
+        </View>
     );
   }
 }
