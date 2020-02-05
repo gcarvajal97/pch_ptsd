@@ -12,7 +12,7 @@ export default class QuickTipsCard extends Component {
             featuredTitleStyle={{fontSize:40}}
             image={require('../../assets/QuickTips.jpg')}
             accessible
-            accessibilityLabel={translate('quickTips.accessabilityLabelPic')}>
+            accessibilityLabel={translate('quickTips.accessibilityLabelPic')}>
             <Text style={{marginVertical:-8, fontWeight:'500', textAlign:'center'}}>
                 {translate('quickTips.cardTitle')}
             </Text>

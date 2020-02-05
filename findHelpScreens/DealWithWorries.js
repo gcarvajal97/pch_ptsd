@@ -24,7 +24,7 @@ class DealWithWorries extends Component {
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
                     accessibilityLabel={translate('dealWithWorries.accessibilityLabel')}
-                    accessibilityHint={translate('dealWithWorries.accessabilityHint')}
+                    accessibilityHint={translate('dealWithWorries.accessibilityHint')}
                 />
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
                     <Text style={{ fontWeight: 'bold' }}>{translate('dealWithWorries.video_subtitle_1')}</Text>{translate('dealWithWorries.video_subtitle_2')}</Text>
@@ -42,7 +42,7 @@ class DealWithWorries extends Component {
                     <Text style={styles.headline}>{translate('dealWithWorries.q3')}</Text>
                     <Text style={styles.paragraph}>{translate('dealWithWorries.q3_p1')}</Text>
                     <Text style={styles.paragraph}>{translate('dealWithWorries.q3_p2')}</Text>
-                    
+
                     <Text style={styles.headline}>{translate('dealWithWorries.q4')}</Text>
                     <Text style={styles.paragraphBold}>{translate('dealWithWorries.q4_tip1')}</Text>
                     <Text style={styles.bulletLight}>{translate('dealWithWorries.q4_tip1_bullet')}</Text>
@@ -55,7 +55,7 @@ class DealWithWorries extends Component {
                     <Text style={styles.paragraphBold}>{translate('dealWithWorries.q4_tip5')}</Text>
                     <Text style={styles.bulletLight}>{translate('dealWithWorries.q4_tip5_bullet1')}</Text>
                     <Text style={styles.bulletLight}>{translate('dealWithWorries.q4_tip5_bullet2')}</Text>
-                    
+
                     <Text style={styles.headline}>{translate('dealWithWorries.q5')}</Text>
                     <Text style={styles.paragraph}>{translate('dealWithWorries.q5_p1')}</Text>
                     <Text style={styles.paragraph}>{translate('dealWithWorries.q5_p2')}</Text>
@@ -84,32 +84,32 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     bullet: {
-        marginVertical:1, 
-        marginHorizontal:18, 
-        textAlign:'left', 
-        alignSelf:'stretch', 
+        marginVertical:1,
+        marginHorizontal:18,
+        textAlign:'left',
+        alignSelf:'stretch',
         fontWeight:'bold',
         fontSize:14,
         paddingTop: 4,
     },
     bulletLight: {
-        marginVertical:1, 
-        marginHorizontal:18, 
-        textAlign:'left', 
-        alignSelf:'stretch', 
+        marginVertical:1,
+        marginHorizontal:18,
+        textAlign:'left',
+        alignSelf:'stretch',
         fontSize:14,
         paddingTop: 4,
     },
     paragraph: {
-        alignSelf:"center", 
-        paddingVertical:1, 
+        alignSelf:"center",
+        paddingVertical:1,
         paddingHorizontal:5,
         fontSize: 14,
         marginTop: 5,
     },
     paragraphBold: {
         textAlign:'left',
-        paddingVertical:1, 
+        paddingVertical:1,
         paddingHorizontal:5,
         fontSize: 14,
         marginTop: 5,
@@ -119,8 +119,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize:20, alignSelf:'stretch',
         textAlign:'left',
-        marginLeft:5, 
-        marginTop:4, 
-        marginBottom:3, 
+        marginLeft:5,
+        marginTop:4,
+        marginBottom:3,
         color:'#2089DC'}
 });

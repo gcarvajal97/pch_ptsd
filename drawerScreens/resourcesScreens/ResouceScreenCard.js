@@ -11,7 +11,7 @@ export default class ResourceScreenCard extends Component {
                 featuredTitleStyle={{ fontSize: 40 }}
                 image={require("../../assets/resourcePyramid.png")}
                 accessible
-                accessibilityLabel={translate("resources.accessabilityLabel")}
+                accessibilityLabel={translate("resources.accessibilityHint")}
             >
                 <Text
                     style={{

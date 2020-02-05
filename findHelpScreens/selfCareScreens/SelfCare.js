@@ -16,25 +16,25 @@ const CONTENT = [
         title: translate('selfCare.content.reExperiencing.title'),
         content: <RelivingWhat/>,
         value: 0,
-        accessibilityHint: translate('selfCare.content.reExperiencing.accessability'),
+        accessibilityHint: translate('selfCare.content.reExperiencing.accessibility'),
     },
         {
         title: translate('selfCare.content.avoidance.title'),
         content: <Avoidance/>,
         value: 1,
-        accessibilityHint: translate('selfCare.content.avoidance.accessability'),
+        accessibilityHint: translate('selfCare.content.avoidance.accessibility'),
     },
         {
         title: translate('selfCare.content.hyperArousal.title'),
         content: <AnxiousJumpy/>,
         value: 2,
-        accessibilityHint: translate('selfCare.content.hyperArousal.accessability'),
+        accessibilityHint: translate('selfCare.content.hyperArousal.accessibility'),
     },
         {
         title: translate('selfCare.content.selfCareParents.title'),
         content: <SelfCareParents/>,
         value: 3,
-        accessibilityHint: translate('selfCare.content.hyperArousal.accessability'),
+        accessibilityHint: translate('selfCare.content.hyperArousal.accessibility'),
     },
 ];
 
@@ -69,7 +69,7 @@ class SelfCare extends Component {
             </Animatable.View>
         );
     };
-    
+
     renderContent(section, _, isActive) {
         return (
             <Animatable.View
@@ -94,7 +94,7 @@ class SelfCare extends Component {
         <View style={styles.container}>
             <ScrollView>
             <SelfCareCard/>
-        
+
             <View>
                 <Text style={styles.paragraphTitle}>{translate('selfCare.paragraphTitle')}</Text>
                 <Text style={styles.paragraph}>{translate('selfCare.paragraph1')}</Text>
@@ -102,7 +102,7 @@ class SelfCare extends Component {
                 <Text style={styles.paragraphBold}>{translate('selfCare.paragraphBold1')}</Text>
                 <Text style={styles.paragraphBold}>{translate('selfCare.paragraphBold2')}</Text>
                 <Text style={styles.paragraphBold}>{translate('selfCare.paragraphBold3')}</Text>
-                <Text style={styles.paragraph}>{translate('selfCare.paragraph3')}</Text>  
+                <Text style={styles.paragraph}>{translate('selfCare.paragraph3')}</Text>
             </View>
 
             <Accordion
