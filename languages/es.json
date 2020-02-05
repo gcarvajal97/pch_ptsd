@@ -372,8 +372,8 @@
         "paragraph3": "Cuando busque un terapeuta o consejero para ayudar a su hijo con sus síntomas de estrés traumático es buena idea realizar preguntas como: ¿Tiene experiencia en trabajar con personas después de un trauma? ¿Cuál es su enfoque para trabajar con este tipo de problema? ¿Cuál es su tasa de éxito? ¿Cómo trabaja con los padres?",
         "accessibilityLabel": "Haga clic aquí para obtener información profesional sobre salud mental.",
         "accessibilityHint": "Navega a un sitio web sobre información profesional de salud mental.",
-        "linkName": "The National Child Traumatic Stress Network",
-        "paragraph4": "(La Red Nacional para el Estrés Traumático Infantil) tiene consejos e información útil sobre cómo encontrar un profesional de la salud mental para ayudar a tu hijo y familia tras el trauma. (en inglés)"
+        "linkName": "La Red Nacional para el Estrés Traumático Infantil (en inglés)",
+        "paragraph4": " tiene consejos e información útil sobre cómo encontrar un profesional de la salud mental para ayudar a tu hijo y familia tras el trauma."
     },
     "healthcareTeam": {
         "header": "Encontrar ayuda",
@@ -667,7 +667,7 @@
         "Ch5_p4_part1": "Para obtener información exhaustiva sobre la conmoción cerebral, incluyendo los métodos de diagnóstico, las estrategias de prevención, la vuelta a la escuela y al juego y los recursos de apoyo, visite",
         "Ch5_accessibilityLabel": "Haga clic aquí para obtener consejos sobre conmoción cerebral",
         "Ch5_accessabilityHint": "Explore un sitio web sobre conmociones cerebrales",
-        "Ch5_click_here": "Concussion Care for Kids: Minds Matter (Atención en caso de conmoción cerebral infantil: la mente importar)",
+        "Ch5_click_here": "Atención en caso de conmoción cerebral infantil: la mente importar (en inglés)",
         "Ch5_p4_part2": ", un sitio web desarrollado por un equipo interdisciplinario de expertos en conmoción cerebral del Hospital Pediátrico de Filadelfia. (en inglés)",
         "CHAPTER_6_MAIN_TITLE": "Reconocer y controlar el dolor",
         "Ch6_p1": "Casi todo el mundo padece dolor tras una lesión. Nuestra investigación demostró que para la mayoría de los niños el dolor disminuye significativamente durante la primera semana luego de haber comenzado el tratamiento de la lesión. Si el dolor empeora, asegúrese de hablar con el médico de su hijo.",
