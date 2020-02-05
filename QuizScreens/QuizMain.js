@@ -12,7 +12,7 @@ class QuizMain extends Component {
         this.state = {
           1: 2, 2: 2, 3: 2, 4: 2, 5: 2,
           6: 2, 7: 2, 8: 2, 9: 2, 10: 2,
-          11: 2, 12: 2, 13: 2, 14: 2, 15: 2, 
+          11: 2, 12: 2, 13: 2, 14: 2, 15: 2,
           16: 2, 17: 2, 18: 2
         }
       }
@@ -21,15 +21,15 @@ class QuizMain extends Component {
         headerTitle: translate('quizMain.header')
     }
 
-    render() {        
+    render() {
         // selectedIndex of each Radio ButtonGroup [0, 1, 2] coincides with the array below. 0 -> Always, 1 -> Sometimes, 2 -> Never
         const buttons = [translate('quizMain.op1'), translate('quizMain.op2'), translate('quizMain.op3')];
         return (
-            <View style={styles.container} accessible accessibilityLabel={translate('quizMain.accessabilityLabelCont')}>
-                
+            <View style={styles.container} accessible accessibilityLabel={translate('quizMain.accessibilityLabelCont')}>
+
                 <ScrollView>
                     <Card image={QuizRateReactions} featuredTitle={translate('quizMain.header')} featuredTitleStyle={{fontSize:42}} containerStyle={{margin:8, padding:-1}}
-                             accessible accessibilityLabel={translate('quizMain.accessabilityLabelPic')}>
+                             accessible accessibilityLabel={translate('quizMain.accessibilityLabelPic')}>
                         <Text style={{marginVertical:-8, textAlign:'center'}}>{translate('quizMain.title')}</Text></Card>
                         <Text style={styles.paragraph}>{translate('quizMain.description')}</Text>
                         <Text style={styles.questionTitle}>{translate('quizMain.qt1')}</Text>
@@ -39,7 +39,7 @@ class QuizMain extends Component {
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'2': e})} selectedIndex={this.state[2]} containerStyle={styles.buttonGroupContainer}/>
                         <Text style={styles.question}> {translate('quizMain.q3')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'3': e})} selectedIndex={this.state[3]} containerStyle={styles.buttonGroupContainer}/>
-                        
+
                         <Text style={styles.questionTitle}> {translate('quizMain.qt2')}</Text>
                         <Text style={styles.question}>{translate('quizMain.q4')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'4': e})} selectedIndex={this.state[4]} containerStyle={styles.buttonGroupContainer}/>
@@ -51,7 +51,7 @@ class QuizMain extends Component {
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'7': e})} selectedIndex={this.state[7]} containerStyle={styles.buttonGroupContainer}/>
                         <Text style={styles.question}>{translate('quizMain.q8')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'8': e})} selectedIndex={this.state[8]} containerStyle={styles.buttonGroupContainer}/>
-                        
+
                         <Text style={styles.questionTitle}>{translate('quizMain.qt3')}</Text>
                         <Text style={styles.question}>{translate('quizMain.q9')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'9': e})} selectedIndex={this.state[9]} containerStyle={styles.buttonGroupContainer}/>
@@ -63,7 +63,7 @@ class QuizMain extends Component {
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'12': e})} selectedIndex={this.state[12]} containerStyle={styles.buttonGroupContainer}/>
                         <Text style={styles.question}>{translate('quizMain.q13')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'13': e})} selectedIndex={this.state[13]} containerStyle={styles.buttonGroupContainer}/>
-                        
+
                         <Text style={styles.questionTitle}>{translate('quizMain.qt4')}</Text>
                         <Text style={styles.question}>{translate('quizMain.q14')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'14': e})} selectedIndex={this.state[14]} containerStyle={styles.buttonGroupContainer}/>
@@ -71,16 +71,16 @@ class QuizMain extends Component {
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'15': e})} selectedIndex={this.state[15]} containerStyle={styles.buttonGroupContainer}/>
                         <Text style={styles.question}>{translate('quizMain.q16')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'16': e})} selectedIndex={this.state[16]} containerStyle={styles.buttonGroupContainer}/>
-                        
+
                         <Text style={styles.questionTitle}>{translate('quizMain.qt5')}</Text>
                         <Text style={styles.question}>{translate('quizMain.q17')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'17': e})} selectedIndex={this.state[17]} containerStyle={styles.buttonGroupContainer}/>
                         <Text style={styles.question}>{translate('quizMain.q18')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'18': e})} selectedIndex={this.state[18]} containerStyle={styles.buttonGroupContainer}/>
-                        
-                        <Text style={styles.finePrint}><Text style={{fontWeight:'bold'}}>{translate('quizMain.note')}</Text> 
+
+                        <Text style={styles.finePrint}><Text style={{fontWeight:'bold'}}>{translate('quizMain.note')}</Text>
                             {translate('quizMain.disclaimer1')}
-                            <Text style={{fontWeight:'bold'}}>{translate('quizMain.toHealthProf')}</Text> 
+                            <Text style={{fontWeight:'bold'}}>{translate('quizMain.toHealthProf')}</Text>
                             {translate('quizMain.disclaimer2')}
                         </Text>
                     <Button onPress={() => { NavigationService.navigate('QuizResults', { 'results': this.state })}} title='Submit' raised containerStyle={{marginHorizontal:110, marginVertical:12}}
@@ -108,8 +108,8 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     buttonGroupContainer: {
-        height:28,      
-        alignContent:'center',  
+        height:28,
+        alignContent:'center',
     },
     bullet: {
         marginVertical: 1,

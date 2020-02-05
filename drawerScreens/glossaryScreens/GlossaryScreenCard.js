@@ -11,7 +11,7 @@ export default class GlossaryScreenCard extends Component {
                 featuredTitleStyle={{ fontSize: 40 }}
                 image={require("../../assets/GlossaryScreen.jpg")}
                 accessible
-                accessibilityLabel={translate("glossary.accessabilityLabel")}
+                accessibilityLabel={translate("glossary.accessibilityLabel")}
             >
                 <Text
                     style={{

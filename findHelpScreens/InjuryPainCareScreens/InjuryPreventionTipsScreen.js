@@ -12,7 +12,7 @@ export default class InjuryPreventionTipsScreen extends Component {
         <Text style={styles.link} onPress={()=> Linking.openURL('https://www.chop.edu/centers-programs/injury-prevention-program')}accessible
           accessible
           accessibilityLabel={translate('injuryPainCare.Ch1_accessibilityLabel')}
-          accessibilityHint={translate('injuryPainCare.Ch1_accessabilityHint')}>{translate('injuryPainCare.Ch1_click_here')}</Text>
+          accessibilityHint={translate('injuryPainCare.Ch1_accessibilityHint')}>{translate('injuryPainCare.Ch1_click_here')}</Text>
         {"\ "}{translate('injuryPainCare.Ch1_p3')}</Text>
         </View>
     );

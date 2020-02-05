@@ -3,7 +3,7 @@
         "header": "Find Help",
         "video_title": "Dealing With Fears and Worries",
         "accessibilityLabel": "Video on dealing with new fears and worries",
-        "accessabilityHint": "Video on dealing with new fears and worries",
+        "accessibilityHint": "Video on dealing with new fears and worries",
         "video_subtitle_1": "New fears or worries? ",
         "video_subtitle_2": "Watch the video and read below to learn more about these symptoms.",
         "q1": "How do new fears develop?",
@@ -321,7 +321,7 @@
                 ]
             },
             {
-                "name": "Traumatic Stress Reactions - Terminology",
+                "name": "Traumatic Stress Reactions",
                 "content": [
                     {
                         "term": "Acute Stress Disorder (ASD)",
@@ -507,7 +507,7 @@
         "header": "Find Help",
         "video_title": "How To Talk With Your Child",
         "accessibilityLabel": "Video on how how to talk with your child",
-        "accessabilityHint": "Video on how how to talk with your child",
+        "accessibilityHint": "Video on how how to talk with your child",
         "video_subtitle_1": "It's not always easy to know how to talk with your child. ",
         "video_subtitle_2": "Here are some tips to help.",
         "subtitle": "After something scary like an injury, it is not always easy to know how to talk with your child about it, and how best to help.",
@@ -550,7 +550,7 @@
         "cardHeader": "Injury and Pain",
         "cardTitle": "Help you and your child overcome an injury.",
         "accessibilityLabel": "Photo of a young girl walking with crutches and a nurse assisting her.",
-        "accessabilityHint": "Photo of a young girl walking with crutches and a nurse assisting her.",
+        "accessibilityHint": "Photo of a young girl walking with crutches and a nurse assisting her.",
         "MAIN_TITLE": "Injury and Pain Care",
         "main_Paragraph_1": "This section of the website offers some general information about common injuries and tips for home management, as well as helpful hints for pain management and injury prevention.",
         "main_Paragraph_2": "Remember, your healthcare provider is the best source for information regarding your child's injury. If you have specific questions or concerns about your child's injury or treatment, please make sure to talk with your healthcare provider. If any information in this website is different from what your healthcare provider recommends, follow your healthcare provider's advice.",
@@ -559,9 +559,9 @@
         "Ch1_p1": "Each year, one in every four children is treated by a doctor because of an injury such as a fall from a bicycle or an animal bite. Some of these injuries are minor, but many of them are very serious.",
         "Ch1_p2": "You can’t always stop your children from getting bumps and bruises but you can reduce the chances that they’ll be seriously injured by taking safety precautions such as always buckling up in motor vehicles.",
         "Ch1_accessibilityLabel": "Click here for safety tips",
-        "Ch1_accessabilityHint": "Navigates to a website about safety tips",
+        "Ch1_accessibilityHint": "Navigates to a website about safety tips",
         "Ch1_click_here": "Click here",
-        "Ch1_p3": "to find more safety tips on topics such as child passenger safety, bicycle safety, dog bites, falls, pedestrian safety, fire safety, water safety and more.",   
+        "Ch1_p3": "to find more safety tips on topics such as child passenger safety, bicycle safety, dog bites, falls, pedestrian safety, fire safety, water safety and more.",
         "CHAPTER_2_MAIN_TITLE": "Abdominal Trauma",
         "Ch2_p1": "Abdominal trauma involves injury to the belly between the chest and the hips and the internal organs there – the most common injuries to organs in the belly include the small intestine, liver, spleen, pancreas, kidneys, and bladder.",
         "Ch2_p2": "Follow instructions provided by your healthcare provider (doctor or nurse practitioner). It is important that your child follow all of the special instructions given by your healthcare provider to decrease any risk of bleeding inside.",
@@ -667,7 +667,7 @@
         "Ch5_p3": "Initial treatment for a concussion is rest, both mental and physical, which allows the brain time to heal. Every child’s injury and recovery is unique, but with guidance from a doctor, your child can slowly return to school and to play following a concussion.",
         "Ch5_p4_part1": "For comprehensive information about concussion, including how a concussion is diagnosed, prevention strategies, returning to school and play, and support resources, visit",
         "Ch5_accessibilityLabel": "Click here for concussion tips",
-        "Ch5_accessabilityHint": "Navigates to a website about concussions",
+        "Ch5_accessibilityHint": "Navigates to a website about concussions",
         "Ch5_click_here": "Concussion Care for Kids: Minds Matter",
         "Ch5_p4_part2": ", a website developed by an interdisciplinary team of concussion experts at The Children's Hospital of Philadelphia.",
         "CHAPTER_6_MAIN_TITLE": "Recognizing and Managing Pain",
@@ -754,7 +754,7 @@
         "Ch6_t5_b2": "- Let your doctor know where the pain is, what makes it better, what makes it worse.",
         "Ch6_t5_b3": "- Bring all of your medicines with you to all appointments.",
         "Ch6_t5_b4": "- If you are going to another specialist, try to bring along any medical records and copies of radiographs, MRIs, and CT scans.",
-        "Ch6_t5_b5": "- If your child is going to therapy, ask them to manage your child's pain."      
+        "Ch6_t5_b5": "- If your child is going to therapy, ask them to manage your child's pain."
     },
     "listFindHelp": {
         "header": "Find Help",
@@ -852,7 +852,7 @@
         "cardHeader": "Quick Tips",
         "cardTitle": "6 quick tips to help you and your child when overcoming a traumatic injury.",
         "accessibilityLabelCont": "Quick Tips",
-        "accessabilityLabelPic": "Photo of a mother speaking to her child.",
+        "accessibilityLabelPic": "Photo of a mother speaking to her child.",
         "tip_one": "1. Let your child know that they are safe.",
         "tip_two": "2. Allow children to talk about their feelings, and their worries, if they want to.",
         "tip_three": "3. Go back to normal routines.",
@@ -873,7 +873,7 @@
         "op3": "Never",
         "headerTitle": "Quiz",
         "accessibilityLabelCont": "Quiz to rate child's traumatic stress level",
-        "accessabilityLabelPic": "Image of child reacting to stress",
+        "accessibilityLabelPic": "Image of child reacting to stress",
         "title": "Rate your child's reactions in the quiz below.",
         "description": "You can rate these on your own, based on what you have noticed with your child. If possible, you may want to involve your child in answering these questions with you.",
         "qt1": "Re-experiencing: Reliving what happened",
@@ -992,7 +992,7 @@
             "paragraphThreeBold": "traumatic stress."
         }
     },
-    "resources": { 
+    "resources": {
         "back": "BACK",
         "resources": "Resources",
         "description": "Find additional resources for you and your child.",
@@ -1411,7 +1411,7 @@
         "content": {
             "reExperiencing": {
                 "title": "Re-Experiencing: Reliving what happened",
-                "accessability": "Navigates to Re-Experiencing: Reliving what happened",
+                "accessibility": "Navigates to Re-Experiencing: Reliving what happened",
                 "why": "Why it happens:",
                 "problem": "Is this a problem?:",
                 "paragraphTitle1": "\"I think a lot about what happened to my child.\"",
@@ -1426,7 +1426,7 @@
             },
             "avoidance": {
                 "title": "Avoidance: Staying away from reminders",
-                "accessability": "Navigates to Avoidance: Staying away from reminders",
+                "accessibility": "Navigates to Avoidance: Staying away from reminders",
                 "why": "Why it happens:",
                 "problem": "Is this a problem?:",
                 "paragraphTitle1": "\"I don't want to talk or think about what happened.\"",
@@ -1444,7 +1444,7 @@
             },
             "hyperArousal": {
                 "title": "Hyper-Arousal: Feeling anxious or jumpy",
-                "accessability": "Navigates to Hyper-Arousal: Feeling anxious or jumpy",
+                "accessibility": "Navigates to Hyper-Arousal: Feeling anxious or jumpy",
                 "why": "Why it happens:",
                 "problem": "Is this a problem?:",
                 "paragraphTitle1": "\"I find myself worrying a lot that something else bad will happen - or worry a lot about my child being safe.\"",
@@ -1468,7 +1468,7 @@
             },
             "selfCareParents": {
                 "title": "Self-Care for Parents",
-                "accessability": "Navigates to Self-Care for Parents",
+                "accessibility": "Navigates to Self-Care for Parents",
                 "paragraphTitle1": "Taking care of yourself: Re-experiencing",
                 "paragraph1": "-Talk with friends or family about your own experiences and feelings about your child's injury.",
                 "paragraph2": "-Help yourself deal with overwhelming or troubling thoughts by learning how to \"take a break\" from them at times - do something fun, spend time with friends, get busy with other activities.",

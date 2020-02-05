@@ -3,7 +3,7 @@
         "header": "Encontrar ayuda",
         "video_title": "Cómo hacer frente a nuevos miedos y preocupaciones",
         "accessibilityLabel": "Video sobre cómo hacer frente a nuevos miedos y preocupaciones",
-        "accessabilityHint": "Video sobre cómo hacer frente a nuevos miedos y preocupaciones",
+        "accessibilityHint": "Video sobre cómo hacer frente a nuevos miedos y preocupaciones",
         "video_subtitle_1": "¿Nuevos miedos o preocupaciones? ",
         "video_subtitle_2": "Mire el video y lea a continuación para obtener más información sobre estos síntomas.",
         "q1": "¿Cómo se desarrollan nuevos miedos?",
@@ -320,7 +320,7 @@
                 ]
             },
             {
-                "name": "Terminología de Reacciones al Estrés Traumático",
+                "name": "Reacciones al Estrés Traumático",
                 "content": [
                     {
                         "term": "Trastorno por estrés agudo (TEA)",
@@ -506,7 +506,7 @@
         "header": "Encontrar ayuda",
         "video_title": "Cómo hablar con su hijo",
         "accessibilityLabel": "Video sobre cómo hablar con su hijo.",
-        "accessabilityHint": "Video sobre cómo hablar con su hijo.",
+        "accessibilityHint": "Video sobre cómo hablar con su hijo.",
         "video_subtitle_1": "No siempre es fácil saber cómo hablar con su hijo.",
         "video_subtitle_2": "Aquí hay algunos consejos para ayudar.",
         "subtitle": "Después de que ocurre algo que da miedo, como una lesión, no siempre es fácil saber cómo hablar con su hijo acerca de lo sucedido y cuál es la mejor manera de ayudar.",
@@ -549,7 +549,7 @@
         "cardHeader": "Lesión y Dolor",
         "cardTitle": "Ayude a su hijo a superar una lesión.",
         "accessibilityLabel": "Foto de una joven caminando con muletas y una enfermera ayudándola.",
-        "accessabilityHint": "Foto de una joven caminando con muletas y una enfermera ayudándola.",
+        "accessibilityHint": "Foto de una joven caminando con muletas y una enfermera ayudándola.",
         "MAIN_TITLE": "Cuidado de las lesiones y del dolor",
         "main_Paragraph_1": "Esta sección del sitio web ofrece información general acerca de lesiones comunes y consejos para ocuparse de ellas en casa, así como consejos útiles para del manejo del dolor y la prevención de lesiones.",
         "main_Paragraph_2": "Recuerde que su proveedor de atención médica es la mejor fuente de información relacionada con la lesión de su hijo. Si tiene alguna pregunta o preocupación específica sobre la lesión o el tratamiento de su hijo, por favor asegúrese de hablar con su proveedor de atención médica. Si la información de este sitio web difiere de lo que su proveedor de atención médica le recomienda, siga los consejos de su proveedor de atención médica.",
@@ -558,7 +558,7 @@
         "Ch1_p1": "Cada año, uno de cada cuatro niños es tratado por un médico por lesiones tales cómo caerse de la bicicleta o ser mordido por un animal. Algunas de estas lesiones son menores pero muchas de ellas son muy graves.",
         "Ch1_p2": "No siempre puede evitar que sus hijos tengan golpes y moretones, pero puede reducir la posibilidad de una lesión grave tomando precauciones, tales como abrochar siempre el cinturón de seguridad en automóviles.",
         "Ch1_accessibilityLabel": "Haga clic aquí para obtener consejos de seguridad.",
-        "Ch1_accessabilityHint": "Navegue a un sitio web sobre consejos de seguridad",
+        "Ch1_accessibilityHint": "Navegue a un sitio web sobre consejos de seguridad",
         "Ch1_click_here": "Haz clic aquí",
         "Ch1_p3": "para encontrar más pautas de seguridad referentes a temas tales como: seguridad del niño en un automóviles, seguridad en la bicicleta, mordidas de perros, caídas, seguridad peatonal, seguridad contra incendios, seguridad en el agua y más.",
         "CHAPTER_2_MAIN_TITLE": "Traumatismo abdominal",
@@ -666,7 +666,7 @@
         "Ch5_p3": "El tratamiento primario de una conmoción cerebral es el descanso, tanto mental como físico, que le da tiempo al cerebro a recuperarse. La lesión y recuperación de cada niño es diferente, pero con el asesoramiento de un médico su hijo puede volver a la escuela y empezar a jugar gradualmente.",
         "Ch5_p4_part1": "Para obtener información exhaustiva sobre la conmoción cerebral, incluyendo los métodos de diagnóstico, las estrategias de prevención, la vuelta a la escuela y al juego y los recursos de apoyo, visite",
         "Ch5_accessibilityLabel": "Haga clic aquí para obtener consejos sobre conmoción cerebral",
-        "Ch5_accessabilityHint": "Explore un sitio web sobre conmociones cerebrales",
+        "Ch5_accessibilityHint": "Explore un sitio web sobre conmociones cerebrales",
         "Ch5_click_here": "Atención en caso de conmoción cerebral infantil: la mente importar (en inglés)",
         "Ch5_p4_part2": ", un sitio web desarrollado por un equipo interdisciplinario de expertos en conmoción cerebral del Hospital Pediátrico de Filadelfia. (en inglés)",
         "CHAPTER_6_MAIN_TITLE": "Reconocer y controlar el dolor",
@@ -753,7 +753,7 @@
         "Ch6_t5_b2": "- Hacerle saber al médico dónde está ubicado el dolor, qué lo hace mejorar y qué lo empeora.",
         "Ch6_t5_b3": "- Llevar todos los medicamentos a todas las consultas.",
         "Ch6_t5_b4": "- Si va a otro especialista procure llevar todo el historial médico y las copias de las radiografías, y de los estudios de IRM o TAC.",
-        "Ch6_t5_b5": "- Si su hijo asiste a terapia pida al terapeuta que se trate el control del dolor."     
+        "Ch6_t5_b5": "- Si su hijo asiste a terapia pida al terapeuta que se trate el control del dolor."
     },
     "listFindHelp": {
         "header":"Encontrar Ayuda",
@@ -1276,7 +1276,7 @@
         "content": {
             "reExperiencing": {
                 "title": "Reexperimentar: Reviviendo lo sucedido",
-                "accessability": "Navega para volver a experimentar: revivir lo que sucedió",
+                "accessibility": "Navega para volver a experimentar: revivir lo que sucedió",
                 "why": "Por qué sucede esto:",
                 "problem": "¿Es esto un problema?:",
                 "paragraphTitle1": "\"Pienso mucho sobre lo que le sucedió a mi hijo\"",
@@ -1291,7 +1291,7 @@
             },
             "avoidance": {
                 "title": "Evasión: Mantenerse alejado de los recordatorios",
-                "accessability": "Navega hacia la evitación: mantenerse alejado de los recordatorios",
+                "accessibility": "Navega hacia la evitación: mantenerse alejado de los recordatorios",
                 "why": "Por qué sucede esto:",
                 "problem": "¿Es esto un problema?:",
                 "paragraphTitle1": "\"No quiero hablar ni pensar en lo que ha pasado\"",
@@ -1309,7 +1309,7 @@
             },
             "hyperArousal": {
                 "title": "Híper alteración: Sentirse ansioso o nervioso",
-                "accessability": "Navega hacia la hiper-excitación: sentirse ansioso o nervioso",
+                "accessibility": "Navega hacia la hiper-excitación: sentirse ansioso o nervioso",
                 "why": "Por qué sucede esto:",
                 "problem": "¿Es esto un problema?:",
                 "paragraphTitle1": "\"Me preocupo mucho porque pueda suceder algo malo, o me preocupo mucho por si mi hijo estará a salvo\"",
@@ -1333,7 +1333,7 @@
             },
             "selfCareParents": {
                 "title": "He tenido problemas para dormir",
-                "accessability": "Navega hacia el autocuidado de los padres",
+                "accessibility": "Navega hacia el autocuidado de los padres",
                 "paragraphTitle1": "Cuidarse a uno mismo: volver a experimentar",
                 "paragraph1": "-Hable con amigos o familiares sobre sus propias experiencias y sentimientos respecto de la lesión de su hijo.",
                 "paragraph2": "-Ayúdese usted mismo a lidiar con los pensamientos abrumadores o preocupantes aprendiendo a cómo \"tomar un descanso\" cada tanto- hacer algo divertido, pasar un rato con amigos, mantenerse ocupado con otras actividades.",
