@@ -1,3 +1,4 @@
+import i18n from 'i18n-js';
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
@@ -17,6 +18,7 @@ class DealWithWorries extends Component {
                 </Text>
                 <Video
                     source={require('../assets/videos/vidDealWithWorries.mp4')}
+                    source={i18n.locale.includes('en') ? require('../assets/videos/vidDealWithWorries.mp4') : require('../assets/videos/vidDealWithWorriesEs.mp4')}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
