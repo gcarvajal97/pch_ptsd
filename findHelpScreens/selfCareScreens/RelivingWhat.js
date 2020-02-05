@@ -1,67 +1,28 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, ScrollView,} from 'react-native';
+import translate from '../../components/translateService';
 
 class RelivingWhat extends Component {
 
   render() {
     return (
-            <View>
-
-                <Text style={styles.paragraphTitle}>
-                    "I think a lot about what happened to my child."
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Why it happens:
-                </Text>
-                <Text style={styles.paragraph}>
-                    Thinking and talking about what happened, especially in the first 
-                    few days and weeks, is part of how we help ourselves recover from a scary experience 
-                    or traumatic event.
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Is this a problem?:
-                </Text>
-                <Text style={styles.paragraph}>
-                    Do thoughts about the traumatic event often pop into your mind 
-                    even when you don't want them to? Do the thoughts bother or upset you?
-                </Text>
-                
-                <Text style={styles.paragraphTitle}>
-                    "I have had bad dreams or nightmares since the injury."
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Why it happens:
-                </Text>
-                <Text style={styles.paragraph}>
-                    In a stressful time, it's not unusual to have a few bad dreams.                
-                </Text>
-                <Text style={styles.paragraphBold}>
-                    Is this a problem?:
-                </Text>  
-                <Text style={styles.paragraph}>
-                    Are the nightmares interfering with getting a good night's sleep?
-                </Text>
-                
-                <Text style={styles.paragraphTitle}>
-                    "I get upset or have physical symptoms (headache, stomachache, heart beating fast) 
-                    at reminders of what happened."
-                </Text> 
-                <Text style={styles.paragraphBold}>
-                    Why it happens:
-                </Text>
-                <Text style={styles.paragraph}>
-                    When something scary happens, we learn to treat things connected 
-                    to it as if they were danger signals. Sights, sounds, and even smells can be reminders.
-                </Text> 
-                <Text style={styles.paragraphBold}>
-                    Is this a problem?:
-                </Text>  
-                <Text style={styles.paragraph}>
-                    Do these feelings happen nearly every day? Do they make it hard 
-                    for you to relax, or to concentrate on things you have to do at home or at work?
-                </Text>             
-                
-            </View>
+        <View>
+            <Text style={styles.paragraphTitle}>{translate('selfCare.content.reExperiencing.paragraphTitle1')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.reExperiencing.why')}</Text>
+            <Text style={styles.paragraph}>{translate('selfCare.content.reExperiencing.paragraph1')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.reExperiencing.problem')}</Text>
+            <Text style={styles.paragraph}>{translate('selfCare.content.reExperiencing.paragraph2')}</Text>
+            <Text style={styles.paragraphTitle}>{translate('selfCare.content.reExperiencing.paragraphTitle2')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.reExperiencing.why')}</Text>
+            <Text style={styles.paragraph}>{translate('selfCare.content.reExperiencing.paragraph3')}</Text>
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.reExperiencing.problem')}</Text>  
+            <Text style={styles.paragraph}>{translate('selfCare.content.reExperiencing.paragraph4')}</Text>
+            <Text style={styles.paragraphTitle}>{translate('selfCare.content.reExperiencing.paragraphTitle3')}</Text> 
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.reExperiencing.why')}</Text>
+            <Text style={styles.paragraph}>{translate('selfCare.content.reExperiencing.paragraph5')}</Text> 
+            <Text style={styles.paragraphBold}>{translate('selfCare.content.reExperiencing.problem')}</Text>  
+            <Text style={styles.paragraph}>{translate('selfCare.content.reExperiencing.paragraph6')}</Text>             
+        </View>
     );
   }
 }

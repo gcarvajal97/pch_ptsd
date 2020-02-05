@@ -7,6 +7,7 @@ import { ScrollView,
 import * as Animatable from 'react-native-animatable';
 import Accordion from 'react-native-collapsible/Accordion';
 import { Card } from 'react-native-elements';
+import { translate } from '../../components/translateService';
 
 import whenToGetHelpImage from '../../assets/whenToGetHelp.jpg';
 import WhenToLook from './WhenToLook';
@@ -15,21 +16,21 @@ import WhenAndHowToLookForYourself from './WhenAndHowToLookForYourself';
 
 // List of screens that will be dispalyed in this list component
 const PAGES = [{
-        name: 'When to Look For More Help',
+        name: translate('whenToGetOutsideHelp.page1'),
         content: <WhenToLook /> ,
-        accessibilityHint: 'Navigates to When to look for outside help Page',
+        accessibilityHint: translate('whenToGetOutsideHelp.page1Accessability'),
         value: 0
     },
     {
-        name: 'How to Look For Professional Help',
+        name: translate('whenToGetOutsideHelp.page2'),
         content: <HowToLook />,
-        accessibilityHint: 'Navigates to How to look for professional help or counseling for your child Page',
+        accessibilityHint: translate('whenToGetOutsideHelp.page2Accessability'),
         value: 1
     },
     {
-        name: 'When and How to Look For Help For Yourself',
+        name: translate('whenToGetOutsideHelp.page3'),
         content: <WhenAndHowToLookForYourself />,
-        accessibilityHint: 'Navigates to When and how to look for more help for yourself Page',
+        accessibilityHint: translate('whenToGetOutsideHelp.page3Accessability'),
         value: 2
     }
 ]
@@ -87,7 +88,7 @@ export default class WhenToGetOutsideHelpScreen extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Find Help'
+        headerTitle: translate('whenToGetOutsideHelp.headerTitle')
     }
     render() {
         const { multipleSelect, activeSections } = this.state;
@@ -96,21 +97,14 @@ export default class WhenToGetOutsideHelpScreen extends Component {
           <View style={styles.container}>
           <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
           <Card image={whenToGetHelpImage} featuredTitleStyle={{ fontSize: 40 }}
-                        containerStyle={{ margin: 8 }} featuredTitle='Get Outside Help'
+                        containerStyle={{ margin: 8 }} featuredTitle={translate('whenToGetOutsideHelp.featuredTitle')}
                         accessible
-                        accessibilityHint='Photo of two people holding hands over coffee'
+                        accessibilityHint={translate('whenToGetOutsideHelp.cardAccessibilityHint')}
                     >
-                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>It is important to know when to get professional help.</Text>
+                        <Text style={{ margin: -6, textAlign: 'center', fontWeight:'bold' }}>{translate('whenToGetOutsideHelp.subTitle')}</Text>
                     </Card>
-            <Text style={styles.paragraphTitle}>When To Get Outside Help</Text>
-            <Text style={styles.paragraph}>You have the very important job of making 
-            sure your child gets the best medical care for his physical injuries.
-            You are also the best person to monitor how your child is coping, 
-            and when some extra help, such as trauma counseling, might be needed. 
-            In the first few days after an injury, many kids (and parents) feel a 
-            little upset, jumpy or worried, and can use a little extra support 
-            from family and friends.
-            </Text>
+            <Text style={styles.paragraphTitle}>{translate('whenToGetOutsideHelp.paragraphTitle')}</Text>
+            <Text style={styles.paragraph}>{translate('whenToGetOutsideHelp.paragraph')}</Text>
 
             <Accordion
               activeSections={activeSections}
