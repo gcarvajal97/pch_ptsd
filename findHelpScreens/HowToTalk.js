@@ -1,3 +1,4 @@
+import i18n from 'i18n-js';
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
@@ -18,7 +19,7 @@ class HowToTalk extends Component {
                     {translate('howToTalk.video_title')}
                 </Text>
                 <Video
-                    source={require('../assets/videos/vidHowToTalk.mp4')}
+                    source={i18n.locale.includes('en') ? require('../assets/videos/vidHowToTalk.mp4') : require('../assets/videos/vidHowToTalkEs.mp4')}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_STRETCH}
@@ -32,11 +33,11 @@ class HowToTalk extends Component {
                 />
                 <Text style={styles.subTitle}>
                 <Text style={{ fontWeight: 'bold' }}>{translate('howToTalk.video_subtitle_1')}</Text>{translate('howToTalk.video_subtitle_2')}</Text>
-                
+
                 <ScrollView>
-                    
+
                     <Text style={styles.paragraph}>{translate('howToTalk.subtitle')}</Text>
-                    
+
                     <Text style={styles.paragraphTitle}>{translate('howToTalk.title_1')}</Text>
                     <Text style={styles.bullet}>{translate('howToTalk.tip_11')}</Text>
                     <Text style={styles.bullet}>{translate('howToTalk.tip_12')}</Text>
@@ -47,7 +48,7 @@ class HowToTalk extends Component {
                     <Text style={styles.subBullet}>{translate('howToTalk.subtip_14_a')}</Text>
                     <Text style={styles.subBullet}>{translate('howToTalk.subtip_14_b')}</Text>
                     <Text style={styles.subBullet}>{translate('howToTalk.subtip_14_c')}</Text>
-                    
+
                     <Text style={styles.paragraphTitle}>{translate('howToTalk.title_2')}</Text>
                     <Text style={styles.bullet}>{translate('howToTalk.tip_21')}</Text>
                     <Text style={styles.subBullet}>{translate('howToTalk.subtip_21')}</Text>
@@ -57,7 +58,7 @@ class HowToTalk extends Component {
                     <Text style={styles.subBullet}>{translate('howToTalk.subtip_23')}</Text>
                     <Text style={styles.bullet}>{translate('howToTalk.tip_24')}</Text>
                     <Text style={styles.subBullet}>{translate('howToTalk.subtip_24_a')}</Text>
-                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_24_b')}</Text>                    
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_24_b')}</Text>
 
                     <Text style={styles.paragraphTitle}>{translate('howToTalk.title_3')}</Text>
                     <Text style={styles.bullet}>{translate('howToTalk.tip_31')}</Text>
@@ -66,7 +67,7 @@ class HowToTalk extends Component {
                     <Text style={styles.bullet}>{translate('howToTalk.tip_34')}</Text>
                     <Text style={styles.bullet}>{translate('howToTalk.tip_35')}</Text>
                     <Text style={styles.subBullet}>{translate('howToTalk.subtip_35_a')}</Text>
-                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_35_b')}</Text>                    
+                    <Text style={styles.subBullet}>{translate('howToTalk.subtip_35_b')}</Text>
 
                     <Text style={styles.paragraphTitle}>{translate('howToTalk.title_4')}</Text>
                     <Text style={styles.bullet}>{translate('howToTalk.tip_41')}</Text>
@@ -99,21 +100,21 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     title: {
-        backgroundColor: '#2089DC', 
-        color: 'white', 
-        fontWeight: 'bold', 
-        fontSize: 22, 
-        textAlign: 'center', 
+        backgroundColor: '#2089DC',
+        color: 'white',
+        fontWeight: 'bold',
+        fontSize: 22,
+        textAlign: 'center',
         alignSelf: 'stretch'
     },
     subTitle: {
-        backgroundColor: '#2089DC', 
-        color: 'white', 
-        alignSelf: 'stretch', 
-        paddingLeft: 15, 
-        paddingRight:15, 
-        fontSize: 15, 
-        borderBottomWidth:2, 
+        backgroundColor: '#2089DC',
+        color: 'white',
+        alignSelf: 'stretch',
+        paddingLeft: 15,
+        paddingRight:15,
+        fontSize: 15,
+        borderBottomWidth:2,
         borderBottomColor:'#2089DC',
     },
     paragraphTitle: {
@@ -127,23 +128,23 @@ const styles = StyleSheet.create({
         color:'#2089DC'
     },
     bullet: {
-        marginVertical:1, 
-        marginHorizontal:18, 
-        textAlign:'left', 
-        alignSelf:'stretch', 
+        marginVertical:1,
+        marginHorizontal:18,
+        textAlign:'left',
+        alignSelf:'stretch',
         fontWeight:'bold',
         fontSize:14
     },
     subBullet: {
-      marginVertical:1, 
-      marginHorizontal:30, 
-      textAlign:'left', 
-      alignSelf:'stretch', 
+      marginVertical:1,
+      marginHorizontal:30,
+      textAlign:'left',
+      alignSelf:'stretch',
       fontSize:14,
     },
     paragraph: {
-        alignSelf:"center", 
-        paddingVertical:1, 
+        alignSelf:"center",
+        paddingVertical:1,
         paddingHorizontal:5,
         fontSize: 14,
         marginTop: 5,

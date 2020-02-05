@@ -1,3 +1,4 @@
+import i18n from 'i18n-js';
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
@@ -17,6 +18,7 @@ class DealWithWorries extends Component {
                 </Text>
                 <Video
                     source={require('../assets/videos/vidDealWithWorries.mp4')}
+                    source={i18n.locale.includes('en') ? require('../assets/videos/vidDealWithWorries.mp4') : require('../assets/videos/vidDealWithWorriesEs.mp4')}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
@@ -42,7 +44,7 @@ class DealWithWorries extends Component {
                     <Text style={styles.headline}>{translate('dealWithWorries.q3')}</Text>
                     <Text style={styles.paragraph}>{translate('dealWithWorries.q3_p1')}</Text>
                     <Text style={styles.paragraph}>{translate('dealWithWorries.q3_p2')}</Text>
-                    
+
                     <Text style={styles.headline}>{translate('dealWithWorries.q4')}</Text>
                     <Text style={styles.paragraphBold}>{translate('dealWithWorries.q4_tip1')}</Text>
                     <Text style={styles.bulletLight}>{translate('dealWithWorries.q4_tip1_bullet')}</Text>
@@ -55,7 +57,7 @@ class DealWithWorries extends Component {
                     <Text style={styles.paragraphBold}>{translate('dealWithWorries.q4_tip5')}</Text>
                     <Text style={styles.bulletLight}>{translate('dealWithWorries.q4_tip5_bullet1')}</Text>
                     <Text style={styles.bulletLight}>{translate('dealWithWorries.q4_tip5_bullet2')}</Text>
-                    
+
                     <Text style={styles.headline}>{translate('dealWithWorries.q5')}</Text>
                     <Text style={styles.paragraph}>{translate('dealWithWorries.q5_p1')}</Text>
                     <Text style={styles.paragraph}>{translate('dealWithWorries.q5_p2')}</Text>
@@ -84,32 +86,32 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     bullet: {
-        marginVertical:1, 
-        marginHorizontal:18, 
-        textAlign:'left', 
-        alignSelf:'stretch', 
+        marginVertical:1,
+        marginHorizontal:18,
+        textAlign:'left',
+        alignSelf:'stretch',
         fontWeight:'bold',
         fontSize:14,
         paddingTop: 4,
     },
     bulletLight: {
-        marginVertical:1, 
-        marginHorizontal:18, 
-        textAlign:'left', 
-        alignSelf:'stretch', 
+        marginVertical:1,
+        marginHorizontal:18,
+        textAlign:'left',
+        alignSelf:'stretch',
         fontSize:14,
         paddingTop: 4,
     },
     paragraph: {
-        alignSelf:"center", 
-        paddingVertical:1, 
+        alignSelf:"center",
+        paddingVertical:1,
         paddingHorizontal:5,
         fontSize: 14,
         marginTop: 5,
     },
     paragraphBold: {
         textAlign:'left',
-        paddingVertical:1, 
+        paddingVertical:1,
         paddingHorizontal:5,
         fontSize: 14,
         marginTop: 5,
@@ -119,8 +121,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize:20, alignSelf:'stretch',
         textAlign:'left',
-        marginLeft:5, 
-        marginTop:4, 
-        marginBottom:3, 
+        marginLeft:5,
+        marginTop:4,
+        marginBottom:3,
         color:'#2089DC'}
 });
