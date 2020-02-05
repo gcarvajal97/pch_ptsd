@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Button, ButtonGroup, Card } from "react-native-elements";
 import NavigationService from "../components/NavigationService";
-import QuizRateReactions from "../assets/QuizRateReactions.jpg"
-
+import QuizRateReactions from "../assets/QuizRateReactions.jpg";
+import translate from '../components/translateService';
 
 class QuizMain extends Component {
     constructor () {
@@ -12,102 +12,79 @@ class QuizMain extends Component {
         this.state = {
           1: 2, 2: 2, 3: 2, 4: 2, 5: 2,
           6: 2, 7: 2, 8: 2, 9: 2, 10: 2,
-          11: 2, 12: 2, 13: 2, 14: 2, 15: 2, 
+          11: 2, 12: 2, 13: 2, 14: 2, 15: 2,
           16: 2, 17: 2, 18: 2
         }
       }
 
       static navigationOptions = {
-        headerTitle: 'Take the Quiz'
+        headerTitle: translate('quizMain.header')
     }
 
     render() {
         // selectedIndex of each Radio ButtonGroup [0, 1, 2] coincides with the array below. 0 -> Always, 1 -> Sometimes, 2 -> Never
-        const buttons = ['Always', 'Sometimes', 'Never'];
+        const buttons = [translate('quizMain.op1'), translate('quizMain.op2'), translate('quizMain.op3')];
         return (
-            <View style={styles.container} accessible accessibilityLabel="Quiz to rate child's traumatic stress level">
+            <View style={styles.container} accessible accessibilityLabel={translate('quizMain.accessibilityLabelCont')}>
+
                 <ScrollView>
-                    <Card image={QuizRateReactions} featuredTitle='Quiz' featuredTitleStyle={{fontSize:42}} containerStyle={{margin:8, padding:-1}}
-                             accessible accessibilityLabel='Image of child reacting to stress'>
-                        <Text style={{marginVertical:-8, textAlign:'center'}}>Rate your child's reactions in the quiz below.</Text></Card>
-                    <Text style={styles.paragraph}>You can rate these on your own, based on what you have noticed with your child. If possible, you
-                        may want to involve your child in answering these questions with you.</Text>
-                    <Text style={styles.questionTitle}>
-                        Re-experiencing: Reliving what happened</Text>
-
-                        <Text style={styles.question}>
-                        1. Thinks a lot about what happened to them</Text>
+                    <Card image={QuizRateReactions} featuredTitle={translate('quizMain.header')} featuredTitleStyle={{fontSize:42}} containerStyle={{margin:8, padding:-1}}
+                             accessible accessibilityLabel={translate('quizMain.accessibilityLabelPic')}>
+                        <Text style={{marginVertical:-8, textAlign:'center'}}>{translate('quizMain.title')}</Text></Card>
+                        <Text style={styles.paragraph}>{translate('quizMain.description')}</Text>
+                        <Text style={styles.questionTitle}>{translate('quizMain.qt1')}</Text>
+                        <Text style={styles.question}>{translate('quizMain.q1')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'1': e})} selectedIndex={this.state[1]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        2. Has bad dreams or nightmares since the injury</Text>
+                        <Text style={styles.question}> {translate('quizMain.q2')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'2': e})} selectedIndex={this.state[2]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        3. Gets upset or has physical reactions (headache, stomachache, heart pounding) at reminders of what happened</Text>
+                        <Text style={styles.question}> {translate('quizMain.q3')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'3': e})} selectedIndex={this.state[3]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.questionTitle}>
-                        Avoidance: Staying away from reminders</Text>
 
-                        <Text style={styles.question}>
-                        4. Doesn’t want to talk about what happened or tries to push it out of their mind</Text>
+                        <Text style={styles.questionTitle}> {translate('quizMain.qt2')}</Text>
+                        <Text style={styles.question}>{translate('quizMain.q4')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'4': e})} selectedIndex={this.state[4]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        5. Wants to stay away from people, places, or things that are reminders of what happened</Text>
+                        <Text style={styles.question}>{translate('quizMain.q5')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'5': e})} selectedIndex={this.state[5]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        6. Afraid of something that they were not afraid of before (or a previous fear or worry seems to get worse)</Text>
+                        <Text style={styles.question}>{translate('quizMain.q6')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'6': e})} selectedIndex={this.state[6]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        7. Not interested in usual activities, since the injury</Text>
+                        <Text style={styles.question}>{translate('quizMain.q7')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'7': e})} selectedIndex={this.state[7]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        8. Not interested in being with people they usually like being with ,since the injury</Text>
+                        <Text style={styles.question}>{translate('quizMain.q8')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'8': e})} selectedIndex={this.state[8]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.questionTitle}>
-                        Hyper-arousal: Feeling anxious or jumpy</Text>
 
-                        <Text style={styles.question}>
-                        9. Worries a lot that something else bad will happen</Text>
+                        <Text style={styles.questionTitle}>{translate('quizMain.qt3')}</Text>
+                        <Text style={styles.question}>{translate('quizMain.q9')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'9': e})} selectedIndex={this.state[9]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        10. Startles easily – for example, jumps if there is a sudden noise</Text>
+                        <Text style={styles.question}>{translate('quizMain.q10')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'10': e})} selectedIndex={this.state[10]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        11. Seems irritable or has angry outbursts, since the injury</Text>
+                        <Text style={styles.question}>{translate('quizMain.q11')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'11': e})} selectedIndex={this.state[11]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        12. Has trouble paying attention to things, since the injury</Text>
+                        <Text style={styles.question}>{translate('quizMain.q12')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'12': e})} selectedIndex={this.state[12]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        13. Has trouble falling or staying asleep, since the injury</Text>
+                        <Text style={styles.question}>{translate('quizMain.q13')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'13': e})} selectedIndex={this.state[13]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.questionTitle}>
-                        Other concerns about your child</Text>
 
-                        <Text style={styles.question}>
-                        14. Is still having pain or discomfort</Text>
+                        <Text style={styles.questionTitle}>{translate('quizMain.qt4')}</Text>
+                        <Text style={styles.question}>{translate('quizMain.q14')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'14': e})} selectedIndex={this.state[14]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        15. Has had other behavior changes since the injury</Text>
+                        <Text style={styles.question}>{translate('quizMain.q15')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'15': e})} selectedIndex={this.state[15]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        16. Is having trouble with returning to school or other activities</Text>
+                        <Text style={styles.question}>{translate('quizMain.q16')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'16': e})} selectedIndex={this.state[16]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.questionTitle}>
-                        Concerns about how others in the family are coping</Text>
 
-                        <Text style={styles.question}>
-                        17. Brothers or sisters are upset or worried</Text>
+                        <Text style={styles.questionTitle}>{translate('quizMain.qt5')}</Text>
+                        <Text style={styles.question}>{translate('quizMain.q17')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'17': e})} selectedIndex={this.state[17]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.question}>
-                        18. You (parent) are stressed or worried yourself</Text>
+                        <Text style={styles.question}>{translate('quizMain.q18')}</Text>
                         <ButtonGroup buttons={buttons} onPress={(e) => this.setState({'18': e})} selectedIndex={this.state[18]} containerStyle={styles.buttonGroupContainer}/>
-                        <Text style={styles.finePrint}><Text style={{fontWeight:'bold'}}>Note:</Text> This is not a formal medical or psychological assessment or diagnosis.{'\n'}
-                                If you are concerned with how you or your child is doing, please contact your doctor, 
-                                mental health professional, or other healthcare provider.{'\n\n'}
-                                <Text style={{fontWeight:'bold'}}>To Healthcare Professionals:</Text> Please use these ratings as a basis for conversation to 
-                                learn more about your patient’s response to a recent injury.</Text>
+
+                        <Text style={styles.finePrint}><Text style={{fontWeight:'bold'}}>{translate('quizMain.note')}</Text>
+                            {translate('quizMain.disclaimer1')}
+                            <Text style={{fontWeight:'bold'}}>{translate('quizMain.toHealthProf')}</Text>
+                            {translate('quizMain.disclaimer2')}
+                        </Text>
                     <Button onPress={() => { NavigationService.navigate('QuizResults', { 'results': this.state })}} title='Submit' raised containerStyle={{marginHorizontal:110, marginVertical:12}}
-                            accessible accessibilityLabel='Click here to submit your results'></Button>
+                            accessible accessibilityLabel={translate('quizMain.accessibilityLabelSub')}></Button>
                 </ScrollView>
             </View>
         );
@@ -131,8 +108,8 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     buttonGroupContainer: {
-        height:28,      
-        alignContent:'center',  
+        height:28,
+        alignContent:'center',
     },
     bullet: {
         marginVertical: 1,
@@ -160,7 +137,7 @@ const styles = StyleSheet.create({
         fontSize: 10,
         marginTop: 2,
         marginHorizontal:8,
-
+        textAlign: 'center',
     },
     questionTitle: {
         fontWeight: 'bold',

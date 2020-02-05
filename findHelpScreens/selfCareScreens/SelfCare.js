@@ -3,6 +3,7 @@ import { View, StyleSheet, Text, ScrollView, Image, ImageBackground, TouchableOp
 import * as Animatable from 'react-native-animatable';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
+import translate from '../../components/translateService';
 
 import SelfCareCard from './SelfCareCard';
 import RelivingWhat from './RelivingWhat';
@@ -12,28 +13,28 @@ import SelfCareParents from './SelfCareParents';
 
 const CONTENT = [
     {
-        title: 'Re-Experiencing: Reliving what happened',
+        title: translate('selfCare.content.reExperiencing.title'),
         content: <RelivingWhat/>,
         value: 0,
-        accessibilityHint: 'Navigates to Re-Experiencing: Reliving what happened',
+        accessibilityHint: translate('selfCare.content.reExperiencing.accessibility'),
     },
         {
-        title: 'Avoidance: Staying away from reminders',
+        title: translate('selfCare.content.avoidance.title'),
         content: <Avoidance/>,
         value: 1,
-        accessibilityHint: 'Navigates to Avoidance: Staying away from reminders',
+        accessibilityHint: translate('selfCare.content.avoidance.accessibility'),
     },
         {
-        title: 'Hyper-Arousal: Feeling anxious or jumpy',
+        title: translate('selfCare.content.hyperArousal.title'),
         content: <AnxiousJumpy/>,
         value: 2,
-        accessibilityHint: 'Navigates to Hyper-Arousal: Feeling anxious or jumpy',
+        accessibilityHint: translate('selfCare.content.hyperArousal.accessibility'),
     },
         {
-        title: 'Self-Care for Parents',
+        title: translate('selfCare.content.selfCareParents.title'),
         content: <SelfCareParents/>,
         value: 3,
-        accessibilityHint: 'Navigates to Self-Care for Parents',
+        accessibilityHint: translate('selfCare.content.hyperArousal.accessibility'),
     },
 ];
 
@@ -68,7 +69,7 @@ class SelfCare extends Component {
             </Animatable.View>
         );
     };
-    
+
     renderContent(section, _, isActive) {
         return (
             <Animatable.View
@@ -82,7 +83,7 @@ class SelfCare extends Component {
     }
 
     static navigationOptions = {
-        headerTitle: 'Find Help'
+        headerTitle: translate('selfCare.headerTitle')
     }
 
   render() {
@@ -93,15 +94,15 @@ class SelfCare extends Component {
         <View style={styles.container}>
             <ScrollView>
             <SelfCareCard/>
-        
+
             <View>
-                <Text style={styles.paragraphTitle}>In addition to all the things you do to help your child, it's very important to take good care of yourself.</Text>
-                <Text style={styles.paragraph}>It is harder to help your child if you are feeling really worried, upset, or overwhelmed.</Text>
-                <Text style={styles.paragraph}>Other parents have said: </Text>
-                <Text style={styles.paragraphBold}>"I can't stop thinking about what happened."</Text>
-                <Text style={styles.paragraphBold}>"I get upset when something reminds me of it."</Text>
-                <Text style={styles.paragraphBold}>"I worry a lot more now about my child being safe."</Text>
-                <Text style={styles.paragraph}> This section has information on some of the reactions you may notice in yourself:</Text>  
+                <Text style={styles.paragraphTitle}>{translate('selfCare.paragraphTitle')}</Text>
+                <Text style={styles.paragraph}>{translate('selfCare.paragraph1')}</Text>
+                <Text style={styles.paragraph}>{translate('selfCare.paragraph2')}</Text>
+                <Text style={styles.paragraphBold}>{translate('selfCare.paragraphBold1')}</Text>
+                <Text style={styles.paragraphBold}>{translate('selfCare.paragraphBold2')}</Text>
+                <Text style={styles.paragraphBold}>{translate('selfCare.paragraphBold3')}</Text>
+                <Text style={styles.paragraph}>{translate('selfCare.paragraph3')}</Text>
             </View>
 
             <Accordion

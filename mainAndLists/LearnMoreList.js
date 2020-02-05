@@ -1,29 +1,33 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import { Card, ListItem, Divider } from 'react-native-elements';
-
 import NavigationService from '../components/NavigationService';
+import translate from '../components/translateService';
 
-// List of screens that will be dispalyed in this list component
+// List of screens that will be displayed in this list component and their titles.
 const listNames = [
-    { name: 'You Are Not Alone', navigateTo: 'NotAlone', accessibilityHint: 'Navigates to the you are not alone screen'},
-    { name: 'Reactions to Injury', navigateTo: 'Reactions', accessibilityHint: 'Navigates to the reactions to injury screen'},
-    { name: 'What Are Traumatic Stress Reactions?', navigateTo: 'TraumaticStressReactions', accessibilityHint: 'Navigates to the what are traumatic stress reactions screen'},
-    { name: 'How Long Do Traumatic Stress Reactions Last?', navigateTo: 'HowLong', accessibilityHint: 'Navigates to the how long do traumatic stress reactions last screen'},
+    { name: translate('listLearnMore.notAlone'), navigateTo: 'NotAlone', accessibilityHint: translate('listLearnMore.notAloneHint')},
+    { name: translate('listLearnMore.reactions'), navigateTo: 'Reactions', accessibilityHint: translate('listLearnMore.reactionsHint')},
+    { name: translate('listLearnMore.stressReactions'), navigateTo: 'TraumaticStressReactions', accessibilityHint: translate('listLearnMore.stressReactionsHint')},
+    { name: translate('listLearnMore.howLong'), navigateTo: 'HowLong', accessibilityHint: translate('listLearnMore.howLongHint')},
 ]
 
 export default class LearnMoreList extends Component {
+    /**
+     * List component that renders the views and links to various aspects 
+     * of the Learn More About Injury section of the application
+     */
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Learn More'
+        headerTitle: translate('listLearnMore.header')
     }
     render() {
         return (
             <View>
                 <Card containerStyle={{margin:5}}>
                     <Text style={{textAlign: 'center', backgroundColor:'#2089DC', fontSize:20, color:'white', padding:10, paddingVertical:10, margin:0}}>
-                        WHAT TO EXPECT AFTER INJURY
+                        {translate('listLearnMore.whatToExpect')}
                     </Text>
                     <Divider style={{backgroundColor:'black', height:1, marginBottom:-1}}/>
                     <View>

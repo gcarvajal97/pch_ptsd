@@ -1,22 +1,19 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Linking } from "expo";
+import translate from '../../components/translateService';
 
 export default class InjuryPreventionTipsScreen extends Component {
   render() {
     return (
       <View>
-        <Text style={styles.paragraph}>
-        Each year, one in every four children is treated by a doctor because of an injury such as a fall from a bicycle 
-        or an animal bite. Some of these injuries are minor, but many of them are very serious.
-        You can’t always stop your children from getting bumps and bruises but you can reduce the chances that they’ll 
-        be seriously injured by taking safety precautions such as always buckling up in motor vehicles.{"\ "}
+        <Text style={styles.paragraph}>{translate('injuryPainCare.Ch1_p1')}</Text>
+        <Text style={styles.paragraph}>{translate('injuryPainCare.Ch1_p2')}{"\n"}{"\ "}
         <Text style={styles.link} onPress={()=> Linking.openURL('https://www.chop.edu/centers-programs/injury-prevention-program')}accessible
           accessible
-          accessibilityLabel="Click here for safety tips"
-          accessibilityHint="Navigates to a website on safety tips">Click here</Text>
-        {"\ "}to find more safety tips on topics such as child passenger safety, bicycle safety, dog bites, falls, pedestrian 
-        safety, fire safety, water safety and more.</Text>
+          accessibilityLabel={translate('injuryPainCare.Ch1_accessibilityLabel')}
+          accessibilityHint={translate('injuryPainCare.Ch1_accessibilityHint')}>{translate('injuryPainCare.Ch1_click_here')}</Text>
+        {"\ "}{translate('injuryPainCare.Ch1_p3')}</Text>
         </View>
     );
   }

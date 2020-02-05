@@ -1,21 +1,23 @@
+import i18n from 'i18n-js';
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
+import translate from '../components/translateService';
 
 class YoureNotAlone extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Learn More'
+        headerTitle: translate('youAreNotAlone.header')
     }
     render() {
         return (
             <View style={styles.container}>
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
-                    You Are Not Alone
+                    {translate('youAreNotAlone.title')}
                 </Text>
                 <Video
-                    source={require('../assets/videos/vidAlone.mp4')}
+                    source={i18n.locale.includes('en') ? require('../assets/videos/vidAlone.mp4') : require('../assets/videos/vidAloneEs.mp4')}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
@@ -23,31 +25,22 @@ class YoureNotAlone extends Component {
                     useNativeControls
                     style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
                     accessible
-                    accessibilityLabel="Video on how how injury is common"
-                    accessibilityHint="Video on how how injury is common"
+                    accessibilityLabel={translate('youAreNotAlone.content.videoCard.accessibility')}
+                    accessibilityHint={translate('youAreNotAlone.content.videoCard.accessibility')}
                 />
                 <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                    <Text style={{ fontWeight: 'bold' }}>Your child is not alone.</Text> Every year, millions of children in the United States are injured.
+                    <Text style={{ fontWeight: 'bold' }}>{translate('youAreNotAlone.content.videoCard.boldText')}</Text> 
+                    {translate('youAreNotAlone.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
                 <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:4, marginBottom:3, color:'#2089DC'}}>
-                    Each year in the United States, child injury statistics show that:
+                    {translate('youAreNotAlone.content.statsBullets.intro')}
                     </Text>
-                <Text style={styles.bullet}>1 in 4 children and teens need medical care for an injury.</Text>
-                <Text style={styles.bullet}>7 million injured children are treated in the ER.</Text>
-                <Text style={styles.bullet}>Several hundred thousand injured children are admitted to the hospital.</Text>
-                <Text style={styles.paragraph}>
-                    Right now, hundreds of thousands of children across the country are recovering from an injury. 
-                    Like you, their parents and other caring adults want to help them the best way possible. 
-                    While it is important to tend to the wounds and rehabilitation, it is just as important 
-                    to remember to look beyond the physical injuries.
-                    </Text>
-                <Text style={styles.paragraph}>
-                    With all the doctors, nurses, and therapists who will treat your child’s injury, 
-                    remember that no one is more important than you for your child’s recovery. 
-                    In making this application, we took the best information available from 
-                    science and best practices to help you and your child recover after an injury.
-                    </Text>        
+                <Text style={styles.bullet}>{translate('youAreNotAlone.content.statsBullets.bulletOne')}</Text>
+                <Text style={styles.bullet}>{translate('youAreNotAlone.content.statsBullets.bulletTwo')}</Text>
+                <Text style={styles.bullet}>{translate('youAreNotAlone.content.statsBullets.bulletThree')}</Text>
+                <Text style={styles.paragraph}>{translate('youAreNotAlone.content.paragraphOne')}</Text>
+                <Text style={styles.paragraph}>{translate('youAreNotAlone.content.paragraphTwo')}</Text>        
                 </ScrollView>
             </View>
         );

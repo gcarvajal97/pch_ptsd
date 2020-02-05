@@ -1,0 +1,1562 @@
+{
+    "dealWithWorries": {
+        "header": "Find Help",
+        "video_title": "Dealing With Fears and Worries",
+        "accessibilityLabel": "Video on dealing with new fears and worries",
+        "accessibilityHint": "Video on dealing with new fears and worries",
+        "video_subtitle_1": "New fears or worries? ",
+        "video_subtitle_2": "Watch the video and read below to learn more about these symptoms.",
+        "q1": "How do new fears develop?",
+        "q1_p1": "When something scary happens, we often learn to treat things connected to it as if they were danger signals. The next time something reminds us of what happened, our body reacts as if we were in danger, even if we are safe.",
+        "q1_p2": "A trauma reminder can be anything – a place or a person, a sight or a sound, or even a smell. It might be something you hardly notice, till the scared feelings come flooding back.",
+        "q2": "How do we get over new fears - dealing with emotional triggers?",
+        "q2_p1": "In managing emotional triggers, it can really help to face reminders over and over, in the course of normal life. We can feel very anxious at first, but each time we experience a trauma reminder and hang in there long enough to know that it does not lead to danger, the scared feelings tend to get weaker.",
+        "q2_p2": "It is natural for your child to want to stay away from things that remind and upset him. But too much avoidance can get in the way of the natural recovery process, and make it harder to get over feeling scared.",
+        "q2_p3": "As a parent, you play an important role in helping your child face new fears without getting stuck in avoidance.",
+        "q3": "How can parents tell if fears or worries are really a problem?",
+        "q3_p1": "Ask yourself: Does feeling afraid or nervous stop your child from getting back to normal safe activities? Or stop him from enjoying things even if he manages to do them?",
+        "q3_p2": "If so, you can help your child deal with new fears and worries before they become a bigger problem.",
+        "q4": "What can parents do?",
+        "q4_tip1": "1. Help your child make changes that really do help keep him safe.",
+        "q4_tip1_bullet": " - Like wearing a helmet, crossing the street carefully, or telling you where he is going.",
+        "q4_tip2": "2. Be a 'reality check' for your child.",
+        "q4_tip2_bullet": " - If your child is nervous about doing something, talk together and help her figure out: 'Is this really helping me stay safe?' OR 'Am I avoiding it just so I will not feel nervous?'",
+        "q4_tip3": "3. Help your child understand 'trauma reminders' emotional triggers and avoidance.",
+        "q4_tip3_bullet": " - Sometimes kids need help to figure out what makes them feel scared or nervous.",
+        "q4_tip4": "4. Encourage your child.",
+        "q4_tip4_bullet": " - Help him keep doing those safe things that make him nervous -- and praise his courage when he does!",
+        "q4_tip5": "5. Notice your own worries.",
+        "q4_tip5_bullet1": " - Ask yourself: Do my worries stop me from letting my child do things he really should be allowed to do?",
+        "q4_tip5_bullet2": " - Use a trusted friend or family member as a “reality check” for yourself – to help you sort through your worries about your child’s safety.",
+        "q5": "When to get more help",
+        "q5_p1": "If you are not sure whether your child's worries or fears are realistic, or how to encourage your child to face things that he is avoiding, get some help.",
+        "q5_p2": "Talk with your family doctor, school counselor, or someone else you trust, or seek a counselor who can help you and your child in managing emotional triggers and with traumatic stress reactions."
+    },
+    "drawerNavigator": {
+        "home": "Home",
+        "resources": "Resources",
+        "glossary": "Glossary"
+    },
+    "glossary": {
+        "back": "BACK",
+        "glossary": "Glossary",
+        "description": "Find word definitions by category.",
+        "accordion": [
+            {
+                "name": "Types of Injury",
+                "content": [
+                    {
+                        "term": "Abrasion",
+                        "definition": "A superficial rub or wearing off of the skin, usually caused by a scrape or brush burn."
+                    },
+                    {
+                        "term": "Abdominal Injury",
+                        "definition": "A superficial rub or wearing off of the skin, usually caused by a scrape or brush burn."
+                    },
+                    {
+                        "term": "Dislocation",
+                        "definition": "A dislocation occurs when extreme force is put on a joint and causes bones to come out of the joint. Dislocations can cause two or more bones to come together."
+                    },
+                    {
+                        "term": "Fracture",
+                        "definition": "If more force is put on a bone than it can stand, it will split or break. A break of any size is called a fracture. If the broken bone punctures the skin, it is called an open fracture.  If a break is in a lot of pieces, it is called a compound fracture."
+                    },
+                    {
+                        "term": "Head Injury",
+                        "definition": "Head injury is a broad term that describes injuries to the scalp, skull, brain, and tissue and blood vessels in the child's head. Some head injuries are also called brain injury, or traumatic brain injury (TBI), depending on the extent of the head trauma. Concussion is the most common type of TBI."
+                    },
+                    {
+                        "term": "Hematoma",
+                        "definition": "A large bruise or collection of blood under the skin, producing discoloration and swelling in the area. It is usually caused by trauma."
+                    },
+                    {
+                        "term": "Laceration",
+                        "definition": "A cut, tear, or ragged opening in the skin caused by an injury or trauma."
+                    },
+                    {
+                        "term": "Overuse Conditions",
+                        "definition": "Injuries due to minor trauma over a long period of time, involving bone, muscles, ligaments, and/or tendons."
+                    },
+                    {
+                        "term": "Puncture Wound",
+                        "definition": "A deep wound or hole in the skin and deeper tissue layers caused by a sharp object such as a nail, stick, a dog’s tooth, or a piece of metal."
+                    },
+                    {
+                        "term": "Sprain",
+                        "definition": "A partial or complete tear of a ligament (connects two bones) or tendon (connects a bone to a muscle). Sprains often affect the ankles, knees, or wrists."
+                    },
+                    {
+                        "term": "Strain",
+                        "definition": "An injury to a muscle or tendon. Often caused by overuse, force, or stretching."
+                    },
+                    {
+                        "term": "Stress Fracture",
+                        "definition": "A hairline crack in the bone that develops because of repeated or prolonged forces to the bone."
+                    },
+                    {
+                        "term": "Whiplash",
+                        "definition": "Whiplash occurs when the muscles or ligaments (soft tissue) of the neck are injured by a sudden jerking or “whipping” of the head. This type of motion stretches the muscles or ligaments of the neck beyond their normal range of motion."
+                    }
+                ]
+            },
+            {
+                "name": "Anatomy",
+                "content": [
+                    {
+                        "term": "Clavicle",
+                        "definition": "A bone that links the scapula (shoulder blade) and sternum (breastbone), is situated just above the first rib on either side of the neck, and has the form of a narrow elongated S -- also called collarbone."
+                    },
+                    {
+                        "term": "Cranium",
+                        "definition": "The skeleton of the head forming a bony case that encloses and protects the brain -- also called skull."
+                    },
+                    {
+                        "term": "Femur",
+                        "definition": "The top bone of the lower limb that is the longest and largest bone in the human body, extending from the hip to the knee -- also called thigh bone."
+                    },
+                    {
+                        "term": "Fibula",
+                        "definition": "The outer and usually the smaller of the two bones of the lower limb below the knee that is the slenderest bone of the human body in proportion to its length -- also called shin bone."
+                    },
+                    {
+                        "term": "Humerus",
+                        "definition": "The longest bone of the upper arm or forelimb extending from the shoulder to the elbow."
+                    },
+                    {
+                        "term": "Kidney",
+                        "definition": "The kidneys are bean-shaped organs located just under the rib cage in the back, one on each side. They are responsible for filtering the by-products of our body’s metabolism from the blood and removing this waste as urine."
+                    },
+                    {
+                        "term": "Liver",
+                        "definition": "The liver is a large organ located under the ribcage in the right upper part of the abdomen. It is responsible for producing bile, and it plays a major role in the handling and processing of nutrients."
+                    },
+                    {
+                        "term": "Mandible",
+                        "definition": "The lower jaw."
+                    },
+                    {
+                        "term": "Orbits",
+                        "definition": "The bony cavity that occupies the lateral front of the skull immediately beneath the frontal bone on each side and encloses and protects the eye and its appendages -- also called eye socket, orbital cavity."
+                    },
+                    {
+                        "term": "Pancreas",
+                        "definition": "A long gland that is located behind the stomach. The pancreas secretes digestive enzymes and the hormones insulin and glucagon."
+                    },
+                    {
+                        "term": "Pelvis",
+                        "definition": "The structure below the spine and above the leg; composed of the two hip bones one on each side and in front while the sacrum and coccyx complete it behind."
+                    },
+                    {
+                        "term": "Radius",
+                        "definition": "The bone on the thumb side of the forearm."
+                    },
+                    {
+                        "term": "Spleen",
+                        "definition": "The spleen is in the uppermost area of the left side of the abdomen, just under the diaphragm. It typically has attachments to the stomach, left kidney, and colon. The spleen plays a role in immunity against bacterial infections."
+                    },
+                    {
+                        "term": "Tibia",
+                        "definition": "The tibia is the larger of two long bones in the lower leg (between the knee and ankle). Sometimes called the shin bone."
+                    },
+                    {
+                        "term": "Ulna",
+                        "definition": "The bone on the little-finger side of the forearm that forms with the humerus at the elbow joint."
+                    },
+                    {
+                        "term": "Vertebrae",
+                        "definition": "Any segment (bone or cartilage) that makes up the spinal column that encloses the spinal cord."
+                    }
+                ]
+            },
+            {
+                "name": "Common Drugs / Treatments",
+                "content": [
+                    {
+                        "term": "Acetaminophen",
+                        "definition": "A pain-relieving and fever-reducing drug found in many over-the-counter medications. Sometimes called Tylenol®."
+                    },
+                    {
+                        "term": "Antibiotics",
+                        "definition": "A group of drugs that kill bacteria and other organisms that cause disease."
+                    },
+                    {
+                        "term": "Anti-Inflammatory Drugs",
+                        "definition": "Drugs that reduce the symptoms and signs of inflammation."
+                    },
+                    {
+                        "term": "Cast",
+                        "definition": "A cast holds a broken bone in place as it heals, prevents or decreases muscle contractures, or provides immobilization, especially after surgery. Casts immobilize the joint above and the joint below the area that is to be kept straight and without motion. For example, a child with a forearm fracture will have a long arm cast to immobilize the wrist and elbow joints."
+                    },
+                    {
+                        "term": "Ibuprofen",
+                        "definition": "A non-steroidal anti-inflammatory drug (NSAID) found in many over-the-counter medications, sometimes call Advil® or Motrin®."
+                    }
+                ]
+            },
+            {
+                "name": "Health Care Procedures",
+                "content": [
+                    {
+                        "term": "Bone Survey (Skeletal)",
+                        "definition": "An X-ray of all the bones of the body; often done when medical staff are looking for fractures or tumor metastasis to the bones."
+                    },
+                    {
+                        "term": "Computed Tomography Scan (CT or CAT Scan)",
+                        "definition": "A diagnostic imaging procedure that uses a combination of x-rays and computer technology to produce cross sectional images (often called “slices”), both horizontally and vertically, of the body. A CT scan shows detailed images of any part of the body, including the bones, muscles, fat and organs. CT scans are more detailed than general x-rays."
+                    },
+                    {
+                        "term": "Intravenous (IV)",
+                        "definition": "Introducing a fluid into the bloodstream through a vein (usually in the patient’s forearm)."
+                    },
+                    {
+                        "term": "Laparoscopy",
+                        "definition": "A group of operations performed with the aid of a camera placed in the abdomen or belly."
+                    },
+                    {
+                        "term": "Laparotomy",
+                        "definition": "An operation of the abdomen through an incision (cut) in the skin."
+                    },
+                    {
+                        "term": "Local Anesthesia",
+                        "definition": "Anesthetic medicine injected into the site of the operation to temporarily numb that area."
+                    },
+                    {
+                        "term": "Magnetic Resonance Imaging (MRI)",
+                        "definition": "A diagnostic procedure that uses a combination of large magnets, radiofrequencies, and a computer to produce detailed images of organs and structures within the body."
+                    },
+                    {
+                        "term": "Noninvasive Procedure",
+                        "definition": "A diagnostic effort or treatment that does not require entering the body or puncturing the skin."
+                    },
+                    {
+                        "term": "Ultrasound",
+                        "definition": "A diagnostic imaging technique which uses high-frequency sound waves and a computer to create images of blood vessels, tissues, and organs. Ultrasounds are used to view internal organs as they function, and to assess blood flow through vessels."
+                    },
+                    {
+                        "term": "X-Rays",
+                        "definition": "A diagnostic test that uses invisible electromagnetic energy beams to produce images of internal tissues, bones and organs onto film."
+                    }
+                ]
+            },
+            {
+                "name": "Health Care Staff",
+                "content": [
+                    {
+                        "term": "Advanced Practice Nurse or Nurse Practitioner",
+                        "definition": "This nurse has advanced training, education, and knowledge in specialty areas. They work closely with the attending physician and primary nurse to help coordinate your child’s care before, during and after hospitalization."
+                    },
+                    {
+                        "term": "Attending Physician",
+                        "definition": "A senior member of the hospital’s medical or surgical staff who is responsible for your child’s treatment."
+                    },
+                    {
+                        "term": "Case Manager",
+                        "definition": "Can assist families in planning for discharge to home or another healthcare facility."
+                    },
+                    {
+                        "term": "Chaplain",
+                        "definition": "Chaplain provides pastoral visitation, sacramental ministry, and support. Often times hospitals have spiritual coordinators from various faiths."
+                    },
+                    {
+                        "term": "Consultant",
+                        "definition": "An expert doctor may be asked by your child’s attending physician to help diagnose and treat your child."
+                    },
+                    {
+                        "term": "Dietitian",
+                        "definition": "The dietitian will assess your child’s nutritional needs, make a plan to meet those needs, and assist families in choosing a healthy lifetime diet."
+                    },
+                    {
+                        "term": "Fellow",
+                        "definition": "A physician who has completed resident training and is now training in a special field of pediatrics, surgery, or other specialty."
+                    },
+                    {
+                        "term": "Nurse Manager",
+                        "definition": "A nurse who supervises and manages a patient care unit/area."
+                    },
+                    {
+                        "term": "Occupational Therapist (OT)",
+                        "definition": "The occupational therapist helps a child recover from an injury and reach their highest level of physical and social function. Occupational therapists teach patients how to perform activities of daily living such as dressing, bathing, and feeding. The therapist may help the family to make their home easier for the patient to live in and use."
+                    },
+                    {
+                        "term": "Physiatrist",
+                        "definition": "A medical doctor who specializes in physical medicine and rehabilitation whose primary responsibility is the medical care of the patient. After your child is medically stable and starts the rehab program, the physiatrist coordinates the work of the health care team by directing therapy services and ordering medication, braces, wheelchair, etc."
+                    },
+
+                    {
+                        "term": "Physical Therapist (PT)",
+                        "definition": "The physical therapist helps a child recover from an injury.  He teaches patients to do as much for themselves as possible.  This involves evaluating patients’ needs and then starting exercises to increase muscle strength and joint movement.  Patients are taught how to move in bed, how to transfer from one place to another, and how to operate a wheelchair. If possible, the physical therapist may also teach patients to walk again; using whatever equipment is most helpful."
+                    },
+                    {
+                        "term": "Primary Nurse",
+                        "definition": "This nurse is responsible for planning and coordinating your child’s care throughout the entire hospital stay."
+                    },
+                    {
+                        "term": "Psychiatrist",
+                        "definition": "Licensed physicians (M.D. or D.O.) who specialize in the evaluation, diagnosis, and treatment of mental disorders. Their medical and psychiatric training prepares them to provide individual, family, and group treatment.  Child psychiatrists have additional years of training in diagnosis and treatment of children and adolescents.  Psychiatrists can prescribe medications, if needed."
+                    },
+                    {
+                        "term": "Psychologist",
+                        "definition": "Licensed practitioners (Ph.D. or Psy.D.) who specialize in the evaluation, diagnosis and treatment of behavioral and emotional problems and disorders. Their training in emotional and cognitive processes, human development, and behavior change prepares them to provide individual, family, and group treatment . Child and pediatric psychologists have specialized training in the treatment of children and adolescents."
+                    },
+                    {
+                        "term": "Resident",
+                        "definition": "A physician who is receiving advanced training in the hospital. A resident cares under the direction of the attending physician."
+                    },
+                    {
+                        "term": "Respiratory Therapist (RT)",
+                        "definition": "A respiratory therapist will assess a patient’s breathing.  He/she provides treatment ordered by the physician and teaches the patient and family about ongoing respiratory care needs."
+                    },
+                    {
+                        "term": "Social Worker",
+                        "definition": "This professional helps adjust to illness, and can advise you about insurance, financial resources, and community agencies that can help with needs such as respite care, counseling, parent support groups, and home care."
+                    },
+                    {
+                        "term": "Speech and Language Pathologist",
+                        "definition": "The speech pathologist helps a child recover from an injury that makes it hard for a child to speak. She evaluates patients for cognitive and communication problems, and starts therapy as needed. Patients may have trouble saying what they want and need. They may have slurred speech from weak muscles.  The speech pathologist helps to improve this. He/she can also suggest communication tools that will help."
+                    },
+                    {
+                        "term": "Student",
+                        "definition": "If you are at a teaching hospital, you may meet medical or nursing students as part of your child’s treatment. They are closely supervised by fully trained and licensed doctors or nurses."
+                    }
+                ]
+            },
+            {
+                "name": "Traumatic Stress Reactions",
+                "content": [
+                    {
+                        "term": "Acute Stress Disorder (ASD)",
+                        "definition": "Severe traumatic stress symptoms that develop within one month of exposure to a traumatic event or experience. ASD symptoms include dissociative symptoms (i.e. feeling emotionally numb or in a daze), re-experiencing the event (i.e. intrusive thoughts or flashbacks), avoiding things that set off feelings about the trauma, and hyperarousal (i.e. startling easily, being hyper-vigilant). Acute stress disorder is diagnosed when symptoms last for at least 2 days and get in the way of normal functioning. If symptoms last for more than 4 weeks, see posttraumatic stress disorder."
+                    },
+                    {
+                        "term": "Avoidance",
+                        "definition": "A term used to describe traumatic stress symptoms that involve wanting to stay away from people, places, or activities because they remind one of the traumatic event. Avoidance can also include strong or excessive efforts to not think about or talk about the traumatic event."
+                    },
+                    {
+                        "term": "DSM-IV (Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition)",
+                        "definition": "The official manual of mental health problems used by psychiatrists, psychologists, and other mental health providers to understand and diagnose mental health problems. Insurance companies and health care providers also use terms and definitions in this book when discussing mental health issues."
+                    },
+                    {
+                        "term": "Evidence-based practices, or empirically-supported treatments",
+                        "definition": "Practices, including medical and psychological treatments and therapies, which have been clearly researched and found to be supported by scientific evidence or proof."
+                    },
+                    {
+                        "term": "Hyperarousal",
+                        "definition": "A term used to describe traumatic stress symptoms that can include startling easily, hypervigilance, difficulties falling or staying asleep, and trouble concentrating."
+                    },
+                    {
+                        "term": "Hypervigilant",
+                        "definition": "Feeling “on alert” or afraid much of the time, or overly sensitive to trauma reminders and prone to interpret them as danger signals (even in safe situations)."
+                    },
+                    {
+                        "term": "Posttraumatic stress disorder (PTSD)",
+                        "definition": "Severe traumatic stress symptoms that develop, and persist, after exposure to a traumatic event or experience. PTSD symptoms include re-experiencing the event (i.e. via intrusive thoughts or flashbacks), avoiding things that set off feelings about the trauma, and hyperarousal (i.e. startling easily, being hypervigilant). PTSD is diagnosed when these symptoms last for more than one month, cause significant distress, and get in the way of normal life."
+                    },
+                    {
+                        "term": "Re-experiencing",
+                        "definition": "A term used to describe traumatic stress symptoms that include upsetting intrusive thoughts, having nightmares or flashbacks, or becoming upset or having physical reactions to trauma reminders."
+                    },
+                    {
+                        "term": "Trauma",
+                        "definition": "In medical settings, the term “trauma” can have several different meanings. Medical professionals use “trauma” to refer to physical injury. Mental health professionals often use “trauma” to refer to an extremely frightening event or the psychological effects of experiencing such an event."
+                    },
+                    {
+                        "term": "Trauma reminders",
+                        "definition": "People, places, activities or other things that bring back memories of a traumatic experience. Trauma reminders can make people feel upset, fearful, or put them “on alert”."
+                    }
+                ]
+            }
+        ]
+    },
+    "howToLook": {
+        "paragraph1": "There are very good and helpful treatments for children who continue to have traumatic stress symptoms.",
+        "paragraph2": "If you are wondering how to find a child therapist, a good place to start is to talk with your child's doctor or a counselor at your child's school. They can help you figure out the best way of helping your child and your family, and may be able to suggest a counselor or therapist experienced in helping children with traumatic stress.",
+        "paragraph3": "When looking for a counselor or therapist to help your child with traumatic stress symptoms, it's a good idea to ask questions such as: Do you have experience working with children after trauma? What is your approach to working with this type of problem? What is your success rate? How do you work with parents?",
+        "accessibilityLabel": "Click here for mental health professional information",
+        "accessibilityHint": "Navigates to a website on mental health professional information",
+        "linkName": "The National Child Traumatic Stress Network",
+        "paragraph4": "has useful tips and information on how to find a mental health professional to help your child and family after trauma."
+    },
+    "healthcareTeam": {
+        "header": "Find Help",
+        "cardHeader": "Teamwork",
+        "cardTitle": "It is important to work as a team.",
+        "accessibilityLabel": "Photo of doctor and male patient looking at x-ray",
+        "accessibilityHint": "Photo of doctor and male patient looking at x-ray",
+        "MAIN_TITLE": "How To Work With Your Child's Healthcare Team",
+        "main_Paragraph_1": "You have the very important job of making sure your child gets the best medical care for his physical injuries. You are also the best person to monitor how your child is coping, and when some extra help might be needed.",
+        "main_Paragraph_2": "In the first few days after an injury, many kids (and parents) feel a little upset, jumpy or worried, and can use a little extra support from family and friends.",
+        "CHAPTER_1_MAIN_TITLE": "In The Emergency Department",
+        "Ch1_p1": "Being in the Emergency Department can be a scary and stressful experience for injured children and their parents. Parents have many worries and questions and it can sometimes be difficult to get all of the answers right away. Communicating well and often with the ED medical team about your child will help them provide your child with the best possible treatment. It can also help you play a more active role in your child's care.",
+        "CH1_TITLE_1": "Working with the Healthcare Team",
+        "Ch1_t1_b1": "- Don't be afraid to ask questions. If you don't understand the answer, let the medical team know and ask, again.",
+        "Ch1_t1_b2": "- Stay with your child as much as possible. Ask permission to be with your child during medical tests and procedures, if you want to be.",
+        "Ch1_t1_b3": "- Be sure to let the medical team know of any pre-existing medical conditions, other special needs and fears, and allergies your child has, as well as whatever you can tell them about how the injury happened.",
+        "Ch1_t1_b4": "- You are your child's most important advocate – ask how you can get involved in your child's care and when you can make decisions about treatment.",
+        "Ch1_t1_b5": "- Make sure to be an advocate for your child. For example, if your child is in pain, make sure to let your child's care team know.",
+        "Ch1_t1_b6": "- Emergency care takes a lot of patience. You may get frustrated that other children are seen before your child, but this is likely because the staff has to make sure that the sickest patients are seen first.",
+        "CH1_TITLE_2": "Tips for supporting your child in the Emergency Department",
+        "Ch1_t2_n1": "1. You are the best person to help your child. Be calm and reassuring. Hold his hand; distract him with a story or game, etc. If needed, set rules and limits like you would at home.",
+        "Ch1_t2_n2": "2. Help your child understand what is happening. Make sure that the healthcare team explains things in a way your child can understand. Be honest but reassuring about what will happen. ('This will hurt now, but it will help you get better.')",
+        "Ch1_t2_n3": "3. Allow your child to talk about worries or feelings. Encourage your child's healthcare team to talk with your child directly. As much as possible, let your child answer for himself. Do not force your child to talk, but be there to listen when he is ready.",
+        "Ch1_t2_n4": "4. Take care of yourself. Get support for yourself when you are worried and upset. Remember to eat and sleep!",
+        "Ch1_t2_n5": "5. Ask for help from family and friends. Once your child has been discharged and you have returned home, come back to this website for more information on ways parents can help their kids.",
+        "CHAPTER_2_MAIN_TITLE": "In The Hospital",
+        "Ch2_p1": "Aside from the injury itself, there are things about just being in the hospital that can be traumatic for children and parents.",
+        "CH2_TITLE_1": "Working with the Healthcare Team",
+        "Ch2_t1_n1": "1. Don't be afraid to ask questions. Some parents keep a pad of paper to write down their questions. This way, when the health care team comes to examine your child, you will be prepared. If you don't understand the answer, let the medical team know and ask, again. Ask your doctor to write down the name of your child's injuries.",
+        "Ch2_t1_n2": "2. Stay overnight with your child, if possible. Ask permission to be with your child during medical tests and procedures, if you want to be.",
+        "Ch2_t1_n3": "3. Be sure to let the medical team know of any pre-existing medical conditions, other special needs and fears, and allergies your child has, as well as whatever you can tell them about how the injury happened.",
+        "Ch2_t1_n4": "4. You are your child's most important advocate – ask how you can get involved in your child's care and when you can make decisions about treatment. Let your health care team know if your child is in pain.",
+        "Ch2_t1_n5": "5. Take time for yourself. It is important to take breaks as often as you need them. Take a shower; make some phone calls; get something to eat or drink; or go to the chapel to think or cry – whatever it is that you need for yourself. After your break, you will feel better able to support your child. Let your child's health care team know when you leave your child's bedside and when you return.",
+        "Ch2_t1_n6": "6. Make of list of what other people can do to help you. When people call and offer support, you will have something concrete to ask. You do not need to do it all.",
+        "Ch2_t1_n7": "7. Ask the health care team to help you schedule all of your outpatient visits before you leave the hospital.",
+        "Ch2_t1_n8": "8. Make sure that your child's pain is under control before you leave the hospital.",
+        "Ch2_t1_n9": "9. Make sure that you have a good phone number to call if you have questions when you return home.",
+        "Ch2_t1_n10": "10. Ask for copies of your child's x-rays, CT scans, or MRI scans.",
+        "CH2_TITLE_2": "Tips for supporting your child in the hospital.",
+        "Ch2_t2_n1": "1. You are the best person to help your child.",
+        "Ch2_t2_n2": "2. Be patient with your child.",
+        "Ch2_t2_n3": "3. Help your child understand what is happening.",
+        "Ch2_t2_n4": "4. Make sure that you have a good phone number to call if you have questions when you return home.",
+        "Ch2_t2_n5": "5. Talk about your feelings together.",
+        "Ch2_t2_n6": "6. Help your child see the staff as helpers.",
+        "Ch2_t2_n7": "7. Stay with your child (or have a family member or friend stay) as much as possible.",
+        "Ch2_t2_n8": "8. Take care of yourself.",
+        "Ch2_t2_n9": "9. Bring things from home to make your child comfortable – bath robe, toys, and favorite books.",
+        "CH2_TITLE_3": "Tips for supporting your teen in the hospital.",
+        "Ch2_t3_n1": "1. Be honest with your teen.",
+        "Ch2_t3_n2": "2. Include your teen in medical discussions when possible.",
+        "Ch2_t3_n3": "3. Encourage your child's health care team to talk with your teen directly and let him answer his own questions. He might want to talk alone with the doctors.",
+        "Ch2_t3_n4": "4. Remember that teens can be self-conscious, and they may worry about how they will look and fit in with others, and about their privacy.",
+        "Ch2_t3_n5": "5. Help your teen stay connected with old friends, as well as make new friends in the hospital.",
+        "Ch2_t3_n6": "6. Bring things from home to make your child comfortable – bath robe, music, and magazines.",
+        "Ch2_t3_n7": "7. Call your child's school to let them know what has happened.",
+        "CH2_TITLE_4": "Resources for Families",
+        "Ch2_t4_p1": "Most hospitals have staff who is experienced with helping other parents and caregivers in your situation. If you are upset, have questions about how to help your child, or just need to talk, please seek out someone at the hospital who is available to assist you and your family. This may be a:",
+        "Ch2_t4_b1": "- Social Worker",
+        "Ch2_t4_b2": "- Chaplain",
+        "Ch2_t4_b3": "- Or a mental health professional, such as a psychologist or psychiatrist",
+        "Ch2_t4_p2": "Once your child has been discharged and you have returned home, come back to this website for more information on ways parents can help their kids.",
+        "CHAPTER_3_MAIN_TITLE": "After the Hospital",
+        "Ch3_p1": "After your child is discharged from the Emergency Department or Hospital, she will need to follow up with her doctor and possibly other healthcare professionals to make sure that she is healing well. It would be helpful to go through the rest of this website before going to the doctor. This site will allow you to rate your child's reactions and create a report to share with your doctor.",
+        "CH3_TITLE_1": "Working with the Healthcare Team AFTER the Hospital",
+        "Ch3_t1_n1": "1. Make sure to keep all of your appointments even if your child is feeling better.",
+        "Ch3_t1_n2": "2. Many parents like to keep all of their child's injury information together in a binder or folder. In the front of the binder, keep a sheet with your child's diagnosis and all of the medicines that your child is taking. Keep a calendar with all of the appointments.",
+        "Ch3_t1_n3": "3. Keep a pad of paper around the house to write down questions for your doctor or other healthcare professional as you think of them. Encourage your child to keep track of her questions, too.",
+        "Ch3_t1_n4": "4. You are your child's most important advocate – ask how you can get involved in your child's care and when you can make decisions about treatment. Let your health care team know if your child is in pain or is having other reactions that concern you or your child.",
+        "Ch3_t1_n5": "5. Make sure that you have a good phone number to call if you have questions. Also, ask what you should look for and when to call.",
+        "Ch3_t1_n6": "6. Ask for a summary of every visit to take with you, if possible.",
+        "Ch3_t1_n7": "7. If you find that you are missing a lot of work, you might want to look into obtaining Family Medical Leave. In 1993, the federal government passed a law that allows families to take some time to care for family members without fear of losing their job.",
+        "CH3_TITLE_2": "Tips for helping your child at follow-up visits",
+        "Ch3_t2_n1": "1. Tell your child about the appointment a few days in advance. Explain the reason for the visit, using words your child can understand. Answer questions simply and honestly.",
+        "Ch3_t2_n2": "2. Find out, in advance, if the visit will involve any painful or scary procedures. If so, talk with your physician about how to prepare for these procedures and if any medicine should be given, in advance.",
+        "Ch3_t2_n3": "3. Let your child know you'll be there throughout the entire appointment unless your child wants some time to talk with the physician or specialist alone. Encourage your child's physician to ask your child questions directly. Encourage your child to ask the doctors and nurses questions.",
+        "CH3_TITLE_3": "At the Follow-up Visit: Resources for Families",
+        "Ch3_t3_p1": "Most hospitals have staff who are experienced with helping other parents and caregivers in your situation. If you are upset, have questions about how to help your child, about financial or insurance issues, or just need to talk, please seek out someone at the hospital who is available to assist you and your family. This may be a:",
+        "Ch3_t3_b1": "- Social Worker",
+        "Ch3_t3_b2": "- Chaplain",
+        "Ch3_t3_b3": "- Or a mental health professional, such as a psychologist or psychiatrist come back to this website for more information on ways parents can help their kids."
+    },
+    "howLong": {
+        "header": "Learn More",
+        "title": "How Long Do Traumatic Stress Reactions Last",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on how long stress reactions last",
+                "title": "Stress reactions can get in the way. ",
+                "subtitle": "Professional help is important to get back to normal."
+            },
+            "mainParagraphOne": "For many children and their parents early traumatic stress reactions get better over the first month. But about 1 in 6 still have traumatic stress reactions that bother them, even 6 months after an injury.",
+            "mainParagraphTwo": "Nearly everyone feels upset or anxious early on. Over the next few weeks and months, these reactions usually get weaker and then go away. Even children recovering from serious injuries start to develop ways to cope.",
+            "mainParagraphThree": "But for some people, these early reactions do not seem to get better as the months go by, or they may get worse. Even if the physical injury has healed, they may not have recovered from the trauma. The intensity and length of the traumatic stress reactions is not related to how bad the physical injury was.",
+            "concernParagraph": {
+                "mainTitle": "Why be concerned?",
+                "paragraphOne": "When traumatic stress reactions last for weeks or months, they can get in the way of getting back to normal and feeling like yourself again.",
+                "bulletList": {
+                    "title": "For children and teens, this can affect school, home, and play.",
+                    "bulletOne": "- Schoolwork and learning might be disrupted because a child cannot concentrate or sleep well.",
+                    "bulletTwo": "- Family relationships and friendships might suffer.",
+                    "bulletThree": "- Children might stop doing things that they enjoy, or stop trying new things."
+                }
+            },
+            "whatIsPTSDParagraph": {
+                "title": "What is post-traumatic stress disorder, or 'PTSD'?",
+                "bulletListOne": {
+                    "title": "Post-traumatic stress disorder (PTSD) is the name given to traumatic stress reactions that:",
+                    "bulletOne": "- Are so severe that they get in the way of normal life",
+                    "bulletTwo": "- Last for more than one month."
+                },
+                "paragraphOne": "It is important to know if your child or someone else in your family develops post-traumatic stress disorder from the accident or injury. It is much more common than people realize.",
+                "paragraphTwo": "Up to 1 in 10 people develop post-traumatic stress disorder at some point in their lives.",
+                "bulletListTwo": {
+                    "title": "After an injury, post-traumatic stress disorder can:",
+                    "bulletOne": "- Get in the way of physical recovery",
+                    "bulletTwo": "- Contribute to new medical problems",
+                    "bulletThree": "- Just make it harder to enjoy life."
+                },
+                "hyperLinkOne": {
+                    "text": "Click here for more information on PTSD.",
+                    "accessibilityLabel": "Click here for more information on PTSD",
+                    "accessibilityHint": "Navigates to a website on the casuses of PTSD"
+                },
+                "paragraphThree": "The good news is that very good treatments for PTSD are available. Unfortunately, less than half of people with traumatic stress symptoms talk to anyone about their problems or get any professional help, even when their symptoms go on for a long time."
+            }
+        }
+    },
+    "howToTalk": {
+        "header": "Find Help",
+        "video_title": "How To Talk With Your Child",
+        "accessibilityLabel": "Video on how how to talk with your child",
+        "accessibilityHint": "Video on how how to talk with your child",
+        "video_subtitle_1": "It's not always easy to know how to talk with your child. ",
+        "video_subtitle_2": "Here are some tips to help.",
+        "subtitle": "After something scary like an injury, it is not always easy to know how to talk with your child about it, and how best to help.",
+        "title_1": "Here are some things to help you when talking about trauma with your child:",
+        "tip_11": "1. Be available to listen.",
+        "tip_12": "2. Provide opportunities to talk.",
+        "subtip_12_a": "- Look for opportunities to hear how your child is doing.",
+        "subtip_12_b": "- Choose a time and a place where you both feel comfortable - think about when and where your child tends to talk most openly.",
+        "tip_13": "3. Ask your child direct questions. 'How are you doing with all of this?'",
+        "tip_14": "4. Listen carefully to what your child has to say to you.",
+        "subtip_14_a": "- Wait until your child finishes before jumping in.",
+        "subtip_14_b": "- Repeat back what you heard in your own words to be sure you understood.",
+        "subtip_14_c": "- Try to hold off giving advice until you have a good understanding of what your child is going through. What's been most upsetting to her? How is she feeling now?",
+        "title_2": "What do I say?",
+        "tip_21": "1. Just listening is helpful.",
+        "subtip_21": "- You can give your child a chance to work out his thoughts and feelings by saying them out loud to you.",
+        "tip_22": "2. Answer your child’s questions as honestly as you can.",
+        "subtip_22": "- Keep in mind their age and what they are able to understand.",
+        "tip_23": "3. Help your child find words for strong feelings.",
+        "subtip_23": "- Describing and understanding his reactions is a first step to dealing with them.",
+        "tip_24": "4. Share your own experiences within limits.",
+        "subtip_24_a": "- Be a model for using good coping skills.",
+        "subtip_24_b": "- Remember not to burden your child with your own worries. Turn to other adults you trust if you need a listening ear.",
+        "title_3": "What if my child does not want to talk?",
+        "tip_31": "1. Be patient. Your child may not be ready to talk at the same time you are.",
+        "tip_32": "2. Do not force the issue. Do not try to force your child to talk. Some people like to think about things for a while first.",
+        "tip_33": "3. Encourage other ways of expressing thoughts and feelings. Your child can draw a picture, write a story, or keep a diary or journal.",
+        "tip_34": "4. Help your child stay connected with friends and adults you both trust, so you will know they have people to talk with when they are ready.",
+        "tip_35": "5. Some reactions are not said in words.",
+        "subtip_35_a": "- Even without words, you can try to be aware of your child’s reactions.",
+        "subtip_35_b": "- Think about how you can usually tell how your child is feeling - you might see changes in behavior, facial expressions, or body language.",
+        "title_4": "Things to remember:",
+        "tip_41": "1. Different people have different reactions.",
+        "subtip_41": "- As you think about how to help your child, try to separate what you are feeling from what your child is experiencing and what they need.",
+        "tip_42": "2. Make sure your own feelings do not get in the way.",
+        "subtip_42": "If talking with your child is upsetting to you, do your best to stay calm and collected during the conversation and be sure to get support for yourself."
+    },
+    "injuryPainCare": {
+        "header": "Find Help",
+        "cardHeader": "Injury and Pain",
+        "cardTitle": "Help you and your child overcome an injury.",
+        "accessibilityLabel": "Photo of a young girl walking with crutches and a nurse assisting her.",
+        "accessibilityHint": "Photo of a young girl walking with crutches and a nurse assisting her.",
+        "MAIN_TITLE": "Injury and Pain Care",
+        "main_Paragraph_1": "This section of the website offers some general information about common injuries and tips for home management, as well as helpful hints for pain management and injury prevention.",
+        "main_Paragraph_2": "Remember, your healthcare provider is the best source for information regarding your child's injury. If you have specific questions or concerns about your child's injury or treatment, please make sure to talk with your healthcare provider. If any information in this website is different from what your healthcare provider recommends, follow your healthcare provider's advice.",
+        "main_Paragraph_3": "Full recovery goes beyond physical healing - learn more about your child's emotional recovery after an injury, and how you can help.",
+        "CHAPTER_1_MAIN_TITLE": "Injury Prevention Tips",
+        "Ch1_p1": "Each year, one in every four children is treated by a doctor because of an injury such as a fall from a bicycle or an animal bite. Some of these injuries are minor, but many of them are very serious.",
+        "Ch1_p2": "You can’t always stop your children from getting bumps and bruises but you can reduce the chances that they’ll be seriously injured by taking safety precautions such as always buckling up in motor vehicles.",
+        "Ch1_accessibilityLabel": "Click here for safety tips",
+        "Ch1_accessibilityHint": "Navigates to a website about safety tips",
+        "Ch1_click_here": "Click here",
+        "Ch1_p3": "to find more safety tips on topics such as child passenger safety, bicycle safety, dog bites, falls, pedestrian safety, fire safety, water safety and more.",
+        "CHAPTER_2_MAIN_TITLE": "Abdominal Trauma",
+        "Ch2_p1": "Abdominal trauma involves injury to the belly between the chest and the hips and the internal organs there – the most common injuries to organs in the belly include the small intestine, liver, spleen, pancreas, kidneys, and bladder.",
+        "Ch2_p2": "Follow instructions provided by your healthcare provider (doctor or nurse practitioner). It is important that your child follow all of the special instructions given by your healthcare provider to decrease any risk of bleeding inside.",
+        "CH2_TITLE_1": "Make sure to ask your healthcare provider:",
+        "Ch2_t1_b1": "- How long should my child only have minimal activity or 'house arrest'? This will generally depend on the grade of injury to your child's organ or how severe it was. Your doctor will tell you what minimal activity means. It could include activities such as quiet play, reading, coloring, and watching TV. It probably means that your child will have to avoid sports for a period of time.",
+        "Ch2_t1_b2": "- When can my child return to school?",
+        "Ch2_t1_b3": "- When can my child start gym? contact sports? biking? or rough play?",
+        "Ch2_t1_b4": "- This will also depend on the grade of injury to your child's organ or how severe it was.",
+        "Ch2_t1_b5": "- What is the best number to call for emergencies during the week? On weekends?",
+        "CH2_TITLE_2": "When to call your healthcare provider:",
+        "Ch2_t2_b1": "- Ask your healthcare provider for specific signs and symptoms that should alert you to call them right away. They may include the following: Signs of intra-abdominal bleeding (bleeding in the belly) such as:",
+        "Ch2_t2_b2": "- Looking pale",
+        "Ch2_t2_b3": "- Lethargy (hard to keep awake)",
+        "Ch2_t2_b4": "- Blood in urine, stools (bowel movement) or vomitus (throw up)",
+        "Ch2_t2_b5": "- Fever (temperature greater than 101 degrees Fahrenheit or 38.5 degrees Celsius)",
+        "Ch2_t2_b6": "- Increased pain",
+        "Ch2_t2_b7": "- Vomiting (or throwing up)",
+        "Ch2_t2_b8": "- Any other concerns that you may have.",
+        "CHAPTER_3_MAIN_TITLE": "Taking Care of Your Child's Cast",
+        "Ch3_p1": "A cast holds a broken bone in place while it heals. Casts also help to prevent or decrease muscle contractions and can help limit movement, especially after surgery.",
+        "Ch3_p2": "The outside of the cast is made from one of two types of casting materials:",
+        "Ch3_b1": "- Plaster (white in color)",
+        "Ch3_b2": "- Fiberglass (comes in a variety of colors)",
+        "Ch3_p3": "Cotton and other synthetic materials are used to line the inside of the cast to make it soft and to provide padding around bony areas, such as the wrist or elbow.",
+        "Ch3_p4": "Follow instructions provided by your healthcare provider (doctor or nurse practitioner) It is important that your child follow all of the special instructions given by your healthcare provider to make sure that the broken bone heals well.",
+        "CH3_TITLE_1": "Some things that your child's healthcare provider might suggest:",
+        "Ch3_t1_b1": "- Keep the cast clean and dry. Do not get it wet in the shower or tub or swimming pool. Ask your doctor how you can buy a protective sleeve if you think your child might be somewhere where his cast might get wet. Check for cracks and breaks in the cast.",
+        "Ch3_t1_b2": "- Check for rough edges. These rough edges can be padded to protect the skin from scratches.",
+        "Ch3_t1_b3": "- Do not scratch the skin under the cast by inserting objects inside the cast – this can cut the skin.",
+        "Ch3_t1_b4": "- If your child complains of itching, use a hairdryer placed on a cool setting to blow air under the cast. Never blow warm or hot air into the cast.",
+        "Ch3_t1_b5": "- Do not put powders or lotions inside the cast.",
+        "Ch3_t1_b6": "- Cover the cast while your child is eating to prevent food spills and crumbs from entering the cast.",
+        "Ch3_t1_b7": "- Prevent small toys or objects from being put inside the cast.",
+        "Ch3_t1_b8": "- Elevate the cast above the level of the heart to decrease swelling.",
+        "Ch3_t1_b9": "- Encourage your child to move his or her fingers or toes to promote circulation.",
+        "Ch3_t1_b10": "- Older children with body casts may need to use a bedpan or urinal in order to go to the bathroom.",
+        "Ch3_t1_b11": "- Tips to keep body casts clean and dry and prevent skin irritation around the genital area include the following:",
+        "Ch3_t1_b12": "- Use a diaper or sanitary napkin around the genital area to prevent leakage or splashing urine.",
+        "Ch3_t1_b13": "- Place toilet paper inside the bedpan to prevent urine from splashing onto the cast or bed.",
+        "Ch3_t1_b14": "- Keep the genital area as clean and dry as possible to prevent skin irritation.",
+        "CH3_TITLE_2": "Bathing and Hair Washing",
+        "Ch3_t2_b1": "- Your child may need to have sponge baths until the cast is removed.",
+        "Ch3_t2_b2": "- How to wash your child's hair: Lay your child across a bed a place a bucket on the floor to catch the water as you shampoo. You can also get 'no-rinse' shampoo at the drug store.",
+        "CH3_TITLE_3": "Make sure to ask your healthcare provider:",
+        "Ch3_t3_b1": "- How long will my child need to wear the cast?",
+        "Ch3_t3_b2": "- What are the limits to my child's activity while he wears the cast?",
+        "Ch3_t3_b3": "- What are the limits on my child's activity once you take off the cast?",
+        "Ch3_t3_b4": "- When can my child return to school?",
+        "Ch3_t3_b5": "- When can my child return to gym class? to contact sports? to biking? or to rough play?",
+        "Ch3_t3_b6": "- Will my child need physical therapy?",
+        "Ch3_t3_b7": "- Will this injury affect my child's growth?",
+        "CH3_TITLE_4": "When to call your healthcare provider:",
+        "Ch3_t4_p1": "Ask your healthcare provider for specific signs and symptoms that should alert you to call them right away. They may include the following:",
+        "Ch3_t4_b1": "- Your child has increasing pain and pain medicine recommended or prescribed by your healthcare provider is not helping.",
+        "Ch3_t4_b2": "- You see a change in the cast; cracking, softening, drainage from the inside.",
+        "Ch3_t4_b3": "- You smell a bad odor coming from the cast.",
+        "Ch3_t4_b4": "- Your child's fingers or toes are cold, blue/gray or swollen.",
+        "Ch3_t4_b5": "- Your child feels numbness or tingling in the fingers or toes.",
+        "Ch3_t4_b6": "- Your child cannot move his/her fingers or toes.",
+        "Ch3_t4_b7": "- The cast is slipping off.",
+        "Ch3_t4_b8": "- There is increased swelling above or below the cast.",
+        "Ch3_t4_b9": "- The cast feels very tight.",
+        "Ch3_t4_b10": "- If you have any other concerns.",
+        "CHAPTER_4_MAIN_TITLE": "Using Crutches",
+        "Ch4_p1": "For hip, leg, knee, ankle, or foot injuries, your healthcare provider may order crutches to decrease pain, speed recovery, and help with walking. Make sure that a trained healthcare professional fits your child for child-sized crutches and teaches your child how to use them.",
+        "Ch4_p2": "Ask your healthcare provider for specific signs and symptoms that should alert you to call them right away. They may include the following:",
+        "Ch4_p3": "Follow instructions provided by your healthcare provider (doctor or nurse practitioner) It is important that your child follow all of the special instructions given by your healthcare provider to make sure that your child heals completely. If you have any questions or concerns about the fit of your child's crutches or what should or should not do while on crutches, please contact your healthcare provider.",
+        "CH4_TITLE_1": "General Tips:",
+        "Ch4_t1_b1": "- Remind your child that crutches are not toys or weapons.",
+        "Ch4_t1_b2": "- Even if your child may be feeling better, make sure to use the crutches as long as your healthcare provider told you to use them. If you start putting weight on the leg too soon, you might cause a new injury or increase the recovery time.",
+        "CH4_TITLE_2": "Precautions - Your Child Should:",
+        "Ch4_t2_b1": "- Be very careful on slick or wet surfaces (like in the kitchen and the bathroom).",
+        "Ch4_t2_b2": "- Be careful of throw rugs that can slip. They should be removed.",
+        "Ch4_t2_b3": "- Never hop around holding on to furniture; it may slide or fall.",
+        "Ch4_t2_b4": "- Keep the crutches nearby so they are always in reach.",
+        "Ch4_t2_b5": "- Wear low-heeled shoes (like sneakers) that will not slip off.",
+        "Ch4_t2_b6": "- Be careful of ramps or slopes. It is harder to walk with crutches on ramps or slopes.",
+        "Ch4_t2_b7": "- Do not remove any parts of the crutches, including the rubber tips.",
+        "Ch4_t2_b8": "- If they feel uncomfortable on crutches, ask someone to help. For example, someone can carry their books.",
+        "CH4_TITLE_3": "Helpful Hints",
+        "Ch4_t3_b1": "- A bedside toilet may be used.",
+        "Ch4_t3_b2": "- Ask teachers in school to let your child out of class a little early to avoid crowds on the stairs.",
+        "Ch4_t3_b3": "- Keep the 'bad' leg up on a stool while sitting.",
+        "Ch4_t3_b4": "- Carry schoolbooks in a backpack to leave both hands free and ask a friend to carry it for you, if possible.",
+        "Ch4_t3_b5": "- Avoid leaning on the underarm pieces.",
+        "Ch4_t3_b6": "- If your child's school is more than two stories tall, ask if your child can have a key to the elevator.",
+        "CH4_TITLE_4": "Make sure to ask your healthcare provider:",
+        "Ch4_t4_b1": "- How long will my child need to be on crutches?",
+        "Ch4_t4_b2": "- Can my child bear any weight on his injured leg?",
+        "Ch4_t4_b3": "- What are the limits to my child's activity while he is on crutches?",
+        "Ch4_t4_b4": "- What are the limits on my child's activity once he is off of his crutches?",
+        "Ch4_t4_b5": "- When can my child return to school?",
+        "Ch4_t4_b6": "- When can my child return to gym class? to contact sports? to biking? or to rough play?",
+        "Ch4_t4_b7": "- Will my child need physical therapy?",
+        "Ch4_t4_b8": "- Will this injury affect my child's growth?",
+        "CH4_TITLE_5": "When to call your healthcare provider:",
+        "Ch4_t5_b1": "- Your child has increasing pain and pain medicine recommended or prescribed by your healthcare provider is not helping.",
+        "Ch4_t5_b2": "- Your child feels numbness or tingling in his arms.",
+        "Ch4_t5_b3": "- If you have any other concerns.",
+        "CHAPTER_5_MAIN_TITLE": "Head Injury / Concussion",
+        "Ch5_p1": "Head injury is a broad term that describes injuries to the scalp, skull, brain, and tissue and blood vessels in the child’s head. Some head injuries are also called brain injury, or traumatic brain injury (TBI), depending on the extent of the head trauma. Concussion is the most common type of TBI.",
+        "Ch5_p2": "A concussion is caused by a blow or jolt to the head or body that causes the brain to shake. The shaking can cause the brain not to work normally and can result in serious side effects. If your child hits her head, be aware of the concussion symptoms to look for, which are commonly physical (such as a headache, nausea, or dizziness), sleep-related, difficulty concentrating/remembering, or involve mood disruption.",
+        "Ch5_p3": "Initial treatment for a concussion is rest, both mental and physical, which allows the brain time to heal. Every child’s injury and recovery is unique, but with guidance from a doctor, your child can slowly return to school and to play following a concussion.",
+        "Ch5_p4_part1": "For comprehensive information about concussion, including how a concussion is diagnosed, prevention strategies, returning to school and play, and support resources, visit",
+        "Ch5_accessibilityLabel": "Click here for concussion tips",
+        "Ch5_accessibilityHint": "Navigates to a website about concussions",
+        "Ch5_click_here": "Concussion Care for Kids: Minds Matter",
+        "Ch5_p4_part2": ", a website developed by an interdisciplinary team of concussion experts at The Children's Hospital of Philadelphia.",
+        "CHAPTER_6_MAIN_TITLE": "Recognizing and Managing Pain",
+        "Ch6_p1": "Nearly everyone has pain after an injury. For most children, our research has shown that the pain will get a lot better during the first week after getting care for an injury. If the pain gets worse, make sure to talk to your child's doctor.",
+        "Ch6_p2": "Follow instructions provided by your healthcare provider It is important that your child follow all of the special instructions given by your healthcare provider and takes pain medicines as your healthcare provider told you to use them. The following are general suggestions about pain. ",
+        "CH6_TITLE_1": "1. How to recognize pain in your school-aged child and teen:",
+        "Ch6_t1_child_p1": "School-aged children may display different behaviors when they are in pain or uncomfortable. Your child may:",
+        "Ch6_t1_child_b1": "- Have difficulty sleeping",
+        "Ch6_t1_child_b2": "- Not eat or drink as much as usual",
+        "Ch6_t1_child_b3": "- Cry or moan",
+        "Ch6_t1_child_b4": "- Lose interest in play",
+        "Ch6_t1_child_b5": "- Become less active, lie quietly, or curl up in bed",
+        "Ch6_t1_child_b6": "- Be restless",
+        "Ch6_t1_child_b7": "- Complain of pain",
+        "Ch6_t1_child_b8": "- Hold or protect the area of discomfort",
+        "Ch6_t1_child_b9": "- Become 'whiny' or 'cranky'",
+        "Ch6_t1_teen_p1": "Teens may display different behaviors when they are in pain or uncomfortable. Remember that teen athletes may not want to admit to pain if it keeps them out of sports. Your teen may:",
+        "Ch6_t1_teen_b1": "- Become quiet",
+        "Ch6_t1_teen_b2": "- Have difficulty sleeping",
+        "Ch6_t1_teen_b3": "- Not eat or drink as much as usual",
+        "Ch6_t1_teen_b4": "- Lose interest in family and friends",
+        "Ch6_t1_teen_b5": "- Become less active, lie quietly, or curl up in bed",
+        "Ch6_t1_teen_b6": "- Become irritable and angry",
+        "Ch6_t1_teen_b7": "- Complain of pain",
+        "CH6_TITLE_2": "2. How to help manage your child's pain:",
+        "Ch6_t2_p1": "Make sure to use the pain medicines in the doses and at the times that your healthcare professional recommended. Keep a pain diary, recording where your child's pain is, how bad it is, when it happens, what makes it better, and what makes it worse. There are many ways, other than medicine, to comfort your child. The healthcare team can make suggestions for your child, but here are some basics for getting started.",
+        "Ch6_t2_ForChild": "For your school-aged child:",
+        "Ch6_t2_ForChild_A": "A. Create a comfortable and safe environment",
+        "Ch6_t2_ForChild_A_b1": "- Dim the lights",
+        "Ch6_t2_ForChild_A_b2": "- Stay with your child as much as possible.",
+        "Ch6_t2_ForChild_A_b3": "- Provide quiet time.",
+        "Ch6_t2_ForChild_A_b4": "- Talk in a soothing voice.",
+        "Ch6_t2_ForChild_B": "B. Use gentle and firm touch to provide comfort and security",
+        "Ch6_t2_ForChild_B_b1": "- Hold your child.",
+        "Ch6_t2_ForChild_B_b2": "- Massage your child's body in a firm, slow motion",
+        "Ch6_t2_ForChild_B_b3": "- Hold your child's hand.",
+        "Ch6_t2_ForChild_B_b4": "- Offer hugs.",
+        "Ch6_t2_ForChild_C": "C. Use distraction to help your school-age child focus on something other than pain. Encourage your child to:",
+        "Ch6_t2_ForChild_C_b1": "- Play their favorite music",
+        "Ch6_t2_ForChild_C_b2": "- Blow bubbles",
+        "Ch6_t2_ForChild_C_b3": "- Take slow, deep breaths",
+        "Ch6_t2_ForChild_C_b4": "- Read a book",
+        "Ch6_t2_ForChild_C_b5": "- Talk about a favorite place or memory",
+        "Ch6_t2_ForChild_C_b6": "- Play a game or watch TV",
+        "Ch6_t2_ForChild_C_b7": "- Do art projects, draw, or color",
+        "Ch6_t2_ForTeen": "For your teen:",
+        "Ch6_t2_ForTeen_A": "A. Create a comfortable and safe environment",
+        "Ch6_t2_ForTeen_A_b1": "- Dim the lights",
+        "Ch6_t2_ForTeen_A_b2": "- Offer to stay with your teen",
+        "Ch6_t2_ForTeen_A_b3": "- Reduce noise.",
+        "Ch6_t2_ForTeen_A_b4": "- Approach your teen in a calm, comforting way.",
+        "Ch6_t2_ForTeen_B": "B. Use gentle and firm touch to provide comfort and security",
+        "Ch6_t2_ForTeen_B_b1": "- Offer gentle massage.",
+        "Ch6_t2_ForTeen_B_b2": "- Offer hugs or hold your teen's hand",
+        "Ch6_t2_ForTeen_B_b3": "- Talk in a soothing voice.",
+        "Ch6_t2_ForTeen_C": "C. Use distraction to help your teen focus on something other than pain. Encourage your teen to:",
+        "Ch6_t2_ForTeen_C_b1": "- Play music",
+        "Ch6_t2_ForTeen_C_b2": "- Take slow, deep breaths",
+        "Ch6_t2_ForTeen_C_b3": "- Read a book",
+        "Ch6_t2_ForTeen_C_b4": "- Talk about a pleasant experience or memory.",
+        "Ch6_t2_ForTeen_C_b5": "- Play a game or watch TV",
+        "Ch6_t2_ForTeen_C_b6": "- Do art projects, draw, or color",
+        "CH6_TITLE_3": "3. When to call your child's doctor",
+        "Ch6_t3_p1": "Make sure to ask your healthcare provider what symptoms to look out for and whether you should call or go straight to the hospital. Some of these symptoms are:",
+        "Ch6_t3_b1": "- Your child has increasing pain and pain medicine recommended or prescribed by your healthcare provider is not helping.",
+        "Ch6_t3_b2": "- Your child has a new pain.",
+        "Ch6_t3_b3": "- If you have any other concerns",
+        "CH6_TITLE_4": "4. Make sure to ask your healthcare provider:",
+        "Ch6_t4_b1": "- How do I keep a pain diary and what information should I record?",
+        "Ch6_t4_b2": "- What is the best way to assess my child's pain, given their age or level?",
+        "Ch6_t4_b3": "- What symptoms should I look for in my child? How often should I check?",
+        "Ch6_t4_b4": "- What should I do if my child has a symptom you told me to watch for? Should I call the office, call 911, or go to the hospital?",
+        "Ch6_t4_b5": "- Can my child return to school?",
+        "Ch6_t4_b6": "- What are the limits to my child's activity?",
+        "Ch6_t4_b7": "- When can my child start gym? contact sports? biking? or rough play?",
+        "Ch6_t4_b8": "- Will you please call my child's school and explain how to manage my child's pain and anything else they need to know about my child?",
+        "Ch6_t4_b9": "- What kind of pain can be expected and for how long?",
+        "Ch6_t4_b0": "- How will the pain be controlled before, during and after any procedures?",
+        "Ch6_t4_b11": "- If your child receives pain medication, learn as much as you can about the medicine from the doctor, nurse, or pharmacist. Talk to your healthcare provider about any side effects your child might have and how to help treat them.",
+        "Ch6_t4_b12": "- How can I manage my child's pain during therapy if my child is going to get physical therapy?",
+        "CH6_TITLE_5": "5. Suggestions for follow-up appointments",
+        "Ch6_t5_p1": "When you bring your child in for his follow-up visits or with specialists, remember to:",
+        "Ch6_t5_b1": "- Let your healthcare provider know if your child is still having any pain.",
+        "Ch6_t5_b2": "- Let your doctor know where the pain is, what makes it better, what makes it worse.",
+        "Ch6_t5_b3": "- Bring all of your medicines with you to all appointments.",
+        "Ch6_t5_b4": "- If you are going to another specialist, try to bring along any medical records and copies of radiographs, MRIs, and CT scans.",
+        "Ch6_t5_b5": "- If your child is going to therapy, ask them to manage your child's pain."
+    },
+    "listFindHelp": {
+        "header": "Find Help",
+        "caption": "FIND WAYS TO HELP YOUR CHILD RECOVER",
+        "quickTips": "Quick Tips",
+        "quickTipsHint": "Navigates to the Quick Tips page",
+        "howToTalk": "How to Talk with Your Child",
+        "howToTalkHint": "Navigates to How to Talk with Your Child",
+        "howToDeal": "How to Deal with New Fears and Worries",
+        "howToDealHint": "Navigates to How to Deal With New Fears and Worries",
+        "healthcareTeam": "Working with Your Child's Healthcare Team",
+        "healthcareTeamHint": "Navigates to Working with Your Child's Healthcare Team",
+        "injuryPain": "Injury and Pain Care",
+        "injuryPainHint": "Navigates to Injury and Pain Care",
+        "outsideHelp": "When to Get Outside Help",
+        "outsideHelpHint": "Navigates to When to Get Outside Help",
+        "selfCare": "Self Care",
+        "selfCareHint": "Navigates to Self Care"
+    },
+    "listLearnMore": {
+        "header": "Learn More",
+        "notAlone": "You Are Not Alone",
+        "notAloneHint": "Navigates to the you are not alone screen",
+        "reactions": "Reactions To Injury",
+        "reactionsHint": "Navigates to the reactions to injury screen",
+        "stressReactions": "What Are Traumatic Stress Reactions?",
+        "stressReactionsHint": "Navigates to the what are traumatic stress reactions screen",
+        "howLong": "How Long Do Traumatic Stress Reactions Last?",
+        "howLongHint": "Navigates to the how long do traumatic stress reactions last screen",
+        "whatToExpect": "WHAT TO EXPECT AFTER INJURY"
+    },
+    "mainScreen": {
+        "backButton": "BACK",
+        "pediatricPTSD": "Pediatric PTSD",
+        "more": "MORE",
+        "learnButton": "LEARN MORE",
+        "learnTitle": "Learn More About Injury and Trauma",
+        "learnCaption": "Get up-to-date information and expert guidance to assist you and your injured child.",
+        "learnAcessLabel": "Photo of a doctor holding a stethoscope with their arms folded accross their chest.",
+        "learnAccessHint": "Navigates to the learn more screen",
+        "quizButton": "TAKE THE QUIZ",
+        "quizTitle": "Rate Your Child's Reactions",
+        "quizCaption": "An injury or accident can be a scary or stressful experience. Take a quick quiz to measure your child's traumatic stress.",
+        "quizAccessLabel": "Photo of child covering her eyes with her hands",
+        "quizAccessHint": "Navigates to the quiz screen",
+        "findHelpButton": "FIND HELP",
+        "findHelpTitle": "Help Your Child Recover",
+        "findHelpCaption": "Dealing with emotional reactions and injury care can be difficult. Find ways to help your child recover.",
+        "findHelpAccessLabel": "Photo of father reading a book to a baby on his lap.",
+        "findHelpAccessHint": "Navigates to the find help screen"
+    },
+    "whenToGetOutsideHelp": {
+        "page1": "When to Look For More Help",
+        "page1Accessability": "Navigates to When to look for outside help Page",
+        "page2": "How to Look For Professional Help",
+        "page2Accessability": "Navigates to How to look for professional help or counseling for your child Page",
+        "page3": "When and How to Look For Help For Yourself",
+        "page3Accessability": "Navigates to When and how to look for more help for yourself Page",
+        "headerTitle": "Find Help",
+        "featuredTitle": "Get Outside Help",
+        "cardAccessibilityHint": "Photo of two people holding hands over coffee",
+        "subTitle": "It is important to know when to get professional help.",
+        "paragraphTitle": "When To Get Outside Help",
+        "paragraph": "You have the very important job of making sure your child gets the best medical care for his physical injuries. You are also the best person to monitor how your child is coping, and when some extra help, such as trauma counseling, might be needed. In the first few days after an injury, many kids (and parents) feel a little upset, jumpy or worried, and can use a little extra support from family and friends."
+    },
+    "whenToLook": {
+        "paragraphTitle1": "Does your child have traumatic stress symptoms that:",
+        "paragraph1": "-Get in the way of getting back to usual activities?",
+        "paragraph2": "-Stop your child from enjoying things they used to enjoy?",
+        "paragraph3": "-Seem to be getting worse rather than better?",
+        "paragraph4": "-Have lasted more than a month?",
+        "paragraphTitle2": "Does your child:",
+        "paragraph5": "-Get physical symptoms if reminded of the injury or what happened?",
+        "paragraph6": "-Try not to talk about it?",
+        "paragraph7": "-Startle easily (for example, jumping at sudden noises)?",
+        "paragraph8": "-Get very distressed if reminded of the injury?",
+        "paragraph9": "If any of the above are true, it's a good idea to talk with your doctor or another professional about how your child is doing."
+    },
+    "whenToLookYourself": {
+        "paragraph1": "Sometimes parents need extra help too.",
+        "paragraphTitle1": "Do you have traumatic stress symptoms that:",
+        "paragraph2": "-Get in the way of getting back to usual activities?",
+        "paragraph3": "-Stop you from enjoying things you used to enjoy?",
+        "paragraph4": "-Seem to be getting worse rather than better?",
+        "paragraph5": "-Have lasted more than a month?",
+        "paragraph6": "If so, you may want to seek out a professional who can help you.",
+        "paragraphTitle2": "Remember to ask questions",
+        "paragraph7": "When looking for a counselor or therapist to help with traumatic stress symptoms, remember to ask questions such as: ",
+        "paragraph8": "-Do you have experience working with people after trauma?",
+        "paragraph9": "-What is your approach to working with this type of problem?",
+        "paragraph10": "-What is your success rate?"
+    },
+    "quickTips": {
+        "header": "Find Help",
+        "cardHeader": "Quick Tips",
+        "cardTitle": "6 quick tips to help you and your child when overcoming a traumatic injury.",
+        "accessibilityLabelCont": "Quick Tips",
+        "accessibilityLabelPic": "Photo of a mother speaking to her child.",
+        "tip_one": "1. Let your child know that they are safe.",
+        "tip_two": "2. Allow children to talk about their feelings, and their worries, if they want to.",
+        "tip_three": "3. Go back to normal routines.",
+        "tip_four": "4. Increase time with family and friends.",
+        "tip_five": "5. Take time to deal with your own feelings.",
+        "tip_six": "6. Keep in mind people in the same family can react in different ways.",
+        "desc_one": "In the first days and weeks following an injury many children fear that something bad might happen to them again. Let your child know that they are safe now. Give them extra hugs, even your teens. Younger children may need more cuddle time.",
+        "desc_two": "Let your child know that it is OK to feel a little upset; many children feel upset, worried, or confused after getting hurt. Allow your child to talk about their feelings if they want to. If they do not want to talk, stress coping strategies for kids can include writing a story or drawing a picture.",
+        "desc_three": "It is important to help your child get plenty of sleep, eat regular meals, and keep up with schoolwork. Encourage your child to go back to spending time with friends. If the injury gets in the way of things s/he used to do – talk with your doctor about what your child can do, and be creative in figuring out how to get your child back to SOME normal activities.",
+        "desc_four": "Children who get support from family and friends seem to do better in recovering after upsetting events. Try reading together, playing sports or games, or watching movies together.",
+        "desc_five": "In addition to all the things you do to help your child, it’s important to remember to take good care of yourself. It will be harder to help your child if you are really worried, upset or overwhelmed. Talk about your feelings with other adults, such as family, friends, clergy, your doctor or a counselor.",
+        "desc_six": "Remember, your child's feelings and worries about the injury might be different from yours. Brothers and sisters can feel upset too. An important way that parents can help is to pay special attention to how your child's responses might be different from yours. Those are the situations where it can be harder to know how to help."
+    },
+    "quizMain": {
+        "header": "Take the Quiz",
+        "op1": "Always",
+        "op2": "Sometimes",
+        "op3": "Never",
+        "headerTitle": "Quiz",
+        "accessibilityLabelCont": "Quiz to rate child's traumatic stress level",
+        "accessibilityLabelPic": "Image of child reacting to stress",
+        "title": "Rate your child's reactions in the quiz below.",
+        "description": "You can rate these on your own, based on what you have noticed with your child. If possible, you may want to involve your child in answering these questions with you.",
+        "qt1": "Re-experiencing: Reliving what happened",
+        "q1": "1. Thinks a lot about what happened to them",
+        "q2": "2. Has bad dreams or nightmares since the injury",
+        "q3": "3. Gets upset or has physical reactions (headache, stomachache, heart pounding) at reminders of what happened",
+        "qt2": "Avoidance: Staying away from reminders",
+        "q4": "4. Doesn’t want to talk about what happened or tries to push it out of their mind",
+        "q5": "5. Wants to stay away from people, places, or things that are reminders of what happened",
+        "q6": "6. Afraid of something that they were not afraid of before (or a previous fear or worry seems to get worse)",
+        "q7": "7. Not interested in usual activities, since the injury",
+        "q8": "8. Not interested in being with people they usually like being with, since the injury",
+        "qt3": "Hyper-arousal: Feeling anxious or jumpy",
+        "q9": "9. Worries a lot that something else bad will happen",
+        "q10": "10. Startles easily – for example, jumps if there is a sudden noise",
+        "q11": "11. Seems irritable or has angry outbursts, since the injury",
+        "q12": "12. Has trouble paying attention to things, since the injury",
+        "q13": "13. Has trouble falling or staying asleep, since the injury",
+        "qt4": "Other concerns about your child",
+        "q14": "14. Is still having pain or discomfort",
+        "q15": "15. Has had other behavior changes since the injury",
+        "q16": "16. Is having trouble with returning to school or other activities",
+        "qt5": "Concerns about how others in the family are coping",
+        "q17": "17. Brothers or sisters are upset or worried",
+        "q18": "18. You (parent) are stressed or worried yourself",
+        "note": "Note:",
+        "disclaimer1": "This is not a formal medical or psychological assessment or diagnosis. If you are concerned with how you or your child is doing, please contact your doctor mental health professional, or other healthcare provider. \n",
+        "toHealthProf": "To Healthcare Professionals:",
+        "disclaimer2": "Please use these ratings as a basis for conversation to learn more about your patient’s response to a recent injury.",
+        "accessibilityLabelSub": "Click here to submit your results"
+    },
+    "quizResults": {
+        "noAnswers": "Oops! Looks like you forgot to select any answers.",
+        "whyHappens": "Why It Happens: ",
+        "isProblem": "Is This a Problem?: ",
+        "q1title": "Thinks a lot about what happened to them",
+        "q1body1": "Thinking and talking about what happened, especially in the first few days and weeks, is part of how we help ourselves recover from a scary experience.",
+        "q1body2": "Do thoughts about it often pop into their mind even when they don't want them to? Does this bother them?",
+        "q2title": "Has bad dreams or nightmares since the injury",
+        "q2body1": "It's normal for kids to have bad dreams from time to time.",
+        "q2body2": "Are the nightmares worse or more frequent since the injury? Are they interfering with getting a good night’s sleep?",
+        "q3title": "Gets upset or has physical reactions at reminders of what happened",
+        "q3body1": "When something scary happens, we learn to treat things connected to it as if they were danger signals. Sights, sounds, and even smells can be reminders.",
+        "q3body2": "Do these feelings happen nearly every day? Do they make it hard for your child to relax and have fun, or to concentrate on schoolwork?",
+        "q4title": "Doesn’t want to talk about what happened or tries to push it out of their mind",
+        "q4body1": "Everyone needs to take a break sometimes from thinking about or talking about a scary experience. (And there may be times when you’re ready to talk but your child isn’t.)",
+        "q4body2": "Does your child seem to never want to think or talk about it with anyone, or does talking about it make them feel quite upset?",
+        "q5title": "Wants to stay away from people, places, or things that are reminders of what happened",
+        "q5body1": "After something scary happens, reminders of what happened can make us feel very anxious, and we might start to avoid those things.",
+        "q5body2": "Is avoiding reminders stopping your child from doing (safe) things they would otherwise be able to do, or from enjoying activities when they do manage to do them?",
+        "q6title": "Afraid of something that they were not afraid of before (or a previous fear or worry seems to get worse)",
+        "q6body1": "After something scary happens, we can become afraid of things that are reminders of what happened.",
+        "q6body2": "Are fears stopping your child from doing (safe) things they would otherwise be able to do, or from enjoying activities even when they do manage to do them?",
+        "q7title": "Not interested in usual activities, since the injury",
+        "q7body1": "One way we cope with overwhelming scary experiences is to “shut down” our emotions for a while. And kids may feel a bit down or stressed when dealing with a lot of changes after an injury.",
+        "q7body2": "Does your child seem to be not enjoying lots of things they used to like to do? Do they seem sad or withdrawn, or like their feelings are “shut down” much of the time?",
+        "q8title": "Not interested in being with people they usually like being with, since the injury",
+        "q8body1": "One way we cope with overwhelming scary experiences is to “shut down” our emotions and not feel close to other people for a while. Sometimes other people are reminders of what happened or of how things have changed.",
+        "q8body2": "Does your child seem to be having a really hard time feeling relaxed and close to friends and family they usually trust and enjoy time with?",
+        "q9title": "Worries a lot that something else bad will happen",
+        "q9body1": "Being on the lookout for danger makes sense after something scary has happened. It’s how we learn to keep ourselves safe from things that are truly dangerous.",
+        "q9body2": "Are your child’s feelings of being “on guard” for potential danger very strong? Does your child feel this way a lot of the time? Is it making it harder to get back to doing things they used to do?",
+        "q10title": "Startles easily – for example, jumps if there is a sudden noise",
+        "q10body1": "A frightening experience can trigger an exaggerated physical startle response that takes some time to go away.",
+        "q10body2": "Is your child feeling so jumpy that it’s really hard to relax? Is it affecting his/ her sleep or ability to concentrate?",
+        "q11title": "Seems irritable or has angry outbursts, since the injury",
+        "q11body1": "Stress and changes can lead to frustrations for injured kids. Feeling jumpy all the time, being tired or in pain can make anyone more easily angered. Some head injuries can lead to changes in ability to control emotions or behavior (be sure to ask your child’s doctor about what to expect).",
+        "q11body2": "Is irritability making it hard for your child to get along with family or friends? Is this a big change in your child’s usual personality?",
+        "q12title": "Has trouble paying attention to things, since the injury",
+        "q12body1": "When we are under a lot of stress, feel really jumpy or on guard, or have thoughts of what happened popping into mind, it can be hard to pay attention at times. Some head injuries can lead to concentration problems (be sure to ask your child’s doctor about what to expect).",
+        "q12body2": "Is difficulty concentrating getting in the way of schoolwork, or your child’s ability to take part in other activities or sports?",
+        "q13title": "Has trouble falling or staying asleep, since the injury",
+        "q13body1": "Some sleep problems after an injury are a temporary reaction to disruptions in your child’s schedule and routines. But sleep problems can be made worse by pain from the injury, or by worries and thoughts that make it hard to relax.",
+        "q13body2": "Is your child having a hard time falling asleep or staying asleep many nights? Is your child afraid to sleep alone?",
+        "q14title": "Is still having pain or discomfort",
+        "q14body1": "Most injured children have pain, at least at first. Pain cannot always be managed completely, but doctors do their best to get it under control as soon as possible.",
+        "q14body2": "Your child may tell you they are in pain, or you might see the effects of pain in their behavior. Pain can make it harder to sleep and harder to concentrate. Follow up may be needed if your child’s pain is getting worse or if it interferes with getting a good night’s sleep or paying attention in school.",
+        "q15title": "Has had other behavior changes since the injury",
+        "q15body1": "Many times behavior changes are temporary reactions to injury-related stresses and to normal life being turned “upside down”, at least for while. Frustrations or worries can lead to clingy or angry behaviors. Some head injuries can also lead to behavior changes (be sure to ask your child’s doctor about what to expect).",
+        "q15body2": "Are behavior changes making it harder for your child to get along with people or to get back to regular activities? Have these changes lasted for more than a few weeks?",
+        "q16title": "Is having trouble with returning to school or other activities",
+        "q16body1": "Returning to school may require physical accommodations (such as getting around on crutches). Stress and worry can sometimes make it harder to concentrate on schoolwork. And after an injury, there may be changes (at least for a while) in your child’s ability to participate in sports and other activities they enjoy.",
+        "q16body2": "Are you worried about how things will go when your child returns to school? Is your child having trouble keeping up with schoolwork? Is your child very upset about missing out on sports or other activities because of the injury?",
+        "q17title": "Brothers or sisters are upset or worried",
+        "q17body1": "Injury can affect the whole family. When a child is hurt or in the hospital, brothers and sisters may be worried, frightened, or even angry. It’s hard for parents to meet everyone’s needs at the same time.",
+        "q17body2": "You may notice that your other children are missing your attention, or that they are upset or worried.",
+        "q18title": "You (parent) are stressed or worried yourself",
+        "q18body1": "After your child is injured, there are lots of things that you as a parent have to cope with. It’s normal for parents to feel stress and to be concerned about the future. Many parents also have some traumatic stress reactions in the first few weeks. If these don’t get better in a month or so, they may signal a problem that needs attention.",
+        "q18body2": "Have these feelings lasted for more than a month? Are worries about your child keeping you from being able to concentrate, get enough sleep, or get back to work or other activities?"
+    },
+    "reactionsToInjury": {
+        "header": "Learn More",
+        "title": "Reactions to Injury",
+        "content": {
+            "videoCard": {
+                "title": "These reactions are expected.",
+                "subtitle": "With a little time and extra support, most children feel better.",
+                "accessibility": "Video show what are stress reactions to injury"
+            },
+            "paragraphOne": "One of the most important things you can do to help your child is to recognize your child’s reactions to injury. Many reactions are normal and common; some are more worrisome.",
+            "paragraphTwo": "The first step in helping your child recover is to learn what reactions to look for and what you can do to help your child respond in a healthy way.",
+            "bulletListOne": {
+                "title": "In the first few days after an injury, these are the common child trauma symptoms:",
+                "bulletOne": "- Nearly all children feel upset, jumpy, or worried at times.",
+                "bulletTwo": "- Parents and other family members can have similar reactions.",
+                "bulletThree": "- Nearly everyone feels symptoms of stress; Headache, tense muscles, knots in your stomach, sweaty palms, and the feeling that life is a bit out of control.",
+                "bulletFour": "- Parents and children may argue more.",
+                "bulletFive": "- Children may be more clingy or have trouble sleeping."
+            },
+            "bulletListTwo": {
+                "title": "You may even notice some positive reactions to their injury:",
+                "bulletOne": "- Feeling thankful and relieved that nothing worse happened",
+                "bulletTwo": "- A resolve to do things more safely in the future"
+            },
+            "paragraphThree": "When an accident or injury causes overwhelming feelings of fear, helplessness, and horror, it can lead to more than just everyday stress reactions. It can lead to",
+            "paragraphThreeBold": "traumatic stress."
+        }
+    },
+    "resources": {
+        "back": "BACK",
+        "resources": "Resources",
+        "description": "Find additional resources for you and your child.",
+        "accessibilityHint": "Photo of multi-layered pyramid.",
+        "accordion": [
+            {
+                "name": "Finding a Therapist",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Psychology Today",
+                            "url": "https://www.psychologytoday.com",
+                            "accessibilityHint": "Navigates to The Psychology Today homepage",
+                            "accessibilityLabel": "Click here to visit the PT official page"
+                        },
+                        "contentText": "Psychology Today is a great resource to find a therapist or counselor for you or your child."
+                    }
+                ]
+            },
+            {
+                "name": "Traumatic Stress and PTSD",
+                "content": [
+                    {
+                        "link": {
+                            "text": "The National Child Traumatic Stress Network",
+                            "url": "http://www.nctsn.org",
+                            "accessibilityHint": "Navigates to The National Child Traumatic Stress Network homepage",
+                            "accessibilityLabel": "Click here to visit the NCTSN official page"
+                        },
+                        "contentText": " The National Child Traumatic Stress Network is a network of academic and community-based centers providing education and services for children and families who have experienced a traumatic event."
+                    },
+                    {
+                        "link": {
+                            "text": "The International Society for Traumatic Stress Studies",
+                            "url": "http://www.istss.org/",
+                            "accessibilityHint": "Navigates to International Society for Traumatic Stress Studies homepage",
+                            "accessibilityLabel": "Click here to visit the ISTSS official page"
+                        },
+                        "contentText": "The International Society for Traumatic Stress Studies is a professional membership organization that promotes advancement and exchange of knowledge about severe stress and trauma."
+                    },
+                    {
+                        "link": {
+                            "text": "The National Center for PTSD",
+                            "url": "http://www.ptsd.va.gov/",
+                            "accessibilityHint": "Navigates to the National Center for PTSD homepage",
+                            "accessibilityLabel": "Click here to visit the National Center for PTSD homepage"
+                        },
+                        "contentText": "The National Center for PTSD was developed originally to serve the needs of war veterans, this organization also has resources for a broad range of traumatic events for children and adolescents."
+                    },
+                    {
+                        "link": {
+                            "text": "Medline Plus",
+                            "url": "http://www.nlm.nih.gov/medlineplus/",
+                            "accessibilityHint": "Navigates to a database containing Medline Plus articles from the NLM and NIH",
+                            "accessibilityLabel": "Click here to view Medline Plus articles"
+                        },
+                        "contentText": "Medline Plus contains Over 4,000 articles about diseases, tests, symptoms, and injuries compiled by the US National Library of Medicine and the National Institutes of Health."
+                    },
+                    {
+                        "link": {
+                            "text": "The National Institute of Mental Health",
+                            "url": "https://www.nimh.nih.gov/index.shtml",
+                            "accessibilityHint": "Navigates to National Institute of Mental Health offical page",
+                            "accessibilityLabel": "Click here to vist the National Institute of Mental Health homepage"
+                        },
+                        "contentText": "The National Institute of Mental Health has more information explaining what PTSD is, when it starts, how long it lasts, and how to get help. "
+                    }
+                ]
+            },
+            {
+                "name": "Dealing with Other Types of Traumatic Events",
+                "content": [
+                    {
+                        "link": {
+                            "text": "Military OneSource",
+                            "url": "http://www.militaryonesource.com/MOS/MilitaryFamiliesGateway.aspx",
+                            "accessibilityHint": "Navigates to Military OneSource homepage",
+                            "accessibilityLabel": "Click here to visit the Military OneSource official page"
+                        },
+                        "contentText": " Military OneSource has resources for military families, including ways to help children prepare for and deal with a parent's deployment."
+                    },
+                    {
+                        "link": {
+                            "text": "Lotsa Helping Hands",
+                            "url": "http://www.lotsahelpinghands.com/",
+                            "accessibilityHint": "Navigates to Lotsa Helping Hands homepage",
+                            "accessibilityLabel": "Click here to visit the NCTSN official page"
+                        },
+                        "contentText": "Lotsa Helping Hands is a simple, immediate way for friends, family, colleagues, and neighbors to assist loved ones in need."
+                    },
+                    {
+                        "link": {
+                            "text": "Traumatic grief resources from the National Child Traumatic Stress Network",
+                            "url": "http://www.nctsn.org/nccts/nav.do?pid=typ_tg",
+                            "accessibilityHint": "Navigates to The National Child Traumatic Stress Network homepage",
+                            "accessibilityLabel": "Click here to visit the NCTSN official page"
+                        },
+                        "contentText": " The National Child Traumatic Stress Network is a network of academic and community-based centers providing education and services for children and families who have experienced a traumatic event. This page has educational materials for parents and professionals on childhood traumatic grief."
+                    },
+                    {
+                        "link": {
+                            "text": "The National Institute of Mental Health",
+                            "url": "https://www.nimh.nih.gov/index.shtml",
+                            "accessibilityHint": "Navigates to National Institute of Mental Health offical page",
+                            "accessibilityLabel": "Click here to visit the National Institute of Mental Health homepage"
+                        },
+                        "contentText": "The National Institute of Mental Health has more information explaining what PTSD is, when it starts, how long it lasts, and how to get help. "
+                    },
+                    {
+                        "link": {
+                            "text": "Disaster Resources from the American Red Cross",
+                            "url": "http://www.redcross.org/local/hawaii/programs-services/disaster-preparedness",
+                            "accessibilityHint": "Navigates to Disaster Resources from the American Red Cross PDF",
+                            "accessibilityLabel": "Click here to visit the Disaster Resources from the American Red Cross PDF"
+                        },
+                        "contentText": "Disaster Resources from the American Red Cross has information about helping children cope with effects of disaster, and how to be prepared before a disaster. "
+                    },
+                    {
+                        "link": {
+                            "text": "Disaster Resources from the American Psychological Association",
+                            "url": "http://www.apa.org/news/press/releases/2005/01/tsunami.aspx",
+                            "accessibilityHint": "Navigates to the Disaster Resources from the American Psychological Association page",
+                            "accessibilityLabel": "Click here to visit the Disaster Resources from the American Psychological Association page"
+                        },
+                        "contentText": "Disaster Resources from the American Psychological Association has information and tips for recovering from a natural disaster."
+                    },
+                    {
+                        "link": {
+                            "text": "Disaster Resources from the Centers for Disease Control and Prevention",
+                            "url": "https://emergency.cdc.gov/coping/index.asp",
+                            "accessibilityHint": "Navigates to the Disaster Resources from the Centers for Disease Control and Prevention page",
+                            "accessibilityLabel": "Click here to visit the Disaster Resources from the Centers for Disease Control and Prevention page"
+                        },
+                        "contentText": "Disaster Resources from the Centers for Disease Control and Prevention has information for parents, children, and professionals on coping with a disaster. "
+                    },
+                    {
+                        "link": {
+                            "text": "Child Welfare Information Gateway",
+                            "url": "http://www.childwelfare.gov/can/index.cfm",
+                            "accessibilityHint": "Navigates to Child Welfare Information Gateway homepage",
+                            "accessibilityLabel": "Click here to visit the Child Welfare Information Gateway homepage"
+                        },
+                        "contentText": "The Child Welfare Information Gateway has resources on a range of child maltreatment topics. "
+                    },
+                    {
+                        "link": {
+                            "text": "National Domestic Violence Hotline",
+                            "url": "http://www.thehotline.org/",
+                            "accessibilityHint": "Navigates to Disaster Resources from the American Red Cross PDF",
+                            "accessibilityLabel": "Click here to vist the Disaster Resources from the American Red Cross PDF"
+                        },
+                        "contentText": "The National Domestic Violence Hotline is an anonymous 24/7 hotline that provides support and assistance to victims of domestic violence."
+                    }
+                ]
+            },
+            {
+                "name": "Help with Worry and Stress in Children",
+                "content": [
+                    {
+                        "link": {
+                            "text": "American Academy of Pediatrics – Children, Teens, and Resiliency",
+                            "url": "http://www.aap.org/stress/",
+                            "accessibilityHint": "Navigates to The American Academy of Pediatrics page on Children, Teens, and Resiliency",
+                            "accessibilityLabel": "Click here to get more information from the American Academy of Pediatrics"
+                        },
+                        "contentText": "American Academy of Pediatrics – Children, Teens, and Resiliency has information to help teens and families cope with the pressures of day-to-day life."
+                    },
+                    {
+                        "link": {
+                            "text": "Worry Wise Kids",
+                            "url": "http://www.worrywisekids.org/",
+                            "accessibilityHint": "Navigates to Worry Wise Kids homepage",
+                            "accessibilityLabel": "Click here to visit the Worry Wise Kids official page"
+                        },
+                        "contentText": "Worry Wise Kids has information to help children with excessive worries or fears. "
+                    }
+                ]
+            },
+            {
+                "name": "Help with Sleep Problems",
+                "content": [
+                    {
+                        "link": {
+                            "text": "National Association of School Psychologists",
+                            "url": "https://www.nasponline.org/",
+                            "accessibilityHint": "Navigates to National Association of School Psychologists homepage",
+                            "accessibilityLabel": "Click here to visit the National Association of School Psychologists official page"
+                        },
+                        "contentText": "The National Association of School Psychologists has information for parents and educators on sleep and sleep disorders for children and teens."
+                    },
+                    {
+                        "link": {
+                            "text": "National Sleep Foundation (Teens)",
+                            "url": "http://www.sleepfoundation.org/article/leep-topics/teens-and-sleep",
+                            "accessibilityHint": "Navigates to The National Sleep Foundation (Teens) homepage",
+                            "accessibilityLabel": "Click here to visit The National Sleep Foundation (Teens) official page"
+                        },
+                        "contentText": "The National Sleep Foundation (Teens) has multiple topics on sleep related specifically to teens."
+                    },
+                    {
+                        "link": {
+                            "text": "National Sleep Foundation (Kids)",
+                            "url": "http://www.sleepforkids.org/",
+                            "accessibilityHint": "Navigates to National Sleep Foundation (Kids) homepage",
+                            "accessibilityLabel": "Click here to visit National Sleep Foundation (Kids) official page"
+                        },
+                        "contentText": "The National Sleep Foundation (Kids) is a child friendly website about sleep."
+                    }
+                ]
+            },
+            {
+                "name": "Injury Prevention",
+                "content": [
+                    {
+                        "link": {
+                            "text": "US National Highway Traffic Safety Administration",
+                            "url": "http://www.nhtsa.dot.gov/",
+                            "accessibilityHint": "Navigates to US National Highway Traffic Safety Administration homepage",
+                            "accessibilityLabel": "Click here to visit the US National Highway Traffic Safety Administration official page"
+                        },
+                        "contentText": "The US National Highway Traffic Safety Administration has information on recalls and vehicle safety."
+                    },
+                    {
+                        "link": {
+                            "text": "US Consumer Products Safety Commission",
+                            "url": "http://www.cpsc.gov/",
+                            "accessibilityHint": "Navigates to TUS Consumer Products Safety Commission homepage",
+                            "accessibilityLabel": "Click here to visit US Consumer Products Safety Commission official page"
+                        },
+                        "contentText": "The US Consumer Products Safety Commission has information on recalls and product safety."
+                    },
+                    {
+                        "link": {
+                            "text": "Centers for Disease Control and Prevention: National Center on Injury Prevention and Control",
+                            "url": "http://www.cdc.gov/injury/index.html",
+                            "accessibilityHint": "Navigates to Centers for Disease Control and Prevention: National Center on Injury Prevention and Control homepage",
+                            "accessibilityLabel": "Click here to visit Centers for Disease Control and Prevention: National Center on Injury Prevention and Control official page"
+                        },
+                        "contentText": "The Centers for Disease Control and Prevention: National Center on Injury Prevention and Control have multiple topics on injury prevention."
+                    },
+                    {
+                        "link": {
+                            "text": "SafeKids Wordwide",
+                            "url": "http://www.safekids.org/",
+                            "accessibilityHint": "Navigates to SafeKids Wordwide homepage",
+                            "accessibilityLabel": "Click here to visit SafeKids Wordwide official page"
+                        },
+                        "contentText": "SafeKids Wordwide has multiple topics on injury prevention."
+                    },
+                    {
+                        "link": {
+                            "text": "Center for Injury Research and Prevention at Children's Hospital of Philadelphia: Young Drivers",
+                            "url": "http://www.teendriversource.org/",
+                            "accessibilityHint": "Navigates to Center for Injury Research and Prevention at Children's Hospital of Philadelphia homepage on young drivers",
+                            "accessibilityLabel": "Click here to visit Center for Injury Research and Prevention at Children's Hospital of Philadelphia homepage on young drivers"
+                        },
+                        "contentText": "Center for Injury Research and Prevention at Children's Hospital of Philadelphia offers tools and tips for parents and teens to promote safe driving."
+                    },
+                    {
+                        "link": {
+                            "text": "Center for Injury Research and Prevention at Children's Hospital of Philadelphia: Child Passenger Safety",
+                            "url": "http://www.cdc.gov/injury/index.html",
+                            "accessibilityHint": "Navigates to Center for Injury Research and Prevention at Children's Hospital of Philadelphia homepage on child passenger safety",
+                            "accessibilityLabel": "Click here to visit Center for Injury Research and Prevention at Children's Hospital of Philadelphia homepage on child passenger safety"
+                        },
+                        "contentText": "Center for Injury Research and Prevention at Children's Hospital of Philadelphia offers tips to help families choose and install child restraint systems safely."
+                    }
+                ]
+            },
+            {
+                "name": "Pain and Injury Care",
+                "content": [
+                    {
+                        "link": {
+                            "text": "American Academy of Orthopedic Surgeons",
+                            "url": "http://www.orthoinfo.org/",
+                            "accessibilityHint": "Navigates to American Academy of Orthopedic Surgeons homepage",
+                            "accessibilityLabel": "Click here to visit the American Academy of Orthopedic Surgeons official page"
+                        },
+                        "contentText": "The American Academy of Orthopedic Surgeons has a patient education library (including casts and crutches). "
+                    },
+                    {
+                        "link": {
+                            "text": "American Trauma Society",
+                            "url": "http://www.amtrauma.org/",
+                            "accessibilityHint": "Navigates to American Trauma Society homepage",
+                            "accessibilityLabel": "Click here to visit The American Trauma Society official page"
+                        },
+                        "contentText": "The American Trauma Society has advocacy information on trauma care. "
+                    },
+                    {
+                        "link": {
+                            "text": "Brain Injury Association of America",
+                            "url": "http://www.biausa.org/",
+                            "accessibilityHint": "Navigates to Brain Injury Association of America homepage",
+                            "accessibilityLabel": "Click here to visit Brain Injury Association of America official page"
+                        },
+                        "contentText": "The Brain Injury Association of America has information and advocacy on brain injury. "
+                    },
+                    {
+                        "link": {
+                            "text": "National Institute of Health",
+                            "url": "http://health.nih.gov/",
+                            "accessibilityHint": "Navigates to National Institute of Health homepage",
+                            "accessibilityLabel": "Click here to visit National Institute of Health official page"
+                        },
+                        "contentText": "The National Institute of Health contains a glossary of health information."
+                    },
+                    {
+                        "link": {
+                            "text": "About Kids Health",
+                            "url": "http://www.aboutkidshealth.ca/pain",
+                            "accessibilityHint": "Navigates to About Kids Health homepage",
+                            "accessibilityLabel": "Click here to visit About Kids Health official page"
+                        },
+                        "contentText": "About Kids Health has information on assessing and treating pain in children from a pediatric hospital."
+                    },
+                    {
+                        "link": {
+                            "text": "PBS Parents Guide to Talking With Kids About Health",
+                            "url": "http://www.pbs.org/parents/talkingwithkids/health/communicating_intro.html",
+                            "accessibilityHint": "Navigates to PBS Parents Guide to Talking With Kids About Health homepage",
+                            "accessibilityLabel": "Click here to visit PBS Parents Guide to Talking With Kids About Health official page"
+                        },
+                        "contentText": "The NPBS Parents Guide to Talking With Kids About Health has tips on communicating "
+                    },
+                    {
+                        "link": {
+                            "text": "Pain, Pain, Go Away",
+                            "url": "http://www.aboutkidshealth.ca/EN/RESOURCECENTRES/PAIN/Pages/default.aspx",
+                            "accessibilityHint": "Navigates to Pain, Pain, Go Away homepage",
+                            "accessibilityLabel": "Click here to visit Pain, Pain, Go Away official page"
+                        },
+                        "contentText": "Pain, Pain, Go Away has information on helping children with pain from a leading pediatric pain research group."
+                    }
+                ]
+            },
+            {
+                "name": "Books for Parents",
+                "content": [
+                    {
+                        "link": {
+                            "text": "A Parent’s Guide to Building Resilience in Children and Teens: Giving Your Child Roots and Wings",
+                            "url": "https://www.amazon.com/Parents-Guide-Building-Resilience-Children/dp/1581102267/ref=sr_1_1?keywords=A+Parent%E2%80%99s+Guide+to+Building+Resilience+in+Children+and+Teens%3A+Giving+Your+Child+Roots+and+Wings.&qid=1575674996&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy A Parent’s Guide to Building Resilience in Children and Teens: Giving Your Child Roots and Wings",
+                            "accessibilityLabel": "Click here to visit Amazon to buy A Parent’s Guide to Building Resilience in Children and Teens: Giving Your Child Roots and Wings"
+                        },
+                        "contentText": "Today’s children face a great deal of stress — academic performance, heavy scheduling, high achievement standards, media messages, peer pressures, family tension.  Without healthier solutions, they often cope by talking back, giving up, or indulging in unhealthy behaviors. Show your child how to bounce back — and THRIVE — with coping strategies from one of the nation’s foremost experts in adolescent medicine."
+                    },
+                    {
+                        "link": {
+                            "text": "Freeing Your Child from Anxiety: Powerful, Practical Solutions to Overcome Your Child's Fears, Worries and Phobias",
+                            "url": "https://www.amazon.com/Freeing-Your-Child-Anxiety-Practical/dp/0767914929/ref=sr_1_1?keywords=Freeing+Your+Child+from+Anxiety%3A+Powerful%2C+Practical+Solutions+to+Overcome+Your+Child%27s+Fears%2C+Worries+and+Phobias.&qid=1575675183&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy Freeing Your Child from Anxiety: Powerful, Practical Solutions to Overcome Your Child's Fears, Worries and Phobias",
+                            "accessibilityLabel": "Click here to visit Amazon to buy Freeing Your Child from Anxiety: Powerful, Practical Solutions to Overcome Your Child's Fears, Worries and Phobias"
+                        },
+                        "contentText": "Anxiety is the number one mental health problem facing young people today.  Childhood should be a happy and carefree time, yet more and more children today are exhibiting symptoms of anxiety, from bedwetting and clinginess to frequent stomach aches, nightmares, and even refusing to go to school. Parents everywhere want to know: All children have fears, but how much is normal? How can you know when a stress has crossed over into a full-blown anxiety disorder? Most parents don’t know how to recognize when there is a real problem and how to deal with it when there is."
+                    },
+                    {
+                        "link": {
+                            "text": "Children and Trauma: A Guide for Parents and Professionals",
+                            "url": "https://www.amazon.com/Children-Trauma-Guide-Parents-Professionals/dp/0787910716/ref=sr_1_1?keywords=Children+and+Trauma%3A+A+Guide+For+Parents+and+Professionals&qid=1575675281&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy Children and Trauma: A Guide for Parents and Professionals",
+                            "accessibilityLabel": "Click here to visit Amazon to buy Children and Trauma: A Guide for Parents and Professionals"
+                        },
+                        "contentText": "Childhood traumas range widely in their severity and impact.  A car accident, an earthquake or flood, being attacked by a dog, undergoing a frightening medical treatment? All are distinctly different events yet all provoke common symptoms of psychological trauma.  These symptoms may include fearfulness, nightmares, and dramatic behavioral or personality changes. And parental anxiety over changes in a child can, in turn, complicate the healing process."
+                    }
+                ]
+            },
+            {
+                "name": "Books for Kids",
+                "content": [
+                    {
+                        "link": {
+                            "text": "When I Feel Scared (The Way I Feel Books)",
+                            "url": "https://www.amazon.com/When-Feel-Scared-Way-Books/dp/0807589004/ref=sr_1_1?keywords=When+I+Feel+Scared+%28for+young+children%29&qid=1575675551&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy When I Feel Scared (The Way I Feel Books)",
+                            "accessibilityLabel": "Click here to visit Amazon to buy When I Feel Scared (The Way I Feel Books)"
+                        },
+                        "contentText": "Children will recognize similar experiences in their own lives as this little bear describes feeling scared when he has a bad dream or his mother goes away.  Eventually our hero realizes that it's OK to be scared sometimes, and there are ways he can help himself when he's frightened."
+                    },
+                    {
+                        "link": {
+                            "text": "What to Do When You're Sad & Lonely: A Guide for Kids",
+                            "url": "https://www.amazon.com/What-When-Youre-Sad-Lonely/dp/1575421895/ref=sr_1_1?keywords=What+to+Do+When+You%E2%80%99re+Sad+%26+Lonely%3A+A+Guide+for+Kids&qid=1575675696&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy What to Do When You're Sad & Lonely: A Guide for Kids",
+                            "accessibilityLabel": "Click here to visit Amazon to buy What to Do When You're Sad & Lonely: A Guide for Kids"
+                        },
+                        "contentText": "All kids feel sad and lonely sometimes. Growing numbers of children are living with depression, a disease often mistaken for sadness.  This reassuring book offers strategies and tips kids can use to beat the blues and blahs, get a handle on their feelings, make and keep friends, and enjoy their time alone.  The second part focuses on depression, bipolar disorder, grief, and other problems too big for kids to handle on their own, and describes what it’s like to go to counseling.  Includes a Note to Grown-ups and a list of resources."
+                    },
+                    {
+                        "link": {
+                            "text": "What to Do What You’re Scared and Worried: A Guide for Kids",
+                            "url": "https://www.amazon.com/What-When-Youre-Scared-Worried/dp/1575421534/ref=sr_1_1?keywords=What+to+Do+What+You%E2%80%99re+Scared+and+Worried%3A+A+Guide+for+Kids&qid=1575675773&sr=8-1",
+                            "accessibilityHint": "Navigates to Amazon to buy What to Do What You’re Scared and Worried: A Guide for Kids",
+                            "accessibilityLabel": "Click here to visit Amazon to buy What to Do What You’re Scared and Worried: A Guide for Kids"
+                        },
+                        "contentText": "From a dread of spiders to panic attacks, kids have worries and fears, just like adults.  This is a book kids can turn to when they need advice, reassurance, and ideas.  They’ll find out where fears and worries come from, practice Fear Chasers and Worry Erasers, and learn to seek help for hard-to-handle fears they can’t manage on their own."
+                    }
+                ]
+            }
+        ]
+    },
+    "selfCare": {
+        "featureTitle": "Self Care",
+        "accessibilityLabel": "Photo of mother holding child",
+        "cardContent": "Parents need care too.",
+        "headerTitle": "Find Help",
+        "paragraphTitle": "In addition to all the things you do to help your child, it's very important to take good care of yourself.",
+        "paragraph1": "It is harder to help your child if you are feeling really worried, upset, or overwhelmed.",
+        "paragraph2": "Other parents have said: ",
+        "paragraphBold1": "\"I can't stop thinking about what happened.\"",
+        "paragraphBold2": "\"I get upset when something reminds me of it.\"",
+        "paragraphBold3": "\"I worry a lot more now about my child being safe.\"",
+        "paragraph3": "This section has information on some of the reactions you may notice in yourself: ",
+        "content": {
+            "reExperiencing": {
+                "title": "Re-Experiencing: Reliving what happened",
+                "accessibility": "Navigates to Re-Experiencing: Reliving what happened",
+                "why": "Why it happens:",
+                "problem": "Is this a problem?:",
+                "paragraphTitle1": "\"I think a lot about what happened to my child.\"",
+                "paragraph1": "Thinking and talking about what happened, especially in the first few days and weeks, is part of how we help ourselves recover from a scary experience or traumatic event.",
+                "paragraph2": "Do thoughts about the traumatic event often pop into your mind even when you don't want them to? Do the thoughts bother or upset you?",
+                "paragraphTitle2": "\"I have had bad dreams or nightmares since the injury.\"",
+                "paragraph3": "In a stressful time, it's not unusual to have a few bad dreams.",
+                "paragraph4": "Are the nightmares interfering with getting a good night's sleep?",
+                "paragraphTitle3": "\"I get upset or have physical symptoms (headache, stomachache, heart beating fast) at reminders of what happened.\"",
+                "paragraph5": "When something scary happens, we learn to treat things connected to it as if they were danger signals. Sights, sounds, and even smells can be reminders.",
+                "paragraph6": "Do these feelings happen nearly every day? Do they make it hard for you to relax, or to concentrate on things you have to do at home or at work?"
+            },
+            "avoidance": {
+                "title": "Avoidance: Staying away from reminders",
+                "accessibility": "Navigates to Avoidance: Staying away from reminders",
+                "why": "Why it happens:",
+                "problem": "Is this a problem?:",
+                "paragraphTitle1": "\"I don't want to talk or think about what happened.\"",
+                "paragraph1": "Everyone needs to take a break sometimes from thinking about or talking about a scary experience or traumatic event.",
+                "paragraph2": "Do you never want to think or talk about it with anyone, or does talking about it make you feel very upset?",
+                "paragraphTitle2": "\"I want to stay away from people, places, or things that are reminders of what happened.\"",
+                "paragraph3": "After something scary happens, reminders of what happened can make us feel very anxious, and we might start to avoid those things.",
+                "paragraph4": "Is avoiding reminders stopping you from doing things you think you should be able to do, or from enjoying activities even if you force yourself to do them?",
+                "paragraphTitle3": "\"I have lost interest in activities I usually enjoy, since the injury.\"",
+                "paragraph5": "One way we cope with overwhelming scary experiences is to \"shut down\" our emotions for a while.",
+                "paragraph6": "Are there lots of thing you used to enjoy that you just don't feel like dong now? Are you feeling emotionally \"numb\" much of the time?",
+                "paragraphTitle4": "\"I just don't feel like being with people, since the injury.\"",
+                "paragraph7": "One way we cope with overwhelming scary experiences is to \"shut down\" our emotions and not feel close to other people for a while.",
+                "paragraph8": "Are you having a really hard time feeling relaxed and close to friends and family you usually trust and like to spend time with?"
+            },
+            "hyperArousal": {
+                "title": "Hyper-Arousal: Feeling anxious or jumpy",
+                "accessibility": "Navigates to Hyper-Arousal: Feeling anxious or jumpy",
+                "why": "Why it happens:",
+                "problem": "Is this a problem?:",
+                "paragraphTitle1": "\"I find myself worrying a lot that something else bad will happen - or worry a lot about my child being safe.\"",
+                "paragraph1": "Being on the lookout for danger makes sense after something scary has happened. It's how we learn to keep ourselves safe from things that are truly dangerous.",
+                "paragraph2": "Do you feel this way so strongly, or so much of the time that it is getting in the way of you getting back to normal activities? Does your worry make it harder for you to help your child get back into normal activities?",
+                "paragraphTitle2": "\"I have noticed myself being over-protective of my child since the injury.\"",
+                "paragraph3": "All parents want to keep their children safe. An injury can be a harsh reminder that we can't protect our children from every danger 100% of the time. It's normal to feel like tightening up the controls afterwards, and some things may make sense (e.g. paying more attention to safety rules).",
+                "paragraph4": "Do you feel this way so strongly, or so much of the time, that you can't let your child get back to normal activities appropriate for their age?",
+                "paragraphTitle3": "\"I startle more easily.\" (e.g., jump at a sudden noise)",
+                "paragraph5": "A frightening experience can trigger an exaggerated physical startle response that takes some time to go away.",
+                "paragraph6": "Are you so jumpy that it's really hard to relax? Is it affecting your sleep or ability to concentrate?",
+                "paragraphTitle4": "\"I have been irritable or get angry more easily than before.\"",
+                "paragraph7": "Stress and fatigue can lead to feeling irritable. And if you're feeling jumpy or nervous it may be harder to deal with frustrations.",
+                "paragraph8": "Is irritability making it hard for you to get along with family or friends? Is this a big change in how you usually deal with stress or frustrations?",
+                "paragraphTitle5": "\"I have trouble concentrating.\"",
+                "paragraph9": "When we are under a lot of stress, feel really jumpy or on guard, or have distressing thoughts popping into mind, it can be hard to pay attention at times.",
+                "paragraph10": "Is difficulty concentrating getting in the way of being able to do your work, make decisions, or take care of your family?",
+                "paragraphTitle6": "\"I have had trouble sleeping.\"",
+                "paragraph11": "Sleep problems can be a temporary reaction to disruptions in your life. Feeling jumpy or on guard, or having lots of worried thoughts running through your mind, can make it hard to relax into sleep.",
+                "paragraph12": "Are you having a hard time falling asleep or staying asleep many nights? Is this interfering with feeling rested and able to function well during the day?"
+            },
+            "selfCareParents": {
+                "title": "Self-Care for Parents",
+                "accessibility": "Navigates to Self-Care for Parents",
+                "paragraphTitle1": "Taking care of yourself: Re-experiencing",
+                "paragraph1": "-Talk with friends or family about your own experiences and feelings about your child's injury.",
+                "paragraph2": "-Help yourself deal with overwhelming or troubling thoughts by learning how to \"take a break\" from them at times - do something fun, spend time with friends, get busy with other activities.",
+                "paragraph3": "-If talking with your child about their reactions makes you feel upset or worried, it's especially important to find someone who can be a listening ear for you.",
+                "paragraphTitle2": "Taking care of yourself: Avoidance",
+                "paragraph4": "-Notice when you feel worried or nervous - are there situations in which this seems to happen more?",
+                "paragraph5": "-If avoiding reminders is keeping you from doing important things, enlist a friend or family member to help you - ask them to encourage you to keep doing those things and congratulate you when you do!",
+                "paragraph6": "-Be especially careful that any new worries you might have don't stop you from letting your child do things that are safe and appropriate for their age. Use a friend or family member as a \"reality check\" for yourself.",
+                "paragraph7": "-Try to make yourself do just one or two activities or spend time with friends, even if you don't really feel like it at first. Sometimes \"just doing it\" can be the first step to feeling a little better.",
+                "paragraphTitle3": "Taking care of yourself: Hyper-Arousal",
+                "paragraph8": "-Remember that feeling a bit jumpy or worried is a natural reaction to going through something scary, and that it will get better with time.",
+                "paragraph9": "-Even if you can only get a short break from caring for your child, home, work, use it to get some exercise and do things that relax you -- go for a walk, relax with a funny movie or a good book.",
+                "paragraph10": "-Try to keep some daily routines the same.",
+                "paragraph11": "-Try to get to bed at a regular time, and to make the hour before bed a relaxing time.",
+                "paragraph12": "-Be especially careful not to increase your smoking or alcohol use to deal with stress.",
+                "paragraphTitle4": "Getting extra help for yourself",
+                "paragraph13": "-Think about getting some extra help if your own feelings and reactions after your child's injury are bothering you, or are making it harder for you to help your child get back into normal activities."
+            }
+        }
+    },
+    "traumaticStressReactions": {
+        "header": "Learn More",
+        "title": "Traumatic Stress Reactions",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on what are traumatic stress reactions.",
+                "title": "Stress reactions to injury are normal",
+                "subtitle": " However, three major reactions should be monitored."
+            },
+            "bulletListOne": {
+                "title": "There are three main types of traumatic stress reactions:",
+                "bulletOne": "- Re-experiencing: Reliving what happened",
+                "bulletTwo": "- Avoidance: Staying away from reminders",
+                "bulletThree": "- Hyper-arousal: Feeling anxious or jumpy"
+            },
+            "reExperiencingParagraph": {
+                "boldNote": "Note: ",
+                "note": "These reactions are normal and are not considered post traumatic stress reactions or PTSD unless they persist for over a month and interfere with daily life.",
+                "title": "Re-Experiencing",
+                "paragraphOne": "Re-experiencing means that your child keeps thinking a lot about the trauma, even when they do not want to.",
+                "paragraphTwo": "Some re-experiencing is normal and natural. Thinking a lot about what happened, especially at first, is part of how we help ourselves recover from a scary experience.",
+                "paragraphThree": "Too much re-experiencing can be very distressing. Your child might have nightmares or “flashbacks” that make them feel like they are going through the trauma all over again. They may feel really upset or even have physical symptoms when something – a sight, a sound, a smell – reminds them of what happened."
+            },
+            "avoidanceParagraph": {
+                "title": "Avoidance",
+                "paragraphOne": "Avoidance symptoms can start by trying not to think or talk about the trauma, or anything connected with it. Sometimes kids want to stay away from people, places or activities because these reminders upset them. And children sometimes develop new fears or worries.",
+                "paragraphTwo": "Of course, it can be good common sense to be more cautious after an injury. Children may become more aware of safety -- remembering to wear a seat belt, not running into the street after a ball, or staying away from dogs they do not know.",
+                "paragraphThree": "But extreme avoidance or fears can become a real problem. Avoidance can interfere with daily life and stop your child from getting back to enjoying things that they usually like to do."
+            },
+            "hyperArousalParagraph": {
+                "title": "Hyper-Arousal",
+                "paragraphOne": "Hyper-arousal also starts with a natural and normal response to danger – the \"fight or flight response.\" After an injury or accident, this \"fight or flight response.\" response might not turn off, even when you are safe.",
+                "bulletListOne": {
+                    "bulletOne": "- Your heart keeps pounding and you start sweating.",
+                    "bulletTwo": "- Your body is still on the lookout for danger."
+                },
+                "paragraphTwo": "After a scary situation like being injured, your child might have the feeling that something bad could happen again at any time, or might jump at any loud noise.",
+                "bulletListTwo": {
+                    "title": "The physical feelings that go along with hyper-arousal can feel scary themselves:",
+                    "bulletOne": "- Your child might suddenly feel their heart racing or head pounding.",
+                    "bulletTwo": "- They might get worried about what these symptoms mean."
+                },
+                "bulletListThree": {
+                    "title": "Feeling “on guard” for danger much of the time can lead to:",
+                    "bulletOne": "- trouble sleeping",
+                    "bulletTwo": "- trouble concentrating",
+                    "bulletThree": "- being extra cranky or irritable"
+                }
+            }
+        }
+    },
+    "youAreNotAlone": {
+        "header": "Learn More",
+        "title": "You Are Not Alone",
+        "content": {
+            "videoCard": {
+                "accessibility": "Video on how injury is common",
+                "boldText": "Your child is not alone.",
+                "subtitle": "Every year, millions of children in the United States are injured."
+            },
+            "statsBullets": {
+                "intro": "Each year in the United States, child injury statistics show that:",
+                "bulletOne": "- 1 in 4 children and teens need medical care for an injury.",
+                "bulletTwo": "- 7 million injured children are treated in the ER.",
+                "bulletThree": "- Several hundred thousand injured children are admitted to the hospital."
+            },
+            "paragraphOne": "Right now, hundreds of thousands of children across the country are recovering from an injury. Like you, their parents and other caring adults want to help them the best way possible. While it is important to tend to the wounds and rehabilitation, it is just as important to remember to look beyond the physical injuries.",
+            "paragraphTwo": "With all the doctors, nurses, and therapists who will treat your child’s injury, remember that no one is more important than you for your child’s recovery. In making this application, we took the best information available from science and best practices to help you and your child recover after an injury."
+        }
+    }
+}
