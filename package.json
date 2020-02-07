@@ -2,6 +2,9 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
+    "test": "jest --config jest.config.js",
+    "test:dev": "jest -o --config jest.config.js --watch",
+    "test:report": "open ./coverage/lcov-report/index.html",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -32,7 +35,9 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^7.0.0",
-    "prettier": "^1.19.1"
+    "jest-expo": "^36.0.1",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.8.6"
   },
   "private": true
 }
