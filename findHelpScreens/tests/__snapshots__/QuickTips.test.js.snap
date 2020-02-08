@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        accessibilityLabel="Photo of a mother speaking to her child."
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 0,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <View>
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={1}
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": undefined,
+                      "width": undefined,
+                    },
+                  ]
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 150,
+                      "width": null,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0, 0, 0, 0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "white",
+                        "fontSize": 40,
+                        "fontWeight": "800",
+                        "marginBottom": 8,
+                      }
+                    }
+                    theme={
+                      Object {
+                        "colors": Object {
+                          "disabled": "hsl(208, 8%, 90%)",
+                          "divider": "#bcbbc1",
+                          "error": "#ff190c",
+                          "grey0": "#393e42",
+                          "grey1": "#43484d",
+                          "grey2": "#5e6977",
+                          "grey3": "#86939e",
+                          "grey4": "#bdc6cf",
+                          "grey5": "#e1e8ee",
+                          "greyOutline": "#bbb",
+                          "platform": Object {
+                            "android": Object {
+                              "error": "#f44336",
+                              "primary": "#2196f3",
+                              "secondary": "#9C27B0",
+                              "success": "#4caf50",
+                              "warning": "#ffeb3b",
+                            },
+                            "ios": Object {
+                              "error": "#ff3b30",
+                              "primary": "#007aff",
+                              "secondary": "#5856d6",
+                              "success": "#4cd964",
+                              "warning": "#ffcc00",
+                            },
+                          },
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#8F0CE8",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      }
+                    }
+                  >
+                    Quick Tips
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                    "marginVertical": -8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                6 quick tips to help you and your child when overcoming a traumatic injury.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 10,
+            "textAlign": "left",
+          }
+        }
+      >
+        1. Let your child know that they are safe.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        In the first days and weeks following an injury many children fear that something bad might happen to them again. Let your child know that they are safe now. Give them extra hugs, even your teens. Younger children may need more cuddle time.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 6,
+            "textAlign": "left",
+          }
+        }
+      >
+        2. Allow children to talk about their feelings, and their worries, if they want to.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Let your child know that it is OK to feel a little upset; many children feel upset, worried, or confused after getting hurt. Allow your child to talk about their feelings if they want to. If they do not want to talk, stress coping strategies for kids can include writing a story or drawing a picture.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 6,
+            "textAlign": "left",
+          }
+        }
+      >
+        3. Go back to normal routines.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        It is important to help your child get plenty of sleep, eat regular meals, and keep up with schoolwork. Encourage your child to go back to spending time with friends. If the injury gets in the way of things s/he used to do – talk with your doctor about what your child can do, and be creative in figuring out how to get your child back to SOME normal activities.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 6,
+            "textAlign": "left",
+          }
+        }
+      >
+        4. Increase time with family and friends.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Children who get support from family and friends seem to do better in recovering after upsetting events. Try reading together, playing sports or games, or watching movies together.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 6,
+            "textAlign": "left",
+          }
+        }
+      >
+        5. Take time to deal with your own feelings.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        In addition to all the things you do to help your child, it’s important to remember to take good care of yourself. It will be harder to help your child if you are really worried, upset or overwhelmed. Talk about your feelings with other adults, such as family, friends, clergy, your doctor or a counselor.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 6,
+            "textAlign": "left",
+          }
+        }
+      >
+        6. Keep in mind people in the same family can react in different ways.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Remember, your child's feelings and worries about the injury might be different from yours. Brothers and sisters can feel upset too. An important way that parents can help is to pay special attention to how your child's responses might be different from yours. Those are the situations where it can be harder to know how to help.
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
