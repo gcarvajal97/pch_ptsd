@@ -1,10 +1,10 @@
 import React from 'react';
-import MainScreen from '../MainScreen';
+import LearnMoreList from '../LearnMoreList'
 import renderer from 'react-test-renderer';
 
-describe("MainScreen", () => {
+describe("LearnMoreList", () => {
     it("matches Snapshot", () => {
-        const snap = renderer.create(<MainScreen />).toJSON;
+        const snap = renderer.create(<LearnMoreList />).toJSON;
         expect(snap).toMatchSnapshot();
     });
 });

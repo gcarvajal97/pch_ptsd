@@ -5,6 +5,6 @@ import renderer from 'react-test-renderer';
 describe("FindHelpList", () => {
     it("matches Snapshot", () => {
         const snap = renderer.create(<FindHelpList />).toJSON;
-        expect(snap).toMatchSnapshot;
+        expect(snap).toMatchSnapshot();
     });
 });
