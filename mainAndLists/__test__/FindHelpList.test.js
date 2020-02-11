@@ -1,10 +1,10 @@
 import React from 'react';
-import MainScreen from '../MainScreen';
+import FindHelpList from '../FindHelpList'
 import renderer from 'react-test-renderer';
 
-describe("MainScreen", () => {
+describe("FindHelpList", () => {
     it("matches Snapshot", () => {
-        const snap = renderer.create(<MainScreen />).toJSON;
+        const snap = renderer.create(<FindHelpList />).toJSON;
         expect(snap).toMatchSnapshot;
     });
 });
