@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizResults renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <RCTScrollView
+    collapsable={false}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+  >
+    <View>
+      <View
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#2089DC",
+                  "fontSize": 17.5,
+                  "fontWeight": "bold",
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+              theme={
+                Object {
+                  "colors": Object {
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "primary": "#007aff",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#8F0CE8",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                }
+              }
+            >
+              Not interested in usual activities, since the injury
+            </Text>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#bcbbc1",
+                  "height": 0.5,
+                  "marginBottom": 15,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "marginTop": 5,
+                "textAlign": "left",
+              }
+            }
+          >
+             
+            Why It Happens: 
+             
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 14,
+                "marginTop": 5,
+                "paddingHorizontal": 5,
+                "paddingVertical": 1,
+              }
+            }
+          >
+             
+            One way we cope with overwhelming scary experiences is to “shut down” our emotions for a while. And kids may feel a bit down or stressed when dealing with a lot of changes after an injury.
+             
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "marginTop": 5,
+                "textAlign": "left",
+              }
+            }
+          >
+             
+            Is This a Problem?: 
+             
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 14,
+                "marginTop": 5,
+                "paddingHorizontal": 5,
+                "paddingVertical": 1,
+              }
+            }
+          >
+             
+            Does your child seem to be not enjoying lots of things they used to like to do? Do they seem sad or withdrawn, or like their feelings are “shut down” much of the time?
+             
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
