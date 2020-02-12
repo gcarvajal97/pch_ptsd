@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "color": "white",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    How To Talk With Your Child
+  </Text>
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "borderBottomWidth": 0,
+        "borderColor": "#2089DC",
+        "borderTopWidth": 0,
+        "borderWidth": 14,
+        "height": 204,
+        "marginBottom": -1,
+        "maxHeight": 254,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoVideoView
+      accessibilityHint="Video on how how to talk with your child"
+      accessibilityLabel="Video on how how to talk with your child"
+      accessible={true}
+      proxiedProperties={
+        Object {
+          "onError": [Function],
+          "onFullscreenUpdate": [Function],
+          "onLoad": [Function],
+          "onLoadStart": [Function],
+          "onReadyForDisplay": [Function],
+          "onStatusUpdate": [Function],
+          "resizeMode": "mock",
+          "source": Object {
+            "headers": undefined,
+            "overridingExtension": null,
+            "uri": "uri",
+          },
+          "status": Object {
+            "rate": 1,
+            "shouldPlay": true,
+            "volume": 1,
+          },
+          "useNativeControls": true,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "borderBottomColor": "#2089DC",
+        "borderBottomWidth": 2,
+        "color": "white",
+        "fontSize": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      It's not always easy to know how to talk with your child. 
+    </Text>
+    Here are some tips to help.
+  </Text>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        After something scary like an injury, it is not always easy to know how to talk with your child about it, and how best to help.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        Here are some things to help you when talking about trauma with your child:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        1. Be available to listen.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        2. Provide opportunities to talk.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Look for opportunities to hear how your child is doing.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Choose a time and a place where you both feel comfortable - think about when and where your child tends to talk most openly.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        3. Ask your child direct questions. 'How are you doing with all of this?'
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        4. Listen carefully to what your child has to say to you.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Wait until your child finishes before jumping in.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Repeat back what you heard in your own words to be sure you understood.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Try to hold off giving advice until you have a good understanding of what your child is going through. What's been most upsetting to her? How is she feeling now?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        What do I say?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        1. Just listening is helpful.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - You can give your child a chance to work out his thoughts and feelings by saying them out loud to you.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        2. Answer your child’s questions as honestly as you can.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Keep in mind their age and what they are able to understand.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        3. Help your child find words for strong feelings.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Describing and understanding his reactions is a first step to dealing with them.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        4. Share your own experiences within limits.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Be a model for using good coping skills.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Remember not to burden your child with your own worries. Turn to other adults you trust if you need a listening ear.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        What if my child does not want to talk?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        1. Be patient. Your child may not be ready to talk at the same time you are.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        2. Do not force the issue. Do not try to force your child to talk. Some people like to think about things for a while first.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        3. Encourage other ways of expressing thoughts and feelings. Your child can draw a picture, write a story, or keep a diary or journal.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        4. Help your child stay connected with friends and adults you both trust, so you will know they have people to talk with when they are ready.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        5. Some reactions are not said in words.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Even without words, you can try to be aware of your child’s reactions.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Think about how you can usually tell how your child is feeling - you might see changes in behavior, facial expressions, or body language.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        Things to remember:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        1. Different people have different reactions.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - As you think about how to help your child, try to separate what you are feeling from what your child is experiencing and what they need.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        2. Make sure your own feelings do not get in the way.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 30,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        If talking with your child is upsetting to you, do your best to stay calm and collected during the conversation and be sure to get support for yourself.
+      </Text>
+      <Text
+        style={
+          Object {
+            "marginBottom": 1,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
