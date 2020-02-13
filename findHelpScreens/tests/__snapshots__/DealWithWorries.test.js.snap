@@ -1,0 +1,468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "color": "white",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    Dealing With Fears and Worries
+  </Text>
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "borderBottomWidth": 0,
+        "borderColor": "#2089DC",
+        "borderTopWidth": 0,
+        "borderWidth": 14,
+        "height": 204,
+        "marginBottom": -1,
+        "maxHeight": 254,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoVideoView
+      accessibilityHint="Video on dealing with new fears and worries"
+      accessibilityLabel="Video on dealing with new fears and worries"
+      proxiedProperties={
+        Object {
+          "onError": [Function],
+          "onFullscreenUpdate": [Function],
+          "onLoad": [Function],
+          "onLoadStart": [Function],
+          "onReadyForDisplay": [Function],
+          "onStatusUpdate": [Function],
+          "resizeMode": "mock",
+          "source": Object {
+            "headers": undefined,
+            "overridingExtension": null,
+            "uri": "uri",
+          },
+          "status": Object {
+            "rate": 1,
+            "shouldPlay": true,
+            "volume": 1,
+          },
+          "useNativeControls": true,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "borderBottomColor": "#2089DC",
+        "borderBottomWidth": 2,
+        "color": "white",
+        "fontSize": 15,
+        "paddingLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      New fears or worries? 
+    </Text>
+    Watch the video and read below to learn more about these symptoms.
+  </Text>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        How do new fears develop?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        When something scary happens, we often learn to treat things connected to it as if they were danger signals. The next time something reminds us of what happened, our body reacts as if we were in danger, even if we are safe.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        A trauma reminder can be anything – a place or a person, a sight or a sound, or even a smell. It might be something you hardly notice, till the scared feelings come flooding back.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        How do we get over new fears - dealing with emotional triggers?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        In managing emotional triggers, it can really help to face reminders over and over, in the course of normal life. We can feel very anxious at first, but each time we experience a trauma reminder and hang in there long enough to know that it does not lead to danger, the scared feelings tend to get weaker.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        It is natural for your child to want to stay away from things that remind and upset him. But too much avoidance can get in the way of the natural recovery process, and make it harder to get over feeling scared.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        As a parent, you play an important role in helping your child face new fears without getting stuck in avoidance.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        How can parents tell if fears or worries are really a problem?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Ask yourself: Does feeling afraid or nervous stop your child from getting back to normal safe activities? Or stop him from enjoying things even if he manages to do them?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        If so, you can help your child deal with new fears and worries before they become a bigger problem.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        What can parents do?
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        1. Help your child make changes that really do help keep him safe.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+         - Like wearing a helmet, crossing the street carefully, or telling you where he is going.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        2. Be a 'reality check' for your child.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+         - If your child is nervous about doing something, talk together and help her figure out: 'Is this really helping me stay safe?' OR 'Am I avoiding it just so I will not feel nervous?'
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        3. Help your child understand 'trauma reminders' emotional triggers and avoidance.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+         - Sometimes kids need help to figure out what makes them feel scared or nervous.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        4. Encourage your child.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+         - Help him keep doing those safe things that make him nervous -- and praise his courage when he does!
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        5. Notice your own worries.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+         - Ask yourself: Do my worries stop me from letting my child do things he really should be allowed to do?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+         - Use a trusted friend or family member as a “reality check” for yourself – to help you sort through your worries about your child’s safety.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        When to get more help
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        If you are not sure whether your child's worries or fears are realistic, or how to encourage your child to face things that he is avoiding, get some help.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Talk with your family doctor, school counselor, or someone else you trust, or seek a counselor who can help you and your child in managing emotional triggers and with traumatic stress reactions.
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
