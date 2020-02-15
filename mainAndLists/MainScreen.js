@@ -21,7 +21,6 @@ class MainScreen extends Component {
         headerTitle: translate('mainScreen.pediatricPTSD'),
         headerLeft: (<View style={{ margin: 5 }}><Button
             onPress={()=>NavigationService.openDrawer()}
-            testID='my-button'
             title={translate('mainScreen.more')}></Button></View>)
     })
 
