@@ -15,8 +15,7 @@ describe("MainScreen", () => {
     });
 
     it('openDrawer() is called when header button is pressed', () => {
-        const navProps = { navigate: () => {} };
-        const navigationOptions = MainScreen.navigationOptions(navProps);
+        const navigationOptions = MainScreen.navigationOptions();
         navigationOptions.headerLeft.props.children.props.onPress();
         expect(NavigationService.openDrawer).toHaveBeenCalled();
     });
