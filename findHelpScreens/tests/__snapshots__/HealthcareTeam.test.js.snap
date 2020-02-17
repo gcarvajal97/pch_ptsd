@@ -1,0 +1,1303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityHint="Photo of doctor and male patient looking at x-ray"
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 8,
+            "marginBottom": 0,
+            "padding": 0,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <View>
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={1}
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": undefined,
+                      "width": undefined,
+                    },
+                  ]
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 150,
+                      "width": null,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0, 0, 0, 0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "white",
+                        "fontSize": 40,
+                        "fontWeight": "800",
+                        "marginBottom": 8,
+                      }
+                    }
+                    theme={
+                      Object {
+                        "colors": Object {
+                          "disabled": "hsl(208, 8%, 90%)",
+                          "divider": "#bcbbc1",
+                          "error": "#ff190c",
+                          "grey0": "#393e42",
+                          "grey1": "#43484d",
+                          "grey2": "#5e6977",
+                          "grey3": "#86939e",
+                          "grey4": "#bdc6cf",
+                          "grey5": "#e1e8ee",
+                          "greyOutline": "#bbb",
+                          "platform": Object {
+                            "android": Object {
+                              "error": "#f44336",
+                              "primary": "#2196f3",
+                              "secondary": "#9C27B0",
+                              "success": "#4caf50",
+                              "warning": "#ffeb3b",
+                            },
+                            "ios": Object {
+                              "error": "#ff3b30",
+                              "primary": "#007aff",
+                              "secondary": "#5856d6",
+                              "success": "#4cd964",
+                              "warning": "#ffcc00",
+                            },
+                          },
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#8F0CE8",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      }
+                    }
+                  >
+                    Teamwork
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                    "margin": -6,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                It is important to work as a team.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 22,
+            "fontWeight": "bold",
+            "marginBottom": 2,
+            "marginTop": 3,
+            "paddingLeft": 4,
+            "paddingRight": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        How To Work With Your Child's Healthcare Team
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginBottom": 4,
+            "marginTop": 0,
+            "paddingHorizontal": 4,
+            "paddingVertical": 0,
+          }
+        }
+      >
+        You have the very important job of making sure your child gets the best medical care for his physical injuries. You are also the best person to monitor how your child is coping, and when some extra help might be needed.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginBottom": 4,
+            "marginTop": 0,
+            "paddingHorizontal": 4,
+            "paddingVertical": 0,
+          }
+        }
+      >
+        In the first few days after an injury, many kids (and parents) feel a little upset, jumpy or worried, and can use a little extra support from family and friends.
+      </Text>
+      <View
+        accessible={true}
+      >
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                In The Emergency Department
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Being in the Emergency Department can be a scary and stressful experience for injured children and their parents. Parents have many worries and questions and it can sometimes be difficult to get all of the answers right away. Communicating well and often with the ED medical team about your child will help them provide your child with the best possible treatment. It can also help you play a more active role in your child's care.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Working with the Healthcare Team
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Don't be afraid to ask questions. If you don't understand the answer, let the medical team know and ask, again.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Stay with your child as much as possible. Ask permission to be with your child during medical tests and procedures, if you want to be.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Be sure to let the medical team know of any pre-existing medical conditions, other special needs and fears, and allergies your child has, as well as whatever you can tell them about how the injury happened.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - You are your child's most important advocate – ask how you can get involved in your child's care and when you can make decisions about treatment.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Make sure to be an advocate for your child. For example, if your child is in pain, make sure to let your child's care team know.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Emergency care takes a lot of patience. You may get frustrated that other children are seen before your child, but this is likely because the staff has to make sure that the sickest patients are seen first.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Tips for supporting your child in the Emergency Department
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    1. You are the best person to help your child. Be calm and reassuring. Hold his hand; distract him with a story or game, etc. If needed, set rules and limits like you would at home.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    2. Help your child understand what is happening. Make sure that the healthcare team explains things in a way your child can understand. Be honest but reassuring about what will happen. ('This will hurt now, but it will help you get better.')
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    3. Allow your child to talk about worries or feelings. Encourage your child's healthcare team to talk with your child directly. As much as possible, let your child answer for himself. Do not force your child to talk, but be there to listen when he is ready.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    4. Take care of yourself. Get support for yourself when you are worried and upset. Remember to eat and sleep!
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    5. Ask for help from family and friends. Once your child has been discharged and you have returned home, come back to this website for more information on ways parents can help their kids.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                In The Hospital
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Aside from the injury itself, there are things about just being in the hospital that can be traumatic for children and parents.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Working with the Healthcare Team
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    1. Don't be afraid to ask questions. Some parents keep a pad of paper to write down their questions. This way, when the health care team comes to examine your child, you will be prepared. If you don't understand the answer, let the medical team know and ask, again. Ask your doctor to write down the name of your child's injuries.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    2. Stay overnight with your child, if possible. Ask permission to be with your child during medical tests and procedures, if you want to be.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    3. Be sure to let the medical team know of any pre-existing medical conditions, other special needs and fears, and allergies your child has, as well as whatever you can tell them about how the injury happened.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    4. You are your child's most important advocate – ask how you can get involved in your child's care and when you can make decisions about treatment. Let your health care team know if your child is in pain.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    5. Take time for yourself. It is important to take breaks as often as you need them. Take a shower; make some phone calls; get something to eat or drink; or go to the chapel to think or cry – whatever it is that you need for yourself. After your break, you will feel better able to support your child. Let your child's health care team know when you leave your child's bedside and when you return.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    6. Make of list of what other people can do to help you. When people call and offer support, you will have something concrete to ask. You do not need to do it all.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    7. Ask the health care team to help you schedule all of your outpatient visits before you leave the hospital.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    8. Make sure that your child's pain is under control before you leave the hospital.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    9. Make sure that you have a good phone number to call if you have questions when you return home.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    10. Ask for copies of your child's x-rays, CT scans, or MRI scans.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Tips for supporting your child in the hospital.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    1. You are the best person to help your child.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    2. Be patient with your child.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    3. Help your child understand what is happening.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    4. Make sure that you have a good phone number to call if you have questions when you return home.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    5. Talk about your feelings together.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    6. Help your child see the staff as helpers.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    7. Stay with your child (or have a family member or friend stay) as much as possible.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    8. Take care of yourself.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    9. Bring things from home to make your child comfortable – bath robe, toys, and favorite books.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Tips for supporting your teen in the hospital.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    1. Be honest with your teen.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    2. Include your teen in medical discussions when possible.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    3. Encourage your child's health care team to talk with your teen directly and let him answer his own questions. He might want to talk alone with the doctors.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    4. Remember that teens can be self-conscious, and they may worry about how they will look and fit in with others, and about their privacy.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    5. Help your teen stay connected with old friends, as well as make new friends in the hospital.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    6. Bring things from home to make your child comfortable – bath robe, music, and magazines.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    7. Call your child's school to let them know what has happened.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Resources for Families
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Most hospitals have staff who is experienced with helping other parents and caregivers in your situation. If you are upset, have questions about how to help your child, or just need to talk, please seek out someone at the hospital who is available to assist you and your family. This may be a:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Social Worker
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Chaplain
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Or a mental health professional, such as a psychologist or psychiatrist
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Once your child has been discharged and you have returned home, come back to this website for more information on ways parents can help their kids.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                After the Hospital
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    After your child is discharged from the Emergency Department or Hospital, she will need to follow up with her doctor and possibly other healthcare professionals to make sure that she is healing well. It would be helpful to go through the rest of this website before going to the doctor. This site will allow you to rate your child's reactions and create a report to share with your doctor.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Working with the Healthcare Team AFTER the Hospital
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    1. Make sure to keep all of your appointments even if your child is feeling better.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    2. Many parents like to keep all of their child's injury information together in a binder or folder. In the front of the binder, keep a sheet with your child's diagnosis and all of the medicines that your child is taking. Keep a calendar with all of the appointments.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    3. Keep a pad of paper around the house to write down questions for your doctor or other healthcare professional as you think of them. Encourage your child to keep track of her questions, too.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    4. You are your child's most important advocate – ask how you can get involved in your child's care and when you can make decisions about treatment. Let your health care team know if your child is in pain or is having other reactions that concern you or your child.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    5. Make sure that you have a good phone number to call if you have questions. Also, ask what you should look for and when to call.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    6. Ask for a summary of every visit to take with you, if possible.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    7. If you find that you are missing a lot of work, you might want to look into obtaining Family Medical Leave. In 1993, the federal government passed a law that allows families to take some time to care for family members without fear of losing their job.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Tips for helping your child at follow-up visits
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    1. Tell your child about the appointment a few days in advance. Explain the reason for the visit, using words your child can understand. Answer questions simply and honestly.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    2. Find out, in advance, if the visit will involve any painful or scary procedures. If so, talk with your physician about how to prepare for these procedures and if any medicine should be given, in advance.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    3. Let your child know you'll be there throughout the entire appointment unless your child wants some time to talk with the physician or specialist alone. Encourage your child's physician to ask your child questions directly. Encourage your child to ask the doctors and nurses questions.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    At the Follow-up Visit: Resources for Families
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Most hospitals have staff who are experienced with helping other parents and caregivers in your situation. If you are upset, have questions about how to help your child, about financial or insurance issues, or just need to talk, please seek out someone at the hospital who is available to assist you and your family. This may be a:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Social Worker
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Chaplain
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Or a mental health professional, such as a psychologist or psychiatrist come back to this website for more information on ways parents can help their kids.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
