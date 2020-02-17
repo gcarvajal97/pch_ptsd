@@ -9,6 +9,11 @@ Enzyme.configure({ adapter: new Adapter() });
 jest.mock('../../components/NavigationService');
 
 describe("MainScreen", () => {
+    
+    afterEach(() => {
+        jest.clearAllMocks();
+      });
+
     it("matches Snapshot", () => {
         const snap = renderer.create(<MainScreen />).toJSON;
         expect(snap).toMatchSnapshot();
