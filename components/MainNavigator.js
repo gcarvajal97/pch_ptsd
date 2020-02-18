@@ -62,7 +62,7 @@ const StackNav = createStackNavigator({
 
   const mainStack = createStackNavigator({
     Drawer: DrawerNav,
-    Stack: StackNav
+    //Stack: StackNav
 },
 
     {
