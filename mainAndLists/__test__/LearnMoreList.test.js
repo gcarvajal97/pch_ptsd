@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 describe("LearnMoreList", () => {
     it("matches Snapshot", () => {
-        const snap = renderer.create(<LearnMoreList />).toJSON;
+        const snap = renderer.create(<LearnMoreList />).toJSON();
         expect(snap).toMatchSnapshot();
     });
 });

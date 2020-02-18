@@ -16,7 +16,7 @@ describe("FindHelpList", () => {
       });
 
     it("matches Snapshot", () => {
-        const snap = renderer.create(<FindHelpList />).toJSON;
+        const snap = renderer.create(<FindHelpList />).toJSON();
         expect(snap).toMatchSnapshot();
     });
 

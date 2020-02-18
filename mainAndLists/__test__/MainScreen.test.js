@@ -15,7 +15,7 @@ describe("MainScreen", () => {
       });
 
     it("matches Snapshot", () => {
-        const snap = renderer.create(<MainScreen />).toJSON;
+        const snap = renderer.create(<MainScreen />).toJSON();
         expect(snap).toMatchSnapshot();
     });
 

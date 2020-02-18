@@ -4,7 +4,6 @@ import App from '../App';
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-
 Enzyme.configure({ adapter: new Adapter() });
 jest.mock('../components/MainNavigator');
 jest.mock('react-native/Libraries/Animated/src/NativeAnimatedHelper');
@@ -16,7 +15,7 @@ describe("App", () => {
       });
 
     it("matches Snapshot", () => {
-        const snap = renderer.create(<App />).toJSON;
+        const snap = renderer.create(<App />).toJSON();
         expect(snap).toMatchSnapshot();
     });
 });
