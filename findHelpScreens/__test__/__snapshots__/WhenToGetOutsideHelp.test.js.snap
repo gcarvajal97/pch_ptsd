@@ -1,0 +1,821 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityHint="Photo of two people holding hands over coffee"
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 8,
+            "marginBottom": 0,
+            "padding": 0,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <View>
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={1}
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": undefined,
+                      "width": undefined,
+                    },
+                  ]
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 150,
+                      "width": null,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0, 0, 0, 0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "white",
+                        "fontSize": 40,
+                        "fontWeight": "800",
+                        "marginBottom": 8,
+                      }
+                    }
+                    theme={
+                      Object {
+                        "colors": Object {
+                          "disabled": "hsl(208, 8%, 90%)",
+                          "divider": "#bcbbc1",
+                          "error": "#ff190c",
+                          "grey0": "#393e42",
+                          "grey1": "#43484d",
+                          "grey2": "#5e6977",
+                          "grey3": "#86939e",
+                          "grey4": "#bdc6cf",
+                          "grey5": "#e1e8ee",
+                          "greyOutline": "#bbb",
+                          "platform": Object {
+                            "android": Object {
+                              "error": "#f44336",
+                              "primary": "#2196f3",
+                              "secondary": "#9C27B0",
+                              "success": "#4caf50",
+                              "warning": "#ffeb3b",
+                            },
+                            "ios": Object {
+                              "error": "#ff3b30",
+                              "primary": "#007aff",
+                              "secondary": "#5856d6",
+                              "success": "#4cd964",
+                              "warning": "#ffcc00",
+                            },
+                          },
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#8F0CE8",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      }
+                    }
+                  >
+                    Get Outside Help
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                    "margin": -6,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                It is important to know when to get professional help.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 22,
+            "fontWeight": "bold",
+            "marginBottom": 2,
+            "marginTop": 3,
+            "paddingLeft": 4,
+            "paddingRight": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        When To Get Outside Help
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginBottom": 4,
+            "marginTop": 0,
+            "paddingHorizontal": 4,
+            "paddingVertical": 0,
+          }
+        }
+      >
+        You have the very important job of making sure your child gets the best medical care for his physical injuries. You are also the best person to monitor how your child is coping, and when some extra help, such as trauma counseling, might be needed. In the first few days after an injury, many kids (and parents) feel a little upset, jumpy or worried, and can use a little extra support from family and friends.
+      </Text>
+      <View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                When to Look For More Help
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Does your child have traumatic stress symptoms that:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Get in the way of getting back to usual activities?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Stop your child from enjoying things they used to enjoy?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Seem to be getting worse rather than better?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Have lasted more than a month?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Does your child:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Get physical symptoms if reminded of the injury or what happened?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Try not to talk about it?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Startle easily (for example, jumping at sudden noises)?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Get very distressed if reminded of the injury?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    If any of the above are true, it's a good idea to talk with your doctor or another professional about how your child is doing.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                How to Look For Professional Help
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    There are very good and helpful treatments for children who continue to have traumatic stress symptoms.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    If you are wondering how to find a child therapist, a good place to start is to talk with your child's doctor or a counselor at your child's school. They can help you figure out the best way of helping your child and your family, and may be able to suggest a counselor or therapist experienced in helping children with traumatic stress.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    When looking for a counselor or therapist to help your child with traumatic stress symptoms, it's a good idea to ask questions such as: Do you have experience working with children after trauma? What is your approach to working with this type of problem? What is your success rate? How do you work with parents?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                     
+                    <Text
+                      accessibilityHint="Navigates to a website on mental health professional information"
+                      accessibilityLabel="Click here for mental health professional information"
+                      accessible={true}
+                      onPress={[Function]}
+                      style={
+                        Object {
+                          "color": "#2089DC",
+                          "fontSize": 14,
+                          "textDecorationLine": "underline",
+                        }
+                      }
+                    >
+                      The National Child Traumatic Stress Network
+                    </Text>
+                     
+                    has useful tips and information on how to find a mental health professional to help your child and family after trauma.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                When and How to Look For Help For Yourself
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Sometimes parents need extra help too.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Do you have traumatic stress symptoms that:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Get in the way of getting back to usual activities?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Stop you from enjoying things you used to enjoy?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Seem to be getting worse rather than better?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Have lasted more than a month?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    If so, you may want to seek out a professional who can help you.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Do you have traumatic stress symptoms that:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    When looking for a counselor or therapist to help with traumatic stress symptoms, remember to ask questions such as: 
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Do you have experience working with people after trauma?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -What is your approach to working with this type of problem?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -What is your success rate?
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
