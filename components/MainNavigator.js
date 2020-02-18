@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 import {createAppContainer} from 'react-navigation';
+import translate from './translateService';
 import NavigationService from './NavigationService';
+
 import MainScreen from '../mainAndLists/MainScreen';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
@@ -19,10 +21,8 @@ import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareT
 import SelfCare from '../findHelpScreens/selfCareScreens/SelfCare';
 import QuizMain from '../QuizScreens/QuizMain';
 import QuizResults from '../QuizScreens/QuizResults';
-import translate from './translateService';
-import ResourceStack from './ResourceStack';
-import GlossaryStack from './GlossaryStack';
-
+import ResourceScreen from '../drawerScreens/resourceScreens/ResourceScreen';
+import GlossaryScreen from '../drawerScreens/glossaryScreens/GlossaryScreen';
 
 const StackNav = createStackNavigator({
     Home: MainScreen,
@@ -48,25 +48,31 @@ const StackNav = createStackNavigator({
     }
   });
 
+  const GlossaryNav = createStackNavigator({
+      Glossary: GlossaryScreen
+  })
+
+  const ResourceNav = createStackNavigator({
+      Resources: ResourceScreen
+  })
+
   const DrawerNav = createDrawerNavigator({
     Home: {
         screen: StackNav,
             navigationOptions: ()=> ({title: translate('drawerNavigator.home')}) }, 
     Resources: {
-        screen: ResourceStack,
+        screen: ResourceNav,
             navigationOptions: ()=> ({title: translate('drawerNavigator.resources')}) },
     Glossary: {
-        screen: GlossaryStack,
+        screen: GlossaryNav,
             navigationOptions: ()=> ({title: translate('drawerNavigator.glossary')}) }
 });
 
   const mainStack = createStackNavigator({
-    Drawer: DrawerNav,
-    //Stack: StackNav
+    Drawer: DrawerNav
 },
-
     {
-        headerMode: "none"
+        headerMode: 'none'
     }
 );
 
