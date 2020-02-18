@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizResults renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <RCTScrollView
+    collapsable={false}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+  >
+    <View>
+      <View
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "marginTop": 5,
+                "textAlign": "left",
+              }
+            }
+          >
+             
+             
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 14,
+                "marginTop": 5,
+                "paddingHorizontal": 5,
+                "paddingVertical": 1,
+              }
+            }
+          >
+             
+             
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "marginTop": 5,
+                "textAlign": "left",
+              }
+            }
+          >
+             
+             
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 14,
+                "marginTop": 5,
+                "paddingHorizontal": 5,
+                "paddingVertical": 1,
+              }
+            }
+          >
+             
+             
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
