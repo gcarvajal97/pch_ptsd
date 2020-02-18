@@ -227,7 +227,7 @@ exports[`QuizCard renders correctly 1`] = `
           }
         >
           <View
-            accessibilityHint="[missing \\"en.mainScreen.quizHint\\" translation]"
+            accessibilityHint="Navigates to the quiz screen"
             accessibilityLabel="TAKE THE QUIZ"
             accessible={true}
             isTVSelectable={true}
