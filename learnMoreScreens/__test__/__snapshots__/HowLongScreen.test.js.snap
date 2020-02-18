@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "color": "white",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    How Long Do Traumatic Stress Reactions Last
+  </Text>
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "borderBottomWidth": 0,
+        "borderColor": "#2089DC",
+        "borderTopWidth": 0,
+        "borderWidth": 14,
+        "height": 204,
+        "marginBottom": -1,
+        "maxHeight": 254,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoVideoView
+      accessibilityHint="Video on how long stress reactions last"
+      accessibilityLabel="Video on how long stress reactions last"
+      accessible={true}
+      proxiedProperties={
+        Object {
+          "onError": [Function],
+          "onFullscreenUpdate": [Function],
+          "onLoad": [Function],
+          "onLoadStart": [Function],
+          "onReadyForDisplay": [Function],
+          "onStatusUpdate": [Function],
+          "resizeMode": "mock",
+          "source": Object {
+            "headers": undefined,
+            "overridingExtension": null,
+            "uri": "uri",
+          },
+          "status": Object {
+            "rate": 1,
+            "shouldPlay": true,
+            "volume": 1,
+          },
+          "useNativeControls": true,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "borderBottomColor": "#2089DC",
+        "borderBottomWidth": 2,
+        "color": "white",
+        "fontSize": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Stress reactions can get in the way. 
+    </Text>
+    Professional help is important to get back to normal.
+  </Text>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        For many children and their parents early traumatic stress reactions get better over the first month. But about 1 in 6 still have traumatic stress reactions that bother them, even 6 months after an injury.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Nearly everyone feels upset or anxious early on. Over the next few weeks and months, these reactions usually get weaker and then go away. Even children recovering from serious injuries start to develop ways to cope.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        But for some people, these early reactions do not seem to get better as the months go by, or they may get worse. Even if the physical injury has healed, they may not have recovered from the trauma. The intensity and length of the traumatic stress reactions is not related to how bad the physical injury was.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        Why be concerned?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        When traumatic stress reactions last for weeks or months, they can get in the way of getting back to normal and feeling like yourself again.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        For children and teens, this can affect school, home, and play.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Schoolwork and learning might be disrupted because a child cannot concentrate or sleep well.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Family relationships and friendships might suffer.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Children might stop doing things that they enjoy, or stop trying new things.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        What is post-traumatic stress disorder, or 'PTSD'?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Post-traumatic stress disorder (PTSD) is the name given to traumatic stress reactions that:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Are so severe that they get in the way of normal life
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Last for more than one month.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        It is important to know if your child or someone else in your family develops post-traumatic stress disorder from the accident or injury. It is much more common than people realize.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Up to 1 in 10 people develop post-traumatic stress disorder at some point in their lives.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        After an injury, post-traumatic stress disorder can:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Get in the way of physical recovery
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Contribute to new medical problems
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Just make it harder to enjoy life.
+      </Text>
+      <Text
+        accessibilityHint="Navigates to a website on the casuses of PTSD"
+        accessibilityLabel="Navigates to a website on the casuses of PTSD"
+        accessible={true}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#2089DC",
+            "fontSize": 16,
+            "marginTop": 3,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        Click here for more information on PTSD.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        The good news is that very good treatments for PTSD are available. Unfortunately, less than half of people with traumatic stress symptoms talk to anyone about their problems or get any professional help, even when their symptoms go on for a long time.
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
