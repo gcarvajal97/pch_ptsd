@@ -1,4 +1,5 @@
 import React from 'react';
+import MainNavigator from './components/MainNavigator';
 import DrawerNavigator from './components/DrawerNavigator';
 
 // Screen/View information has been moved to it's own file (MainScreen.js, OtherScreen.js, etc.)
@@ -6,7 +7,7 @@ import DrawerNavigator from './components/DrawerNavigator';
 export default class App extends React.Component {
   render() {
     return (
-      <DrawerNavigator/>
+      <MainNavigator/>
     );
   }
 }

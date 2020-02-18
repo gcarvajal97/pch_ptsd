@@ -11,9 +11,9 @@ function setTopLevelNavigator(navigatorRef) {
   _navigator = navigatorRef;
 }
 
-function setStackLevelNavigator(navigatorRef) {
+/*function setStackLevelNavigator(navigatorRef) {
     _StackNavigator = navigatorRef;
-}
+}*/
 
 // Can be used to navigate to other screens, but currently Drawer only references the stack navigator
 function navigateDrawer(routeName, params) {
@@ -27,7 +27,7 @@ function navigateDrawer(routeName, params) {
 
 // Can be used to move into other screens defined in the stack navigator. 
 function navigate(routeName, params) {
-    _StackNavigator.dispatch(
+    _navigator.dispatch(
       NavigationActions.navigate({
         routeName,
         params,
@@ -44,6 +44,6 @@ export default {
   navigate,
   navigateDrawer,
   setTopLevelNavigator,
-  setStackLevelNavigator,
+  //setStackLevelNavigator,
   openDrawer,
 };
