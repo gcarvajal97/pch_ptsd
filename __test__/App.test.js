@@ -10,6 +10,7 @@ jest.mock('../components/MainNavigator');
 jest.mock('react-native/Libraries/Animated/src/NativeAnimatedHelper');
 
 describe("App", () => {
+    
     afterEach(() => {
         jest.clearAllMocks();
       });

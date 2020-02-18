@@ -5,7 +5,7 @@ import { DrawerActions } from 'react-navigation-drawer';
 // This service will allow us to make calls to move screens using the navigate function below
 // I also added in an openDrawer function (so that it can be called from the header button on MainScreen.js)
 let _navigator;
-let _StackNavigator;
+//let _StackNavigator;
 
 function setTopLevelNavigator(navigatorRef) {
   _navigator = navigatorRef;
