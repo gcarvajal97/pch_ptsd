@@ -69,7 +69,9 @@ class HowLongScreen extends Component {
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletOne')}</Text>
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletTwo')}</Text>
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletThree')}</Text>
-                    <Text style={styles.link} onPress={()=> Linking.openURL('https://medlineplus.gov/ency/article/000925.htm')}
+                    <Text id='howLongScreen.hyperlink'
+                        style={styles.link} 
+                        onPress={()=> Linking.openURL('https://medlineplus.gov/ency/article/000925.htm')}
                         accessible
                         accessibilityLabel={translate('howLong.content.whatIsPTSDParagraph.hyperLinkOne.accessibilityHint')}
                         accessibilityHint={translate('howLong.content.whatIsPTSDParagraph.hyperLinkOne.accessibilityHint')}>

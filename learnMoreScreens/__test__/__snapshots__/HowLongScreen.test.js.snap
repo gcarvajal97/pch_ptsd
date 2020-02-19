@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`HowLongScreen renders correctly 1`] = `
 <View
   style={
     Object {
@@ -383,6 +383,7 @@ exports[`renders correctly 1`] = `
         accessibilityHint="Navigates to a website on the casuses of PTSD"
         accessibilityLabel="Navigates to a website on the casuses of PTSD"
         accessible={true}
+        id="howLongScreen.hyperlink"
         onPress={[Function]}
         style={
           Object {
