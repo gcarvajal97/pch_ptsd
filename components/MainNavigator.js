@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
+import {createDrawerNavigator} from 'react-navigation-drawer';
 import {createAppContainer} from 'react-navigation';
+import translate from './translateService';
 import NavigationService from './NavigationService';
+
 import MainScreen from '../mainAndLists/MainScreen';
 import YoureNotAlone from '../learnMoreScreens/YoureNotAlone';
 import ReactionsToInjury from '../learnMoreScreens/ReactionsToInjury';
@@ -18,11 +21,10 @@ import HealthcareTeam from '../findHelpScreens/HealthcareTeamScreens/HealthcareT
 import SelfCare from '../findHelpScreens/selfCareScreens/SelfCare';
 import QuizMain from '../QuizScreens/QuizMain';
 import QuizResults from '../QuizScreens/QuizResults';
-import translate from './translateService';
+import ResourceScreen from '../drawerScreens/resourceScreens/ResourceScreen';
+import GlossaryScreen from '../drawerScreens/glossaryScreens/GlossaryScreen';
 
-// StackNavigator: This navigator controls the flow from the main screen to other screens and back (Stack)
-// This is called by the DrawerNavigator, so it is sort of nested inside
-const NavigationBar = createStackNavigator({
+const StackNav = createStackNavigator({
     Home: MainScreen,
     LearnMore: LearnMoreList,
     FindHelp: FindHelpList,
@@ -45,16 +47,42 @@ const NavigationBar = createStackNavigator({
        headerTruncatedBackTitle: translate('mainScreen.backButton'),
     }
   });
-  
-  // New in this version of React Native, must be created and reference/returned
-  const StackContainer = createAppContainer(NavigationBar);
 
-  // The navigator now sends its references to the NavigationService
-  export default class StackNavigator extends Component {
-      render() {
-          return <StackContainer
-          ref={navigatorRef => {
-            NavigationService.setStackLevelNavigator(navigatorRef);
-          }}/>
-      }
-  }
+  const GlossaryNav = createStackNavigator({
+      Glossary: GlossaryScreen
+  })
+
+  const ResourceNav = createStackNavigator({
+      Resources: ResourceScreen
+  })
+
+  const DrawerNav = createDrawerNavigator({
+    Home: {
+        screen: StackNav,
+            navigationOptions: ()=> ({title: translate('drawerNavigator.home')}) }, 
+    Resources: {
+        screen: ResourceNav,
+            navigationOptions: ()=> ({title: translate('drawerNavigator.resources')}) },
+    Glossary: {
+        screen: GlossaryNav,
+            navigationOptions: ()=> ({title: translate('drawerNavigator.glossary')}) }
+});
+
+  const mainStack = createStackNavigator({
+    Drawer: DrawerNav
+},
+    {
+        headerMode: 'none'
+    }
+);
+
+const MainContainer = createAppContainer(mainStack);
+
+export default class MainNavigator extends Component {
+    render() {
+        return <MainContainer
+        ref={navigatorRef => {
+          NavigationService.setTopLevelNavigator(navigatorRef);
+        }}/>
+    }
+}

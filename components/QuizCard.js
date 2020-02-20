@@ -21,7 +21,7 @@ export default class QuizCard extends Component {
                 title={translate('mainScreen.quizButton')} 
                 accessible
                 accessibilityLabel={translate('mainScreen.quizButton')}
-                accessibilityHint={translate('mainScreen.quizHint')}/>
+                accessibilityHint={translate('mainScreen.quizAccessHint')}/>
         </Card>
         );
     }
