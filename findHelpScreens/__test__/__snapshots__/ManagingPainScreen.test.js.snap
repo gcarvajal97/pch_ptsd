@@ -1,0 +1,959 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Nearly everyone has pain after an injury. For most children, our research has shown that the pain will get a lot better during the first week after getting care for an injury. If the pain gets worse, make sure to talk to your child's doctor.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Follow instructions provided by your healthcare provider It is important that your child follow all of the special instructions given by your healthcare provider and takes pain medicines as your healthcare provider told you to use them. The following are general suggestions about pain. 
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    1. How to recognize pain in your school-aged child and teen:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    School-aged children may display different behaviors when they are in pain or uncomfortable. Your child may:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Have difficulty sleeping
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Not eat or drink as much as usual
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Cry or moan
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Lose interest in play
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Become less active, lie quietly, or curl up in bed
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Be restless
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Complain of pain
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Hold or protect the area of discomfort
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Become 'whiny' or 'cranky'
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Teens may display different behaviors when they are in pain or uncomfortable. Remember that teen athletes may not want to admit to pain if it keeps them out of sports. Your teen may:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Become quiet
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Have difficulty sleeping
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Not eat or drink as much as usual
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Lose interest in family and friends
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Become less active, lie quietly, or curl up in bed
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Become irritable and angry
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Complain of pain
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    2. How to help manage your child's pain:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Make sure to use the pain medicines in the doses and at the times that your healthcare professional recommended. Keep a pain diary, recording where your child's pain is, how bad it is, when it happens, what makes it better, and what makes it worse. There are many ways, other than medicine, to comfort your child. The healthcare team can make suggestions for your child, but here are some basics for getting started.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+        "textDecorationLine": "underline",
+      }
+    }
+  >
+    For your school-aged child:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    A. Create a comfortable and safe environment
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Dim the lights
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Stay with your child as much as possible.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Provide quiet time.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Talk in a soothing voice.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    B. Use gentle and firm touch to provide comfort and security
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Hold your child.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Massage your child's body in a firm, slow motion
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Hold your child's hand.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Offer hugs.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    C. Use distraction to help your school-age child focus on something other than pain. Encourage your child to:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Play their favorite music
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Blow bubbles
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Take slow, deep breaths
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Read a book
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Talk about a favorite place or memory
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Play a game or watch TV
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Do art projects, draw, or color
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+        "textDecorationLine": "underline",
+      }
+    }
+  >
+    For your teen:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    A. Create a comfortable and safe environment
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Dim the lights
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Offer to stay with your teen
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Reduce noise.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Approach your teen in a calm, comforting way.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    B. Use gentle and firm touch to provide comfort and security
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Offer gentle massage.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Offer hugs or hold your teen's hand
+    d
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Talk in a soothing voice.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    C. Use distraction to help your teen focus on something other than pain. Encourage your teen to:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Play music
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Take slow, deep breaths
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Read a book
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Talk about a pleasant experience or memory.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Play a game or watch TV
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Do art projects, draw, or color
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    3. When to call your child's doctor
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Make sure to ask your healthcare provider what symptoms to look out for and whether you should call or go straight to the hospital. Some of these symptoms are:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Your child has increasing pain and pain medicine recommended or prescribed by your healthcare provider is not helping.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Your child has a new pain.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - If you have any other concerns
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    4. Make sure to ask your healthcare provider:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - How do I keep a pain diary and what information should I record?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - What is the best way to assess my child's pain, given their age or level?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - What symptoms should I look for in my child? How often should I check?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - What should I do if my child has a symptom you told me to watch for? Should I call the office, call 911, or go to the hospital?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Can my child return to school?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - What are the limits to my child's activity?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - When can my child start gym? contact sports? biking? or rough play?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Will you please call my child's school and explain how to manage my child's pain and anything else they need to know about my child?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - What kind of pain can be expected and for how long?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    [missing "en.injuryPainCare.Ch6_t4_b10" translation]
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - If your child receives pain medication, learn as much as you can about the medicine from the doctor, nurse, or pharmacist. Talk to your healthcare provider about any side effects your child might have and how to help treat them.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - How can I manage my child's pain during therapy if my child is going to get physical therapy?
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    5. Suggestions for follow-up appointments
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    When you bring your child in for his follow-up visits or with specialists, remember to:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Let your healthcare provider know if your child is still having any pain.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Let your doctor know where the pain is, what makes it better, what makes it worse.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Bring all of your medicines with you to all appointments.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - If you are going to another specialist, try to bring along any medical records and copies of radiographs, MRIs, and CT scans.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - If your child is going to therapy, ask them to manage your child's pain.
+  </Text>
+</View>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Head injury is a broad term that describes injuries to the scalp, skull, brain, and tissue and blood vessels in the child’s head. Some head injuries are also called brain injury, or traumatic brain injury (TBI), depending on the extent of the head trauma. Concussion is the most common type of TBI.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    A concussion is caused by a blow or jolt to the head or body that causes the brain to shake. The shaking can cause the brain not to work normally and can result in serious side effects. If your child hits her head, be aware of the concussion symptoms to look for, which are commonly physical (such as a headache, nausea, or dizziness), sleep-related, difficulty concentrating/remembering, or involve mood disruption.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Initial treatment for a concussion is rest, both mental and physical, which allows the brain time to heal. Every child’s injury and recovery is unique, but with guidance from a doctor, your child can slowly return to school and to play following a concussion.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    For comprehensive information about concussion, including how a concussion is diagnosed, prevention strategies, returning to school and play, and support resources, visit
+     
+    <Text
+      accessibilityHint="Navigates to a website about concussions"
+      accessibilityLabel="Click here for concussion tips"
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 14,
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Concussion Care for Kids: Minds Matter
+    </Text>
+    , a website developed by an interdisciplinary team of concussion experts at The Children's Hospital of Philadelphia.
+  </Text>
+</View>
+`;
