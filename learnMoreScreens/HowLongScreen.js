@@ -6,7 +6,7 @@ import { Linking } from "expo";
 import translate from '../components/translateService';
 
 // Tested and works on iOS
-// Tested and works on Android
+// Tested and works on Android  
 
 class HowLongScreen extends Component {
 
@@ -69,7 +69,8 @@ class HowLongScreen extends Component {
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletOne')}</Text>
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletTwo')}</Text>
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletThree')}</Text>
-                    <Text id='howLongScreen.hyperlink'
+                    <Text 
+                        testID='hyperlink'
                         style={styles.link} 
                         onPress={()=> Linking.openURL('https://medlineplus.gov/ency/article/000925.htm')}
                         accessible

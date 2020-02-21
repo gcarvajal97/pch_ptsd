@@ -383,7 +383,6 @@ exports[`HowLongScreen renders correctly 1`] = `
         accessibilityHint="Navigates to a website on the casuses of PTSD"
         accessibilityLabel="Navigates to a website on the casuses of PTSD"
         accessible={true}
-        id="howLongScreen.hyperlink"
         onPress={[Function]}
         style={
           Object {
@@ -396,6 +395,7 @@ exports[`HowLongScreen renders correctly 1`] = `
             "textDecorationLine": "underline",
           }
         }
+        testID="hyperlink"
       >
         Click here for more information on PTSD.
       </Text>
