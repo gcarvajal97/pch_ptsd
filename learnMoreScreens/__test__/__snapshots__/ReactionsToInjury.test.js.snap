@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`ReactionsToInjury renders correctly 1`] = `
 <View
   style={
     Object {
@@ -290,6 +290,303 @@ exports[`renders correctly 1`] = `
         >
            
           traumatic stress.
+        </Text>
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "color": "white",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    Reacciones a una lesión
+  </Text>
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "borderBottomWidth": 0,
+        "borderColor": "#2089DC",
+        "borderTopWidth": 0,
+        "borderWidth": 14,
+        "height": 204,
+        "marginBottom": -1,
+        "maxHeight": 254,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoVideoView
+      accessibilityHint="El video muestra cuáles son las reacciones de estrés a una lesión."
+      accessibilityLabel="El video muestra cuáles son las reacciones de estrés a una lesión."
+      accessible={true}
+      proxiedProperties={
+        Object {
+          "onError": [Function],
+          "onFullscreenUpdate": [Function],
+          "onLoad": [Function],
+          "onLoadStart": [Function],
+          "onReadyForDisplay": [Function],
+          "onStatusUpdate": [Function],
+          "resizeMode": "mock",
+          "source": Object {
+            "headers": undefined,
+            "overridingExtension": null,
+            "uri": "uri",
+          },
+          "status": Object {
+            "rate": 1,
+            "shouldPlay": true,
+            "volume": 1,
+          },
+          "useNativeControls": true,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "borderBottomColor": "#2089DC",
+        "borderBottomWidth": 2,
+        "color": "white",
+        "fontSize": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Estas reacciones son esperadas.
+    </Text>
+     
+    Con un poco de tiempo y apoyo adicional, la mayoría de los niños se sienten mejor..
+  </Text>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Una de las cosas más importantes que puede hacer para ayudar a su hijo es reconocer las reacciones de su hijo a las lesiones y comprender los síntomas de trauma infantil. Muchas reacciones son normales y comunes; algunas son más preocupantes.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        El primer paso para ayudar a su hijo a recuperarse es aprender qué reacciones debe detectar y qué puede hacer para ayudar a su hijo a responder de una manera sana.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 8,
+            "marginLeft": 5,
+            "marginTop": 2,
+            "textAlign": "left",
+          }
+        }
+      >
+        En los primeros días después de una lesión, los síntomas comunes de trauma infantil son:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Casi todos los niños se sienten angustiados, nerviosos o preocupados en algunos momentos.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Los padres y otros miembros de la familia pueden tener reacciones similares.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Casi todo el mundo siente los síntomas de estrés: dolor de cabeza, músculos tensos, nudos en el estómago, las manos sudorosas. También se suele sentir que la vida está un poco fuera de control.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Los padres y los niños pueden discutir más.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginBottom": 6,
+            "marginHorizontal": 18,
+            "marginTop": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Los niños pueden ser más dependientes o tener problemas para dormir.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 8,
+            "marginLeft": 5,
+            "marginTop": 2,
+            "textAlign": "left",
+          }
+        }
+      >
+        Incluso puede notar algunas reacciones positivas a su lesión:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Sentirse agradecidas y aliviadas de que no haya pasado nada peor
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginBottom": 6,
+            "marginHorizontal": 18,
+            "marginTop": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Decidirse a hacer las cosas de forma más segura en el futuro
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Cuando un accidente o una lesión provocan sentimientos abrumadores de miedo, impotencia y horror, pueden generar más que reacciones de estrés cotidianas. Puede conducir
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+           
+          al estrés traumático.
         </Text>
       </Text>
     </View>

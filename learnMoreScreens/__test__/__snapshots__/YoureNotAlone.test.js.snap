@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`YoureNotAlone renders correctly 1`] = `
 <View
   style={
     Object {
@@ -198,6 +198,210 @@ exports[`renders correctly 1`] = `
         }
       >
         With all the doctors, nurses, and therapists who will treat your child’s injury, remember that no one is more important than you for your child’s recovery. In making this application, we took the best information available from science and best practices to help you and your child recover after an injury.
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`YoureNotAlone renders correctly in Spanish 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "color": "white",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    No Está Solo
+  </Text>
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "borderBottomWidth": 0,
+        "borderColor": "#2089DC",
+        "borderTopWidth": 0,
+        "borderWidth": 14,
+        "height": 204,
+        "marginBottom": -1,
+        "maxHeight": 254,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoVideoView
+      accessibilityHint="Video sobre cómo las lesiones son comunes"
+      accessibilityLabel="Video sobre cómo las lesiones son comunes"
+      accessible={true}
+      proxiedProperties={
+        Object {
+          "onError": [Function],
+          "onFullscreenUpdate": [Function],
+          "onLoad": [Function],
+          "onLoadStart": [Function],
+          "onReadyForDisplay": [Function],
+          "onStatusUpdate": [Function],
+          "resizeMode": "mock",
+          "source": Object {
+            "headers": undefined,
+            "overridingExtension": null,
+            "uri": "uri",
+          },
+          "status": Object {
+            "rate": 1,
+            "shouldPlay": true,
+            "volume": 1,
+          },
+          "useNativeControls": true,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "borderBottomColor": "#2089DC",
+        "borderBottomWidth": 2,
+        "color": "white",
+        "fontSize": 15,
+        "paddingLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Su hijo no está solo.
+    </Text>
+     Cada año, milliones de niños en los Estados Unidos resultan heridos.
+  </Text>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        Cada año en EE. UU., las estadísticas de lesiones infantiles muestran que:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        - 1 de cada 4 niños y adolescentes requiere atención médica por una lesión
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        - 7 millones de niños heridos son tratados en salas de emergencias.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "paddingTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Cientos de miles de niños heridos son hospitalizados.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        En este momento, cientos de miles de niños de todo el país se están recuperando de una lesión. Al igual que usted, sus padres y otros adultos quieren ayudarlos de la mejor manera posible. Si bien es importante atender las heridas y ocuparse de la rehabilitación, es igual de importante recordar que hay que mirar más allá de las lesiones físicas.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Aunque haya muchos médicos, enfermeras y terapeutas que traten la lesión de su hijo, recuerde que nadie es más importante que usted para la recuperación de su hijo. En este sitio web tomamos lo mejor de la ciencia y la práctica para ayudarle a ayudar a su hijo después de una lesión.
       </Text>
     </View>
   </RCTScrollView>

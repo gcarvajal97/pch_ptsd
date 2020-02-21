@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`TraumaticStressReactions renders correctly 1`] = `
 <View
   style={
     Object {
@@ -453,6 +453,465 @@ exports[`renders correctly 1`] = `
         }
       >
         - being extra cranky or irritable
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "color": "white",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    Reacciones de estrés traumático
+  </Text>
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "borderBottomWidth": 0,
+        "borderColor": "#2089DC",
+        "borderTopWidth": 0,
+        "borderWidth": 14,
+        "height": 204,
+        "marginBottom": -1,
+        "maxHeight": 254,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoVideoView
+      accessibilityHint="Video sobre qué son las reacciones de estrés traumático."
+      accessibilityLabel="Video sobre qué son las reacciones de estrés traumático."
+      accessible={true}
+      proxiedProperties={
+        Object {
+          "onError": [Function],
+          "onFullscreenUpdate": [Function],
+          "onLoad": [Function],
+          "onLoadStart": [Function],
+          "onReadyForDisplay": [Function],
+          "onStatusUpdate": [Function],
+          "resizeMode": "mock",
+          "source": Object {
+            "headers": undefined,
+            "overridingExtension": null,
+            "uri": "uri",
+          },
+          "status": Object {
+            "rate": 1,
+            "shouldPlay": true,
+            "volume": 1,
+          },
+          "useNativeControls": true,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "borderBottomColor": "#2089DC",
+        "borderBottomWidth": 2,
+        "color": "white",
+        "fontSize": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Las reacciones de estrés a la lesión son normales.
+    </Text>
+     Sin embargo, se deben monitorear tres reacciones principales.
+  </Text>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Hay tres tipos principales de reacciones de estrés traumático:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Volver a experimentar: revivir lo que pasó
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Evitación: mantenerse alejado de los recordatorios
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Hiperexcitación: sentirse ansioso o nervioso
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Nota: 
+        </Text>
+        Estas reacciones son normales y no se consideran reacciones de estrés postraumático o TEPT a menos que persistan durante más de un mes e interfieran con la vida diaria.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        Volver a experimentar
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Volver a experimentar significa que su hijo sigue pensando mucho sobre el trauma, incluso cuando no quiere.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Volver a experimentar un poco es normal y natural. Pensar mucho sobre lo sucedido, sobre todo al principio, es parte de cómo nos ayudamos a nosotros mismos a recuperarnos de una experiencia aterradora.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Volver a experimentar demasiado puede ser muy angustiante. Su hijo podría tener pesadillas o "escena retrospectiva" que le hagan sentir que está pasando por el trauma de nuevo. Tal vez se sienta muy angustiado o incluso tenga síntomas físicos cuando algo (una visión, un sonido, un olor) le recuerde lo que pasó.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        Evitación
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Los síntomas de evitación pueden empezar por tratar de no pensar o hablar sobre el trauma o cualquier cosa relacionada con él. A veces los niños quieren mantenerse alejados de personas, lugares o actividades debido a que estos recordatorios los perturban. Y a veces los niños desarrollan nuevos temores o preocupaciones.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Por supuesto, el ser más cauteloso después de una lesión puede indicar un buen sentido común. Puede que los niños se hagan más conscientes de la seguridad, recordando usar el cinturón de seguridad, no corriendo a la calle detrás de una pelota o manteniéndose alejados de los perros que no conocen.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Pero la evitación o los temores extremos pueden llegar a ser un verdadero problema. La evitación puede interferir con la vida diaria y evitar que su hijo vuelva a disfrutar de las cosas que normalmente le gusta hacer.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        Hiperexcitación
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        La hiperexcitación también comienza con una respuesta natural y normal al peligro: la "reacción de lucha o huida". Después de una lesión o accidente, esta respuesta de "lucha o huida" puede que no se desactive, incluso cuando uno está seguro.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Su corazón sigue palpitando y tiene sudores.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Su cuerpo todavía está atento al peligro.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Después de una situación de miedo como la de estar herido, su hijo puede tener la sensación de que algo malo podría ocurrir de nuevo en cualquier momento o puede saltar ante cualquier ruido fuerte.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Las sensaciones físicas que acompañan a la hiperexcitación pueden dar miedo en sí mismas:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Su hijo tal vez se sienta de repente con el corazón acelerado o la cabeza retumbándole.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Él podría preocuparse por lo que significan estos síntomas.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Sentirse "en guardia" por el peligro la mayor parte del tiempo puede llevar a:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Problemas para dormir
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Problemas para concentrarse y
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Tener un mayor mal humor o estar más irritable que lo habitual.
       </Text>
     </View>
   </RCTScrollView>

@@ -1,3 +1,4 @@
+import i18n from 'i18n-js';
 import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 import React from 'react';
@@ -14,11 +15,20 @@ jest.mock('expo', () => ({
 
 
 describe("HowLongScreen", () => {
+    beforeEach(() => {
+        i18n.locale = 'en';
+    })
+
     afterEach(() => {
         jest.clearAllMocks();
       });
 
     it("renders correctly", () => {
+        expect(renderer.create(<HowLongScreen />).toJSON()).toMatchSnapshot();
+    });
+
+    it("renders correctly in Spanish", () => {
+        i18n.locale = 'es';
         expect(renderer.create(<HowLongScreen />).toJSON()).toMatchSnapshot();
     });
 

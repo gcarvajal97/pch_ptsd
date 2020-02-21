@@ -416,3 +416,420 @@ exports[`HowLongScreen renders correctly 1`] = `
   </RCTScrollView>
 </View>
 `;
+
+exports[`HowLongScreen renders correctly in Spanish 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "color": "white",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    ¿Cuánto duran las reacciones de estrés traumático?
+  </Text>
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "borderBottomWidth": 0,
+        "borderColor": "#2089DC",
+        "borderTopWidth": 0,
+        "borderWidth": 14,
+        "height": 204,
+        "marginBottom": -1,
+        "maxHeight": 254,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoVideoView
+      accessibilityHint="Video sobre la duración de las reacciones de estrés"
+      accessibilityLabel="Video sobre la duración de las reacciones de estrés"
+      accessible={true}
+      proxiedProperties={
+        Object {
+          "onError": [Function],
+          "onFullscreenUpdate": [Function],
+          "onLoad": [Function],
+          "onLoadStart": [Function],
+          "onReadyForDisplay": [Function],
+          "onStatusUpdate": [Function],
+          "resizeMode": "mock",
+          "source": Object {
+            "headers": undefined,
+            "overridingExtension": null,
+            "uri": "uri",
+          },
+          "status": Object {
+            "rate": 1,
+            "shouldPlay": true,
+            "volume": 1,
+          },
+          "useNativeControls": true,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#2089DC",
+        "borderBottomColor": "#2089DC",
+        "borderBottomWidth": 2,
+        "color": "white",
+        "fontSize": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Las reacciones de estrés pueden interferir. 
+    </Text>
+    La ayuda profesional es importante para volver a la normalidad.
+  </Text>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Para muchos niños y sus padres las reacciones de estrés traumático temprano mejoran durante el primer mes. Pero aproximadamente 1 de cada 6 sigue teniendo reacciones de estrés traumático que le molestan incluso 6 meses después de una lesión.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Casi todo el mundo se siente perturbado o ansioso al principio. Durante las siguientes semanas y meses, estas reacciones generalmente se debilitan y luego desaparecen. Incluso los niños que se recuperan de lesiones graves comienzan a desarrollar maneras de manejar la situación.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Pero para algunas personas, estas primeras reacciones no parecen mejorar a medida que pasan los meses o incluso pueden empeorar. Aun si se han curado del daño físico, es posible que no se hayan recuperado del trauma. La intensidad y duración de las reacciones de estrés traumático no se relaciona con lo grave que haya sido el daño físico.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        ¿Por qué preocuparse?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Cuando las reacciones de estrés traumático duran semanas o meses, pueden impedir la recuperación de la normalidad y sentirse bien otra vez.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        En niños y adolescentes, esto puede afectar a la escuela, la casa y el juego.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - El trabajo escolar y el aprendizaje pueden verse afectados cuando un niño no puede concentrarse o dormir bien.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Las relaciones familiares y amistades pueden sufrir.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Los niños pueden dejar de hacer cosas que disfrutan o dejar de probar cosas nuevas.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        ¿Qué es el trastorno de estrés postraumático o “TEPT”?
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        El trastorno de estrés postraumático (TEPT) es el nombre dado a las reacciones de estrés traumático que:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Son tan graves que interfieren en la vida normal
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Duran más de un mes.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Es importante saber si su hijo o alguien más de su familia desarrollan el trastorno de estrés postraumático en un accidente o lesión. Es mucho más común de lo que la gente piensa.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        Hasta 1 de cada 10 personas desarrolla trastorno de estrés postraumático en algún momento de su vida.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 3,
+            "marginLeft": 5,
+            "marginTop": 4,
+            "textAlign": "left",
+          }
+        }
+      >
+        Después de una lesión, el trastorno de estrés postraumático puede:
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Interferir con la recuperación física
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Contribuir a la aparición de nuevos problemas médicos
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginHorizontal": 18,
+            "marginVertical": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        - Simplemente hacer que sea más difícil disfrutar de la vida.
+      </Text>
+      <Text
+        accessibilityHint="Navega a un sitio web sobre las causas del TEPT"
+        accessibilityLabel="Navega a un sitio web sobre las causas del TEPT"
+        accessible={true}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#2089DC",
+            "fontSize": 16,
+            "marginTop": 3,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+            "textDecorationLine": "underline",
+          }
+        }
+        testID="hyperlink"
+      >
+        Haga clic aquí para obtener más información sobre el TEPT.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginTop": 5,
+            "paddingHorizontal": 5,
+            "paddingVertical": 1,
+          }
+        }
+      >
+        La buena noticia es que existen muy buenos tratamientos para el TEPT. Desafortunadamente, menos de la mitad de las personas con síntomas de estrés traumático hablan con alguien sobre sus problemas u obtienen ayuda profesional, aun cuando sus síntomas se prolongan durante mucho tiempo.
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
