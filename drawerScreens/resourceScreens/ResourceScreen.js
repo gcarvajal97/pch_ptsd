@@ -1,19 +1,12 @@
 import React, { Component } from "react";
-import {
-    Text,
-    Button,
-    Platform,
-    ScrollView,
-    StyleSheet,
-    View
-} from "react-native";
+import {Button, Platform, ScrollView, StyleSheet, View} from "react-native";
 import NavigationService from "../../components/NavigationService";
 import translate from "../../components/translateService";
-import ResourcesScreenCard from "./ResouceScreenCard";
+import ResourceScreenCard from "../resourceScreens/ResourceScreenCard";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import Resources from "./Resources";
 
-class ResourcesScreen extends Component {
+class ResourceScreen extends Component {
     static navigationOptions = {
         headerTitle: translate("resources.resources"),
         headerTitleContainerStyle: {
@@ -38,7 +31,7 @@ class ResourcesScreen extends Component {
         return (
             <View style={styles.container}>
                 <ScrollView>
-                    <ResourcesScreenCard />
+                    <ResourceScreenCard />
                     <PchPtsdAccordion
                         sections={translate("resources.accordion")}
                         contentRenderFunction={Resources}
@@ -49,7 +42,7 @@ class ResourcesScreen extends Component {
     }
 }
 
-export default ResourcesScreen;
+export default ResourceScreen;
 
 const styles = StyleSheet.create({
     container: {
