@@ -4,6 +4,5 @@ import InjuryPainCare from '../InjuryPainCareScreens/InjuryPainCare';
 import renderer from 'react-test-renderer';
 
 test('renders correctly', () => {
-    const tree = renderer.create(<InjuryPainCare/>).toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(renderer.create(<InjuryPainCare/>).toJSON()).toMatchSnapshot();
 }) 

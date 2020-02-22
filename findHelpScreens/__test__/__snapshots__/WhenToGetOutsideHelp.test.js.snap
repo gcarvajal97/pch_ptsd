@@ -596,6 +596,7 @@ exports[`renders correctly 1`] = `
                           "textDecorationLine": "underline",
                         }
                       }
+                      testID="hyperlink"
                     >
                       The National Child Traumatic Stress Network
                     </Text>

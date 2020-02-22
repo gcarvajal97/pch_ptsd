@@ -411,6 +411,7 @@ exports[`renders correctly 1`] = `
                           "textDecorationLine": "underline",
                         }
                       }
+                      testID="hyperlink"
                     >
                       Click here
                     </Text>
@@ -1843,6 +1844,7 @@ exports[`renders correctly 1`] = `
                           "textDecorationLine": "underline",
                         }
                       }
+                      testID="hyperlink"
                     >
                       Concussion Care for Kids: Minds Matter
                     </Text>
