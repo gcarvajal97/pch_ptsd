@@ -5,8 +5,7 @@ function GlossaryTerms(content) {
   content = Array.from(content);
   return (
     <View>
-      {content.map((item, index) => {
-        
+      {content.map((item, index) => {  
         return (
           <View style={styles.contentContainer} key={index}>
             <Text style={styles.term}>{item.term}</Text>

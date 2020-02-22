@@ -27,8 +27,4 @@ describe("GlossaryTerms", () => {
         expect(tree).toMatchSnapshot();
     });
 
-    //it('function input matches expected output', () => {
-        
-    //});
-
 });
