@@ -6,6 +6,7 @@ import Adapter from 'enzyme-adapter-react-16';
 import i18n from "i18n-js";
 
 configure({ adapter: new Adapter() });
+jest.mock('');
 
 describe("GlossaryTerms", () => {
     
@@ -25,5 +26,9 @@ describe("GlossaryTerms", () => {
         const tree = renderer.create(<GlossaryTerms />).toJSON();
         expect(tree).toMatchSnapshot();
     });
+
+    //it('function input matches expected output', () => {
+        
+    //});
 
 });

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlossaryTerms renders correctly 1`] = `<View />`;
+
+exports[`GlossaryTerms renders correctly in Spanish 1`] = `<View />`;
