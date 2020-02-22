@@ -1,0 +1,632 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LearnMoreList matches Snapshot 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "#e1e8ee",
+        "borderWidth": 1,
+        "margin": 5,
+        "marginBottom": 0,
+        "padding": 15,
+        "shadowColor": "rgba(0,0,0, .2)",
+        "shadowOffset": Object {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#2089DC",
+            "color": "white",
+            "fontSize": 20,
+            "margin": 0,
+            "padding": 10,
+            "paddingVertical": 10,
+            "textAlign": "center",
+          }
+        }
+      >
+        WHAT TO EXPECT AFTER INJURY
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "marginBottom": -1,
+          }
+        }
+      />
+      <View>
+        <View
+          accessibilityHint="Navigates to the you are not alone screen"
+          accessibilityLabel="NotAlone"
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomWidth": 0.5,
+                "borderColor": "#bcbbc1",
+                "flexDirection": "row",
+                "padding": 14,
+                "paddingLeft": 14,
+                "paddingRight": 0,
+                "paddingVertical": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignContent": "stretch",
+                    "backgroundColor": "transparent",
+                    "color": "black",
+                    "fontSize": 19,
+                  }
+                }
+                testID="listItemTitle"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              >
+                You Are Not Alone
+              </Text>
+            </View>
+            <View
+              width={16}
+            />
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  }
+                }
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+                underlayColor="white"
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityHint="Navigates to the reactions to injury screen"
+          accessibilityLabel="Reactions"
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomWidth": 0.5,
+                "borderColor": "#bcbbc1",
+                "flexDirection": "row",
+                "padding": 14,
+                "paddingLeft": 14,
+                "paddingRight": 0,
+                "paddingVertical": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignContent": "stretch",
+                    "backgroundColor": "transparent",
+                    "color": "black",
+                    "fontSize": 19,
+                  }
+                }
+                testID="listItemTitle"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              >
+                Reactions To Injury
+              </Text>
+            </View>
+            <View
+              width={16}
+            />
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  }
+                }
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+                underlayColor="white"
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityHint="Navigates to the what are traumatic stress reactions screen"
+          accessibilityLabel="TraumaticStressReactions"
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomWidth": 0.5,
+                "borderColor": "#bcbbc1",
+                "flexDirection": "row",
+                "padding": 14,
+                "paddingLeft": 14,
+                "paddingRight": 0,
+                "paddingVertical": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignContent": "stretch",
+                    "backgroundColor": "transparent",
+                    "color": "black",
+                    "fontSize": 19,
+                  }
+                }
+                testID="listItemTitle"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              >
+                What Are Traumatic Stress Reactions?
+              </Text>
+            </View>
+            <View
+              width={16}
+            />
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  }
+                }
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+                underlayColor="white"
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityHint="Navigates to the how long do traumatic stress reactions last screen"
+          accessibilityLabel="HowLong"
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomWidth": 0.5,
+                "borderColor": "#bcbbc1",
+                "flexDirection": "row",
+                "padding": 14,
+                "paddingLeft": 14,
+                "paddingRight": 0,
+                "paddingVertical": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignContent": "stretch",
+                    "backgroundColor": "transparent",
+                    "color": "black",
+                    "fontSize": 19,
+                  }
+                }
+                testID="listItemTitle"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              >
+                How Long Do Traumatic Stress Reactions Last?
+              </Text>
+            </View>
+            <View
+              width={16}
+            />
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  }
+                }
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+                underlayColor="white"
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

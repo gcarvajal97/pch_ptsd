@@ -4,7 +4,7 @@ import { Card, ListItem, Divider } from 'react-native-elements';
 import NavigationService from '../components/NavigationService';
 import { translate } from '../components/translateService';
 
-// List of screens that will be dispalyed in this list component
+// List of screens that will be displayed in this list component
 const listNames = [
     { name: translate('listFindHelp.quickTips'), navigateTo: 'QuickTips', accessibilityHint: translate('listFindHelp.quickTipsHint')},
     { name: translate('listFindHelp.howToTalk'), navigateTo: 'HowToTalk', accessibilityHint: translate('listFindHelp.howToTalkHint')},
