@@ -14,6 +14,8 @@
     "@react-native-community/netinfo": "~3.2.1",
     "accordion-collapse-react-native": "^0.1.11",
     "ansi-colors": "^4.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "expo": "^35.0.0",
     "expo-av": "~7.0.0",
     "expo-constants": "^7.0.1",
