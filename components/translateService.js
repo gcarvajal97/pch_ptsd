@@ -13,4 +13,8 @@ export function translate(text, params = {}) {
   return i18n.t(text, params);
 };
 
+export const getVideo = (videos) => {
+  return videos[i18n.locale.slice(0, 2)];
+};
+
 export default translate;

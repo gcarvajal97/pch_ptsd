@@ -2,7 +2,12 @@ import i18n from 'i18n-js';
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
-import translate from '../components/translateService';
+import translate, { getVideo } from '../components/translateService';
+
+const videos = {
+    en: require("../assets/videos/vidReactToInjury.mp4"),
+    es: require("../assets/videos/vidReactToInjuryEs.mp4"),
+  };
 
 class ReactionsToInjury extends Component {
 
@@ -18,8 +23,7 @@ class ReactionsToInjury extends Component {
                 </Text>
                 <Video
                     // Import video corresponding to this screen from assets
-                    source={i18n.locale.includes('en') ? require('../assets/videos/vidReactToInjury.mp4') : require('../assets/videos/vidReactToInjuryEs.mp4')}
-                    rate={1.0}
+                    source={getVideo(videos)}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
                     shouldPlay
