@@ -23,7 +23,7 @@ class ReactionsToInjury extends Component {
                 </Text>
                 <Video
                     // Import video corresponding to this screen from assets
-                    source={getVideo(i18n.locale, videos)}
+                    source={getVideo(videos)}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
                     shouldPlay

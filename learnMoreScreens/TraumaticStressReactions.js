@@ -22,7 +22,7 @@ class TraumaticStressReactions extends Component {
           {translate('traumaticStressReactions.title')}
         </Text>
         <Video
-            source={getVideo(i18n.locale, videos)}
+            source={getVideo(videos)}
             rate={1.0}
             volume={1.0}
             resizeMode={Video.RESIZE_MODE_STRETCH}
