@@ -2,7 +2,12 @@ import i18n from 'i18n-js';
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, ScrollView, Dimensions, AccessibilityInfo} from 'react-native';
 import { Video } from 'expo-av';
-import translate from '../components/translateService';
+import translate, { getVideo } from '../components/translateService';
+
+const videos = {
+  en: require("../assets/videos/vidStressReactions.mp4"),
+  es: require("../assets/videos/vidStressReactionsEs.mp4"),
+};
 
 class TraumaticStressReactions extends Component {
   
@@ -17,17 +22,30 @@ class TraumaticStressReactions extends Component {
           {translate('traumaticStressReactions.title')}
         </Text>
         <Video
-            source={i18n.locale.includes('en') ? require('../assets/videos/vidStressReactions.mp4') : require('../assets/videos/vidStressReactionsEs.mp4')}
+            source={getVideo(videos)}
             rate={1.0}
             volume={1.0}
             resizeMode={Video.RESIZE_MODE_STRETCH}
             resizeMode={Video.RESIZE_MODE_COVER}
             shouldPlay
             useNativeControls
-            style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+            style={{ 
+              height: 204, 
+              width: '100%', 
+              maxHeight: 254, 
+              borderColor: '#2089DC', 
+              borderWidth: 14, 
+              borderTopWidth: 0, 
+              borderBottomWidth: 0, 
+              marginBottom:-1
+            }}
             accessible
-            accessibilityLabel={translate('traumaticStressReactions.content.videoCard.accessibility')}
-            accessibilityHint={translate('traumaticStressReactions.content.videoCard.accessibility')}
+            accessibilityLabel={translate(
+              'traumaticStressReactions.content.videoCard.accessibility'
+              )}
+            accessibilityHint={translate(
+              'traumaticStressReactions.content.videoCard.accessibility'
+              )}
         />
         <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
           <Text style={{ fontWeight: 'bold' }}>{translate('traumaticStressReactions.content.videoCard.title')}</Text>
