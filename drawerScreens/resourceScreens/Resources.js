@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { Linking } from "expo";
 
 function Resources(content) {
+    content = Array.from(content);
     return (
         <View>
             {content.map((item, index) => {

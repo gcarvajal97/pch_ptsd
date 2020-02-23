@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resourceScreen renders correctly 1`] = `<resourceScreen />`;
+
+exports[`resourceScreen renders correctly in Spanish 1`] = `<resourceScreen />`;
