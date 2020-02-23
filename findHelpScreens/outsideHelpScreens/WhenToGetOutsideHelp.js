@@ -45,12 +45,6 @@ export default class WhenToGetOutsideHelpScreen extends Component {
         multipleSelect: true
     };
 
-    toggleExpanded = () => {
-        this.setState({
-            collapsed: !this.state.collapsed
-        });
-    };
-
     setSections = sections => {
         this.setState({
             activeSections: sections ? sections : []

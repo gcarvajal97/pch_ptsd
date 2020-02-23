@@ -1,4 +1,3 @@
-import i18n from "i18n-js";
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from "expo-av";
