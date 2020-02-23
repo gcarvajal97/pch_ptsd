@@ -13,7 +13,10 @@ export default class HowToLook extends Component {
         <Text style={styles.paragraph}>{translate('howToLook.paragraph3')}</Text>
         <Text style={styles.paragraph}>
         {"\ "}
-        <Text style={styles.link} onPress={()=> Linking.openURL('http://www.nctsnet.org/nccts/nav.do?pid=ctr_aud_prnt_gethelp')}
+        <Text 
+          testID='hyperlink'
+          style={styles.link}
+          onPress={()=> Linking.openURL('http://www.nctsnet.org/nccts/nav.do?pid=ctr_aud_prnt_gethelp')}
           accessible
           accessibilityLabel={translate('howToLook.accessibilityLabel')}
           accessibilityHint={translate('howToLook.accessibilityHint')}>

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InjuryPreventionTipsScreen renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Each year, one in every four children is treated by a doctor because of an injury such as a fall from a bicycle or an animal bite. Some of these injuries are minor, but many of them are very serious.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    You can’t always stop your children from getting bumps and bruises but you can reduce the chances that they’ll be seriously injured by taking safety precautions such as always buckling up in motor vehicles.
+    
+
+     
+    <Text
+      accessibilityHint="Navigates to a website about safety tips"
+      accessibilityLabel="Click here for safety tips"
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 14,
+          "textDecorationLine": "underline",
+        }
+      }
+      testID="hyperlink"
+    >
+      Click here
+    </Text>
+     
+    to find more safety tips on topics such as child passenger safety, bicycle safety, dog bites, falls, pedestrian safety, fire safety, water safety and more.
+  </Text>
+</View>
+`;
