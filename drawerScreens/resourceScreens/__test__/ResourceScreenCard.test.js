@@ -1,5 +1,5 @@
 import React from 'react';
-import ResourceScreenCard from '../ResouceScreenCard';
+import ResourceScreenCard from '../ResourceScreenCard';
 
 import renderer from 'react-test-renderer';
 
