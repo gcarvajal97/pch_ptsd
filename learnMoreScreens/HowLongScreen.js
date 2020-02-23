@@ -3,7 +3,12 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView, Dimensions} from "react-native";
 import { Video } from 'expo-av';
 import { Linking } from "expo";
-import translate from '../components/translateService';
+import translate, { getVideo } from '../components/translateService';
+
+const videos = {
+    en: require("../assets/videos/vidHowLong.mp4"),
+    es: require("../assets/videos/vidHowLongEs.mp4"),
+};
 
 // Tested and works on iOS
 // Tested and works on Android  
@@ -23,17 +28,30 @@ class HowLongScreen extends Component {
                     {translate('howLong.title')}
                 </Text>
                 <Video
-                    source={i18n.locale.includes('en') ? require('../assets/videos/vidHowLong.mp4') : require('../assets/videos/vidHowLongEs.mp4')}
+                    source={getVideo(i18n.locale, videos)}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_STRETCH}
                     resizeMode={Video.RESIZE_MODE_COVER}
                     shouldPlay
                     useNativeControls
-                    style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+                    style={{ 
+                        height: 204, 
+                        width: '100%',
+                        maxHeight: 254, 
+                        borderColor: '#2089DC', 
+                        borderWidth: 14, 
+                        borderTopWidth: 0, 
+                        borderBottomWidth: 0, 
+                        marginBottom:-1
+                    }}
                     accessible
-                    accessibilityLabel={translate('howLong.content.videoCard.accessibility')}
-                    accessibilityHint={translate('howLong.content.videoCard.accessibility')}
+                    accessibilityLabel={translate(
+                        'howLong.content.videoCard.accessibility'
+                        )}
+                    accessibilityHint={translate(
+                        'howLong.content.videoCard.accessibility'
+                        )}
                 />
                 <Text style={styles.subTitle}>
                     <Text style={{ fontWeight: 'bold' }}>{translate('howLong.content.videoCard.title')}</Text>

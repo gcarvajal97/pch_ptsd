@@ -68,7 +68,6 @@ exports[`ReactionsToInjury renders correctly 1`] = `
             "uri": "uri",
           },
           "status": Object {
-            "rate": 1,
             "shouldPlay": true,
             "volume": 1,
           },
@@ -365,7 +364,6 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
             "uri": "uri",
           },
           "status": Object {
-            "rate": 1,
             "shouldPlay": true,
             "volume": 1,
           },
