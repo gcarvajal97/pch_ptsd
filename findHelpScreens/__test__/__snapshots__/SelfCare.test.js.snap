@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`SelfCare renders correctly 1`] = `
 <View
   style={
     Object {
@@ -351,7 +351,7 @@ exports[`renders correctly 1`] = `
                 }
               >
                  
-                [+]	
+                [+]
                  
                 Re-Experiencing: Reliving what happened
                  
@@ -609,7 +609,7 @@ exports[`renders correctly 1`] = `
                 }
               >
                  
-                [+]	
+                [+]
                  
                 Avoidance: Staying away from reminders
                  
@@ -930,7 +930,7 @@ exports[`renders correctly 1`] = `
                 }
               >
                  
-                [+]	
+                [+]
                  
                 Hyper-Arousal: Feeling anxious or jumpy
                  
@@ -1377,7 +1377,7 @@ exports[`renders correctly 1`] = `
                 }
               >
                  
-                [+]	
+                [+]
                  
                 Self-Care for Parents
                  
@@ -1618,4 +1618,146 @@ exports[`renders correctly 1`] = `
     </View>
   </RCTScrollView>
 </View>
+`;
+
+exports[`SelfCare should render active accordion content 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  content
+</withAnimatable(View)>
+`;
+
+exports[`SelfCare should render an active accordion header 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "padding": 10,
+      },
+      Object {
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+     
+    [-]
+     
+    Re-Experiencing: Reliving what happened
+     
+  </Text>
+</withAnimatable(View)>
+`;
+
+exports[`SelfCare should render an inactive accordion header 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "padding": 10,
+      },
+      Object {
+        "backgroundColor": "rgba(245,252,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+     
+    [+]
+     
+    Re-Experiencing: Reliving what happened
+     
+  </Text>
+</withAnimatable(View)>
+`;
+
+exports[`SelfCare should render inactive accordion content 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "rgba(245,252,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  content
+</withAnimatable(View)>
 `;

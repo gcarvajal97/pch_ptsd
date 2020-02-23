@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`InjuryPainCare renders correctly 1`] = `
 <View
   style={
     Object {
@@ -340,6 +340,8 @@ exports[`renders correctly 1`] = `
               }
             >
               <Text
+                accessibilityHint="..."
+                accessible={true}
                 style={
                   Object {
                     "fontSize": 16,
@@ -450,6 +452,8 @@ exports[`renders correctly 1`] = `
               }
             >
               <Text
+                accessibilityHint="..."
+                accessible={true}
                 style={
                   Object {
                     "fontSize": 16,
@@ -712,6 +716,8 @@ exports[`renders correctly 1`] = `
               }
             >
               <Text
+                accessibilityHint="..."
+                accessible={true}
                 style={
                   Object {
                     "fontSize": 16,
@@ -1281,6 +1287,8 @@ exports[`renders correctly 1`] = `
               }
             >
               <Text
+                accessibilityHint="..."
+                accessible={true}
                 style={
                   Object {
                     "fontSize": 16,
@@ -1753,6 +1761,8 @@ exports[`renders correctly 1`] = `
               }
             >
               <Text
+                accessibilityHint="..."
+                accessible={true}
                 style={
                   Object {
                     "fontSize": 16,
@@ -1882,6 +1892,8 @@ exports[`renders correctly 1`] = `
               }
             >
               <Text
+                accessibilityHint="..."
+                accessible={true}
                 style={
                   Object {
                     "fontSize": 16,
@@ -2879,4 +2891,146 @@ exports[`renders correctly 1`] = `
     </View>
   </RCTScrollView>
 </View>
+`;
+
+exports[`InjuryPainCare should render active accordion content 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  content
+</withAnimatable(View)>
+`;
+
+exports[`InjuryPainCare should render an active accordion header 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "padding": 10,
+      },
+      Object {
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  <Text
+    accessibilityHint="a hint"
+    accessible={true}
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    [-]
+     
+    Injury Prevention Tips
+  </Text>
+</withAnimatable(View)>
+`;
+
+exports[`InjuryPainCare should render an inactive accordion header 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "padding": 10,
+      },
+      Object {
+        "backgroundColor": "rgba(245,252,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  <Text
+    accessibilityHint="a hint"
+    accessible={true}
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    [+]
+     
+    Injury Prevention Tips
+  </Text>
+</withAnimatable(View)>
+`;
+
+exports[`InjuryPainCare should render inactive accordion content 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "rgba(245,252,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  content
+</withAnimatable(View)>
 `;
