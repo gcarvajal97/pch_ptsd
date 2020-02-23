@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    Does your child have traumatic stress symptoms that:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Get in the way of getting back to usual activities?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Stop your child from enjoying things they used to enjoy?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Seem to be getting worse rather than better?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Have lasted more than a month?
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    Does your child:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Get physical symptoms if reminded of the injury or what happened?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Try not to talk about it?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Startle easily (for example, jumping at sudden noises)?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Get very distressed if reminded of the injury?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    If any of the above are true, it's a good idea to talk with your doctor or another professional about how your child is doing.
+  </Text>
+</View>
+`;

@@ -2,7 +2,13 @@ import i18n from 'i18n-js';
 import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
-import translate from '../components/translateService';
+import translate, { getVideo } from "../components/translateService";
+
+const videos = {
+    en: require("../assets/videos/vidHowToTalk.mp4"),
+    es: require("../assets/videos/vidHowToTalkEs.mp4"),
+};
+
 
 class HowToTalk extends Component {
 
@@ -19,7 +25,7 @@ class HowToTalk extends Component {
                     {translate('howToTalk.video_title')}
                 </Text>
                 <Video
-                    source={i18n.locale.includes('en') ? require('../assets/videos/vidHowToTalk.mp4') : require('../assets/videos/vidHowToTalkEs.mp4')}
+                    source={getVideo(videos)}
                     rate={1.0}
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_STRETCH}
