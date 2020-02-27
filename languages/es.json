@@ -40,6 +40,7 @@
     "glossary": {
         "back": "REGRESO",
         "glossary": "Glosario",
+        "accessibilityLabel": "Foto de libros en una estantería",
         "description": "Encuentra definiciones de palabras por categoría",
         "accordion": [
             {
@@ -547,6 +548,7 @@
     "injuryPainCare": {
         "header": "Encontrar ayuda",
         "cardHeader": "Lesión y Dolor",
+        "textAccessibility": "Componente plegable",
         "cardTitle": "Ayude a su hijo a superar una lesión.",
         "accessibilityLabel": "Foto de una joven caminando con muletas y una enfermera ayudándola.",
         "accessibilityHint": "Foto de una joven caminando con muletas y una enfermera ayudándola.",
@@ -905,6 +907,7 @@
         "accessibilityLabelSub": "Haga clic aquí para enviar sus resultados."
     },
     "quizResults": {
+        "header": "Haz la prueba",
         "noAnswers": "¡Uy! Parece que olvidaste seleccionar cualquier respuesta.",
         "whyHappens": "Por qué sucede: ",
         "isProblem": "¿Es esto un problema?: ",

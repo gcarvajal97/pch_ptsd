@@ -8,7 +8,7 @@ export default class QuizResults extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Take the Quiz'
+        headerTitle: translate('quizResults.header')
     }
 
     render() {
