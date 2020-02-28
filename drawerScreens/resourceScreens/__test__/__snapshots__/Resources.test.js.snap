@@ -59,6 +59,82 @@ exports[`Resources renders one resource 1`] = `
 </View>
 `;
 
+exports[`Resources renders properly in english 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+          "textDecorationLine": "underline",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      
+
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Resources renders properly in spanish 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+          "textDecorationLine": "underline",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      
+
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`Resources renders two resources 1`] = `
 <View>
   <View
