@@ -1,21 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Resources renders correctly 1`] = `
-<View>
-  <Text>
-    Error: Resources content is in valid!
-  </Text>
-</View>
-`;
-
-exports[`Resources renders correctly in Spanish 1`] = `
-<View>
-  <Text>
-    Error: Resources content is in valid!
-  </Text>
-</View>
-`;
-
 exports[`Resources renders error message if resources are missing 1`] = `
 <View>
   <Text>

@@ -13,17 +13,6 @@ describe("Resources", () => {
         i18n.local = "en";
     });
 
-    it('renders correctly', () => {
-        const tree = renderer.create(<Resources />).toJSON();
-        expect(tree).toMatchSnapshot();
-    });
-
-    it('renders correctly in Spanish', () => {
-        i18n.locale = 'es'
-        const tree = renderer.create(<Resources />).toJSON();
-        expect(tree).toMatchSnapshot();
-    });
-
     it('renders one resource', () => {
         const content = [  
             {
