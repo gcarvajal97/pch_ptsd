@@ -1,11 +1,11 @@
 import React from 'react';
-import FindHelpCard from '../FindHelpCard';
+import LearnMoreCard from '../LearnMoreCard';
 import renderer from 'react-test-renderer';
 
-describe("FindHelpCard", () => {
+describe("LearnMoreCard", () => {
 
     it("matches Snapshot", () => {
-        const snap = renderer.create(<FindHelpCard />).toJSON();
+        const snap = renderer.create(<LearnMoreCard />).toJSON();
         expect(snap).toMatchSnapshot();
     });
 });
