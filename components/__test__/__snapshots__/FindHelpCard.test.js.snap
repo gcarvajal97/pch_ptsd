@@ -242,6 +242,7 @@ exports[`FindHelpCard matches Snapshot 1`] = `
                 "opacity": 1,
               }
             }
+            testID="FindHelpButton"
           >
             <View
               style={
