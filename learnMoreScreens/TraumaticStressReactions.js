@@ -25,6 +25,7 @@ class TraumaticStressReactions extends Component {
             source={getVideo(videos)}
             rate={1.0}
             volume={1.0}
+            onError={()=>{return 'Video Failed to Load'}}
             resizeMode={Video.RESIZE_MODE_STRETCH}
             resizeMode={Video.RESIZE_MODE_COVER}
             shouldPlay
