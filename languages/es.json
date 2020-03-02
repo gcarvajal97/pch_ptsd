@@ -16,7 +16,6 @@
         "q3": "¿Cómo pueden los padres saber si los temores o las preocupaciones son realmente un problema?",
         "q3_p1": "Pregúntese: ¿el miedo o el nerviosismo frenan a su hijo a la hora de volver a las actividades normales y seguras? ¿O le impiden disfrutar de las cosas, incluso si es capaz de hacerlas?",
         "q3_p2": "Si es así, puede ayudar a su hijo a lidiar con los nuevos temores y preocupaciones antes de que se conviertan en un problema mayor.",
-        "q4": "¿Qué pueden hacer los padres?",
         "q4_tip1": "1. Ayude a su hijo a hacer cambios que de verdad lo ayuden a estar seguro.",
         "q4_tip1_bullet": " - Como usar casco, cruzar la calle con cuidado o decirle a dónde va.",
         "q4_tip2": "2. Sea una 'verificación de la realidad' para su hijo.",
@@ -39,6 +38,7 @@
     },
     "glossary": {
         "back": "REGRESO",
+        "backHint": "Volver a la página anterior",
         "glossary": "Glosario",
         "accessibilityLabel": "Foto de libros en una estantería",
         "description": "Encuentra definiciones de palabras por categoría",
@@ -400,7 +400,6 @@
         "Ch1_t2_n3": "3. Deje que tu hijo hable sobre sus preocupaciones o sentimientos. Invite al equipo médico de su hijo a hablar con él directamente. En la medida que sea posible, deje que su hijo responda por sí mismo. No fuerce a su hijo para que hable, pero quédese junto a él para escucharlo cuando esté preparado.",
         "Ch1_t2_n4": "4. Cuide de usted mismo. Obtenga ayuda para usted mismo cuando esté preocupado y angustiado. ¡Acuérdesee de comer y dormir!",
         "Ch1_t2_n5": "5. Pida ayuda a familiares y amigos. Una vez que su hijo haya sido dado de alta y haya vuelto a casa, vuelva a visitar este sitio web para recibir más información acerca de las formas en que los padres pueden ayudar a sus hijos.",
-        "CHAPTER_2_MAIN_TITLE": "En el hospital",
         "Ch2_p1": "Además de la lesión en sí misma, hay cosas respecto de la estancia en el hospital que pueden ser traumáticas para los hijos y los padres.",
         "CH2_TITLE_1": "Trabar con el equipo médico",
         "Ch2_t1_n1": "1. No tenga miedo de preguntar. Algunos padres llevan consigo una libreta para apuntar sus preguntas. De esta forma, estará preparado para cuando el equipo médico examine a su hijo. Si no comprende la respuesta, hágaselo saber al equipo médico y vuelva a preguntar. Pídale al médico que apunte el nombre de las lesiones de su hijo.",
@@ -504,7 +503,6 @@
         }
     },
     "howToTalk": {
-        "header": "Encontrar ayuda",
         "video_title": "Cómo hablar con su hijo",
         "accessibilityLabel": "Video sobre cómo hablar con su hijo.",
         "accessibilityHint": "Video sobre cómo hablar con su hijo.",
@@ -548,7 +546,6 @@
     "injuryPainCare": {
         "header": "Encontrar ayuda",
         "cardHeader": "Lesión y Dolor",
-        "textAccessibility": "Componente plegable",
         "cardTitle": "Ayude a su hijo a superar una lesión.",
         "accessibilityLabel": "Foto de una joven caminando con muletas y una enfermera ayudándola.",
         "accessibilityHint": "Foto de una joven caminando con muletas y una enfermera ayudándola.",
@@ -791,6 +788,7 @@
         "backButton": "REGRESO",
         "pediatricPTSD": "Pediátrico TEPT",
         "more": "MÁS",
+        "moreHint": "Vaya a las pantallas de glosario y recursos.",
         "learnButton": "APRENDE MÁS",
         "learnTitle": "Aprenda Más Sobre Lesiones y Traumas",
         "learnCaption": "Obtenga información actualizada y orientación experta para ayudarlo a usted y a su hijo lesionado.",
@@ -996,6 +994,7 @@
     },
     "resources": {
         "back": "REGRESO",
+        "backHint": "Volver a la página anterior",
         "resources": "Recursos",
         "description": "Encuentre recursos adicionales para ayudarlo a usted y a su hijo.",
         "accessibilityHint": "Una foto de una pirámide en capas.",

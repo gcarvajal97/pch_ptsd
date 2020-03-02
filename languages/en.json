@@ -39,6 +39,7 @@
     },
     "glossary": {
         "back": "BACK",
+        "backHint": "Go back to previous page",
         "glossary": "Glossary",
         "accessibilityLabel": "Photo of books on a bookshelf",
         "description": "Find word definitions by category.",
@@ -548,7 +549,6 @@
     },
     "injuryPainCare": {
         "header": "Find Help",
-        "textAccessibility": "Collapsible component",
         "cardHeader": "Injury and Pain",
         "cardTitle": "Help you and your child overcome an injury.",
         "accessibilityLabel": "Photo of a young girl walking with crutches and a nurse assisting her.",
@@ -997,6 +997,7 @@
     },
     "resources": {
         "back": "BACK",
+        "backHint": "Go back to previous page",
         "resources": "Resources",
         "description": "Find additional resources for you and your child.",
         "accessibilityHint": "Photo of multi-layered pyramid.",
