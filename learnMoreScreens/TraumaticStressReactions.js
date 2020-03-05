@@ -48,7 +48,16 @@ class TraumaticStressReactions extends Component {
               'traumaticStressReactions.content.videoCard.accessibility'
               )}
         />
-        <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
+        <Text style={{ 
+          backgroundColor: '#2089DC', 
+          color: 'white', 
+          alignSelf: 'stretch', 
+          paddingLeft: 15, 
+          paddingRight:15, 
+          fontSize: 15, 
+          borderBottomWidth:2, 
+          borderBottomColor:'#2089DC'}
+        }>
           <Text style={{ fontWeight: 'bold' }}>{translate('traumaticStressReactions.content.videoCard.title')}</Text>
           {translate('traumaticStressReactions.content.videoCard.subtitle')}
         </Text>

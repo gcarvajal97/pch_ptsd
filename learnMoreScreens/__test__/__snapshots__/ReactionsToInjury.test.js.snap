@@ -108,7 +108,6 @@ exports[`ReactionsToInjury renders correctly 1`] = `
     >
       These reactions are expected.
     </Text>
-     
     With a little time and extra support, most children feel better.
   </Text>
   <RCTScrollView>
@@ -404,7 +403,6 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
     >
       Estas reacciones son esperadas.
     </Text>
-     
     Con un poco de tiempo y apoyo adicional, la mayoría de los niños se sienten mejor..
   </Text>
   <RCTScrollView>

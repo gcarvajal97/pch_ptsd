@@ -18,7 +18,14 @@ class YoureNotAlone extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={{ backgroundColor: '#2089DC', color: 'white', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
+                <Text style={{ 
+                    backgroundColor: '#2089DC', 
+                    color: 'white', 
+                    fontWeight: 'bold', 
+                    fontSize: 22, 
+                    textAlign: 'center', 
+                    alignSelf: 'stretch' }
+                }>
                     {translate('youAreNotAlone.title')}
                 </Text>
                 <Video
@@ -27,6 +34,7 @@ class YoureNotAlone extends Component {
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
                     shouldPlay
+                    onError={() => {return 'Video Failed to Load'}}
                     useNativeControls
                     style={{ 
                         height: 204, 
@@ -46,12 +54,29 @@ class YoureNotAlone extends Component {
                         'youAreNotAlone.content.videoCard.accessibility'
                         )}
                 />
-                <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
+                <Text style={{ 
+                    backgroundColor: '#2089DC', 
+                    color: 'white', 
+                    alignSelf: 'stretch', 
+                    paddingLeft: 15, 
+                    fontSize: 15, 
+                    borderBottomWidth:2, 
+                    borderBottomColor:'#2089DC'}
+                }>
                     <Text style={{ fontWeight: 'bold' }}>{translate('youAreNotAlone.content.videoCard.boldText')}</Text> 
                     {translate('youAreNotAlone.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
-                <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:4, marginBottom:3, color:'#2089DC'}}>
+                <Text style={{
+                    fontWeight: 'bold',
+                    fontSize:20,
+                    alignSelf:'stretch',
+                    textAlign:'left',
+                    marginLeft:5,
+                    marginTop:4,
+                    marginBottom:3,
+                    color:'#2089DC'}
+                }>
                     {translate('youAreNotAlone.content.statsBullets.intro')}
                     </Text>
                 <Text style={styles.bullet}>{translate('youAreNotAlone.content.statsBullets.bulletOne')}</Text>

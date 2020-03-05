@@ -43,8 +43,18 @@ class ReactionsToInjury extends Component {
                     accessibilityLabel={translate('reactionsToInjury.content.videoCard.accessibility')}
                     accessibilityHint={translate('reactionsToInjury.content.videoCard.accessibility')}
                 />
-                <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                    <Text style={{ fontWeight: 'bold' }}>{translate('reactionsToInjury.content.videoCard.title')}</Text> {translate('reactionsToInjury.content.videoCard.subtitle')}
+                <Text style={{ 
+                    backgroundColor: '#2089DC', 
+                    color: 'white', 
+                    alignSelf: 'stretch', 
+                    paddingLeft: 15, 
+                    paddingRight:15, 
+                    fontSize: 15, 
+                    borderBottomWidth:2, 
+                    borderBottomColor:'#2089DC'}
+                }>
+                    <Text style={{ fontWeight: 'bold' }}>{translate('reactionsToInjury.content.videoCard.title')}</Text> 
+                    {translate('reactionsToInjury.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
                     <Text style={styles.paragraph}>{translate('reactionsToInjury.content.paragraphOne')}</Text>
