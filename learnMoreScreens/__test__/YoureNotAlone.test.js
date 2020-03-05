@@ -1,8 +1,9 @@
 import i18n from 'i18n-js';
-import { configure} from "enzyme";
+import { configure, shallow, mount } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 import React from 'react';
 import YoureNotAlone from '../YoureNotAlone';
+import { Video } from 'expo-av';
 
 import renderer from 'react-test-renderer';
 
@@ -15,13 +16,22 @@ describe("YoureNotAlone", () => {
     });
 
     it('renders correctly', () => {
-        const tree = renderer.create(<YoureNotAlone />).toJSON();
-        expect(tree).toMatchSnapshot();}
+            const tree = renderer.create(<YoureNotAlone />).toJSON();
+            expect(tree).toMatchSnapshot();}
         )
 
      it('renders correctly in Spanish', () => {
-         i18n.locale = 'es'
-        const tree = renderer.create(<YoureNotAlone />).toJSON();
-        expect(tree).toMatchSnapshot();}
+            i18n.locale = 'es'
+            const tree = renderer.create(<YoureNotAlone />).toJSON();
+            expect(tree).toMatchSnapshot();}
         )
+
+        it('video fails to load', () => {
+            wrapper = shallow(<YoureNotAlone />);
+            wrapper.find(Video).get(0).src = "src.jnk";
+            let onError = jest.fn();
+            wrapper.unmount();
+            wrapper.render();
+            expect(Video.onError).toHaveBeenCalled();
+        })
 })
