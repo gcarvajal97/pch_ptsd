@@ -905,7 +905,7 @@
         "accessibilityLabelSub": "Haga clic aquí para enviar sus resultados."
     },
     "quizResults": {
-        "noAnswers": "¡Uy! Parece que olvidaste seleccionar cualquier respuesta.",
+        "noAnswers": "No parece que su hijo esté experimentando ningún síntoma. Si tiene inquietudes, comuníquese con el proveedor de su hijo.",
         "whyHappens": "Por qué sucede: ",
         "isProblem": "¿Es esto un problema?: ",
         "q1title": "Usted (padre) se estresa o preocupa a sí mismo",
