@@ -18,6 +18,7 @@ export default class FindHelpCard extends Component {
                 {translate('mainScreen.findHelpCaption')} 
             </Text>
             <CardButton onPress={()=>NavigationService.navigate('FindHelp')}
+                testID='FindHelpButton'
                 buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
                 title={translate('mainScreen.findHelpButton')} 
                 accessible
