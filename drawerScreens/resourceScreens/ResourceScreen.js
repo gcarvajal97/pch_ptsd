@@ -23,6 +23,9 @@ class ResourceScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("resources.back")}
+                accessible
+                accessibilityLabel={translate("glossary.back")}
+                accessibilityHint={translate("glossary.backHint")}
             ></Button>
         )
     };
