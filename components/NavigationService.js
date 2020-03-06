@@ -15,6 +15,7 @@ function getTopLevelNavigator() {
 }
 
 // Can be used to navigate to other screens, but currently Drawer only references the stack navigator
+/* istanbul ignore next */
 function navigateDrawer(routeName, params) {
   _navigator.dispatch(
     NavigationActions.navigate({
@@ -25,6 +26,7 @@ function navigateDrawer(routeName, params) {
 }
 
 // Can be used to move into other screens defined in the stack navigator. 
+/* istanbul ignore next */
 function navigate(routeName, params) {
     _navigator.dispatch(
       NavigationActions.navigate({
@@ -35,6 +37,7 @@ function navigate(routeName, params) {
   }
 
 // Created this function to allow the openDrawer function to be called from the header in MainScreen.js
+/* istanbul ignore next */
 function openDrawer() {
     _navigator.dispatch(DrawerActions.openDrawer())
 }
