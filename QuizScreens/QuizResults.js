@@ -42,7 +42,9 @@ export default class QuizResults extends Component {
                                     return <Card key={key} 
                                     title={translate('quizResults.q' + key + 'title')} 
                                     titleStyle={{color:'#2089DC'}}
-                                    accessible>
+                                    accessible
+                                    
+                                    >
                                         <Text style={styles.paragraphBold}> {translate('quizResults.whyHappens')} </Text>
                                         <Text style={styles.paragraph}> {translate('quizResults.q' + key + 'body1')} </Text>
                                         <Text style={styles.paragraphBold}> {translate('quizResults.isProblem')} </Text>
