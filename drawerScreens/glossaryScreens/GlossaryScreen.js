@@ -2,19 +2,19 @@ import React, { Component } from "react";
 import { Button, Platform, ScrollView, StyleSheet, View } from "react-native";
 import NavigationService from "../../components/NavigationService";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
-import translate from "../../components/translateService";
+import translate, { getLocale } from "../../components/translateService";
 import GlossaryScreenCard from "./GlossaryScreenCard";
 import GlossaryTerms from "./GlossaryTerms";
 
 class GlossaryScreen extends Component {
+    marginLeft =
+        getLocale().startsWith("es") && Platform.OS === "android"
+            ? translate("glossary.back").length + 22
+            : 0;
     static navigationOptions = {
         headerTitle: translate("glossary.glossary"),
         headerTitleContainerStyle: {
-            marginLeft:
-                Platform.OS === "android" &&
-                translate("glossary.back").length > 4
-                    ? translate("glossary.back").length + 22
-                    : 0
+            marginLeft: this.marginLeft
         },
         headerLeftContainerStyle: {
             marginLeft: 5
