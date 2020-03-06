@@ -906,7 +906,7 @@
         "accessibilityLabelSub": "Click here to submit your results"
     },
     "quizResults": {
-        "noAnswers": "Oops! Looks like you forgot to select any answers.",
+        "noAnswers": "It doesn't appear that your child is experiencing any symptoms. If you have concerns, please contact your child's provider.",
         "whyHappens": "Why It Happens: ",
         "isProblem": "Is This a Problem?: ",
         "q1title": "Thinks a lot about what happened to them",

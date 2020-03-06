@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PchPtsdAccordion renders multiple sections correctly 1`] = `
+<View>
+  <View>
+    <View
+      style={Object {}}
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(245,252,255,1)",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              [+]
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              section name
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "height": 0,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          onLayout={[Function]}
+          style={Object {}}
+        >
+          <View
+            style={Object {}}
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(245,252,255,1)",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              [+]
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              another section name
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "height": 0,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          onLayout={[Function]}
+          style={Object {}}
+        >
+          <View
+            style={Object {}}
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`PchPtsdAccordion renders single section correctly 1`] = `
+<View>
+  <View>
+    <View
+      style={Object {}}
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(245,252,255,1)",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              [+]
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              section name
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "height": 0,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          onLayout={[Function]}
+          style={Object {}}
+        >
+          <View
+            style={Object {}}
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
