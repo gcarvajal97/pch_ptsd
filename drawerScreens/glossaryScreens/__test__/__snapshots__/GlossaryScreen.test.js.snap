@@ -2930,7 +2930,7 @@ exports[`GlossaryScreen renders correctly 1`] = `
 </View>
 `;
 
-exports[`GlossaryScreen renders correctly in Spanish 1`] = `
+exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
 <View
   style={
     Object {

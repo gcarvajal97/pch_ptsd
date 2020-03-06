@@ -1,30 +1,40 @@
-import React from 'react';
-import GlossaryTerms from '../GlossaryTerms';
-import renderer from 'react-test-renderer';
-import Enzyme, { shallow, configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-import i18n from "i18n-js";
-
-configure({ adapter: new Adapter() });
-jest.mock('');
+import GlossaryTerms from "../GlossaryTerms";
 
 describe("GlossaryTerms", () => {
-    
-    let wrapper;
-
-    beforeEach(() => {
-        i18n.local = "en";
+    it("should render a glossary term", () => {
+        const content = [
+            {
+                term: "a term",
+                definition: "a definition"
+            }
+        ];
+        const result = GlossaryTerms(content);
+        expect(result).toMatchSnapshot();
     });
 
-    it('renders correctly', () => {
-        const tree = renderer.create(<GlossaryTerms />).toJSON();
-        expect(tree).toMatchSnapshot();
+    it("should render glossary terms", () => {
+        const content = [
+            {
+                term: "a term",
+                definition: "a definition"
+            },
+            {
+                term: "another term",
+                definition: "another definition"
+            }
+        ];
+        const result = GlossaryTerms(content);
+        expect(result).toMatchSnapshot();
     });
 
-    it('renders correctly in Spanish', () => {
-        i18n.locale = 'es'
-        const tree = renderer.create(<GlossaryTerms />).toJSON();
-        expect(tree).toMatchSnapshot();
+    it("should render an error message if no glossary terms", () => {
+      const content = [];
+      const result = GlossaryTerms(content);
+      expect(result).toMatchSnapshot();
     });
 
+    it("should render an error message if glossary terms are not defined", () => {
+      const result = GlossaryTerms(undefined);
+      expect(result).toMatchSnapshot();
+    });
 });
