@@ -10,6 +10,10 @@ function setTopLevelNavigator(navigatorRef) {
   _navigator = navigatorRef;
 }
 
+function getTopLevelNavigator() {
+  return _navigator;
+}
+
 // Can be used to navigate to other screens, but currently Drawer only references the stack navigator
 function navigateDrawer(routeName, params) {
   _navigator.dispatch(
@@ -39,5 +43,6 @@ export default {
   navigate,
   navigateDrawer,
   setTopLevelNavigator,
+  getTopLevelNavigator,
   openDrawer,
 };
