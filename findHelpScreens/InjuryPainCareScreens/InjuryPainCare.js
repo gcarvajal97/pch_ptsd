@@ -25,37 +25,37 @@ const PAGES = [
         name: translate("injuryPainCare.CHAPTER_1_MAIN_TITLE"),
         content: <InjuryPreventionTips />,
         value: 0,
-        accessibilityHint: "..."
+        accessibilityHint: translate("injuryPainCare.CHAPTER_1_MAIN_TITLE")
     },
     {
         name: translate("injuryPainCare.CHAPTER_2_MAIN_TITLE"),
         content: <AbdominalTrauma />,
         value: 1,
-        accessibilityHint: "..."
+        accessibilityHint: translate("injuryPainCare.CHAPTER_1_MAIN_TITLE")
     },
     {
         name: translate("injuryPainCare.CHAPTER_3_MAIN_TITLE"),
         content: <TakingCareCast />,
         value: 2,
-        accessibilityHint: "..."
+        accessibilityHint: translate("injuryPainCare.CHAPTER_1_MAIN_TITLE")
     },
     {
         name: translate("injuryPainCare.CHAPTER_4_MAIN_TITLE"),
         content: <UsingCrutches />,
         value: 3,
-        accessibilityHint: "..."
+        accessibilityHint: translate("injuryPainCare.CHAPTER_1_MAIN_TITLE")
     },
     {
         name: translate("injuryPainCare.CHAPTER_5_MAIN_TITLE"),
         content: <HeadInjury />,
         value: 4,
-        accessibilityHint: "..."
+        accessibilityHint: translate("injuryPainCare.CHAPTER_1_MAIN_TITLE")
     },
     {
         name: translate("injuryPainCare.CHAPTER_6_MAIN_TITLE"),
         content: <ManagingPain />,
         value: 5,
-        accessibilityHint: "..."
+        accessibilityHint: translate("injuryPainCare.CHAPTER_1_MAIN_TITLE")
     }
 ];
 

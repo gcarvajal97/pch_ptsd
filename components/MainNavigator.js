@@ -44,7 +44,7 @@ const StackNav = createStackNavigator({
     },
     {
     defaultNavigationOptions: { 
-       headerTruncatedBackTitle: translate('mainScreen.backButton'),
+       headerTruncatedBackTitle: translate('mainScreen.backButton')
     }
   });
 

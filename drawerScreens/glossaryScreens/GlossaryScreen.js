@@ -23,6 +23,9 @@ class GlossaryScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("glossary.back")}
+                accessible
+                accessibilityLabel={translate("glossary.back")}
+                accessibilityHint={translate("glossary.backHint")}
             ></Button>
         )
     };
@@ -35,6 +38,9 @@ class GlossaryScreen extends Component {
                     <PchPtsdAccordion
                         sections={translate("glossary.accordion")}
                         contentRenderFunction={GlossaryTerms}
+                        accessible
+                        accessibilityLabel={translate("glossary.accordion")}
+                        accessibilityHint={translate("glossary.accordion")}
                     />
                 </ScrollView>
             </View>
