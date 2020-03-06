@@ -3,11 +3,17 @@ import ResourceScreen from '../ResourceScreen';
 import NavigationService from "../../../components/NavigationService";
 import renderer from 'react-test-renderer';
 import { Platform } from "react-native";
+import Enzyme, { shallow, configure } from 'enzyme';
 import i18n from "i18n-js";
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() })
 
 jest.mock("../../../components/NavigationService.js");
 
 describe("ResourceScreen", () => {
+
+    let wrapper;
 
     beforeEach(() => {
         i18n.local = "en";
@@ -31,4 +37,14 @@ describe("ResourceScreen", () => {
         expect(NavigationService.navigateDrawer).toHaveBeenCalledWith("Home");
     });
 
+    /*
+    it('accordion fails to load', () => {
+        wrapper = shallow(<ResourceScreen />);
+        wrapper.find('PchPtsdAccordion').first().src = "src.jnk";
+        let onError = jest.fn();
+        wrapper.unmount();
+        wrapper.render();
+        expect(PchPtsdAccordion.onError).toHaveBeenCalled();
+    })
+    */
 });

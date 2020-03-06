@@ -35,6 +35,7 @@ class ResourceScreen extends Component {
                     <PchPtsdAccordion
                         sections={translate("resources.accordion")}
                         contentRenderFunction={Resources}
+                        // onError={()=>{return 'Accordion failed to load!'}}
                     />
                 </ScrollView>
             </View>
