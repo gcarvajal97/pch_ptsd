@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`FindHelpCard matches Snapshot 1`] = `
 <View
-  accessibilityHint="Photo of books on a bookshelf"
-  accessibilityLabel="Photo of books on a bookshelf"
+  accessibilityLabel="Photo of father reading a book to a baby on his lap."
   accessible={true}
   style={
     Object {
@@ -156,7 +155,7 @@ exports[`renders correctly 1`] = `
               style={
                 Object {
                   "color": "white",
-                  "fontSize": 40,
+                  "fontSize": 22.5,
                   "fontWeight": "800",
                   "marginBottom": 8,
                 }
@@ -199,7 +198,7 @@ exports[`renders correctly 1`] = `
                 }
               }
             >
-              Glossary
+              Help Your Child Recover
             </Text>
           </View>
         </View>
@@ -214,14 +213,70 @@ exports[`renders correctly 1`] = `
         <Text
           style={
             Object {
-              "fontWeight": "500",
-              "marginVertical": -8,
-              "textAlign": "center",
+              "marginBottom": 5,
             }
           }
         >
-          Find word definitions by category.
+          Dealing with emotional reactions and injury care can be difficult. Find ways to help your child recover.
         </Text>
+        <View
+          style={
+            Object {
+              "borderRadius": 3,
+            }
+          }
+        >
+          <View
+            accessibilityHint="Navigates to the find help screen"
+            accessibilityLabel="FIND HELP"
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="FindHelpButton"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#2089dc",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 0,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "paddingBottom": 1,
+                    "paddingTop": 2,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                FIND HELP
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
     </View>
   </View>

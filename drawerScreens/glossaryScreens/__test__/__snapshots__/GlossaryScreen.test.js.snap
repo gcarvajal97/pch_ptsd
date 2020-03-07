@@ -22,7 +22,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
   <RCTScrollView>
     <View>
       <View
-        accessibilityLabel="[missing \\"en.glossary.accessibilityLabel\\" translation]"
+        accessibilityHint="Photo of books on a bookshelf"
+        accessibilityLabel="Photo of books on a bookshelf"
         accessible={true}
         style={
           Object {
@@ -2930,7 +2931,7 @@ exports[`GlossaryScreen renders correctly 1`] = `
 </View>
 `;
 
-exports[`GlossaryScreen renders correctly in Spanish 1`] = `
+exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
 <View
   style={
     Object {
@@ -2952,7 +2953,8 @@ exports[`GlossaryScreen renders correctly in Spanish 1`] = `
   <RCTScrollView>
     <View>
       <View
-        accessibilityLabel="[missing \\"es.glossary.accessibilityLabel\\" translation]"
+        accessibilityHint="Foto de libros en una estantería"
+        accessibilityLabel="Foto de libros en una estantería"
         accessible={true}
         style={
           Object {
