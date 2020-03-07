@@ -25,13 +25,4 @@ describe("YoureNotAlone", () => {
             const tree = renderer.create(<YoureNotAlone />).toJSON();
             expect(tree).toMatchSnapshot();}
         )
-
-        it('video fails to load', () => {
-            wrapper = shallow(<YoureNotAlone />);
-            wrapper.find(Video).get(0).src = "src.jnk";
-            let onError = jest.fn();
-            wrapper.unmount();
-            wrapper.render();
-            expect(Video.onError).toHaveBeenCalled();
-        })
 })

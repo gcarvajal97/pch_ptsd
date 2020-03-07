@@ -27,7 +27,6 @@ class ReactionsToInjury extends Component {
                     volume={1.0}
                     resizeMode={Video.RESIZE_MODE_COVER}
                     shouldPlay
-                    onError={()=>{return 'Video Failed to Load'}}
                     useNativeControls
                     style={{ 
                         height: 204, 
