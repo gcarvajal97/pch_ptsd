@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import {Button, Platform, ScrollView, StyleSheet, View} from "react-native";
 import NavigationService from "../../components/NavigationService";
-import translate from "../../components/translateService";
+import translate, { getLocale } from "../../components/translateService";
 import ResourceScreenCard from "../resourceScreens/ResourceScreenCard";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import Resources from "./Resources";
 
 class ResourceScreen extends Component {
+    marginLeft =
+        getLocale().startsWith("es") && Platform.OS === "android"
+            ? translate("resources.back").length + 22
+            : 0
     static navigationOptions = {
         headerTitle: translate("resources.resources"),
         headerTitleContainerStyle: {
-            marginLeft:
-                Platform.OS === "android" &&
-                translate("resources.back").length > 4
-                    ? translate("resources.back").length + 22
-                    : 0
+            marginLeft: this.marginLeft
         },
         headerLeftContainerStyle: {
             marginLeft: 5

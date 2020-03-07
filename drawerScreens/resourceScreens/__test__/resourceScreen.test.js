@@ -1,18 +1,23 @@
 import React from 'react';
-import resourceScreen from '../resourceScreen';
+import ResourceScreen from '../ResourceScreen';
+import NavigationService from "../../../components/NavigationService";
 import renderer from 'react-test-renderer';
+import { Platform } from "react-native";
 import Enzyme, { shallow, configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
 import i18n from "i18n-js";
+import Adapter from 'enzyme-adapter-react-16';
 
-configure({ adapter: new Adapter() });
+Enzyme.configure({ adapter: new Adapter() })
 
-describe("resourceScreen", () => {
-    
+jest.mock("../../../components/NavigationService.js");
+
+describe("ResourceScreen", () => {
+
     let wrapper;
 
     beforeEach(() => {
         i18n.local = "en";
+        Platform.OS = "ios";
     });
 
     it('renders correctly', () => {
@@ -20,10 +25,22 @@ describe("resourceScreen", () => {
         expect(tree).toMatchSnapshot();
     });
 
-    it('renders correctly in Spanish', () => {
-        i18n.locale = 'es'
-        const tree = renderer.create(<resourceScreen />).toJSON();
+    it("renders correctly in Spanish on Android", () => {
+        i18n.locale = "es";
+        Platform.OS = "android";
+        const tree = renderer.create(<ResourceScreen />).toJSON();
         expect(tree).toMatchSnapshot();
     });
 
+    it("renders correctly in Spanish on Android", () => {
+        i18n.locale = "en";
+        Platform.OS = "ios";
+        const tree = renderer.create(<ResourceScreen />).toJSON();
+        expect(tree).toMatchSnapshot();
+    });
+
+    it("calls the navigation service on back press", () => {
+        ResourceScreen.navigationOptions.headerLeft.props.onPress();
+        expect(NavigationService.navigateDrawer).toHaveBeenCalledWith("Home");
+    });
 });
