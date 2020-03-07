@@ -39,7 +39,9 @@
     },
     "glossary": {
         "back": "BACK",
+        "backHint": "Go back to previous page",
         "glossary": "Glossary",
+        "accessibilityLabel": "Photo of books on a bookshelf",
         "description": "Find word definitions by category.",
         "accordion": [
             {
@@ -906,7 +908,8 @@
         "accessibilityLabelSub": "Click here to submit your results"
     },
     "quizResults": {
-        "noAnswers": "Oops! Looks like you forgot to select any answers.",
+        "header": "Take the Quiz",
+        "noAnswers": "It doesn't appear that your child is experiencing any symptoms. If you have concerns, please contact your child's provider.",
         "whyHappens": "Why It Happens: ",
         "isProblem": "Is This a Problem?: ",
         "q1title": "Thinks a lot about what happened to them",
@@ -994,6 +997,7 @@
     },
     "resources": {
         "back": "BACK",
+        "backHint": "Go back to previous page",
         "resources": "Resources",
         "description": "Find additional resources for you and your child.",
         "accessibilityHint": "Photo of multi-layered pyramid.",

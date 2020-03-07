@@ -19,6 +19,7 @@ export default class LearnMoreCard extends Component {
                 {translate('mainScreen.learnCaption')}
             </Text>
             <CardButton onPress={()=>NavigationService.navigate('LearnMore')}
+                testID='LearnMoreButton'
                 buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
                 title={translate('mainScreen.learnButton')} 
                 accessible

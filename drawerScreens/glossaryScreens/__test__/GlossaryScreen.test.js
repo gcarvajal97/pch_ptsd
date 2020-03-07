@@ -1,29 +1,32 @@
-import React from 'react';
-import GlossaryScreen from '../GlossaryScreen';
-import renderer from 'react-test-renderer';
-import Enzyme, { shallow, configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
 import i18n from "i18n-js";
+import React from "react";
+import renderer from "react-test-renderer";
+import NavigationService from "../../../components/NavigationService";
+import GlossaryScreen from "../GlossaryScreen";
+import { Platform } from "react-native";
 
-configure({ adapter: new Adapter() });
+jest.mock("../../../components/NavigationService.js");
 
 describe("GlossaryScreen", () => {
-    
-    let wrapper;
-
     beforeEach(() => {
-        i18n.local = "en";
+        i18n.locale = "en";
+        Platform.OS = "ios";
     });
 
-    it('renders correctly', () => {
+    it("renders correctly", () => {
         const tree = renderer.create(<GlossaryScreen />).toJSON();
         expect(tree).toMatchSnapshot();
     });
 
-    it('renders correctly in Spanish', () => {
-        i18n.locale = 'es'
+    it("renders correctly in Spanish on Android", () => {
+        i18n.locale = "es";
+        Platform.OS = "android";
         const tree = renderer.create(<GlossaryScreen />).toJSON();
         expect(tree).toMatchSnapshot();
     });
 
+    it("calls the navigation service on back press", () => {
+        GlossaryScreen.navigationOptions.headerLeft.props.onPress();
+        expect(NavigationService.navigateDrawer).toHaveBeenCalledWith("Home");
+    });
 });
