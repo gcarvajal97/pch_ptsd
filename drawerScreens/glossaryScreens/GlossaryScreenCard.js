@@ -12,6 +12,7 @@ export default class GlossaryScreenCard extends Component {
                 image={require("../../assets/GlossaryScreen.jpg")}
                 accessible
                 accessibilityLabel={translate("glossary.accessibilityLabel")}
+                accessibilityHint={translate("glossary.accessibilityLabel")}
             >
                 <Text
                     style={{

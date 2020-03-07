@@ -8,7 +8,7 @@ export default class QuizResults extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: 'Take the Quiz'
+        headerTitle: translate('quizResults.header')
     }
 
     render() {
@@ -42,7 +42,9 @@ export default class QuizResults extends Component {
                                     return <Card key={key} 
                                     title={translate('quizResults.q' + key + 'title')} 
                                     titleStyle={{color:'#2089DC'}}
-                                    accessible>
+                                    accessible
+                                    
+                                    >
                                         <Text style={styles.paragraphBold}> {translate('quizResults.whyHappens')} </Text>
                                         <Text style={styles.paragraph}> {translate('quizResults.q' + key + 'body1')} </Text>
                                         <Text style={styles.paragraphBold}> {translate('quizResults.isProblem')} </Text>
