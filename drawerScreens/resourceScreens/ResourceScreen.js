@@ -8,7 +8,7 @@ import Resources from "./Resources";
 
 class ResourceScreen extends Component {
     marginLeft =
-        getLocale().startsWith("es") && Platform.OS === "android" && translate("resources.back").length > 4
+        getLocale().startsWith("es") && Platform.OS === "android"
             ? translate("resources.back").length + 22
             : 0
     static navigationOptions = {
@@ -38,7 +38,6 @@ class ResourceScreen extends Component {
                     <PchPtsdAccordion
                         sections={translate("resources.accordion")}
                         contentRenderFunction={Resources}
-                        // onError={()=>{return 'Accordion failed to load!'}}
                     />
                 </ScrollView>
             </View>

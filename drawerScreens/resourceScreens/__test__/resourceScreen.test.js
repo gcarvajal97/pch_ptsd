@@ -32,19 +32,15 @@ describe("ResourceScreen", () => {
         expect(tree).toMatchSnapshot();
     });
 
+    it("renders correctly in Spanish on Android", () => {
+        i18n.locale = "en";
+        Platform.OS = "ios";
+        const tree = renderer.create(<ResourceScreen />).toJSON();
+        expect(tree).toMatchSnapshot();
+    });
+
     it("calls the navigation service on back press", () => {
         ResourceScreen.navigationOptions.headerLeft.props.onPress();
         expect(NavigationService.navigateDrawer).toHaveBeenCalledWith("Home");
     });
-
-    /*
-    it('accordion fails to load', () => {
-        wrapper = shallow(<ResourceScreen />);
-        wrapper.find('PchPtsdAccordion').first().src = "src.jnk";
-        let onError = jest.fn();
-        wrapper.unmount();
-        wrapper.render();
-        expect(PchPtsdAccordion.onError).toHaveBeenCalled();
-    })
-    */
 });
