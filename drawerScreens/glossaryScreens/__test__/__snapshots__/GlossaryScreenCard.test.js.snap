@@ -2,7 +2,8 @@
 
 exports[`renders correctly 1`] = `
 <View
-  accessibilityLabel="[missing \\"en.glossary.accessibilityLabel\\" translation]"
+  accessibilityHint="Photo of books on a bookshelf"
+  accessibilityLabel="Photo of books on a bookshelf"
   accessible={true}
   style={
     Object {
