@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         margin: 10,
-        backgroundColor: 'white',
+        backgroundColor: '#FFFFFF',
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     title: {
-        backgroundColor: '#2089DC', 
+        backgroundColor: '#00A9CE', 
         color: 'white', 
         fontWeight: 'bold', 
         fontSize: 22, 
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch'
     },
     subTitle: {
-        backgroundColor: '#2089DC', 
+        backgroundColor: '#200A9CE', 
         color: 'white', 
         alignSelf: 'stretch', 
         paddingLeft: 15, 
