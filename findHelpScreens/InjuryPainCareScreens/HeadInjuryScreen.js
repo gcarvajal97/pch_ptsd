@@ -12,10 +12,15 @@ export default class HeadInjuryScreen extends Component {
         <Text style={styles.paragraph}>{translate('injuryPainCare.Ch5_p3')}</Text>
 
         <Text style={styles.paragraph}>{translate('injuryPainCare.Ch5_p4_part1')}{"\ "}
-        <Text style={styles.link} onPress={()=> Linking.openURL('https://www.chop.edu/centers-programs/concussion-care-minds-matter')}
+        <Text 
+          testID='hyperlink'
+          style={styles.link} 
+          onPress={()=> Linking.openURL('https://www.chop.edu/centers-programs/concussion-care-minds-matter')}
           accessible
           accessibilityLabel={translate('injuryPainCare.Ch5_accessibilityLabel')}
-          accessibilityHint={translate('injuryPainCare.Ch5_accessibilityHint')}>{translate('injuryPainCare.Ch5_click_here')}</Text>{translate('injuryPainCare.Ch5_p4_part2')}</Text>
+          accessibilityHint={translate('injuryPainCare.Ch5_accessibilityHint')}>
+          {translate('injuryPainCare.Ch5_click_here')}
+        </Text>{translate('injuryPainCare.Ch5_p4_part2')}</Text>
       </View>
     );
   }

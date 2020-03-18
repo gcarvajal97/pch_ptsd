@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resources renders error message if resources are missing 1`] = `
+<View>
+  <Text>
+    Error: Resources content is in valid!
+  </Text>
+</View>
+`;
+
+exports[`Resources renders error message if resources are not defined 1`] = `
+<View>
+  <Text>
+    Error: Resources content is in valid!
+  </Text>
+</View>
+`;
+
+exports[`Resources renders one resource 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessibilityHint="An accessiblity hint"
+      accessibilityLabel="An accessibility label"
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Resource Title
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      
+
+      Resource description
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Resources renders properly in english 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+          "textDecorationLine": "underline",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      
+
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Resources renders properly in spanish 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+          "textDecorationLine": "underline",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      
+
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Resources renders two resources 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessibilityHint="An Accessiblity Hint 1"
+      accessibilityLabel="An Accessibility Label 1"
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Resource Title 1
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      
+
+      Resource Description 1
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessibilityHint="An accessiblity hint 2"
+      accessibilityLabel="An accessibility label 2"
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#2089DC",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Resource Title 2
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      
+
+      Resource Description 2
+    </Text>
+  </View>
+</View>
+`;

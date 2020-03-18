@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Sometimes parents need extra help too.
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    Do you have traumatic stress symptoms that:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Get in the way of getting back to usual activities?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Stop you from enjoying things you used to enjoy?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Seem to be getting worse rather than better?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Have lasted more than a month?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    If so, you may want to seek out a professional who can help you.
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    Do you have traumatic stress symptoms that:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    When looking for a counselor or therapist to help with traumatic stress symptoms, remember to ask questions such as: 
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -Do you have experience working with people after trauma?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -What is your approach to working with this type of problem?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    -What is your success rate?
+  </Text>
+</View>
+`;

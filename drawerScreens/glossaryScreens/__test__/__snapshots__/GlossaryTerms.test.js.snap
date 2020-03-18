@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlossaryTerms should render a glossary term 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+        }
+      }
+    >
+      a term
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      a definition
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`GlossaryTerms should render an error message if glossary terms are not defined 1`] = `
+<View>
+  <Text>
+    Oops, glossary term content is invalid!
+  </Text>
+</View>
+`;
+
+exports[`GlossaryTerms should render an error message if no glossary terms 1`] = `
+<View>
+  <Text>
+    Oops, glossary term content is invalid!
+  </Text>
+</View>
+`;
+
+exports[`GlossaryTerms should render glossary terms 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+        }
+      }
+    >
+      a term
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      a definition
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "marginVertical": 2,
+        }
+      }
+    >
+      another term
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginVertical": 2,
+        }
+      }
+    >
+      another definition
+    </Text>
+  </View>
+</View>
+`;

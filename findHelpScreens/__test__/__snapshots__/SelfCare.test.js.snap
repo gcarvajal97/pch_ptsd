@@ -1,0 +1,1763 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelfCare renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        accessibilityLabel="Photo of mother holding child"
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 0,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <View>
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={1}
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": undefined,
+                      "width": undefined,
+                    },
+                  ]
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 150,
+                      "width": null,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0, 0, 0, 0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "white",
+                        "fontSize": 40,
+                        "fontWeight": "800",
+                        "marginBottom": 8,
+                      }
+                    }
+                    theme={
+                      Object {
+                        "colors": Object {
+                          "disabled": "hsl(208, 8%, 90%)",
+                          "divider": "#bcbbc1",
+                          "error": "#ff190c",
+                          "grey0": "#393e42",
+                          "grey1": "#43484d",
+                          "grey2": "#5e6977",
+                          "grey3": "#86939e",
+                          "grey4": "#bdc6cf",
+                          "grey5": "#e1e8ee",
+                          "greyOutline": "#bbb",
+                          "platform": Object {
+                            "android": Object {
+                              "error": "#f44336",
+                              "primary": "#2196f3",
+                              "secondary": "#9C27B0",
+                              "success": "#4caf50",
+                              "warning": "#ffeb3b",
+                            },
+                            "ios": Object {
+                              "error": "#ff3b30",
+                              "primary": "#007aff",
+                              "secondary": "#5856d6",
+                              "success": "#4cd964",
+                              "warning": "#ffcc00",
+                            },
+                          },
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#8F0CE8",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      }
+                    }
+                  >
+                    Self Care
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                    "marginVertical": -8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Parents need care too.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "alignSelf": "stretch",
+              "color": "#2089DC",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "marginBottom": 2,
+              "marginTop": 3,
+              "paddingLeft": 4,
+              "paddingRight": 1,
+              "textAlign": "left",
+            }
+          }
+        >
+          In addition to all the things you do to help your child, it's very important to take good care of yourself.
+        </Text>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "fontSize": 14,
+              "marginBottom": 4,
+              "marginTop": 0,
+              "paddingHorizontal": 4,
+              "paddingVertical": 0,
+            }
+          }
+        >
+          It is harder to help your child if you are feeling really worried, upset, or overwhelmed.
+        </Text>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "fontSize": 14,
+              "marginBottom": 4,
+              "marginTop": 0,
+              "paddingHorizontal": 4,
+              "paddingVertical": 0,
+            }
+          }
+        >
+          Other parents have said: 
+        </Text>
+        <Text>
+          "I can't stop thinking about what happened."
+        </Text>
+        <Text>
+          "I get upset when something reminds me of it."
+        </Text>
+        <Text>
+          "I worry a lot more now about my child being safe."
+        </Text>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "fontSize": 14,
+              "marginBottom": 4,
+              "marginTop": 0,
+              "paddingHorizontal": 4,
+              "paddingVertical": 0,
+            }
+          }
+        >
+          This section has information on some of the reactions you may notice in yourself: 
+        </Text>
+      </View>
+      <View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                 
+                [+]
+                 
+                Re-Experiencing: Reliving what happened
+                 
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I think a lot about what happened to my child."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Thinking and talking about what happened, especially in the first few days and weeks, is part of how we help ourselves recover from a scary experience or traumatic event.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Do thoughts about the traumatic event often pop into your mind even when you don't want them to? Do the thoughts bother or upset you?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I have had bad dreams or nightmares since the injury."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    In a stressful time, it's not unusual to have a few bad dreams.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Are the nightmares interfering with getting a good night's sleep?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I get upset or have physical symptoms (headache, stomachache, heart beating fast) at reminders of what happened."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    When something scary happens, we learn to treat things connected to it as if they were danger signals. Sights, sounds, and even smells can be reminders.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Do these feelings happen nearly every day? Do they make it hard for you to relax, or to concentrate on things you have to do at home or at work?
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                 
+                [+]
+                 
+                Avoidance: Staying away from reminders
+                 
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I don't want to talk or think about what happened."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Everyone needs to take a break sometimes from thinking about or talking about a scary experience or traumatic event.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Do you never want to think or talk about it with anyone, or does talking about it make you feel very upset?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I want to stay away from people, places, or things that are reminders of what happened."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    After something scary happens, reminders of what happened can make us feel very anxious, and we might start to avoid those things.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is avoiding reminders stopping you from doing things you think you should be able to do, or from enjoying activities even if you force yourself to do them?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I have lost interest in activities I usually enjoy, since the injury."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    One way we cope with overwhelming scary experiences is to "shut down" our emotions for a while.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Are there lots of thing you used to enjoy that you just don't feel like dong now? Are you feeling emotionally "numb" much of the time?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I just don't feel like being with people, since the injury."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    One way we cope with overwhelming scary experiences is to "shut down" our emotions and not feel close to other people for a while.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Are you having a really hard time feeling relaxed and close to friends and family you usually trust and like to spend time with?
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                 
+                [+]
+                 
+                Hyper-Arousal: Feeling anxious or jumpy
+                 
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I find myself worrying a lot that something else bad will happen - or worry a lot about my child being safe."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Being on the lookout for danger makes sense after something scary has happened. It's how we learn to keep ourselves safe from things that are truly dangerous.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Do you feel this way so strongly, or so much of the time that it is getting in the way of you getting back to normal activities? Does your worry make it harder for you to help your child get back into normal activities?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I have noticed myself being over-protective of my child since the injury."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    All parents want to keep their children safe. An injury can be a harsh reminder that we can't protect our children from every danger 100% of the time. It's normal to feel like tightening up the controls afterwards, and some things may make sense (e.g. paying more attention to safety rules).
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Do you feel this way so strongly, or so much of the time, that you can't let your child get back to normal activities appropriate for their age?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I startle more easily." (e.g., jump at a sudden noise)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    A frightening experience can trigger an exaggerated physical startle response that takes some time to go away.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Are you so jumpy that it's really hard to relax? Is it affecting your sleep or ability to concentrate?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I have been irritable or get angry more easily than before."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Stress and fatigue can lead to feeling irritable. And if you're feeling jumpy or nervous it may be harder to deal with frustrations.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is irritability making it hard for you to get along with family or friends? Is this a big change in how you usually deal with stress or frustrations?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I have trouble concentrating."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    When we are under a lot of stress, feel really jumpy or on guard, or have distressing thoughts popping into mind, it can be hard to pay attention at times.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is difficulty concentrating getting in the way of being able to do your work, make decisions, or take care of your family?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    "I have had trouble sleeping."
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Why it happens:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Sleep problems can be a temporary reaction to disruptions in your life. Feeling jumpy or on guard, or having lots of worried thoughts running through your mind, can make it hard to relax into sleep.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Is this a problem?:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Are you having a hard time falling asleep or staying asleep many nights? Is this interfering with feeling rested and able to function well during the day?
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                 
+                [+]
+                 
+                Self-Care for Parents
+                 
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Taking care of yourself: Re-experiencing
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Talk with friends or family about your own experiences and feelings about your child's injury.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Help yourself deal with overwhelming or troubling thoughts by learning how to "take a break" from them at times - do something fun, spend time with friends, get busy with other activities.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -If talking with your child about their reactions makes you feel upset or worried, it's especially important to find someone who can be a listening ear for you.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Taking care of yourself: Avoidance
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Notice when you feel worried or nervous - are there situations in which this seems to happen more?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -If avoiding reminders is keeping you from doing important things, enlist a friend or family member to help you - ask them to encourage you to keep doing those things and congratulate you when you do!
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Be especially careful that any new worries you might have don't stop you from letting your child do things that are safe and appropriate for their age. Use a friend or family member as a "reality check" for yourself.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Try to make yourself do just one or two activities or spend time with friends, even if you don't really feel like it at first. Sometimes "just doing it" can be the first step to feeling a little better.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Taking care of yourself: Hyper-Arousal
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Remember that feeling a bit jumpy or worried is a natural reaction to going through something scary, and that it will get better with time.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Even if you can only get a short break from caring for your child, home, work, use it to get some exercise and do things that relax you -- go for a walk, relax with a funny movie or a good book.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Try to keep some daily routines the same.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Try to get to bed at a regular time, and to make the hour before bed a relaxing time.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Be especially careful not to increase your smoking or alcohol use to deal with stress.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Getting extra help for yourself
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    -Think about getting some extra help if your own feelings and reactions after your child's injury are bothering you, or are making it harder for you to help your child get back into normal activities.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`SelfCare should render active accordion content 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  content
+</withAnimatable(View)>
+`;
+
+exports[`SelfCare should render an active accordion header 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "padding": 10,
+      },
+      Object {
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+     
+    [-]
+     
+    Re-Experiencing: Reliving what happened
+     
+  </Text>
+</withAnimatable(View)>
+`;
+
+exports[`SelfCare should render an inactive accordion header 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "padding": 10,
+      },
+      Object {
+        "backgroundColor": "rgba(245,252,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+     
+    [+]
+     
+    Re-Experiencing: Reliving what happened
+     
+  </Text>
+</withAnimatable(View)>
+`;
+
+exports[`SelfCare should render inactive accordion content 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "rgba(245,252,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  content
+</withAnimatable(View)>
+`;

@@ -39,7 +39,9 @@
     },
     "glossary": {
         "back": "REGRESO",
+        "backHint": "Volver a la página anterior",
         "glossary": "Glosario",
+        "accessibilityLabel": "Foto de libros en una estantería",
         "description": "Encuentra definiciones de palabras por categoría",
         "accordion": [
             {
@@ -789,10 +791,11 @@
         "backButton": "REGRESO",
         "pediatricPTSD": "Pediátrico TEPT",
         "more": "MÁS",
+        "moreHint": "Vaya a las pantallas de glosario y recursos.",
         "learnButton": "APRENDE MÁS",
         "learnTitle": "Aprenda Más Sobre Lesiones y Traumas",
         "learnCaption": "Obtenga información actualizada y orientación experta para ayudarlo a usted y a su hijo lesionado.",
-        "learnAcessLabel": "Foto de un médico sosteniendo un estetoscopio con los brazos cruzados sobre el pecho.",
+        "learnAccessLabel": "Foto de un médico sosteniendo un estetoscopio con los brazos cruzados sobre el pecho.",
         "learnAccessHint": "Navega a la pantalla para obtener más información.",
         "quizButton": "RESPONDER AL CUESTIONARIO",
         "quizTitle": "Califique las reacciones de su hijo",
@@ -905,7 +908,8 @@
         "accessibilityLabelSub": "Haga clic aquí para enviar sus resultados."
     },
     "quizResults": {
-        "noAnswers": "¡Uy! Parece que olvidaste seleccionar cualquier respuesta.",
+        "header": "Haz la prueba",
+        "noAnswers": "No parece que su hijo esté experimentando ningún síntoma. Si tiene inquietudes, comuníquese con el proveedor de su hijo.",
         "whyHappens": "Por qué sucede: ",
         "isProblem": "¿Es esto un problema?: ",
         "q1title": "Usted (padre) se estresa o preocupa a sí mismo",
@@ -993,6 +997,7 @@
     },
     "resources": {
         "back": "REGRESO",
+        "backHint": "Volver a la página anterior",
         "resources": "Recursos",
         "description": "Encuentre recursos adicionales para ayudarlo a usted y a su hijo.",
         "accessibilityHint": "Una foto de una pirámide en capas.",

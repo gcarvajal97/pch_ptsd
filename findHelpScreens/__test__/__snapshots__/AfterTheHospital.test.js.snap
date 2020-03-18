@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    After your child is discharged from the Emergency Department or Hospital, she will need to follow up with her doctor and possibly other healthcare professionals to make sure that she is healing well. It would be helpful to go through the rest of this website before going to the doctor. This site will allow you to rate your child's reactions and create a report to share with your doctor.
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    Working with the Healthcare Team AFTER the Hospital
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    1. Make sure to keep all of your appointments even if your child is feeling better.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    2. Many parents like to keep all of their child's injury information together in a binder or folder. In the front of the binder, keep a sheet with your child's diagnosis and all of the medicines that your child is taking. Keep a calendar with all of the appointments.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    3. Keep a pad of paper around the house to write down questions for your doctor or other healthcare professional as you think of them. Encourage your child to keep track of her questions, too.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    4. You are your child's most important advocate – ask how you can get involved in your child's care and when you can make decisions about treatment. Let your health care team know if your child is in pain or is having other reactions that concern you or your child.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    5. Make sure that you have a good phone number to call if you have questions. Also, ask what you should look for and when to call.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    6. Ask for a summary of every visit to take with you, if possible.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    7. If you find that you are missing a lot of work, you might want to look into obtaining Family Medical Leave. In 1993, the federal government passed a law that allows families to take some time to care for family members without fear of losing their job.
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    Tips for helping your child at follow-up visits
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    1. Tell your child about the appointment a few days in advance. Explain the reason for the visit, using words your child can understand. Answer questions simply and honestly.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    2. Find out, in advance, if the visit will involve any painful or scary procedures. If so, talk with your physician about how to prepare for these procedures and if any medicine should be given, in advance.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    3. Let your child know you'll be there throughout the entire appointment unless your child wants some time to talk with the physician or specialist alone. Encourage your child's physician to ask your child questions directly. Encourage your child to ask the doctors and nurses questions.
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "color": "#2089DC",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 3,
+        "marginTop": 6,
+        "textAlign": "left",
+      }
+    }
+  >
+    At the Follow-up Visit: Resources for Families
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    Most hospitals have staff who are experienced with helping other parents and caregivers in your situation. If you are upset, have questions about how to help your child, about financial or insurance issues, or just need to talk, please seek out someone at the hospital who is available to assist you and your family. This may be a:
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginLeft": 10,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Social Worker
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginLeft": 10,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Chaplain
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginLeft": 10,
+        "marginVertical": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - Or a mental health professional, such as a psychologist or psychiatrist come back to this website for more information on ways parents can help their kids.
+  </Text>
+</View>
+`;

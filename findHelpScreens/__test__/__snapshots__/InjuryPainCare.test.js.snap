@@ -1,0 +1,3036 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InjuryPainCare renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "elevation": 4,
+      "flex": 1,
+      "margin": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.23,
+      "shadowRadius": 2.62,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityHint="Photo of a young girl walking with crutches and a nurse assisting her."
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 8,
+            "marginBottom": 0,
+            "padding": 0,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <View>
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={1}
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": undefined,
+                      "width": undefined,
+                    },
+                  ]
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 150,
+                      "width": null,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0, 0, 0, 0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "white",
+                        "fontSize": 40,
+                        "fontWeight": "800",
+                        "marginBottom": 8,
+                      }
+                    }
+                    theme={
+                      Object {
+                        "colors": Object {
+                          "disabled": "hsl(208, 8%, 90%)",
+                          "divider": "#bcbbc1",
+                          "error": "#ff190c",
+                          "grey0": "#393e42",
+                          "grey1": "#43484d",
+                          "grey2": "#5e6977",
+                          "grey3": "#86939e",
+                          "grey4": "#bdc6cf",
+                          "grey5": "#e1e8ee",
+                          "greyOutline": "#bbb",
+                          "platform": Object {
+                            "android": Object {
+                              "error": "#f44336",
+                              "primary": "#2196f3",
+                              "secondary": "#9C27B0",
+                              "success": "#4caf50",
+                              "warning": "#ffeb3b",
+                            },
+                            "ios": Object {
+                              "error": "#ff3b30",
+                              "primary": "#007aff",
+                              "secondary": "#5856d6",
+                              "success": "#4cd964",
+                              "warning": "#ffcc00",
+                            },
+                          },
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#8F0CE8",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      }
+                    }
+                  >
+                    Injury and Pain
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                    "margin": -6,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Help you and your child overcome an injury.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#2089DC",
+            "fontSize": 22,
+            "fontWeight": "bold",
+            "marginBottom": 2,
+            "marginTop": 3,
+            "paddingLeft": 4,
+            "paddingRight": 1,
+            "textAlign": "left",
+          }
+        }
+      >
+        Injury and Pain Care
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginBottom": 4,
+            "marginTop": 0,
+            "paddingHorizontal": 4,
+            "paddingVertical": 0,
+          }
+        }
+      >
+        This section of the website offers some general information about common injuries and tips for home management, as well as helpful hints for pain management and injury prevention.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginBottom": 4,
+            "marginTop": 0,
+            "paddingHorizontal": 4,
+            "paddingVertical": 0,
+          }
+        }
+      >
+        Remember, your healthcare provider is the best source for information regarding your child's injury. If you have specific questions or concerns about your child's injury or treatment, please make sure to talk with your healthcare provider. If any information in this website is different from what your healthcare provider recommends, follow your healthcare provider's advice.
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 14,
+            "marginBottom": 4,
+            "marginTop": 0,
+            "paddingHorizontal": 4,
+            "paddingVertical": 0,
+          }
+        }
+      >
+        Full recovery goes beyond physical healing - learn more about your child's emotional recovery after an injury, and how you can help.
+      </Text>
+      <View
+        accessible={true}
+      >
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                accessibilityHint="Injury Prevention Tips"
+                accessible={true}
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                Injury Prevention Tips
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Each year, one in every four children is treated by a doctor because of an injury such as a fall from a bicycle or an animal bite. Some of these injuries are minor, but many of them are very serious.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    You can’t always stop your children from getting bumps and bruises but you can reduce the chances that they’ll be seriously injured by taking safety precautions such as always buckling up in motor vehicles.
+                    
+
+                     
+                    <Text
+                      accessibilityHint="Navigates to a website about safety tips"
+                      accessibilityLabel="Click here for safety tips"
+                      accessible={true}
+                      onPress={[Function]}
+                      style={
+                        Object {
+                          "color": "#2089DC",
+                          "fontSize": 14,
+                          "textDecorationLine": "underline",
+                        }
+                      }
+                      testID="hyperlink"
+                    >
+                      Click here
+                    </Text>
+                     
+                    to find more safety tips on topics such as child passenger safety, bicycle safety, dog bites, falls, pedestrian safety, fire safety, water safety and more.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                accessibilityHint="Injury Prevention Tips"
+                accessible={true}
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                Abdominal Trauma
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Abdominal trauma involves injury to the belly between the chest and the hips and the internal organs there – the most common injuries to organs in the belly include the small intestine, liver, spleen, pancreas, kidneys, and bladder.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Follow instructions provided by your healthcare provider (doctor or nurse practitioner). It is important that your child follow all of the special instructions given by your healthcare provider to decrease any risk of bleeding inside.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Make sure to ask your healthcare provider:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - How long should my child only have minimal activity or 'house arrest'? This will generally depend on the grade of injury to your child's organ or how severe it was. Your doctor will tell you what minimal activity means. It could include activities such as quiet play, reading, coloring, and watching TV. It probably means that your child will have to avoid sports for a period of time.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - When can my child return to school?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - When can my child start gym? contact sports? biking? or rough play?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - This will also depend on the grade of injury to your child's organ or how severe it was.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What is the best number to call for emergencies during the week? On weekends?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    When to call your healthcare provider:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Ask your healthcare provider for specific signs and symptoms that should alert you to call them right away. They may include the following: Signs of intra-abdominal bleeding (bleeding in the belly) such as:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Looking pale
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Lethargy (hard to keep awake)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Blood in urine, stools (bowel movement) or vomitus (throw up)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Fever (temperature greater than 101 degrees Fahrenheit or 38.5 degrees Celsius)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Increased pain
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Vomiting (or throwing up)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Any other concerns that you may have.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                accessibilityHint="Injury Prevention Tips"
+                accessible={true}
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                Taking Care of Your Child's Cast
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    A cast holds a broken bone in place while it heals. Casts also help to prevent or decrease muscle contractions and can help limit movement, especially after surgery.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    The outside of the cast is made from one of two types of casting materials:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    	
+                    - Plaster (white in color)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    	
+                    - Fiberglass (comes in a variety of colors)
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Cotton and other synthetic materials are used to line the inside of the cast to make it soft and to provide padding around bony areas, such as the wrist or elbow.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Follow instructions provided by your healthcare provider (doctor or nurse practitioner) It is important that your child follow all of the special instructions given by your healthcare provider to make sure that the broken bone heals well.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Some things that your child's healthcare provider might suggest:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Keep the cast clean and dry. Do not get it wet in the shower or tub or swimming pool. Ask your doctor how you can buy a protective sleeve if you think your child might be somewhere where his cast might get wet. Check for cracks and breaks in the cast.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Check for rough edges. These rough edges can be padded to protect the skin from scratches.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Do not scratch the skin under the cast by inserting objects inside the cast – this can cut the skin.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If your child complains of itching, use a hairdryer placed on a cool setting to blow air under the cast. Never blow warm or hot air into the cast.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Do not put powders or lotions inside the cast.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Cover the cast while your child is eating to prevent food spills and crumbs from entering the cast.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Prevent small toys or objects from being put inside the cast.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Elevate the cast above the level of the heart to decrease swelling.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Encourage your child to move his or her fingers or toes to promote circulation.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Older children with body casts may need to use a bedpan or urinal in order to go to the bathroom.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Tips to keep body casts clean and dry and prevent skin irritation around the genital area include the following:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Use a diaper or sanitary napkin around the genital area to prevent leakage or splashing urine.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Place toilet paper inside the bedpan to prevent urine from splashing onto the cast or bed.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Keep the genital area as clean and dry as possible to prevent skin irritation.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Bathing and Hair Washing
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child may need to have sponge baths until the cast is removed.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - How to wash your child's hair: Lay your child across a bed a place a bucket on the floor to catch the water as you shampoo. You can also get 'no-rinse' shampoo at the drug store.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Make sure to ask your healthcare provider:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - How long will my child need to wear the cast?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What are the limits to my child's activity while he wears the cast?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What are the limits on my child's activity once you take off the cast?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - When can my child return to school?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - When can my child return to gym class? to contact sports? to biking? or to rough play?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Will my child need physical therapy?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Will this injury affect my child's growth?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    When to call your healthcare provider:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Ask your healthcare provider for specific signs and symptoms that should alert you to call them right away. They may include the following:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child has increasing pain and pain medicine recommended or prescribed by your healthcare provider is not helping.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - You see a change in the cast; cracking, softening, drainage from the inside.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - You smell a bad odor coming from the cast.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child's fingers or toes are cold, blue/gray or swollen.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child feels numbness or tingling in the fingers or toes.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child cannot move his/her fingers or toes.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - The cast is slipping off.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - There is increased swelling above or below the cast.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - The cast feels very tight.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If you have any other concerns.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                accessibilityHint="Injury Prevention Tips"
+                accessible={true}
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                Using Crutches
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    For hip, leg, knee, ankle, or foot injuries, your healthcare provider may order crutches to decrease pain, speed recovery, and help with walking. Make sure that a trained healthcare professional fits your child for child-sized crutches and teaches your child how to use them.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Ask your healthcare provider for specific signs and symptoms that should alert you to call them right away. They may include the following:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Follow instructions provided by your healthcare provider (doctor or nurse practitioner) It is important that your child follow all of the special instructions given by your healthcare provider to make sure that your child heals completely. If you have any questions or concerns about the fit of your child's crutches or what should or should not do while on crutches, please contact your healthcare provider.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    General Tips:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Remind your child that crutches are not toys or weapons.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Even if your child may be feeling better, make sure to use the crutches as long as your healthcare provider told you to use them. If you start putting weight on the leg too soon, you might cause a new injury or increase the recovery time.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Precautions - Your Child Should:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Be very careful on slick or wet surfaces (like in the kitchen and the bathroom).
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Be careful of throw rugs that can slip. They should be removed.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Never hop around holding on to furniture; it may slide or fall.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Keep the crutches nearby so they are always in reach.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Wear low-heeled shoes (like sneakers) that will not slip off.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Be careful of ramps or slopes. It is harder to walk with crutches on ramps or slopes.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Do not remove any parts of the crutches, including the rubber tips.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If they feel uncomfortable on crutches, ask someone to help. For example, someone can carry their books.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Helpful Hints
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - A bedside toilet may be used.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Ask teachers in school to let your child out of class a little early to avoid crowds on the stairs.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Keep the 'bad' leg up on a stool while sitting.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Carry schoolbooks in a backpack to leave both hands free and ask a friend to carry it for you, if possible.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Avoid leaning on the underarm pieces.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If your child's school is more than two stories tall, ask if your child can have a key to the elevator.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Make sure to ask your healthcare provider:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - How long will my child need to be on crutches?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Can my child bear any weight on his injured leg?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What are the limits to my child's activity while he is on crutches?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What are the limits on my child's activity once he is off of his crutches?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - When can my child return to school?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - When can my child return to gym class? to contact sports? to biking? or to rough play?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Will my child need physical therapy?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Will this injury affect my child's growth?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    When to call your healthcare provider:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child has increasing pain and pain medicine recommended or prescribed by your healthcare provider is not helping.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child feels numbness or tingling in his arms.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If you have any other concerns.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                accessibilityHint="Injury Prevention Tips"
+                accessible={true}
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                Head Injury / Concussion
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Head injury is a broad term that describes injuries to the scalp, skull, brain, and tissue and blood vessels in the child’s head. Some head injuries are also called brain injury, or traumatic brain injury (TBI), depending on the extent of the head trauma. Concussion is the most common type of TBI.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    A concussion is caused by a blow or jolt to the head or body that causes the brain to shake. The shaking can cause the brain not to work normally and can result in serious side effects. If your child hits her head, be aware of the concussion symptoms to look for, which are commonly physical (such as a headache, nausea, or dizziness), sleep-related, difficulty concentrating/remembering, or involve mood disruption.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Initial treatment for a concussion is rest, both mental and physical, which allows the brain time to heal. Every child’s injury and recovery is unique, but with guidance from a doctor, your child can slowly return to school and to play following a concussion.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    For comprehensive information about concussion, including how a concussion is diagnosed, prevention strategies, returning to school and play, and support resources, visit
+                     
+                    <Text
+                      accessibilityHint="Navigates to a website about concussions"
+                      accessibilityLabel="Click here for concussion tips"
+                      accessible={true}
+                      onPress={[Function]}
+                      style={
+                        Object {
+                          "color": "#2089DC",
+                          "fontSize": 14,
+                          "textDecorationLine": "underline",
+                        }
+                      }
+                      testID="hyperlink"
+                    >
+                      Concussion Care for Kids: Minds Matter
+                    </Text>
+                    , a website developed by an interdisciplinary team of concussion experts at The Children's Hospital of Philadelphia.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgba(245,252,255,1)",
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                accessibilityHint="Injury Prevention Tips"
+                accessible={true}
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                [+]
+                 
+                Recognizing and Managing Pain
+              </Text>
+            </View>
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(245,252,255,1)",
+                    "padding": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Nearly everyone has pain after an injury. For most children, our research has shown that the pain will get a lot better during the first week after getting care for an injury. If the pain gets worse, make sure to talk to your child's doctor.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Follow instructions provided by your healthcare provider It is important that your child follow all of the special instructions given by your healthcare provider and takes pain medicines as your healthcare provider told you to use them. The following are general suggestions about pain. 
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    1. How to recognize pain in your school-aged child and teen:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    School-aged children may display different behaviors when they are in pain or uncomfortable. Your child may:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Have difficulty sleeping
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Not eat or drink as much as usual
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Cry or moan
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Lose interest in play
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Become less active, lie quietly, or curl up in bed
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Be restless
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Complain of pain
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Hold or protect the area of discomfort
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Become 'whiny' or 'cranky'
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Teens may display different behaviors when they are in pain or uncomfortable. Remember that teen athletes may not want to admit to pain if it keeps them out of sports. Your teen may:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Become quiet
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Have difficulty sleeping
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Not eat or drink as much as usual
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Lose interest in family and friends
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Become less active, lie quietly, or curl up in bed
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Become irritable and angry
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Complain of pain
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    2. How to help manage your child's pain:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Make sure to use the pain medicines in the doses and at the times that your healthcare professional recommended. Keep a pain diary, recording where your child's pain is, how bad it is, when it happens, what makes it better, and what makes it worse. There are many ways, other than medicine, to comfort your child. The healthcare team can make suggestions for your child, but here are some basics for getting started.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                        "textDecorationLine": "underline",
+                      }
+                    }
+                  >
+                    For your school-aged child:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    A. Create a comfortable and safe environment
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Dim the lights
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Stay with your child as much as possible.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Provide quiet time.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Talk in a soothing voice.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    B. Use gentle and firm touch to provide comfort and security
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Hold your child.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Massage your child's body in a firm, slow motion
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Hold your child's hand.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Offer hugs.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    C. Use distraction to help your school-age child focus on something other than pain. Encourage your child to:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Play their favorite music
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Blow bubbles
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Take slow, deep breaths
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Read a book
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Talk about a favorite place or memory
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Play a game or watch TV
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Do art projects, draw, or color
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                        "textDecorationLine": "underline",
+                      }
+                    }
+                  >
+                    For your teen:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    A. Create a comfortable and safe environment
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Dim the lights
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Offer to stay with your teen
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Reduce noise.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Approach your teen in a calm, comforting way.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    B. Use gentle and firm touch to provide comfort and security
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Offer gentle massage.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Offer hugs or hold your teen's hand
+                    d
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Talk in a soothing voice.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    C. Use distraction to help your teen focus on something other than pain. Encourage your teen to:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Play music
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Take slow, deep breaths
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Read a book
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Talk about a pleasant experience or memory.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Play a game or watch TV
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Do art projects, draw, or color
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    3. When to call your child's doctor
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Make sure to ask your healthcare provider what symptoms to look out for and whether you should call or go straight to the hospital. Some of these symptoms are:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child has increasing pain and pain medicine recommended or prescribed by your healthcare provider is not helping.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Your child has a new pain.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If you have any other concerns
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    4. Make sure to ask your healthcare provider:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - How do I keep a pain diary and what information should I record?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What is the best way to assess my child's pain, given their age or level?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What symptoms should I look for in my child? How often should I check?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What should I do if my child has a symptom you told me to watch for? Should I call the office, call 911, or go to the hospital?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Can my child return to school?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What are the limits to my child's activity?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - When can my child start gym? contact sports? biking? or rough play?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Will you please call my child's school and explain how to manage my child's pain and anything else they need to know about my child?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - What kind of pain can be expected and for how long?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    [missing "en.injuryPainCare.Ch6_t4_b10" translation]
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If your child receives pain medication, learn as much as you can about the medicine from the doctor, nurse, or pharmacist. Talk to your healthcare provider about any side effects your child might have and how to help treat them.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - How can I manage my child's pain during therapy if my child is going to get physical therapy?
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "stretch",
+                        "color": "#2089DC",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginBottom": 3,
+                        "marginTop": 6,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    5. Suggestions for follow-up appointments
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    When you bring your child in for his follow-up visits or with specialists, remember to:
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Let your healthcare provider know if your child is still having any pain.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Let your doctor know where the pain is, what makes it better, what makes it worse.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - Bring all of your medicines with you to all appointments.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If you are going to another specialist, try to bring along any medical records and copies of radiographs, MRIs, and CT scans.
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontSize": 14,
+                        "marginVertical": 2,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    - If your child is going to therapy, ask them to manage your child's pain.
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`InjuryPainCare should render active accordion content 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  content
+</withAnimatable(View)>
+`;
+
+exports[`InjuryPainCare should render an active accordion header 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "padding": 10,
+      },
+      Object {
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  <Text
+    accessibilityHint="a hint"
+    accessible={true}
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    [-]
+     
+    Injury Prevention Tips
+  </Text>
+</withAnimatable(View)>
+`;
+
+exports[`InjuryPainCare should render an inactive accordion header 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "padding": 10,
+      },
+      Object {
+        "backgroundColor": "rgba(245,252,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  <Text
+    accessibilityHint="a hint"
+    accessible={true}
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    [+]
+     
+    Injury Prevention Tips
+  </Text>
+</withAnimatable(View)>
+`;
+
+exports[`InjuryPainCare should render inactive accordion content 1`] = `
+<withAnimatable(View)
+  delay={0}
+  direction="normal"
+  duration={400}
+  iterationCount={1}
+  iterationDelay={0}
+  onAnimationBegin={[Function]}
+  onAnimationEnd={[Function]}
+  onTransitionBegin={[Function]}
+  onTransitionEnd={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "rgba(245,252,255,1)",
+      },
+    ]
+  }
+  transition="backgroundColor"
+  useNativeDriver={false}
+>
+  content
+</withAnimatable(View)>
+`;
