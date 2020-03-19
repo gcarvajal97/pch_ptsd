@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
       elevation: 4,
   },
   title: {
-      backgroundColor: '#2089DC', 
+      backgroundColor: '#0077C8', 
       color: 'white', 
       fontWeight: 'bold', 
       fontSize: 22, 
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
       marginLeft:5,
       marginTop:6,
       marginBottom:3,
-      color:'#2089DC'
+      color:'#0077C8'
   },
   paragraphTitleTop: {
     fontWeight: 'bold',
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     marginLeft:5,
     marginTop:10,
     marginBottom:3,
-    color:'#2089DC'
+    color:'#0077C8'
 },
   paragraph: {
       alignSelf:"center", 
