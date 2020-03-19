@@ -5,6 +5,7 @@ import translate, { getLocale } from "../../components/translateService";
 import ResourceScreenCard from "../resourceScreens/ResourceScreenCard";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import Resources from "./Resources";
+import colors from "../../colors";
 
 class ResourceScreen extends Component {
     marginLeft =
@@ -23,6 +24,7 @@ class ResourceScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("resources.back")}
+                color={colors.secondary.pms_3005}
                 accessible
                 accessibilityLabel={translate("glossary.back")}
                 accessibilityHint={translate("glossary.backHint")}

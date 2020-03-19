@@ -33,7 +33,7 @@ exports[`Resources renders one resource 1`] = `
       onPress={[Function]}
       style={
         Object {
-          "color": "#2089DC",
+          "color": "#0077C8",
           "fontSize": 16,
           "fontWeight": "bold",
           "marginVertical": 2,
@@ -74,7 +74,7 @@ exports[`Resources renders properly in english 1`] = `
       onPress={[Function]}
       style={
         Object {
-          "color": "#2089DC",
+          "color": "#0077C8",
           "fontSize": 16,
           "fontWeight": "bold",
           "marginVertical": 2,
@@ -112,7 +112,7 @@ exports[`Resources renders properly in spanish 1`] = `
       onPress={[Function]}
       style={
         Object {
-          "color": "#2089DC",
+          "color": "#0077C8",
           "fontSize": 16,
           "fontWeight": "bold",
           "marginVertical": 2,
@@ -152,7 +152,7 @@ exports[`Resources renders two resources 1`] = `
       onPress={[Function]}
       style={
         Object {
-          "color": "#2089DC",
+          "color": "#0077C8",
           "fontSize": 16,
           "fontWeight": "bold",
           "marginVertical": 2,
@@ -190,7 +190,7 @@ exports[`Resources renders two resources 1`] = `
       onPress={[Function]}
       style={
         Object {
-          "color": "#2089DC",
+          "color": "#0077C8",
           "fontSize": 16,
           "fontWeight": "bold",
           "marginVertical": 2,

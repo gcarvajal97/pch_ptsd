@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Linking } from "expo";
+import colors from '../../colors';
 
 function Resources(content) {
     if(content && content.length) {
@@ -47,7 +48,7 @@ const styles = StyleSheet.create({
     link: {
         fontSize: 16,
         fontWeight: "bold",
-        color: "#2089DC",
+        color: colors.secondary.pms_3005,
         textDecorationLine: "underline",
         marginVertical: 2
     }
