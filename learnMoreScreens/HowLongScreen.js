@@ -4,6 +4,7 @@ import { View, StyleSheet, Text, ScrollView, Dimensions} from "react-native";
 import { Video } from 'expo-av';
 import { Linking } from "expo";
 import translate, { getVideo } from '../components/translateService';
+import colors from '../colors';
 
 const videos = {
     en: require("../assets/videos/vidHowLong.mp4"),
@@ -39,7 +40,7 @@ class HowLongScreen extends Component {
                         height: 204, 
                         width: '100%',
                         maxHeight: 254, 
-                        borderColor: '#2089DC', 
+                        borderColor: colors.secondary.pms_312, 
                         borderWidth: 14, 
                         borderTopWidth: 0, 
                         borderBottomWidth: 0, 
@@ -111,7 +112,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         margin: 10,
-        backgroundColor: '#FFFFFF',
+        backgroundColor: colors.primary.white,
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -124,14 +125,14 @@ const styles = StyleSheet.create({
     },
     title: {
         backgroundColor: '#00A9CE', 
-        color: 'white', 
+        color: colors.primary.white, 
         fontWeight: 'bold', 
         fontSize: 22, 
         textAlign: 'center', 
         alignSelf: 'stretch'
     },
     subTitle: {
-        backgroundColor: '#200A9CE', 
+        backgroundColor: colors.secondary.pms_312, 
         color: 'white', 
         alignSelf: 'stretch', 
         paddingLeft: 15, 
@@ -170,7 +171,7 @@ const styles = StyleSheet.create({
         paddingVertical:1, 
         paddingHorizontal:5,
         fontSize: 16,
-        color:'#2089DC',
+        color: colors.secondary.pms_312,
         textDecorationLine: 'underline',
         marginTop: 4,
         marginTop: 3,
