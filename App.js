@@ -1,12 +1,22 @@
-import React from 'react';
-import MainNavigator from './components/MainNavigator';
+import React from "react";
+import * as Font from "expo-font";
+import { setCustomText } from "react-native-global-props";
+import MainNavigator from "./components/MainNavigator";
 
-// Screen/View information has been moved to it's own file (MainScreen.js, OtherScreen.js, etc.)
-// Now App class just calls the DrawerNav's container (as required in this newer React versions)
+const globalTextProps = {
+    style: {
+        fontFamily: "avenir-medium"
+    }
+};
+
 export default class App extends React.Component {
-  render() {
-    return (
-      <MainNavigator/>
-    );
-  }
+    async componentDidMount() {
+        await Font.loadAsync({
+            "avenir-medium": require("./assets/fonts/Avenir-Medium.ttf")
+        });
+        setCustomText(globalTextProps);
+    }
+    render() {
+        return <MainNavigator />;
+    }
 }

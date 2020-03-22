@@ -8,7 +8,7 @@ export default colors = {
     secondary: {
         pms_130: "#F2A900", // orange
         pms_214: "#CE0F69", // magenta
-        pms_312: "#00A9CE", //light blue
+        pms_312: "#00A9CE", // light blue
         pms_320: "#009CA6", // bluegreen
         pms_376: "#8DBB39", // green
         pms_388: " #E0E721", // yellow
