@@ -5,6 +5,7 @@ import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import translate, { getLocale } from "../../components/translateService";
 import GlossaryScreenCard from "./GlossaryScreenCard";
 import GlossaryTerms from "./GlossaryTerms";
+import colors from "../../colors";
 
 class GlossaryScreen extends Component {
     marginLeft =
@@ -23,6 +24,7 @@ class GlossaryScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("glossary.back")}
+                color={colors.secondary.pms_3005}
                 accessible
                 accessibilityLabel={translate("glossary.back")}
                 accessibilityHint={translate("glossary.backHint")}
