@@ -21,7 +21,7 @@ export default class LearnMoreList extends Component {
         return (
             <View>
                 <Card containerStyle={{margin:5}}>
-                    <Text style={{textAlign: 'center', backgroundColor: colors.secondary.pms_3005, fontSize:20, color: colors.primary.white, padding:10, paddingVertical:10, margin:0}}>
+                    <Text style={{textAlign: 'center', backgroundColor: colors.accent, fontSize:20, color: colors.primary.white, padding:10, paddingVertical:10, margin:0}}>
                         {translate('listLearnMore.whatToExpect')}
                     </Text>
                     <Divider style={{backgroundColor: colors.primary.black, height:1, marginBottom:-1}}/>
