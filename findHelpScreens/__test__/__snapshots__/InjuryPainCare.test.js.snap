@@ -340,7 +340,7 @@ exports[`InjuryPainCare renders correctly 1`] = `
               }
             >
               <Text
-                accessibilityHint="..."
+                accessibilityHint="Injury Prevention Tips"
                 accessible={true}
                 style={
                   Object {
@@ -452,7 +452,7 @@ exports[`InjuryPainCare renders correctly 1`] = `
               }
             >
               <Text
-                accessibilityHint="..."
+                accessibilityHint="Injury Prevention Tips"
                 accessible={true}
                 style={
                   Object {
@@ -716,7 +716,7 @@ exports[`InjuryPainCare renders correctly 1`] = `
               }
             >
               <Text
-                accessibilityHint="..."
+                accessibilityHint="Injury Prevention Tips"
                 accessible={true}
                 style={
                   Object {
@@ -1287,7 +1287,7 @@ exports[`InjuryPainCare renders correctly 1`] = `
               }
             >
               <Text
-                accessibilityHint="..."
+                accessibilityHint="Injury Prevention Tips"
                 accessible={true}
                 style={
                   Object {
@@ -1761,7 +1761,7 @@ exports[`InjuryPainCare renders correctly 1`] = `
               }
             >
               <Text
-                accessibilityHint="..."
+                accessibilityHint="Injury Prevention Tips"
                 accessible={true}
                 style={
                   Object {
@@ -1892,7 +1892,7 @@ exports[`InjuryPainCare renders correctly 1`] = `
               }
             >
               <Text
-                accessibilityHint="..."
+                accessibilityHint="Injury Prevention Tips"
                 accessible={true}
                 style={
                   Object {
