@@ -40,7 +40,7 @@ class HowLongScreen extends Component {
                         height: 204, 
                         width: '100%',
                         maxHeight: 254, 
-                        borderColor: colors.secondary.pms_312, 
+                        borderColor: colors.secondary.pms_3005, 
                         borderWidth: 14, 
                         borderTopWidth: 0, 
                         borderBottomWidth: 0, 
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     title: {
-        backgroundColor: '#00A9CE', 
+        backgroundColor: colors.secondary.pms_3005, 
         color: colors.primary.white, 
         fontWeight: 'bold', 
         fontSize: 22, 
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch'
     },
     subTitle: {
-        backgroundColor: colors.secondary.pms_312, 
+        backgroundColor: colors.secondary.pms_3005, 
         color: 'white', 
         alignSelf: 'stretch', 
         paddingLeft: 15, 
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
         paddingVertical:1, 
         paddingHorizontal:5,
         fontSize: 16,
-        color: colors.secondary.pms_312,
+        color: colors.secondary.pms_3005,
         textDecorationLine: 'underline',
         marginTop: 4,
         marginTop: 3,

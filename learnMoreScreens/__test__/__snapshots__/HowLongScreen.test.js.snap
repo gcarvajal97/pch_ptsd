@@ -5,7 +5,7 @@ exports[`HowLongScreen renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
@@ -23,8 +23,8 @@ exports[`HowLongScreen renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "backgroundColor": "#2089DC",
-        "color": "white",
+        "backgroundColor": "#0077C8",
+        "color": "#FFFFFF",
         "fontSize": 22,
         "fontWeight": "bold",
         "textAlign": "center",
@@ -38,7 +38,7 @@ exports[`HowLongScreen renders correctly 1`] = `
     style={
       Object {
         "borderBottomWidth": 0,
-        "borderColor": "#2089DC",
+        "borderColor": "#0077C8",
         "borderTopWidth": 0,
         "borderWidth": 14,
         "height": 204,
@@ -90,7 +90,7 @@ exports[`HowLongScreen renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "backgroundColor": "#2089DC",
+        "backgroundColor": "#0077C8",
         "borderBottomColor": "#2089DC",
         "borderBottomWidth": 2,
         "color": "white",
@@ -387,7 +387,7 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 16,
             "marginTop": 3,
             "paddingHorizontal": 5,
@@ -422,7 +422,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
@@ -440,8 +440,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "backgroundColor": "#2089DC",
-        "color": "white",
+        "backgroundColor": "#0077C8",
+        "color": "#FFFFFF",
         "fontSize": 22,
         "fontWeight": "bold",
         "textAlign": "center",
@@ -455,7 +455,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
     style={
       Object {
         "borderBottomWidth": 0,
-        "borderColor": "#2089DC",
+        "borderColor": "#0077C8",
         "borderTopWidth": 0,
         "borderWidth": 14,
         "height": 204,
@@ -507,7 +507,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "backgroundColor": "#2089DC",
+        "backgroundColor": "#0077C8",
         "borderBottomColor": "#2089DC",
         "borderBottomWidth": 2,
         "color": "white",
@@ -804,7 +804,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 16,
             "marginTop": 3,
             "paddingHorizontal": 5,
