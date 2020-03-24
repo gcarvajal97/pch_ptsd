@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
       elevation: 4,
   },
   title: {
-      backgroundColor: colors.secondary.pms_3005, 
+      backgroundColor: colors.accent, 
       color: colors.primary.white, 
       fontWeight: 'bold', 
       fontSize: 22, 
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
       marginLeft:5,
       marginTop:6,
       marginBottom:3,
-      color: colors.secondary.pms_3005
+      color: colors.accent
   },
   paragraphTitleTop: {
     fontWeight: 'bold',
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     marginLeft:5,
     marginTop:10,
     marginBottom:3,
-    color: colors.secondary.pms_3005
+    color: colors.accent
 },
   paragraph: {
       alignSelf:"center", 
