@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
 import translate, { getVideo } from '../components/translateService';
+import colors from '../colors';
 
 const videos = {
     en: require("../assets/videos/vidReactToInjury.mp4"),
@@ -18,7 +19,7 @@ class ReactionsToInjury extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={{ backgroundColor: '#2089DC', color: 'white', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
+                <Text style={styles.title}>
                     {translate('reactionsToInjury.title')}
                 </Text>
                 <Video
@@ -28,13 +29,23 @@ class ReactionsToInjury extends Component {
                     resizeMode={Video.RESIZE_MODE_COVER}
                     shouldPlay
                     useNativeControls
-                    style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+                    style={{ 
+                        height: 204, 
+                        width: '100%', 
+                        maxHeight: 254, 
+                        borderColor: colors.secondary.pms_3005, 
+                        borderWidth: 14, 
+                        borderTopWidth: 0, 
+                        borderBottomWidth: 0, 
+                        marginBottom: -1
+                    }}
                     accessible
                     accessibilityLabel={translate('reactionsToInjury.content.videoCard.accessibility')}
                     accessibilityHint={translate('reactionsToInjury.content.videoCard.accessibility')}
                 />
-                <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
-                    <Text style={{ fontWeight: 'bold' }}>{translate('reactionsToInjury.content.videoCard.title')}</Text> {translate('reactionsToInjury.content.videoCard.subtitle')}
+                <Text style={styles.subTitle}>
+                    <Text style={{ fontWeight: 'bold' }}>{translate('reactionsToInjury.content.videoCard.title')}</Text> 
+                    {translate('reactionsToInjury.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
                     <Text style={styles.paragraph}>{translate('reactionsToInjury.content.paragraphOne')}</Text>
@@ -100,5 +111,23 @@ const styles = StyleSheet.create({
         paddingVertical:1, 
         paddingHorizontal:5,
         fontSize: 14
+    },
+    title: {
+        backgroundColor: colors.secondary.pms_3005, 
+        color: colors.primary.white, 
+        fontWeight: 'bold', 
+        fontSize: 22, 
+        textAlign: 'center', 
+        alignSelf: 'stretch'
+    },
+    subTitle: {
+        backgroundColor: colors.secondary.pms_3005, 
+        color: colors.primary.white, 
+        alignSelf: 'stretch', 
+        paddingLeft: 15, 
+        paddingRight: 15, 
+        fontSize: 15, 
+        borderBottomWidth: 2, 
+        borderBottomColor: colors.secondary.pms_3005,
     }
 });

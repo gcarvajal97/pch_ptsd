@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { View, StyleSheet, Text, ScrollView, Dimensions, AccessibilityInfo} from 'react-native';
 import { Video } from 'expo-av';
 import translate, { getVideo } from '../components/translateService';
+import color from '../colors';
 
 const videos = {
   en: require("../assets/videos/vidStressReactions.mp4"),
@@ -33,7 +34,7 @@ class TraumaticStressReactions extends Component {
               height: 204, 
               width: '100%', 
               maxHeight: 254, 
-              borderColor: '#2089DC', 
+              borderColor: color.secondary.pms_3005, 
               borderWidth: 14, 
               borderTopWidth: 0, 
               borderBottomWidth: 0, 
@@ -47,7 +48,7 @@ class TraumaticStressReactions extends Component {
               'traumaticStressReactions.content.videoCard.accessibility'
               )}
         />
-        <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, paddingRight:15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
+        <Text style={styles.subTitle}>
           <Text style={{ fontWeight: 'bold' }}>{translate('traumaticStressReactions.content.videoCard.title')}</Text>
           {translate('traumaticStressReactions.content.videoCard.subtitle')}
         </Text>
@@ -88,11 +89,11 @@ class TraumaticStressReactions extends Component {
 export default TraumaticStressReactions;
 
 const styles = StyleSheet.create({
-  container: {
+    container: {
       flex: 1,
       alignItems: 'center',
       margin: 10,
-      backgroundColor: 'white',
+      backgroundColor: colors.primary.white,
       shadowColor: "#000",
       shadowOffset: {
           width: 0,
@@ -104,53 +105,54 @@ const styles = StyleSheet.create({
       elevation: 4,
   },
   title: {
-      backgroundColor: '#2089DC', 
-      color: 'white', 
+      backgroundColor: colors.secondary.pms_3005, 
+      color: colors.primary.white, 
       fontWeight: 'bold', 
       fontSize: 22, 
       textAlign: 'center', 
       alignSelf: 'stretch'
   },
   subTitle: {
-    backgroundColor: '#2089DC', 
-    color: 'white', 
-    alignSelf: 'stretch', 
-    paddingLeft: 15, 
-    paddingRight:15, 
-    fontSize: 15, 
-    borderBottomWidth:2, 
-    borderBottomColor:'#2089DC',
+      backgroundColor: colors.secondary.pms_3005, 
+      color: colors.primary.white, 
+      alignSelf: 'stretch', 
+      paddingLeft: 15, 
+      paddingRight: 15, 
+      fontSize: 15, 
+      borderBottomWidth: 2, 
+      borderBottomColor: colors.secondary.pms_3005,
   },
   paragraphTitle: {
       fontWeight: 'bold',
-      fontSize:20,
-      alignSelf:'stretch',
-      textAlign:'left',
-      marginLeft:5,
-      marginTop:4,
-      marginBottom:3,
-      color:'#2089DC'
+      fontSize: 20,
+      alignSelf: 'stretch',
+      textAlign: 'left',
+      marginLeft: 5,
+      marginTop: 4,
+      marginBottom: 3,
+      color: colors.secondary.pms_3005
   },
   bullet: {
-      marginVertical:1, 
-      marginHorizontal:18, 
-      textAlign:'left', 
-      alignSelf:'stretch', 
-      fontWeight:'bold',
-      fontSize:14
+      marginVertical: 1, 
+      marginHorizontal: 18, 
+      textAlign: 'left', 
+      alignSelf: 'stretch', 
+      fontWeight: 'bold',
+      fontSize: 14
   },
   paragraph: {
-      paddingVertical:1, 
-      paddingHorizontal:5,
+      alignSelf: "center", 
+      paddingVertical: 1, 
+      paddingHorizontal: 5,
       fontSize: 14,
       marginTop: 5,
   },
   link: {
       alignSelf:"center", 
-      paddingVertical:1, 
-      paddingHorizontal:5,
+      paddingVertical: 1, 
+      paddingHorizontal: 5,
       fontSize: 16,
-      color:'#2089DC',
+      color: colors.secondary.pms_3005,
       textDecorationLine: 'underline',
       marginTop: 4,
       marginTop: 3,

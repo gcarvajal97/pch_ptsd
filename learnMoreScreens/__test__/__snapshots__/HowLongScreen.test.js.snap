@@ -91,9 +91,9 @@ exports[`HowLongScreen renders correctly 1`] = `
       Object {
         "alignSelf": "stretch",
         "backgroundColor": "#0077C8",
-        "borderBottomColor": "#2089DC",
+        "borderBottomColor": "#0077C8",
         "borderBottomWidth": 2,
-        "color": "white",
+        "color": "#FFFFFF",
         "fontSize": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
@@ -156,7 +156,7 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -185,7 +185,7 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -243,7 +243,7 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -508,9 +508,9 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
       Object {
         "alignSelf": "stretch",
         "backgroundColor": "#0077C8",
-        "borderBottomColor": "#2089DC",
+        "borderBottomColor": "#0077C8",
         "borderBottomWidth": 2,
-        "color": "white",
+        "color": "#FFFFFF",
         "fontSize": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
@@ -573,7 +573,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -602,7 +602,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -660,7 +660,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
