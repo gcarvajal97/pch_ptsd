@@ -7,13 +7,15 @@
         "platforms": ["ios", "android", "web"],
         "version": "1.0.0",
         "orientation": "portrait",
+        "icon": "./assets/icon.png",
         "ios": {
             "icon": "./assets/icon.png",
             "supportsTablet": true
         },
         "android": {
-            "icon": "./assets/icon.png",
+            "package": "org.aftertheinjury.pchptsd",
             "adaptiveIcon": {
+                "foregroundImage": "./assets/android/icon.png",
                 "backgroundColor": "#E4002B"
             }
         },
