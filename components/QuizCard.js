@@ -3,6 +3,7 @@ import {Text} from 'react-native';
 import {Card, Button as CardButton} from 'react-native-elements';
 import NavigationService from '../components/NavigationService';
 import translate from './translateService';
+import colors from '../colors';
 
 // Card view component: to be displayed on the main screen
 export default class QuizCard extends Component {
@@ -17,7 +18,7 @@ export default class QuizCard extends Component {
                 {translate('mainScreen.quizCaption')}
             </Text>
             <CardButton onPress={()=>NavigationService.navigate('Quiz')}
-                buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0 }}
+                buttonStyle={{ borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0, backgroundColor: colors.accent }}
                 title={translate('mainScreen.quizButton')} 
                 accessible
                 accessibilityLabel={translate('mainScreen.quizButton')}
