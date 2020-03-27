@@ -78,8 +78,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         margin: 10,
-        backgroundColor: 'white',
-        shadowColor: "#000",
+        backgroundColor: colors.primary.white,
+        shadowColor: colors.primary.black,
         shadowOffset: {
             width: 0,
             height: 2,
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
         fontSize: 14
     },
     title: {
-        backgroundColor: colors.secondary.pms_3005, 
+        backgroundColor: colors.accent, 
         color: colors.primary.white, 
         fontWeight: 'bold', 
         fontSize: 22, 
@@ -121,13 +121,13 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch'
     },
     subTitle: {
-        backgroundColor: colors.secondary.pms_3005, 
+        backgroundColor: colors.accent, 
         color: colors.primary.white, 
         alignSelf: 'stretch', 
         paddingLeft: 15, 
         paddingRight: 15, 
         fontSize: 15, 
         borderBottomWidth: 2, 
-        borderBottomColor: colors.secondary.pms_3005,
+        borderBottomColor: colors.accent,
     }
 });

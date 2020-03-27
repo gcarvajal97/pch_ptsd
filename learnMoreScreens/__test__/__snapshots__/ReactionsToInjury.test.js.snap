@@ -5,11 +5,11 @@ exports[`ReactionsToInjury renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,
@@ -38,7 +38,7 @@ exports[`ReactionsToInjury renders correctly 1`] = `
     style={
       Object {
         "borderBottomWidth": 0,
-        "borderColor": "#0077C8",
+        "borderColor": undefined,
         "borderTopWidth": 0,
         "borderWidth": 14,
         "height": 204,
@@ -300,11 +300,11 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,
@@ -333,7 +333,7 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
     style={
       Object {
         "borderBottomWidth": 0,
-        "borderColor": "#0077C8",
+        "borderColor": undefined,
         "borderTopWidth": 0,
         "borderWidth": 14,
         "height": 204,

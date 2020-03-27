@@ -40,7 +40,7 @@ class HowLongScreen extends Component {
                         height: 204, 
                         width: '100%',
                         maxHeight: 254, 
-                        borderColor: colors.secondary.pms_3005, 
+                        borderColor: colors.accent, 
                         borderWidth: 14, 
                         borderTopWidth: 0, 
                         borderBottomWidth: 0, 
@@ -82,7 +82,15 @@ class HowLongScreen extends Component {
                     <Text style={styles.paragraph}>
                     {translate('howLong.content.whatIsPTSDParagraph.paragraphTwo')}
                     </Text>
-                    <Text style={{fontWeight: 'bold', fontSize:16, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:4, marginBottom:3}}>
+                    <Text style={{
+                        fontWeight: 'bold', 
+                        fontSize:16, 
+                        alignSelf:'stretch', 
+                        textAlign:'left',
+                        marginLeft:5, 
+                        marginTop:4, 
+                        marginBottom:3
+                    }}>
                     {translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.title')}
                     </Text>
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletOne')}</Text>
@@ -124,7 +132,7 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     title: {
-        backgroundColor: colors.secondary.pms_3005, 
+        backgroundColor: colors.accent, 
         color: colors.primary.white, 
         fontWeight: 'bold', 
         fontSize: 22, 
@@ -132,14 +140,14 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch'
     },
     subTitle: {
-        backgroundColor: colors.secondary.pms_3005, 
+        backgroundColor: colors.accent, 
         color: colors.primary.white, 
         alignSelf: 'stretch', 
         paddingLeft: 15, 
         paddingRight: 15, 
         fontSize: 15, 
         borderBottomWidth: 2, 
-        borderBottomColor: colors.secondary.pms_3005,
+        borderBottomColor: colors.accent,
     },
     paragraphTitle: {
         fontWeight: 'bold',
@@ -149,7 +157,7 @@ const styles = StyleSheet.create({
         marginLeft: 5,
         marginTop: 4,
         marginBottom: 3,
-        color: colors.secondary.pms_3005
+        color: colors.accent
     },
     bullet: {
         marginVertical: 1, 
@@ -171,7 +179,7 @@ const styles = StyleSheet.create({
         paddingVertical: 1, 
         paddingHorizontal: 5,
         fontSize: 16,
-        color: colors.secondary.pms_3005,
+        color: colors.accent,
         textDecorationLine: 'underline',
         marginTop: 4,
         marginTop: 3,
