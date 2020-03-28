@@ -31,8 +31,8 @@ exports[`FindHelpList matches Snapshot 1`] = `
       <Text
         style={
           Object {
-            "backgroundColor": "#2089DC",
-            "color": "white",
+            "backgroundColor": "#0077C8",
+            "color": "#FFFFFF",
             "fontSize": 20,
             "margin": 0,
             "padding": 10,
@@ -46,7 +46,7 @@ exports[`FindHelpList matches Snapshot 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "black",
+            "backgroundColor": "#000000",
             "height": 1,
             "marginBottom": -1,
           }
@@ -94,7 +94,7 @@ exports[`FindHelpList matches Snapshot 1`] = `
                   Object {
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
-                    "color": "black",
+                    "color": "#000000",
                     "fontSize": 19,
                   }
                 }
@@ -237,7 +237,7 @@ exports[`FindHelpList matches Snapshot 1`] = `
                   Object {
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
-                    "color": "black",
+                    "color": "#000000",
                     "fontSize": 19,
                   }
                 }
@@ -380,7 +380,7 @@ exports[`FindHelpList matches Snapshot 1`] = `
                   Object {
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
-                    "color": "black",
+                    "color": "#000000",
                     "fontSize": 19,
                   }
                 }
@@ -523,7 +523,7 @@ exports[`FindHelpList matches Snapshot 1`] = `
                   Object {
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
-                    "color": "black",
+                    "color": "#000000",
                     "fontSize": 19,
                   }
                 }
@@ -666,7 +666,7 @@ exports[`FindHelpList matches Snapshot 1`] = `
                   Object {
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
-                    "color": "black",
+                    "color": "#000000",
                     "fontSize": 19,
                   }
                 }
@@ -809,7 +809,7 @@ exports[`FindHelpList matches Snapshot 1`] = `
                   Object {
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
-                    "color": "black",
+                    "color": "#000000",
                     "fontSize": 19,
                   }
                 }
@@ -952,7 +952,7 @@ exports[`FindHelpList matches Snapshot 1`] = `
                   Object {
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
-                    "color": "black",
+                    "color": "#000000",
                     "fontSize": 19,
                   }
                 }

@@ -5,11 +5,11 @@ exports[`QuizResults renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,
