@@ -9,7 +9,7 @@ exports[`HowLongScreen renders correctly 1`] = `
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,
@@ -426,7 +426,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,

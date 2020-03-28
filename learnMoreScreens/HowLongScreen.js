@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         margin: 10,
         backgroundColor: colors.primary.white,
-        shadowColor: "#000",
+        shadowColor: colors.primary.black,
         shadowOffset: {
             width: 0,
             height: 2,

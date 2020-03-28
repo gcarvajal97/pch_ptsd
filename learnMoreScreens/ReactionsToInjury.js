@@ -33,7 +33,7 @@ class ReactionsToInjury extends Component {
                         height: 204, 
                         width: '100%', 
                         maxHeight: 254, 
-                        borderColor: colors.secondary.pms_3005, 
+                        borderColor: colors.accent, 
                         borderWidth: 14, 
                         borderTopWidth: 0, 
                         borderBottomWidth: 0, 
@@ -50,7 +50,16 @@ class ReactionsToInjury extends Component {
                 <ScrollView>
                     <Text style={styles.paragraph}>{translate('reactionsToInjury.content.paragraphOne')}</Text>
                     <Text style={styles.paragraph}>{translate('reactionsToInjury.content.paragraphTwo')}</Text>
-                    <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:2, marginBottom:8, color:'#2089DC'}}>
+                    <Text style={{
+                        fontWeight: 'bold', 
+                        fontSize:20, 
+                        alignSelf:'stretch', 
+                        textAlign:'left',
+                        marginLeft:5, 
+                        marginTop:2, 
+                        marginBottom:8, 
+                        color:colors.accent
+                    }}>
                     {translate('reactionsToInjury.content.bulletListOne.title')}
                     </Text>
                     <Text style={styles.bullet}>{translate('reactionsToInjury.content.bulletListOne.bulletOne')}</Text>
@@ -58,7 +67,16 @@ class ReactionsToInjury extends Component {
                     <Text style={styles.bullet}>{translate('reactionsToInjury.content.bulletListOne.bulletThree')}</Text>
                     <Text style={styles.bullet}>{translate('reactionsToInjury.content.bulletListOne.bulletFour')}</Text>
                     <Text style={styles.bulletLast}>{translate('reactionsToInjury.content.bulletListOne.bulletFive')}</Text>
-                    <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:2, marginBottom:8, color:'#2089DC'}}>
+                    <Text style={{
+                        fontWeight: 'bold', 
+                        fontSize:20, 
+                        alignSelf:'stretch', 
+                        textAlign:'left',
+                        marginLeft:5, 
+                        marginTop:2, 
+                        marginBottom:8, 
+                        color:colors.accent
+                    }}>
                     {translate('reactionsToInjury.content.bulletListTwo.title')}
                     </Text>
                     <Text style={styles.bullet}>{translate('reactionsToInjury.content.bulletListTwo.bulletOne')}</Text>
