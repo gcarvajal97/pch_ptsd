@@ -24,7 +24,7 @@ class ResourceScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("resources.back")}
-                color={colors.secondary.pms_3005}
+                color={colors.secondary.blue}
                 accessible
                 accessibilityLabel={translate("glossary.back")}
                 accessibilityHint={translate("glossary.backHint")}

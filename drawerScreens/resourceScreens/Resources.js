@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     link: {
         fontSize: 16,
         fontWeight: "bold",
-        color: colors.secondary.pms_3005,
+        color: colors.secondary.blue,
         textDecorationLine: "underline",
         marginVertical: 2
     }
