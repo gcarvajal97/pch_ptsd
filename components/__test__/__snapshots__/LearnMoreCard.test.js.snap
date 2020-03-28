@@ -249,7 +249,7 @@ exports[`LearnMoreCard matches Snapshot 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#2089dc",
+                  "backgroundColor": "#0077C8",
                   "borderColor": "#2089dc",
                   "borderRadius": 0,
                   "borderWidth": 0,
