@@ -4,6 +4,7 @@ import { Button, ButtonGroup, Card } from "react-native-elements";
 import NavigationService from "../components/NavigationService";
 import QuizRateReactions from "../assets/QuizRateReactions.jpg";
 import translate from "../components/translateService";
+import colors from "../colors.js";
 
 class QuizMain extends Component {
     constructor() {
@@ -294,8 +295,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         margin: 10,
-        backgroundColor: "white",
-        shadowColor: "#000",
+        backgroundColor: colors.primary.white,
+        shadowColor: colors.primary.black,
         shadowOffset: {
             width: 0,
             height: 2
@@ -342,7 +343,7 @@ const styles = StyleSheet.create({
         textAlign: "left",
         marginTop: 3,
         marginBottom: 3,
-        color: "#2089DC",
+        color: colors.accent,
         paddingLeft: 6,
         paddingRight: 6
     }
