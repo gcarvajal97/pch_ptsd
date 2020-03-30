@@ -2,6 +2,7 @@ import React from "react";
 import * as Font from "expo-font";
 import { setCustomText } from "react-native-global-props";
 import MainNavigator from "./components/MainNavigator";
+import { SplashScreen } from "expo";
 
 const globalTextProps = {
     style: {
@@ -10,13 +11,29 @@ const globalTextProps = {
 };
 
 export default class App extends React.Component {
+    state = {
+        fontLoaded: false
+    };
+
     async componentDidMount() {
+        SplashScreen.preventAutoHide();
         await Font.loadAsync({
             "avenir-medium": require("./assets/fonts/Avenir-Medium.ttf")
         });
+        // Having issues mocking the expo-font module
+        // Not sure if we can actually reach this code in a test.
+        /* istanbul ignore next */
         setCustomText(globalTextProps);
+        /* istanbul ignore next */
+        this.setState({ fontLoaded: true });
     }
+
     render() {
-        return <MainNavigator />;
+        if (this.state.fontLoaded) {
+            SplashScreen.hide();
+            return <MainNavigator />;
+        } else {
+            return null;
+        }
     }
 }

@@ -11,23 +11,27 @@ export default class FindHelpCard extends Component {
         return (
             <Card
                 featuredTitle={translate("mainScreen.findHelpTitle")}
+                featuredTitleStyle={{
+                    fontFamily: "avenir-medium",
+                    fontStyle: null,
+                    fontWeight: null
+                }}
                 image={require("../assets/FindWaysHelp.jpg")}
                 accessible
                 accessibilityLabel={translate("mainScreen.findHelpAccessLabel")}
             >
-                <Text style={{ marginBottom: 5 }}>
+                <Text style={{ marginBottom: 10 }}>
                     {translate("mainScreen.findHelpCaption")}
                 </Text>
                 <CardButton
                     onPress={() => NavigationService.navigate("FindHelp")}
                     testID="FindHelpButton"
                     buttonStyle={{
-                        borderRadius: 0,
-                        marginLeft: 0,
                         marginRight: 0,
                         marginBottom: 0
                     }}
                     title={translate("mainScreen.findHelpButton")}
+                    titleStyle={{ fontFamily: "avenir-medium" }}
                     accessible
                     accessibilityLabel={translate("mainScreen.findHelpButton")}
                     accessibilityHint={translate(
