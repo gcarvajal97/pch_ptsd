@@ -8,13 +8,9 @@ import NavigationService from '../components/NavigationService';
 import QuizCard from '../components/QuizCard';
 import { translate } from '../components/translateService';
 
-
 // Set users locale for i18n translation throughout the application
 i18n.locale = Localization.locale;
 
-    // I have learned that Props will become deprecated soon, this code has been changed to follow the
-    // new best practice in React (to hopefully avoid features breaking in future updates).
-    // NavigationService is a new file I created, allowing us to use the openDrawer function.
 class MainScreen extends Component {
 
     static navigationOptions = () => ({

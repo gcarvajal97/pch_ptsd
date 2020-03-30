@@ -1,4 +1,6 @@
+// PCH Marketing approved colors
 export default colors = {
+    accent: "#0077C8",
     primary: {
         black: "#000000",
         grey: "#63666A",
@@ -6,13 +8,13 @@ export default colors = {
         white: "#FFFFFF"
     },
     secondary: {
-        pms_130: "#F2A900", // orange
-        pms_214: "#CE0F69", // magenta
-        pms_312: "#00A9CE", // light blue
-        pms_320: "#009CA6", // bluegreen
-        pms_376: "#8DBB39", // green
-        pms_388: " #E0E721", // yellow
-        pms_527: "#8031A7", // purple
-        pms_3005: "#0077C8" // blue
+        orange: "#F2A900",
+        magenta: "#CE0F69",
+        lightBlue: "#00A9CE",
+        blueGreen: "#009CA6",
+        green: "#8DBB39",
+        yellow: " #E0E721",
+        purple: "#8031A7",
+        blue: "#0077C8"
     }
 };

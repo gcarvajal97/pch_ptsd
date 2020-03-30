@@ -11,3 +11,6 @@ web-build/
 web-report/
 .DS_Store
 **/coverage/**
+
+.idea/*
+dist/

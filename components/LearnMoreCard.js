@@ -4,8 +4,6 @@ import { Card, Button as CardButton } from "react-native-elements";
 import NavigationService from "./NavigationService";
 import translate from "./translateService";
 
-// Card view component to be displayed on the main screen
-// We can now use the NavigationService to navigate to screens as seen below (NavigationService.navigate('WhateverScreen'))
 export default class LearnMoreCard extends Component {
     render() {
         return (
