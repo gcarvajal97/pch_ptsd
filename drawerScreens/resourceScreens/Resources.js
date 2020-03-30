@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     },
     link: {
         fontSize: 16,
-        fontWeight: "bold",
+        //fontWeight: "bold",
         color: "#2089DC",
         textDecorationLine: "underline",
         marginVertical: 2

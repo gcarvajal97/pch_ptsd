@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import {Button, Platform, ScrollView, StyleSheet, View} from "react-native";
+import { Platform, ScrollView, StyleSheet, View} from "react-native";
+import { Button } from 'react-native-elements';
 import NavigationService from "../../components/NavigationService";
 import translate, { getLocale } from "../../components/translateService";
 import ResourceScreenCard from "../resourceScreens/ResourceScreenCard";
@@ -12,9 +13,14 @@ class ResourceScreen extends Component {
             ? translate("resources.back").length + 22
             : 0
     static navigationOptions = {
+        // translate("resources.resources")
         headerTitle: translate("resources.resources"),
+        headerTitleStyle: {
+            fontWeight:null,
+            fontStyle:null,
+        },
         headerTitleContainerStyle: {
-            marginLeft: this.marginLeft
+            marginLeft: this.marginLeft,
         },
         headerLeftContainerStyle: {
             marginLeft: 5
@@ -22,6 +28,7 @@ class ResourceScreen extends Component {
         headerLeft: (
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
+                titleStyle={{fontWeight:null, fontStyle:null, fontFamily:'Avenir-Roman'}}
                 title={translate("resources.back")}
                 accessible
                 accessibilityLabel={translate("glossary.back")}

@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     headerText: {
         paddingLeft: 5,
         fontSize: 14,
-        fontWeight: "500"
+        //fontWeight: "500"
     },
     active: {
         backgroundColor: "rgba(255,255,255,1)"

@@ -8,7 +8,7 @@ export default class ResourceScreenCard extends Component {
         return (
             <Card
                 featuredTitle={translate("resources.resources")}
-                featuredTitleStyle={{ fontSize: 40 }}
+                featuredTitleStyle={{fontSize:40, fontWeight:null, fontStyle:null, fontFamily:"Avenir-BookOblique"}}
                 image={require("../../assets/resourcePyramid.png")}
                 accessible
                 accessibilityLabel={translate("resources.accessibilityHint")}
@@ -16,7 +16,7 @@ export default class ResourceScreenCard extends Component {
                 <Text
                     style={{
                         marginVertical: -8,
-                        fontWeight: "500",
+                        //fontWeight: "500",
                         textAlign: "center"
                     }}
                 >

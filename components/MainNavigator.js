@@ -45,13 +45,25 @@ const StackNav = createStackNavigator(
     },
     {
         defaultNavigationOptions: {
-            headerTruncatedBackTitle: translate("mainScreen.backButton")
+            headerTruncatedBackTitle: translate("mainScreen.backButton"),
+            headerTitleStyle: {
+                fontWeight:null,
+                fontStyle:null,
+            },
         }
     }
 );
 
 const GlossaryNav = createStackNavigator({
     Glossary: GlossaryScreen
+},
+{
+    defaultNavigationOptions: {
+        headerTitleStyle: {
+            fontWeight:null,
+            fontStyle:null
+        }
+    }
 });
 
 const ResourceNav = createStackNavigator({
@@ -80,7 +92,7 @@ const DrawerNav = createDrawerNavigator({
             () => ({
                 title: translate("drawerNavigator.glossary")
             })
-    }
+    },
 });
 
 const mainStack = createStackNavigator(
