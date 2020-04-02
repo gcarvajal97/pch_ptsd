@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text} from 'react-native';
 import { translate } from '../../components/translateService';
+import colors from '../../colors';
 
 
 class WhenToLook extends Component {
@@ -34,7 +35,7 @@ const styles = StyleSheet.create({
     textAlign: 'left',
     marginTop: 6,
     marginBottom: 3,
-    color: '#2089DC'
+    color: colors.accent
   },
   paragraph: {
     textAlign: 'left',
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
   },
   link: {
     fontSize: 14,
-    color:'#2089DC',
+    color: colors.accent,
     textDecorationLine: 'underline',
   }
 });
