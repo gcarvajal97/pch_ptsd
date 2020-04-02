@@ -24,7 +24,7 @@ class GlossaryScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("glossary.back")}
-                color={colors.secondary.accent}
+                color={colors.accent}
                 accessible
                 accessibilityLabel={translate("glossary.back")}
                 accessibilityHint={translate("glossary.backHint")}
