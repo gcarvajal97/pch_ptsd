@@ -57,8 +57,8 @@ const styles = StyleSheet.create({
         flex: 1,
         margin: 10,
         alignItems: "center",
-        backgroundColor: "white",
-        shadowColor: "#000",
+        backgroundColor: colors.primary.white,
+        shadowColor: colors.primary.black,
         shadowOffset: {
             width: 0,
             height: 2
