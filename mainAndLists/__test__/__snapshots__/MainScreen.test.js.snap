@@ -158,7 +158,7 @@ exports[`MainScreen matches Snapshot 1`] = `
                     Object {
                       "color": "white",
                       "fontFamily": "avenir-medium",
-                      "fontSize": 22.5,
+                      "fontSize": 26,
                       "fontStyle": null,
                       "fontWeight": null,
                       "marginBottom": 8,
@@ -253,7 +253,7 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "alignItems": "center",
-                      "backgroundColor": "#2089dc",
+                      "backgroundColor": "#0077C8",
                       "borderColor": "#2089dc",
                       "borderRadius": 0,
                       "borderWidth": 0,
@@ -442,10 +442,11 @@ exports[`MainScreen matches Snapshot 1`] = `
                     Object {
                       "color": "white",
                       "fontFamily": "avenir-medium",
-                      "fontSize": 22.5,
+                      "fontSize": 26,
                       "fontStyle": null,
                       "fontWeight": null,
                       "marginBottom": 8,
+                      "textAlign": "center",
                     }
                   }
                   theme={
@@ -530,12 +531,13 @@ exports[`MainScreen matches Snapshot 1`] = `
                     "opacity": 1,
                   }
                 }
+                testID="QuizCardButton"
               >
                 <View
                   style={
                     Object {
                       "alignItems": "center",
-                      "backgroundColor": "#2089dc",
+                      "backgroundColor": "#0077C8",
                       "borderColor": "#2089dc",
                       "borderRadius": 0,
                       "borderWidth": 0,
@@ -724,10 +726,11 @@ exports[`MainScreen matches Snapshot 1`] = `
                     Object {
                       "color": "white",
                       "fontFamily": "avenir-medium",
-                      "fontSize": 22.5,
+                      "fontSize": 26,
                       "fontStyle": null,
                       "fontWeight": null,
                       "marginBottom": 8,
+                      "textAlign": "center",
                     }
                   }
                   theme={
@@ -818,13 +821,14 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "alignItems": "center",
-                      "backgroundColor": "#2089dc",
+                      "backgroundColor": "#0077C8",
                       "borderColor": "#2089dc",
-                      "borderRadius": 3,
+                      "borderRadius": 0,
                       "borderWidth": 0,
                       "flexDirection": "row",
                       "justifyContent": "center",
                       "marginBottom": 0,
+                      "marginLeft": 0,
                       "marginRight": 0,
                       "padding": 8,
                     }
