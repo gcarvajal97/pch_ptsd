@@ -4,7 +4,6 @@ import { createDrawerNavigator } from "react-navigation-drawer";
 import { createAppContainer } from "react-navigation";
 import translate from "./translateService";
 import NavigationService from "./NavigationService";
-
 import MainScreen from "../mainAndLists/MainScreen";
 import YoureNotAlone from "../learnMoreScreens/YoureNotAlone";
 import ReactionsToInjury from "../learnMoreScreens/ReactionsToInjury";
@@ -45,18 +44,41 @@ const StackNav = createStackNavigator(
     },
     {
         defaultNavigationOptions: {
-            headerTruncatedBackTitle: translate("mainScreen.backButton")
+            headerTruncatedBackTitle: translate("mainScreen.backButton"),
+            headerTitleStyle: {
+                fontStyle: null,
+                fontWeight: null
+            }
         }
     }
 );
 
 const GlossaryNav = createStackNavigator({
     Glossary: GlossaryScreen
-});
+},
+{
+    defaultNavigationOptions: {
+        headerTitleStyle: {
+            fontStyle: null,
+            fontWeight: null
+        }
+    }
+}
+);
 
-const ResourceNav = createStackNavigator({
+const ResourceNav = createStackNavigator(
+{
     Resources: ResourceScreen
-});
+},
+{
+    defaultNavigationOptions: {
+        headerTitleStyle: {
+            fontStyle: null,
+            fontWeight: null
+        }
+    }
+}
+);
 
 const DrawerNav = createDrawerNavigator({
     Home: {
