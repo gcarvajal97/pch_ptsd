@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from "expo-av";
 import translate, { getVideo } from "../components/translateService";
+import colors from '../colors';
 
 const videos = {
     en: require("../assets/videos/vidDealWithWorries.mp4"),
@@ -19,8 +20,8 @@ class DealWithWorries extends Component {
             <View style={styles.container}>
                 <Text
                     style={{
-                        backgroundColor: "#2089DC",
-                        color: "white",
+                        backgroundColor: colors.accent,
+                        color: colors.primary.white,
                         fontWeight: "bold",
                         fontSize: 22,
                         textAlign: "center",
@@ -40,7 +41,7 @@ class DealWithWorries extends Component {
                         height: 204,
                         width: "100%",
                         maxHeight: 254,
-                        borderColor: "#2089DC",
+                        borderColor: colors.accent,
                         borderWidth: 14,
                         borderTopWidth: 0,
                         borderBottomWidth: 0,
@@ -55,13 +56,13 @@ class DealWithWorries extends Component {
                 />
                 <Text
                     style={{
-                        backgroundColor: "#2089DC",
-                        color: "white",
+                        backgroundColor: colors.accent,
+                        color: colors.primary.white,
                         alignSelf: "stretch",
                         paddingLeft: 15,
                         fontSize: 15,
                         borderBottomWidth: 2,
-                        borderBottomColor: "#2089DC"
+                        borderBottomColor: colors.accent
                     }}
                 >
                     <Text style={{ fontWeight: "bold" }}>
@@ -161,8 +162,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         margin: 10,
-        backgroundColor: "white",
-        shadowColor: "#000",
+        backgroundColor: colors.primary.white,
+        shadowColor: colors.primary.black,
         shadowOffset: {
             width: 0,
             height: 2
@@ -212,6 +213,6 @@ const styles = StyleSheet.create({
         marginLeft: 5,
         marginTop: 4,
         marginBottom: 3,
-        color: "#2089DC"
+        color: colors.accent
     }
 });

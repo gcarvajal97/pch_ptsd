@@ -5,11 +5,11 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,
@@ -255,7 +255,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 22,
             "fontWeight": "bold",
             "marginBottom": 2,
@@ -304,7 +304,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "rgba(245,252,255,1)",
+                  "backgroundColor": "#FFFFFF",
                   "padding": 10,
                 }
               }
@@ -339,7 +339,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "rgba(245,252,255,1)",
+                    "backgroundColor": "#FFFFFF",
                     "padding": 20,
                   }
                 }
@@ -349,7 +349,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                     style={
                       Object {
                         "alignSelf": "stretch",
-                        "color": "#2089DC",
+                        "color": "#0077C8",
                         "fontSize": 20,
                         "fontWeight": "bold",
                         "marginBottom": 3,
@@ -408,7 +408,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                     style={
                       Object {
                         "alignSelf": "stretch",
-                        "color": "#2089DC",
+                        "color": "#0077C8",
                         "fontSize": 20,
                         "fontWeight": "bold",
                         "marginBottom": 3,
@@ -500,7 +500,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "rgba(245,252,255,1)",
+                  "backgroundColor": "#FFFFFF",
                   "padding": 10,
                 }
               }
@@ -535,7 +535,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "rgba(245,252,255,1)",
+                    "backgroundColor": "#FFFFFF",
                     "padding": 20,
                   }
                 }
@@ -591,7 +591,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                       onPress={[Function]}
                       style={
                         Object {
-                          "color": "#2089DC",
+                          "color": "#0077C8",
                           "fontSize": 14,
                           "textDecorationLine": "underline",
                         }
@@ -629,7 +629,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "rgba(245,252,255,1)",
+                  "backgroundColor": "#FFFFFF",
                   "padding": 10,
                 }
               }
@@ -664,7 +664,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "rgba(245,252,255,1)",
+                    "backgroundColor": "#FFFFFF",
                     "padding": 20,
                   }
                 }
@@ -685,7 +685,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                     style={
                       Object {
                         "alignSelf": "stretch",
-                        "color": "#2089DC",
+                        "color": "#0077C8",
                         "fontSize": 20,
                         "fontWeight": "bold",
                         "marginBottom": 3,
@@ -755,7 +755,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                     style={
                       Object {
                         "alignSelf": "stretch",
-                        "color": "#2089DC",
+                        "color": "#0077C8",
                         "fontSize": 20,
                         "fontWeight": "bold",
                         "marginBottom": 3,
@@ -835,11 +835,11 @@ exports[`WhenToGetOutsideHelp should render active accordion content 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#fff",
+        "backgroundColor": "#FFFFFF",
         "padding": 20,
       },
       Object {
-        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundColor": "#FFFFFF",
       },
     ]
   }
@@ -864,11 +864,11 @@ exports[`WhenToGetOutsideHelp should render an active accordion header 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5FCFF",
+        "backgroundColor": "#FFFFFF",
         "padding": 10,
       },
       Object {
-        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundColor": "#FFFFFF",
       },
     ]
   }
@@ -904,11 +904,11 @@ exports[`WhenToGetOutsideHelp should render an inactive accordion header 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5FCFF",
+        "backgroundColor": "#FFFFFF",
         "padding": 10,
       },
       Object {
-        "backgroundColor": "rgba(245,252,255,1)",
+        "backgroundColor": "#FFFFFF",
       },
     ]
   }
@@ -944,11 +944,11 @@ exports[`WhenToGetOutsideHelp should render inactive accordion content 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#fff",
+        "backgroundColor": "#FFFFFF",
         "padding": 20,
       },
       Object {
-        "backgroundColor": "rgba(245,252,255,1)",
+        "backgroundColor": "#FFFFFF",
       },
     ]
   }

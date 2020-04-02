@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import QuickTipsCard from './QuickTipsCard';
 import translate from '../../components/translateService';
+import colors from '../../colors';
 
 class QuickTips extends Component {
   
@@ -63,8 +64,8 @@ const styles = StyleSheet.create({
       flex: 1,
       alignItems: 'center',
       margin: 10,
-      backgroundColor: 'white',
-      shadowColor: "#000",
+      backgroundColor: colors.primary.white,
+      shadowColor: colors.primary.black,
       shadowOffset: {
           width: 0,
           height: 2,
@@ -74,8 +75,8 @@ const styles = StyleSheet.create({
       elevation: 4,
   },
   title: {
-      backgroundColor: '#2089DC', 
-      color: 'white', 
+      backgroundColor: colors.accent, 
+      color: colors.primary.white, 
       fontWeight: 'bold', 
       fontSize: 22, 
       textAlign: 'center', 
@@ -89,7 +90,7 @@ const styles = StyleSheet.create({
       marginLeft:5,
       marginTop:6,
       marginBottom:3,
-      color:'#2089DC'
+      color: colors.accent
   },
   paragraphTitleTop: {
     fontWeight: 'bold',
@@ -99,7 +100,7 @@ const styles = StyleSheet.create({
     marginLeft:5,
     marginTop:10,
     marginBottom:3,
-    color:'#2089DC'
+    color: colors.accent
 },
   paragraph: {
       alignSelf:"center", 

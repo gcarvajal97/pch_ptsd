@@ -39,7 +39,7 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "color": "#2089DC",
+        "color": "#0077C8",
         "fontSize": 20,
         "fontWeight": "bold",
         "marginBottom": 3,
@@ -76,7 +76,7 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "color": "#2089DC",
+        "color": "#0077C8",
         "fontSize": 20,
         "fontWeight": "bold",
         "marginBottom": 3,
@@ -179,7 +179,7 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "color": "#2089DC",
+        "color": "#0077C8",
         "fontSize": 20,
         "fontWeight": "bold",
         "marginBottom": 3,
@@ -260,7 +260,7 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "color": "#2089DC",
+        "color": "#0077C8",
         "fontSize": 20,
         "fontWeight": "bold",
         "marginBottom": 3,
@@ -363,7 +363,7 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "color": "#2089DC",
+        "color": "#0077C8",
         "fontSize": 20,
         "fontWeight": "bold",
         "marginBottom": 3,

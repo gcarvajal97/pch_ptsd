@@ -33,7 +33,7 @@ exports[`InjuryPreventionTipsScreen renders correctly 1`] = `
       onPress={[Function]}
       style={
         Object {
-          "color": "#2089DC",
+          "color": "#0077C8",
           "fontSize": 14,
           "textDecorationLine": "underline",
         }
