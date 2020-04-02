@@ -3,6 +3,7 @@ import { Text } from "react-native";
 import { Card, Button as CardButton } from "react-native-elements";
 import NavigationService from "../components/NavigationService";
 import translate from "./translateService";
+import colors from '../colors';
 
 export default class QuizCard extends Component {
     render() {

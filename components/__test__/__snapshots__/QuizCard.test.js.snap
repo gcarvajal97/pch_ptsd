@@ -156,10 +156,11 @@ exports[`QuizCard renders correctly 1`] = `
                 Object {
                   "color": "white",
                   "fontFamily": "avenir-medium",
-                  "fontSize": 22.5,
+                  "fontSize": 26,
                   "fontStyle": null,
                   "fontWeight": null,
                   "marginBottom": 8,
+                  "textAlign": "center",
                 }
               }
               theme={
@@ -244,12 +245,13 @@ exports[`QuizCard renders correctly 1`] = `
                 "opacity": 1,
               }
             }
+            testID="QuizCardButton"
           >
             <View
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#2089dc",
+                  "backgroundColor": "#0077C8",
                   "borderColor": "#2089dc",
                   "borderRadius": 0,
                   "borderWidth": 0,
