@@ -18,7 +18,6 @@ class MainScreen extends Component {
         headerLeft: (<View style={{ margin: 5 }}><Button
             onPress={()=>NavigationService.openDrawer()}
             title={translate('mainScreen.more')}
-            color={colors.secondary.blue}
             accessible
             accessibilityLabel={translate("mainScreen.more")}
             accessibilityHint={translate("glossary.backHint")}></Button></View>)
