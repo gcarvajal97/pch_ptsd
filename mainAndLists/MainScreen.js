@@ -7,6 +7,7 @@ import LearnMoreCard from '../components/LearnMoreCard';
 import NavigationService from '../components/NavigationService';
 import QuizCard from '../components/QuizCard';
 import { translate } from '../components/translateService';
+import colors from "../colors";
 
 // Set users locale for i18n translation throughout the application
 i18n.locale = Localization.locale;
@@ -18,6 +19,7 @@ class MainScreen extends Component {
         headerLeft: (<View style={{ margin: 5 }}><Button
             onPress={()=>NavigationService.openDrawer()}
             title={translate('mainScreen.more')}
+            color={colors.accent}
             accessible
             accessibilityLabel={translate("mainScreen.more")}
             accessibilityHint={translate("glossary.backHint")}></Button></View>)
