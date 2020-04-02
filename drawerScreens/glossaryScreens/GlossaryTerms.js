@@ -1,6 +1,5 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import colors from "../../colors";
 
 function GlossaryTerms(content) {
     if (content && content.length) {
@@ -41,6 +40,6 @@ const styles = StyleSheet.create({
     },
     contentContainer: {
         padding: 20,
-        backgroundColor: colors.primary.white
+        backgroundColor: "white"
     }
 });

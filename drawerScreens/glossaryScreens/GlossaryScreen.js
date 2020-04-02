@@ -5,7 +5,6 @@ import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import translate, { getLocale } from "../../components/translateService";
 import GlossaryScreenCard from "./GlossaryScreenCard";
 import GlossaryTerms from "./GlossaryTerms";
-import colors from "../../colors";
 
 class GlossaryScreen extends Component {
     marginLeft =
@@ -24,7 +23,6 @@ class GlossaryScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("glossary.back")}
-                color={colors.secondary.blue}
                 accessible
                 accessibilityLabel={translate("glossary.back")}
                 accessibilityHint={translate("glossary.backHint")}
@@ -57,8 +55,8 @@ const styles = StyleSheet.create({
         flex: 1,
         margin: 10,
         alignItems: "center",
-        backgroundColor: colors.primary.white,
-        shadowColor: colors.primary.black,
+        backgroundColor: "white",
+        shadowColor: "#000",
         shadowOffset: {
             width: 0,
             height: 2
