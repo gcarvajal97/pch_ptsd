@@ -61,11 +61,9 @@ const ResourceNav = createStackNavigator({
 const DrawerNav = createDrawerNavigator({
     Home: {
         screen: StackNav,
-        navigationOptions: 
+        navigationOptions:
         /* istanbul ignore next */
-        () => ({ 
-            title: translate("drawerNavigator.home")
-        })
+        () => ({ title: translate("drawerNavigator.home") })
     },
     Resources: {
         screen: ResourceNav,
@@ -78,10 +76,10 @@ const DrawerNav = createDrawerNavigator({
     Glossary: {
         screen: GlossaryNav,
         navigationOptions:
-        /* istanbul ignore next */
-        () => ({
-            title: translate("drawerNavigator.glossary")
-        })
+            /* istanbul ignore next */
+            () => ({
+                title: translate("drawerNavigator.glossary")
+            })
     }
 });
 

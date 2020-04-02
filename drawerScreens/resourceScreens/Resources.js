@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Linking } from "expo";
-import colors from '../../colors';
 
 function Resources(content) {
     if(content && content.length) {
@@ -39,7 +38,7 @@ export default Resources;
 const styles = StyleSheet.create({
     contentContainer: {
         padding: 20,
-        backgroundColor: colors.primary.white
+        backgroundColor: "white"
     },
     paragraph: {
         fontSize: 14,
@@ -48,7 +47,7 @@ const styles = StyleSheet.create({
     link: {
         fontSize: 16,
         fontWeight: "bold",
-        color: colors.secondary.blue,
+        color: "#2089DC",
         textDecorationLine: "underline",
         marginVertical: 2
     }
