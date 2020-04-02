@@ -24,8 +24,6 @@ import QuizResults from "../QuizScreens/QuizResults";
 import ResourceScreen from "../drawerScreens/resourceScreens/ResourceScreen";
 import GlossaryScreen from "../drawerScreens/glossaryScreens/GlossaryScreen";
 
-import colors from "../colors";
-
 const StackNav = createStackNavigator(
     {
         Home: MainScreen,

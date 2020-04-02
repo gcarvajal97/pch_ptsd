@@ -21,7 +21,7 @@ exports[`Resources renders one resource 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "padding": 20,
       }
     }
@@ -64,7 +64,7 @@ exports[`Resources renders properly in english 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "padding": 20,
       }
     }
@@ -102,7 +102,7 @@ exports[`Resources renders properly in spanish 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "padding": 20,
       }
     }
@@ -140,7 +140,7 @@ exports[`Resources renders two resources 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "padding": 20,
       }
     }
@@ -178,7 +178,7 @@ exports[`Resources renders two resources 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "padding": 20,
       }
     }
