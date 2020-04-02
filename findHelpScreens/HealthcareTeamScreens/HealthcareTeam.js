@@ -15,6 +15,7 @@ import IntheED from "./InTheED";
 import InTheHospital from "./InTheHospital";
 import AfterTheHospital from "./AfterTheHospital";
 import healthTeam from "../../assets/healthTeam.jpg";
+import colors from '../../colors';
 
 // List of screens that will be dispalyed in this list component
 
@@ -158,8 +159,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         margin: 10,
-        backgroundColor: "white",
-        shadowColor: "#000",
+        backgroundColor: colors.primary.white,
+        shadowColor: colors.primary.black,
         shadowOffset: {
             width: 0,
             height: 2
@@ -170,15 +171,14 @@ const styles = StyleSheet.create({
         elevation: 4
     },
     title: {
-        backgroundColor: "#2089DC",
-        color: "white",
+        backgroundColor: colors.accent,
+        color: colors.primary.white,
         fontWeight: "bold",
         fontSize: 22,
         textAlign: "center",
         alignSelf: "stretch"
     },
     header: {
-        backgroundColor: "#F5FCFF",
         padding: 10
     },
     headerText: {
@@ -195,13 +195,13 @@ const styles = StyleSheet.create({
     },
     content: {
         padding: 20,
-        backgroundColor: "#fff"
+        backgroundColor: colors.primary.white
     },
     active: {
-        backgroundColor: "rgba(255,255,255,1)"
+        backgroundColor: colors.primary.white
     },
     inactive: {
-        backgroundColor: "rgba(245,252,255,1)"
+        backgroundColor: colors.primary.white
     },
     selectors: {
         marginBottom: 10,
@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
         justifyContent: "center"
     },
     selector: {
-        backgroundColor: "#F5FCFF",
+        backgroundColor: colors.primary.white,
         padding: 10
     },
     activeSelector: {
@@ -221,14 +221,14 @@ const styles = StyleSheet.create({
         padding: 10
     },
     subTitle: {
-        backgroundColor: "#2089DC",
-        color: "white",
+        backgroundColor: colors.accent,
+        color: colors.primary.white,
         alignSelf: "stretch",
         paddingLeft: 15,
         paddingRight: 15,
         fontSize: 15,
         borderBottomWidth: 2,
-        borderBottomColor: "#2089DC"
+        borderBottomColor: colors.accent
     },
     paragraphTitle: {
         fontWeight: "bold",
@@ -237,7 +237,7 @@ const styles = StyleSheet.create({
         textAlign: "left",
         marginTop: 3,
         marginBottom: 2,
-        color: "#2089DC",
+        color: colors.accent,
         paddingLeft: 4,
         paddingRight: 1
     }

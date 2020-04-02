@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
 import translate, { getVideo } from "../components/translateService";
+import colors from '../colors';
 
 const videos = {
     en: require("../assets/videos/vidHowToTalk.mp4"),
@@ -32,7 +33,7 @@ class HowToTalk extends Component {
                     resizeMode={Video.RESIZE_MODE_COVER}
                     shouldPlay
                     useNativeControls
-                    style={{ height: 204, width: '100%', maxHeight: 254, borderColor: '#2089DC', borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
+                    style={{ height: 204, width: '100%', maxHeight: 254, borderColor: colors.accent, borderWidth: 14, borderTopWidth: 0, borderBottomWidth: 0, marginBottom:-1}}
                     accessible
                     accessibilityLabel={translate('howToTalk.accessibilityLabel')}
                     accessibilityHint={translate('howToTalk.accessibilityHint')}
@@ -95,8 +96,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         margin: 10,
-        backgroundColor: 'white',
-        shadowColor: "#000",
+        backgroundColor: colors.primary.white,
+        shadowColor: colors.primary.black,
         shadowOffset: {
             width: 0,
             height: 2,
@@ -106,22 +107,22 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     title: {
-        backgroundColor: '#2089DC',
-        color: 'white',
+        backgroundColor: colors.accent,
+        color: colors.primary.white,
         fontWeight: 'bold',
         fontSize: 22,
         textAlign: 'center',
         alignSelf: 'stretch'
     },
     subTitle: {
-        backgroundColor: '#2089DC',
-        color: 'white',
+        backgroundColor: colors.accent,
+        color: colors.primary.white,
         alignSelf: 'stretch',
         paddingLeft: 15,
         paddingRight:15,
         fontSize: 15,
         borderBottomWidth:2,
-        borderBottomColor:'#2089DC',
+        borderBottomColor: colors.accent,
     },
     paragraphTitle: {
         fontWeight: 'bold',
@@ -131,7 +132,7 @@ const styles = StyleSheet.create({
         marginLeft:5,
         marginTop:4,
         marginBottom:3,
-        color:'#2089DC'
+        color: colors.accent
     },
     bullet: {
         marginVertical:1,

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import translate from '../../components/translateService';
+import colors from '../../colors';
 
 export default class UsingCrutchesScreen extends Component {
   render() {
@@ -59,7 +60,7 @@ const styles = StyleSheet.create({
     textAlign: 'left',
     marginTop: 6,
     marginBottom: 3,
-    color: '#2089DC'
+    color: colors.accent
   },
   paragraph: {
     textAlign: 'left',
