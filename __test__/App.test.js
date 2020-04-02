@@ -4,11 +4,11 @@ import App from "../App";
 import Enzyme, { shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 import { SplashScreen } from "expo";
-import { ExpoFontLoader } from "expo-font";
 
 Enzyme.configure({ adapter: new Adapter() });
 jest.mock("../components/MainNavigator");
 jest.mock("react-native/Libraries/Animated/src/NativeAnimatedHelper");
+jest.mock("expo-font");
 jest.mock("expo", () => ({
     SplashScreen: {
         hide: jest.fn(),
