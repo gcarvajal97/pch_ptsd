@@ -13,7 +13,8 @@ export default class LearnMoreCard extends Component {
                     textAlign: "center",
                     fontFamily: "avenir-medium",
                     fontStyle: null,
-                    fontWeight: null
+                    fontWeight: null,
+                    fontSize: 26
                 }}
                 image={require("../assets/LearnMoreMD.jpg")}
                 accessible
@@ -29,7 +30,8 @@ export default class LearnMoreCard extends Component {
                         borderRadius: 0,
                         marginLeft: 0,
                         marginRight: 0,
-                        marginBottom: 0
+                        marginBottom: 0,
+                        backgroundColor: colors.accent
                     }}
                     title={translate("mainScreen.learnButton")}
                     titleStyle={{ fontFamily: "avenir-medium" }}

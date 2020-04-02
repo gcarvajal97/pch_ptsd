@@ -4,16 +4,17 @@ import { Card, Button as CardButton } from "react-native-elements";
 import NavigationService from "../components/NavigationService";
 import translate from "./translateService";
 
-// Card view component: to be displayed on the main screen
 export default class QuizCard extends Component {
     render() {
         return (
             <Card
                 featuredTitle={translate("mainScreen.quizTitle")}
                 featuredTitleStyle={{
+                    textAlign: "center",
                     fontFamily: "avenir-medium",
                     fontStyle: null,
-                    fontWeight: null
+                    fontWeight: null,
+                    fontSize: 26
                 }}
                 image={require("../assets/QuizRateReactions.jpg")}
                 accessible
@@ -24,11 +25,13 @@ export default class QuizCard extends Component {
                 </Text>
                 <CardButton
                     onPress={() => NavigationService.navigate("Quiz")}
+                    testID="QuizCardButton"
                     buttonStyle={{
                         borderRadius: 0,
                         marginLeft: 0,
                         marginRight: 0,
-                        marginBottom: 0
+                        marginBottom: 0,
+                        backgroundColor: colors.accent
                     }}
                     title={translate("mainScreen.quizButton")}
                     titleStyle={{ fontFamily: "avenir-medium" }}
