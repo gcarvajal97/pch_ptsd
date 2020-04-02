@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { Video } from 'expo-av';
 import translate, { getVideo } from '../components/translateService';
+import colors from '../colors';
 
 const videos = {
     en: require("../assets/videos/vidAlone.mp4"),
@@ -18,7 +19,7 @@ class YoureNotAlone extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={{ backgroundColor: '#2089DC', color: 'white', fontWeight: 'bold', fontSize: 22, textAlign: 'center', alignSelf: 'stretch' }}>
+                <Text style={styles.title}>
                     {translate('youAreNotAlone.title')}
                 </Text>
                 <Video
@@ -32,7 +33,7 @@ class YoureNotAlone extends Component {
                         height: 204, 
                         width: '100%', 
                         maxHeight: 254, 
-                        borderColor: '#2089DC', 
+                        borderColor: colors.accent, 
                         borderWidth: 14, 
                         borderTopWidth: 0, 
                         borderBottomWidth: 0, 
@@ -46,12 +47,21 @@ class YoureNotAlone extends Component {
                         'youAreNotAlone.content.videoCard.accessibility'
                         )}
                 />
-                <Text style={{ backgroundColor: '#2089DC', color: 'white', alignSelf: 'stretch', paddingLeft: 15, fontSize: 15, borderBottomWidth:2, borderBottomColor:'#2089DC'}}>
+                <Text style={styles.subTitle}>
                     <Text style={{ fontWeight: 'bold' }}>{translate('youAreNotAlone.content.videoCard.boldText')}</Text> 
                     {translate('youAreNotAlone.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
-                <Text style={{fontWeight: 'bold', fontSize:20, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:4, marginBottom:3, color:'#2089DC'}}>
+                <Text style={{
+                    fontWeight: 'bold', 
+                    fontSize:20, 
+                    alignSelf:'stretch', 
+                    textAlign:'left',
+                    marginLeft:5, 
+                    marginTop:4, 
+                    marginBottom:3, 
+                    color: colors.accent
+                }}>
                     {translate('youAreNotAlone.content.statsBullets.intro')}
                     </Text>
                 <Text style={styles.bullet}>{translate('youAreNotAlone.content.statsBullets.bulletOne')}</Text>
@@ -68,34 +78,71 @@ export default YoureNotAlone;
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        alignItems: 'center',
-        margin: 10,
-        backgroundColor: 'white',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: 0.23,
-        shadowRadius: 2.62,
+      flex: 1,
+      alignItems: 'center',
+      margin: 10,
+      backgroundColor: colors.primary.white,
+      shadowColor: colors.primary.black,
+      shadowOffset: {
+          width: 0,
+          height: 2,
+      },
+      shadowOpacity: 0.23,
+      shadowRadius: 2.62,
 
-        elevation: 4,
-    },
-    bullet: {
-        marginVertical:1, 
-        marginHorizontal:18, 
-        textAlign:'left', 
-        alignSelf:'stretch', 
-        fontWeight:'bold',
-        fontSize:14,
-        paddingTop: 4,
-    },
-    paragraph: {
-        alignSelf:"center", 
-        paddingVertical:1, 
-        paddingHorizontal:5,
-        fontSize: 14,
-        marginTop: 5,
-    },
+      elevation: 4,
+  },
+  title: {
+      backgroundColor: colors.accent, 
+      color: colors.primary.white, 
+      fontWeight: 'bold', 
+      fontSize: 22, 
+      textAlign: 'center', 
+      alignSelf: 'stretch'
+  },
+  subTitle: {
+      backgroundColor: colors.accent, 
+      color: colors.primary.white, 
+      alignSelf: 'stretch', 
+      paddingLeft: 15, 
+      paddingRight: 15, 
+      fontSize: 15, 
+      borderBottomWidth: 2, 
+      borderBottomColor: colors.accent,
+  },
+  paragraphTitle: {
+      fontWeight: 'bold',
+      fontSize: 20,
+      alignSelf: 'stretch',
+      textAlign: 'left',
+      marginLeft: 5,
+      marginTop: 4,
+      marginBottom: 3,
+      color: colors.accent
+  },
+  bullet: {
+      marginVertical: 1, 
+      marginHorizontal: 18, 
+      textAlign: 'left', 
+      alignSelf: 'stretch', 
+      fontWeight: 'bold',
+      fontSize: 14
+  },
+  paragraph: {
+      alignSelf: "center", 
+      paddingVertical: 1, 
+      paddingHorizontal: 5,
+      fontSize: 14,
+      marginTop: 5,
+  },
+  link: {
+      alignSelf:"center", 
+      paddingVertical: 1, 
+      paddingHorizontal: 5,
+      fontSize: 16,
+      color: colors.accent,
+      textDecorationLine: 'underline',
+      marginTop: 4,
+      marginTop: 3,
+  }
 });

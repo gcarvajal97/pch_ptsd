@@ -5,11 +5,11 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,
@@ -23,8 +23,8 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "backgroundColor": "#2089DC",
-        "color": "white",
+        "backgroundColor": "#0077C8",
+        "color": "#FFFFFF",
         "fontSize": 22,
         "fontWeight": "bold",
         "textAlign": "center",
@@ -38,7 +38,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
     style={
       Object {
         "borderBottomWidth": 0,
-        "borderColor": "#2089DC",
+        "borderColor": "#0077C8",
         "borderTopWidth": 0,
         "borderWidth": 14,
         "height": 204,
@@ -90,10 +90,10 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "backgroundColor": "#2089DC",
-        "borderBottomColor": "#2089DC",
+        "backgroundColor": "#0077C8",
+        "borderBottomColor": "#0077C8",
         "borderBottomWidth": 2,
-        "color": "white",
+        "color": "#FFFFFF",
         "fontSize": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
@@ -116,6 +116,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -170,6 +171,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -192,7 +194,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -207,6 +209,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -219,6 +222,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -231,6 +235,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -244,7 +249,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -259,6 +264,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -271,6 +277,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -283,6 +290,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -296,7 +304,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -311,6 +319,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -351,6 +360,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -363,6 +373,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -403,6 +414,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -464,11 +476,11 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,
@@ -482,8 +494,8 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "backgroundColor": "#2089DC",
-        "color": "white",
+        "backgroundColor": "#0077C8",
+        "color": "#FFFFFF",
         "fontSize": 22,
         "fontWeight": "bold",
         "textAlign": "center",
@@ -497,7 +509,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
     style={
       Object {
         "borderBottomWidth": 0,
-        "borderColor": "#2089DC",
+        "borderColor": "#0077C8",
         "borderTopWidth": 0,
         "borderWidth": 14,
         "height": 204,
@@ -549,10 +561,10 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
     style={
       Object {
         "alignSelf": "stretch",
-        "backgroundColor": "#2089DC",
-        "borderBottomColor": "#2089DC",
+        "backgroundColor": "#0077C8",
+        "borderBottomColor": "#0077C8",
         "borderBottomWidth": 2,
-        "color": "white",
+        "color": "#FFFFFF",
         "fontSize": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
@@ -575,6 +587,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -629,6 +642,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -651,7 +665,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -666,6 +680,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -678,6 +693,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -690,6 +706,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -703,7 +720,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -718,6 +735,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -730,6 +748,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -742,6 +761,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -755,7 +775,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 20,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -770,6 +790,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -810,6 +831,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -822,6 +844,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -862,6 +885,7 @@ exports[`TraumaticStressReactions renders correctly in Spanish 1`] = `
       <Text
         style={
           Object {
+            "alignSelf": "center",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,

@@ -4,6 +4,7 @@ import { View, StyleSheet, Text, ScrollView, Dimensions} from "react-native";
 import { Video } from 'expo-av';
 import { Linking } from "expo";
 import translate, { getVideo } from '../components/translateService';
+import colors from '../colors';
 
 const videos = {
     en: require("../assets/videos/vidHowLong.mp4"),
@@ -39,7 +40,7 @@ class HowLongScreen extends Component {
                         height: 204, 
                         width: '100%',
                         maxHeight: 254, 
-                        borderColor: '#2089DC', 
+                        borderColor: colors.accent, 
                         borderWidth: 14, 
                         borderTopWidth: 0, 
                         borderBottomWidth: 0, 
@@ -81,7 +82,15 @@ class HowLongScreen extends Component {
                     <Text style={styles.paragraph}>
                     {translate('howLong.content.whatIsPTSDParagraph.paragraphTwo')}
                     </Text>
-                    <Text style={{fontWeight: 'bold', fontSize:16, alignSelf:'stretch', textAlign:'left',marginLeft:5, marginTop:4, marginBottom:3}}>
+                    <Text style={{
+                        fontWeight: 'bold', 
+                        fontSize:16, 
+                        alignSelf:'stretch', 
+                        textAlign:'left',
+                        marginLeft:5, 
+                        marginTop:4, 
+                        marginBottom:3
+                    }}>
                     {translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.title')}
                     </Text>
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletOne')}</Text>
@@ -111,8 +120,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         margin: 10,
-        backgroundColor: 'white',
-        shadowColor: "#000",
+        backgroundColor: colors.primary.white,
+        shadowColor: colors.primary.black,
         shadowOffset: {
             width: 0,
             height: 2,
@@ -123,54 +132,54 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     title: {
-        backgroundColor: '#2089DC', 
-        color: 'white', 
+        backgroundColor: colors.accent, 
+        color: colors.primary.white, 
         fontWeight: 'bold', 
         fontSize: 22, 
         textAlign: 'center', 
         alignSelf: 'stretch'
     },
     subTitle: {
-        backgroundColor: '#2089DC', 
-        color: 'white', 
+        backgroundColor: colors.accent, 
+        color: colors.primary.white, 
         alignSelf: 'stretch', 
         paddingLeft: 15, 
-        paddingRight:15, 
+        paddingRight: 15, 
         fontSize: 15, 
-        borderBottomWidth:2, 
-        borderBottomColor:'#2089DC',
+        borderBottomWidth: 2, 
+        borderBottomColor: colors.accent,
     },
     paragraphTitle: {
         fontWeight: 'bold',
-        fontSize:20,
-        alignSelf:'stretch',
-        textAlign:'left',
-        marginLeft:5,
-        marginTop:4,
-        marginBottom:3,
-        color:'#2089DC'
+        fontSize: 20,
+        alignSelf: 'stretch',
+        textAlign: 'left',
+        marginLeft: 5,
+        marginTop: 4,
+        marginBottom: 3,
+        color: colors.accent
     },
     bullet: {
-        marginVertical:1, 
-        marginHorizontal:18, 
-        textAlign:'left', 
-        alignSelf:'stretch', 
-        fontWeight:'bold',
-        fontSize:14
+        marginVertical: 1, 
+        marginHorizontal: 18, 
+        textAlign: 'left', 
+        alignSelf: 'stretch', 
+        fontWeight: 'bold',
+        fontSize: 14
     },
     paragraph: {
-        alignSelf:"center", 
-        paddingVertical:1, 
-        paddingHorizontal:5,
+        alignSelf: "center", 
+        paddingVertical: 1, 
+        paddingHorizontal: 5,
         fontSize: 14,
         marginTop: 5,
     },
     link: {
         alignSelf:"center", 
-        paddingVertical:1, 
-        paddingHorizontal:5,
+        paddingVertical: 1, 
+        paddingHorizontal: 5,
         fontSize: 16,
-        color:'#2089DC',
+        color: colors.accent,
         textDecorationLine: 'underline',
         marginTop: 4,
         marginTop: 3,
