@@ -157,8 +157,10 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "color": "white",
+                      "fontFamily": "avenir-medium",
                       "fontSize": 22.5,
-                      "fontWeight": "800",
+                      "fontStyle": null,
+                      "fontWeight": null,
                       "marginBottom": 8,
                       "textAlign": "center",
                     }
@@ -216,7 +218,7 @@ exports[`MainScreen matches Snapshot 1`] = `
             <Text
               style={
                 Object {
-                  "marginBottom": 5,
+                  "marginBottom": 10,
                 }
               }
             >
@@ -251,7 +253,7 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "alignItems": "center",
-                      "backgroundColor": "#0077C8",
+                      "backgroundColor": "#2089dc",
                       "borderColor": "#2089dc",
                       "borderRadius": 0,
                       "borderWidth": 0,
@@ -268,6 +270,7 @@ exports[`MainScreen matches Snapshot 1`] = `
                     style={
                       Object {
                         "color": "white",
+                        "fontFamily": "avenir-medium",
                         "fontSize": 18,
                         "paddingBottom": 1,
                         "paddingTop": 2,
@@ -438,8 +441,10 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "color": "white",
+                      "fontFamily": "avenir-medium",
                       "fontSize": 22.5,
-                      "fontWeight": "800",
+                      "fontStyle": null,
+                      "fontWeight": null,
                       "marginBottom": 8,
                     }
                   }
@@ -496,7 +501,7 @@ exports[`MainScreen matches Snapshot 1`] = `
             <Text
               style={
                 Object {
-                  "marginBottom": 5,
+                  "marginBottom": 10,
                 }
               }
             >
@@ -530,7 +535,7 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "alignItems": "center",
-                      "backgroundColor": "#0077C8",
+                      "backgroundColor": "#2089dc",
                       "borderColor": "#2089dc",
                       "borderRadius": 0,
                       "borderWidth": 0,
@@ -547,6 +552,7 @@ exports[`MainScreen matches Snapshot 1`] = `
                     style={
                       Object {
                         "color": "white",
+                        "fontFamily": "avenir-medium",
                         "fontSize": 18,
                         "paddingBottom": 1,
                         "paddingTop": 2,
@@ -717,8 +723,10 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "color": "white",
+                      "fontFamily": "avenir-medium",
                       "fontSize": 22.5,
-                      "fontWeight": "800",
+                      "fontStyle": null,
+                      "fontWeight": null,
                       "marginBottom": 8,
                     }
                   }
@@ -775,7 +783,7 @@ exports[`MainScreen matches Snapshot 1`] = `
             <Text
               style={
                 Object {
-                  "marginBottom": 5,
+                  "marginBottom": 10,
                 }
               }
             >
@@ -810,14 +818,13 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "alignItems": "center",
-                      "backgroundColor": "#0077C8",
+                      "backgroundColor": "#2089dc",
                       "borderColor": "#2089dc",
-                      "borderRadius": 0,
+                      "borderRadius": 3,
                       "borderWidth": 0,
                       "flexDirection": "row",
                       "justifyContent": "center",
                       "marginBottom": 0,
-                      "marginLeft": 0,
                       "marginRight": 0,
                       "padding": 8,
                     }
@@ -827,6 +834,7 @@ exports[`MainScreen matches Snapshot 1`] = `
                     style={
                       Object {
                         "color": "white",
+                        "fontFamily": "avenir-medium",
                         "fontSize": 18,
                         "paddingBottom": 1,
                         "paddingTop": 2,
