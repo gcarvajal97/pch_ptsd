@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`App hides the splash screen and renders the app when the font is loaded 1`] = `ShallowWrapper {}`;
+
 exports[`App matches Snapshot 1`] = `null`;

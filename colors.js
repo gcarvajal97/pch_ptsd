@@ -8,7 +8,7 @@ export default colors = {
         white: "#FFFFFF"
     },
     secondary: {
-        orange: "#F2A900", 
+        orange: "#F2A900",
         magenta: "#CE0F69",
         lightBlue: "#00A9CE",
         blueGreen: "#009CA6",

@@ -155,8 +155,10 @@ exports[`LearnMoreCard matches Snapshot 1`] = `
               style={
                 Object {
                   "color": "white",
-                  "fontSize": 22.5,
-                  "fontWeight": "800",
+                  "fontFamily": "avenir-medium",
+                  "fontSize": 26,
+                  "fontStyle": null,
+                  "fontWeight": null,
                   "marginBottom": 8,
                   "textAlign": "center",
                 }
@@ -214,7 +216,7 @@ exports[`LearnMoreCard matches Snapshot 1`] = `
         <Text
           style={
             Object {
-              "marginBottom": 5,
+              "marginBottom": 10,
             }
           }
         >
@@ -266,6 +268,7 @@ exports[`LearnMoreCard matches Snapshot 1`] = `
                 style={
                   Object {
                     "color": "white",
+                    "fontFamily": "avenir-medium",
                     "fontSize": 18,
                     "paddingBottom": 1,
                     "paddingTop": 2,
