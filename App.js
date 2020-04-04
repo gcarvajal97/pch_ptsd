@@ -18,7 +18,8 @@ export default class App extends React.Component {
     async componentDidMount() {
         SplashScreen.preventAutoHide();
         await Font.loadAsync({
-            "avenir-medium": require("./assets/fonts/Avenir-Medium.ttf")
+            "avenir-medium": require("./assets/fonts/Avenir-Medium.ttf"),
+            "avenir-heavy": require("./assets/fonts/Avenir-Heavy.ttf")
         });
         // Having issues mocking the expo-font module
         // Not sure if we can actually reach this code in a test.

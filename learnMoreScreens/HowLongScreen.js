@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent, 
         color: colors.primary.white, 
-        fontWeight: 'bold', 
+        fontFamily: "avenir-heavy",
         fontSize: 22, 
         textAlign: 'center', 
         alignSelf: 'stretch'
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
         borderBottomColor: colors.accent,
     },
     paragraphTitle: {
-        fontWeight: 'bold',
+        fontFamily: "avenir-heavy",
         fontSize: 20,
         alignSelf: 'stretch',
         textAlign: 'left',
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 18, 
         textAlign: 'left', 
         alignSelf: 'stretch', 
-        fontWeight: 'bold',
+        fontFamily: "avenir-heavy",
         fontSize: 14
     },
     paragraph: {
