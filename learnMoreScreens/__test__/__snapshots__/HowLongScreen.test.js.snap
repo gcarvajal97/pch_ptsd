@@ -25,8 +25,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#0077C8",
         "color": "#FFFFFF",
+        "fontFamily": "avenir-heavy",
         "fontSize": 22,
-        "fontWeight": "bold",
         "textAlign": "center",
       }
     }
@@ -157,8 +157,8 @@ exports[`HowLongScreen renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -186,8 +186,8 @@ exports[`HowLongScreen renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -201,8 +201,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -215,8 +215,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -229,8 +229,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -244,8 +244,8 @@ exports[`HowLongScreen renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -272,8 +272,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -286,8 +286,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -341,8 +341,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -355,8 +355,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -369,8 +369,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -442,8 +442,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#0077C8",
         "color": "#FFFFFF",
+        "fontFamily": "avenir-heavy",
         "fontSize": 22,
-        "fontWeight": "bold",
         "textAlign": "center",
       }
     }
@@ -574,8 +574,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -603,8 +603,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -618,8 +618,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -632,8 +632,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -646,8 +646,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -661,8 +661,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -689,8 +689,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -703,8 +703,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -758,8 +758,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -772,8 +772,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -786,8 +786,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
