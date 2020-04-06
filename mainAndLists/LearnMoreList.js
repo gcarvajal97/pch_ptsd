@@ -33,7 +33,7 @@ export default class LearnMoreList extends Component {
                                         containerStyle={{paddingLeft:14, paddingVertical:12, paddingRight:0}}
                                         key={i}
                                         title={l.name}
-                                        titleStyle={{fontSize:19, alignContent:'stretch', color: colors.primary.black}}
+                                        titleStyle={{fontSize:19, alignContent:'stretch', fontFamily:'avenir-medium', color: colors.primary.black}}
                                         onPress={()=>{NavigationService.navigate(l.navigateTo)}}
                                         accessible
                                         accessibilityLabel= {l.navigateTo}
