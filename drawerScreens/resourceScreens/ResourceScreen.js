@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import {Button, Platform, ScrollView, StyleSheet, View} from "react-native";
+import { Platform, ScrollView, StyleSheet, View } from "react-native";
+import { Button } from "react-native-elements";
 import NavigationService from "../../components/NavigationService";
 import translate, { getLocale } from "../../components/translateService";
 import ResourceScreenCard from "../resourceScreens/ResourceScreenCard";
@@ -24,6 +25,7 @@ class ResourceScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("resources.back")}
+                titleStyle={{fontFamily:"avenir-medium"}}
                 color={colors.accent}
                 accessible
                 accessibilityLabel={translate("glossary.back")}
