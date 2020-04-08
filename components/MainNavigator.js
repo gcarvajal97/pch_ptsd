@@ -87,6 +87,7 @@ const DrawerNav = createDrawerNavigator({
         /* istanbul ignore next */
         () => ({ title: translate("drawerNavigator.home") })
     },
+
     Resources: {
         screen: ResourceNav,
         navigationOptions:
@@ -95,15 +96,24 @@ const DrawerNav = createDrawerNavigator({
             title: translate("drawerNavigator.resources")
         })
     },
+
     Glossary: {
         screen: GlossaryNav,
         navigationOptions:
             /* istanbul ignore next */
             () => ({
-                title: translate("drawerNavigator.glossary")
+                title: translate("drawerNavigator.glossary"),
             })
-    }
-});
+    }}, 
+    {
+        contentOptions: {
+            labelStyle: {
+                fontStyle: null,
+                fontWeight: null,
+                fontFamily: "avenir-heavy"
+            }
+        }
+    });
 
 const mainStack = createStackNavigator(
     {
