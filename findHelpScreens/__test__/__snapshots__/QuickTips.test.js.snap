@@ -5,11 +5,11 @@ exports[`renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "white",
+      "backgroundColor": "#FFFFFF",
       "elevation": 4,
       "flex": 1,
       "margin": 10,
-      "shadowColor": "#000",
+      "shadowColor": "#000000",
       "shadowOffset": Object {
         "height": 2,
         "width": 0,
@@ -249,7 +249,7 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -278,7 +278,7 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -307,7 +307,7 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -336,7 +336,7 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -365,7 +365,7 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -394,7 +394,7 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "color": "#2089DC",
+            "color": "#0077C8",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
