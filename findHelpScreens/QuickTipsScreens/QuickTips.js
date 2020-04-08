@@ -79,12 +79,14 @@ const styles = StyleSheet.create({
       color: colors.primary.white, 
       fontWeight: 'bold', 
       fontSize: 22, 
+      fontFamily: "avenir-bold",
       textAlign: 'center', 
       alignSelf: 'stretch'
   },
   paragraphTitle: {
       fontWeight: 'bold',
       fontSize:16,
+      fontFamily: "avenir-bold",
       alignSelf:'stretch',
       textAlign:'left',
       marginLeft:5,
@@ -95,6 +97,7 @@ const styles = StyleSheet.create({
   paragraphTitleTop: {
     fontWeight: 'bold',
     fontSize:16,
+    fontFamily: "avenir-bold",
     alignSelf:'stretch',
     textAlign:'left',
     marginLeft:5,
@@ -107,6 +110,7 @@ const styles = StyleSheet.create({
       paddingVertical:1, 
       paddingHorizontal:5,
       fontSize: 14,
+      fontFamily: "avenir-medium",
       marginTop: 5,
   }
 });
