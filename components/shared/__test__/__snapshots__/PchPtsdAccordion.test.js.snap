@@ -247,3 +247,44 @@ exports[`PchPtsdAccordion renders single section correctly 1`] = `
   </View>
 </View>
 `;
+
+exports[`PchPtsdAccordion should render an active section properly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(255,255,255,1)",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "margin": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "fontWeight": "500",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      [-]
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "fontWeight": "500",
+          "paddingLeft": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
