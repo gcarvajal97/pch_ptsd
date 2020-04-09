@@ -23,7 +23,7 @@ class MainScreen extends Component {
                 onPress={()=>NavigationService.openDrawer()}
                 title={translate('mainScreen.more')}
                 titleStyle={{ fontStyle: null, fontWeight: null, fontFamily: "avenir-medium" }}
-                buttonStyle={{ backgroundColor: colors.accent, height: 42,}}
+                buttonStyle={{ backgroundColor: colors.accent, height: 42}}
                 accessible
                 accessibilityLabel={translate("mainScreen.more")}
                 accessibilityHint={translate("glossary.backHint")}>

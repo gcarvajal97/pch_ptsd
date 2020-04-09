@@ -25,8 +25,8 @@ class ResourceScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("resources.back")}
-                titleStyle={{fontFamily:"avenir-medium"}}
-                color={colors.accent}
+                titleStyle={{ fontFamily:"avenir-medium" }}
+                buttonStyle={{ backgroundColor: colors.accent }}
                 accessible
                 accessibilityLabel={translate("glossary.back")}
                 accessibilityHint={translate("glossary.backHint")}
