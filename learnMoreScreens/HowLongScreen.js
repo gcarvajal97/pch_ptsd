@@ -1,14 +1,14 @@
 import i18n from 'i18n-js';
-import React, { Component } from "react";
-import { View, StyleSheet, Text, ScrollView, Dimensions} from "react-native";
+import React, { Component } from 'react';
+import { View, StyleSheet, Text, ScrollView, Dimensions} from 'react-native';
 import { Video } from 'expo-av';
-import { Linking } from "expo";
+import { Linking } from 'expo';
 import translate, { getVideo } from '../components/translateService';
 import colors from '../colors';
 
 const videos = {
-    en: require("../assets/videos/vidHowLong.mp4"),
-    es: require("../assets/videos/vidHowLongEs.mp4"),
+    en: require('../assets/videos/vidHowLong.mp4'),
+    es: require('../assets/videos/vidHowLongEs.mp4'),
 };
 
 // Tested and works on iOS
@@ -55,7 +55,7 @@ class HowLongScreen extends Component {
                         )}
                 />
                 <Text style={styles.subTitle}>
-                    <Text style={{ fontWeight: 'bold' }}>{translate('howLong.content.videoCard.title')}</Text>
+                    <Text style={{ fontFamily: 'avenir-heavy' }}>{translate('howLong.content.videoCard.title')}</Text>
                     {translate('howLong.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
@@ -83,7 +83,7 @@ class HowLongScreen extends Component {
                     {translate('howLong.content.whatIsPTSDParagraph.paragraphTwo')}
                     </Text>
                     <Text style={{
-                        fontWeight: 'bold', 
+                        fontFamily: 'avenir-heavy', 
                         fontSize:16, 
                         alignSelf:'stretch', 
                         textAlign:'left',
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent, 
         color: colors.primary.white, 
-        fontFamily: "avenir-heavy",
+        fontFamily: 'avenir-heavy',
         fontSize: 22, 
         textAlign: 'center', 
         alignSelf: 'stretch'
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
         borderBottomColor: colors.accent,
     },
     paragraphTitle: {
-        fontFamily: "avenir-heavy",
+        fontFamily: 'avenir-heavy',
         fontSize: 20,
         alignSelf: 'stretch',
         textAlign: 'left',
@@ -164,18 +164,18 @@ const styles = StyleSheet.create({
         marginHorizontal: 18, 
         textAlign: 'left', 
         alignSelf: 'stretch', 
-        fontFamily: "avenir-heavy",
+        fontFamily: 'avenir-heavy',
         fontSize: 14
     },
     paragraph: {
-        alignSelf: "center", 
+        alignSelf: 'center', 
         paddingVertical: 1, 
         paddingHorizontal: 5,
         fontSize: 14,
         marginTop: 5,
     },
     link: {
-        alignSelf:"center", 
+        alignSelf:'center', 
         paddingVertical: 1, 
         paddingHorizontal: 5,
         fontSize: 16,

@@ -103,7 +103,7 @@ exports[`HowLongScreen renders correctly 1`] = `
     <Text
       style={
         Object {
-          "fontWeight": "bold",
+          "fontFamily": "avenir-heavy",
         }
       }
     >
@@ -326,8 +326,8 @@ exports[`HowLongScreen renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 16,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -520,7 +520,7 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
     <Text
       style={
         Object {
-          "fontWeight": "bold",
+          "fontFamily": "avenir-heavy",
         }
       }
     >
@@ -743,8 +743,8 @@ exports[`HowLongScreen renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 16,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
