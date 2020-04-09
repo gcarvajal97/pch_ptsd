@@ -275,11 +275,11 @@ class QuizMain extends Component {
                     />
 
                     <Text style={styles.finePrint}>
-                        <Text style={{ fontWeight: "bold" }}>
+                        <Text style={{ fontFamily: "avenir-heavy" }}>
                             {translate("quizMain.note")}
                         </Text>
                         {translate("quizMain.disclaimer1")}
-                        <Text style={{ fontWeight: "bold" }}>
+                        <Text style={{ fontFamily: "avenir-heavy" }}>
                             {translate("quizMain.toHealthProf")}
                         </Text>
                         {translate("quizMain.disclaimer2")}
@@ -333,7 +333,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 18,
         textAlign: "left",
         alignSelf: "stretch",
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         fontSize: 14,
         paddingTop: 4
     },
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 12,
         fontSize: 15,
         marginTop: 5,
-        fontWeight: "bold"
+        fontFamily: "avenir-heavy"
     },
     paragraph: {
         marginVertical: 1,
@@ -357,7 +357,7 @@ const styles = StyleSheet.create({
         textAlign: "center"
     },
     questionTitle: {
-        fontWeight: "bold",
+        fontFamily: 'avenir-heavy',
         fontSize: 18,
         textAlign: "left",
         marginTop: 3,
