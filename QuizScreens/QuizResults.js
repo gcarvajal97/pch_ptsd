@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 18,
         textAlign: "left",
         alignSelf: "stretch",
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         fontSize: 14,
         paddingTop: 4
     },
@@ -140,13 +140,13 @@ const styles = StyleSheet.create({
     paragraphBold: {
         textAlign: "left",
         fontSize: 14,
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         marginTop: 5
     },
     title: {
         backgroundColor: colors.accent,
         color: colors.primary.white,
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         textAlign: "center",
         alignSelf: "stretch"
@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
     noResponse: {
         justifyContent: "center",
         alignItems: "center",
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         fontSize: 20,
         color: colors.accent,
         textAlign: "center",
