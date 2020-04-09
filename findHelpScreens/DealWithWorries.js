@@ -22,7 +22,7 @@ class DealWithWorries extends Component {
                     style={{
                         backgroundColor: colors.accent,
                         color: colors.primary.white,
-                        fontWeight: "bold",
+                        fontFamily: "avenir-bold",
                         fontSize: 22,
                         textAlign: "center",
                         alignSelf: "stretch"
@@ -62,10 +62,11 @@ class DealWithWorries extends Component {
                         paddingLeft: 15,
                         fontSize: 15,
                         borderBottomWidth: 2,
+                        fontFamily: "avenir-medium",
                         borderBottomColor: colors.accent
                     }}
                 >
-                    <Text style={{ fontWeight: "bold" }}>
+                    <Text style={{ fontFamily: "avenir-bold" }}>
                         {translate("dealWithWorries.video_subtitle_1")}
                     </Text>
                     {translate("dealWithWorries.video_subtitle_2")}
@@ -178,7 +179,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 18,
         textAlign: "left",
         alignSelf: "stretch",
-        fontWeight: "bold",
+        fontFamily: "avenir-bold",
         fontSize: 14,
         paddingTop: 4
     },
@@ -187,6 +188,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 18,
         textAlign: "left",
         alignSelf: "stretch",
+        fontFamily: "avenir-medium",
         fontSize: 14,
         paddingTop: 4
     },
@@ -195,6 +197,7 @@ const styles = StyleSheet.create({
         paddingVertical: 1,
         paddingHorizontal: 5,
         fontSize: 14,
+        fontFamily: "avenir-medium",
         marginTop: 5
     },
     paragraphBold: {
@@ -203,10 +206,10 @@ const styles = StyleSheet.create({
         paddingHorizontal: 5,
         fontSize: 14,
         marginTop: 5,
-        fontWeight: "bold"
+        fontFamily: "avenir-bold"
     },
     headline: {
-        fontWeight: "bold",
+        fontFamily: "avenir-bold",
         fontSize: 20,
         alignSelf: "stretch",
         textAlign: "left",
