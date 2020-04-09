@@ -22,7 +22,7 @@ class DealWithWorries extends Component {
                     style={{
                         backgroundColor: colors.accent,
                         color: colors.primary.white,
-                        fontFamily: "avenir-bold",
+                        fontFamily: "avenir-heavy",
                         fontSize: 22,
                         textAlign: "center",
                         alignSelf: "stretch"
@@ -66,7 +66,7 @@ class DealWithWorries extends Component {
                         borderBottomColor: colors.accent
                     }}
                 >
-                    <Text style={{ fontFamily: "avenir-bold" }}>
+                    <Text style={{ fontFamily: "avenir-heavy" }}>
                         {translate("dealWithWorries.video_subtitle_1")}
                     </Text>
                     {translate("dealWithWorries.video_subtitle_2")}
@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 18,
         textAlign: "left",
         alignSelf: "stretch",
-        fontFamily: "avenir-bold",
+        fontFamily: "avenir-heavy",
         fontSize: 14,
         paddingTop: 4
     },
@@ -206,10 +206,10 @@ const styles = StyleSheet.create({
         paddingHorizontal: 5,
         fontSize: 14,
         marginTop: 5,
-        fontFamily: "avenir-bold"
+        fontFamily: "avenir-heavy"
     },
     headline: {
-        fontFamily: "avenir-bold",
+        fontFamily: "avenir-heavy",
         fontSize: 20,
         alignSelf: "stretch",
         textAlign: "left",
