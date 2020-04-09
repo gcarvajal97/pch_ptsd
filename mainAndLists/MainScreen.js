@@ -3,10 +3,10 @@ import i18n from 'i18n-js';
 import React, { Component } from "react";
 import { ScrollView, View } from "react-native";
 import { Button } from "react-native-elements";
-import FindHelpCard from '../components/FindHelpCard';
-import LearnMoreCard from '../components/LearnMoreCard';
+import FindHelpCard from '../mainAndLists/FindHelpCard';
+import LearnMoreCard from '../mainAndLists/LearnMoreCard';
 import NavigationService from '../components/NavigationService';
-import QuizCard from '../components/QuizCard';
+import QuizCard from '../mainAndLists/QuizCard';
 import { translate } from '../components/translateService';
 import colors from '../colors';
 
@@ -23,7 +23,7 @@ class MainScreen extends Component {
                 onPress={()=>NavigationService.openDrawer()}
                 title={translate('mainScreen.more')}
                 titleStyle={{ fontStyle: null, fontWeight: null, fontFamily: "avenir-medium" }}
-                buttonStyle={{ backgroundColor: colors.accent }}
+                buttonStyle={{ backgroundColor: colors.accent, height: 42}}
                 accessible
                 accessibilityLabel={translate("mainScreen.more")}
                 accessibilityHint={translate("glossary.backHint")}>

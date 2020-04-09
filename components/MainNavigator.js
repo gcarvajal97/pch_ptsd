@@ -18,8 +18,8 @@ import InjuryPainCare from "../findHelpScreens/InjuryPainCareScreens/InjuryPainC
 import DealWithWorries from "../findHelpScreens/DealWithWorries";
 import HealthcareTeam from "../findHelpScreens/HealthcareTeamScreens/HealthcareTeam";
 import SelfCare from "../findHelpScreens/selfCareScreens/SelfCare";
-import QuizMain from "../QuizScreens/QuizMain";
-import QuizResults from "../QuizScreens/QuizResults";
+import QuizMain from "../quizScreens/QuizMain";
+import QuizResults from "../quizScreens/QuizResults";
 import ResourceScreen from "../drawerScreens/resourceScreens/ResourceScreen";
 import GlossaryScreen from "../drawerScreens/glossaryScreens/GlossaryScreen";
 
@@ -87,6 +87,7 @@ const DrawerNav = createDrawerNavigator({
         /* istanbul ignore next */
         () => ({ title: translate("drawerNavigator.home") })
     },
+
     Resources: {
         screen: ResourceNav,
         navigationOptions:
@@ -95,15 +96,24 @@ const DrawerNav = createDrawerNavigator({
             title: translate("drawerNavigator.resources")
         })
     },
+
     Glossary: {
         screen: GlossaryNav,
         navigationOptions:
             /* istanbul ignore next */
             () => ({
-                title: translate("drawerNavigator.glossary")
+                title: translate("drawerNavigator.glossary"),
             })
-    }
-});
+    }}, 
+    {
+        contentOptions: {
+            labelStyle: {
+                fontStyle: null,
+                fontWeight: null,
+                fontFamily: "avenir-heavy"
+            }
+        }
+    });
 
 const mainStack = createStackNavigator(
     {

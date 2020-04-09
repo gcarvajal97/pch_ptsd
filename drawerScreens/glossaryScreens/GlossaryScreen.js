@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Button, Platform, ScrollView, StyleSheet, View } from "react-native";
+import { Platform, ScrollView, StyleSheet, View } from "react-native";
+import { Button } from "react-native-elements";
 import NavigationService from "../../components/NavigationService";
 import PchPtsdAccordion from "../../components/shared/PchPtsdAccordion";
 import translate, { getLocale } from "../../components/translateService";
@@ -24,7 +25,8 @@ class GlossaryScreen extends Component {
             <Button
                 onPress={() => NavigationService.navigateDrawer("Home")}
                 title={translate("glossary.back")}
-                color={colors.accent}
+                titleStyle={{ fontFamily: "avenir-medium" }}
+                buttonStyle={{ backgroundColor: colors.accent }}
                 accessible
                 accessibilityLabel={translate("glossary.back")}
                 accessibilityHint={translate("glossary.backHint")}
