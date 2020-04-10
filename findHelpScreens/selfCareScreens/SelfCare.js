@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent,
         color: colors.primary.white,
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         textAlign: "center",
         alignSelf: "stretch"
@@ -192,13 +192,15 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 16,
-        fontWeight: "500"
+        fontWeight: "500",
+        fontFamily: "avenir-medium"
     },
     paragraph: {
         alignSelf: "center",
         paddingVertical: 0,
         paddingHorizontal: 4,
         fontSize: 14,
+        fontFamily: "avenir-medium",
         marginTop: 0,
         marginBottom: 4
     },
@@ -222,11 +224,12 @@ const styles = StyleSheet.create({
         padding: 10
     },
     activeSelector: {
-        fontWeight: "bold"
+        fontFamily: "avenir-heavy"
     },
     selectTitle: {
         fontSize: 14,
         fontWeight: "500",
+        fontFamily: "avenir-medium",
         padding: 10
     },
     subTitle: {
@@ -236,11 +239,12 @@ const styles = StyleSheet.create({
         paddingLeft: 15,
         paddingRight: 15,
         fontSize: 15,
+        fontFamily: "avenir-medium",
         borderBottomWidth: 2,
         borderBottomColor: colors.accent
     },
     paragraphTitle: {
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         alignSelf: "stretch",
         textAlign: "left",
