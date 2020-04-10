@@ -82,6 +82,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "1": e })}
                         selectedIndex={this.state[1]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -93,6 +94,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "2": e })}
                         selectedIndex={this.state[2]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -104,6 +106,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "3": e })}
                         selectedIndex={this.state[3]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
 
@@ -119,6 +122,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "4": e })}
                         selectedIndex={this.state[4]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -129,6 +133,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "5": e })}
                         selectedIndex={this.state[5]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -139,6 +144,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "6": e })}
                         selectedIndex={this.state[6]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -149,6 +155,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "7": e })}
                         selectedIndex={this.state[7]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -159,6 +166,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "8": e })}
                         selectedIndex={this.state[8]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
 
@@ -173,6 +181,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "9": e })}
                         selectedIndex={this.state[9]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -183,6 +192,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "10": e })}
                         selectedIndex={this.state[10]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -193,6 +203,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "11": e })}
                         selectedIndex={this.state[11]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -203,6 +214,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "12": e })}
                         selectedIndex={this.state[12]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -213,6 +225,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "13": e })}
                         selectedIndex={this.state[13]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
 
@@ -227,6 +240,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "14": e })}
                         selectedIndex={this.state[14]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -237,6 +251,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "15": e })}
                         selectedIndex={this.state[15]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -247,6 +262,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "16": e })}
                         selectedIndex={this.state[16]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
 
@@ -261,6 +277,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "17": e })}
                         selectedIndex={this.state[17]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
                     <Text style={styles.question}>
@@ -271,6 +288,7 @@ class QuizMain extends Component {
                         onPress={e => this.setState({ "18": e })}
                         selectedIndex={this.state[18]}
                         selectedButtonStyle={styles.selectedButton}
+                        textStyle={styles.buttonTextStyle}
                         containerStyle={styles.buttonGroupContainer}
                     />
 
@@ -291,6 +309,7 @@ class QuizMain extends Component {
                             });
                         }}
                         title="Submit"
+                        titleStyle={styles.buttonTextStyle}
                         buttonStyle={styles.submitButton}
                         raised
                         containerStyle={{
@@ -357,7 +376,7 @@ const styles = StyleSheet.create({
         textAlign: "center"
     },
     questionTitle: {
-        fontFamily: 'avenir-heavy',
+        fontFamily: "avenir-heavy",
         fontSize: 18,
         textAlign: "left",
         marginTop: 3,
@@ -366,10 +385,13 @@ const styles = StyleSheet.create({
         paddingLeft: 6,
         paddingRight: 6
     },
+    buttonTextStyle: {
+        fontFamily: "avenir-medium"
+    },
     selectedButton: {
         backgroundColor: colors.accent
     },
     submitButton: {
-      backgroundColor: colors.accent
+        backgroundColor: colors.accent
     }
 });
