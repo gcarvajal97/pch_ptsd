@@ -25,8 +25,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#0077C8",
         "color": "#FFFFFF",
+        "fontFamily": "avenir-heavy",
         "fontSize": 22,
-        "fontWeight": "bold",
         "textAlign": "center",
       }
     }
@@ -102,7 +102,7 @@ exports[`ReactionsToInjury renders correctly 1`] = `
     <Text
       style={
         Object {
-          "fontWeight": "bold",
+          "fontFamily": "avenir-heavy",
         }
       }
     >
@@ -141,8 +141,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 8,
             "marginLeft": 5,
             "marginTop": 2,
@@ -156,8 +156,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -170,8 +170,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -184,8 +184,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -198,8 +198,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -212,8 +212,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginBottom": 6,
             "marginHorizontal": 18,
             "marginTop": 1,
@@ -228,8 +228,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 8,
             "marginLeft": 5,
             "marginTop": 2,
@@ -243,8 +243,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -257,8 +257,8 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginBottom": 6,
             "marginHorizontal": 18,
             "marginTop": 1,
@@ -282,7 +282,7 @@ exports[`ReactionsToInjury renders correctly 1`] = `
         <Text
           style={
             Object {
-              "fontWeight": "bold",
+              "fontFamily": "avenir-heavy",
             }
           }
         >
@@ -320,8 +320,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#0077C8",
         "color": "#FFFFFF",
+        "fontFamily": "avenir-heavy",
         "fontSize": 22,
-        "fontWeight": "bold",
         "textAlign": "center",
       }
     }
@@ -397,7 +397,7 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
     <Text
       style={
         Object {
-          "fontWeight": "bold",
+          "fontFamily": "avenir-heavy",
         }
       }
     >
@@ -436,8 +436,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 8,
             "marginLeft": 5,
             "marginTop": 2,
@@ -451,8 +451,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -465,8 +465,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -479,8 +479,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -493,8 +493,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -507,8 +507,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginBottom": 6,
             "marginHorizontal": 18,
             "marginTop": 1,
@@ -523,8 +523,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 20,
-            "fontWeight": "bold",
             "marginBottom": 8,
             "marginLeft": 5,
             "marginTop": 2,
@@ -538,8 +538,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -552,8 +552,8 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
+            "fontFamily": "avenir-heavy",
             "fontSize": 14,
-            "fontWeight": "bold",
             "marginBottom": 6,
             "marginHorizontal": 18,
             "marginTop": 1,
@@ -577,7 +577,7 @@ exports[`ReactionsToInjury renders correctly in Spanish 1`] = `
         <Text
           style={
             Object {
-              "fontWeight": "bold",
+              "fontFamily": "avenir-heavy",
             }
           }
         >

@@ -1,20 +1,20 @@
 import i18n from 'i18n-js';
-import React, { Component } from "react";
-import { View, StyleSheet, Text, ScrollView } from "react-native";
+import React, { Component } from 'react';
+import { View, StyleSheet, Text, ScrollView } from 'react-native';
 import { Video } from 'expo-av';
 import translate, { getVideo } from '../components/translateService';
 import colors from '../colors';
 
 const videos = {
-    en: require("../assets/videos/vidReactToInjury.mp4"),
-    es: require("../assets/videos/vidReactToInjuryEs.mp4"),
+    en: require('../assets/videos/vidReactToInjury.mp4'),
+    es: require('../assets/videos/vidReactToInjuryEs.mp4'),
   };
 
 class ReactionsToInjury extends Component {
 
     // Gives the NavBar a title for this specific screen
     static navigationOptions = {
-        headerTitle: translate("reactionsToInjury.header")
+        headerTitle: translate('reactionsToInjury.header')
     }
     render() {
         return (
@@ -44,14 +44,14 @@ class ReactionsToInjury extends Component {
                     accessibilityHint={translate('reactionsToInjury.content.videoCard.accessibility')}
                 />
                 <Text style={styles.subTitle}>
-                    <Text style={{ fontWeight: 'bold' }}>{translate('reactionsToInjury.content.videoCard.title')}</Text> 
+                    <Text style={{ fontFamily: 'avenir-heavy', }}>{translate('reactionsToInjury.content.videoCard.title')}</Text> 
                     {translate('reactionsToInjury.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
                     <Text style={styles.paragraph}>{translate('reactionsToInjury.content.paragraphOne')}</Text>
                     <Text style={styles.paragraph}>{translate('reactionsToInjury.content.paragraphTwo')}</Text>
                     <Text style={{
-                        fontWeight: 'bold', 
+                        fontFamily: 'avenir-heavy',
                         fontSize:20, 
                         alignSelf:'stretch', 
                         textAlign:'left',
@@ -68,7 +68,7 @@ class ReactionsToInjury extends Component {
                     <Text style={styles.bullet}>{translate('reactionsToInjury.content.bulletListOne.bulletFour')}</Text>
                     <Text style={styles.bulletLast}>{translate('reactionsToInjury.content.bulletListOne.bulletFive')}</Text>
                     <Text style={{
-                        fontWeight: 'bold', 
+                        fontFamily: 'avenir-heavy', 
                         fontSize:20, 
                         alignSelf:'stretch', 
                         textAlign:'left',
@@ -82,7 +82,7 @@ class ReactionsToInjury extends Component {
                     <Text style={styles.bullet}>{translate('reactionsToInjury.content.bulletListTwo.bulletOne')}</Text>
                     <Text style={styles.bulletLast}>{translate('reactionsToInjury.content.bulletListTwo.bulletTwo')}</Text>
                     <Text style={styles.paragraph}>{translate('reactionsToInjury.content.paragraphThree')}
-                    <Text style={{fontWeight:'bold'}}> {translate('reactionsToInjury.content.paragraphThreeBold')}</Text>
+                    <Text style={{fontFamily: 'avenir-heavy'}}> {translate('reactionsToInjury.content.paragraphThreeBold')}</Text>
                     </Text>        
                 </ScrollView>
             </View>
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
         marginHorizontal:18, 
         textAlign:'left', 
         alignSelf:'stretch', 
-        fontWeight:'bold',
+        fontFamily: 'avenir-heavy',
         fontSize:14
     },
     bulletLast: {
@@ -121,11 +121,11 @@ const styles = StyleSheet.create({
         marginHorizontal:18, 
         textAlign:'left', 
         alignSelf:'stretch', 
-        fontWeight:'bold',
+        fontFamily: 'avenir-heavy',
         fontSize:14
     },
     paragraph: {
-        alignSelf:"center", 
+        alignSelf:'center', 
         paddingVertical:1, 
         paddingHorizontal:5,
         fontSize: 14
@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent, 
         color: colors.primary.white, 
-        fontWeight: 'bold', 
+        fontFamily: 'avenir-heavy',
         fontSize: 22, 
         textAlign: 'center', 
         alignSelf: 'stretch'
