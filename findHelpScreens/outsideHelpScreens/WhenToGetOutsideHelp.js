@@ -105,7 +105,7 @@ export default class WhenToGetOutsideHelpScreen extends Component {
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card
                         image={whenToGetHelpImage}
-                        featuredTitleStyle={{ fontSize: 40 }}
+                        featuredTitleStyle={{ fontSize: 40, fontFamily: "avenir-medium"}}
                         containerStyle={{ margin: 8 }}
                         featuredTitle={translate(
                             "whenToGetOutsideHelp.featuredTitle"
@@ -119,7 +119,7 @@ export default class WhenToGetOutsideHelpScreen extends Component {
                             style={{
                                 margin: -6,
                                 textAlign: "center",
-                                fontWeight: "bold"
+                                fontFamily: "avenir-heavy"
                             }}
                         >
                             {translate("whenToGetOutsideHelp.subTitle")}
@@ -166,7 +166,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent,
         color: colors.primary.white,
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         textAlign: "center",
         alignSelf: "stretch"
@@ -177,7 +177,8 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 16,
-        fontWeight: "500"
+        fontWeight: "500",
+        fontFamily: "avenir-medium",
     },
     paragraph: {
         alignSelf: "center",
@@ -185,7 +186,8 @@ const styles = StyleSheet.create({
         paddingHorizontal: 4,
         fontSize: 14,
         marginTop: 0,
-        marginBottom: 4
+        marginBottom: 4,
+        fontFamily: "avenir-medium",
     },
     content: {
         padding: 20,
@@ -207,11 +209,12 @@ const styles = StyleSheet.create({
         padding: 10
     },
     activeSelector: {
-        fontWeight: "bold"
+        fontFamily: "avenir-heavy"
     },
     selectTitle: {
         fontSize: 14,
         fontWeight: "500",
+        fontFamily: "avenir-medium",
         padding: 10
     },
     subTitle: {
@@ -225,7 +228,7 @@ const styles = StyleSheet.create({
         borderBottomColor: colors.accent
     },
     paragraphTitle: {
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         alignSelf: "stretch",
         textAlign: "left",

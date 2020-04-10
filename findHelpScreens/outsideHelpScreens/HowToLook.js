@@ -32,7 +32,7 @@ export default class HowToLook extends Component {
 
 const styles = StyleSheet.create({
   paragraphTitle: {
-    fontWeight: 'bold',
+    fontFamily: "avenir-heavy",
     fontSize: 20,
     alignSelf: 'stretch',
     textAlign: 'left',
@@ -43,18 +43,20 @@ const styles = StyleSheet.create({
   paragraph: {
     textAlign: 'left',
     fontSize: 14,
+    fontFamily: "avenir-medium",
     marginVertical: 2,
   },
   paragraphBold: {
     textAlign: 'left',
     fontSize: 14,
-    fontWeight: 'bold',
+    fontFamily: "avenir-heavy",
     marginVertical: 2,
     marginLeft: 10
   },
   link: {
     fontSize: 14,
     color: colors.accent,
+    fontFamily: "avenir-medium",
     textDecorationLine: 'underline',
   }
 });

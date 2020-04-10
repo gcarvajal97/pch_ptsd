@@ -27,7 +27,7 @@ export default class WhenAndHowToLookForYourself extends Component {
 
 const styles = StyleSheet.create({
   paragraphTitle: {
-    fontWeight: 'bold',
+    fontFamily: "avenir-heavy",
     fontSize: 20,
     alignSelf: 'stretch',
     textAlign: 'left',
@@ -39,11 +39,12 @@ const styles = StyleSheet.create({
     textAlign: 'left',
     fontSize: 14,
     marginVertical: 2,
+    fontFamily: "avenir-medium"
   },
   paragraphBold: {
     textAlign: 'left',
     fontSize: 14,
-    fontWeight: 'bold',
+    fontFamily: "avenir-heavy",
     marginVertical: 2,
     marginLeft: 10
   },
@@ -51,5 +52,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: colors.accent,
     textDecorationLine: 'underline',
+    fontFamily: "avenir-medium",
   }
 });
