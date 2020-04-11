@@ -19,7 +19,7 @@ function Resources(content) {
                             >
                                 {item.link.text}
                             </Text>
-                            <Text style={styles.paragraph}>{"\n"}{item.contentText}</Text>
+                            <Text style={styles.paragraph}>{item.contentText}</Text>
                         </View>
                     );
                 })}
@@ -38,7 +38,8 @@ export default Resources;
 
 const styles = StyleSheet.create({
     contentContainer: {
-        padding: 14,
+        padding: 16,
+        paddingVertical: 12,
         backgroundColor: colors.primary.white
     },
     paragraph: {
