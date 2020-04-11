@@ -40,8 +40,8 @@ exports[`PchPtsdAccordion renders multiple sections correctly 1`] = `
             <Text
               style={
                 Object {
+                  "fontFamily": "avenir-heavy",
                   "fontSize": 14,
-                  "fontWeight": "500",
                   "paddingLeft": 5,
                 }
               }
@@ -51,8 +51,8 @@ exports[`PchPtsdAccordion renders multiple sections correctly 1`] = `
             <Text
               style={
                 Object {
+                  "fontFamily": "avenir-heavy",
                   "fontSize": 14,
-                  "fontWeight": "500",
                   "paddingLeft": 5,
                 }
               }
@@ -118,8 +118,8 @@ exports[`PchPtsdAccordion renders multiple sections correctly 1`] = `
             <Text
               style={
                 Object {
+                  "fontFamily": "avenir-heavy",
                   "fontSize": 14,
-                  "fontWeight": "500",
                   "paddingLeft": 5,
                 }
               }
@@ -129,8 +129,8 @@ exports[`PchPtsdAccordion renders multiple sections correctly 1`] = `
             <Text
               style={
                 Object {
+                  "fontFamily": "avenir-heavy",
                   "fontSize": 14,
-                  "fontWeight": "500",
                   "paddingLeft": 5,
                 }
               }
@@ -203,8 +203,8 @@ exports[`PchPtsdAccordion renders single section correctly 1`] = `
             <Text
               style={
                 Object {
+                  "fontFamily": "avenir-heavy",
                   "fontSize": 14,
-                  "fontWeight": "500",
                   "paddingLeft": 5,
                 }
               }
@@ -214,8 +214,8 @@ exports[`PchPtsdAccordion renders single section correctly 1`] = `
             <Text
               style={
                 Object {
+                  "fontFamily": "avenir-heavy",
                   "fontSize": 14,
-                  "fontWeight": "500",
                   "paddingLeft": 5,
                 }
               }
@@ -268,8 +268,8 @@ exports[`PchPtsdAccordion should render an active section properly 1`] = `
     <Text
       style={
         Object {
+          "fontFamily": "avenir-heavy",
           "fontSize": 14,
-          "fontWeight": "500",
           "paddingLeft": 5,
         }
       }
@@ -279,8 +279,8 @@ exports[`PchPtsdAccordion should render an active section properly 1`] = `
     <Text
       style={
         Object {
+          "fontFamily": "avenir-heavy",
           "fontSize": 14,
-          "fontWeight": "500",
           "paddingLeft": 5,
         }
       }
