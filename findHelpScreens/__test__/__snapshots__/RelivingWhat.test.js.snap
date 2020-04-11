@@ -7,8 +7,8 @@ exports[`renders correctly 1`] = `
       Object {
         "alignSelf": "stretch",
         "color": "#0077C8",
+        "fontFamily": "avenir-heavy",
         "fontSize": 20,
-        "fontWeight": "bold",
         "marginBottom": 3,
         "marginTop": 6,
         "textAlign": "left",
@@ -20,8 +20,8 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 14,
-        "fontWeight": "bold",
         "marginLeft": 10,
         "marginVertical": 2,
         "textAlign": "left",
@@ -33,6 +33,7 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -44,8 +45,8 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 14,
-        "fontWeight": "bold",
         "marginLeft": 10,
         "marginVertical": 2,
         "textAlign": "left",
@@ -57,6 +58,7 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -70,8 +72,8 @@ exports[`renders correctly 1`] = `
       Object {
         "alignSelf": "stretch",
         "color": "#0077C8",
+        "fontFamily": "avenir-heavy",
         "fontSize": 20,
-        "fontWeight": "bold",
         "marginBottom": 3,
         "marginTop": 6,
         "textAlign": "left",
@@ -83,8 +85,8 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 14,
-        "fontWeight": "bold",
         "marginLeft": 10,
         "marginVertical": 2,
         "textAlign": "left",
@@ -96,6 +98,7 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -107,8 +110,8 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 14,
-        "fontWeight": "bold",
         "marginLeft": 10,
         "marginVertical": 2,
         "textAlign": "left",
@@ -120,6 +123,7 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -133,8 +137,8 @@ exports[`renders correctly 1`] = `
       Object {
         "alignSelf": "stretch",
         "color": "#0077C8",
+        "fontFamily": "avenir-heavy",
         "fontSize": 20,
-        "fontWeight": "bold",
         "marginBottom": 3,
         "marginTop": 6,
         "textAlign": "left",
@@ -146,8 +150,8 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 14,
-        "fontWeight": "bold",
         "marginLeft": 10,
         "marginVertical": 2,
         "textAlign": "left",
@@ -159,6 +163,7 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -170,8 +175,8 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 14,
-        "fontWeight": "bold",
         "marginLeft": 10,
         "marginVertical": 2,
         "textAlign": "left",
@@ -183,6 +188,7 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",

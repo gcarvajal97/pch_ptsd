@@ -5,6 +5,7 @@ exports[`HowToLook renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -16,6 +17,7 @@ exports[`HowToLook renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -27,6 +29,7 @@ exports[`HowToLook renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -38,6 +41,7 @@ exports[`HowToLook renders correctly 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-medium",
         "fontSize": 14,
         "marginVertical": 2,
         "textAlign": "left",
@@ -53,6 +57,7 @@ exports[`HowToLook renders correctly 1`] = `
       style={
         Object {
           "color": "#0077C8",
+          "fontFamily": "avenir-medium",
           "fontSize": 14,
           "textDecorationLine": "underline",
         }
