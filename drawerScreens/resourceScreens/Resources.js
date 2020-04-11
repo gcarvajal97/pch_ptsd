@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     },
     link: {
         fontSize: 16,
-        fontWeight: "bold",
+        fontFamily: 'avenir-heavy',
         color: colors.accent,
         textDecorationLine: "underline",
         marginVertical: 2
