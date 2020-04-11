@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     },
     term: {
         fontSize: 14,
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         marginVertical: 2
     },
     contentContainer: {

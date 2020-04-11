@@ -13,8 +13,8 @@ exports[`GlossaryTerms should render a glossary term 1`] = `
     <Text
       style={
         Object {
+          "fontFamily": "avenir-heavy",
           "fontSize": 14,
-          "fontWeight": "bold",
           "marginVertical": 2,
         }
       }
@@ -64,8 +64,8 @@ exports[`GlossaryTerms should render glossary terms 1`] = `
     <Text
       style={
         Object {
+          "fontFamily": "avenir-heavy",
           "fontSize": 14,
-          "fontWeight": "bold",
           "marginVertical": 2,
         }
       }
@@ -94,8 +94,8 @@ exports[`GlossaryTerms should render glossary terms 1`] = `
     <Text
       style={
         Object {
+          "fontFamily": "avenir-heavy",
           "fontSize": 14,
-          "fontWeight": "bold",
           "marginVertical": 2,
         }
       }

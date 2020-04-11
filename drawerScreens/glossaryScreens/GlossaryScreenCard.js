@@ -17,7 +17,7 @@ export default class GlossaryScreenCard extends Component {
                 <Text
                     style={{
                         marginVertical: -8,
-                        fontWeight: "500",
+                        fontFamily: "avenir-heavy",
                         textAlign: "center"
                     }}
                 >
