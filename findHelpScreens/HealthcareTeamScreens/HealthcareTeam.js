@@ -111,7 +111,7 @@ export default class HealthcareTeam extends Component {
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card
                         image={healthTeam}
-                        featuredTitleStyle={{ fontSize: 40 }}
+                        featuredTitleStyle={{ fontSize: 40, fontFamily: 'avenir-medium'}}
                         containerStyle={{ margin: 8 }}
                         featuredTitle={translate("healthcareTeam.cardHeader")}
                         accessible
@@ -123,7 +123,7 @@ export default class HealthcareTeam extends Component {
                             style={{
                                 margin: -6,
                                 textAlign: "center",
-                                fontWeight: "bold"
+                                fontFamily: 'avenir-heavy'
                             }}
                         >
                             {translate("healthcareTeam.cardTitle")}
@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent,
         color: colors.primary.white,
-        fontWeight: "bold",
+        fontFamily: 'avenir-heavy',
         fontSize: 22,
         textAlign: "center",
         alignSelf: "stretch"
@@ -183,10 +183,12 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 16,
+        fontFamily: 'avenir-medium',
         fontWeight: "500"
     },
     paragraph: {
         alignSelf: "center",
+        fontFamily: 'avenir-medium',
         paddingVertical: 0,
         paddingHorizontal: 4,
         fontSize: 14,
@@ -213,10 +215,11 @@ const styles = StyleSheet.create({
         padding: 10
     },
     activeSelector: {
-        fontWeight: "bold"
+        fontFamily: 'avenir-heavy'
     },
     selectTitle: {
         fontSize: 14,
+        fontFamily: 'avenir-medium',
         fontWeight: "500",
         padding: 10
     },
@@ -231,7 +234,7 @@ const styles = StyleSheet.create({
         borderBottomColor: colors.accent
     },
     paragraphTitle: {
-        fontWeight: "bold",
+        fontFamily: 'avenir-heavy',
         fontSize: 22,
         alignSelf: "stretch",
         textAlign: "left",
