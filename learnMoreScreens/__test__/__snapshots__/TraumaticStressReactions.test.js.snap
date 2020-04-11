@@ -107,7 +107,7 @@ exports[`TraumaticStressReactions renders correctly 1`] = `
         }
       }
     >
-      Stress reactions to injury are normal
+      Stress reactions to injury are normal.
     </Text>
      However, three major reactions should be monitored.
   </Text>
