@@ -1,24 +1,21 @@
 import React, { Component } from "react";
-import { Text } from "react-native";
+import { Text, StyleSheet } from "react-native";
 import { Card } from "react-native-elements";
 import translate from "../../components/translateService";
+
 
 export default class ResourceScreenCard extends Component {
     render() {
         return (
             <Card
                 featuredTitle={translate("resources.resources")}
-                featuredTitleStyle={{ fontSize: 40 }}
+                featuredTitleStyle={styles.imageTitle}
                 image={require("../../assets/resourcePyramid.png")}
                 accessible
                 accessibilityLabel={translate("resources.accessibilityHint")}
             >
                 <Text
-                    style={{
-                        marginVertical: -8,
-                        fontWeight: "500",
-                        textAlign: "center"
-                    }}
+                    style={styles.imageCaption}
                 >
                     {translate("resources.description")}
                 </Text>
@@ -26,3 +23,15 @@ export default class ResourceScreenCard extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+    imageTitle: {
+        fontSize: 42,
+        fontWeight: null,
+        fontFamily: "avenir-heavy"
+    },
+    imageCaption: {
+        marginVertical: -8,
+        fontFamily: 'avenir-medium',
+    }
+})

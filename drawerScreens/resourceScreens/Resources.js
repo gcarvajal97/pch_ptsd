@@ -19,7 +19,7 @@ function Resources(content) {
                             >
                                 {item.link.text}
                             </Text>
-                            <Text style={styles.paragraph}>{"\n"}{item.contentText}</Text>
+                            <Text style={styles.paragraph}>{item.contentText}</Text>
                         </View>
                     );
                 })}
@@ -38,18 +38,17 @@ export default Resources;
 
 const styles = StyleSheet.create({
     contentContainer: {
-        padding: 20,
+        padding: 16,
+        paddingVertical: 12,
         backgroundColor: colors.primary.white
     },
     paragraph: {
         fontSize: 14,
-        marginVertical: 2
     },
     link: {
         fontSize: 16,
-        fontWeight: "bold",
+        fontFamily: "avenir-heavy",
         color: colors.accent,
         textDecorationLine: "underline",
-        marginVertical: 2
     }
 });
