@@ -286,8 +286,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -297,8 +297,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -557,8 +557,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -568,8 +568,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -980,8 +980,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -991,8 +991,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1137,8 +1137,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1148,8 +1148,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1332,8 +1332,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1343,8 +1343,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1565,8 +1565,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1576,8 +1576,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1684,8 +1684,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1695,8 +1695,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2057,8 +2057,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2068,8 +2068,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2176,8 +2176,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2187,8 +2187,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2447,8 +2447,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2458,8 +2458,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2870,8 +2870,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2881,8 +2881,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3027,8 +3027,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3038,8 +3038,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3222,8 +3222,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3233,8 +3233,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3531,8 +3531,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3542,8 +3542,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3878,8 +3878,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3889,8 +3889,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -4073,8 +4073,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -4084,8 +4084,8 @@ exports[`ResourceScreen renders correctly in Spanish on Android 2`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }

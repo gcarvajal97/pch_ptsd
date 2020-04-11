@@ -156,8 +156,9 @@ exports[`renders correctly 1`] = `
               style={
                 Object {
                   "color": "white",
-                  "fontSize": 40,
-                  "fontWeight": "800",
+                  "fontFamily": "avenir-heavy",
+                  "fontSize": 44,
+                  "fontWeight": null,
                   "marginBottom": 8,
                 }
               }
@@ -214,7 +215,7 @@ exports[`renders correctly 1`] = `
         <Text
           style={
             Object {
-              "fontFamily": "avenir-heavy",
+              "fontFamily": "avenir-medium",
               "marginVertical": -8,
               "textAlign": "center",
             }

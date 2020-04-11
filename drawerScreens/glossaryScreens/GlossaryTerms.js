@@ -32,15 +32,14 @@ export default GlossaryTerms;
 const styles = StyleSheet.create({
     definition: {
         fontSize: 14,
-        marginVertical: 2
     },
     term: {
         fontSize: 14,
         fontFamily: "avenir-heavy",
-        marginVertical: 2
     },
     contentContainer: {
-        padding: 20,
+        padding: 18,
+        paddingVertical: 10,
         backgroundColor: colors.primary.white
     }
 });

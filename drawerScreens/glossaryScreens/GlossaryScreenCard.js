@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Text } from "react-native";
+import { Text, StyleSheet } from "react-native";
 import { Card } from "react-native-elements";
 import translate from "../../components/translateService";
 
@@ -8,18 +8,14 @@ export default class GlossaryScreenCard extends Component {
         return (
             <Card
                 featuredTitle={translate("glossary.glossary")}
-                featuredTitleStyle={{ fontSize: 40 }}
+                featuredTitleStyle={styles.imageTitle}
                 image={require("../../assets/GlossaryScreen.jpg")}
                 accessible
                 accessibilityLabel={translate("glossary.accessibilityLabel")}
                 accessibilityHint={translate("glossary.accessibilityLabel")}
             >
                 <Text
-                    style={{
-                        marginVertical: -8,
-                        fontFamily: "avenir-heavy",
-                        textAlign: "center"
-                    }}
+                    style={styles.imageCaption}
                 >
                     {translate("glossary.description")}
                 </Text>
@@ -27,3 +23,16 @@ export default class GlossaryScreenCard extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+    imageTitle: {
+        fontSize: 44,
+        fontWeight: null,
+        fontFamily: "avenir-heavy"
+    },
+    imageCaption: {
+        marginVertical: -8,
+        fontFamily: "avenir-medium",
+        textAlign: "center"
+    }
+})
