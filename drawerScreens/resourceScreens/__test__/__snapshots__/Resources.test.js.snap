@@ -22,7 +22,8 @@ exports[`Resources renders one resource 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "padding": 20,
+        "padding": 16,
+        "paddingVertical": 12,
       }
     }
   >
@@ -36,7 +37,6 @@ exports[`Resources renders one resource 1`] = `
           "color": "#0077C8",
           "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "marginVertical": 2,
           "textDecorationLine": "underline",
         }
       }
@@ -47,12 +47,9 @@ exports[`Resources renders one resource 1`] = `
       style={
         Object {
           "fontSize": 14,
-          "marginVertical": 2,
         }
       }
     >
-      
-
       Resource description
     </Text>
   </View>
@@ -65,7 +62,8 @@ exports[`Resources renders properly in english 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "padding": 20,
+        "padding": 16,
+        "paddingVertical": 12,
       }
     }
   >
@@ -77,7 +75,6 @@ exports[`Resources renders properly in english 1`] = `
           "color": "#0077C8",
           "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "marginVertical": 2,
           "textDecorationLine": "underline",
         }
       }
@@ -86,13 +83,9 @@ exports[`Resources renders properly in english 1`] = `
       style={
         Object {
           "fontSize": 14,
-          "marginVertical": 2,
         }
       }
-    >
-      
-
-    </Text>
+    />
   </View>
 </View>
 `;
@@ -103,7 +96,8 @@ exports[`Resources renders properly in spanish 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "padding": 20,
+        "padding": 16,
+        "paddingVertical": 12,
       }
     }
   >
@@ -115,7 +109,6 @@ exports[`Resources renders properly in spanish 1`] = `
           "color": "#0077C8",
           "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "marginVertical": 2,
           "textDecorationLine": "underline",
         }
       }
@@ -124,13 +117,9 @@ exports[`Resources renders properly in spanish 1`] = `
       style={
         Object {
           "fontSize": 14,
-          "marginVertical": 2,
         }
       }
-    >
-      
-
-    </Text>
+    />
   </View>
 </View>
 `;
@@ -141,7 +130,8 @@ exports[`Resources renders two resources 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "padding": 20,
+        "padding": 16,
+        "paddingVertical": 12,
       }
     }
   >
@@ -155,7 +145,6 @@ exports[`Resources renders two resources 1`] = `
           "color": "#0077C8",
           "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "marginVertical": 2,
           "textDecorationLine": "underline",
         }
       }
@@ -166,12 +155,9 @@ exports[`Resources renders two resources 1`] = `
       style={
         Object {
           "fontSize": 14,
-          "marginVertical": 2,
         }
       }
     >
-      
-
       Resource Description 1
     </Text>
   </View>
@@ -179,7 +165,8 @@ exports[`Resources renders two resources 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "padding": 20,
+        "padding": 16,
+        "paddingVertical": 12,
       }
     }
   >
@@ -193,7 +180,6 @@ exports[`Resources renders two resources 1`] = `
           "color": "#0077C8",
           "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "marginVertical": 2,
           "textDecorationLine": "underline",
         }
       }
@@ -204,12 +190,9 @@ exports[`Resources renders two resources 1`] = `
       style={
         Object {
           "fontSize": 14,
-          "marginVertical": 2,
         }
       }
     >
-      
-
       Resource Description 2
     </Text>
   </View>
