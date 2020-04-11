@@ -49,7 +49,7 @@ class TraumaticStressReactions extends Component {
               )}
         />
         <Text style={styles.subTitle}>
-          <Text style={{ fontWeight: 'bold' }}>{translate('traumaticStressReactions.content.videoCard.title')}</Text>
+          <Text style={{ fontFamily: 'avenir-heavy' }}>{translate('traumaticStressReactions.content.videoCard.title')}</Text>
           {translate('traumaticStressReactions.content.videoCard.subtitle')}
         </Text>
         <ScrollView>
@@ -58,7 +58,7 @@ class TraumaticStressReactions extends Component {
           <Text style={styles.bullet}>{translate('traumaticStressReactions.content.bulletListOne.bulletTwo')}</Text>
           <Text style={styles.bullet}>{translate('traumaticStressReactions.content.bulletListOne.bulletThree')}</Text>
           <Text style={styles.paragraph}>
-          <Text style={{ fontWeight: 'bold' }}>{translate('traumaticStressReactions.content.reExperiencingParagraph.boldNote')}</Text>
+          <Text style={{ fontFamily: 'avenir-heavy' }}>{translate('traumaticStressReactions.content.reExperiencingParagraph.boldNote')}</Text>
           {translate('traumaticStressReactions.content.reExperiencingParagraph.note')}</Text>
           <Text style={styles.paragraphTitle}>{translate('traumaticStressReactions.content.reExperiencingParagraph.title')}</Text>
           <Text style={styles.paragraph}>{translate('traumaticStressReactions.content.reExperiencingParagraph.paragraphOne')}</Text>
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
   title: {
       backgroundColor: colors.accent, 
       color: colors.primary.white, 
-      fontWeight: 'bold', 
+      fontFamily: 'avenir-heavy', 
       fontSize: 22, 
       textAlign: 'center', 
       alignSelf: 'stretch'
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
       borderBottomColor: colors.accent,
   },
   paragraphTitle: {
-      fontWeight: 'bold',
+      fontFamily: 'avenir-heavy',
       fontSize: 20,
       alignSelf: 'stretch',
       textAlign: 'left',
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
       marginHorizontal: 18, 
       textAlign: 'left', 
       alignSelf: 'stretch', 
-      fontWeight: 'bold',
+      fontFamily: 'avenir-heavy',
       fontSize: 14
   },
   paragraph: {
