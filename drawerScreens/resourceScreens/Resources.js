@@ -38,18 +38,16 @@ export default Resources;
 
 const styles = StyleSheet.create({
     contentContainer: {
-        padding: 20,
+        padding: 14,
         backgroundColor: colors.primary.white
     },
     paragraph: {
         fontSize: 14,
-        marginVertical: 2
     },
     link: {
         fontSize: 16,
-        fontFamily: 'avenir-heavy',
+        fontFamily: "avenir-heavy",
         color: colors.accent,
         textDecorationLine: "underline",
-        marginVertical: 2
     }
 });
