@@ -34,8 +34,8 @@ exports[`Resources renders one resource 1`] = `
       style={
         Object {
           "color": "#0077C8",
+          "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "fontWeight": "bold",
           "marginVertical": 2,
           "textDecorationLine": "underline",
         }
@@ -75,8 +75,8 @@ exports[`Resources renders properly in english 1`] = `
       style={
         Object {
           "color": "#0077C8",
+          "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "fontWeight": "bold",
           "marginVertical": 2,
           "textDecorationLine": "underline",
         }
@@ -113,8 +113,8 @@ exports[`Resources renders properly in spanish 1`] = `
       style={
         Object {
           "color": "#0077C8",
+          "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "fontWeight": "bold",
           "marginVertical": 2,
           "textDecorationLine": "underline",
         }
@@ -153,8 +153,8 @@ exports[`Resources renders two resources 1`] = `
       style={
         Object {
           "color": "#0077C8",
+          "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "fontWeight": "bold",
           "marginVertical": 2,
           "textDecorationLine": "underline",
         }
@@ -191,8 +191,8 @@ exports[`Resources renders two resources 1`] = `
       style={
         Object {
           "color": "#0077C8",
+          "fontFamily": "avenir-heavy",
           "fontSize": 16,
-          "fontWeight": "bold",
           "marginVertical": 2,
           "textDecorationLine": "underline",
         }
