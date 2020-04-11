@@ -109,7 +109,7 @@ exports[`YoureNotAlone renders correctly 1`] = `
     >
       Your child is not alone.
     </Text>
-    Every year, millions of children in the United States are injured.
+     Every year, millions of children in the United States are injured.
   </Text>
   <RCTScrollView>
     <View>
