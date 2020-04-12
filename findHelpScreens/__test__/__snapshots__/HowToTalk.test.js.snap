@@ -25,8 +25,8 @@ exports[`HowToTalk renders correctly 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#0077C8",
         "color": "#FFFFFF",
-        "fontFamily": "avenir-heavy",
         "fontSize": 22,
+        "fontWeight": "bold",
         "textAlign": "center",
       }
     }
@@ -94,7 +94,6 @@ exports[`HowToTalk renders correctly 1`] = `
         "borderBottomColor": "#0077C8",
         "borderBottomWidth": 2,
         "color": "#FFFFFF",
-        "fontFamily": "avenir-medium",
         "fontSize": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
@@ -104,7 +103,7 @@ exports[`HowToTalk renders correctly 1`] = `
     <Text
       style={
         Object {
-          "fontFamily": "avenir-heavy",
+          "fontWeight": "bold",
         }
       }
     >
@@ -118,7 +117,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -133,8 +131,8 @@ exports[`HowToTalk renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 20,
+            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -148,8 +146,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -162,8 +160,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -176,7 +174,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -190,7 +187,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -204,8 +200,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -218,8 +214,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -232,7 +228,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -246,7 +241,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -260,7 +254,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -275,8 +268,8 @@ exports[`HowToTalk renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 20,
+            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -290,8 +283,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -304,7 +297,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -318,8 +310,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -332,7 +324,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -346,8 +337,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -360,7 +351,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -374,8 +364,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -388,7 +378,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -402,7 +391,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -417,8 +405,8 @@ exports[`HowToTalk renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 20,
+            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -432,8 +420,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -446,8 +434,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -460,8 +448,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -474,8 +462,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -488,8 +476,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -502,7 +490,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -516,7 +503,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -531,8 +517,8 @@ exports[`HowToTalk renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 20,
+            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 4,
@@ -546,8 +532,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -560,7 +546,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,
@@ -574,8 +559,8 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-heavy",
             "fontSize": 14,
+            "fontWeight": "bold",
             "marginHorizontal": 18,
             "marginVertical": 1,
             "textAlign": "left",
@@ -588,7 +573,6 @@ exports[`HowToTalk renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "stretch",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginHorizontal": 30,
             "marginVertical": 1,

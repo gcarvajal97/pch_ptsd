@@ -181,7 +181,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                     style={
                       Object {
                         "color": "white",
-                        "fontFamily": "avenir-medium",
                         "fontSize": 40,
                         "fontWeight": "800",
                         "marginBottom": 8,
@@ -240,7 +239,7 @@ exports[`HealthcareTeam renders correctly 1`] = `
               <Text
                 style={
                   Object {
-                    "fontFamily": "avenir-heavy",
+                    "fontWeight": "bold",
                     "margin": -6,
                     "textAlign": "center",
                   }
@@ -257,8 +256,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 22,
+            "fontWeight": "bold",
             "marginBottom": 2,
             "marginTop": 3,
             "paddingLeft": 4,
@@ -273,7 +272,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginBottom": 4,
             "marginTop": 0,
@@ -288,7 +286,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginBottom": 4,
             "marginTop": 0,
@@ -333,7 +330,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
-                    "fontFamily": "avenir-medium",
                     "fontSize": 16,
                     "fontWeight": "500",
                   }
@@ -370,7 +366,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -384,8 +379,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -397,7 +392,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -409,7 +403,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -421,7 +414,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -433,7 +425,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -445,7 +436,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -457,7 +447,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -471,8 +460,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -484,7 +473,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -496,7 +484,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -508,7 +495,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -520,7 +506,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -532,7 +517,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -577,7 +561,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
-                    "fontFamily": "avenir-medium",
                     "fontSize": 16,
                     "fontWeight": "500",
                   }
@@ -614,7 +597,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -628,8 +610,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -641,7 +623,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -653,7 +634,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -665,7 +645,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -677,7 +656,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -689,7 +667,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -701,7 +678,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -713,7 +689,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -725,7 +700,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -737,7 +711,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -749,7 +722,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -763,8 +735,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -776,7 +748,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -788,7 +759,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -800,7 +770,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -812,7 +781,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -824,7 +792,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -836,7 +803,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -848,7 +814,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -860,7 +825,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -872,7 +836,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -886,8 +849,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -899,7 +862,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -911,7 +873,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -923,7 +884,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -935,7 +895,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -947,7 +906,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -959,7 +917,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -971,7 +928,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -985,8 +941,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -998,7 +954,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1010,8 +965,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
+                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1023,8 +978,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
+                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1036,8 +991,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
+                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1049,7 +1004,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1094,7 +1048,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
-                    "fontFamily": "avenir-medium",
                     "fontSize": 16,
                     "fontWeight": "500",
                   }
@@ -1131,7 +1084,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1145,8 +1097,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1158,7 +1110,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1170,7 +1121,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1182,7 +1132,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1194,7 +1143,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1206,7 +1154,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1218,7 +1165,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1230,7 +1176,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1244,8 +1189,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1257,7 +1202,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1269,7 +1213,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1281,7 +1224,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1295,8 +1237,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
+                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1308,7 +1250,6 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-medium",
                         "fontSize": 14,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1320,8 +1261,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
+                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1333,8 +1274,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
+                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1346,8 +1287,8 @@ exports[`HealthcareTeam renders correctly 1`] = `
                   <Text
                     style={
                       Object {
-                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
+                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1425,7 +1366,6 @@ exports[`HealthcareTeam should render an active accordion header 1`] = `
     accessible={true}
     style={
       Object {
-        "fontFamily": "avenir-medium",
         "fontSize": 16,
         "fontWeight": "500",
       }
@@ -1467,7 +1407,6 @@ exports[`HealthcareTeam should render an inactive accordion header 1`] = `
     accessible={true}
     style={
       Object {
-        "fontFamily": "avenir-medium",
         "fontSize": 16,
         "fontWeight": "500",
       }

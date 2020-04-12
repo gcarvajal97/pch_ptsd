@@ -233,7 +233,6 @@ exports[`renders correctly 1`] = `
               <Text
                 style={
                   Object {
-                    "fontFamily": "avenir-medium",
                     "fontWeight": "500",
                     "marginVertical": -8,
                     "textAlign": "center",
@@ -251,7 +250,6 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -267,7 +265,6 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -282,7 +279,6 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -298,7 +294,6 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -313,7 +308,6 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -329,7 +323,6 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -344,7 +337,6 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -360,7 +352,6 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -375,7 +366,6 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -391,7 +381,6 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
@@ -406,7 +395,6 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
-            "fontFamily": "avenir-heavy",
             "fontSize": 16,
             "fontWeight": "bold",
             "marginBottom": 3,
@@ -422,7 +410,6 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "alignSelf": "center",
-            "fontFamily": "avenir-medium",
             "fontSize": 14,
             "marginTop": 5,
             "paddingHorizontal": 5,
