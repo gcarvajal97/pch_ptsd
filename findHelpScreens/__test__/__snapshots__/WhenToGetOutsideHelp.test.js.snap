@@ -35,7 +35,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
             "backgroundColor": "white",
             "borderColor": "#e1e8ee",
             "borderWidth": 1,
-            "margin": 8,
+            "margin": 15,
             "marginBottom": 0,
             "padding": 0,
             "shadowColor": "rgba(0,0,0, .2)",
@@ -181,8 +181,10 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                     style={
                       Object {
                         "color": "white",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 40,
-                        "fontWeight": "800",
+                        "fontStyle": null,
+                        "fontWeight": null,
                         "marginBottom": 8,
                       }
                     }
@@ -239,7 +241,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
               <Text
                 style={
                   Object {
-                    "fontWeight": "bold",
+                    "fontFamily": "avenir-heavy",
                     "margin": -6,
                     "textAlign": "center",
                   }
@@ -256,8 +258,8 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 22,
-            "fontWeight": "bold",
             "marginBottom": 2,
             "marginTop": 3,
             "paddingLeft": 4,
@@ -312,8 +314,8 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -350,8 +352,8 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -409,8 +411,8 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -508,8 +510,8 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -637,8 +639,8 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -686,8 +688,8 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -756,8 +758,8 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -878,8 +880,8 @@ exports[`WhenToGetOutsideHelp should render an active accordion header 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 16,
-        "fontWeight": "500",
       }
     }
   >
@@ -918,8 +920,8 @@ exports[`WhenToGetOutsideHelp should render an inactive accordion header 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 16,
-        "fontWeight": "500",
       }
     }
   >

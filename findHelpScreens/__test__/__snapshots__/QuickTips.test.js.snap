@@ -175,8 +175,10 @@ exports[`renders correctly 1`] = `
                     style={
                       Object {
                         "color": "white",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 40,
-                        "fontWeight": "800",
+                        "fontStyle": null,
+                        "fontWeight": null,
                         "marginBottom": 8,
                       }
                     }
@@ -233,7 +235,7 @@ exports[`renders correctly 1`] = `
               <Text
                 style={
                   Object {
-                    "fontWeight": "500",
+                    "fontFamily": "avenir-heavy",
                     "marginVertical": -8,
                     "textAlign": "center",
                   }
@@ -250,8 +252,8 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 16,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 10,
@@ -279,8 +281,8 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 16,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 6,
@@ -308,8 +310,8 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 16,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 6,
@@ -337,8 +339,8 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 16,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 6,
@@ -366,8 +368,8 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 16,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 6,
@@ -395,8 +397,8 @@ exports[`renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 16,
-            "fontWeight": "bold",
             "marginBottom": 3,
             "marginLeft": 5,
             "marginTop": 6,

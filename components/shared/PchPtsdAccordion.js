@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import * as Animatable from "react-native-animatable";
 import Accordion from "react-native-collapsible/Accordion";
+import colors from "../../colors"
 
 class PchPtsdAccordion extends Component {
     state = {
@@ -76,7 +77,7 @@ export default PchPtsdAccordion;
 
 const styles = StyleSheet.create({
     header: {
-        backgroundColor: "#F5FCFF",
+        backgroundColor: colors.primary.white,
         padding: 10
     },
     headerTextContainer: {

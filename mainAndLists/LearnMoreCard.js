@@ -10,7 +10,12 @@ export default class LearnMoreCard extends Component {
         return (
             <Card
                 featuredTitle={translate("mainScreen.learnTitle")}
-                featuredTitleStyle={styles.title}
+                featuredTitleStyle={{
+                    textAlign: "center",
+                    fontStyle: null,
+                    fontWeight: null,
+                    fontSize: 26
+                }}
                 image={require("../assets/LearnMoreMD.jpg")}
                 accessible
                 accessibilityLabel={translate("mainScreen.learnAccessLabel")}

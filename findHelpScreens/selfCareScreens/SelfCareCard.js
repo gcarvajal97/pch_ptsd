@@ -12,11 +12,16 @@ export default class SelfCareCard extends Component {
         return(
         <Card
             featuredTitle={translate('selfCare.featureTitle')}
-            featuredTitleStyle={{fontSize:40}}
+            featuredTitleStyle={{
+                fontSize: 40,
+                fontFamily: 'avenir-heavy',
+                fontStyle: null,
+                fontWeight: null
+            }}
             image={require('../../assets/SelfCare.jpg')}
             accessible
             accessibilityLabel={translate('selfCare.accessibilityLabel')}>
-            <Text style={{marginVertical:-8, fontWeight:'500', textAlign:'center'}}>{translate('selfCare.cardContent')}</Text>
+            <Text style={{marginVertical:-8, fontFamily: "avenir-heavy", textAlign:'center'}}>{translate('selfCare.cardContent')}</Text>
         </Card>
         );
     }

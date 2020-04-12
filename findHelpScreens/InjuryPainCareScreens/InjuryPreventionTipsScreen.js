@@ -26,7 +26,7 @@ export default class InjuryPreventionTipsScreen extends Component {
 
 const styles = StyleSheet.create({
   paragraphTitle: {
-    fontWeight: 'bold',
+    fontFamily: 'avenir-heavy',
     fontSize: 20,
     alignSelf: 'stretch',
     textAlign: 'left',
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   paragraphBold: {
     textAlign: 'left',
     fontSize: 14,
-    fontWeight: 'bold',
+    fontFamily: 'avenir-heavy',
     marginVertical: 2,
     marginLeft: 10
   },

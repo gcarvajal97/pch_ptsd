@@ -181,8 +181,10 @@ exports[`InjuryPainCare renders correctly 1`] = `
                     style={
                       Object {
                         "color": "white",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 40,
-                        "fontWeight": "800",
+                        "fontStyle": null,
+                        "fontWeight": null,
                         "marginBottom": 8,
                       }
                     }
@@ -239,7 +241,7 @@ exports[`InjuryPainCare renders correctly 1`] = `
               <Text
                 style={
                   Object {
-                    "fontWeight": "bold",
+                    "fontFamily": "avenir-heavy",
                     "margin": -6,
                     "textAlign": "center",
                   }
@@ -256,8 +258,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
           Object {
             "alignSelf": "stretch",
             "color": "#0077C8",
+            "fontFamily": "avenir-heavy",
             "fontSize": 22,
-            "fontWeight": "bold",
             "marginBottom": 2,
             "marginTop": 3,
             "paddingLeft": 4,
@@ -344,8 +346,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -456,8 +458,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -516,8 +518,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -586,8 +588,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -720,8 +722,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -826,8 +828,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -995,8 +997,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1032,8 +1034,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1124,8 +1126,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1291,8 +1293,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -1362,8 +1364,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1399,8 +1401,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1502,8 +1504,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1583,8 +1585,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1686,8 +1688,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1765,8 +1767,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -1896,8 +1898,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                 accessible={true}
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -1956,8 +1958,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -2169,8 +2171,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -2205,8 +2207,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginVertical": 2,
                         "textAlign": "left",
                       }
@@ -2261,8 +2263,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginVertical": 2,
                         "textAlign": "left",
                       }
@@ -2317,8 +2319,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginVertical": 2,
                         "textAlign": "left",
                       }
@@ -2418,8 +2420,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginVertical": 2,
                         "textAlign": "left",
                       }
@@ -2474,8 +2476,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginVertical": 2,
                         "textAlign": "left",
                       }
@@ -2520,8 +2522,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginVertical": 2,
                         "textAlign": "left",
                       }
@@ -2600,8 +2602,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -2659,8 +2661,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -2806,8 +2808,8 @@ exports[`InjuryPainCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -2952,8 +2954,8 @@ exports[`InjuryPainCare should render an active accordion header 1`] = `
     accessible={true}
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 16,
-        "fontWeight": "500",
       }
     }
   >
@@ -2994,8 +2996,8 @@ exports[`InjuryPainCare should render an inactive accordion header 1`] = `
     accessible={true}
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 16,
-        "fontWeight": "500",
       }
     }
   >

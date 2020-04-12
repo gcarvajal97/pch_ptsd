@@ -5,14 +5,14 @@ import translate from '../../components/translateService';
 import colors from '../../colors';
 
 class QuickTips extends Component {
-  
+
   static navigationOptions = {
     headerTitle: translate('quickTips.header')
   }
 
   render() {
     return (
-      <View style={styles.container}> 
+      <View style={styles.container}>
         <ScrollView>
           <QuickTipsCard/>
             <Text style={styles.paragraphTitleTop}>
@@ -75,16 +75,16 @@ const styles = StyleSheet.create({
       elevation: 4,
   },
   title: {
-      backgroundColor: colors.accent, 
-      color: colors.primary.white, 
-      fontWeight: 'bold', 
-      fontSize: 22, 
-      textAlign: 'center', 
+      backgroundColor: colors.accent,
+      color: colors.primary.white,
+      fontSize: 22,
+      fontFamily: "avenir-heavy",
+      textAlign: 'center',
       alignSelf: 'stretch'
   },
   paragraphTitle: {
-      fontWeight: 'bold',
       fontSize:16,
+      fontFamily: "avenir-heavy",
       alignSelf:'stretch',
       textAlign:'left',
       marginLeft:5,
@@ -93,8 +93,8 @@ const styles = StyleSheet.create({
       color: colors.accent
   },
   paragraphTitleTop: {
-    fontWeight: 'bold',
     fontSize:16,
+    fontFamily: "avenir-heavy",
     alignSelf:'stretch',
     textAlign:'left',
     marginLeft:5,
@@ -103,8 +103,8 @@ const styles = StyleSheet.create({
     color: colors.accent
 },
   paragraph: {
-      alignSelf:"center", 
-      paddingVertical:1, 
+      alignSelf:"center",
+      paddingVertical:1,
       paddingHorizontal:5,
       fontSize: 14,
       marginTop: 5,

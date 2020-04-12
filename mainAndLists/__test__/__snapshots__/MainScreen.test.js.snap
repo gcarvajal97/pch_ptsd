@@ -157,7 +157,6 @@ exports[`MainScreen matches Snapshot 1`] = `
                   style={
                     Object {
                       "color": "white",
-                      "fontFamily": "avenir-medium",
                       "fontSize": 26,
                       "fontStyle": null,
                       "fontWeight": null,

@@ -175,8 +175,10 @@ exports[`SelfCare renders correctly 1`] = `
                     style={
                       Object {
                         "color": "white",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 40,
-                        "fontWeight": "800",
+                        "fontStyle": null,
+                        "fontWeight": null,
                         "marginBottom": 8,
                       }
                     }
@@ -233,7 +235,7 @@ exports[`SelfCare renders correctly 1`] = `
               <Text
                 style={
                   Object {
-                    "fontWeight": "500",
+                    "fontFamily": "avenir-heavy",
                     "marginVertical": -8,
                     "textAlign": "center",
                   }
@@ -251,8 +253,8 @@ exports[`SelfCare renders correctly 1`] = `
             Object {
               "alignSelf": "stretch",
               "color": "#0077C8",
+              "fontFamily": "avenir-heavy",
               "fontSize": 22,
-              "fontWeight": "bold",
               "marginBottom": 2,
               "marginTop": 3,
               "paddingLeft": 4,
@@ -345,8 +347,8 @@ exports[`SelfCare renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -385,8 +387,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -398,8 +400,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -422,8 +424,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -448,8 +450,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -461,8 +463,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -485,8 +487,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -511,8 +513,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -524,8 +526,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -548,8 +550,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -603,8 +605,8 @@ exports[`SelfCare renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -643,8 +645,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -656,8 +658,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -680,8 +682,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -706,8 +708,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -719,8 +721,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -743,8 +745,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -769,8 +771,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -782,8 +784,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -806,8 +808,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -832,8 +834,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -845,8 +847,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -869,8 +871,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -924,8 +926,8 @@ exports[`SelfCare renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -964,8 +966,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -977,8 +979,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1001,8 +1003,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1027,8 +1029,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1040,8 +1042,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1064,8 +1066,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1090,8 +1092,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1103,8 +1105,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1127,8 +1129,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1153,8 +1155,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1166,8 +1168,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1190,8 +1192,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1216,8 +1218,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1229,8 +1231,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1253,8 +1255,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1279,8 +1281,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1292,8 +1294,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1316,8 +1318,8 @@ exports[`SelfCare renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "bold",
                         "marginLeft": 10,
                         "marginVertical": 2,
                         "textAlign": "left",
@@ -1371,8 +1373,8 @@ exports[`SelfCare renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "fontFamily": "avenir-heavy",
                     "fontSize": 16,
-                    "fontWeight": "500",
                   }
                 }
               >
@@ -1411,8 +1413,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1459,8 +1461,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1518,8 +1520,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1588,8 +1590,8 @@ exports[`SelfCare renders correctly 1`] = `
                       Object {
                         "alignSelf": "stretch",
                         "color": "#0077C8",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 20,
-                        "fontWeight": "bold",
                         "marginBottom": 3,
                         "marginTop": 6,
                         "textAlign": "left",
@@ -1677,8 +1679,8 @@ exports[`SelfCare should render an active accordion header 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 16,
-        "fontWeight": "500",
       }
     }
   >
@@ -1719,8 +1721,8 @@ exports[`SelfCare should render an inactive accordion header 1`] = `
   <Text
     style={
       Object {
+        "fontFamily": "avenir-heavy",
         "fontSize": 16,
-        "fontWeight": "500",
       }
     }
   >

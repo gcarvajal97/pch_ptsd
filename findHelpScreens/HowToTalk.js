@@ -10,7 +10,6 @@ const videos = {
     es: require("../assets/videos/vidHowToTalkEs.mp4"),
 };
 
-
 class HowToTalk extends Component {
 
     // Gives the NavBar a title for this specific screen
@@ -39,7 +38,7 @@ class HowToTalk extends Component {
                     accessibilityHint={translate('howToTalk.accessibilityHint')}
                 />
                 <Text style={styles.subTitle}>
-                <Text style={{ fontWeight: 'bold' }}>{translate('howToTalk.video_subtitle_1')}</Text>{translate('howToTalk.video_subtitle_2')}</Text>
+                <Text style={{ fontFamily: "avenir-heavy" }}>{translate('howToTalk.video_subtitle_1')}</Text>{translate('howToTalk.video_subtitle_2')}</Text>
 
                 <ScrollView>
 
@@ -109,7 +108,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent,
         color: colors.primary.white,
-        fontWeight: 'bold',
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         textAlign: 'center',
         alignSelf: 'stretch'
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
         borderBottomColor: colors.accent,
     },
     paragraphTitle: {
-        fontWeight: 'bold',
+        fontFamily: "avenir-heavy",
         fontSize:20,
         alignSelf:'stretch',
         textAlign:'left',
@@ -139,7 +138,7 @@ const styles = StyleSheet.create({
         marginHorizontal:18,
         textAlign:'left',
         alignSelf:'stretch',
-        fontWeight:'bold',
+        fontFamily: "avenir-heavy",
         fontSize:14
     },
     subBullet: {
@@ -154,6 +153,6 @@ const styles = StyleSheet.create({
         paddingVertical:1,
         paddingHorizontal:5,
         fontSize: 14,
-        marginTop: 5,
+        marginTop: 5
     }
 });
