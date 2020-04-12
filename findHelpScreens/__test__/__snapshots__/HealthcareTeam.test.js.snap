@@ -181,7 +181,7 @@ exports[`HealthcareTeam renders correctly 1`] = `
                     style={
                       Object {
                         "color": "white",
-                        "fontFamily": "avenir-medium",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 40,
                         "fontStyle": null,
                         "fontWeight": null,

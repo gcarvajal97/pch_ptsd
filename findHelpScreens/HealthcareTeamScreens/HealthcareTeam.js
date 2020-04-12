@@ -113,7 +113,7 @@ export default class HealthcareTeam extends Component {
                         image={healthTeam}
                         featuredTitleStyle={{
                             fontSize: 40,
-                            fontFamily: "avenir-medium",
+                            fontFamily: "avenir-heavy",
                             fontStyle: null,
                             fontWeight: null
                         }}
