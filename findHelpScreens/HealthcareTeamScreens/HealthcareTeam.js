@@ -15,7 +15,7 @@ import IntheED from "./InTheED";
 import InTheHospital from "./InTheHospital";
 import AfterTheHospital from "./AfterTheHospital";
 import healthTeam from "../../assets/healthTeam.jpg";
-import colors from '../../colors';
+import colors from "../../colors";
 
 // List of screens that will be dispalyed in this list component
 
@@ -111,7 +111,12 @@ export default class HealthcareTeam extends Component {
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card
                         image={healthTeam}
-                        featuredTitleStyle={{ fontSize: 40 }}
+                        featuredTitleStyle={{
+                            fontSize: 40,
+                            fontFamily: "avenir-medium",
+                            fontStyle: null,
+                            fontWeight: null
+                        }}
                         containerStyle={{ margin: 8 }}
                         featuredTitle={translate("healthcareTeam.cardHeader")}
                         accessible
@@ -123,7 +128,7 @@ export default class HealthcareTeam extends Component {
                             style={{
                                 margin: -6,
                                 textAlign: "center",
-                                fontFamily: 'avenir-heavy'
+                                fontFamily: "avenir-heavy"
                             }}
                         >
                             {translate("healthcareTeam.cardTitle")}
@@ -173,7 +178,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent,
         color: colors.primary.white,
-        fontFamily: 'avenir-heavy',
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         textAlign: "center",
         alignSelf: "stretch"
@@ -183,7 +188,7 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 16,
-        fontFamily: 'avenir-heavy'
+        fontFamily: "avenir-heavy"
     },
     paragraph: {
         alignSelf: "center",
@@ -214,11 +219,11 @@ const styles = StyleSheet.create({
         padding: 10
     },
     activeSelector: {
-        fontFamily: 'avenir-heavy'
+        fontFamily: "avenir-heavy"
     },
     selectTitle: {
         fontSize: 14,
-        fontFamily: 'avenir-heavy',
+        fontFamily: "avenir-heavy",
         padding: 10
     },
     subTitle: {
@@ -232,7 +237,7 @@ const styles = StyleSheet.create({
         borderBottomColor: colors.accent
     },
     paragraphTitle: {
-        fontFamily: 'avenir-heavy',
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         alignSelf: "stretch",
         textAlign: "left",

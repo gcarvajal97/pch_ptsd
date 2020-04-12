@@ -11,7 +11,7 @@ export default class QuickTipsCard extends Component {
                 featuredTitle={translate("quickTips.cardHeader")}
                 featuredTitleStyle={{
                     fontSize: 40,
-                    fontFamily: 'avenir-medium',
+                    fontFamily: 'avenir-heavy',
                     fontStyle: null,
                     fontWeight: null
                 }}
