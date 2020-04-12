@@ -131,7 +131,7 @@ export default class InjuryPainCare extends Component {
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card
                         image={painCareImg}
-                        featuredTitleStyle={{ fontSize: 40, fontFamily: 'avenir-medium' }}
+                        featuredTitleStyle={{ fontSize: 40 }}
                         containerStyle={{ margin: 8 }}
                         featuredTitle={translate("injuryPainCare.cardHeader")}
                         accessible
@@ -209,8 +209,7 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 16,
-        fontWeight: "500",
-        fontFamily: 'avenir-medium',
+        fontFamily: 'avenir-heavy'
     },
     paragraph: {
         alignSelf: "center",
@@ -245,20 +244,8 @@ const styles = StyleSheet.create({
     },
     selectTitle: {
         fontSize: 14,
-        fontFamily: 'avenir-medium',
-        fontWeight: "500",
+        fontFamily: 'avenir-heavy',
         padding: 10
-    },
-    subTitle: {
-        backgroundColor: colors.accent,
-        color: colors.primary.white,
-        alignSelf: "stretch",
-        paddingLeft: 15,
-        paddingRight: 15,
-        fontSize: 15,
-        fontFamily: 'avenir-medium',
-        borderBottomWidth: 2,
-        borderBottomColor: colors.accent
     },
     paragraphTitle: {
         fontFamily: 'avenir-heavy',

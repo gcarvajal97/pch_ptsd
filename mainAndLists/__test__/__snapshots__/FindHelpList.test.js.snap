@@ -95,7 +95,6 @@ exports[`FindHelpList matches Snapshot 1`] = `
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
                     "color": "#000000",
-                    "fontFamily": "avenir-medium",
                     "fontSize": 19,
                   }
                 }
@@ -239,7 +238,6 @@ exports[`FindHelpList matches Snapshot 1`] = `
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
                     "color": "#000000",
-                    "fontFamily": "avenir-medium",
                     "fontSize": 19,
                   }
                 }
@@ -383,7 +381,6 @@ exports[`FindHelpList matches Snapshot 1`] = `
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
                     "color": "#000000",
-                    "fontFamily": "avenir-medium",
                     "fontSize": 19,
                   }
                 }
@@ -527,7 +524,6 @@ exports[`FindHelpList matches Snapshot 1`] = `
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
                     "color": "#000000",
-                    "fontFamily": "avenir-medium",
                     "fontSize": 19,
                   }
                 }
@@ -671,7 +667,6 @@ exports[`FindHelpList matches Snapshot 1`] = `
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
                     "color": "#000000",
-                    "fontFamily": "avenir-medium",
                     "fontSize": 19,
                   }
                 }
@@ -815,7 +810,6 @@ exports[`FindHelpList matches Snapshot 1`] = `
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
                     "color": "#000000",
-                    "fontFamily": "avenir-medium",
                     "fontSize": 19,
                   }
                 }
@@ -959,7 +953,6 @@ exports[`FindHelpList matches Snapshot 1`] = `
                     "alignContent": "stretch",
                     "backgroundColor": "transparent",
                     "color": "#000000",
-                    "fontFamily": "avenir-medium",
                     "fontSize": 19,
                   }
                 }

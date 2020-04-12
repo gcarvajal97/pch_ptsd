@@ -111,7 +111,7 @@ export default class HealthcareTeam extends Component {
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card
                         image={healthTeam}
-                        featuredTitleStyle={{ fontSize: 40, fontFamily: 'avenir-medium'}}
+                        featuredTitleStyle={{ fontSize: 40 }}
                         containerStyle={{ margin: 8 }}
                         featuredTitle={translate("healthcareTeam.cardHeader")}
                         accessible
@@ -183,12 +183,11 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 16,
-        fontFamily: 'avenir-medium',
-        fontWeight: "500"
+        fontFamily: 'avenir-heavy'
     },
     paragraph: {
         alignSelf: "center",
-        fontFamily: 'avenir-medium',
+
         paddingVertical: 0,
         paddingHorizontal: 4,
         fontSize: 14,
@@ -219,8 +218,7 @@ const styles = StyleSheet.create({
     },
     selectTitle: {
         fontSize: 14,
-        fontFamily: 'avenir-medium',
-        fontWeight: "500",
+        fontFamily: 'avenir-heavy',
         padding: 10
     },
     subTitle: {

@@ -13,7 +13,7 @@ export default class QuickTipsCard extends Component {
             image={require('../../assets/QuickTips.jpg')}
             accessible
             accessibilityLabel={translate('quickTips.accessibilityLabelPic')}>
-            <Text style={{marginVertical:-8, fontFamily: "avenir-medium", fontWeight:'500', textAlign:'center'}}>
+            <Text style={{marginVertical:-8, fontWeight:'500', fontFamily: "avenir-heavy", textAlign:'center'}}>
                 {translate('quickTips.cardTitle')}
             </Text>
         </Card>

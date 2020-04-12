@@ -40,7 +40,6 @@ const styles = StyleSheet.create({
   paragraph: {
     textAlign: 'left',
     fontSize: 14,
-    fontFamily: 'avenir-medium',
     marginVertical: 2,
   },
   paragraphBold: {
@@ -52,7 +51,6 @@ const styles = StyleSheet.create({
   },
   link: {
     fontSize: 14,
-    fontFamily: 'avenir-medium',
     color: colors.accent,
     textDecorationLine: 'underline',
   }

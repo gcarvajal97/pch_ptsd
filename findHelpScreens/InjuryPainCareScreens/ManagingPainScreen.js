@@ -125,20 +125,18 @@ const styles = StyleSheet.create({
     paragraph: {
       textAlign: 'left',
       fontSize: 14,
-      fontFamily: 'avenir-medium',
-      marginVertical: 2,
+      marginVertical: 2
     },
     paragraphBold: {
       textAlign: 'left',
       fontSize: 14,
       fontFamily: 'avenir-heavy',
-      marginVertical: 2,
+      marginVertical: 2
     },
     paragraphUnderline: {
       textAlign: 'left',
       fontSize: 14,
       marginVertical: 2,
-      fontFamily: 'avenir-medium',
       textDecorationLine: 'underline'
     },
   });

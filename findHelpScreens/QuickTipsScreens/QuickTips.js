@@ -110,7 +110,6 @@ const styles = StyleSheet.create({
       paddingVertical:1, 
       paddingHorizontal:5,
       fontSize: 14,
-      fontFamily: "avenir-medium",
-      marginTop: 5,
+      marginTop: 5
   }
 });

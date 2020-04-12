@@ -105,7 +105,7 @@ export default class WhenToGetOutsideHelpScreen extends Component {
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card
                         image={whenToGetHelpImage}
-                        featuredTitleStyle={{ fontSize: 40, fontFamily: "avenir-medium"}}
+                        featuredTitleStyle={{ fontSize: 40 }}
                         containerStyle={{ margin: 8 }}
                         featuredTitle={translate(
                             "whenToGetOutsideHelp.featuredTitle"
@@ -177,8 +177,7 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 16,
-        fontWeight: "500",
-        fontFamily: "avenir-medium",
+        fontFamily: "avenir-heavy"
     },
     paragraph: {
         alignSelf: "center",
@@ -186,8 +185,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 4,
         fontSize: 14,
         marginTop: 0,
-        marginBottom: 4,
-        fontFamily: "avenir-medium",
+        marginBottom: 4
     },
     content: {
         padding: 20,
@@ -213,8 +211,7 @@ const styles = StyleSheet.create({
     },
     selectTitle: {
         fontSize: 14,
-        fontWeight: "500",
-        fontFamily: "avenir-medium",
+        fontFamily: "avenir-heavy",
         padding: 10
     },
     subTitle: {

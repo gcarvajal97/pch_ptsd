@@ -213,7 +213,7 @@ exports[`renders correctly 1`] = `
         <Text
           style={
             Object {
-              "fontWeight": "500",
+              "fontFamily": "avenir-heavy",
               "marginVertical": -8,
               "textAlign": "center",
             }

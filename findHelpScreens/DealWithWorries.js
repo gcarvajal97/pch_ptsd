@@ -62,7 +62,6 @@ class DealWithWorries extends Component {
                         paddingLeft: 15,
                         fontSize: 15,
                         borderBottomWidth: 2,
-                        fontFamily: "avenir-medium",
                         borderBottomColor: colors.accent
                     }}
                 >
@@ -188,7 +187,6 @@ const styles = StyleSheet.create({
         marginHorizontal: 18,
         textAlign: "left",
         alignSelf: "stretch",
-        fontFamily: "avenir-medium",
         fontSize: 14,
         paddingTop: 4
     },
@@ -197,7 +195,6 @@ const styles = StyleSheet.create({
         paddingVertical: 1,
         paddingHorizontal: 5,
         fontSize: 14,
-        fontFamily: "avenir-medium",
         marginTop: 5
     },
     paragraphBold: {

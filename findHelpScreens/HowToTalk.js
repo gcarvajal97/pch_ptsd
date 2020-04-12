@@ -120,7 +120,6 @@ const styles = StyleSheet.create({
         paddingLeft: 15,
         paddingRight:15,
         fontSize: 15,
-        fontFamily: "avenir-medium",
         borderBottomWidth:2,
         borderBottomColor: colors.accent,
     },
@@ -147,7 +146,6 @@ const styles = StyleSheet.create({
       marginHorizontal:30,
       textAlign:'left',
       alignSelf:'stretch',
-      fontFamily: "avenir-medium",
       fontSize:14,
     },
     paragraph: {
@@ -155,7 +153,6 @@ const styles = StyleSheet.create({
         paddingVertical:1,
         paddingHorizontal:5,
         fontSize: 14,
-        marginTop: 5,
-        fontFamily: "avenir-medium"
+        marginTop: 5
     }
 });

@@ -47,7 +47,6 @@ const styles = StyleSheet.create({
     },
     paragraph: {
       textAlign: 'left',
-      fontFamily: "avenir-medium",
       fontSize: 14,
       marginVertical: 2
     },

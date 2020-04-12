@@ -12,7 +12,6 @@ export default class LearnMoreCard extends Component {
                 featuredTitle={translate("mainScreen.learnTitle")}
                 featuredTitleStyle={{
                     textAlign: "center",
-                    fontFamily: "avenir-medium",
                     fontStyle: null,
                     fontWeight: null,
                     fontSize: 26
