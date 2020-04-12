@@ -14,7 +14,7 @@ export default class SelfCareCard extends Component {
             featuredTitle={translate('selfCare.featureTitle')}
             featuredTitleStyle={{
                 fontSize: 40,
-                fontFamily: 'avenir-medium',
+                fontFamily: 'avenir-heavy',
                 fontStyle: null,
                 fontWeight: null
             }}

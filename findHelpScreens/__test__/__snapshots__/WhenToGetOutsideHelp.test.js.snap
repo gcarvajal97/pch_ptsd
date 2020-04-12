@@ -35,7 +35,7 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
             "backgroundColor": "white",
             "borderColor": "#e1e8ee",
             "borderWidth": 1,
-            "margin": 8,
+            "margin": 15,
             "marginBottom": 0,
             "padding": 0,
             "shadowColor": "rgba(0,0,0, .2)",
@@ -181,8 +181,10 @@ exports[`WhenToGetOutsideHelp renders correctly 1`] = `
                     style={
                       Object {
                         "color": "white",
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 40,
-                        "fontWeight": "800",
+                        "fontStyle": null,
+                        "fontWeight": null,
                         "marginBottom": 8,
                       }
                     }

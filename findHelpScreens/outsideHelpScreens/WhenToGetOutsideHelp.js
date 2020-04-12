@@ -108,7 +108,7 @@ export default class WhenToGetOutsideHelpScreen extends Component {
                         featuredTitleStyle={{ fontSize: 40 }}
                         featuredTitleStyle={{
                             fontSize: 40,
-                            fontFamily: 'avenir-medium',
+                            fontFamily: 'avenir-heavy',
                             fontStyle: null,
                             fontWeight: null
                         }}

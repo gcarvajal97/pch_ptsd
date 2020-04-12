@@ -155,8 +155,10 @@ exports[`renders correctly 1`] = `
               style={
                 Object {
                   "color": "white",
+                  "fontFamily": "avenir-heavy",
                   "fontSize": 40,
-                  "fontWeight": "800",
+                  "fontStyle": null,
+                  "fontWeight": null,
                   "marginBottom": 8,
                 }
               }
