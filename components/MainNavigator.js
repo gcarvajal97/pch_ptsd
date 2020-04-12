@@ -18,8 +18,8 @@ import InjuryPainCare from "../findHelpScreens/InjuryPainCareScreens/InjuryPainC
 import DealWithWorries from "../findHelpScreens/DealWithWorries";
 import HealthcareTeam from "../findHelpScreens/HealthcareTeamScreens/HealthcareTeam";
 import SelfCare from "../findHelpScreens/selfCareScreens/SelfCare";
-import QuizMain from "../QuizScreens/QuizMain";
-import QuizResults from "../QuizScreens/QuizResults";
+import QuizMain from "../quizScreens/QuizMain";
+import QuizResults from "../quizScreens/QuizResults";
 import ResourceScreen from "../drawerScreens/resourceScreens/ResourceScreen";
 import GlossaryScreen from "../drawerScreens/glossaryScreens/GlossaryScreen";
 
