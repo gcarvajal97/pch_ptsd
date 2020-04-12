@@ -106,7 +106,12 @@ export default class WhenToGetOutsideHelpScreen extends Component {
                     <Card
                         image={whenToGetHelpImage}
                         featuredTitleStyle={{ fontSize: 40 }}
-                        containerStyle={{ margin: 8 }}
+                        featuredTitleStyle={{
+                            fontSize: 40,
+                            fontFamily: 'avenir-medium',
+                            fontStyle: null,
+                            fontWeight: null
+                        }}
                         featuredTitle={translate(
                             "whenToGetOutsideHelp.featuredTitle"
                         )}
