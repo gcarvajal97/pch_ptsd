@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     paragraph: {
       textAlign: 'left',
       fontSize: 14,
-      marginVertical: 2,
+      marginVertical: 2
     },
     paragraphBold: {
       textAlign: 'left',

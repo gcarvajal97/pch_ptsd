@@ -215,7 +215,6 @@ const styles = StyleSheet.create({
         alignSelf: "center",
         paddingVertical: 0,
         paddingHorizontal: 4,
-        fontFamily: 'avenir-medium',
         fontSize: 14,
         marginTop: 0,
         marginBottom: 4
