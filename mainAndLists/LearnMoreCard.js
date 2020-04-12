@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Text } from "react-native";
+import { Text, StyleSheet } from "react-native";
 import { Card, Button as CardButton } from "react-native-elements";
 import NavigationService from "../components/NavigationService";
 import translate from "../components/translateService";
@@ -26,13 +26,7 @@ export default class LearnMoreCard extends Component {
                 <CardButton
                     onPress={() => NavigationService.navigate("LearnMore")}
                     testID="LearnMoreButton"
-                    buttonStyle={{
-                        borderRadius: 0,
-                        marginLeft: 0,
-                        marginRight: 0,
-                        marginBottom: 0,
-                        backgroundColor: colors.accent
-                    }}
+                    buttonStyle={styles.button}
                     title={translate("mainScreen.learnButton")}
                     titleStyle={{ fontFamily: "avenir-medium" }}
                     accessible
@@ -43,3 +37,20 @@ export default class LearnMoreCard extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+    title: {
+        textAlign: "center",
+        fontFamily: "avenir-medium",
+        fontStyle: null,
+        fontWeight: null,
+        fontSize: 26
+    },
+    button: {
+        borderRadius: 0,
+        marginLeft: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        backgroundColor: colors.accent
+    }
+});

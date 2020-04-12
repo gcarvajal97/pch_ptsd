@@ -176,8 +176,9 @@ exports[`GlossaryScreen renders correctly 1`] = `
                     style={
                       Object {
                         "color": "white",
-                        "fontSize": 40,
-                        "fontWeight": "800",
+                        "fontFamily": "avenir-heavy",
+                        "fontSize": 44,
+                        "fontWeight": null,
                         "marginBottom": 8,
                       }
                     }
@@ -234,7 +235,7 @@ exports[`GlossaryScreen renders correctly 1`] = `
               <Text
                 style={
                   Object {
-                    "fontWeight": "500",
+                    "fontFamily": "avenir-medium",
                     "marginVertical": -8,
                     "textAlign": "center",
                   }
@@ -285,8 +286,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -296,8 +297,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -328,16 +329,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -347,7 +348,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -358,16 +358,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -377,7 +377,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -388,16 +387,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -407,7 +406,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -418,16 +416,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -437,7 +435,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -448,16 +445,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -467,7 +464,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -478,16 +474,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -497,7 +493,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -508,16 +503,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -527,7 +522,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -538,16 +532,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -557,7 +551,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -568,16 +561,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -587,7 +580,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -598,16 +590,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -617,7 +609,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -628,16 +619,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -647,7 +638,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -658,16 +648,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -677,7 +667,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -688,16 +677,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -707,7 +696,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -756,8 +744,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -767,8 +755,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -799,16 +787,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -818,7 +806,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -829,16 +816,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -848,7 +835,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -859,16 +845,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -878,7 +864,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -889,16 +874,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -908,7 +893,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -919,16 +903,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -938,7 +922,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -949,16 +932,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -968,7 +951,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -979,16 +961,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -998,7 +980,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1009,16 +990,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1028,7 +1009,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1039,16 +1019,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1058,7 +1038,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1069,16 +1048,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1088,7 +1067,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1099,16 +1077,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1118,7 +1096,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1129,16 +1106,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1148,7 +1125,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1159,16 +1135,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1178,7 +1154,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1189,16 +1164,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1208,7 +1183,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1219,16 +1193,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1238,7 +1212,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1249,16 +1222,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1268,7 +1241,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1317,8 +1289,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1328,8 +1300,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1360,16 +1332,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1379,7 +1351,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1390,16 +1361,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1409,7 +1380,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1420,16 +1390,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1439,7 +1409,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1450,16 +1419,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1469,7 +1438,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1480,16 +1448,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1499,7 +1467,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1548,8 +1515,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1559,8 +1526,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1591,16 +1558,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1610,7 +1577,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1621,16 +1587,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1640,7 +1606,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1651,16 +1616,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1670,7 +1635,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1681,16 +1645,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1700,7 +1664,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1711,16 +1674,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1730,7 +1693,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1741,16 +1703,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1760,7 +1722,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1771,16 +1732,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1790,7 +1751,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1801,16 +1761,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1820,7 +1780,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1831,16 +1790,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1850,7 +1809,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1861,16 +1819,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1880,7 +1838,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1929,8 +1886,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1940,8 +1897,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -1972,16 +1929,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -1991,7 +1948,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2002,16 +1958,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2021,7 +1977,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2032,16 +1987,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2051,7 +2006,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2062,16 +2016,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2081,7 +2035,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2092,16 +2045,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2111,7 +2064,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2122,16 +2074,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2141,7 +2093,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2152,16 +2103,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2171,7 +2122,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2182,16 +2132,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2201,7 +2151,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2212,16 +2161,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2231,7 +2180,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2242,16 +2190,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2261,7 +2209,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2272,16 +2219,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2291,7 +2238,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2302,16 +2248,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2321,7 +2267,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2332,16 +2277,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2351,7 +2296,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2362,16 +2306,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2381,7 +2325,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2392,16 +2335,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2411,7 +2354,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2422,16 +2364,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2441,7 +2383,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2452,16 +2393,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2471,7 +2412,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2482,16 +2422,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2501,7 +2441,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2512,16 +2451,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2531,7 +2470,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2580,8 +2518,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2591,8 +2529,8 @@ exports[`GlossaryScreen renders correctly 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -2623,16 +2561,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2642,7 +2580,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2653,16 +2590,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2672,7 +2609,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2683,16 +2619,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2702,7 +2638,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2713,16 +2648,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2732,7 +2667,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2743,16 +2677,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2762,7 +2696,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2773,16 +2706,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2792,7 +2725,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2803,16 +2735,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2822,7 +2754,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2833,16 +2764,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2852,7 +2783,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2863,16 +2793,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2882,7 +2812,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2893,16 +2822,16 @@ exports[`GlossaryScreen renders correctly 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -2912,7 +2841,6 @@ exports[`GlossaryScreen renders correctly 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3107,8 +3035,9 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                     style={
                       Object {
                         "color": "white",
-                        "fontSize": 40,
-                        "fontWeight": "800",
+                        "fontFamily": "avenir-heavy",
+                        "fontSize": 44,
+                        "fontWeight": null,
                         "marginBottom": 8,
                       }
                     }
@@ -3165,7 +3094,7 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
               <Text
                 style={
                   Object {
-                    "fontWeight": "500",
+                    "fontFamily": "avenir-medium",
                     "marginVertical": -8,
                     "textAlign": "center",
                   }
@@ -3216,8 +3145,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3227,8 +3156,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3259,16 +3188,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3278,7 +3207,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3289,16 +3217,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3308,7 +3236,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3319,16 +3246,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3338,7 +3265,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3349,16 +3275,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3368,7 +3294,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3379,16 +3304,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3398,7 +3323,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3409,16 +3333,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3428,7 +3352,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3439,16 +3362,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3458,7 +3381,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3469,16 +3391,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3488,7 +3410,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3499,16 +3420,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3518,7 +3439,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3529,16 +3449,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3548,7 +3468,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3559,16 +3478,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3578,7 +3497,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3589,16 +3507,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3608,7 +3526,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3619,16 +3536,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3638,7 +3555,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3687,8 +3603,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3698,8 +3614,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -3730,16 +3646,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3749,7 +3665,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3760,16 +3675,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3779,7 +3694,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3790,16 +3704,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3809,7 +3723,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3820,16 +3733,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3839,7 +3752,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3850,16 +3762,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3869,7 +3781,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3880,16 +3791,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3899,7 +3810,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3910,16 +3820,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3929,7 +3839,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3940,16 +3849,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3959,7 +3868,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3970,16 +3878,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -3989,7 +3897,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4000,16 +3907,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4019,7 +3926,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4030,16 +3936,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4049,7 +3955,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4060,16 +3965,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4079,7 +3984,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4090,16 +3994,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4109,7 +4013,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4120,16 +4023,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4139,7 +4042,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4150,16 +4052,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4169,7 +4071,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4180,16 +4081,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4199,7 +4100,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4248,8 +4148,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -4259,8 +4159,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -4291,16 +4191,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4310,7 +4210,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4321,16 +4220,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4340,7 +4239,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4351,16 +4249,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4370,7 +4268,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4381,16 +4278,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4400,7 +4297,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4411,16 +4307,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4430,7 +4326,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4479,8 +4374,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -4490,8 +4385,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -4522,16 +4417,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4541,7 +4436,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4552,16 +4446,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4571,7 +4465,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4582,16 +4475,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4601,7 +4494,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4612,16 +4504,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4631,7 +4523,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4642,16 +4533,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4661,7 +4552,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4672,16 +4562,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4691,7 +4581,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4702,16 +4591,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4721,7 +4610,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4732,16 +4620,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4751,7 +4639,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4762,16 +4649,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4781,7 +4668,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4792,16 +4678,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4811,7 +4697,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4860,8 +4745,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -4871,8 +4756,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -4903,16 +4788,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4922,7 +4807,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4933,16 +4817,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4952,7 +4836,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4963,16 +4846,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4982,7 +4865,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -4993,16 +4875,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5012,7 +4894,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5023,16 +4904,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5042,7 +4923,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5053,16 +4933,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5072,7 +4952,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5083,16 +4962,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5102,7 +4981,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5113,16 +4991,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5132,7 +5010,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5143,16 +5020,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5162,7 +5039,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5173,16 +5049,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5192,7 +5068,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5203,16 +5078,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5222,7 +5097,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5233,16 +5107,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5252,7 +5126,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5263,16 +5136,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5282,7 +5155,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5293,16 +5165,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5312,7 +5184,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5323,16 +5194,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5342,7 +5213,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5353,16 +5223,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5372,7 +5242,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5383,16 +5252,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5402,7 +5271,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5413,16 +5281,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5432,7 +5300,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5443,16 +5310,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5462,7 +5329,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5511,8 +5377,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -5522,8 +5388,8 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                   <Text
                     style={
                       Object {
+                        "fontFamily": "avenir-heavy",
                         "fontSize": 14,
-                        "fontWeight": "500",
                         "paddingLeft": 5,
                       }
                     }
@@ -5554,16 +5420,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5573,7 +5439,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5584,16 +5449,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5603,7 +5468,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5614,16 +5478,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5633,7 +5497,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5644,16 +5507,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5663,7 +5526,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5674,16 +5536,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5693,7 +5555,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5704,16 +5565,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5723,7 +5584,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5734,16 +5594,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5753,7 +5613,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5764,16 +5623,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5783,7 +5642,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5794,16 +5652,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5813,7 +5671,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5824,16 +5681,16 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                       style={
                         Object {
                           "backgroundColor": "#FFFFFF",
-                          "padding": 20,
+                          "padding": 18,
+                          "paddingVertical": 10,
                         }
                       }
                     >
                       <Text
                         style={
                           Object {
+                            "fontFamily": "avenir-heavy",
                             "fontSize": 14,
-                            "fontWeight": "bold",
-                            "marginVertical": 2,
                           }
                         }
                       >
@@ -5843,7 +5700,6 @@ exports[`GlossaryScreen renders correctly in Spanish on Android 1`] = `
                         style={
                           Object {
                             "fontSize": 14,
-                            "marginVertical": 2,
                           }
                         }
                       >

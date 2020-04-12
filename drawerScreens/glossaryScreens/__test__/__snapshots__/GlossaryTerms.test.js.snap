@@ -6,16 +6,16 @@ exports[`GlossaryTerms should render a glossary term 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "padding": 20,
+        "padding": 18,
+        "paddingVertical": 10,
       }
     }
   >
     <Text
       style={
         Object {
+          "fontFamily": "avenir-heavy",
           "fontSize": 14,
-          "fontWeight": "bold",
-          "marginVertical": 2,
         }
       }
     >
@@ -25,7 +25,6 @@ exports[`GlossaryTerms should render a glossary term 1`] = `
       style={
         Object {
           "fontSize": 14,
-          "marginVertical": 2,
         }
       }
     >
@@ -57,16 +56,16 @@ exports[`GlossaryTerms should render glossary terms 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "padding": 20,
+        "padding": 18,
+        "paddingVertical": 10,
       }
     }
   >
     <Text
       style={
         Object {
+          "fontFamily": "avenir-heavy",
           "fontSize": 14,
-          "fontWeight": "bold",
-          "marginVertical": 2,
         }
       }
     >
@@ -76,7 +75,6 @@ exports[`GlossaryTerms should render glossary terms 1`] = `
       style={
         Object {
           "fontSize": 14,
-          "marginVertical": 2,
         }
       }
     >
@@ -87,16 +85,16 @@ exports[`GlossaryTerms should render glossary terms 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "padding": 20,
+        "padding": 18,
+        "paddingVertical": 10,
       }
     }
   >
     <Text
       style={
         Object {
+          "fontFamily": "avenir-heavy",
           "fontSize": 14,
-          "fontWeight": "bold",
-          "marginVertical": 2,
         }
       }
     >
@@ -106,7 +104,6 @@ exports[`GlossaryTerms should render glossary terms 1`] = `
       style={
         Object {
           "fontSize": 14,
-          "marginVertical": 2,
         }
       }
     >

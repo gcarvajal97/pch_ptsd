@@ -1,6 +1,5 @@
-import i18n from 'i18n-js';
 import React, { Component } from 'react';
-import { View, StyleSheet, Text, ScrollView, Dimensions} from 'react-native';
+import { View, StyleSheet, Text, ScrollView } from 'react-native';
 import { Video } from 'expo-av';
 import { Linking } from 'expo';
 import translate, { getVideo } from '../components/translateService';
@@ -11,19 +10,14 @@ const videos = {
     es: require('../assets/videos/vidHowLongEs.mp4'),
 };
 
-// Tested and works on iOS
-// Tested and works on Android  
-
 class HowLongScreen extends Component {
 
-    // Gives the NavBar a title for this specific screen
     static navigationOptions = {
         headerTitle: translate('howLong.header')
     }
 
     render() {
         return (
-            // renders the learn more screen
             <View style={styles.container}>
                 <Text style={styles.title}>
                     {translate('howLong.title')}
@@ -55,7 +49,7 @@ class HowLongScreen extends Component {
                         )}
                 />
                 <Text style={styles.subTitle}>
-                    <Text style={{ fontFamily: 'avenir-heavy' }}>{translate('howLong.content.videoCard.title')}</Text>
+                    <Text style={styles.heavyFont}>{translate('howLong.content.videoCard.title')}</Text>
                     {translate('howLong.content.videoCard.subtitle')}
                 </Text>
                 <ScrollView>
@@ -82,15 +76,7 @@ class HowLongScreen extends Component {
                     <Text style={styles.paragraph}>
                     {translate('howLong.content.whatIsPTSDParagraph.paragraphTwo')}
                     </Text>
-                    <Text style={{
-                        fontFamily: 'avenir-heavy', 
-                        fontSize:16, 
-                        alignSelf:'stretch', 
-                        textAlign:'left',
-                        marginLeft:5, 
-                        marginTop:4, 
-                        marginBottom:3
-                    }}>
+                    <Text style={styles.bulletTwo}>
                     {translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.title')}
                     </Text>
                     <Text style={styles.bullet}>{translate('howLong.content.whatIsPTSDParagraph.bulletListTwo.bulletOne')}</Text>
@@ -166,6 +152,18 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch', 
         fontFamily: 'avenir-heavy',
         fontSize: 14
+    },
+    bulletTwo: {
+        fontFamily: 'avenir-heavy', 
+        fontSize:16, 
+        alignSelf:'stretch', 
+        textAlign:'left',
+        marginLeft:5, 
+        marginTop:4, 
+        marginBottom:3
+    },
+    heavyFont: {
+        fontFamily: 'avenir-heavy'
     },
     paragraph: {
         alignSelf: 'center', 
