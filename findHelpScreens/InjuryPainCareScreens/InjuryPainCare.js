@@ -10,7 +10,7 @@ import { Card } from "react-native-elements";
 import * as Animatable from "react-native-animatable";
 import Accordion from "react-native-collapsible/Accordion";
 import translate from "../../components/translateService";
-import colors from '../../colors';
+import colors from "../../colors";
 
 import AbdominalTrauma from "./AdbominalTraumaScreen";
 import HeadInjury from "./HeadInjuryScreen";
@@ -131,7 +131,12 @@ export default class InjuryPainCare extends Component {
                 <ScrollView contentContainerStyle={{ paddingTop: 0 }}>
                     <Card
                         image={painCareImg}
-                        featuredTitleStyle={{ fontSize: 40 }}
+                        featuredTitleStyle={{
+                            fontSize: 40,
+                            fontFamily: "avenir-heavy",
+                            fontStyle: null,
+                            fontWeight: null
+                        }}
                         containerStyle={{ margin: 8 }}
                         featuredTitle={translate("injuryPainCare.cardHeader")}
                         accessible
@@ -143,7 +148,7 @@ export default class InjuryPainCare extends Component {
                             style={{
                                 margin: -6,
                                 textAlign: "center",
-                                fontFamily: 'avenir-heavy'
+                                fontFamily: "avenir-heavy"
                             }}
                         >
                             {translate("injuryPainCare.cardTitle")}
@@ -198,7 +203,7 @@ const styles = StyleSheet.create({
     title: {
         backgroundColor: colors.accent,
         color: colors.primary.white,
-        fontFamily: 'avenir-heavy',
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         textAlign: "center",
         alignSelf: "stretch"
@@ -209,7 +214,7 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 16,
-        fontFamily: 'avenir-heavy'
+        fontFamily: "avenir-heavy"
     },
     paragraph: {
         alignSelf: "center",
@@ -239,15 +244,15 @@ const styles = StyleSheet.create({
         padding: 10
     },
     activeSelector: {
-        fontFamily: 'avenir-heavy'
+        fontFamily: "avenir-heavy"
     },
     selectTitle: {
         fontSize: 14,
-        fontFamily: 'avenir-heavy',
+        fontFamily: "avenir-heavy",
         padding: 10
     },
     paragraphTitle: {
-        fontFamily: 'avenir-heavy',
+        fontFamily: "avenir-heavy",
         fontSize: 22,
         alignSelf: "stretch",
         textAlign: "left",
